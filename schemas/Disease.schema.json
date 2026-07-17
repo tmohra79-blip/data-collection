@@ -1,0 +1,43 @@
+{
+  "entity_id": "ENT_D_001",
+  "category": "Disease",
+  "medical_name": {
+    "en": "Keratitis",
+    "ar": "التهاب القرنية",
+    "aliases": ["Corneal Inflammation"]
+  },
+  "3d_mapping": {
+    "has_model": false,
+    "blender_object": null,
+    "unity_prefab": null
+  },
+  "content": {
+    "definition": "Inflammation of the cornea",
+    "symptoms": [
+      "Eye pain",
+      "Redness",
+      "Blurred vision",
+      "Photophobia"
+    ],
+    "causes": ["Infection", "Injury", "Dry eye"],
+    "diagnosis": "Slit-lamp examination",
+    "treatment": ["Antibiotic drops", "Antifungal drops", "Avoiding contact lenses"]
+  },
+  "relationships": [
+    {
+      "relation_type": "AFFECTS",
+      "target_id": "COMP_005",
+      "target_name": "Cornea"
+    },
+    {
+      "relation_type": "TREATED_WITH",
+      "target_id": "ENT_M_001",
+      "target_name": "Antibiotic Eye Drops"
+    }
+  ],
+  "metadata": {
+    "reference": "Kanski's Clinical Ophthalmology",
+    "edition": "9th Edition",
+    "priority": "High"
+  }
+}

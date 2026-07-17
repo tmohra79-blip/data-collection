@@ -1,0 +1,44 @@
+{
+  "entity_id": "ENT_A_001",
+  "category": "Anatomy",
+  "medical_name": {
+    "en": "Cornea",
+    "ar": "القرنية",
+    "aliases": ["Corneal Tissue"]
+  },
+  "3d_mapping": {
+    "has_model": true,
+    "blender_object": "obj_cornea",
+    "unity_prefab": "prefab_cornea"
+  },
+  "content": {
+    "definition": "Transparent avascular tissue at anterior pole",
+    "location": "Anterior Segment",
+    "layers": [
+      "Epithelium",
+      "Bowman's Layer",
+      "Stroma",
+      "Descemet's Membrane",
+      "Endothelium"
+    ],
+    "blood_supply": "Avascular (relies on aqueous and tear film)",
+    "innervation": "Long and short ciliary nerves (V1)"
+  },
+  "relationships": [
+    {
+      "relation_type": "PART_OF",
+      "target_id": "COMP_003",
+      "target_name": "Anterior Segment"
+    },
+    {
+      "relation_type": "AFFECTED_BY",
+      "target_id": "ENT_D_001",
+      "target_name": "Keratitis"
+    }
+  ],
+  "metadata": {
+    "reference": "Snell's Clinical Anatomy of the Eye",
+    "edition": "2nd Edition",
+    "priority": "High"
+  }
+}
