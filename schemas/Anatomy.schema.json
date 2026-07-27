@@ -13,12 +13,6 @@
 
   "properties": {
 
-    "entity_id": {
-      "type": "string",
-      "pattern": "^[a-z0-9_]+$",
-      "minLength": 1
-    },
-
     "category": {
       "const": "anatomy"
     },
@@ -161,10 +155,9 @@
       }
     }
 
-  },
+  ],
 
   "required": [
-    "entity_id",
     "category",
     "content",
     "references"
