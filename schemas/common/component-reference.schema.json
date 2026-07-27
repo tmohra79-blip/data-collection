@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://visionar.example/knowledge/schemas/common/component-reference.schema.json",
+  "title": "VisionAR Component Reference",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "component_id": {
+      "type": "string",
+      "description": "Stable identifier of the Unity AR component or highlight group."
+    },
+    "component_type": {
+      "type": "string",
+      "enum": ["eye_structure", "highlight_group", "label", "animation", "interaction_zone"],
+      "description": "Category of the Unity component."
+    },
+    "role": {
+      "type": "string",
+      "description": "How the component is used in the educational experience."
+    }
+  },
+  "required": ["component_id", "component_type", "role"]
+}

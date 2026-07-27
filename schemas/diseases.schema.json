@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://visionar.example/knowledge/schemas/diseases.schema.json",
+  "title": "VisionAR Disease Entity",
+  "type": "object",
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "$ref": "common/base-entity.schema.json"
+    }
+  ],
+  "properties": {
+    "category": {
+      "const": "disease"
+    },
+    "content": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "definition",
+        "pathophysiology",
+        "causes",
+        "risk_factors",
+        "symptoms",
+        "signs",
+        "diagnosis",
+        "investigations",
+        "treatment",
+        "complications",
+        "prevention"
+      ],
+      "properties": {
+        "definition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "pathophysiology": {
+          "type": "string",
+          "minLength": 1
+        },
+        "causes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "risk_factors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "symptoms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "signs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "diagnosis": {
+          "type": "string",
+          "minLength": 1
+        },
+        "investigations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "treatment": {
+          "type": "string",
+          "minLength": 1
+        },
+        "complications": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "prevention": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  },
+  "required": [
+    "category",
+    "content"
+  ]
+}

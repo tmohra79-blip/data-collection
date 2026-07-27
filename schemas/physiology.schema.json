@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://visionar.example/knowledge/schemas/physiology.schema.json",
+  "title": "VisionAR Physiology Entity",
+  "type": "object",
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "$ref": "common/base-entity.schema.json"
+    }
+  ],
+  "properties": {
+    "category": {
+      "const": "physiology"
+    },
+    "content": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "definition",
+        "mechanism",
+        "regulation",
+        "feedback_loop",
+        "clinical_consequence"
+      ],
+      "properties": {
+        "definition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "mechanism": {
+          "type": "string",
+          "minLength": 1
+        },
+        "regulation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "feedback_loop": {
+          "type": "string",
+          "minLength": 1
+        },
+        "clinical_consequence": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  },
+  "required": [
+    "category",
+    "content"
+  ]
+}

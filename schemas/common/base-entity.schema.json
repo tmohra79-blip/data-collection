@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://visionar.example/knowledge/schemas/common/base-entity.schema.json",
+  "title": "VisionAR Base Medical Entity",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "entity_id",
+    "component_ids",
+    "category",
+    "nomenclature",
+    "content",
+    "relationships",
+    "metadata"
+  ],
+  "properties": {
+    "entity_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "component_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "category": {
+      "type": "string",
+      "pattern": "^[a-z]+$",
+      "minLength": 1
+    },
+    "nomenclature": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "en",
+        "ar",
+        "aliases"
+      ],
+      "properties": {
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ar": {
+          "type": "string",
+          "minLength": 1
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        }
+      }
+    },
+    "content": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "relation_type",
+          "target_id",
+          "target_name"
+        ],
+        "properties": {
+          "relation_type": {
+            "type": "string",
+            "minLength": 1
+          },
+          "target_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "target_name": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "keywords",
+        "references",
+        "last_updated",
+        "version",
+        "priority"
+      ],
+      "properties": {
+        "keywords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "last_updated": {
+          "type": "string",
+          "format": "date"
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+\\.\\d+$"
+        },
+        "priority": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        }
+      }
+    }
+  }
+}

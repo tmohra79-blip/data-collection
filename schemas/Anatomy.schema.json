@@ -1,44 +1,72 @@
 {
-  "entity_id": "ENT_A_001",
-  "category": "Anatomy",
-  "medical_name": {
-    "en": "Cornea",
-    "ar": "القرنية",
-    "aliases": ["Corneal Tissue"]
-  },
-  "3d_mapping": {
-    "has_model": true,
-    "blender_object": "obj_cornea",
-    "unity_prefab": "prefab_cornea"
-  },
-  "content": {
-    "definition": "Transparent avascular tissue at anterior pole",
-    "location": "Anterior Segment",
-    "layers": [
-      "Epithelium",
-      "Bowman's Layer",
-      "Stroma",
-      "Descemet's Membrane",
-      "Endothelium"
-    ],
-    "blood_supply": "Avascular (relies on aqueous and tear film)",
-    "innervation": "Long and short ciliary nerves (V1)"
-  },
-  "relationships": [
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://visionar.example/knowledge/schemas/anatomy.schema.json",
+  "title": "VisionAR Anatomy Entity",
+  "type": "object",
+  "additionalProperties": false,
+  "allOf": [
     {
-      "relation_type": "PART_OF",
-      "target_id": "COMP_003",
-      "target_name": "Anterior Segment"
-    },
-    {
-      "relation_type": "AFFECTED_BY",
-      "target_id": "ENT_D_001",
-      "target_name": "Keratitis"
+      "$ref": "common/base-entity.schema.json"
     }
   ],
-  "metadata": {
-    "reference": "Snell's Clinical Anatomy of the Eye",
-    "edition": "2nd Edition",
-    "priority": "High"
-  }
+  "properties": {
+    "category": {
+      "const": "anatomy"
+    },
+    "content": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "definition",
+        "location",
+        "layers",
+        "blood_supply",
+        "venous_drainage",
+        "innervation",
+        "histology_summary",
+        "clinical_importance"
+      ],
+      "properties": {
+        "definition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "location": {
+          "type": "string",
+          "minLength": 1
+        },
+        "layers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "blood_supply": {
+          "type": "string",
+          "minLength": 1
+        },
+        "venous_drainage": {
+          "type": "string",
+          "minLength": 1
+        },
+        "innervation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "histology_summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "clinical_importance": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  },
+  "required": [
+    "category",
+    "content"
+  ]
 }
