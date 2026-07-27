@@ -15,7 +15,7 @@
 - Chapter 3 – Anatomy Schema
 - Chapter 4 – Extraction Rules
 - Chapter 5 – Extraction Map
-- Chapter 6 – Entity Documentation *(Coming Soon)*
+- Chapter 6 –Progress Log
 
 ---
 
@@ -82,6 +82,7 @@ For every anatomical entity we will extract:
 4. Avoid duplicate information.
 5. Keep medical terminology consistent.
 6. Review every JSON before approval.
+7. Describe the anatomical entity itself, not the parent structure.
 
 ---
 
@@ -96,7 +97,7 @@ For every anatomical entity we will extract:
 
 ---
 
-# Progress Log
+#  Chapter 6 – Progress Log
 
 This section will be updated after every completed entity.
 
