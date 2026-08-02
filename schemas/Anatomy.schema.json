@@ -90,6 +90,7 @@
 
         "required": [
           "content_field",
+          "status",
            "sources",
          
         ],
@@ -109,9 +110,18 @@
               "clinical_importance"
             ]
           },
+           "status": {
+             "type": "string",
+             "enum": [
+               "documented",
+               "not_applicable",
+               "not_available"
+            ]
+          },
 
           "sources": {
             "type": "array",
+             "minItems": 0,
           
             "items": {
               "type": "object",
