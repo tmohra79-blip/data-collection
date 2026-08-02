@@ -1,8 +1,8 @@
 {
   "entity_id": "corneal_endothelium",
   "component_ids": [
-    "comp_cornea",
-  ]
+    "comp_cornea"
+  ],
   "category": "anatomy",
    "nomenclature": {
     "en": "Corneal Endothelium",
