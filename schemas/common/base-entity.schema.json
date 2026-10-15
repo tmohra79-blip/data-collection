@@ -3,7 +3,6 @@
   "$id": "https://visionar.example/knowledge/schemas/common/base-entity.schema.json",
   "title": "VisionAR Base Medical Entity",
   "type": "object",
-  "additionalProperties": false,
   "required": [
     "entity_id",
     "component_ids",
@@ -16,7 +15,8 @@
   "properties": {
     "entity_id": {
       "type": "string",
-      "minLength": 1
+      "minLength": 1,
+      "pattern": "^[a-z0-9_]+$"
     },
     "component_ids": {
       "type": "array",
@@ -52,7 +52,7 @@
           "items": {
             "type": "string"
           },
-          "minItems": 1
+          "minItems": 0
         }
       }
     },

@@ -1,141 +1,84 @@
 {
   "entity_id": "corneal_endothelium",
-  "component_ids": [
-    "comp_cornea"
-  ],
+  "component_ids": ["comp_cornea"],
   "category": "anatomy",
-   "nomenclature": {
+  "nomenclature": {
     "en": "Corneal Endothelium",
     "ar": "بطانة القرنية",
-    "aliases": [
-      "Posterior Corneal Endothelium"
-    ]
+    "aliases": ["Posterior Corneal Endothelium"]
   },
   "content": {
     "definition": "The endothelium is the posterior layer of the cornea and the fifth tissue layer behind the precorneal film; it is a single layer of hexagonal, cuboidal cells applied to the posterior aspect of Descemet's membrane.",
     "location": "Posterior aspect of Descemet's membrane; the deepest (posterior) layer of the cornea. Peripherally, at Schwalbe's ring, it transitions to the trabecular cells of the trabecular meshwork, and the cellular lining of the uveal trabeculae is contiguous anteriorly with the corneal endothelium.",
-    "layers": [
-      "Single layer of hexagonal, cuboidal cells"
-    ],
+    "layers": ["Single layer of hexagonal, cuboidal cells"],
     "blood_supply": "Avascular; the cornea does not contain any blood vessels.",
     "venous_drainage": "None; the cornea is avascular.",
-    "innervation": "Not specified in source",
+    "innervation": null,
     "histology_summary": "Single layer of hexagonal cells arranged in a mosaic with tortuous, interdigitating lateral borders. At birth cells are 10 μm high, flattening to 3–5 μm in adulthood; width 18–20 μm with a central oval nucleus ~7 μm wide. Attached to Descemet's membrane by modified hemidesmosomes and desmosomes. Cytoplasm contains a terminal web, abundant mitochondria, and 20–30 posterior microvilli per cell (0.1–0.2 μm wide, 0.5–0.6 μm high). Junctional complexes include incomplete tight junctions and gap junctions. The corneal endothelial cells produce the collagen fibers that comprise Descemet's membrane.",
     "clinical_importance": "Maintains corneal transparency and stromal deturgescence via a barrier function and an active metabolic bicarbonate pump; pump failure causes epithelial and corneal oedema. Cell density is about 6000 cells/mm² at birth and declines with age, accompanied by polymegathism. Adult cells rarely divide; repair occurs by cell sliding/enlargement rather than mitosis. The layer may be interrupted by penetrating injury, birth trauma, stretching in infantile glaucoma, or rupture in acute hydrops of keratoconus. Endothelial disease alters Descemet's membrane, as in Fuchs' dystrophy. Surgical replacement of the endothelium includes Descemet's-stripping automated endothelial keratoplasty (DSAEK), in which Descemet's membrane and the endothelium are replaced with donor tissue that includes some stroma, and Descemet's membrane endothelial keratoplasty (DMEK), in which only Descemet's membrane and the endothelium are replaced with donor tissue lacking a stromal component. Iridocorneal endothelial (ICE) syndrome causes glaucoma, visible changes in the iris, and corneal swelling due to the movement of corneal endothelial cells onto the iris; severe corneal compromise may require transplantation."
   },
   "relationships": [
-  {
-    "relation_type": "attached_to",
-    "target_id": "descemets_membrane",
-    "target_name": "Descemet's Membrane"
-  }
-],
+    {
+      "relation_type": "attached_to",
+      "target_id": "descemets_membrane",
+      "target_name": "Descemet's Membrane"
+    }
+  ],
   "metadata": {
-  "keywords": [
-    "cornea",
-    "endothelium",
-    "eye"
-  ],
-  "references": [
-    "wolff_anatomy",
-    "statpearls"
-  ],
-  "last_updated": "2026-08-02",
-  "version": "1.0.0",
-  "priority": 5
-},
+    "keywords": ["cornea", "endothelium", "eye"],
+    "references": ["wolff_anatomy", "statpearls"],
+    "last_updated": "2026-10-15",
+    "version": "1.1.0",
+    "priority": 5
+  },
   "references": [
     {
       "content_field": "definition",
-      "sources": [
-        {
-          "reference_id": "wolff_anatomy",
-          "chapter": "7",
-          "pages": [233, 235, 255]
-          
-        }
-      ]
+      "status": "documented",
+      "sources": [{ "reference_id": "wolff_anatomy", "chapter": "7", "pages": [233, 235, 255] }]
     },
     {
       "content_field": "location",
+      "status": "documented",
       "sources": [
-        {
-          "reference_id": "wolff_anatomy",
-          "chapter": "7",
-          "pages": [233, 251, 255]
-         
-        },
-        {
-          "reference_id": "wolff_anatomy",
-          "chapter": "8",
-          "pages": [284, 286]
-          
-        }
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [233, 251, 255] },
+        { "reference_id": "wolff_anatomy", "chapter": "8", "pages": [284, 286] }
       ]
     },
     {
       "content_field": "layers",
-      "sources": [
-        {
-          "reference_id": "wolff_anatomy",
-          "chapter": "7",
-          "pages": [255]
-          
-        }
-      ]
+      "status": "documented",
+      "sources": [{ "reference_id": "wolff_anatomy", "chapter": "7", "pages": [255] }]
     },
     {
       "content_field": "blood_supply",
-      "sources": [
-        {
-          "reference_id": "statpearls",
-          "section": "Anatomy, Head and Neck, Eye Cornea"
-        }
-      ]
+      "status": "documented",
+      "sources": [{ "reference_id": "statpearls", "section": "Anatomy, Head and Neck, Eye Cornea" }]
     },
     {
       "content_field": "venous_drainage",
-      "sources": [
-        {
-          "reference_id": "statpearls",
-          "section": "Anatomy, Head and Neck, Eye Cornea"
-        }
-      ]
+      "status": "documented",
+      "sources": [{ "reference_id": "statpearls", "section": "Anatomy, Head and Neck, Eye Cornea" }]
     },
     {
       "content_field": "innervation",
+      "status": "not_available",
       "sources": []
     },
     {
       "content_field": "histology_summary",
+      "status": "documented",
       "sources": [
-        {
-          "reference_id": "wolff_anatomy",
-          "chapter": "7",
-          "pages": [255, 257, 258, 261, 262, 263]
-          
-        },
-        {
-          "reference_id": "statpearls",
-          "chapter": "",
-          "pages": [],
-          "section": "Anatomy, Head and Neck, Eye Cornea"
-        }
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [255, 257, 258, 261, 262, 263] },
+        { "reference_id": "statpearls", "section": "Anatomy, Head and Neck, Eye Cornea" }
       ]
     },
     {
       "content_field": "clinical_importance",
+      "status": "documented",
       "sources": [
-        {
-          "reference_id": "wolff_anatomy",
-          "chapter": "7",
-          "pages": [233, 238, 244, 254, 256, 260, 262, 263]
-          
-        },
-        {
-          "reference_id": "statpearls",
-          "section": "Anatomy, Head and Neck, Eye Cornea"
-        }
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [233, 238, 244, 254, 256, 260, 262, 263] },
+        { "reference_id": "statpearls", "section": "Anatomy, Head and Neck, Eye Cornea" }
       ]
     }
   ]
