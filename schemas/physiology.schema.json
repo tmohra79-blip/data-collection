@@ -3,7 +3,7 @@
   "$id": "https://visionar.example/knowledge/schemas/physiology.schema.json",
   "title": "VisionAR Physiology Entity",
   "type": "object",
-  "additionalProperties": false,
+  "unevaluatedProperties": false,
   "allOf": [
     {
       "$ref": "common/base-entity.schema.json"

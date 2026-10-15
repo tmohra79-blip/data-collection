@@ -1,5 +1,4 @@
-"""
-Validate knowledge-base entities.
+"""Validate VisionAR knowledge-base entities and component mappings.
 
 Usage:
     python validate.py <schemas_dir> <knowledge_base_dir>
@@ -7,7 +6,7 @@ Usage:
 Example:
     python validate.py schemas Knowledge_Base
 
-Requires:  pip install jsonschema referencing
+Requires: pip install jsonschema referencing
 """
 import json
 import sys
@@ -23,22 +22,28 @@ CONTENT_FIELDS = [
     "clinical_importance",
 ]
 
+SCHEMA_FILES = {
+    "anatomy": "Anatomy.schema.json",
+    "disease": "diseases.schema.json",
+    "physiology": "physiology.schema.json",
+}
+MISSING_COMPONENT_SENTINEL = "—"
 
-def load(path: Path) -> dict:
+
+def load(path: Path):
     with open(path, encoding="utf-8") as f:
         return json.load(f)
 
 
-def build_registry(schemas_dir: Path, main_schema: dict) -> Registry:
-    """Register every schema file under its $id, or under a URL derived
-    from the main schema's $id, so relative $refs (common/...) resolve."""
+def build_schema_registry(schemas_dir: Path, main_schema: dict) -> Registry:
+    """Register schema files by their $id and relative paths for $ref resolution."""
     base = main_schema["$id"].rsplit("/", 1)[0] + "/"
     registry = Registry()
     for path in schemas_dir.rglob("*.json"):
         try:
             schema = load(path)
         except json.JSONDecodeError as e:
-            print(f"WARN  cannot parse {path}: {e}")
+            print(f"WARN  cannot parse schema {path}: {e}")
             continue
         if not isinstance(schema, dict):
             continue
@@ -53,22 +58,67 @@ def build_registry(schemas_dir: Path, main_schema: dict) -> Registry:
     return registry
 
 
-def check_rules(entity: dict) -> list[str]:
-    """Cross-field rules that JSON Schema can't express."""
+def build_validators(schemas_dir: Path) -> dict:
+    """Build category validators with the shared schema resources registered."""
+    anatomy_schema = load(schemas_dir / SCHEMA_FILES["anatomy"])
+    shared_registry = build_schema_registry(schemas_dir, anatomy_schema)
+    return {
+        category: Draft202012Validator(load(schemas_dir / filename), registry=shared_registry)
+        for category, filename in SCHEMA_FILES.items()
+    }
+
+
+def load_component_ids(registry_path: Path) -> set[str]:
+    """Read valid IDs from all registry rows; repeated IDs are intentionally allowed."""
+    registry = load(registry_path)
+    rows = registry.get("rows")
+    if not isinstance(rows, list):
+        raise ValueError(f"component registry {registry_path} must contain a rows array")
+    ids = set()
+    for index, row in enumerate(rows, start=1):
+        if not isinstance(row, dict):
+            raise ValueError(f"component registry row {index} must be an object")
+        component_id = row.get("component_id")
+        if isinstance(component_id, str) and component_id and component_id != MISSING_COMPONENT_SENTINEL:
+            ids.add(component_id)
+    return ids
+
+
+def check_component_ids(entity: dict, known_component_ids: set[str]) -> tuple[list[str], list[str]]:
+    """Return missing and unknown component IDs separately."""
+    component_ids = entity.get("component_ids")
+    if not isinstance(component_ids, list) or not component_ids:
+        return ["component_ids is absent, null, or empty"], []
+
+    missing, unknown = [], []
+    for value in component_ids:
+        if not isinstance(value, str) or not value.strip() or value == MISSING_COMPONENT_SENTINEL:
+            missing.append(repr(value))
+        elif value not in known_component_ids:
+            unknown.append(value)
+    return missing, unknown
+
+
+def check_anatomy_rules(entity: dict) -> list[str]:
+    """Cross-field reference rules retained from the anatomy validator."""
     errors = []
     content = entity.get("content", {})
     refs = entity.get("references", [])
+    if not isinstance(content, dict) or not isinstance(refs, list):
+        return errors
 
     by_field = {}
-    for r in refs:
-        field = r.get("content_field")
+    for ref in refs:
+        if not isinstance(ref, dict):
+            continue
+        field = ref.get("content_field")
         if field in by_field:
             errors.append(f"duplicate reference entry for '{field}'")
-        by_field[field] = r
+        by_field[field] = ref
 
     for field in CONTENT_FIELDS:
         if field not in content:
-            continue  # the schema already reports missing fields
+            continue  # The schema reports missing required fields.
         ref = by_field.get(field)
         if ref is None:
             errors.append(f"'{field}' has no entry in references")
@@ -79,7 +129,30 @@ def check_rules(entity: dict) -> list[str]:
             errors.append(f"'{field}' is 'documented' but its value is null")
         if status in ("not_available", "not_applicable") and value is not None:
             errors.append(f"'{field}' is '{status}' but its value is not null")
+    return errors
 
+
+def validate_entity(entity, path: Path, validators: dict, known_component_ids: set[str]) -> list[str]:
+    if not isinstance(entity, dict):
+        return ["entity JSON root must be an object"]
+    category = entity.get("category")
+    if not isinstance(category, str):
+        return [f"category must be a string; got {category!r}"]
+    if category not in validators:
+        return [f"unsupported or missing category: {category!r}"]
+
+    validator = validators[category]
+    errors = [
+        f"{'/'.join(map(str, error.absolute_path)) or '(root)'}: {error.message[:200]}"
+        for error in validator.iter_errors(entity)
+    ]
+    missing, unknown = check_component_ids(entity, known_component_ids)
+    if missing:
+        errors.append("MISSING component ID(s): " + ", ".join(missing))
+    if unknown:
+        errors.append("UNKNOWN component ID(s): " + ", ".join(unknown))
+    if category == "anatomy":
+        errors.extend(check_anatomy_rules(entity))
     return errors
 
 
@@ -89,33 +162,54 @@ def main() -> int:
         return 2
 
     schemas_dir, kb_dir = Path(sys.argv[1]), Path(sys.argv[2])
-    main_schema = load(schemas_dir / "Anatomy.schema.json")
-    validator = Draft202012Validator(
-        main_schema, registry=build_registry(schemas_dir, main_schema)
-    )
+    try:
+        validators = build_validators(schemas_dir)
+        known_component_ids = load_component_ids(schemas_dir / "common" / "component-registry.json")
+    except (OSError, json.JSONDecodeError, KeyError, ValueError) as e:
+        print(f"ERROR  unable to initialize validation: {e}")
+        return 2
 
-    failed = 0
+    passed = failed = skipped = 0
     files = sorted(kb_dir.rglob("*.json"))
     for path in files:
-        entity = load(path)
-        if entity.get("category") != "anatomy":
+        try:
+            entity = load(path)
+        except (OSError, UnicodeError, json.JSONDecodeError) as e:
+            failed += 1
+            print(f"FAIL  {path}\n      - cannot parse entity JSON: {e}")
             continue
-        errors = [
-            f"{'/'.join(map(str, e.absolute_path)) or '(root)'}: {e.message[:200]}"
-            for e in validator.iter_errors(entity)
-        ]
-        errors += check_rules(entity)
 
+        if not isinstance(entity, dict):
+            failed += 1
+            print(f"FAIL  {path}\n      - entity JSON root must be an object")
+            continue
+
+        if "category" not in entity:
+            skipped += 1
+            print(f"SKIP  {path}\n      - category is missing")
+            continue
+        category = entity["category"]
+        if not isinstance(category, str):
+            failed += 1
+            print(f"FAIL  {path}\n      - category must be a string; got {category!r}")
+            continue
+        if category not in validators:
+            skipped += 1
+            print(f"SKIP  {path}\n      - unsupported category: {category!r}")
+            continue
+
+        errors = validate_entity(entity, path, validators, known_component_ids)
         if errors:
             failed += 1
             print(f"FAIL  {path}")
-            for msg in errors:
-                print(f"      - {msg}")
+            for message in errors:
+                print(f"      - {message}")
         else:
+            passed += 1
             print(f"OK    {path}")
 
-    print(f"\n{len(files) - failed} passed, {failed} failed")
-    return 1 if failed else 0
+    print(f"\n{passed} passed, {failed} failed, {skipped} skipped")
+    return 1 if failed or skipped else 0
 
 
 if __name__ == "__main__":

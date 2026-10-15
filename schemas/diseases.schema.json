@@ -3,7 +3,7 @@
   "$id": "https://visionar.example/knowledge/schemas/diseases.schema.json",
   "title": "VisionAR Disease Entity",
   "type": "object",
-  "additionalProperties": false,
+  "unevaluatedProperties": false,
   "allOf": [
     {
       "$ref": "common/base-entity.schema.json"
