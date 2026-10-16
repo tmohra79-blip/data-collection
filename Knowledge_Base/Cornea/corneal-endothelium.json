@@ -5,7 +5,7 @@
   "nomenclature": {
     "en": "Corneal Endothelium",
     "ar": "بطانة القرنية",
-    "aliases": ["Posterior Corneal Endothelium"]
+    "aliases": ["Posterior Corneal Endothelium", "Corneal Endothelial Layer"]
   },
   "content": {
     "definition": "The endothelium is the posterior layer of the cornea and the fifth tissue layer behind the precorneal film; it is a single layer of hexagonal, cuboidal cells applied to the posterior aspect of Descemet's membrane.",
@@ -25,10 +25,10 @@
     }
   ],
   "metadata": {
-    "keywords": ["cornea", "endothelium", "eye"],
+    "keywords": ["cornea", "endothelium", "eye", "endothelial cell density", "corneal deturgescence", "بطانة القرنية", "خلايا بطانة القرنية", "كثافة الخلايا البطانية"],
     "references": ["wolff_anatomy", "statpearls"],
-    "last_updated": "2026-10-15",
-    "version": "1.1.0",
+    "last_updated": "2026-10-17",
+    "version": "1.1.1",
     "priority": 5
   },
   "references": [

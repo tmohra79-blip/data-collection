@@ -1,0 +1,129 @@
+{
+  "entity_id": "corneal_epithelium",
+  "component_ids": ["comp_cornea"],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Corneal Epithelium",
+    "ar": "ظهارة القرنية",
+    "aliases": ["Corneal Surface Epithelium", "Anterior Corneal Epithelium"]
+  },
+  "content": {
+    "definition": "The epithelium is the most anterior of the cornea's five tissue layers, forming its outer surface beneath the precorneal tear film. It is a non-keratinized stratified squamous epithelium of surface ectodermal origin, about 50-90 μm thick and composed of 5-6 cell layers, and it lacks goblet cells, which distinguishes it from the conjunctival epithelium it joins at the limbus. Its primary functions are to serve as a barrier preventing the entrance of foreign objects and substances into the eye, and to permit the absorption of nutrients, including oxygen, from the tears.",
+    "location": "Forms the entire anterior surface of the cornea, resting with its basal lamina on Bowman's layer and facing the precorneal tear film externally. At the corneal limbus (about 1.5 mm wide horizontally and 2 mm vertically) it becomes continuous with the limbal conjunctival epithelium; the limbal palisade epithelium is thickened to about 10 cell layers — roughly double the central thickness — and is the site of the stem cells that maintain the epithelium.",
+    "layers": [
+      "Surface cell layer: two layers of flattened squamous cells bearing microvilli and microplicae and joined by semi-permeable tight junctions",
+      "Wing cell layer: two to three layers of polyhedral cells joined by desmosomes",
+      "Basal cell layer: a single row of tall columnar germinative cells (about 10 x 15 μm) attached to the basal lamina by hemidesmosomes",
+      "Basal lamina: the epithelium's own basement membrane (0.5-1 μm), with a lamina lucida (~24 nm) and a lamina densa (30-60 nm)"
+    ],
+    "blood_supply": "Avascular — the epithelium and the cornea contain no blood vessels. Oxygen is derived from the precorneal tear film (tear PO2 about 155 mmHg with the lids open and about 55 mmHg closed), and the corneal periphery is surrounded by the pericorneal/limbal vascular plexus formed by anterior ciliary vessels at the corneoscleral junction.",
+    "venous_drainage": "None — the epithelium and the cornea are avascular; venous return is only peripheral, through the anterior ciliary veins at the limbus.",
+    "innervation": "Supplied by the ophthalmic division of the trigeminal nerve through the anterior ciliary nerves and the nerves of the surrounding conjunctiva, with additional sympathetic adrenergic fibres reaching the limbus. About 60-80 flattened myelinated branches (about 8 μm wide) enter near the limbus, lose their myelin sheaths after 1-2 mm, and divide into an anterior group (40-50 nerves) and a posterior group (40-50 nerves). The anterior nerves form a subepithelial plexus beneath Bowman's layer — in the human eye fibres have been shown to traverse Bowman's layer — and give beaded, dichotomously branching free nerve terminals that run for up to 2 mm and end between the superficial epithelial cells, where some contact Langerhans cells. The epithelium itself carries thousands of free nerve endings, and the density of nociceptors in the cornea has been estimated at 300 to 600 times that of the skin. This dense sensory supply makes the cornea the 'sentinel of the eye', giving warning of injury and foreign bodies.",
+    "histology_summary": "Non-keratinized stratified squamous epithelium, 50-90 μm thick (about 50.7 μm by ultrasound measurement) in 5-6 layers, without goblet cells. A single row of columnar basal cells (about 10 x 15 μm) forms the germinative layer and secretes its basal lamina (0.5-1 μm; lamina lucida ~24 nm, lamina densa 30-60 nm); hemidesmosomes anchor the basal cells, occupying about 28% of the basal membrane centrally versus about 15% at the limbus, and the adhesion complex includes laminin, kalinin, bullous pemphigoid antigen, α6β4 integrin and type VII collagen anchoring fibrils. Above lie 2-3 layers of wing cells joined by desmosomes and two layers of flattened surface cells (about 850 μm² peripherally versus 560 μm² centrally) whose microvilli and microplicae interact with the mucin layer of the tear film; the surface cells form semi-permeable tight junctions. The cytoplasm is rich in glycogen (depleted in hypoxia) and tonofilaments/cytokeratins, and MUC1 is expressed. Dendritic Langerhans cells are present in the peripheral epithelium and nearly absent from the centre. Renewal depends on limbal stem cells: the epithelium renews itself continuously, with individual cells living fewer than 10 days, and basal-derived cells migrate centripetally, a journey that may take up to a year.",
+    "clinical_importance": "Serves as the eye's highly sensitive warning surface ('sentinel of the eye'). Epithelial oedema — from endothelial pump failure, raised intraocular pressure or ill-fitting contact lenses — disturbs the air-tear interface, causing irregular astigmatism and rainbow halos around lights. Adhesion weakens in oedema, predisposing to erosions from lid rubbing or lens movement; resurfacing occurs by centripetal sliding, and full adhesion is restored in about 7 days when the basal lamina is intact but requires about 6 weeks after keratectomy, while an intact epithelium also improves stromal wound strength. Limbal stem cell integrity is critical: total loss of the limbus leads to conjunctival-type resurfacing with goblet cells, whereas residual stem cells can restore the corneal phenotype. Langerhans cells of the peripheral epithelium participate in corneal allograft rejection, and the basal lamina thickens with age and in diabetes. Superficial trauma shows the regenerative capacity of this tissue at its best: most small abrasions heal within 24-48 hours, and uncomplicated superficial abrasions resolve completely within 3-5 days. Healing proceeds through a lag phase, epithelial cell migration toward the wound, proliferation, and renewed cellular adhesion; limbal stem cells migrate and differentiate to cover the defect as a single epithelial layer before proliferation from the basal layer restores normal thickness. When healing is incomplete, recurrent corneal erosion may develop; predisposing factors include epithelial basement membrane (map-dot-fingerprint) dystrophy, lattice degeneration, band keratopathy, previous ocular surgery and dry eye disease. In map-dot-fingerprint (Cogan's) dystrophy the epithelial basement membrane itself is abnormally developed, and its instability causes chronic erosions with blurred vision and painful episodes from exposed nerve endings, treated with lubricating drops, anterior stromal puncture, corneal scraping or phototherapeutic keratectomy. Damage to the subbasal nerve plexus reduces corneal sensitivity and can produce neurotrophic keratopathy, characterized by persistent epithelial defects and increased risk of ulceration; corneal nerve regeneration is slow and may be incomplete. Management of abrasions follows directly from this biology: topical antibiotics and cycloplegics are the mainstay, ointments are preferred because they lubricate and do not disturb the healing surface, eye patching is no longer recommended, and contact-lens-related abrasions require antipseudomonal antibiotic coverage. Limbal stem cell deficiency extends this clinical spectrum. It may be acquired (chemical and thermal burns, contact-lens wear, surgery involving the limbus, drug toxicity), immune-mediated (Stevens-Johnson syndrome, mucous membrane pemphigoid) or hereditary (congenital aniridia). The characteristic sign is conjunctivalization of the corneal surface with inflammation, neovascularization and pannus; diagnosis relies on impression cytology for goblet cells as the gold standard, with the thinner, more permeable conjunctivalized epithelium showing delayed fluorescein staining that persists for ten or more minutes, and surgical restoration uses limbal transplantation procedures such as SLET, CLAU, CLET and KLAL."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "cornea",
+      "target_name": "Cornea"
+    },
+    {
+      "relation_type": "attached_to",
+      "target_id": "bowmans_layer",
+      "target_name": "Bowman's Layer"
+    },
+    {
+      "relation_type": "continuous_with",
+      "target_id": "conjunctival_epithelium",
+      "target_name": "Conjunctival Epithelium"
+    },
+    {
+      "relation_type": "innervated_by",
+      "target_id": "ophthalmic_nerve",
+      "target_name": "Ophthalmic Division of the Trigeminal Nerve"
+    }
+  ],
+  "metadata": {
+    "keywords": ["cornea", "corneal epithelium", "epithelium", "limbal stem cells", "corneal nerves", "corneal abrasion", "recurrent corneal erosion", "epithelial basement membrane dystrophy", "neurotrophic keratopathy", "limbal stem cell deficiency", "ظهارة القرنية", "السطح الأمامي للقرنية", "الخلايا الجذعية اللمبالية", "تجدد ظهارة القرنية", "خدش القرنية", "تآكل القرنية المتكرر", "نقص الخلايا الجذعية اللمبالية"],
+    "references": ["wolff_anatomy", "statpearls", "statpearls_corneal_abrasion", "statpearls_let", "statpearls_corneal_trauma"],
+    "last_updated": "2026-10-17",
+    "version": "1.1.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [235, 236, 238] },
+        { "reference_id": "wolff_anatomy", "chapter": "2", "pages": [82] },
+        { "reference_id": "wolff_anatomy", "chapter": "17", "pages": [624, 625] },
+        { "reference_id": "statpearls", "section": "Structure and Function" }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [249, 268] },
+        { "reference_id": "wolff_anatomy", "chapter": "2", "pages": [51, 52, 60] },
+        { "reference_id": "wolff_anatomy", "chapter": "6", "pages": [216] }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [235, 236, 237, 238, 243, 244] }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [245, 270] },
+        { "reference_id": "statpearls", "section": "Anatomy, Head and Neck, Eye Cornea" }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [270] },
+        { "reference_id": "statpearls", "section": "Anatomy, Head and Neck, Eye Cornea" }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [266, 267] },
+        { "reference_id": "statpearls", "section": "Nerves" }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [235, 236, 237, 238, 240, 241, 243, 244, 245, 246] },
+        { "reference_id": "wolff_anatomy", "chapter": "2", "pages": [56, 60] },
+        { "reference_id": "wolff_anatomy", "chapter": "6", "pages": [216] },
+        { "reference_id": "statpearls_corneal_abrasion", "section": "Pathophysiology" }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [243, 244, 245, 246, 247, 266, 267] },
+        { "reference_id": "wolff_anatomy", "chapter": "2", "pages": [63, 65] },
+        { "reference_id": "wolff_anatomy", "chapter": "6", "pages": [216] },
+        { "reference_id": "statpearls", "section": "Clinical Significance" },
+        { "reference_id": "statpearls_corneal_abrasion", "section": "Introduction; Prognosis; Treatment/Management" },
+        { "reference_id": "statpearls_corneal_trauma", "section": "Pathophysiology" },
+        { "reference_id": "statpearls_let", "section": "Anatomy and Physiology; Introduction; Indications" }
+      ]
+    }
+  ]
+}

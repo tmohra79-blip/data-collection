@@ -1,0 +1,108 @@
+{
+  "entity_id": "descemets_membrane",
+  "component_ids": ["comp_cornea"],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Descemet's Membrane",
+    "ar": "غشاء ديسميه",
+    "aliases": ["Posterior Basement Membrane of the Corneal Endothelium", "الغشاء الخلفي للقرنية"]
+  },
+  "content": {
+    "definition": "Descemet's membrane is the thick, homogeneous basal lamina secreted by the corneal endothelium, forming the smooth posterior boundary of the corneal stroma. It appears around the second month of gestation and grows throughout life — from about 3-4 μm at birth to about 5 μm in childhood and 10-12 μm in the adult — and it is composed of type IV collagen rather than the type I collagen of the stroma.",
+    "location": "It lies between the posterior stroma and the corneal endothelium, to whose cells it is attached by modified hemidesmosomes and desmosomes. Peripherally it ends at Schwalbe's line, which marks the anterior limit of the drainage angle; there it is continuous with the trabecular meshwork lining. A prominently placed Schwalbe's line (posterior embryotoxon) is visible in about 15-20% of individuals.",
+    "layers": [
+      "Anterior third (fetal banded zone): laid down in utero, with a banded ultrastructure of 100-110 nm periodicity — compared with the 64 nm periodicity of stromal type I collagen — and triangular projections; banding is evident from about the fifth month of gestation, when the zone is about 3.1 μm thick",
+      "Posterior two-thirds (postnatal zone): added after birth by the endothelium as a homogeneous, unbanded layer responsible for the progressive age-related thickening"
+    ],
+    "blood_supply": "Avascular — like all layers of the cornea, Descemet's membrane contains no blood vessels; the nearest vessels belong to the pericorneal/limbal vascular plexus at the corneoscleral junction.",
+    "venous_drainage": "None — the membrane is avascular; venous return is peripheral, via the anterior ciliary veins at the limbus.",
+    "innervation": null,
+    "histology_summary": "Descemet's membrane is the endothelium's own basal lamina and behaves like one: it thickens throughout life by continuous endothelial secretion, from about 3-4 μm at birth through about 5 μm in childhood to 10-12 μm in the adult (Tripathi; Wulle), and it is composed of type IV collagen. Ultrastructurally it has two strata: an anterior third — the fetal banded layer with 100-110 nm banding and triangular projections, banding being apparent from about the fifth month of gestation when the zone is about 3.1 μm thick — and a posterior two-thirds of homogeneous postnatal material. By the third month of development a lamina lucida (about 37.5 nm) and a lamina densa (about 36.7 nm) can be distinguished beneath the endothelium (Murphy, Alvarado & Juster). The endothelium is attached to it by modified hemidesmosomes and desmosomes; and — in marked contrast to Bowman's layer — after an interruption such as acute hydrops in keratoconus the membrane is repaired by the endothelium laying down a new basal lamina of matching type.",
+    "clinical_importance": "Two classes of endothelial excrescences mark its posterior surface: peripherally, Hassall-Henle warts are a physiological age change, whereas central cornea guttata are abnormal and are associated with increased endothelial permeability and corneal oedema (Lorenzetti & Kaufman). The membrane can be ruptured — by birth trauma, by stretching in infantile glaucoma, or in acute hydrops of keratoconus — after which its rolled edges are repaired by endothelial regeneration of a new basal lamina. A prominent Schwalbe's line (posterior embryotoxon) marks its peripheral termination in about 15-20% of the population. Modern endothelial keratoplasty is built around this membrane: in DSAEK the donor tissue carries posterior stroma with Descemet's membrane and endothelium, while in DMEK only Descemet's membrane and the endothelium are transplanted."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "cornea",
+      "target_name": "Cornea"
+    },
+    {
+      "relation_type": "posterior_to",
+      "target_id": "corneal_stroma",
+      "target_name": "Corneal Stroma"
+    },
+    {
+      "relation_type": "attached_to",
+      "target_id": "corneal_endothelium",
+      "target_name": "Corneal Endothelium"
+    }
+  ],
+  "metadata": {
+    "keywords": ["cornea", "Descemet's membrane", "posterior basal lamina", "cornea guttata", "Hassall-Henle", "غشاء ديسميه", "الغشاء الخلفي للقرنية", "خط Schwalbe"],
+    "references": ["wolff_anatomy", "statpearls"],
+    "last_updated": "2026-10-17",
+    "version": "1.0.0",
+    "priority": 4
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [251, 252, 255] }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [254, 255, 256, 257] },
+        { "reference_id": "wolff_anatomy", "chapter": "8", "pages": [284, 286] }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [251, 252, 253] }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [270] },
+        { "reference_id": "statpearls", "section": "Anatomy, Head and Neck, Eye Cornea" }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [270] },
+        { "reference_id": "statpearls", "section": "Anatomy, Head and Neck, Eye Cornea" }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [251, 252, 253, 254, 255, 256, 257] },
+        { "reference_id": "wolff_anatomy", "chapter": "17", "pages": [626] }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [254, 255, 256] },
+        { "reference_id": "statpearls", "section": "Anatomy, Head and Neck, Eye Cornea" }
+      ]
+    }
+  ]
+}

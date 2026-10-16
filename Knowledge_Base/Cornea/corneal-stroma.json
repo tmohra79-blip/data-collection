@@ -1,0 +1,118 @@
+{
+  "entity_id": "corneal_stroma",
+  "component_ids": ["comp_cornea"],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Corneal Stroma",
+    "ar": "سدى القرنية",
+    "aliases": ["Stroma of the Cornea", "اللوامي القرنية"]
+  },
+  "content": {
+    "definition": "The stroma is the thick middle layer of the cornea and by far its largest, forming about 90% of corneal thickness — roughly 0.5 mm of the 0.52 mm central thickness. It is a tough, transparent connective tissue built of stacked collagen lamellae with flattened keratocytes between them and a proteoglycan-rich ground substance, and it is the layer whose precise internal ordering is the principal structural basis of corneal transparency.",
+    "location": "It lies behind Bowman's layer and in front of Descemet's membrane, occupying the bulk of the cornea between its two basement-membrane boundaries. It measures about 0.52 mm centrally and up to about 0.67 mm peripherally. At the limbus the fine, regular corneal fibrils give way to a coarse, interwoven scleral pattern, and the stroma becomes continuous with the sclera; the limbal region is the weakest zone of the globe to bursting pressure.",
+    "layers": [
+      "Collagen lamellae: about 200-300 lamellae centrally, increasing to about 500 peripherally (Hamada); each lamella is a sheet of parallel collagen fibrils, and lamellar widths range from 9 to 260 μm",
+      "Collagen fibrils: axial periodicity of 64 nm; fibril diameter increases from about 27 nm in the anterior stroma to 35 nm posteriorly, with a mean interfibrillar spacing of about 43.2 ± 1.7 nm — close to one fibril diameter",
+      "Keratocytes: flattened fibroblasts lying between the lamellae, forming only 2.5-5% of the stromal volume; their intercellular contacts occur only at the same depth, through gap junctions of about 20 nm",
+      "Ground substance: proteoglycans varying regionally — keratan sulphate centrally, with chondroitin sulphate, dermatan sulphate and hyaluronic acid toward the limbus (Borcherding)",
+      "Migrant cells: small numbers of lymphocytes, macrophages and polymorphonuclear leucocytes, normally rare"
+    ],
+    "blood_supply": "Avascular — the normal stroma contains no blood vessels. The pericorneal/limbal vascular plexus formed by anterior ciliary vessels surrounds it at the corneoscleral junction, and vessels (with lymphatics) enter the stroma only in pathological vascularisation of stromal scars.",
+    "venous_drainage": "None in the normal state — the avascular stroma has no venous channels; venous return of the corneal periphery is via the anterior ciliary veins at the limbus.",
+    "innervation": "The stroma carries the deep corneal nerves. Of the 60-80 myelinated branches entering near the limbus, the posterior group (about 40-50 nerves) runs in the posterior stroma only, without reaching Descemet's membrane, and their endings may act as tension receptors (Zander & Weddell); the anterior group passes forward to form the subepithelial plexus beneath Bowman's layer. The nerves lose their myelin sheaths within 1-2 mm of entering the cornea.",
+    "histology_summary": "The stroma forms about 90% of corneal thickness (~0.5 mm centrally, up to ~0.67 mm peripherally) and consists of roughly 200-300 collagen lamellae centrally, increasing to about 500 peripherally, with lamellar widths of 9-260 μm. Its collagen fibrils show the characteristic 64 nm axial periodicity; fibril diameter increases from about 27 nm anteriorly to 35 nm posteriorly, and the mean interfibrillar spacing (43.2 ± 1.7 nm) approximates one fibril diameter. This uniformity of fibril size and separation — small relative to the wavelength of light, as required by lattice theories of transparency (Maurice's lattice theory and its later refinements) — is the structural basis of corneal transparency, which is lost when scars produce irregular new fibrils or when oedema creates fluid lakes between lamellae. The keratocytes occupy 2.5-5% of the stromal volume, are flattened between lamellae, make gap-junction contacts only with cells at the same depth, and show dilated rough endoplasmic reticulum when activated (Kuwabara). The ground substance varies regionally — keratan sulphate centrally, chondroitin and dermatan sulphates plus hyaluronic acid toward the limbus, where the regular corneal fibril pattern also gives way to the coarse interwoven pattern of the sclera.",
+    "clinical_importance": "Transparency is the stroma's cardinal clinical property: scarring, with irregular newly formed fibrils, and oedema, with fluid lakes accumulating from endothelial pump failure, both scatter light and reduce vision. Stromal repair differs from epithelial repair: keratocytes transform into fibroblasts, monocyte-derived cells also give rise to fibroblasts in a process requiring a functioning epithelium, and stromal remodelling takes months with gradual return of transparency (Cintron & Kublin); integrity of the overlying epithelium improves stromal wound strength (Weimar). In pathological vascularisation, blood vessels and lymphatics may invade stromal scars. The limbal transition zone, where the stroma is continuous with the sclera, is mechanically the weakest region of the globe to bursting pressure (Maurice), which is relevant to blunt ocular trauma."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "cornea",
+      "target_name": "Cornea"
+    },
+    {
+      "relation_type": "posterior_to",
+      "target_id": "bowmans_layer",
+      "target_name": "Bowman's Layer"
+    },
+    {
+      "relation_type": "anterior_to",
+      "target_id": "descemets_membrane",
+      "target_name": "Descemet's Membrane"
+    },
+    {
+      "relation_type": "continuous_with",
+      "target_id": "sclera",
+      "target_name": "Sclera"
+    }
+  ],
+  "metadata": {
+    "keywords": ["cornea", "corneal stroma", "lamellae", "keratocytes", "corneal transparency", "سدى القرنية", "اللوامي القرنية", "شفافية القرنية"],
+    "references": ["wolff_anatomy", "statpearls"],
+    "last_updated": "2026-10-17",
+    "version": "1.0.0",
+    "priority": 3
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [249] },
+        { "reference_id": "wolff_anatomy", "chapter": "6", "pages": [216, 218] }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [249, 268, 270] },
+        { "reference_id": "wolff_anatomy", "chapter": "6", "pages": [218] }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [249, 250, 251, 252, 268] }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [252, 270] },
+        { "reference_id": "statpearls", "section": "Anatomy, Head and Neck, Eye Cornea" }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [270] },
+        { "reference_id": "statpearls", "section": "Anatomy, Head and Neck, Eye Cornea" }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [266, 267] }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [249, 250, 251, 252, 266, 268] },
+        { "reference_id": "wolff_anatomy", "chapter": "6", "pages": [218] }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [247, 252, 266, 270] }
+      ]
+    }
+  ]
+}
