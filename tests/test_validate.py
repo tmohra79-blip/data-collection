@@ -25,7 +25,7 @@ def entity(category, content):
         "relationships": [],
         "metadata": {
             "keywords": ["test"],
-            "references": ["test_reference"],
+            "references": ["wolff_anatomy"],
             "last_updated": "2026-10-15",
             "version": "1.0.0",
             "priority": 1,
@@ -75,7 +75,7 @@ def valid_anatomy():
             "content_field": field,
             "status": "not_available" if field == "innervation" else "documented",
             "sources": [] if field == "innervation" else [
-                {"reference_id": "test_reference", "section": "Test section"}
+                {"reference_id": "wolff_anatomy", "section": "Test section"}
             ],
         }
         for field in validate.CONTENT_FIELDS
@@ -173,6 +173,26 @@ class ComponentRegistryTests(unittest.TestCase):
                     self.validators, self.component_ids
                 )
                 self.assertTrue(any("category must be a string" in error for error in errors))
+
+    def test_known_reference_ids_pass_real_registry(self):
+        record = valid_anatomy()
+        errors = validate.validate_entity(
+            record, ROOT / "fixture.json", self.validators, self.component_ids,
+            validate.load_reference_ids(SCHEMAS / "common" / "references.json"),
+        )
+        self.assertEqual(errors, [])
+
+    def test_unknown_reference_ids_fail_real_registry(self):
+        record = valid_anatomy()
+        record["references"][0]["sources"][0]["reference_id"] = "ghost_book"
+        record["metadata"]["references"] = ["wolff_anatomy", "ghost_book"]
+        errors = validate.validate_entity(
+            record, ROOT / "fixture.json", self.validators, self.component_ids,
+            validate.load_reference_ids(SCHEMAS / "common" / "references.json"),
+        )
+        self.assertEqual(len(errors), 1)
+        self.assertIn("UNKNOWN reference_id(s)", errors[0])
+        self.assertIn("'ghost_book'", errors[0])
 
     def test_main_counts_pass_fail_skip_and_reports_invalid_json(self):
         with tempfile.TemporaryDirectory() as temp_dir:

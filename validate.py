@@ -99,6 +99,21 @@ def check_component_ids(entity: dict, known_component_ids: set[str]) -> tuple[li
     return missing, unknown
 
 
+def load_reference_ids(registry_path: Path) -> set[str]:
+    """Read known reference_ids from the source registry (references.json)."""
+    registry = load(registry_path)
+    if not isinstance(registry, list):
+        raise ValueError(f"reference registry {registry_path} must contain a JSON array")
+    ids = set()
+    for index, item in enumerate(registry, start=1):
+        if not isinstance(item, dict):
+            raise ValueError(f"reference registry item {index} must be an object")
+        reference_id = item.get("reference_id")
+        if isinstance(reference_id, str) and reference_id.strip():
+            ids.add(reference_id)
+    return ids
+
+
 def check_anatomy_rules(entity: dict) -> list[str]:
     """Cross-field reference rules retained from the anatomy validator."""
     errors = []
@@ -132,7 +147,40 @@ def check_anatomy_rules(entity: dict) -> list[str]:
     return errors
 
 
-def validate_entity(entity, path: Path, validators: dict, known_component_ids: set[str]) -> list[str]:
+def check_reference_ids(entity: dict, known_reference_ids: set[str]) -> list[str]:
+    """Unknown reference IDs in metadata.references or per-field sources."""
+    unknown = set()
+    metadata_refs = entity.get("metadata", {}).get("references", [])
+    if isinstance(metadata_refs, list):
+        for value in metadata_refs:
+            if isinstance(value, str) and value.strip() and value not in known_reference_ids:
+                unknown.add(value)
+    refs = entity.get("references", [])
+    if isinstance(refs, list):
+        for ref in refs:
+            if not isinstance(ref, dict):
+                continue
+            sources = ref.get("sources", [])
+            if not isinstance(sources, list):
+                continue
+            for source in sources:
+                if not isinstance(source, dict):
+                    continue
+                value = source.get("reference_id")
+                if isinstance(value, str) and value.strip() and value not in known_reference_ids:
+                    unknown.add(value)
+    if unknown:
+        return ["UNKNOWN reference_id(s): " + ", ".join(f"{value!r}" for value in sorted(unknown))]
+    return []
+
+
+def validate_entity(
+    entity,
+    path: Path,
+    validators: dict,
+    known_component_ids: set[str],
+    known_reference_ids: set[str] | None = None,
+) -> list[str]:
     if not isinstance(entity, dict):
         return ["entity JSON root must be an object"]
     category = entity.get("category")
@@ -153,6 +201,8 @@ def validate_entity(entity, path: Path, validators: dict, known_component_ids: s
         errors.append("UNKNOWN component ID(s): " + ", ".join(unknown))
     if category == "anatomy":
         errors.extend(check_anatomy_rules(entity))
+    if known_reference_ids is not None:
+        errors.extend(check_reference_ids(entity, known_reference_ids))
     return errors
 
 
@@ -165,6 +215,7 @@ def main() -> int:
     try:
         validators = build_validators(schemas_dir)
         known_component_ids = load_component_ids(schemas_dir / "common" / "component-registry.json")
+        known_reference_ids = load_reference_ids(schemas_dir / "common" / "references.json")
     except (OSError, json.JSONDecodeError, KeyError, ValueError) as e:
         print(f"ERROR  unable to initialize validation: {e}")
         return 2
@@ -198,7 +249,7 @@ def main() -> int:
             print(f"SKIP  {path}\n      - unsupported category: {category!r}")
             continue
 
-        errors = validate_entity(entity, path, validators, known_component_ids)
+        errors = validate_entity(entity, path, validators, known_component_ids, known_reference_ids)
         if errors:
             failed += 1
             print(f"FAIL  {path}")
