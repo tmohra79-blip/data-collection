@@ -3,18 +3,22 @@
     "reference_id": "wolff_anatomy",
     "title": "Wolff's Anatomy of the Eye and Orbit",
     "authors": [
-      "Roger Warwick",
-      "E. A. R. G. Grierson"
+      "Anthony J. Bron",
+      "Ramesh C. Tripathi",
+      "Brenda J. Tripathi"
     ],
     "edition": "8th",
-    "year": 1998,
-    "publisher": "CRC Press",
-    "type": "book"
+    "year": 1997,
+    "publisher": "Chapman & Hall Medical",
+    "isbn": "0-412-41010-9",
+    "type": "book",
+    "verification": "Authors, edition, publisher and ISBN verified against the title and copyright pages of the actual copy on 2026-10-16."
   },
   {
     "reference_id": "statpearls",
     "title": "Anatomy, Head and Neck, Eye Cornea",
     "publisher": "StatPearls Publishing",
+    "url": "https://www.statpearls.com/",
     "type": "website"
   }
 ]
