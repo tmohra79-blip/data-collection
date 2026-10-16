@@ -1,0 +1,111 @@
+{
+  "entity_id": "bowmans_layer",
+  "component_ids": ["comp_cornea"],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Bowman's Layer",
+    "ar": "طبقة بومان",
+    "aliases": ["Bowman's Zone", "الغشاء الأمامي للقرنية"]
+  },
+  "content": {
+    "definition": "Bowman's layer is an acellular condensation of modified anterior stromal lamellae lying immediately beneath the epithelial basal lamina at the front of the cornea. Despite its traditional name it is not a true basal lamina of the epithelium; it is about 8-14 μm thick, and it is synthesised and laid down by the basal epithelial cells during corneal development, after which it is never restored if destroyed.",
+    "location": "It occupies the plane between the basal lamina of the corneal epithelium anteriorly and the ordered stromal lamellae posteriorly, running across the full optical cornea. Peripherally it ends at the corneal limbus, which is conventionally defined by the line joining the peripheral end of Bowman's zone to the peripheral end of Descemet's membrane.",
+    "layers": [
+      "A single acellular band (8-14 μm) of densely interwoven collagen — no keratocytes or other cellular elements",
+      "Collagen fibrils about 24-27 nm in diameter, packed in a random interwoven feltwork rather than being ordered into lamellae like the deeper stroma",
+      "The band is perforated by unmyelinated nerve fibres passing from the subepithelial plexus up to the epithelium (Tripathi & Tripathi)"
+    ],
+    "blood_supply": "Avascular — Bowman's layer lies within the avascular cornea and contains no blood vessels; the nearest vessels are those of the pericorneal/limbal vascular plexus formed by anterior ciliary branches at the corneoscleral junction.",
+    "venous_drainage": "None — the layer is avascular; venous return is confined to the anterior ciliary veins at the limbus, outside the cornea.",
+    "innervation": "The layer contains no nerves of its own, but it is perforated by unmyelinated epithelial nerve fibres ascending from the subepithelial plexus, which lies beneath Bowman's layer, toward the basal epithelium; in the human eye fibres have been shown to traverse the layer.",
+    "histology_summary": "By light and electron microscopy Bowman's layer appears as a compact, acellular band of about 8-14 μm, sharply demarcated from the epithelial basal lamina in front and from the ordered stromal lamellae behind. Its collagen fibrils measure roughly 24-27 nm in diameter and are packed in a random, interwoven arrangement rather than in the parallel lamellar sheets of the stroma, a difference that helps identify the layer histologically. It is produced during development by the basal epithelial cells, and at birth it is interwoven with the overlying epithelial basal lamina. Once mature it contains no cellular elements and, unlike the stroma, shows no capacity to remodel or regenerate after injury.",
+    "clinical_importance": "Because Bowman's layer cannot regenerate, any process that destroys it — trauma, ulceration or refractive surface ablation — leaves a permanent replacement by scar tissue rather than the normal architecture. Its zone carries recognised biomicroscopic signs: the anterior corneal mosaic ('chicken-wire' mosaic, Bron) and crocodile shagreen. Its role in epithelial adhesion is also clinically important: after keratectomy, with removal of the basal lamina and Bowman's zone, full epithelial adhesion takes about six weeks to be restored, whereas when the basal lamina is intact adhesion is restored in about seven days."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "cornea",
+      "target_name": "Cornea"
+    },
+    {
+      "relation_type": "posterior_to",
+      "target_id": "corneal_epithelium",
+      "target_name": "Corneal Epithelium"
+    },
+    {
+      "relation_type": "anterior_to",
+      "target_id": "corneal_stroma",
+      "target_name": "Corneal Stroma"
+    }
+  ],
+  "metadata": {
+    "keywords": ["cornea", "Bowman's layer", "Bowman's zone", "anterior corneal mosaic", "طبقة بومان", "الغشاء الأمامي للقرنية"],
+    "references": ["wolff_anatomy", "statpearls"],
+    "last_updated": "2026-10-17",
+    "version": "1.0.0",
+    "priority": 2
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [247, 248, 249] },
+        { "reference_id": "wolff_anatomy", "chapter": "17", "pages": [627, 628] }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [249, 268] },
+        { "reference_id": "wolff_anatomy", "chapter": "6", "pages": [221] }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [247, 248] }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [270] },
+        { "reference_id": "statpearls", "section": "Anatomy, Head and Neck, Eye Cornea" }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [270] },
+        { "reference_id": "statpearls", "section": "Anatomy, Head and Neck, Eye Cornea" }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [248, 266, 267] }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [247, 248, 249] },
+        { "reference_id": "wolff_anatomy", "chapter": "17", "pages": [627, 628] }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "7", "pages": [246, 249] }
+      ]
+    }
+  ]
+}
