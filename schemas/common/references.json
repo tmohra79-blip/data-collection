@@ -77,5 +77,66 @@
     "last_updated": "2026-07-05",
     "type": "website",
     "verification": "Section 'Pathophysiology' (Corneal Healing) read directly on 2026-10-17."
+  },
+  {
+    "reference_id": "statpearls_conjunctiva",
+    "title": "Anatomy, Head and Neck, Eye Conjunctiva",
+    "authors": [
+      "Caleb L. Shumway",
+      "Mahsaw Motlagh",
+      "Matthew Wade"
+    ],
+    "publisher": "StatPearls Publishing",
+    "source": "NCBI Bookshelf",
+    "bookshelf_id": "NBK519502",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK519502/",
+    "last_updated": "2023-08-28",
+    "type": "website",
+    "verification": "Full article (Introduction, Structure and Function, Embryology, Blood Supply and Lymphatics, Nerves, Muscles, Physiologic Variants, Surgical Considerations, Clinical Significance) read directly on 2026-10-17."
+  },
+  {
+    "reference_id": "statpearls_pterygium",
+    "title": "Pterygium",
+    "authors": [
+      "Bharat Gurnani",
+      "Koushik Tripathy"
+    ],
+    "publisher": "StatPearls Publishing",
+    "source": "NCBI Bookshelf",
+    "bookshelf_id": "NBK558907",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK558907/",
+    "last_updated": "2026-09-14",
+    "type": "website",
+    "verification": "Complete article text (19 sections incl. Introduction, Etiology, Epidemiology, Pathophysiology, Histopathology, Treatment/Management) read directly on 2026-10-18 from the project owner's pasted full-text copy."
+  },
+  {
+    "reference_id": "statpearls_pinguecula",
+    "title": "Pinguecula",
+    "authors": [
+      "Anjana Somnath",
+      "Koushik Tripathy"
+    ],
+    "publisher": "StatPearls Publishing",
+    "source": "NCBI Bookshelf",
+    "bookshelf_id": "NBK558965",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK558965/",
+    "last_updated": "2023-08-25",
+    "type": "website",
+    "verification": "Complete article text (all sections incl. Etiology, Histopathology, History and Physical, Differential Diagnosis, References) read directly on 2026-10-18 from the full-text copy pasted by the project owner."
+  },
+  {
+    "reference_id": "statpearls_sch",
+    "title": "Subconjunctival Hemorrhage",
+    "authors": [
+      "Marco Zeppieri",
+      "Tariq Noohani"
+    ],
+    "publisher": "StatPearls Publishing",
+    "source": "NCBI Bookshelf",
+    "bookshelf_id": "NBK551666",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK551666/",
+    "last_updated": "2025-09-15",
+    "type": "website",
+    "verification": "Complete article text (16 sections incl. Introduction, Etiology, Pathophysiology, Histopathology, History and Physical, Staging, Prognosis) read directly on 2026-10-18 from the project owner's pasted full-text copy."
   }
 ]
