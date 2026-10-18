@@ -1,0 +1,331 @@
+{
+  "entity_id": "bulbar_conjunctiva",
+  "component_ids": [
+    "comp_conjunctiva"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Bulbar Conjunctiva",
+    "ar": "الملتحمة المقلية",
+    "aliases": [
+      "Ocular Conjunctiva",
+      "Scleral Conjunctiva",
+      "الملتحمة",
+      "الملتحمة البصلية"
+    ]
+  },
+  "content": {
+    "definition": "The bulbar conjunctiva is the thin, translucent mucous membrane that covers the front of the globe over the exposed sclera, extending from the corneal limbus back to the conjunctival fornices, where it joins the palpebral conjunctiva, while its epithelium becomes continuous with the corneal epithelium at the limbus. It is a non-keratinized stratified epithelium containing goblet cells, supported by a submucosal lamina propria (substantia propria), with an average thickness of about 33 μm. It is bound loosely to the sclera by areolar tissue and fascia bulbi (Tenon's capsule), an arrangement that keeps it mobile and translucent enough for the white sclera to show through. Functionally it provides a physical barrier against microbial entry, contributes lubricating mucin to the tear film and houses an immune surveillance apparatus.",
+    "location": "Covers the anterior, non-corneal surface of the globe and is divided into scleral and limbal parts, running from the limbus — where conjunctiva, fascia bulbi and episcleral tissue are densely fused — back to the superior, inferior, lateral and medial fornices that separate it from the palpebral conjunctiva. It is tied to the underlying structures by areolar tissue and covered by fascia bulbi, so it is mobile enough to follow ocular movements and lies in contact with the tendons of the rectus muscles; the potential space between Tenon's capsule and the sclera is used for local anaesthesia. For about 3 mm behind the cornea it is separated from the sclera by loose episcleral tissue containing subconjunctival vessels, beyond which the conjunctiva becomes firmly adherent and may form a slight ridge in infections — the limbal conjunctiva. The conjunctival sac it lines normally holds about 7 μL of tear fluid and can accommodate up to 30 μL. Medially, the free lateral border of the plica semilunaris is separated from the bulbar conjunctiva by a 2 mm recess that almost disappears when the eye looks laterally; at the limbus, the superficial width of the transition measures 2 mm in the vertical meridian and 1.5 mm in the horizontal. No muscles originate from or insert directly into the conjunctiva; the four rectus muscles insert on the globe at various distances posterior to the limbus, and these insertions lie deep to the bulbar conjunctiva. The interpalpebral portion is the strip chronically exposed between the lid margins, and repeated ultraviolet injury to this exposed surface may disrupt the normal limbal barrier; pterygium prevalence peaks within the so-called pterygium belt around 30 degrees, and by Cameron's definition up to 37 degrees, north and south of the equator. Ultraviolet-driven perilimbal lesions cluster adjacent to the limbus at the 3 o'clock and 9 o'clock positions, with a marked nasal predilection. The temporal bulbar conjunctiva also presents a larger surface than the nasal one and blood gravitates downward within it, hence subconjunctival haemorrhage most often occupies the temporal, especially inferotemporal, region.",
+    "layers": [
+      "Epithelium: non-keratinized stratified squamous-to-columnar epithelium about 3-5 cell layers thick (roughly five strata near the lid margin, thinning toward the fornix), with cuboidal basal cells that flatten toward the surface; it contains interspersed goblet cells as well as melanocytes, Langerhans cells and intraepithelial lymphocytes; goblet-cell numbers are greatest near the fornices - especially in the inferior and medial conjunctiva and near the medial canthus - and decrease away from the fornix",
+      "Substantia propria (conjunctival submucosa): a lamina propria unique to the conjunctiva, formed of a superficial lymphoid layer and deep fibrous tissue; the lymphoid layer is a fine connective-tissue reticulum, thickest in the fornices (50-70 μm) and ending at the subtarasal fold, so lymphocytes are absent from the marginal conjunctiva; it houses the conjunctival associated lymphoid tissue (CALT), consisting of T and B lymphocytes without plasma cells; lymphocytes, predominantly T cells, are found in the substantia propria and the epithelium in a ratio of about 2:3; lymphoid nodules occur near the canthi, while plasma cells and mast cells preponderate in the perilimbal and tarsal regions and are found only in the submucosa; the forniceal lymphoid patches are composed mostly of suppressor T-cells",
+      "Deep fibrous layer: generally thicker than the lymphoid layer except over the tarsal plate, with which it blends; carries the nerves and vessels that supply the membrane and houses the accessory lacrimal glands - the glands of Krause, mainly in the deep subconjunctival tissue of the upper fornix (about 42) and also in the lower fornix (6-8), whose ducts unite into a single duct and which have been shown to be innervated, and the larger glands of Wolfring (two to five above the superior tarsus and two within the lower edge of the inferior tarsus)"
+    ],
+    "blood_supply": "The arterial supply of the conjunctiva is from four sources: the peripheral tarsal arcades, the marginal tarsal arcades, the anterior ciliary arteries and the deep ciliary system. The peripheral tarsal arcade runs at the upper border of the tarsus between the two parts of the levator; its perforating branches give descending branches that supply the proximal two-thirds of the tarsal conjunctiva, and ascending branches that pass over the fornix onto the globe, where they become the posterior conjunctival arteries. These anastomose with the anterior conjunctival arteries about 4 mm from the limbus, and together the two systems supply the bulbar conjunctiva - this anastomosis forming the watershed between the palpebral and ciliary circulations. The anterior conjunctival arteries are the continuations of the episcleral arteries, which arise from the anterior ciliary arteries of the recti (each muscular artery gives off two, except the lateral rectus, which gives one) and form the episcleral arterial circle 1-5 mm behind the limbus; at the limbus the episcleral arteries make a hairpin bend and enter the bulbar conjunctiva as the anterior conjunctival arteries. At the same point they give rise to the marginal corneal arcades, which extend subepithelially to the peripheral edge of Bowman's layer and send fine loops to the palisades of Vogt, while their perilimbal branches in the conjunctiva form the superficial, conjunctival part of the pericorneal plexus - the deep part being the episcleral capillary net, which does not move with the conjunctiva. The perilimbal bulbar conjunctiva, limbus and episclera are supplied by the deep ciliary arterial circle via the scleral perforating arteries in addition to the anterior ciliary arteries. Each limbal arteriole supplies one to three superficial limbal capillaries forming a network one to four tiers deep; these are less leaky on fluorescein angiography than bulbar and tarsal conjunctival capillaries because they have a thicker endothelium and fewer fenestrations. Elongated vascular loops also ascend from the episcleral arteries into the interpalisade spaces of the limbal conjunctiva, and the areolar tissue about 3 mm behind the cornea carries the subconjunctival vessels. Lymphatics follow the vasculature: a superficial plexus of small vessels extends beneath the vascular capillaries and a deep plexus of large vessels lies in the fibrous layer, draining toward the canthi - the lateral channels to the parotid nodes, the medial channels to the submandibular nodes. The anterior ciliary arteries are ultimately branches of the ophthalmic artery, and the marginal tarsal arcades supply the palpebral conjunctiva together with the fornices. The supply is asymmetric: two anterior ciliary arteries are present on the nasal side whereas only one is present on the temporal side, so an irritant produces greater nasal hyperaemia. Throughout, the membrane rests on a dense capillary network that perfuses both its epithelial and stromal layers; the participating capillaries are fine and unsupported by surrounding tissue, which renders them vulnerable to mechanical stress and haemodynamic fluctuations. The anatomical distribution of these vessels also explains the two congestion patterns: conjunctival congestion represents dilatation of the superficial posterior conjunctival vessels, giving diffuse redness across the sclera, whereas ciliary congestion represents dilatation of the deeper anterior ciliary vessels, giving the circumcorneal flush.",
+    "venous_drainage": "The conjunctival veins accompany and outnumber the corresponding arteries. The palpebral veins drain the tarsal conjunctiva, the fornix and the posterior bulbar conjunctiva; in the upper lid a venous plexus between the tendons of the levator drains into the veins of the levator and superior rectus and thence into the ophthalmic vein. Anteriorly, immediately behind the limbus and in front of the episcleral arterial circle, lies a perilimbal venous circle composed of up to three communicating parallel vessels; it collects blood from the limbus, the marginal corneal arcades and the anterior conjunctival veins, which are more conspicuous than their corresponding arteries. From this circle blood passes into radial episcleral collecting veins and then into the veins of the rectus muscles; the circle also receives the episcleral veins and veins emerging from the sclera, presumably draining deeper structures, together with the larger ciliary emissary veins that emerge from the scleral foramina. The veins leave the anterior surface of the globe over the rectus muscles and dilate in hyperaemia.",
+    "innervation": "Sensory innervation comes from both the ophthalmic and maxillary divisions of the trigeminal nerve through six named branches mapped to regions: the supraorbital, supratrochlear and infratrochlear nerves supply the superior portion, the infraorbital nerve the inferior portion, the lacrimal nerve the lateral portion, and the long ciliary nerves the circumcorneal portion. Wolff adds that these nerves come from the same sources as for the lids, and that the lacrimal and infratrochlear nerves supply a larger proportion of conjunctiva than of skin. Its nerve endings are either simple (naked or free) or specialized - such as the end bulbs of Krause, round capsule-surrounded endings 20-100 μm long - but these special endings are comparatively rare and variable in distribution in the human conjunctiva, the free endings being much more numerous and widespread.",
+    "histology_summary": "A mucous membrane whose structure varies from region to region; only the neonatal conjunctiva is pristine. At the mucocutaneous junction behind the openings of the tarsal glands, keratinized lid skin changes abruptly to non-keratinized, fully nucleated squamous cells about five strata deep; toward the fornix the squamous cells give way to columnar and cuboidal cells and the layer count falls. The polygonal epithelial cells, unlike those of the cornea, lack intercellular bridges and are separated by wider intercellular spaces, joined by desmosomes across highly interdigitating borders. Basal cells carry large electron-dense nuclei with an organelle-free perinuclear halo and attach to an undulating basal lamina by hemidesmosomes, which occupy about 28% of the basal membrane in central cornea versus about 15% at the limbus. Anteriorly the superficial cells are sealed by junctional complexes (zonulae occludentes and adherentes, maculae adhaerentes) that make the surface a semipermeable membrane: lipid-soluble molecules such as chloramphenicol pass from the tears, water-soluble molecules and ions are obstructed, and protein is barred from crossing into the tears. Surface cells are polygonal, mostly hexagonal and often arranged in petalloid rosettes around central cells, 3-20 μm wide at the limbus versus 6-10 μm on the tarsus, and bear a carpet of microvilli about 0.5-1 μm high and 0.5 μm thick with intervillous gaps of 0.5-1 μm; fused microvilli (microplicae) up to 3 μm long also occur, longer in the lower fornix. Actin filaments run from the microvilli into a terminal web, and 0.4-0.8 μm subsurface vesicles deliver a mucoprotein to the surface that forms the glycocalyx responsible for ocular surface wettability — histochemically distinct from goblet mucin and increased in vernal catarrh, contact lens allergy and the denervated eye. Among ocular surface mucin genes, MUC1 (membrane-spanning) is expressed by stratified corneal and conjunctival epithelium but not goblet cells, MUC4 by the stratified epithelium, and MUC5 by goblet cells alone. Goblet cells are round or oval (10-20 μm) with flattened basal nuclei, arise from the basal layer while retaining basement membrane attachment, and discharge mucin through an apical stoma (1-3 μm on the tarsus, 2-5 μm elsewhere) before being shed; they number about 10 per millimetre linearly, are densest nasally, and are absent at the mucocutaneous junction and the limbus; label-retaining goblet cells indicate proliferative capacity, and hyaline bodies (probably degenerate goblet cells) appear in about 25% of elderly bulbar conjunctivas, forming roughly 15% of the superficial epithelial cells. The surface epithelium also ages visibly: mean cell area rises from about 47 μm² at age 30 to about 118 μm² at 54, with microvilli clumping and loss of goblet cells. The limbal conjunctival epithelium is about ten cells deep — roughly twice corneal thickness — and forms the radial palisades of Vogt, whose rete pegs alternate with interpalisade islands containing vessels, nerves and lymphocytes; this palisade epithelium is the generative zone for the corneal epithelium. Melanocytes occur at the limbus, fornix, plica and caruncle and at the perforation sites of the anterior ciliary vessels, giving a brown tinge in heavily pigmented races while remaining amelanotic (but dopa-positive) in Caucasians. Langerhans cells — bone-marrow-derived dendritic cells bearing Fc-IgG and complement receptors and HLA-DR, with ATPase-positive Birbeck granules and no desmosomes, functioning in antigen presentation rather than phagocytosis — are densest in the tarsal conjunctiva (about 4.7 cells/mm²), then fornix (3.1) and bulbar conjunctiva (about 1.0 cells/mm²), falling with age. At the limbus the corneal epithelium becomes conjunctival, though lacking the goblet cells of the bulbar conjunctiva, and superiorly and inferiorly a papillary arrangement appears that gives a distinct palisade pattern. Embryologically, the conjunctiva develops from the ocular surface ectoderm, the same origin as all the other epithelia of the eye, including the corneal and limbal epithelia - a shared developmental source that underlies the continuity of the two surfaces at the limbus. Under chronic actinic load the stroma undergoes elastotic degeneration: basophilic, thickened and fragmented fibres that stain for elastin yet resist digestion by elastase, forming nodular aggregates that may be accompanied by fat or calcified globules, and its subepithelial amorphous deposits may localize advanced glycation end-products, marking the severity of ultraviolet exposure or reduced antioxidant defences. Chronic inflammation of the substantia propria sustains a lymphoplasmacytic infiltrate of plasma cells, mast cells and T lymphocytes, and in brown or black skin a benign epithelial racial melanosis is evident. Constant friction and inflammation, classically from an adherent contact-lens edge, may precipitate early degenerative change. Between the bulbar conjunctiva and Tenon's capsule lies a potential space: when vessels rupture, erythrocytes occupy the substantia propria while the overlying epithelium remains intact. Mechanical trauma or contact-lens wear can additionally produce modest, transient stromal alterations - goblet-cell loss and basement-membrane irregularity - that leave no lasting sequelae, and the limited lymphatic drainage of the region explains why extravasated blood may take one to two weeks or longer to clear.",
+    "clinical_importance": "The goblet-cell mucin it produces is the deepest layer of the precorneal tear film: at each blink conjunctival goblet cells release packets of mucus that spread over the corneal surface, and the fornices act as a tear reservoir holding about 4.5 μL. Loss of goblet cells impairs wetting of the ocular surface even when tear fluid is adequate; mucous crypts decrease in dry eye, pemphigoid and vitamin A deficiency and increase with chronic inflammation, so goblet-cell density is a clinical marker of ocular surface health. Subconjunctival haemorrhage can track from orbital fat beneath the conjunctiva as far as the limbus after basal cranial fracture, and infection within the conjunctival sac can spread to the nose through the lacrimal passages. The semipermeable surface favours penetration of lipid-soluble drugs, while the Langerhans cells and CALT make the conjunctiva an immune-reactive tissue central to ocular surface defence and contact hypersensitivity. Being exposed, it is susceptible to dryness, allergic and chemical irritation, trauma and infection, and systemic diseases — sickle-cell anaemia, type II diabetes, hypertension, carotid artery occlusion and leptospirosis — produce visible changes in its vessels and structure. Clinically it is examined at the slit lamp with fluorescein (for epithelial defects), lissamine green or rose bengal staining graded on the Oxford and NEI scales, the temporal bulbar conjunctiva being viewed with the eye turned nasally and vice versa; of the two vital dyes, lissamine green is better tolerated by patients than rose bengal and is therefore the more frequently used clinically. Conjunctivochalasis — redundant folds, typically inferotemporal and increasingly common with age — may be asymptomatic or associate with dry-eye symptoms and can be treated by thermocautery. Its blood supply has a watershed zone about 3-4 mm from the limbus, and the potential space between Tenon's capsule and the sclera beneath it provides a route for local anaesthesia. Racial pigmentation of the limbal conjunctiva is physiological. The vascular anatomy also explains the patterns of redness in external eye disease: the tarsal conjunctiva is well supplied with blood, hence its red colour; the fornix is red and the bulbar conjunctiva is colourless unless congested. In conjunctivitis the bulbar conjunctiva becomes brick-red, the redness increasing toward the fornix and tarsal plate while the episcleral system is spared, and the congested bulbar vessels move with the conjunctiva and blanch poorly on pressure. Irregularity of the bulbar conjunctival surface, as over a pinguecula, interferes with the normal spreading of the tear film and yields dry-eye symptoms, dellen and a diminished tear break-up time, while an inflamed pinguecula releases histamine, serotonin, bradykinin and prostaglandins from dilated vessels; the ubiquity of such actinic change is illustrated by almost all individuals showing some evidence of pinguecula in their eighties. The conjunctiva is likewise a systemic window: in Gaucher disease and other lysosomal storage disorders a pigmented triangular pinguecula may contain lipid-laden Gaucher cells; ocular surface squamous neoplasia arises in the interpalpebral zone often with a prominent feeder vessel, and conjunctival malignant melanoma presents as a raised, pigmented lesion with its own feeder vessel, so any rapidly growing, elevated or pigmented conjunctival mass warrants tissue diagnosis. Subconjunctival haemorrhage - the commonest benign condition of the surface - follows rupture of these fragile superficial capillaries into the conjunctival-Tenon potential space and resolves spontaneously within 7-14 days through a predictable colour sequence, bright red darkening to deep red and finally yellow-green as haemoglobin is metabolized into biliverdin and bilirubin, with macrophage phagocytosis clearing the erythrocytes and no scarring or permanent pigmentation. Its mechanical precipitants include Valsalva manoeuvres (strenuous lifting, constipation, vomiting, coughing), vigorous eye rubbing and contact-lens wear, while chronic friction from conjunctivochalasis or a pinguecula further increases capillary fragility. The haemorrhage is also a systemic alarm: hypertension is the most consistently documented association although nearly half of spontaneous cases remain idiopathic; anticoagulant and antiplatelet therapy raises the risk even when the INR remains within the therapeutic range; recurrence occurs in about 10% of cases and warrants coagulation review; haemorrhage arising from the fornix in the absence of globe trauma should prompt consideration of a basilar skull fracture; bilateral isolated haemorrhage in an infant, particularly with facial petechiae, must raise non-accidental injury, whereas birth-related haemorrhage after vaginal delivery affects an estimated 1-2% of newborns through venous compression; and vascular lesions such as Kaposi sarcoma, pyogenic granuloma, telangiectasia or haemangioma can masquerade as a haemorrhage that fails to clear within the expected resorption period. In affections of the anterior uvea or cornea (anterior uveitis, keratitis) the ciliary system is congested, and dilatation of the episcleral and limbal vessels gives the characteristic circumcorneal or ciliary injection, in which the vessels do not move when the conjunctiva is moved but blanch on pressure. The bulbar conjunctiva is also the tissue of origin of pterygium - a chronic proliferative, inflammatory and fibrovascular disorder in which conjunctival tissue crosses the limbus and invades the cornea, arising most often from the nasal interpalpebral conjunctiva; ultraviolet-induced limbal stem-cell insufficiency disrupts the limbal barrier and results in conjunctivalization of the cornea, and the nasal predilection is partly explained by the peripheral light-focusing effect, in which sunlight entering through the temporal cornea is refracted and concentrated at the nasal limbus while the longer temporal upper-lid lashes filter light falling on the temporal side. Surgically, the membrane is the standard autograft donor tissue: the donor site of choice is the superotemporal bulbar conjunctiva, deliberately preserved as a reserve for re-harvesting should recurrence require a new graft; the conjunctiva separates easily from the sclera and Tenon's capsule, by blunt dissection or by hydrodissection with balanced salt solution injected beneath it; a limbal graft carries approximately 0.5 mm of limbal and peripheral corneal tissue and re-establishes limbal barrier function; and the donor site regenerates so completely that within about six months it cannot be distinguished from normal conjunctiva. Superiorly and inferiorly the conjunctiva can be mobilized almost to the rectus muscles, and it continues nasally into the semilunar fold."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "conjunctiva",
+      "target_name": "Conjunctiva"
+    },
+    {
+      "relation_type": "superficial_to",
+      "target_id": "sclera",
+      "target_name": "Sclera"
+    },
+    {
+      "relation_type": "continuous_with",
+      "target_id": "corneal_epithelium",
+      "target_name": "Corneal Epithelium"
+    },
+    {
+      "relation_type": "continuous_with",
+      "target_id": "palpebral_conjunctiva",
+      "target_name": "Palpebral Conjunctiva"
+    },
+    {
+      "relation_type": "attached_to",
+      "target_id": "fascia_bulbi",
+      "target_name": "Fascia Bulbi (Tenon's Capsule)"
+    },
+    {
+      "relation_type": "supplied_by",
+      "target_id": "anterior_ciliary_arteries",
+      "target_name": "Anterior Ciliary Arteries"
+    },
+    {
+      "relation_type": "supplied_by",
+      "target_id": "posterior_conjunctival_arteries",
+      "target_name": "Posterior Conjunctival Arteries"
+    },
+    {
+      "relation_type": "innervated_by",
+      "target_id": "trigeminal_nerve",
+      "target_name": "Trigeminal Nerve"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "bulbar conjunctiva",
+      "conjunctiva",
+      "الملتحمة المقلية",
+      "الملتحمة",
+      "goblet cells",
+      "خلايا الكأس",
+      "palisades of Vogt",
+      "conjunctivochalasis",
+      "CALT",
+      "conjunctival veins",
+      "perilimbal venous circle",
+      "ciliary injection",
+      "end bulbs of Krause",
+      "ocular surface ectoderm",
+      "lissamine green",
+      "pterygium",
+      "pinguecula",
+      "subconjunctival haemorrhage",
+      "elastotic degeneration",
+      "conjunctival autograft",
+      "limbal barrier",
+      "النزيف تحت الملتحمة"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "statpearls_conjunctiva",
+      "statpearls_pterygium",
+      "statpearls_pinguecula",
+      "statpearls_sch"
+    ],
+    "last_updated": "2026-10-18",
+    "version": "1.3.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            51,
+            52
+          ]
+        },
+        {
+          "reference_id": "statpearls_conjunctiva",
+          "section": "Introduction; Structure and Function"
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            51,
+            52,
+            71
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "6",
+          "pages": [
+            222
+          ]
+        },
+        {
+          "reference_id": "statpearls_conjunctiva",
+          "section": "Introduction; Muscles"
+        },
+        {
+          "reference_id": "statpearls_pterygium",
+          "section": "Etiology; Epidemiology"
+        },
+        {
+          "reference_id": "statpearls_pinguecula",
+          "section": "History and Physical"
+        },
+        {
+          "reference_id": "statpearls_sch",
+          "section": "Pathophysiology; History and Physical"
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            52,
+            53,
+            66,
+            67
+          ]
+        },
+        {
+          "reference_id": "statpearls_conjunctiva",
+          "section": "Introduction; Structure and Function"
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            52,
+            59,
+            60,
+            61,
+            67,
+            68,
+            69
+          ]
+        },
+        {
+          "reference_id": "statpearls_conjunctiva",
+          "section": "Blood Supply and Lymphatics"
+        },
+        {
+          "reference_id": "statpearls_pterygium",
+          "section": "Epidemiology"
+        },
+        {
+          "reference_id": "statpearls_sch",
+          "section": "Introduction; Pathophysiology; History and Physical"
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            69
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            70
+          ]
+        },
+        {
+          "reference_id": "statpearls_conjunctiva",
+          "section": "Nerves"
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "6",
+          "pages": [
+            222
+          ]
+        },
+        {
+          "reference_id": "statpearls_conjunctiva",
+          "section": "Introduction; Embryology"
+        },
+        {
+          "reference_id": "statpearls_pterygium",
+          "section": "Histopathology"
+        },
+        {
+          "reference_id": "statpearls_pinguecula",
+          "section": "Histopathology; Etiology"
+        },
+        {
+          "reference_id": "statpearls_sch",
+          "section": "Introduction; Histopathology; Pathophysiology"
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            51,
+            52,
+            60,
+            62,
+            68,
+            69,
+            82
+          ]
+        },
+        {
+          "reference_id": "statpearls_conjunctiva",
+          "section": "Physiologic Variants; Surgical Considerations; Clinical Significance"
+        },
+        {
+          "reference_id": "statpearls_pterygium",
+          "section": "Introduction; Etiology; Pathophysiology; Treatment/Management; Deterrence and Patient Education"
+        },
+        {
+          "reference_id": "statpearls_pinguecula",
+          "section": "Etiology; Epidemiology; History and Physical; Differential Diagnosis"
+        },
+        {
+          "reference_id": "statpearls_sch",
+          "section": "Introduction; Etiology; Pathophysiology; History and Physical; Staging; Prognosis; Differential Diagnosis"
+        }
+      ]
+    }
+  ]
+}
