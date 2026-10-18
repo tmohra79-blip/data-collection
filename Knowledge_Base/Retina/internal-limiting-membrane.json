@@ -1,0 +1,214 @@
+{
+  "entity_id": "internal_limiting_membrane",
+  "component_ids": [
+    "comp_retina"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Internal Limiting Membrane",
+    "ar": "الغشاء المحدّد الداخلي",
+    "aliases": [
+      "ILM",
+      "Inner Limiting Membrane",
+      "Membrana limitans interna",
+      "Inner limiting membrane of Elschnig",
+      "Hyaloid membrane of the vitreous (inner portion)",
+      "الغشاء المحدد الداخلي للشبكية",
+      "الغشاء المحدد الداخلي لإلسنيج",
+      "الغشاء الزجاجي"
+    ]
+  },
+  "content": {
+    "definition": "The internal limiting membrane is the innermost layer of the sensory retina and forms the outer boundary of the vitreous body. It is a composite structure to which both the retina and the vitreous contribute, and it consists of four elements: the collagen fibrils and the proteoglycans (mostly hyaluronic acid) of the vitreous, the basement membrane, and the plasma membrane of the Muller cells and possibly of other glial cells (Fig 14.40). The basement membrane is PAS-positive and stains red with Mallory's trichrome, whereas the vitreal contribution is collagenous and stains blue with this method. In the posterior retina the membrane attains a thickness of 0.5-2.0 um.",
+    "location": "The internal limiting membrane lies at the innermost aspect of the sensory retina, between the nerve fibre layer and the vitreous. In the posterior retina it attains a thickness of 0.5-2.0 um; it continues uninterrupted at the fovea, where it is thickest (Heegaard, 1994), but it is absent at the edge of the optic disc. At the periphery of the retina the membrane is continuous with the basal lamina of the ciliary epithelium, and with ageing it becomes generally thicker and interrupted at the ora serrata (Fig 14.7c).",
+    "layers": [
+      "Vitreal collagen fibrils: fibrils of the vitreous that are enmeshed in the vitreal proteoglycans and insert into the basement membrane of the glial cells (Fig 14.40); they constitute the collagenous, blue-staining vitreal contribution to the membrane",
+      "Vitreal proteoglycans: mostly hyaluronic acid, the ground substance in which the vitreal collagen fibrils are enmeshed",
+      "Basement membrane: the PAS-positive basal lamina of the Muller cells, red with Mallory's trichrome; in flat preparations its external portion shows a mosaic pattern in which basement membrane facets fill the pockets formed by the irregularities of the Muller foot processes (Fig 14.41)",
+      "Plasma membrane of the Muller cells: the retinal element of the membrane, formed by the foot processes of the Muller cells and possibly of other glial cells",
+      "Inner limiting membrane of Elschnig: the covering of the superficial nerve fibre layer at the optic nerve head, composed of astrocytes and in continuity with the internal limiting membrane of the retina (Wolff, Ch.15, p.490)"
+    ],
+    "blood_supply": "The internal limiting membrane contains no blood vessels of its own: it is a basement membrane with the plasma membranes of glial foot processes and vitreal collagen fibrils and proteoglycans rather than vascular tissue. It lies internal to the nerve fibre layer, the most superficial vascularized stratum of the sensory retina, whose rich capillary bed accompanies the nerve fibre arcades; the intraretinal capillaries are confined to the layers external to the membrane.",
+    "venous_drainage": null,
+    "innervation": null,
+    "histology_summary": "In flat preparations of the retina (Fig 14.41) the external portion of the internal limiting membrane exhibits a mosaic pattern that depicts the irregularities of the foot processes of the Muller cells (Ashton and Tripathi, 1972); the irregularities form pockets which are filled by the overlying basement membrane, and these pockets are called basement membrane facets. The vitreous portion of the membrane appears smooth in flat sections of the retina, except at the retinal periphery where it may be irregular. In transverse section the transmission electron microscope shows the vitreal collagen fibrils, enmeshed in vitreal proteoglycans, inserting into the basal lamina of the Muller cells, which together with the plasma membrane of their foot processes constitutes the internal limiting membrane (Fig 14.40, x 50 000). The basement membrane is PAS-positive and stains red with Mallory's trichrome, whereas the vitreal contribution is collagenous and stains blue. In the posterior retina the membrane attains a thickness of 0.5-2.0 um; it continues uninterrupted at the fovea, where it is thickest (Heegaard, 1994), but is absent at the edge of the optic disc; at the periphery of the retina it is continuous with the basal lamina of the ciliary epithelium, and with ageing it becomes generally thicker and interrupted at the ora serrata (Fig 14.7c). The inner portion of the membrane is also known as the hyaloid membrane of the vitreous: it gives the posterior retina a characteristic sheen when observed with the ophthalmoscope, and when the vitreous detaches from the retinal surface, as in ageing, artefact or pathological conditions, the posterior surface condenses and produces the 'membrana hyaloidea posterior'. At the optic nerve head, the superficial nerve fibre layer is covered by the inner limiting membrane of Elschnig (1901), which is composed of astrocytes and is in continuity with the internal limiting membrane of the retina; the astrocytes make up approximately 10% of the volume of the nerve head (Quigley, 1986), and glial cells and interaxonal processes, relatively sparse in this region, increase progressively towards the retrolaminar nerve (Minckler, McLean and Tso, 1976).",
+    "clinical_importance": "The internal limiting membrane is the vitreoretinal interface, and its regional differences govern the attachments of the vitreous: the vitreous has a firm attachment to the retina at the optic disc, the fovea and the ora serrata, whereas the site at the fovea is more tenuous, so that the vitreous can detach there and produce an annular ring in ageing and myopic eyes (see also p. 452). The membrane itself is subject to age change: with ageing it becomes generally thicker and interrupted at the ora serrata (Fig 14.7c). Its inner portion, the hyaloid membrane of the vitreous, gives the posterior retina the characteristic sheen seen with the ophthalmoscope, and when the vitreous detaches from the retinal surface — in ageing, artefact or pathological conditions — the posterior surface condenses to form the 'membrana hyaloidea posterior'. The topography of the membrane is equally significant: it is thickest at the fovea (Heegaard, 1994), absent at the edge of the optic disc, and continuous with the basal lamina of the ciliary epithelium at the retinal periphery, while at the nerve head its continuation, the inner limiting membrane of Elschnig, is composed of astrocytes — cells that constitute approximately 10% of the volume of the nerve head (Quigley, 1986). In flat preparations the mosaic pattern of basement membrane facets maps the irregularities of the Muller foot processes (Ashton and Tripathi, 1972), providing the histological picture of the external surface of the membrane."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "retina",
+      "target_name": "Retina"
+    },
+    {
+      "relation_type": "formed_by",
+      "target_id": "muller_cells",
+      "target_name": "Muller Cells (basal lamina and foot-process plasma membranes)"
+    },
+    {
+      "relation_type": "internal_to",
+      "target_id": "nerve_fibre_layer",
+      "target_name": "Nerve Fibre Layer"
+    },
+    {
+      "relation_type": "interface_with",
+      "target_id": "vitreous",
+      "target_name": "Vitreous Body (outer boundary of the vitreous; hyaloid membrane)"
+    },
+    {
+      "relation_type": "continuous_with",
+      "target_id": "ciliary_epithelium",
+      "target_name": "Ciliary Epithelium (basal lamina at the retinal periphery)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "retina",
+      "internal limiting membrane",
+      "ILM",
+      "basal lamina",
+      "basement membrane facets",
+      "Muller cells",
+      "vitreous",
+      "collagen fibrils",
+      "hyaluronic acid",
+      "hyaloid membrane",
+      "membrana hyaloidea posterior",
+      "Elschnig",
+      "astrocytes",
+      "fovea",
+      "ora serrata",
+      "الشبكية",
+      "الغشاء المحدد الداخلي",
+      "الغشاء القاعدي",
+      "الخلايا المولر",
+      "الجسم الزجاجي",
+      "الحافة المسننة",
+      "النقرة"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-10-19",
+    "version": "1.0.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            487,
+            488
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            487,
+            488
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            487,
+            488
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            490
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            463,
+            485,
+            487
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            487,
+            488
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            490
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            487,
+            488
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            490
+          ]
+        }
+      ]
+    }
+  ]
+}

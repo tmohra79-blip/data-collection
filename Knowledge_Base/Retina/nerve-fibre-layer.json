@@ -1,0 +1,200 @@
+{
+  "entity_id": "nerve_fibre_layer",
+  "component_ids": [
+    "comp_retina"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Nerve Fibre Layer",
+    "ar": "طبقة الألياف العصبية",
+    "aliases": [
+      "NFL",
+      "Retinal Nerve Fibre Layer",
+      "Stratum opticum",
+      "طبقة الألياف العصبية للشبكية",
+      "طبقة الألياف العصبية الشبكية"
+    ]
+  },
+  "content": {
+    "definition": "The nerve fibre layer contains the axons of the ganglion cells — the so-called 'centripetal' or 'afferent' fibres — together with glial cells, a rich capillary bed and centrifugal (or efferent) fibres. The axons are arranged in arcades delineated by the processes of the Muller and other glial cells. Individual afferent fibres measure from 0.6 um to 2.0 um in diameter and contain prominent microtubules, mitochondria and smooth endoplasmic reticulum (Fig 14.37).",
+    "location": "The nerve fibre layer lies at the innermost aspect of the sensory retina, between the ganglion cell layer and the internal limiting membrane. The afferent fibres take a radial course parallel to the inner limiting membrane and converge on the optic nerve, except for those axons that arise from the ganglion cells immediately temporal to the optic disc: these are the first to develop and form the centre of the optic nerve, and are distinguished as the papillomacular bundle (Fig 14.39). The axons originating from ganglion cells temporal to the fovea take an increasingly arcuate course to bypass this region, and the superior and inferior fibres are separated at their origin by a horizontal raphe that extends from the fovea to the extreme temporal periphery of the retina (Sigelman and Ozanics, 1982; Tripathi and Tripathi, 1984). The layer is thickest at the nasal edge of the disc, where it measures 20-30 um; its thickness decreases from the optic disc to the ora serrata, where the ganglion cell layer and the nerve fibre layer blend to form a single layer.",
+    "layers": [
+      "Afferent (centripetal) fibres: the axons of the ganglion cells, 0.6-2.0 um in diameter, containing prominent microtubules, mitochondria and smooth endoplasmic reticulum, arranged in arcades delineated by glial processes (Fig 14.37)",
+      "Papillomacular bundle: the axons from ganglion cells immediately temporal to the optic disc — the first to develop and the centre of the optic nerve — and the thinnest portion of the nerve fibre layer around the optic disc",
+      "Glial cells: macroglia (fibrous and protoplasmic astrocytes) and microglia (Sigelman and Ozanics, 1982; Ogden, 1989a,b)",
+      "Rich capillary bed: the intraretinal capillaries that accompany the nerve fibre arcades",
+      "Centrifugal (efferent) fibres: fibres that originate from the central nervous system and terminate in the inner plexiform layer or in the innermost part of the inner nuclear layer"
+    ],
+    "blood_supply": "The nerve fibre layer contains a rich capillary bed; the capillaries accompany the arcades of nerve fibres, and the centrifugal fibres associate with amacrine cells or capillary walls, where they exert vasomotor effects.",
+    "venous_drainage": "The venous blood of the rich capillary bed of the nerve fibre layer returns through the retinal veins into the central retinal vein, the vein of the retina. The central vein of the retina leaves the optic sheath anterior to the central retinal artery and joins a network of venules from the sheath, the ophthalmic artery and the adipose tissue; it drains usually into the superior ophthalmic vein, occasionally into the inferior ophthalmic vein and rarely into the cavernous sinus (Whitnall, 1932; Henry, 1959). The ophthalmic veins and their tributaries have no valves, are tortuous and end in the cavernous sinus.",
+    "innervation": null,
+    "histology_summary": "The afferent fibres of the ganglion cells possess a bidirectional axoplasmic flow that occurs at two rates: at the slow rate (0.5-5 mm/day) the flow carries high-molecular-weight proteins that are utilized for axonal growth, maintenance and repair, while the fast rate (10-2000 mm/day) caters to molecules that are involved in synaptic function (Sigelman and Ozanics, 1982). The axons remain unmyelinated until they reach the lamina cribrosa of the optic nerve. Because the axons are so numerous close to the optic nerve head they become heaped up, especially on the nasal side, which causes an elevation (the papilla) to be formed towards the vitreal surface; thus the nasal aspect of the optic disc is the most susceptible to changes of papilloedema because of its greater collection of nerve bundles and blood vessels. The centrifugal fibres that originate from the central nervous system terminate in the inner plexiform layer or in the innermost part of the inner nuclear layer, and usually associate with amacrine cells or capillary walls, where they exert vasomotor effects. The neuroglial cells present in the nerve fibre layer are categorized as macroglia and microglia (Sigelman and Ozanics, 1982; Ogden, 1989a,b). Macroglia are derived embryonically from the cells of the neural crest and are distinguished as fibrous and protoplasmic astrocytes; the two types display similarities in morphology, such as the presence of prominent cytoplasmic filaments 10 nm in diameter, endoplasmic reticulum, glycogen granules, elongated mitochondria and an occasional centriole and a cilium (Sigelman and Ozanics, 1982). The fibrous astrocytes have many cytoplasmic processes and a dense round or oval nucleus that is located in the nerve fibre layer; they have fewer mitochondria and a greater filament content than is found in protoplasmic astrocytes. The processes of the protoplasmic astrocytes are short and blunt, and they often extend into the inner plexiform layer; their nuclei are irregular in shape and have coarse chromatin granules. Although astrocytes make contact with the abluminal aspect of blood vessels through gap junctions on their pedicles or footplates, they seem to have no role in dispersing nutrients to the neural elements; rather, they function to segregate the receptive surface of neurons from extraneous influences. In response to injury, astrocytes hypertrophy, increasing in number and size, and their proliferation results in the formation of scars in the retinal tissue (Ogden, 1989a,b). Microglia are small cells that are derived from mesodermal invasion of the retina at the time of vascularization (Sigelman and Ozanics, 1982); the cytoplasm of these cells is similar to that of astrocytes but lacks glycogen granules and has fewer filaments, the nucleus has prominent clumps of chromatin and is surrounded by scant cytoplasm, and a distinctive feature of microglial cells is the long and winding configuration of the cisternae of the rough endoplasmic reticulum. These cells populate the retina from the nerve fibre layer to the outer plexiform layer and are the only glial cells present in Henle's fibre layer of the fovea; unlike macroglia, microglial cells do not have a structural role in the retina — they take the role of wandering tissue histiocytes in response to tissue injury and phagocytose debris which is carried to the vasculature for removal from the retina.",
+    "clinical_importance": "The nerve fibre layer is the conduction corridor of the retinal output and a structure of direct clinical sensitivity. Its axons remain unmyelinated until the lamina cribrosa — preserving retinal transparency along the light path — and their bidirectional axoplasmic flow (slow transport at 0.5-5 mm/day for structural proteins, fast transport at 10-2000 mm/day for synaptic molecules) sustains ganglion cell function (Sigelman and Ozanics, 1982). The heaping up of the numerous axons at the optic nerve head, especially on the nasal side, produces the papilla and explains why the nasal aspect of the optic disc is the most susceptible to changes of papilloedema because of its greater collection of nerve bundles and blood vessels; in contrast, the papillomacular bundle is the thinnest portion of the nerve fibre layer around the optic disc and is the last portion of the layer to be affected in papilloedema. The pattern of the fibres — radial course, arcuate fibres around the fovea, and the horizontal raphe separating superior from inferior fibres (Fig 14.39) — underlies the anatomy on which nerve fibre bundle defects are mapped. The glial population responds characteristically to injury: astrocytes hypertrophy and proliferate to form scars in the retinal tissue, while the microglia act as wandering tissue histiocytes that phagocytose debris and carry it to the vasculature for removal (Ogden, 1989a,b), and the vasomotor effects exerted by the centrifugal fibres on capillary walls link the nerve fibre layer to the regulation of its rich capillary bed."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "retina",
+      "target_name": "Retina"
+    },
+    {
+      "relation_type": "internal_to",
+      "target_id": "ganglion_cell_layer",
+      "target_name": "Ganglion Cell Layer"
+    },
+    {
+      "relation_type": "external_to",
+      "target_id": "internal_limiting_membrane",
+      "target_name": "Internal Limiting Membrane"
+    },
+    {
+      "relation_type": "converges_into",
+      "target_id": "optic_nerve",
+      "target_name": "Optic Nerve (at the lamina cribrosa)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "retina",
+      "nerve fibre layer",
+      "NFL",
+      "ganglion cell axons",
+      "papillomacular bundle",
+      "arcades",
+      "raphe",
+      "astrocytes",
+      "microglia",
+      "papilloedema",
+      "الشبكية",
+      "طبقة الألياف العصبية",
+      "الحزمة الحليمية البقريّة",
+      "الخلايا النجمية",
+      "الخلايا الدبقية الصغرى",
+      "وذمة حليمة العصب",
+      "central retinal vein",
+      "الوريد المركزي للشبكية"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-10-19",
+    "version": "1.1.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            485
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            485,
+            486,
+            487
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            485,
+            486,
+            487
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            485,
+            487
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "3",
+          "pages": [
+            99,
+            101
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            491,
+            492
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            485,
+            486,
+            487
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            485,
+            486,
+            487
+          ]
+        }
+      ]
+    }
+  ]
+}

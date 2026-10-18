@@ -1,0 +1,196 @@
+{
+  "entity_id": "ganglion_cell_layer",
+  "component_ids": [
+    "comp_retina"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Ganglion Cell Layer",
+    "ar": "طبقة الخلايا العقدية",
+    "aliases": [
+      "GCL",
+      "Layer of Ganglion Cells",
+      "Ganglionated Layer",
+      "طبقة الخلايا العقدية للشبكية",
+      "طبقة الخلايا الشبكية العقدية"
+    ]
+  },
+  "content": {
+    "definition": "The ganglion cell layer is composed mainly of the cell bodies of the third-order ganglion cells, although other elements such as processes of Muller cells, other neuroglia and branches of retinal vessels are also present. The ganglion cells form a single layer in the peripheral retina (Figs 14.36 and 14.37), but two layers are formed at the temporal side of the optic disc and 6-8 layers at the edge of the foveola (Figs 14.4 and 14.5); at the foveola and the optic nerve head the ganglion cell layer is absent. The depth of the layer ranges from 10 um to 20 um in the nasal retina and from 60 um to 80 um in the macular region.",
+    "location": "The ganglion cell layer lies between the inner plexiform layer and the nerve fibre layer, internal to the former and external to the latter. Some 1.2 million ganglion cells are present in the retina, each of which produces a single axon; these converge and exit from the eye as the optic nerve (Sigelman and Ozanics, 1982; Tripathi and Tripathi, 1984). Adjacent cells are packed closely together, except at the periphery where they are separated by a distance of 400 um. Within the central area of the retina the density of ganglion cells is 32-38,000 cells/mm2 in a horizontally oriented elliptical ring 0.4-2.00 mm from the foveola (Curcio and Allen, 1990); in the peripheral retina the densities in the nasal quadrant exceed those at corresponding eccentricities in the temporal quadrant by more than 300%, and the superior exceeds the inferior by 60%. Overall, the ratio of cones to ganglion cells ranges from 2.9:1 to 7.5:1 in different individuals, and displaced amacrine cells account for 3% of the total cells in the ganglion cell layer in the central retina and nearly 80% in the far periphery (Curcio and Allen, 1990).",
+    "layers": [
+      "Ganglion cell bodies: the third-order neurons, forming a single layer in the peripheral retina, two layers at the temporal side of the optic disc and 6-8 layers at the edge of the foveola",
+      "Muller cell processes: glial processes that accompany and envelop the neuronal somas",
+      "Other neuroglia: additional glial elements of the layer",
+      "Retinal vessel branches: branches of the retinal vessels course within the layer",
+      "Displaced amacrine cells: 3% of the total cells of the layer in the central retina and nearly 80% in the far periphery (Curcio and Allen, 1990)"
+    ],
+    "blood_supply": "Branches of the retinal vessels are present within the ganglion cell layer, in keeping with its position in the vascularized inner half of the sensory retina.",
+    "venous_drainage": "The venous blood of the capillary bed that accompanies the ganglion cell layer, which contains branches of the retinal vessels, returns through the retinal veins into the central retinal vein, the vein of the retina. The central vein of the retina leaves the optic sheath anterior to the central retinal artery and joins a network of venules from the sheath, the ophthalmic artery and the adipose tissue; it drains usually into the superior ophthalmic vein, occasionally into the inferior ophthalmic vein and rarely into the cavernous sinus (Whitnall, 1932; Henry, 1959). The ophthalmic veins and their tributaries have no valves, are tortuous and end in the cavernous sinus.",
+    "innervation": null,
+    "histology_summary": "Ganglion cells are large, with diameters that range from 10 um to 30 um, and are round, piriform or oval in shape; the smaller cells are especially prominent in the macular region. They have a large nucleus and abundant cytoplasm that contain rough endoplasmic reticulum (Nissl substance) and a prominent Golgi apparatus near the nucleus (Fig 14.37); disintegration of the Nissl substance represents an early sign of physiological or pathological disturbance in the retina. Smooth endoplasmic reticulum, mitochondria, lipoidal and pigment granules are dispersed throughout the cytoplasm, and the increase in the number of lipofuscin bodies that occurs with age is thought to account in part for the increase in the yellow colouration of the macula lutea. Ganglion cells have numerous neurofilaments; these make the cytoplasm dense and easily distinguishable from that of Muller cells (Sigelman and Ozanics, 1982). Ganglion cells are multipolar, with dendrites that extend horizontally in the retina and radially into the inner plexiform layer; their non-branching axons are directed towards the nerve fibre layer, where they become aligned parallel to the surface of the inner retina (Fig 14.37). Ganglion cells are classified according to their size, the degree of arborization and spread of their dendrites, and the pattern of synaptic connection with amacrine and bipolar cells; some 18 different types have been described recently, but it is not yet clear whether these merely represent variations of major categories or how their morphology relates to their physiology (Kolb, Linberg and Fisher, 1992). Two major types of cells, designated M (or parasol) and P, with the P cells further subdivided into two subclasses, P1 or midget and P2 or small bistratified, have been identified in the human eye (Fig 14.36). The M cells project to the magnocellular layers of the lateral geniculate body and exhibit non-opponent responses; physiologically, the M cells resemble the alpha-ganglion cells of the cat retina, whereas the P cells seem to be specialized cells in primates for colour vision and have no correlation with any of the feline ganglion cells. The P ganglion cells project to the parvocellular layers. The P1 cells correspond to the midget cell and have the smallest dendritic trees; they exhibit opponent responses to M- and L-wavelength stimuli and receive input from a single cone. The P1 ganglion cells occur as pairs with a high-branching (a-type, which show OFF-centre responses) and low-branching (b-type, which show ON-centre responses) member across the entire retina (Kolb and DeKorver, 1991; Kolb, Linberg and Fisher, 1992); at the fovea, P1 cells constitute 90% of the total ganglion cell population, and in this region their elongated cell bodies measure 8 um x 12 um, but the size enlarges and reaches a maximum of 14 um x 16 um at a distance of 8 mm from the fovea, where they account for 40-45% of all ganglion cells (Dacey, 1994). The single apical dendrite has few terminals, covers an area 5-7 um in diameter and shows limited branching in the outer (a-type) or inner (b-type) one-third of the inner plexiform layer (Kolb and DeKorver, 1991; Dacey, 1993a,b); the a-type cells synapse with the axon terminals of the flat midget bipolar cells and the b-type with the invaginating bipolar cells. Between 55 and 81 ribbons are present at the dyad or monad terminals, and the number of amacrine cell processes that synapse onto the dendritic tree of these ganglion cells is approximately equal to the number of bipolar ribbon inputs (Kolb and DeKorver, 1991). The spread of the P1 dendrites is 5-10 um in the central retina, but increases tenfold between 2 mm and 6 mm eccentricity, and reaches a maximum of 225 um at the periphery (Kolb, 1991; Dacey and Petersen, 1992; Dacey, 1993a,b). At the fovea it is difficult to distinguish P1 cells from P2 cells; however, 1.5 mm from the foveola the P2 cells are noticeably larger (Fig 14.38), with a dendritic field that measures 30-50 um across, up to 60 um at 8 mm from the centre of the fovea, and 400 um at the far periphery (Dacey, 1993a,b); P2 cells exhibit a strong blue-ON response to stimulation of the S-cones (Dacey and Lee, 1994) and represent 1% of the total ganglion cells at the fovea and 10% at the periphery of the retina (Dacey, 1994). Overall, the M cells have larger cell bodies than do the P cells, and their dendritic trees cover an area 25-30 um in diameter, which increases to 160 um at 8 mm from the foveola and to 270 um at 14 mm (Dacey and Petersen, 1992); at the periphery of the retina the M cell body is 25-30 um and gives rise to two or more thick dendrites (Fig 14.38b). M cells constitute 5% of the total ganglion cell population at the fovea and 20% at the periphery of the retina (Dacey, 1994).",
+    "clinical_importance": "The ganglion cell layer provides the output of the retina to the brain: the axons of its approximately 1.2 million neurons converge to form the optic nerve, and the proportion of cones to ganglion cells (2.9:1 to 7.5:1 in different individuals) quantifies the convergence of retinal processing. The dual P and M systems establish two parallel channels to the lateral geniculate body: the parvocellular P cells — P1 midget cells with opponent responses to M- and L-wavelength stimuli receiving input from a single cone, and P2 small bistratified cells with a strong blue-ON response to S-cone stimulation (Dacey and Lee, 1994) — subserve colour vision and high acuity, while the magnocellular M cells with their large, rapidly converging dendritic trees carry non-opponent responses. The foveal specialization of the layer is striking: 6-8 nuclear layers at the edge of the foveola, 90% of the foveal ganglion population being P1 midget cells with elongated 8 x 12 um cell bodies, and complete absence of the layer at the foveola and optic nerve head. The topographic density gradients — a central peak of 32-38,000 cells/mm2 in an elliptical ring 0.4-2.00 mm from the foveola, nasal dominance exceeding the temporal quadrant by more than 300%, and a superior superiority of 60% (Curcio and Allen, 1990) — define the regional resolution of the retinal output. The disintegration of the Nissl substance as an early sign of physiological or pathological disturbance, the accumulation of lipofuscin with age contributing to the yellow colouration of the macula lutea, and the abundance of neurofilaments that distinguishes ganglion cell cytoplasm from that of Muller cells are the histological correlates used in interpreting retinal disease and ageing (Sigelman and Ozanics, 1982)."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "retina",
+      "target_name": "Retina"
+    },
+    {
+      "relation_type": "internal_to",
+      "target_id": "inner_plexiform_layer",
+      "target_name": "Inner Plexiform Layer"
+    },
+    {
+      "relation_type": "external_to",
+      "target_id": "nerve_fibre_layer",
+      "target_name": "Nerve Fibre Layer"
+    },
+    {
+      "relation_type": "gives_rise_to",
+      "target_id": "optic_nerve",
+      "target_name": "Optic Nerve (axons of the ganglion cells)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "retina",
+      "ganglion cell layer",
+      "GCL",
+      "ganglion cells",
+      "P cells",
+      "midget",
+      "parasol",
+      "M cells",
+      "magnocellular",
+      "parvocellular",
+      "Nissl substance",
+      "الشبكية",
+      "طبقة الخلايا العقدية",
+      "الخلايا العقدية",
+      "العصب البصري",
+      "central retinal vein",
+      "الوريد المركزي للشبكية"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-10-19",
+    "version": "1.1.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            484
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            484,
+            485
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            484,
+            485
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            484
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "3",
+          "pages": [
+            99,
+            101
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            491,
+            492
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            484,
+            485,
+            486
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            484,
+            485,
+            486
+          ]
+        }
+      ]
+    }
+  ]
+}
