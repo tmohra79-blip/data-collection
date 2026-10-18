@@ -1,0 +1,119 @@
+{
+  "entity_id": "photoreceptor_layer",
+  "component_ids": ["comp_retina"],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Photoreceptor Layer (Layer of Rods and Cones)",
+    "ar": "طبقة العصيات والمخاريط (المستقبلات الضوئية)",
+    "aliases": ["Layer of Rods and Cones", "Rods and Cones", "Retinal Photoreceptors", "العصيات والمخاريط", "طبقة المستقبلات الضوئية للشبكية"]
+  },
+  "content": {
+    "definition": "The photoreceptor layer — the layer of rods and cones — is the first neuronal layer of the sensory retina and contains the primary neurons of the visual pathway: between 77.9 and 107.3 million rods (average 92 million) and 4.08 to 5.29 million cones (average 4.6 million) in the human eye, arranged as a mosaic. With their end organs, perikarya, axonal processes and synapses the photoreceptors constitute the layer of rods and cones, the outer nuclear layer and the outer plexiform layer. Each receptor has two morphologically distinct regions, the inner and outer segments, the outer segment being embedded in the interphotoreceptor matrix just internal to the retinal pigment epithelium. Rods mediate scotopic vision through the visual purple rhodopsin, whereas photopic vision originates in the cones through three iodopsins.",
+    "location": "The layer extends as a continuous mosaic across the whole sensory retina. Its outer segments lie embedded in the interphotoreceptor matrix immediately internal to the retinal pigment epithelium, and the cell bodies of the receptors sit in the outer nuclear layer, internal to the external limiting membrane. The two cell types are distributed differently: cone density is maximal at the fovea (average 199,000 cones/mm2, range 100,000-324,000) and decreases rapidly with eccentricity, remaining 40-45% greater on the nasal than on the temporal aspect; the foveola is rod-free, the rod-free area measuring about 0.35 mm in horizontal diameter (1.25 degrees of visual field). Rod density is highest along a broad horizontally oriented ellipse at the eccentricity of the optic disc centre, extending toward the nasal and superior retina, and decreases slowly to the far periphery; the nasal retina has 20-25% more rods than the temporal, and a 1 mm wide cone-enriched rim reappears at the periphery, best developed along the nasal margin.",
+    "layers": [
+      "Outer segment (rod): cylindrical, 25-28 um long and 1-1.5 um wide, containing 600-1000 flattened discs (22.5-24.5 nm thick, average interdisc space 21 nm) that hold 90% of the visual pigment; the discs have no attachments to one another or to the ensheathing plasma membrane, whose external aspect is covered by a layer of neurokeratin",
+      "Outer segment (cone): short and conical at the ora serrata and periphery, long and rod-like at the fovea, with more discs than rods (1000-1200 per cone) and wider intradisc (3.5 nm) and interdisc (16.5 nm) spaces; unlike rod discs, cone discs are attached to each other and to the surface plasma membrane over short segments of their circumference, and the outer segment measures 6 um in diameter at the base and 1.5 um at the tip",
+      "Connecting cilium: a modified cilium joining the outer to the inner segment through a marked constriction 0.3 um in width and 1 um in length, arising from one of a pair of centrioles in the outer ellipsoid, with nine microtubule doublets that become nine singlets toward the outer segment; in rods the emerging cilium is surrounded by a calyx of 9-12 microvilli extending about 12.5 um over the outer segment surface",
+      "Inner segment - ellipsoid: the outer eosinophilic region, packed with long slender mitochondria (usually 20-30 per cross-section in rods, 200-300 in cones) together with smooth endoplasmic reticulum, neurotubules, free ribosomes and glycogen granules",
+      "Inner segment - myoid: the inner basophilic region and site of major protein synthesis, housing rough endoplasmic reticulum, glycogen granules and a Golgi apparatus, with microtubules and microfilaments running parallel to the cell axis",
+      "Outer fibre: a thin cytoplasmic process extending from the basal portion of the inner segment through the external limiting membrane to the perikaryon in the outer nuclear layer (short and wide in cones, whose nuclei lie closely apposed to the membrane)",
+      "Cell body and synaptic terminal: perikarya in the outer nuclear layer (rod nuclei about 5.5 um and cone nuclei 5-7 um in diameter), whose axonal processes end in small rod spherules and larger cone pedicles"
+    ],
+    "blood_supply": "No intrinsic blood vessels — the photoreceptor layer is avascular. Its nutrition derives from the choriocapillaris of the choroid: nutrients diffuse through the basal lamina and the paracellular space and must pass selectively through the retinal pigment epithelium to reach the sensory retina and its receptors.",
+    "venous_drainage": "None of its own — the layer contains no vessels and has no venous drainage of its own; its metabolic exchange with the circulation occurs indirectly across Bruch's membrane with the choriocapillaris of the choroid.",
+    "innervation": null,
+    "histology_summary": "Flat preparations show the photoreceptors arranged as a mosaic whose density varies topographically; the greatest individual variability occurs near the fovea and at the ora serrata and is minimal at the mid-periphery, while the rod and cone counts of the two eyes of one individual agree within 8% (Curcio et al., 1990). Mean centre-to-centre cone spacing increases from 2.53 um to 6.16 um with eccentricity (9-17% of the mean), the mosaic deviates from the ideal 60-degree hexagonal arrangement by up to 14-25%, and the Nyquist limits give an anatomical resolving power of 48-86 cycles/degree with a mean of 66 (Curcio et al., 1990; Hirsch and Curcio, 1989). The living retina is purplish-red from the visual pigment rhodopsin incorporated in the rods; the colour disappears rapidly on exposure to light and 5-10 minutes after death the retina becomes white and semi-transparent (Tripathi and Tripathi, 1984). Rod outer segments are cylindrical (25-28 um long, 1-1.5 um wide) and contain stacks of 600-1000 flattened discs, 22.5-24.5 nm thick with an average 21 nm interdisc space; the discs carry no specialized attachments to one another or to the ensheathing plasma membrane, peripheral clefts appear as surface furrows, the exterior is covered by neurokeratin, and the discs contain 90% of the visual pigment, the remainder lying on the plasmalemma (Sigelman and Ozanics, 1982). Cone outer segments are short and conical at the ora serrata but long and rod-like at the fovea, contain more discs (1000-1200) with wider intradisc (3.5 nm) and interdisc (16.5 nm) spaces, and — unlike rod discs — their discs are attached to each other and to the surface plasma membrane over short segments of their circumference, so they are not easily detached, although cone outer segments are relatively more fragile than those of rods; cone outer segment diameter is 6 um at the base and 1.5 um at the tip (Sigelman and Ozanics, 1982; Tripathi, 1984). Outer and inner segments are connected through a cytoplasmic isthmus carrying a modified cilium (constriction 0.3 um wide, 1 um long) whose nine doublets of microtubules become nine singlets toward the outer segment, and in rods the cilium emerges surrounded by a calyx of 9-12 microvilli that extends about 12.5 um over the outer segment; the exact function of the cilium is unknown and it may represent an evolutionary vestige. The inner segment consists of an outer eosinophilic ellipsoid packed with long slender mitochondria (20-30 per cross-section in rods versus 200-300 in cones) and an inner basophilic myoid, the site of major protein synthesis, containing rough endoplasmic reticulum, free ribosomes, glycogen granules and a Golgi apparatus; a thin outer fibre crosses the external limiting membrane to the perikaryon. Along the myoids of both rods and cones, villus-like extensions of Muller cells form the fibre baskets of Schultze, with no communications between adjacent myoids; these villi probably regulate the composition of the extracellular milieu of the photoreceptors and maintain their precise alignment (Sigelman and Ozanics, 1982). Total segment lengths are 40-60 um for rods throughout the retina, while cones measure up to 80 um at the fovea and 40 um at the periphery, where the ora serrata end organs are short and stout (~4 um). Visual pigments are formed by the attachment of the protein opsin to retinal, the aldehyde of vitamin A: rhodopsin (greatest sensitivity at 495 nm) in rods serves scotopic vision, and the three cone iodopsins peak at 440 nm (blue, S), 540 nm (green, M) and 577 nm (orange, L) (Dacey and Lee, 1994). Blue (S) cones are morphologically identifiable by a longer inner segment, larger diameter and increased staining intensity (Ahnelt, Kolb and Plug, 1987); they form 3-5% of the photoreceptors at the foveal centre and 7-10% of the total cone population, are absent from a central zone about 100 um (0.35 degrees) in diameter and reach their highest density (>2000 cells/mm2) in a ring at 0.1-0.3 mm eccentricity (Curcio et al., 1991); an additional ultraviolet-sensitive cone exists in the avian retina (Cserhati, Szel and Rohlich, 1989). Selective stains distinguish the receptors: with Unna's orcein-polychrome methylene blue-tannin the rod outer segments are colourless and the cones deep blue; with Mallory's trichrome after Zenker's fluid the rod inner segments stain blue and the cone inner segments red, so that a uniformly red foveola demonstrates its lack of rods; and in the outer nuclear layer the rod nuclei stain orange while cone nuclei stain red with Mallory's (and often Heidenhain's azan) stain.",
+    "clinical_importance": "The composition and maturation of the photoreceptor mosaic set the limits of vision. The rod-free foveola (0.35 mm across, about 1.25 degrees) is the seat of highest acuity, and the anatomical resolving power derived from cone spacing (Nyquist limits of 48-86 cycles/degree, mean 66) closely matches psychophysical acuity (53-60 cycles/degree), with overlap only between about 0.2 and 2.0 degrees of eccentricity — evidence that foveal optics and neural processing beyond the sampling stage also contribute (Hirsch and Curcio, 1989; Curcio et al., 1990; Williams, 1988). Development is clinically decisive: visual acuity in neonates is two orders of magnitude lower than in adults, adult foveal cone packing density is not attained until 15-18 months, human cone density increases until 5-8 years, and virtually all of the gain in visual acuity after the first year reflects maturation of the fovea; defects in foveal development account at least in part for the reduced visual acuity of ocular albinism, in which the adult fovea remains comparable to that of a neonate both morphologically and psychophysically (Boothe, Dobson and Teller, 1985; Packer, Hendrickson and Curcio, 1990; Hendrickson, 1994; Jacobs and Blakemore, 1988; Guillery et al., 1984; Wilson et al., 1988a,b). Structurally, the attachments between cone discs and the plasmalemma make cone outer segments difficult to detach yet relatively more fragile than rods — a contrast relevant to retinal detachment, in which the sensory retina separates from the pigment epithelium across the interphotoreceptor matrix, whose lack of adhesion molecules leaves the receptors loosely bound to the RPE. The renewal of rod discs depends on their daily phagocytosis by the pigment epithelium (30-40 discs per rod per day), and the retinal chromophore of all visual pigments is the aldehyde of vitamin A, tying the receptors to the retinol-recycling function of the RPE. The absence of blue (S) cones from the central fovea and their peak density in a parafoveal ring map the receptor substrate for colour vision across the foveal region, and the Muller-cell fibre baskets of Schultze hold the rods and cones in precise alignment, on which the optical quality of the retinal image depends."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "retina",
+      "target_name": "Retina"
+    },
+    {
+      "relation_type": "interdigitated_with",
+      "target_id": "retinal_pigment_epithelium",
+      "target_name": "Retinal Pigment Epithelium"
+    },
+    {
+      "relation_type": "embedded_in",
+      "target_id": "interphotoreceptor_matrix",
+      "target_name": "Interphotoreceptor Matrix"
+    },
+    {
+      "relation_type": "attached_to",
+      "target_id": "external_limiting_membrane",
+      "target_name": "External Limiting Membrane"
+    }
+  ],
+  "metadata": {
+    "keywords": ["retina", "photoreceptors", "rods", "cones", "rod outer segment", "cone outer segment", "rhodopsin", "iodopsin", "connecting cilium", "cone density", "photoreceptor mosaic", "fovea", "الشبكية", "المستقبلات الضوئية", "العصيات", "المخاريط", "الرودوبسين", "طبقة العصيات والمخاريط"],
+    "references": ["wolff_anatomy"],
+    "last_updated": "2026-10-17",
+    "version": "1.0.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [460, 465] },
+        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [467, 468] }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [465, 466] },
+        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [467] },
+        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [473] }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [468, 469, 470, 471, 473] }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [463] }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [463] }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [465, 466, 467, 468, 469, 470, 471, 472, 473] }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [466, 467] },
+        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [461, 463, 464] },
+        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [468] },
+        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [470, 471] }
+      ]
+    }
+  ]
+}

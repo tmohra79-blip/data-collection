@@ -1,0 +1,198 @@
+{
+  "entity_id": "inner_plexiform_layer",
+  "component_ids": [
+    "comp_retina"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Inner Plexiform Layer",
+    "ar": "الطبقة الشبكية الداخلية",
+    "aliases": [
+      "IPL",
+      "Inner Synaptic Layer",
+      "الطبقة الشبكية الداخلية للشبكية",
+      "طبقة المشابك الداخلية"
+    ]
+  },
+  "content": {
+    "definition": "The inner plexiform layer marks the junction of the second-order neurons, the bipolar cells, with the third-order neurons, the ganglion cells (Figs 14.1 and 14.36). Although the bipolar cell terminals provide input to this layer and the ganglion cells carry the output, the amacrine cells also mediate interactions within the layer and the interplexiform cells receive input from the amacrine cells. In addition to the synaptic connections among bipolar, ganglion, amacrine and interplexiform cells, the inner plexiform layer contains processes of the Muller cells, an abundant microvasculature and an occasional displaced nucleus of a ganglion or amacrine cell. The layer is thicker (18-36 um), has more synapses per unit area (more than 2 million per mm2) and contains a greater variety of synapses than the outer plexiform layer, and it is absent from the foveola.",
+    "location": "The inner plexiform layer lies between the inner nuclear layer externally and the ganglion cell layer internally. It is absent from the foveola, whose bipolar cell fibres are displaced to the foveal slope, and its synapses are distributed in strata: the axon terminals of the different bipolar cell types end at defined levels, such as stratum 1 immediately under the amacrine cell bodies for the OFF-centre BBa bipolar, stratum 5 for the ON-centre BBb bipolar, and strata 1 and 4 for the giant diffuse bipolar cell, while the synapses of the amacrine cells have a stratified distribution with two main layers recognized at the foveal slope, increasing to five strata in the peripheral retina (Koontz and Hendrickson, 1987).",
+    "layers": [
+      "Synaptic elements: the axon terminals of the bipolar cells (input), the dendrites and somas of the ganglion cells (output), and the processes of the amacrine and interplexiform cells",
+      "Stratification: bipolar axon terminals end in defined strata (BBa OFF-centre in stratum 1, BBb ON-centre in stratum 5, giant diffuse in strata 1 and 4); amacrine synapses are stratified in two main layers at the foveal slope and five strata in the peripheral retina (Koontz and Hendrickson, 1987)",
+      "Muller cell processes: glial processes course through the layer between the neural elements",
+      "Microvasculature: an abundant microvasculature accompanies the synaptic strata",
+      "Displaced neurons: an occasional displaced nucleus of a ganglion or amacrine cell"
+    ],
+    "blood_supply": "The inner plexiform layer contains an abundant microvasculature, in keeping with its position within the vascularized inner half of the sensory retina; this microcirculation accompanies the synaptic strata of the layer.",
+    "venous_drainage": "The venous blood of the abundant microvasculature of the inner plexiform layer returns through the retinal veins into the central retinal vein, the vein of the retina. The central vein of the retina leaves the optic sheath anterior to the central retinal artery and joins a network of venules from the sheath, the ophthalmic artery and the adipose tissue; it drains usually into the superior ophthalmic vein, occasionally into the inferior ophthalmic vein and rarely into the cavernous sinus (Whitnall, 1932; Henry, 1959). The ophthalmic veins and their tributaries have no valves, are tortuous and end in the cavernous sinus.",
+    "innervation": null,
+    "histology_summary": "The axons of the bipolar cells in this layer have an abundance of neurotubules and neurofilaments, as well as occasional mitochondria (Sigelman and Ozanics, 1982). Bipolar cells make contact with the processes of amacrine cells and the dendrites of ganglion cells: two elements are present at the synapse in an arrangement known as a 'dyad', and most often in the human retina one of these elements is a dendrite of a ganglion cell and the other is a process of an amacrine cell — this seems to correlate with the presence of many contrast-sensitive ganglion cells. Occasionally two amacrine cell processes or, more rarely, two dendrites of ganglion cells are present. A ribbon synapse, similar to those in the photoreceptor spherules and pedicles, is a characteristic that is unique to bipolar cells in the inner plexiform layer. The dendritic tips of all bipolar cells have receptors for GABA-A (Vardi and Sterling, 1994); immunoreactivity for this receptor is strongest on membrane apposed to horizontal cells, but is also concentrated on the tips of flat and invaginating bipolar and rod bipolar cells as well as at the base of the cone pedicles. The presence of the GABA-A receptor on bipolar dendritic tips suggests that horizontal cells can affect bipolar cells directly, and its presence on the bipolar axon terminals suggests that inhibitory feedback from amacrine cells is mediated by GABA-A (Vardi and Sterling, 1994). The processes of amacrine cells interface with bipolar cell axons, with somas and dendrites of ganglion cells and with processes of other amacrine cells through conventional synapses, and the interplexiform cells also have conventional synapses, mainly with the amacrine cells. Two distinct synapses are unique to the amacrine cells: the reciprocal and the serial synapse. In the reciprocal synapse, the process of an amacrine cell in a dyad causes a nearby synapse to back onto the bipolar terminal, thus allowing for feedback between amacrine and bipolar cells near the ribbon synapse. The serial synapse consists of two consecutive synapses between two amacrine processes and a third synapse with a ganglion cell dendrite, a bipolar axon or another amacrine process; this network fosters local interaction between neighbouring amacrine cells. The synapses of amacrine cells have a stratified distribution: at the foveal slope two main layers are recognized, whereas in the peripheral retina this increases to five strata (Koontz and Hendrickson, 1987).",
+    "clinical_importance": "The inner plexiform layer is the processing station of the inner retina: with more than 2 million synapses per mm2 and a greater variety of synapses than the outer plexiform layer, it is here that the bipolar signals are shaped into the output of the ganglion cells. The dyad arrangement — most often a ganglion cell dendrite paired with an amacrine process at the bipolar terminal — correlates with the presence of many contrast-sensitive ganglion cells, and the ribbon synapse unique to bipolar cells in this layer marks their efferent output. The GABA-A receptors on the bipolar dendritic tips and axon terminals mediate direct horizontal cell influence on bipolar cells and inhibitory feedback from amacrine cells (Vardi and Sterling, 1994), while the reciprocal and serial synapses of the amacrine cells provide the local feedback and neighbour-to-neighbour interactions of the layer. The stratification of the synapses — bipolar terminals of defined types ending in specific strata such as stratum 1 for the OFF-centre BBa and stratum 5 for the ON-centre BBb bipolar cells, and amacrine synapses in two layers at the foveal slope increasing to five strata peripherally (Koontz and Hendrickson, 1987) — forms the anatomical substrate of the ON and OFF channels that carry opposite contrast polarity to the ganglion cells. The abundance of the microvasculature of the layer reflects the metabolic demands of this synaptic machinery, and the absence of the inner plexiform layer from the foveola is part of the foveal specialization for maximal acuity."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "retina",
+      "target_name": "Retina"
+    },
+    {
+      "relation_type": "internal_to",
+      "target_id": "inner_nuclear_layer",
+      "target_name": "Inner Nuclear Layer"
+    },
+    {
+      "relation_type": "external_to",
+      "target_id": "ganglion_cell_layer",
+      "target_name": "Ganglion Cell Layer"
+    },
+    {
+      "relation_type": "receives_input_from",
+      "target_id": "bipolar_cells",
+      "target_name": "Bipolar Cells (second-order neurons)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "retina",
+      "inner plexiform layer",
+      "IPL",
+      "dyad",
+      "ribbon synapse",
+      "reciprocal synapse",
+      "serial synapse",
+      "GABA-A receptor",
+      "stratification",
+      "الشبكية",
+      "الطبقة الشبكية الداخلية",
+      "المشابك الداخلية",
+      "الثنائيات المشبكية",
+      "central retinal vein",
+      "الوريد المركزي للشبكية"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-10-19",
+    "version": "1.1.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            482,
+            483
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            480,
+            482,
+            483,
+            484
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            482,
+            483,
+            484
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            482
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "3",
+          "pages": [
+            99,
+            101
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            491,
+            492
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            482,
+            483,
+            484
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            480,
+            482,
+            483,
+            484
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -97,15 +97,36 @@ For every anatomical entity we will extract:
 
 ---
 
-#  Chapter 6 – Progress Log
+# Chapter 6 – Progress Log
 
 This section will be updated after every completed entity.
 
-- [ ] Corneal Epithelium
-- [ ] Bowman's Layer
-- [ ] Stroma
-- [ ] Descemet's Membrane
-- [ ] Corneal Endothelium
+## Cornea (5/5 complete — validated)
+
+- [x] Corneal Epithelium
+- [x] Bowman's Layer
+- [x] Stroma
+- [x] Descemet's Membrane
+- [x] Corneal Endothelium
+
+## Retina (10/10 complete — validated)
+
+Source: Wolff's Anatomy of the Eye and Orbit, 8th edition — Chapter 14, The Retina (pp. 454–487).
+
+- [x] RET-001 Retinal Pigment Epithelium (RPE)
+- [x] RET-002 Photoreceptor Layer (Layer of Rods and Cones)
+- [x] RET-003 External Limiting Membrane (ELM)
+- [x] RET-004 Outer Nuclear Layer (ONL)
+- [x] RET-005 Outer Plexiform Layer (OPL)
+- [x] RET-006 Inner Nuclear Layer (INL) — v1.1.0
+- [x] RET-007 Inner Plexiform Layer (IPL) — v1.1.0
+- [x] RET-008 Ganglion Cell Layer (GCL) — v1.1.0
+- [x] RET-009 Nerve Fibre Layer (NFL) — v1.1.0
+- [x] RET-010 Internal Limiting Membrane (ILM)
+
+> **Enrichment note:** The four inner layers (INL, IPL, GCL, NFL) were enriched to v1.1.0 with documented venous drainage — central retinal vein → superior/inferior ophthalmic veins → cavernous sinus — sourced from Wolff Ch.3 (pp. 98–102) and Ch.15 (pp. 489–492). The ILM card additionally incorporates the inner limiting membrane of Elschnig (1901) from Ch.15 (p. 490).
+
+> **Validation:** `python validate.py schemas Knowledge_Base` → 15 passed, 0 failed.
 
 ---
 
