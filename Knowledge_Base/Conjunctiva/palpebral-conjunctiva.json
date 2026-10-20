@@ -1,0 +1,313 @@
+{
+  "entity_id": "palpebral_conjunctiva",
+  "component_ids": [
+    "comp_conjunctiva"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Palpebral Conjunctiva",
+    "ar": "الملتحمة الهدبية",
+    "aliases": [
+      "Tarsal Conjunctiva",
+      "الملتحمة الرصغية",
+      "ملتحمة الجفن",
+      "Lid Conjunctiva"
+    ]
+  },
+  "content": {
+    "definition": "The palpebral conjunctiva is the portion of the conjunctiva that lines the posterior (inner) surface of the eyelids, extending from the mucocutaneous junction at the lid margin to the conjunctival fornix, and is firmly adherent to the tarsus in its tarsal zone. It is subdivided into marginal, tarsal and orbital zones. Together with the bulbar conjunctiva it bounds the conjunctival sac, which normally contains about 7 microlitres of tear fluid but can accommodate up to 30 microlitres; instilled eyedrops in excess of this volume are either drained by the lacrimal sac or overflow the lids.",
+    "location": "The palpebral conjunctiva lines each lid from the lid margin to the fornix. The marginal zone is a transition zone between skin and the conjunctiva proper, beginning at the mucocutaneous junction posterior to the openings of the tarsal glands and continuing on the back of the lid for about 2 mm (Parsons) to the shallow subtarsal fold, near which the perforating vessels traverse the tarsus. The tarsal zone covers the tarsal plate and is intimately adherent to the superior tarsus - almost impossible to separate by dissection - whereas the lower tarsal conjunctiva is adherent for only half the tarsal width. The orbital zone lies between the upper border of the tarsal plate and the fornix, loosely attached to the subjacent non-striated palpebral muscle (of Mueller); it is folded horizontally by movement, most when the eyes are open and least when they are shut, and these folds are a postnatal development. Low magnification shows, just above the superior tarsal plate, a mosaic of low elevations (Stieda's plateaux and grooves) which are not true papillae and may encroach up to halfway across the tarsal conjunctiva. In the conjunctival sac diagram (Fig 2.30) the superior palpebral conjunctiva comprises orbital and tarsal zones, while the inferior comprises marginal, tarsal and orbital zones. Viewed in cross-section the lid layers run from superficial to deep as skin, orbicularis oculi, tarsus and then the palpebral conjunctiva as the innermost lining (Shumway et al., 2023). The non-striated superior palpebral muscle (of Mueller), to which the orbital zone is loosely attached, originates from the inferior aspect of the levator palpebrae superioris just behind the fornix and inserts onto the superior border of the superior tarsal plate; StatPearls gives its size as approximately 15 mm wide and 10 mm long, while Wolff gives 15-20 mm wide and 10 mm in length, and places it in fatty connective tissue between the tendon of the levator in front and the fascia bulbi and conjunctiva behind, helping to limit the pretrasal space (Dave et al., 2024; printed 150). Extending laterally from the superior palpebral muscle a slip of non-striated muscle splits to surround the palpebral lobe of the lacrimal gland, and a much slighter slip extends from the fascia bulbi to the medial end of the superior tarsal border (printed 150). Below, the inferior palpebral muscle (inferior lid retractor) forms the central part of the capsulopalpebral muscle (of Hesser), passing from the ocular surface of the inferior rectus toward the lower border of the tarsal plate (printed 150, continuing on 151); the capsulopalpebral muscle has superior, inferior and medial palpebral parts deficient laterally, and only its superior palpebral part displays definable attachments (printed 150).",
+    "layers": [
+      "Epithelium and submucosal lamina propria: as a mucous membrane the conjunctiva has an epithelium and a submucosa whose superficial lymphoid and deep fibrous layers extend to the limbus.",
+      "Marginal-zone epithelium: abrupt change from keratinized skin to non-keratinized squamous cells in about five strata, all nucleated, with the basal epithelium retaining papillae; the deepest cells remain cylindrical while squamous cells are gradually replaced by columnar and cubical cells toward the conjunctival sac.",
+      "Submucosa: the fibrous layer is generally thicker than the lymphoid layer except over the tarsal plate, with which it blends and which contains the conjunctival vessels, nerves and glands of Krause.",
+      "Lymphoid layer: 50-70 micrometres, thickest in the fornices, ending at the subtarsal fold so that lymphocytes are absent from the marginal conjunctiva; plasma cells and mast cells are found only in the submucosa of the perilimbal and tarsal regions (Allansmith, Greiner and Baird, 1978).",
+      "Glands: the accessory lacrimal glands of Wolfring (two to five above the superior tarsus or within its upper border near the mid point, and two within the lower edge of the inferior tarsus) lie in the tarsal plates and drain through short, wide excretory ducts.",
+      "Regional epithelial thickness (concordance): the conjunctival epithelium is 3 to 5 cell layers thick, with cuboidal basal cells that become more flattened toward the surface, non-keratinized with interspersed goblet cells (Shumway et al., 2023) - agreeing with Wolff's five-strata marginal-zone epithelium.",
+      "Substantia propria: the conjunctival submucosa is a tissue layer that exists only in the conjunctiva and in no other eye tissue; it houses numerous lymphocytes, mast cells, plasma cells and neutrophils, while the deepest fibrous layer carries the nerves and vessels of the conjunctiva and also contains the glands of Krause (Shumway et al., 2023)."
+    ],
+    "blood_supply": "The arterial supply of the conjunctiva is from four sources: the peripheral tarsal arcades, the marginal tarsal arcades, the anterior ciliary arteries and the deep ciliary system. The peripheral tarsal arcade runs at the upper border of the tarsus between the two parts of the levator; its peripheral perforating branches pass above the tarsal plate, pierce the palpebral muscle and divide into descending branches, which supply the proximal two-thirds of the tarsal conjunctiva and anastomose with shorter branches of the marginal artery that have pierced the tarsal plate at the subtarsal fold, and ascending branches, which pass up over the fornix to the globe to become the posterior conjunctival arteries. The marginal tarsal arcades send perforating branches through the tarsus to the conjunctiva at the subtarsal fold. The peripheral arcade of the lower lid, when present, lies in front of the inferior palpebral muscle of Mueller, may arise from the lacrimal, transverse facial or superficial temporal arteries, and is often absent - the inferior tarsal plate, fornix or bulbar conjunctiva then being supplied by the marginal arcade or the muscular arteries to the inferior rectus. Superior and inferior palpebral arteries pass above and below the medial palpebral ligament. StatPearls concords: the marginal tarsal arcades provide blood supply to the palpebral conjunctiva along with the fornices, the proximal arcade lying along the upper border of the lid, feeding the forniceal conjunctiva and then continuing as the posterior conjunctival arteries that feed the bulbar conjunctiva (Shumway et al., 2023).",
+    "venous_drainage": "The conjunctival veins accompany and outnumber the corresponding arteries. The palpebral veins drain the tarsal conjunctiva, fornix and posterior bulbar conjunctiva. In the upper lid a venous plexus lies between the tendons of the levator and drains into the veins of the levator and superior rectus and thence into the ophthalmic vein. The tarsal conjunctiva itself is very vascular, its reddish colour being a convenient clinical indicator, and the whole fornix is well vascularized, its venous plexus being visible in its anterior part.",
+    "innervation": "The nerves supplying the conjunctiva are from the same sources as for the lids, but the long ciliary nerves supply the circumcorneal conjunctiva (and cornea), and the lacrimal and infratrochlear nerves supply a larger proportion of conjunctiva than skin. Nerve endings are either simple (naked or 'free') or specialized, such as the end bulbs of Krause (20-100 micrometres long, surrounded by a capsule continuous with the nerve sheath); the specialized end bulbs are comparatively rare and variable in the human conjunctiva, 'free' endings being much more numerous and widespread. The non-striated palpebral muscles of Mueller, to which the orbital conjunctiva is loosely attached, are supplied by sympathetic nerve fibres; the sympathetic axons of the superior palpebral muscle arise from the superior cervical sympathetic ganglion, reach the orbit along the internal carotid artery and pass to the oculomotor nerve near the cavernous sinus, being distributed along its divisions, and the muscle widens the palpebral fissure. Regional mapping of the sensory supply: the superior portion of the conjunctiva is supplied by the supraorbital, supratrochlear and infratrochlear nerves, the inferior portion by the infraorbital nerve, the lateral portion by the lacrimal nerve, and the circumcorneal portion by the long ciliary nerves (Shumway et al., 2023). For the sympathetic route to Mueller's superior palpebral muscle, StatPearls details the postganglionic fibres as synapsing in the superior cervical sympathetic ganglia, wrapping around the internal carotid artery as the internal carotid plexus, entering the skull and reaching the muscle along the ophthalmic artery (Dave et al., 2024), complementing Wolff's description of passage to the oculomotor nerve near the cavernous sinus.",
+    "histology_summary": "The tarsal conjunctiva is thin, adherent and very vascular, through which the tarsal (Meibomian) glands appear as yellow streaks. True papillae occur only at the limbus and in the marginal conjunctiva: the limbal papillae form the palisades of Vogt, where fingerlike columns of epithelium interdigitate with long extensions of the submucosa while the surface remains flat; focal vascular papillary elevations also occur, particularly over the upper tarsus, in chronic conjunctivitis or allergic eye disease, whereas the Stieda plateaux and grooves above the superior tarsal plate are folds, not true papillae. Goblet cells are absent at the mucocutaneous junction and begin to appear, very numerous, beyond the subtarsal fold (Kessing, 1968). The lymphoid layer appears first in the fornices at 3-4 months of age and produces folds in the tarsal conjunctiva at the fifth month; lymphocytic nodules occur near the canthi but the true follicles seen in the dog, cat and rabbit do not occur in humans, although expansions of such foci may cause visible surface swellings in follicular conjunctivitis of viral or allergic origin. Lymphocytes, predominantly T cells, are found in substantia propria and epithelium in a ratio of about 2:3. The conjunctival associated lymphoid tissue (CALT) consists of T and B lymphocytes without plasma cells, and the epithelium overlying these lymphoid nodules lacks goblet cells and exhibits exaggerated microvillous processes. Diagnostic inflammatory patterns localize to the palpebral conjunctiva: papillary reactions have a fibrovascular core with central vessels and surrounding stromal plasma cells, lymphocytes and eosinophils (cobblestone appearance), whereas follicular reactions show central pale germinal centers of immature lymphocytes encircled by mature lymphocytes and plasma cells, lack central vessels and are usually most prominent inferiorly (Hyde et al., 2026). Mueller's muscle histology shows a gradual transition zone in which smooth muscle fibres mix with the striated fibres of the levator, both interspersed with connective tissue (Dave et al., 2024). Developmentally the levator aponeurosis - the point of origin of the superior tarsal muscle - is first seen at week 12 and the muscle itself at week 14; its tarsal insertion follows four patterns: upper border (1), medial (2M), lateral (2L), or the whole extent of the plate (3), the most frequently observed variant (Dave et al., 2024).",
+    "clinical_importance": "The reddish colour of the vascular tarsal conjunctiva is a convenient clinical indicator, and the yellow streaks of the tarsal glands seen through the translucent conjunctiva allow bedside assessment of the Meibomian glands. The intimate adherence of the tarsal conjunctiva to the superior tarsus makes surgical repairs here very difficult. The puncta open in the marginal zone, so the conjunctival sac is continuous with the nasal inferior meatus via the lacrimal passages and conjunctival infection may spread to the nose and vice versa. The lower palpebral conjunctiva is the accessible surface of the lower-lid retractor mechanism: the expansion from the inferior rectus passes between it and the inferior oblique, deep to the inferior fornix and palpebral conjunctiva, separated from them by the unstriated inferior palpebral muscle, and finally attaches between the tarsal plate and orbicularis - the inferior rectus may act on the lower lid as the levator acts on the upper, lowering it 2 mm and everting the lashes. The inferior palpebral muscle of Mueller may be visible through the conjunctiva. Pharmacological agents instilled into the conjunctival sac have access to Mueller's palpebral muscle through the conjunctiva: phenylephrine stimulates contraction and elevation of the lid while guanethidine inhibits contraction and induces ptosis; in sympathetic nerve palsy (Horner's syndrome) the ptosis is 3-4 mm, the amount of elevation of which Mueller's muscle is capable, and the superior palpebral muscle controls approximately 3 mm of lid elevation. Follicular conjunctivitis of viral or allergic origin presents as visible surface swellings from lymphoid expansions, and papillary elevations over the upper tarsus characterize chronic conjunctivitis or allergic eye disease. Function and pharmacology (Dave et al., 2024): the superior palpebral muscle maintains upper eyelid elevation after the levator raises it and lifts the lid an additional 2 mm beyond the levator's range following sympathetic discharge, transmitting considerable power to the levator in a synergistic interaction; in thyroid eye disease (Graves orbitopathy) lymphocytic infiltration and fibrosis of the muscle cause upper lid retraction, and in Horner syndrome ptosis arises from its paralysis. Examination: the upper and lower palpebral conjunctiva are examined after everting the eyelids, and the palpebral conjunctiva and fornices are assessed using a small cotton swab to invert the lid; the ocular surface is stained with fluorescein or lissamine green - better tolerated and therefore more used than rose bengal - and graded on the Oxford or National Eye Institute scales (Shumway et al., 2023; Hyde et al., 2026). Disease geography of the tarsal zones (Hyde et al., 2026): vernal keratoconjunctivitis produces velvety hypertrophy of the superior tarsal conjunctiva with macropapillae that can progress to giant cobblestone papillae, affecting mainly boys over five years with about 95% in remission by the late teens; atopic keratoconjunctivitis usually involves the lower lid; trachomatous signs are most common in the upper tarsal conjunctiva with linear scarring or broad Arlt lines and Herbert pits; giant papillary conjunctivitis is a mechanically induced papillary reaction of the tarsal conjunctiva driven by contact-lens deposits, ocular prostheses, exposed sutures, scleral buckles, corneal surface irregularity, filtering blebs or mucus fishing syndrome; floppy eyelid syndrome pairs easily everted, lax upper lids with a diffuse papillary reaction of the superior palpebral conjunctiva and is associated with obstructive sleep apnoea, obesity and thyroid disease. Traditionally bacterial conjunctivitis gives a papillary reaction with mucopurulent discharge and viral conjunctivitis a follicular reaction with watery discharge, though overlap is real. Surgery: Muller muscle-conjunctival resection (MMCR) treats blepharoptosis through a conjunctival approach in which the conjunctiva, the Mueller muscle and sometimes a portion of the tarsal plate are resected; the choice against external levator advancement rests on the ptosis aetiology, levator function and response to sympathomimetic drops, and a meta-analysis found no significant postoperative marginal-reflex-distance difference between the procedures but higher overcorrection and reoperation rates in the levator-advancement group (Dave et al., 2024)."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "conjunctiva",
+      "target_name": "Conjunctiva"
+    },
+    {
+      "relation_type": "attached_to",
+      "target_id": "tarsus",
+      "target_name": "Tarsal Plate"
+    },
+    {
+      "relation_type": "continuous_with",
+      "target_id": "bulbar_conjunctiva",
+      "target_name": "Bulbar Conjunctiva"
+    },
+    {
+      "relation_type": "continuous_with",
+      "target_id": "conjunctival_fornix",
+      "target_name": "Conjunctival Fornix"
+    },
+    {
+      "relation_type": "loosely_attached_to",
+      "target_id": "palpebral_muscle_of_muller",
+      "target_name": "Palpebral Muscle of Mueller (Superior and Inferior)"
+    },
+    {
+      "relation_type": "continuous_with",
+      "target_id": "corneal_epithelium",
+      "target_name": "Corneal Epithelium"
+    },
+    {
+      "relation_type": "surgical_corridor_for",
+      "target_id": "muller_muscle_conjunctival_resection",
+      "target_name": "Muller Muscle-Conjunctival Resection (MMCR) - the palpebral conjunctiva is the approach route"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "palpebral conjunctiva",
+      "الملتحمة الهدبية",
+      "ملتحمة الجفن",
+      "tarsal conjunctiva",
+      "الملتحمة الرصغية",
+      "marginal conjunctiva",
+      "orbital conjunctiva",
+      "subtarsal fold",
+      "Stieda plateaux",
+      "superior palpebral muscle",
+      "Mueller muscle",
+      "inferior palpebral muscle",
+      "peripheral tarsal arcade",
+      "marginal tarsal arcade",
+      "tarsal arcades",
+      "glands of Wolfring",
+      "end bulbs of Krause",
+      "mucocutaneous junction",
+      "conjunctival sac",
+      "CALT",
+      "follicular conjunctivitis",
+      "Horner syndrome",
+      "ptosis",
+      "phenylephrine",
+      "palisades of Vogt",
+      "Kessing goblet cells",
+      "Muller muscle-conjunctival resection",
+      "MMCR",
+      "giant papillary conjunctivitis",
+      "floppy eyelid syndrome",
+      "vernal keratoconjunctivitis",
+      "superior tarsal conjunctiva",
+      "lid eversion",
+      "lissamine green",
+      "thyroid eye disease",
+      "lid retraction",
+      "capsulopalpebral muscle of Hesser",
+      "pretarsal space"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "statpearls_conjunctiva",
+      "statpearls_muller_muscle",
+      "statpearls_conjunctivitis"
+    ],
+    "last_updated": "2026-10-19",
+    "version": "1.1.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            39,
+            51
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            51,
+            52
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            150
+          ]
+        },
+        {
+          "reference_id": "statpearls_conjunctiva",
+          "section": "Introduction; Muscles"
+        },
+        {
+          "reference_id": "statpearls_muller_muscle",
+          "section": "Structure and Function"
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            52,
+            53,
+            66,
+            67
+          ]
+        },
+        {
+          "reference_id": "statpearls_conjunctiva",
+          "section": "Introduction"
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            39,
+            67
+          ]
+        },
+        {
+          "reference_id": "statpearls_conjunctiva",
+          "section": "Blood Supply and Lymphatics"
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            51,
+            52,
+            69
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            39,
+            70
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            146
+          ]
+        },
+        {
+          "reference_id": "statpearls_conjunctiva",
+          "section": "Nerves"
+        },
+        {
+          "reference_id": "statpearls_muller_muscle",
+          "section": "Nerves"
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            51,
+            53,
+            66,
+            67
+          ]
+        },
+        {
+          "reference_id": "statpearls_muller_muscle",
+          "section": "Embryology; Muscles; Physiologic Variants"
+        },
+        {
+          "reference_id": "statpearls_conjunctivitis",
+          "section": "Pathophysiology"
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            39,
+            51,
+            66,
+            67
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            146,
+            148
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            150
+          ]
+        },
+        {
+          "reference_id": "statpearls_muller_muscle",
+          "section": "Structure and Function; Surgical Considerations; Clinical Significance"
+        },
+        {
+          "reference_id": "statpearls_conjunctivitis",
+          "section": "Etiology; Pathophysiology; History and Physical"
+        }
+      ]
+    }
+  ]
+}

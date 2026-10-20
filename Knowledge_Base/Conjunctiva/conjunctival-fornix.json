@@ -1,0 +1,315 @@
+{
+  "entity_id": "conjunctival_fornix",
+  "component_ids": [
+    "comp_conjunctiva"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Conjunctival Fornix",
+    "ar": "القبو الملتحمي",
+    "aliases": [
+      "Fornical Conjunctiva",
+      "الملتحمة القبوّية",
+      "الأقبية الملتحمية",
+      "Conjunctival Fornices",
+      "القبو الملتحمة"
+    ]
+  },
+  "content": {
+    "definition": "The conjunctival fornix is the continuous annular cul-de-sac formed where the palpebral conjunctiva lining the lids is reflected onto the eyeball to become the bulbar conjunctiva. It is artificially but conveniently divided into superior, inferior, lateral and medial regions (Fig 2.30). Although the conjunctiva is continuous, it is conveniently described in three regions: palpebral, bulbar and fornical. Together with the lids and the globe the fornix bounds the conjunctival sac, which is open at the palpebral fissure, normally contains about 7 microlitres of tear fluid and can accommodate up to 30 microlitres; instilled eyedrops in excess of this volume are either drained by the lacrimal sac or overflow the lids. StatPearls states the bridge role plainly: the forniceal conjunctivae connect the bulbar and tarsal portions of the conjunctiva (Hyde et al., 2026).",
+    "location": "The fornix forms the junctional vault of the conjunctival sac between the orbital zone of the palpebral conjunctiva and the proximal bulbar conjunctiva. The superior fornix reaches the orbital margin and lies 8-10 mm from the limbus. The inferior fornix lies within a few millimetres of the inferior orbital margin, 8 mm from the limbus. The lateral fornix is 5 mm from the surface and 14 mm from the limbus, and extends just posterior to the equator of the globe. The medial fornix is the most shallow, comprising the medial ends of the superior and inferior fornices. In the diagram of the conjunctival sac (Fig 2.30), measurements made from the lid margins with the palpebral aperture open (after Whitnall, 1921) are 13 mm superiorly, 9 mm inferiorly and 5 mm laterally, while measurements made from the limbus with an assumed corneal diameter of 12 mm give 8-10 mm superiorly, 14 mm laterally and 7 mm medially. Modern quantitative anchors: in a healthy South Asian population the normal fornix depths were 15.3 mm superiorly and 10.9 mm inferiorly (Khan et al., Ophthalmology 2014, as cited by Moshirfar et al., 2023) - larger than Whitnall's from-margin figures above, reflecting a different measuring convention, so the two sets must not be interchanged. The superior palpebral muscle (of Mueller) passes from the bulbar aspect of the levator just behind the fornix to the superior border of the tarsal plate (printed 150; Dave et al., 2024), so the fornix is the surgical landmark separating the levator-Mueller complex from the tarsal plate; inferiorly the inferior palpebral muscle passes from the ocular surface of the inferior rectus toward the lower tarsal border below the inferior fornix (printed 150).",
+    "layers": [
+      "Epithelium and submucosal lamina propria: as a mucous membrane the fornical conjunctiva has an epithelium and a submucosa; conjunctival structure varies from region to region, and this may affect pathological processes.",
+      "Areolar-tissue attachment: fornical conjunctiva is adherent to areolar tissue, which is continuous with expansions from the sheaths of the levator and rectus muscles, whose contractions can therefore deepen the fornices; the areolar tissue also continues into the tarsi.",
+      "Contained structures: the fornix contains conjunctival glands (of Krause) and the palpebral muscles (of Mueller).",
+      "Lymphoid layer: the submucosal lymphoid layer (50-70 micrometres) is thickest in the fornices; in development the lymphoid layer appears first in the fornices at 3-4 months of age.",
+      "Periforniceal tissue: in the intertendinous intervals behind the fornices the conjunctiva adjoins orbital fat.",
+      "Superior suspensory ligament of the fornix: the tissue between the sheaths of the levator and the superior rectus passes forward as this ligament and suspends the upper fornix; if it is cut during ptosis surgery the conjunctiva can prolapse (Collin, 1983) (printed 150).",
+      "Inferior suspensory ligament of the fornix: in the lower lid it is an extension of the fibrous tissue of the lid retractors; when these retractors become lax, as an involutional process, the lower fornix is shallowed (Figs 4.37 and 4.43) (printed 150)."
+    ],
+    "blood_supply": "The whole fornix is well vascularized. The peripheral tarsal arcade runs in the tarsal plate, fornix and proximal bulbar conjunctiva at the upper border of the tarsus between the two parts of the levator; its peripheral perforating branches pass above the tarsal plate, pierce the palpebral muscle and divide into ascending and descending conjunctival branches. The ascending branches pass up over the fornix to the globe, where they become the posterior conjunctival arteries; these anastomose with the anterior conjunctival arteries about 4 mm from the limbus and together they supply the bulbar conjunctiva. The peripheral arcade of the lower lid, when present, lies in front of the inferior palpebral muscle of Mueller; it is often absent, and the inferior tarsal plate, fornix or bulbar conjunctiva are then supplied by the marginal arcade or the muscular arteries to the inferior rectus. StatPearls concords and sharpens this: the marginal tarsal arcades provide blood supply to the palpebral conjunctiva along with the fornices, and the proximal arcade lies along the upper border of the lid, feeding the forniceal conjunctiva and then becoming the posterior conjunctival arteries that feed the bulbar conjunctiva (Shumway et al., 2023).",
+    "venous_drainage": "The venous plexus of the fornix, together with the aponeurotic expansions from the inferior rectus and the inferior oblique, is visible in the inferior part of the fornix. The palpebral veins drain the tarsal conjunctiva, the fornix and the posterior bulbar conjunctiva; in the upper lid a venous plexus lies between the tendons of the levator and drains into the veins of the levator and superior rectus and thence into the ophthalmic vein.",
+    "innervation": "The nerves supplying the conjunctiva, including its fornical part, are from the same sources as for the lids, but the long ciliary nerves supply the circumcorneal conjunctiva (and cornea), and the lacrimal and infratrochlear nerves supply a larger proportion of conjunctiva than skin. Nerve endings are either simple (naked or 'free') or specialized, such as the end bulbs of Krause; the specialized end bulbs are comparatively rare and variable in distribution in the human conjunctiva, 'free' endings being much more numerous and widespread. The glands of Krause contained in the fornix are accessory lacrimal glands, distinct from the end bulbs of Krause, which are sensory nerve end organs.",
+    "histology_summary": "The fornical conjunctiva shares the general conjunctival structure of an epithelium and a submucosal lamina propria, but is distinguished by its loose areolar-tissue attachment, which is continuous with expansions from the sheaths of the levator and rectus muscles and continues into the tarsi, and by the presence within it of conjunctival glands (of Krause) and the palpebral muscles (of Mueller). Its submucosal lymphoid layer is the thickest of the conjunctival regions, reaching 50-70 micrometres, and in development the lymphoid layer appears first in the fornices at 3-4 months of age. In the intertendinous intervals behind the fornices the conjunctiva adjoins orbital fat, and the muscular contractions transmitted through the sheath expansions can deepen the fornices. The fornix is the region of maximal goblet-cell density: the area closest to the fornix has the greatest number of goblet cells, especially in the inferior and medial conjunctiva near the medial canthus, and their number decreases away from the fornix (Shumway et al., 2023). It also carries the greatest number of patches of lymphocytes, which are mostly suppressor T-cells; the T- and B-lymphocyte patches form the conjunctiva-associated lymphoid tissue (CALT) (Shumway et al., 2023) - the cellular identity of the thick fornical lymphoid layer described above.",
+    "clinical_importance": "The fornices act as the principal reservoir of the tear film: tears are found in the conjunctival fornices (about 4.5 microlitres), the preocular tear film (about 1.1 microlitres) and along the marginal tear strips. In the intertendinous intervals behind the fornices the conjunctiva adjoins orbital fat, and haemorrhage (for example from a basal cranial fracture) can advance under the conjunctiva to the limbus. The muscle-sheath expansions give the fornices their functional links to lid and gaze mechanics: the tissue between the sheaths of the levator and superior rectus gains attachment to the upper conjunctival fornix, and the expansion from the inferior rectus passes between it and the inferior oblique, deep to the inferior fornix and palpebral conjunctiva, separated by the unstriated inferior palpebral muscle, finally attaching between the tarsal plate and orbicularis - inferior rectus may thus act on the lower lid as the levator acts on the upper, lowering it 2 mm and everting the lashes. Contractions of the levator and rectus muscles can therefore deepen the fornices. Surgically, incisions at the superior fornix enter areolar tissue between levator and superior rectus, while at the inferior fornix they enter between the inferior palpebral and inferior rectus muscles and expansions from the inferior ocular muscles (Figs 2.12 and 4.28). The fibrous tissue between the superior rectus and levator muscles continues forward to the upper fornix as part of the suspensory ligaments of the fornices. The suspensory apparatus gives the fornices their clinical fragility: cutting the superior suspensory ligament of the fornix during ptosis surgery allows conjunctival prolapse (Collin, 1983), and involutional laxity of the lower-lid retractors shallows the lower fornix via the inferior suspensory ligament (Figs 4.37 and 4.43) (printed 150) - the same aponeurotic degradation that underlies giant fornix syndrome (GFS), in which abnormally deep fornices in patients almost exclusively over 65 years (mean 86 in the defining series of Rose, 2004, with female predominance) harbour a chronic bacterial reservoir producing relapsing, grossly purulent conjunctivitis; Staphylococcus aureus is the primary isolate, with Pseudomonas aeruginosa and Serratia marcescens also reported, and the proteinaceous exudate forms a positive feedback loop that protects the bioburden from antibiotics (Moshirfar et al., 2023). Management of GFS spans topical and systemic antibiotics with topical steroids, sweeping the superior fornices with a cotton swab soaked in 10% povidone-iodine (curative in a refractory 97-year-old after six swabs in ten days), and surgical reduction of the deep fornix by conjunctival resection of 4-10 mm or by Mueller muscle-conjunctival resection, in which maximal 10-12 mm resections proved more successful than limited 6-8 mm ones and none of ten patients showed post-operative tear-production deficits; in non-resolving cases fornix reconstruction is mandatory (Moshirfar et al., 2023; Hyde et al., 2026). CT may show pockets of free air in the deep superior fornix as a supportive, non-definitive sign that also excludes foreign body and frontal sinusitis (Moshirfar et al., 2023). Examination pearls: the fornices require lid eversion, and the protein clumps of GFS in the upper fornix may require double eversion of the lid to visualize (Hyde et al., 2026); follicular reactions are usually most prominent inferiorly, and adult chlamydial inclusion conjunctivitis places follicles in the inferior fornix and possibly the upper tarsal conjunctiva (Hyde et al., 2026); cicatricial shortening targets the fornices in mucous membrane pemphigoid - subconjunctival fibrosis, inferior fornix shortening and symblepharon in severe cases - and in atopic keratoconjunctivitis (fornical shortening) (Hyde et al., 2026)."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "conjunctiva",
+      "target_name": "Conjunctiva"
+    },
+    {
+      "relation_type": "continuous_with",
+      "target_id": "palpebral_conjunctiva",
+      "target_name": "Palpebral Conjunctiva"
+    },
+    {
+      "relation_type": "continuous_with",
+      "target_id": "bulbar_conjunctiva",
+      "target_name": "Bulbar Conjunctiva"
+    },
+    {
+      "relation_type": "bounds",
+      "target_id": "conjunctival_sac",
+      "target_name": "Conjunctival Sac"
+    },
+    {
+      "relation_type": "loosely_attached_to",
+      "target_id": "levator_palpebrae_superioris",
+      "target_name": "Levator Palpebrae Superioris (via areolar expansions of its sheath)"
+    },
+    {
+      "relation_type": "loosely_attached_to",
+      "target_id": "superior_rectus",
+      "target_name": "Superior Rectus (via areolar expansions of its sheath)"
+    },
+    {
+      "relation_type": "loosely_attached_to",
+      "target_id": "inferior_rectus",
+      "target_name": "Inferior Rectus (via areolar expansions of its sheath)"
+    },
+    {
+      "relation_type": "contains",
+      "target_id": "glands_of_krause",
+      "target_name": "Conjunctival Glands of Krause (Accessory Lacrimal Glands)"
+    },
+    {
+      "relation_type": "contains",
+      "target_id": "palpebral_muscle_of_muller",
+      "target_name": "Palpebral Muscles of Mueller"
+    },
+    {
+      "relation_type": "suspended_by",
+      "target_id": "superior_suspensory_ligament_of_fornix",
+      "target_name": "Superior Suspensory Ligament of the Fornix (between levator and superior rectus sheaths)"
+    },
+    {
+      "relation_type": "suspended_by",
+      "target_id": "inferior_suspensory_ligament_of_fornix",
+      "target_name": "Inferior Suspensory Ligament of the Fornix (extension of lower-lid retractor fibrous tissue)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "conjunctival fornix",
+      "القبو الملتحمي",
+      "الملتحمة القبوّية",
+      "fornical conjunctiva",
+      "conjunctival fornices",
+      "الأقبية الملتحمية",
+      "superior fornix",
+      "القبو العلوي",
+      "inferior fornix",
+      "القبو السفلي",
+      "lateral fornix",
+      "medial fornix",
+      "conjunctival sac",
+      "الكيس الملتحمي",
+      "annular cul-de-sac",
+      "glands of Krause",
+      "palpebral muscle of Muller",
+      "peripheral tarsal arcade",
+      "posterior conjunctival arteries",
+      "tear reservoir",
+      "suspensory ligaments of the fornices",
+      "inferior palpebral muscle",
+      "basal cranial fracture",
+      "subconjunctival haemorrhage",
+      "fornix incision",
+      "Whitnall",
+      "superior suspensory ligament",
+      "inferior suspensory ligament",
+      "conjunctival prolapse",
+      "giant fornix syndrome",
+      "povidone-iodine fornix swab",
+      "double lid eversion",
+      "fornix reconstruction",
+      "CALT",
+      "goblet cell density",
+      "fornix depth",
+      "inferior fornix shortening",
+      "conjunctival resection"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "statpearls_conjunctiva",
+      "statpearls_gfs",
+      "statpearls_conjunctivitis"
+    ],
+    "last_updated": "2026-10-19",
+    "version": "1.1.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            51,
+            52
+          ]
+        },
+        {
+          "reference_id": "statpearls_conjunctivitis",
+          "section": "Introduction"
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            52
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            150
+          ]
+        },
+        {
+          "reference_id": "statpearls_gfs",
+          "section": "Introduction"
+        },
+        {
+          "reference_id": "statpearls_muller_muscle",
+          "section": "Structure and Function"
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            52,
+            53,
+            66
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            150
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            52,
+            67
+          ]
+        },
+        {
+          "reference_id": "statpearls_conjunctiva",
+          "section": "Blood Supply and Lymphatics"
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            52,
+            69
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            70
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            52,
+            66,
+            67
+          ]
+        },
+        {
+          "reference_id": "statpearls_conjunctiva",
+          "section": "Introduction"
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            52,
+            82
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            145,
+            148
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            150
+          ]
+        },
+        {
+          "reference_id": "statpearls_gfs",
+          "section": "Introduction; Etiology; Epidemiology; Pathophysiology; Evaluation; Treatment/Management; Prognosis"
+        },
+        {
+          "reference_id": "statpearls_conjunctivitis",
+          "section": "Etiology; Pathophysiology; History and Physical"
+        }
+      ]
+    }
+  ]
+}

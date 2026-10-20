@@ -138,5 +138,55 @@
     "last_updated": "2025-09-15",
     "type": "website",
     "verification": "Complete article text (16 sections incl. Introduction, Etiology, Pathophysiology, Histopathology, History and Physical, Staging, Prognosis) read directly on 2026-10-18 from the project owner's pasted full-text copy."
+  },
+  {
+    "reference_id": "statpearls_muller_muscle",
+    "title": "Anatomy, Head and Neck: Eye, Superior Tarsal Muscle (Müller Muscle)",
+    "authors": [
+      "Tushar Dave",
+      "Saama Sabeti",
+      "Bhupendra C. Patel"
+    ],
+    "publisher": "StatPearls Publishing",
+    "source": "NCBI Bookshelf",
+    "bookshelf_id": "NBK540964",
+    "pmid": "31082008",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK540964/",
+    "last_updated": "2024-10-05",
+    "type": "website",
+    "verification": "Complete article text (Introduction, Structure and Function, Embryology, Blood Supply and Lymphatics, Nerves, Muscles, Physiologic Variants, Surgical Considerations, Clinical Significance, References) read directly on 2026-10-19 from the verbatim NCBI Bookshelf copy saved in download/sources/statpearls_superior_tarsal_muscle_NBK540964.txt."
+  },
+  {
+    "reference_id": "statpearls_gfs",
+    "title": "Giant Fornix Syndrome",
+    "authors": [
+      "Majid Moshirfar",
+      "Walker C. Kay",
+      "Yasmyne Ronquillo"
+    ],
+    "publisher": "StatPearls Publishing",
+    "source": "NCBI Bookshelf",
+    "bookshelf_id": "NBK582141",
+    "pmid": "35881746",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK582141/",
+    "last_updated": "2023-07-18",
+    "type": "website",
+    "verification": "Complete article text (Continuing Education Activity, Introduction, Etiology, Epidemiology, Pathophysiology, Histopathology, History and Physical, Evaluation, Treatment/Management, Differential Diagnosis, Prognosis, Complications, Enhancing Healthcare Team Outcomes, References) read directly on 2026-10-19 from the verbatim NCBI Bookshelf copy saved in download/sources/statpearls_giant_fornix_syndrome_NBK582141.txt."
+  },
+  {
+    "reference_id": "statpearls_conjunctivitis",
+    "title": "Conjunctivitis Overview",
+    "authors": [
+      "Monika R. Hyde",
+      "Bharat Gurnani",
+      "Scarlet Benson"
+    ],
+    "publisher": "StatPearls Publishing",
+    "source": "NCBI Bookshelf",
+    "bookshelf_id": "NBK541034",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK541034/",
+    "last_updated": "2026-09-08",
+    "type": "website",
+    "verification": "Complete article text (Continuing Education Activity, Introduction, Etiology incl. Giant Fornix Syndrome subsection, Epidemiology, Pathophysiology, History and Physical, Evaluation, Treatment/Management, Differential Diagnosis, Prognosis, Complications, Pearls, Enhancing Healthcare Team Outcomes, References) read directly on 2026-10-19 from the verbatim NCBI Bookshelf copy saved in download/sources/statpearls_conjunctivitis_overview_NBK541034.txt."
   }
 ]

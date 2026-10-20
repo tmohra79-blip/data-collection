@@ -1,103 +1,66 @@
-# كارت Bulbar Conjunctiva — أول كيان خارج القرنية
+# Conjunctiva Enrichment Delivery — CONJ-002 v1.1.0 + CONJ-003 v1.1.0 (2026-10-19)
 
-**التاريخ:** 2026-10-17 (v1.0.0) — محدّث 2026-10-17 (**v1.1.0** وولف) ثم (**v1.2.0** StatPearls) ثم 2026-10-18 (**v1.3.0** إثراء 3 مقالات StatPearls)
-**الحالة:** جاهز للـ PR — يعمل بالتوازي مع شغل الـ Retina (بدون أي تعارض في الملفات)
+## 1. What this package contains
 
----
-
-## 🔄 تحديث v1.3.0 — إثراء من 3 مقالات StatPearls بعتتها صاحبة المشروع (الجديد في النسخة دي)
-
-المقالات التلاتة اتقرت **كاملة بصريًا** بتاريخ 2026-10-18 (نسخ المستخدمة المُلصقة نفسها) واتضاف **28 حقيقة موثقة على مستوى القسم** — مفيش أي استشهاد بمصدر غير مقروء:
-
-| الحقل | التغيير |
+| File | Purpose |
 |---|---|
-| **blood_supply** (+4) | عدم تناظر الشرايين الظاهرية الأمامية (2 أنفي مقابل 1 صدغي → احتقان أنفي أكبر) • شبكة شعيرات كثيفة تغذي الظهارة والستروما • شعيرات رفيعة غير مدعومة = هشة للإجهاد الميكانيكي وتقلبات الضغط • توزع الأوعية في الاحتقان الملتحمي مقابل الهدبي |
-| **location** (+3) | النطاق بين الجفنين كحزام UV مزمن + حزام التريون ~30° (وحزام Cameron حتى 37°) شمال/جنوب خط الاستواء • تمركز الآفات عند الساعة 3 و9 بميل أنفي • السطح الصدغي الأكبر → تجمع النزيف صدغيًا (خاصًة السفلي) |
-| **histology_summary** (+8) | التدهور الصماوي (elastotic): يُصبغ كالإيلاستين ولا يُهضم بالإيلاستاز + ترسبات دهنية/كريات متكلسة • ترسبات AGE تحت الظهارة • الرشح اللمفاوي المزمن (بلازمية/صارية/T) • racial melanosis • تنكس الاحتكاك المزمن بحافة العدسة • الجوف الكامن بين الملتحمة وتينون (الدم في substantia propria والظهارة سليمة) • تغيرات سترومية عابرة (فقد كأس + عدم انتظام قاعدي) • الصرف اللمفي المحدود وزمن الامتصاص |
-| **clinical_importance** (+13) | الملتحمة أصل التريون + تكسر الحاجز اللمبالي → conjunctivalization • تفسير الميل الأنفي (peripheral light focusing + الرموش الصدغية) • موقع التطعيم الذاتي القياسي (العلوي الصدغي محفوظ كاحتياطي) وتفاصيله: فصل سهل/hydrodissection بـ BSS، تطعيم لمبالي ~0.5 مم، تجدد المنبع خلال ~6 أشهر • أثر عدم انتظام السطح على فيلم الدموع (جفاف/Dellen/TBUT) ووسائط الالتهاب الأربعة • pinguecula شبه شاملة في الثمانينيات • جوشر: pinguecula مصطبغة بخلايا Gaucher • OSSN/ميلانوما والوعاء الحارس • SCH: تسلسل لوني 7–14 يوم بلا ندبة • المحرضات الميكانيكية (Valsalva/فرك/عدسات) • HTN أنشر ارتباط + ~نصف الحالات idiopathic + مضادات التخثر حتى ضمن INR + انتكاس ~10% • نزيف الفورنيكس بدون رضح → شك كسر قاعدي • ثنائي الرضيع + بتشيات = إنذار NAT + 1–2% حديثي الولادة • المحاكيات الوعائية (Kaposi/توسعات/أورام) |
+| `Knowledge_Base/Conjunctiva/palpebral-conjunctiva.json` | CONJ-002 **v1.0.0 → v1.1.0** (1,428 → **2,417 words**) |
+| `Knowledge_Base/Conjunctiva/conjunctival-fornix.json` | CONJ-003 **v1.0.0 → v1.1.0** (1,062 → **1,766 words**) |
+| `schemas/common/references.json` | 9 → **12 sources** (cumulative, append-only) |
+| `Anatomy_Extraction_Master_Tracker_v2.xlsx` | Rows 8/9 (CONJ-002/003) updated — pages, status, notes |
+| `DELIVERY_NOTES.md` | This note |
 
-- **سجل المراجع:** 9 مصادر — اتضاف `statpearls_pterygium` (NBK558907) + `statpearls_pinguecula` (NBK558965) + `statpearls_sch` (NBK551666) بميدان verification موثق لكل واحد. أقسام الإحالة لكل حقل اتمددت بالمقاطع المطابقة.
-- **القياس (بعد v1.3.0):** الكارت **3,580 كلمة** (كانت 2,572 في v1.2.0 — +1,008 كلمة إثراء موثق) — لسه أكبر كارت في الـ KB.
-- **الـ QA:** validate **6/6 passed** • pytest **10 passed + 14 subtests** (على نسخة الريبو المحلية).
-- حقول venous_drainage / innervation / layers: تغطيتها من وولف + NBK519502 فضلت هي الأنسب — المقالات التلاتة ما ضافتش ليها حقائق جديدة تستحق الإضافة.
+Bulbar conjunctiva (CONJ-001 v1.3.0) and the corneal cards are NOT touched.
 
----
+## 2. Sources read in full this session (evidence chain)
 
-## 🔄 تحديث v1.2.0 — تعميق StatPearls (الجديد في النسخة دي)
+1. **Wolff printed 150 (PDF 160)** — `3333.pdf`, visual read. The previously missing page: completion of
+   *SUSPENSORY LIGAMENTS OF THE FORNICES* (superior suspensory ligament — cut in ptosis surgery →
+   conjunctival prolapse, Collin 1983; inferior suspensory ligament — involutional retractor laxity →
+   lower fornix shallowed) + §4.21 smooth muscle of the orbit (Müller's 15–20 mm × 10 mm, pretrasal-space
+   limitation, lacrimal-gland slip) + start of INFERIOR PALPEBRAL MUSCLE (continues on printed 151).
+2. **statpearls_conjunctiva** NBK519502 (2023-08-28) — re-read with focus on palpebral/fornix content
+   (lid layering, 3–5 strata, substantia propria uniqueness, goblet-cell gradient, CALT/suppressor T-cells,
+   regional innervation, arcade supply, staining/grading).
+3. **statpearls_muller_muscle** NBK540964 (2024-10-05) — NEW registry entry. Function (+2 mm sympathetic
+   elevation), embryology (weeks 12/14), insertion patterns 1/2M/2L/3, sympathetic route, TED/Horner, MMCR.
+4. **statpearls_gfs** NBK582141 (2023-07-18) — NEW registry entry. Normal fornix depths 15.3/10.9 mm
+   (Khan 2014), GFS mechanism/pathogens/management incl. povidone-iodine fornix swabs and MMCR-based resection.
+5. **statpearls_conjunctivitis** NBK541034 (2026-09-08) — NEW registry entry. Papillary vs follicular
+   histopathology, GPC/FES/VKC/AKC/trachoma tarsal geography, double lid eversion, fornix reconstruction,
+   cicatricial fornix shortening (MMP/AKC).
 
-بناءً على طلب المستخدمة «شوف عنه في موقع StatPearls كمان يقوي المحتوى»: أُعيد تنقيب النص الكامل المقروء فعلًا لمقال **NBK519502** (Shumway/Motlagh/Wade، تحديث 2023-08-28) عن الأقسام التي لم تُستخرج في الدورتين السابقتين، وأُضيفت 6 حقائق (بصياغة لا نسخ حرفي):
+The four StatPearls texts were fetched verbatim from NCBI Bookshelf (via the `/sites/books/` path; the
+classic path is captcha-gated from this environment) and are archived in the project
+`download/sources/` — every added fact was verified against these saved copies by exact-quote checking
+(**48/48 passed**) before writing.
 
-| الحقل | الإضافة (من StatPearls NBK519502) |
-|---|---|
-| **histology_summary** | قسم **Embryology**: الملتحمة تتطور من **ocular surface ectoderm** — نفس أصل باقي ظهارات العين بما فيها القرنية واللمبس — أصل تنموي مشترك يؤسس الاستمرارية بين السطحين عند اللمبس |
-| **location** | قسم **Muscles**: لا عضلة تنشأ أو ترتبط مباشرة بالملتحمة؛ ارتباطات العضلات المستقيمة الأربعة خلف اللمبس تقع **عميقة** للملتحمة المقلية |
-| **layers** | تدرج كثافة خلايا الكأس: الأعلى قرب الغمازات — خاصة السفلي والإنسي وقرب الزاوية الإنسية — يقل بعيدًا عن الغماز + بقع اللمفاويات الغمازية معظمها **خلايا T كابحة (suppressor)** |
-| **blood_supply** | الشريان الظاهري الأمامي فرع في النهاية من **الشريان العيني** + الأقواس الرصغية الهامشية تروي الملتحمة الجفنية مع الغمازات |
-| **clinical_importance** | من الصبغتين الحيويتين، **الليسامين الأخضر أفضل تحملًا من الروز بنغال** ولذلك يُستخدم أكثر سريريًا |
-| **references** | تمديد أقسام الإحالة لثلاثة حقول: location → «Introduction; Muscles»، layers → «Introduction; Structure and Function»، histology_summary → «Introduction; Embryology» (بدون مداخل مراجع جديدة — `statpearls_conjunctiva` موجود بالفعل) |
+## 3. Cross-source concordances worth knowing
 
-**ملحوظة شفافية:** اتحددت 3 مقالات StatPearls مرتبطة (Pterygium NBK558907 / Pinguecula NBK558965 / Subconjunctival Hemorrhage NBK551666) لكن **اتمنعت قراءتها** الدورة دي (تحقق reCAPTCHA من NCBI + عطل Europe PMC) — فـ **مش مستشهد بيها** التزامًا بقاعدة «لا استشهاد بمصدر غير مقروء». لو اتبعت الصفحات من أي مسار متاح، تتحول لإثراء v1.3.0.
+- Müller's muscle size: Wolff **15–20 mm × 10 mm** vs StatPearls **~15 mm × 10 mm** (both recorded).
+- Fornix depth: Whitnall/Wolff from-margin 13/9/5 mm vs Khan 2014 **15.3/10.9 mm** — different measuring
+  conventions; both kept with attribution and an explicit do-not-mix caveat.
+- GFS aetiology (levator aponeurosis degradation → deep fornix) independently corroborates Wolff's
+  suspensory apparatus — recorded as a synthesis note with per-fact sourcing.
+- Marginal tarsal arcades supply palpebral conjunctiva + fornices: Wolff and StatPearls agree.
 
-- الـ QA بعد التعديل: **validate 6/6 + pytest 10 passed + 14 subtests** — والتشيك أثبت إن التعديل محصور في عمود Notes الواحد (col21) لصف CONJ-001
+## 4. Mechanical QA after enrichment
 
----
+- `validate.py` → **8 passed, 0 failed, 0 skipped** (5 corneal + 3 conjunctival cards).
+- `tests/test_validate.py` → **10 passed + 14 subtests**.
+- `references.json` → 12 entries; every new `reference_id` cited in the cards resolves in the registry.
 
-## 🔄 تحديث v1.1.0 — إثراء بمصادر وولف الأولية (الجديد في النسخة دي)
+## 5. Suggested PR steps
 
-بعد وصول صفحات جديدة من المستخدمة (مطبوع **66-71** من الفصل 2 + مطبوع **222** من الفصل 6) قُرئت بصريًا كاملة (7/7 صفحات)، واتعمل الإثراء ده:
+1. Copy both JSON files into `Knowledge_Base/Conjunctiva/` (replacing the v1.0.0 files).
+2. Copy `schemas/common/references.json` (12 sources).
+3. Commit the updated tracker xlsx (rows 8/9 only; all other rows untouched).
+4. Run: `python validate.py schemas Knowledge_Base` → expect `8 passed, 0 failed, 0 skipped`.
+5. Run: `python -m pytest tests/ -q` → expect `10 passed, 14 subtests passed`.
+6. Open the PR and reference this note.
 
-| الحقل | التغيير |
-|---|---|
-| **venous_drainage** | ⭐ الإصلاح الأكبر: كان `not_available` — اتعبي بالكامل من قسم **THE CONJUNCTIVAL VEINS ص69**: الأوردة المرافقة والعددة على الشرايين؛ الأوردة الجفنية تصرّف الملتحمة المقلية الخلفية (عبر ضفيرة الرفاع → أوردة الرفاع والمستقيمة العلوية → الوريد العيني)؛ الأوردة الملتحمية الأمامية → **الدائرة الوريدية حول اللمبس** (حتى 3 أوعية متوازية) → أوردة ظهارية جامعة شعاعية → أوردة العضلات المستقيمة |
-| **blood_supply** | ترقية كاملة بمصدر وولف الأولي: **4 مصادر مسماة** (القوسان الرصغيان المحيطي والهامشي + الشريان الظاهر + المنظومة الظاهرة العميقة ص67)؛ الشرايين الملتحمية الأمامية = انثناء الشريان الظهاري على شكل مشط القدم عند اللمبس ص68؛ التروية حول اللمبس من الدائرة الظاهرة العميقة عبر شرايين الصلبة الثاقبة ص69؛ شبكة الشعيرات اللمبية (1-3 شعيرة لكل شُرين، 1-4 طبقات، أقل رشحًا) ص69؛ **اللمفيات أُضيفت** (سطحية + عميقة، وحشي→النكفية/إنسي→تحت الفك ص69-70) |
-| **clinical_importance** | **التشخيص التفريقي للاحمرار** (ص68-69): التهاب الملتحمة = طوبي ويزداد ناحية الغماز والصفيحة، الأوعية تتحرك مع الملتحمة وتبهت بضعف؛ الحقن الظاهرية/المحمرّة (التهاب العنبية الأمامي/القرنية) = حول قرنية، الأوعية لا تتحرك وتبهت بالضغط + «الملتحمة المقلية عديمة اللون ما لم تُحتق» |
-| **innervation** | إضافة وولف ص70: مصادرها نفس مصادر الجفون، العصب الدمعي وتحت الرحلي يغذيان نصيبًا أكبر من الملتحمة منه من الجلد؛ النهايات الحرة (الأكثر عددًا وانتشارًا) مقابل **كرات كراوز النهائية** (20-100μm، نادرة ومتغيرة) |
-| **layers** | طبقة لمفية 50-70μm في الغمازات وتنتهي عند الطية تحت الرصغية ص66؛ نسبة اللمفاويات 2:3؛ CALT من T وB بلا خلايا بلازمة؛ غدد كراوز (42 علوي/6-8 سفلي) وولفرينغ (2-5/2) وأنها معصبة ص66-67 |
-| **location** | جوف 2mm يفصل حدود الثلث الشبه هلالي الحر عن الملتحمة المقلية ص71؛ عرض اللمبس السطحي 2mm عمودي/1.5mm أفقي (ص222، الفصل 6) |
-| **histology_summary** | عند اللمبس تتحول ظهارة القرنية إلى ملتحمية **بلا خلايا كأس الملتحمة المقلية** مع نمط حلمي مميز علويًا وسفليًا (ص222) |
+## 6. Known follow-ups (no invention)
 
-- الإحالات لكل حقل اتحدثت بالصفحات الجديدة (66-71 في الفصل 2، و222 في الفصل 6 كمدخل منفصل بنفس النمط المتبع في كروت القرنية)
-- الـ QA بعد التعديل: **validate 6/6 + pytest 10 passed + 14 subtests** — والتشيك بتاع التراكر أثبت إن التعديل محصور في صف CONJ-001 (الأعمدة 5، 7، 10، 12، 21 فقط)
-
----
-
-## المحتوى
-
-| # | الملف | النوع |
-|---|-------|-------|
-| 1 | `Knowledge_Base/Conjunctiva/bulbar-conjunctiva.json` | **جديد** — أول كارت في فولدر Conjunctiva (فولدر جديد) |
-| 2 | `schemas/common/references.json` | محدّث — مدخل واحد جديد: `statpearls_conjunctiva` |
-| 3 | `Anatomy_Extraction_Master_Tracker_v2.xlsx` | محدّث — صف CONJ-001 مضاف بعد صفوف القرنية |
-
-## المصادر (كل حقيقة وراها صفحة مقروءة فعليًا)
-
-- **Wolff ch2: 51-65** — أُعيدت قراءته بصريًا كاملًا (15/15 صفحة) في جلسة اليوم + **ص82** (فيلم الدموع)
-- **StatPearls NBK519502** — "Anatomy, Head and Neck, Eye Conjunctiva" (Shumway/Motlagh/Wade، تحديث 2023-08-28) — **قرأت المقال كاملًا** عبر متصفح فعلي؛ أغنى إضافته: التعصيب بالفروع الستة المسماة (اللي صفحات Wolff مفيهاوش)، وسُمك 33μm، وربط Tenon's، وشرايين conjunctival الخلفية والـ watershed ‏3-4mm من اللمبس، والـ conjunctivochalasis، والأصبغة (Oxford/NEI)
-
-## بوابات الجودة
-
-- `validate.py schemas Knowledge_Base` → **6 passed / 0 failed / 0 skipped**
-- `pytest` → **10 passed + 14 subtests**
-- ‏`component_ids: ["comp_conjunctiva"]` — مطابق لصف الجدول (Bulbar Conjunctiva / eye_over_cornea)
-- ‏~~`venous_drainage = not_available`~~ — **اتلغت في v1.1.0**: قسم THE CONJUNCTIVAL VEINS (ص69) اتقرأ واتسجل بالكامل (كان في صفحات لم تكن قد وصلت وقت v1.0.0)
-
-## القياس (بعد v1.1.0)
-
-- الكارت: **2,402 كلمة** (كانت 1,389 في v1.0.0 — زيادة ~1,013 كلمة إثراء موثق) — أكبر كارت في الـ KB بفارق مضاعف
-- الـ KB ككل: **6 كروت = 6,141 كلمة** (كانت 4,576)
-
-## بنود الـ PR المقترحة (فرع مثلًا: `feat/kb-conjunctiva-bulbar`)
-
-1. إضافة `Knowledge_Base/Conjunctiva/bulbar-conjunctiva.json`
-2. تحديث `schemas/common/references.json` — **لازم يترفع مع الكارت في نفس الـ PR** وإلا الـ validate هيقف
-3. استبدال `Anatomy_Extraction_Master_Tracker_v2.xlsx` بالنسخة دي — **ملحوظة مهمة:** النسخة دي بتبني على تحديث الـ Task السابق (تحديث صفوف القرنية + سجل إثراء COR-001 + حالة الـ PR) وتضيف فوقه CONJ-001، يعني بتحل محل نسخة الريبو كلها في ملف واحد
-
-## ⚠️ تعارض محتمل مع PR الـ Retina
-
-لو PR زميلتك في الـ Retina عدّل نفس ملف التراكر (إضافة صفوف RET)، اللي يندمج تاني هيحتاج rebase — النزاع هيكون في صفوف الـ xlsx بس وحله يدوي بسيط. لو تحبي أأجل رفع التراكر للحزمة دي ونرفعه مع PR أجمع بعدين، قوليلي.
-
-## ملحوظات
-
-- ملف الملاحظات ده **مش بيدخل الريبو**
-- الـ card محتواه إنجليزي + nomenclature بالعربي — بنفس نمط كروت القرنية
-- الـ relationships استهدفت كيانات مستقبلية (conjunctiva، sclera، palpebral_conjunctiva، fascia_bulbi…) — forward references مسموحة وبتترد لما الكيانات تتعمل
+- Printed 151 (continuation of INFERIOR PALPEBRAL MUSCLE text) — flagged for a future v1.2.x sharpening.
+- Conjunctivitis as the first **disease** card (Disease.schema.json) remains the next planned entity;
+  NBK541034/NBK582141 give it a strong head start.
