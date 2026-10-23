@@ -1,0 +1,221 @@
+{
+  "entity_id": "sclera",
+  "component_ids": [
+    "comp_sclera"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Sclera",
+    "ar": "الصلبة",
+    "aliases": [
+      "Sclerotic coat",
+      "White of the eye",
+      "Posterior fibrous tunic",
+      "بياض العين",
+      "الغلاف الليفي الخلفي للعين"
+    ]
+  },
+  "content": {
+    "definition": "The sclera is the tough, white, opaque outer fibrous coat of the eye that forms the posterior five-sixths of the fibrous external tunic and is roughly spherical in shape. It consists almost entirely of collagen within a lesser amount of ground substance material than in the cornea, contains scanty fibrocytes (sclerocytes) and is relatively avascular. Like the cornea it is comparatively tough and protects the intraocular contents from injury and mechanical displacement; its mechanical strength also serves to contain the intraocular pressure and at the same time prevents deformations of the globe by resisting the stresses and strains induced by the contractions of the extraocular muscles. In adults the sclera is normally white and its visible anterior portion is referred to as the 'white of the eye', whereas in childhood the sclera is thin and, if there is a pathological alteration in scleral hydration, may appear blue.",
+    "location": "The sclera extends from the corneoscleral junction (limbus) at the anterior scleral foramen, where it meets and anatomically merges with the cornea, to the posterior scleral foramen through which the optic nerve leaves the globe; the posterior aperture lies about 3 mm medial to the midline and 1 mm below the horizontal meridian. The dimensions of the scleral sphere vary in the adult human eye, but on average the coronal diameter lies between 22 and 24 mm, with that in males being 0.5 mm larger than in females; the anteroposterior diameter is 16-17 mm at birth, increasing to 22.5 mm by the age of 3 years and reaching full adult dimension by 13 years. Externally the sclera is related to the episclera and the fascia bulbi (Tenon's capsule) and is covered anteriorly by the bulbar conjunctiva; internally it is separated from the choroid by the suprachoroidal space and its pigmented lamina fusca. The tendons of the extraocular muscles insert upon it anterior to the equator, and its thickness is greatest (1 mm) near the optic nerve, thinning progressively to 0.6 mm at the equator and 0.3 mm at the rectus muscle insertions, before increasing again to 0.8 mm at the limbus.",
+    "layers": [
+      "Episclera: the outermost loose connective tissue outside the sclera proper, which anteriorly connects sclera and conjunctiva; it lies beneath the avascular fascia bulbi (Tenon's capsule), with which it is for the most part continuous, and is connected to the capsule by fibrous bands; its deeper layers become more compact as they give way to sclera proper, and it is thickest anterior to the rectus muscle insertions, blending with Tenon's capsule and the vascular tissues around these muscles, while behind the ocular attachments of the recti it is thin (see episclera card)",
+      "Scleral stroma: a compact zone of interlacing bundles of collagen (chiefly type I with a moderate amount of type III) with some elastic tissue and a smaller quantity of ground substance than in the cornea; the bundles are 10-16 μm thick and 100-140 μm wide and run mostly parallel to the surface, crossing one another in all directions and interweaving and imbricating so densely - especially anteriorly - that blunt dissection of its layers is difficult; between the bundles lie flattened sclerocytes (fibroblasts) with small nuclei and long branching processes",
+      "Lamina fusca: the thin innermost pigmented zone of the sclera adjacent to the choroid and supraciliary region, in which elastic fibres interface with the collagen bundles and which contains numerous melanocytes and pigmented macrophages derived from the lamina fusca of the choroid; it forms the outer wall of the suprachoroidal (perichoroidal) space"
+    ],
+    "blood_supply": "The sclera is relatively avascular. Anteriorly the anterior ciliary arteries send branches to the deep scleral plexus in the region of Schlemm's canal, while posteriorly the short ciliary arteries supply scleral short posterior ciliary branches to the disc and peripapillary sclera, their role being supplemented by the circle of Zinn when present. The episcleral plexus of vessels sends fine twigs to the sclera, but at the equator such vessels are infrequent. It is likely that the choroid, closely apposed to the deep surface of the sclera, provides it with some nourishment, for the choriocapillaris are fenestrated and the sclera does not present a major barrier to the diffusion even of large molecules such as albumin (Bill, 1966a,b, 1968); hence subtenon or subconjunctivally injected drugs readily reach the internal tunics of the eye.",
+    "venous_drainage": "Venous blood leaves the sclera through its natural apertures (emissaria). The anterior emissaria, mostly near the limbus, transmit the anterior ciliary veins - two for each anterior ciliary artery - which emerge over the ciliary body and often share a channel with a branch of the posterior ciliary nerve. The middle emissaria, lying behind the equator, transmit the four main vortex veins (venae vorticosae): the superior pair always lies further posterior (7-8 mm behind the equator) than the inferior pair (5-6 mm), each channel runs obliquely and is about 4 mm long, the external orifices lie 18-22 mm and the internal orifices 14.5-18 mm from the limbus, and accessory veins are always located within 1-2 mm of the main channels. In addition, aqueous veins from the canal of Schlemm may leave through the sclera or form deep and superficial plexuses within it just posterior to the limbus.",
+    "innervation": "The short ciliary nerves supply some fibres to the scleral surface before they enter the emissaria, and some to the stroma while within them; the remainder of the sclera is supplied by branches from the long posterior ciliary nerves. At the limbus, branches are given to the trabecular meshwork and neighbouring sclera before proceeding to the cornea. Myelinated and unmyelinated nerves also traverse the episclera, some ending there without specialization, and the mechanoreceptors of the scleral spur are supplied by myelinated axons.",
+    "histology_summary": "The sclera is composed of compact interlacing bundles of collagen, some elastic tissue and a smaller quantity of ground substance than is found in the cornea. The collagen bundles are 10-16 μm thick and 100-140 μm wide, while those that form the scleral spur are 30-50 μm wide and up to 10 μm thick (Salzmann, 1912); the bands are mostly parallel to the surface but cross each other in all directions, may divide dichotomously and reunite, and the imbrication is so dense, especially anteriorly, that blunt dissection of its layers may be difficult. Within each bundle the collagen fibrils are parallel and show wide variation in diameter and spacing - widths ranging from 28 to 280 nm, with larger diameters (166 nm) in the superficial layers and smaller ones (100 nm) in the deeper ones - a variation and large fibril diameter distinctly different from the cornea that accounts for the opacity of the sclera. The 64 nm banding pattern of collagen fibrils is more readily demonstrated in sclera than in cornea. Scleral collagen is chiefly type I, with a moderate amount of type III; the ground substance includes chondroitin sulphate, dermatan sulphate and hyaluronic acid. Numerous elastic fibres occur throughout, arranged parallel to the collagenous bands (Virchow, 1910); they are most numerous in the second decade of life and with age their amount falls, the reduction between 20 and 60 years being more pronounced in the anterior than the posterior sclera, while the lamina cribrosa is particularly rich in elastin. Scattered flattened fibroblasts (sclerocytes) with small nuclei and long branching processes lie between the collagen bundles, and the deeper scleral lamellae contain a large number of melanocytes and pigmented macrophages, which derive from the lamina fusca of the choroid and supraciliary region. The water content of the sclera is about 68%.",
+    "clinical_importance": "As the main protective coat, the sclera contains the intraocular pressure and resists deformation; it exhibits a typical biphasic viscoelastic response - a rapid but very brief elastic lengthening on sudden deformation followed by a viscid component on slow stretching (St Helen and McEwen, 1961) - and in a child with infantile glaucoma this slow stretching in response to a sustained increase in intraocular pressure results in the buphthalmic globe. Expansion and thinning of the sclera (but not the cornea) is a feature of progressive myopia. Its opacity is related to its water content of about 68%: if water falls below 40% or rises above 80% the sclera becomes lucent, while increased hydration, in contrast to the cornea, invariably leads to a loss of transparency; the relative translucency also allows transscleral transillumination, by which dense intraocular tumours cast a dark shadow. In childhood the sclera is thin and may appear blue - generalized in the eyes of the newborn, focal beneath the insertions of the rectus muscles, or transiently during drying and thinning after ocular surgery - because of greater scattering of shorter wavelengths by the underlying uvea. As age progresses the sclera becomes more rigid and the diameter of its collagen fibrils increases; patches of scleral translucency termed scleral plaques, associated with deposition of calcium sulphate, appear as ovals about 6 × 1 mm just anterior to the insertions of the horizontal recti in some older eyes, and the yellowish hue of older sclerae is attributed to deposition of lipids - the sclera acting as a trap for esterified cholesterol - while yellowing of the sclera is also a diagnostic feature of jaundice. Dilatation of the anterior episcleral vessels (ciliary injection) is a cardinal sign of keratitis and iritis. The emissaria provide natural passages through an otherwise avascular coat for vessels and nerves, the scleral route is used for sub-Tenon's anaesthesia and drug delivery, and the sclera serves as the surgical platform for retinal detachment buckling sutures and for filtering procedures such as trabeculectomy; localized thinning of the coat may result in the formation of a staphyloma."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "eyeball",
+      "target_name": "Eyeball (Globe)"
+    },
+    {
+      "relation_type": "continuous_with",
+      "target_id": "cornea",
+      "target_name": "Cornea"
+    },
+    {
+      "relation_type": "gives_passage_to",
+      "target_id": "optic_nerve",
+      "target_name": "Optic Nerve"
+    },
+    {
+      "relation_type": "supplied_by",
+      "target_id": "anterior_ciliary_arteries",
+      "target_name": "Anterior Ciliary Arteries"
+    },
+    {
+      "relation_type": "supplied_by",
+      "target_id": "short_posterior_ciliary_arteries",
+      "target_name": "Short Posterior Ciliary Arteries"
+    },
+    {
+      "relation_type": "innervated_by",
+      "target_id": "ciliary_nerves",
+      "target_name": "Short and Long Posterior Ciliary Nerves"
+    },
+    {
+      "relation_type": "attached_to",
+      "target_id": "fascia_bulbi",
+      "target_name": "Fascia Bulbi (Tenon's Capsule)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "sclera",
+      "الصلبة",
+      "بياض العين",
+      "sclerocytes",
+      "lamina fusca",
+      "episclera",
+      "lamina cribrosa",
+      "scleral foramen",
+      "emissaria",
+      "vortex veins",
+      "venae vorticosae",
+      "aqueous veins",
+      "scleral rigidity",
+      "buphthalmos",
+      "blue sclera",
+      "scleral plaque",
+      "ciliary injection",
+      "scleral staphyloma",
+      "transscleral diffusion",
+      "sub-Tenon anaesthesia",
+      "scleral buckling",
+      "trabeculectomy",
+      "type I collagen"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-10-23",
+    "version": "1.0.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            271
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            272,
+            273
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            270,
+            271,
+            275,
+            276
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            276,
+            277
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            273,
+            274
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            271,
+            277
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            271,
+            272,
+            275,
+            276
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            271,
+            272,
+            277,
+            278
+          ]
+        }
+      ]
+    }
+  ]
+}

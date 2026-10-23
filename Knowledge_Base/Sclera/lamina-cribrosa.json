@@ -1,0 +1,178 @@
+{
+  "entity_id": "lamina_cribrosa",
+  "component_ids": [
+    "comp_sclera"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Lamina Cribrosa",
+    "ar": "الصفيحة الغربالية",
+    "aliases": [
+      "Cribriform plate",
+      "Sieve-like plate of the sclera",
+      "الصفيحة المنخربة",
+      "صفيحة الثقب البصري"
+    ]
+  },
+  "content": {
+    "definition": "The lamina cribrosa (cribriform plate) is the specialized, sieve-like network of bands and bundles of collagen and elastic fibres that extends across the posterior scleral foramen, through which the optic nerve fibres leave the globe. Unlike the anterior scleral foramen, which is filled by the cornea, scleral fibres extend across the posterior opening on its choroidal aspect as a specialized network of bands or bundles, providing support and anchorage for the optic nerve fibres passing through it and at the same time reinforcing the globe at its weakest point. The major part of the lamina is formed by collagen and elastin from the innermost third of the sclera, while the fibres of the outer two-thirds of the sclera do not traverse the foramen but turn through a right angle and run outwards to blend with the dural covering of the optic nerve.",
+    "location": "At the posterior pole of the eye, bridging the posterior scleral foramen - a short canal located about 3 mm medial to the midline and 1 mm below the horizontal meridian, shaped like a truncated cone with an internal opening 1.5-2.0 mm and an external opening 3.0-3.5 mm across. The lamina lies at the intraocular end of the optic nerve canal, continuous peripherally with the sclera, anteriorly related to the choroid and retina at the optic disc, and posteriorly continuous with the optic nerve and its dural sheath.",
+    "layers": null,
+    "blood_supply": "The bulk of the lamina cribrosa is made up of a series of fenestrae within a spongy framework of capillaries, which blend peripherally with the capillaries of the choroid; these capillaries lie in glial sheets that provide a supporting framework for the nerve fibre bundles, and the distribution of the capillaries is not uniform.",
+    "venous_drainage": null,
+    "innervation": null,
+    "histology_summary": "The lamina is formed by a series of superimposed, congruent openings - bands or bundles of collagen and elastin extending from the innermost third of the sclera across the foramen - and its intraocular aspect is concave (Wolff, 1957; Hayreh and Vrabec, 1966). Not all fibre bundles traverse the canal: the fibres from the outer two-thirds of the sclera turn through a right angle and run outwards to blend with the dural covering of the optic nerve. Within the net the bundles remain relatively straight, but their axes lie at a variety of angles - widened and 'warped' in some regions while others cross at a variety of angles - and the perforations within the lamina are thin, short canals through which the bundles of nerve fibres pass. At its posterior boundary the lamina is strengthened by a thick layer of elastic tissue. Developmentally, the primitive lamina cribrosa consists of a cellular plate; at 14 weeks of gestation the optic nerve fibres are already passing through it, and the primitive plate is progressively remodelled into the definitive sieve.",
+    "clinical_importance": "In chronic glaucoma, in response to a sustained rise in intraocular pressure, and in ischaemic optic neuropathy, the lamina cribrosa is displaced further posteriorly, leading to enlargement of the optic cup; the lamina is therefore the mechanically critical structure on which glaucomatous cupping is inscribed, and its contours are assessed routinely at optic disc examination. Because it is the weakest point of the globe, its specialized meshwork of collagen and elastic fibres reinforces the canal while still allowing passage of the optic nerve fibres; distortion of its fenestrae is thought to impede axoplasmic flow in the affected nerve fibre bundles. Its embryology explains congenital optic disc anomalies: the primitive cellular plate present at 14 weeks of gestation must canalize and remodel for the definitive sieve to form."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "sclera",
+      "target_name": "Sclera"
+    },
+    {
+      "relation_type": "gives_passage_to",
+      "target_id": "optic_nerve",
+      "target_name": "Optic Nerve"
+    },
+    {
+      "relation_type": "continuous_with",
+      "target_id": "optic_nerve_sheath",
+      "target_name": "Dural Sheath of the Optic Nerve"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "optic_disc",
+      "target_name": "Optic Disc"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "lamina cribrosa",
+      "الصفيحة الغربالية",
+      "cribriform plate",
+      "posterior scleral foramen",
+      "optic cup",
+      "glaucomatous cupping",
+      "elastic tissue",
+      "collagen bundles",
+      "optic nerve fibres",
+      "ischaemic optic neuropathy",
+      "primitive lamina cribrosa",
+      "sieve"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-10-23",
+    "version": "1.0.0",
+    "priority": 2
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            272,
+            273
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            272,
+            273
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            497
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            273,
+            274
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            497
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "17",
+          "pages": [
+            631
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            273,
+            274
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "17",
+          "pages": [
+            631
+          ]
+        }
+      ]
+    }
+  ]
+}

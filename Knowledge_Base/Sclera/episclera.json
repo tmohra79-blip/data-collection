@@ -1,0 +1,187 @@
+{
+  "entity_id": "episclera",
+  "component_ids": [
+    "comp_sclera"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Episclera",
+    "ar": "الصلبة السطحية",
+    "aliases": [
+      "Episcleral tissue",
+      "Sub-Tenon's connective tissue",
+      "النسيج فوق الصلبي",
+      "النسيج الضام السطحي للصلبة"
+    ]
+  },
+  "content": {
+    "definition": "The episclera is the loose connective tissue lying outside the sclera proper, which anteriorly connects the sclera and the conjunctiva. It lies beneath the avascular fascia bulbi (Tenon's capsule) and is connected to the capsule by fibrous bands; for the most part the episclera is continuous with the loose tissue of Tenon's capsule, while its deeper layers become more compact as they give way to sclera proper. It is thickest anterior to the rectus muscle insertions because it blends with Tenon's capsule and the vascular tissues around these muscles - a vascularity that distinguishes the episclera from Tenon's capsule and the sclera itself - and behind the ocular attachments of the recti the episclera is thin.",
+    "location": "External to the sclera proper and immediately beneath Tenon's capsule, extending from the limbus backwards around the globe. Anteriorly it contributes, together with Tenon's capsule and the limbal conjunctival stroma and epithelium, to the superficial limbal zone. It is thickest anterior to the tendinous insertions of the rectus muscles and thins behind the ocular attachments of the recti, continuing posteriorly into the fascial system investing the globe.",
+    "layers": null,
+    "blood_supply": "Behind the rectus muscle insertions the posterior ciliary arteries supply a wide-meshed plexus of vessels, with two venules to each arteriole, while a denser meshwork of vessels at the insertions is supplied by episcleral branches of the anterior ciliary arteries; a capillary plexus exists only in this anterior episclera. Dilatation of these vessels - ciliary injection - occurs in keratitis and iritis (Hogan, Alvarado and Weddell, 1971). The episcleral plexus sends fine twigs to the sclera itself, but at the equator such vessels are infrequent.",
+    "venous_drainage": "The episcleral veins include the anterior ciliary veins, which are two for each anterior ciliary artery and emerge over the ciliary body, often sharing a channel with a branch of the posterior ciliary nerve. Aqueous veins from the canal of Schlemm may leave through the sclera or form deep and superficial plexuses within it just posterior to the limbus, draining into the intra- and episcleral venous systems.",
+    "innervation": "Myelinated and unmyelinated nerves traverse the episclera, some ending there without specialization; other fibres pass through the episcleral plane en route between the scleral emissaria and the neighbouring limbal structures.",
+    "histology_summary": "The fibres of the episcleral collagen are finer than those of the sclera proper and more widely spaced, and the bundles are less compact; the ground substance is more abundant, and elastic fibrils are also present. Its cells include typical fibroblasts, melanocytes, some macrophages and a few lymphocytes. More deeply, the bundles become progressively more compact until they merge imperceptibly with the sclera proper, and anteriorly the episclera blends with the loose tissue of Tenon's capsule and the subconjunctival connective tissue.",
+    "clinical_importance": "The episclera houses the anterior episcleral vascular plexus whose dilatation produces ciliary injection, a deep violaceous flush that is a cardinal sign of keratitis and iritis and is distinguished clinically from the brighter, more mobile superficial conjunctival injection. Because it lies between Tenon's capsule and the sclera, it defines the surgical plane through which sub-Tenon's (episcleral) anaesthesia and drug delivery reach the globe - the sclera does not present a major barrier to the diffusion even of large molecules such as albumin (Bill, 1966a,b, 1968) - and it is the primary site affected in episcleritis, a benign, frequently recurrent inflammation that must be differentiated from the deeper, more painful and potentially sight-threatening scleritis. Its thickness anterior to the rectus insertions and its thinness at the insertions themselves are useful surgical landmarks in strabismus surgery, and the vascularity of the anterior episclera is relevant to the healing of limbal and glaucoma-filtering surgery."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "sclera",
+      "target_name": "Sclera"
+    },
+    {
+      "relation_type": "superficial_to",
+      "target_id": "sclera",
+      "target_name": "Sclera"
+    },
+    {
+      "relation_type": "continuous_with",
+      "target_id": "fascia_bulbi",
+      "target_name": "Fascia Bulbi (Tenon's Capsule)"
+    },
+    {
+      "relation_type": "supplied_by",
+      "target_id": "anterior_ciliary_arteries",
+      "target_name": "Anterior Ciliary Arteries"
+    },
+    {
+      "relation_type": "supplied_by",
+      "target_id": "posterior_ciliary_arteries",
+      "target_name": "Posterior Ciliary Arteries"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "episclera",
+      "الصلبة السطحية",
+      "ciliary injection",
+      "الاحتقان الهدبي",
+      "episcleritis",
+      "sub-Tenon anaesthesia",
+      "episcleral plexus",
+      "anterior ciliary veins",
+      "aqueous veins",
+      "Tenon's capsule",
+      "fibroblasts",
+      "melanocytes",
+      "superficial limbus",
+      "strabismus surgery landmarks"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-10-23",
+    "version": "1.0.0",
+    "priority": 2
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            270,
+            271
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            270,
+            271
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "8",
+          "pages": [
+            280
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            271,
+            277
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            274
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            271
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            271
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            271,
+            277
+          ]
+        }
+      ]
+    }
+  ]
+}

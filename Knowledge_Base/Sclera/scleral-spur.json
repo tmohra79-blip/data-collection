@@ -1,0 +1,184 @@
+{
+  "entity_id": "scleral_spur",
+  "component_ids": [
+    "comp_sclera"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Scleral Spur",
+    "ar": "النتوء الصلبي",
+    "aliases": [
+      "Scleral roll",
+      "Spur of the sclera",
+      "نتوء الصلبة الخلجي",
+      "الحافة الصلبة"
+    ]
+  },
+  "content": {
+    "definition": "The scleral spur is a wedge-shaped circular ridge of sclera that marks the deep aspect of the sclerolimbal junction. It receives the insertion of the anterior tendons of the longitudinal ciliary muscle on its inner aspect, while its anteriormost base forms the posterior margin of the scleral sulcus and receives the posterior attachment of the corneoscleral meshwork. The spur contains collagen and elastic tissue with a circular arrangement like that of the trabecular beams of the corneoscleral and cribriform (juxtacanicular) meshwork, with which it blends. Developmentally it first appears at approximately 4 months (embryo 70 mm) as a fibrous, wedge-shaped protrusion of the inner aspect of the anterior sclera (the inner limbus), an event that corresponds to the retraction of the developing ciliary muscle fibres; by the middle of the seventh month the anterior ends of the longitudinal ciliary muscle fibres have established their insertion into the spur.",
+    "location": "On the internal aspect of the anterior sclera at the corneoscleral junction, encircling the anterior segment of the globe. Anteriorly its base borders the scleral sulcus, which is occupied by the trabecular meshwork and canal of Schlemm, and posteriorly it faces the ciliary body, into whose longitudinal muscle fibres it gives tendon-like insertion. It thus marks the posterior limit of the drainage-angle structures and occupies the deepest part of the anterior chamber angle region between the trabecular meshwork and the ciliary body.",
+    "layers": null,
+    "blood_supply": null,
+    "venous_drainage": null,
+    "innervation": "Individual scleral spur cells (SSC) are innervated by unmyelinated axons which derive exclusively from neurons that run forwards in the supraciliary space; these contrast with the myelinated axons which supply the mechanoreceptors of the scleral spur, whose axons run circumferentially in the scleral spur (Tamm et al., 1994).",
+    "histology_summary": "The spur contains collagen and elastic tissue arranged circularly, like the trabecular beams of the corneoscleral and cribriform meshwork with which it blends; its collagen fibrils vary in diameter from 35 to 80 nm and widen towards the sclera (Tripathi and Tripathi, 1982), while the scleral bundles that form the spur are 30-50 μm wide and up to 10 μm thick (Salzmann, 1912). Contractile, myofibroblast-like cells - the scleral spur cells (SSC) - are oriented circumferentially within the spur: they have sparse mitochondria and are rich in smooth muscle alpha-actin and myosin, possess an interrupted basal lamina, and lack the desmin and intermediate filaments characteristic of the adjacent ciliary smooth muscle cells (Tamm et al., 1991, 1992a,b). The SSC form tendon-like contacts with the elastic fibres of the scleral spur, which are continuous with those of the adjacent trabecular meshwork; some trabecular meshwork cells also stain positively for smooth muscle alpha-actinin and smooth muscle actin (de Kater et al., 1990, 1992; Flügel et al., 1992). Developmentally, the collagen fibrils and elastic tissue of the spur are oriented circularly (Tripathi et al., 1995).",
+    "clinical_importance": "Contraction of the ciliary muscle pulls the spur posteriorly and opens up the trabecular spaces - the likely mode of action of miotics in reducing aqueous outflow resistance (Unger and Rohen, 1958; Rohen and Unger, 1959; Moses and Arnzen, 1980) - and changes in the tone of the scleral spur cells might modulate outflow resistance by altering trabecular architecture (Tamm et al., 1992). The spur is a key landmark of the anterior chamber angle: it forms the posterior boundary of the trabecular meshwork, the apex of the angle at birth is located at its level, and in the adult the anterior face of the meridional ciliary muscle bundle is obscured by it on gonioscopy. Its developmental timing (about 4 months' gestation) and its insertion by the longitudinal ciliary muscle by the seventh month make it a reference structure in the maturation of the drainage angle, and it is a surgically important landmark in procedures on the outflow apparatus such as cyclodialysis."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "sclera",
+      "target_name": "Sclera"
+    },
+    {
+      "relation_type": "receives_insertion_of",
+      "target_id": "ciliary_muscle",
+      "target_name": "Ciliary Muscle (Longitudinal Fibres)"
+    },
+    {
+      "relation_type": "continuous_with",
+      "target_id": "trabecular_meshwork",
+      "target_name": "Trabecular Meshwork"
+    },
+    {
+      "relation_type": "innervated_by",
+      "target_id": "ciliary_nerves",
+      "target_name": "Ciliary Nerves (Supraciliary Neurons)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "scleral spur",
+      "النتوء الصلبي",
+      "scleral spur cells",
+      "SSC",
+      "myofibroblast",
+      "trabecular meshwork",
+      "miotics",
+      "outflow resistance",
+      "longitudinal ciliary muscle",
+      "gonioscopy",
+      "drainage angle",
+      "cyclodialysis",
+      "scleral sulcus"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-10-23",
+    "version": "1.0.0",
+    "priority": 3
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "8",
+          "pages": [
+            284
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "17",
+          "pages": [
+            632
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "8",
+          "pages": [
+            284,
+            280
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "8",
+          "pages": [
+            284
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "8",
+          "pages": [
+            284
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            275
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "17",
+          "pages": [
+            632
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "8",
+          "pages": [
+            284
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "17",
+          "pages": [
+            632,
+            633
+          ]
+        }
+      ]
+    }
+  ]
+}
