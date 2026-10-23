@@ -1,0 +1,200 @@
+{
+  "entity_id": "optic_nerve_blood_supply",
+  "component_ids": [
+    "comp_optic_nerve"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Blood Supply of the Optic Nerve",
+    "ar": "التروية الدموية للعصب البصري",
+    "aliases": [
+      "Vascular supply of the optic nerve",
+      "Pial plexus of the optic nerve",
+      "تروية العصب البصري الدموية",
+      "الشبكة الوعائية للعصب البصري",
+      "دوران الدم في العصب البصري"
+    ]
+  },
+  "content": {
+    "definition": "The optic nerve, an outgrowth from the brain, has a vascular supply modelled on that organ; the resemblance is great, but not absolute, for in the optic nerve there is no grey matter and there are no nerve cells. The optic nerve, chiasma and tracts are covered with pia mater identical with that of the brain — only those portions of the chiasma and tracts adherent to the base of the brain are bare of pia. All the arteries which will eventually supply the nerve tissue do so through the pial network of vessels; as in the cerebral convolutions there are actually two networks, one inside the other — the outer larger and formed of arterioles of fair size, the other, lying within the first, consisting of vessels of microscopic size; the network is supplied by arteries which probably anastomose slightly in the network, but not before they reach it (p. 521).",
+    "location": "In the intracranial portion of the nerve the pial network is situated on the surface of the pia; in the orbital portion, between the longitudinal and circular fibres (p. 521). The vessels which join the optic nerve ultimately come from the internal carotid artery and, because the eye has grown out from the brain, its vessels have followed it — explaining why the vessels to the chiasma are short and those to the globe relatively long (p. 521).",
+    "layers": [
+      "Intracranial part: this region has been considered as a 'no-man's-land' between the territories of the ophthalmologist and neurologist, and as a result has not received detailed study (p. 522). A perichiasmal artery running back along the medial side of the optic nerve joins its fellow of the opposite side along the anterior border of the chiasma and supplies both; it is probably the largest supply to the intracranial optic nerve — Hayreh (1963) and Steele and Blunt (1956) regard the origin to be the superior hypophyseal branch of the internal carotid, although Dawson (1958) believed the ophthalmic artery to be its source. The ophthalmic artery gives rise to a variable number of small collateral arteries which run backwards along the inferior surface of the nerve, winding round its margins to its superior aspect (Hayreh, 1963); branches supplying its upper surface were also demonstrated (Magitot, 1947; Steele and Blunt, 1956). Additional branches from the anterior cerebral and anterior communicating arteries, described by Behr (1935), Wolff (1939) and Francois and Neetens (1954), were not demonstrated by Hayreh (1963) (p. 524).",
+      "Intracanalicular part: Hayreh (1963) found the ophthalmic artery to be the sole supply to this portion of the nerve, except for an occasional branch from the central retinal artery on its inferior aspect; branches of the ophthalmic artery arise within the canal or in the orbit (Steele and Blunt, 1956). The nerve substance is supplied by a pial network, which in this region is relatively poor; because the arteries reach the pia along connective tissue bands binding the nerve to the surrounding dural sheath, this supply is vulnerable to shearing injury in skull fracture (p. 524).",
+      "Intraorbital part: the optic nerve in the orbit is 3 cm long and the central retinal artery enters at 5-15.5 mm behind the eyeball; the arterial supplies proximal and distal to this point of entry are different — the proximal part being supplied by centripetal branches of the pial network, while the distal part, carrying the central retinal vessels, exhibits an axial supply in addition; the embryonic origin of arteries supplying these two segments is also different (Mann, 1927a). Posterior to the entry of the central retinal artery the proximal part, like the intracanalicular and intracranial portions, is supplied throughout its substance by centripetal vessels from the pial network; this network is supplied by collaterals from the ophthalmic artery or its branches, of smaller size than those branches, arising near to the nerve as the ophthalmic artery lies close to it — their origin and location depend on whether the ophthalmic artery crosses over the nerve (in 82-85% of cases) or under it, and as they arise they are more often directed posteriorly. The supply is thus: (1) direct branches of the ophthalmic artery; (2) extraaneural part of the central retinal artery; (3) other branches of the ophthalmic artery; when the ophthalmic artery crosses above the optic nerve, direct branches reach the pia in 75% of cases (p. 524). A separate arterial supply to the axial part of the intraorbital optic nerve termed the 'central artery of the optic nerve' (Kuhnt, 1879; Vossius, 1883; Behr, 1935; Wolff, 1939, 1954; Francois and Neetens, 1954-1956) appears to be extremely infrequent, if it exists at all (Steele and Blunt, 1956; Beauvieux and Ristich, 1924; Hayreh, 1963) (p. 527).",
+      "Optic nerve head: a watershed zone between the retina and the optic nerve whose vessels are exposed to significantly different hydrostatic pressures — the disc and retina to intraocular pressure, the retrolaminar and proximal nerve to cerebrospinal fluid pressure (p. 528); zonal detail is given in the optic_disc card and in the histology summary of this card."
+    ],
+    "blood_supply": "Various arterial sources feed a pial plexus of vessels which supplies centripetal end arteries to the whole substance of the nerve (p. 524). When the vessels pass into the nerve they take with them a coat of pia and also a covering of glia, which constitute the septa; the distribution of the septa is exactly that of the blood vessels, and the thickness of each septum is proportional to the size of the contained vessel; while this is obvious in the orbital portion of the nerve, it is more difficult to discern in the tract and chiasma; in the most posterior portion of the nerve, in the chiasma and in the optic tract even the larger vessels are surrounded by only a slight covering of connective tissue which seems to disappear entirely in the capillaries — these are, however, always separated from the nerve tissue by the perivascular glia. The pial network acts as a distributing centre which provides for a regular supply of blood to the nerve; as the vessels pass into the nerve in the septa, they divide dichotomously and send branches anteriorly and posteriorly. There is a striking contrast between the great vascularity of the pia mater and the relatively few vessels in the dura mater (p. 521). Retrolaminar optic nerve: receives its supply mainly from the arteries and arterioles of the pial sheath of the neighbouring leptomeninges (p. 528); the pial system occasionally gives rise to curved longitudinal arterioles and precapillaries which pass forwards and may often be traced through to the vascular networks of the lamina and prelaminar regions (Lieberman, Maumenee and Green, 1976); recurrent scleral short posterior ciliary arteries supply the interconnecting system of arterioles at the meningoscleral interface and pass through the pia to the retrolaminar nerve — the circles of Zinn and Haller, found infrequently by some authors (Hayreh, 1974), are per more recent studies commonly present and provide an important supply to both the retrolaminar and laminar parts of the nerve head (Olver et al., 1990); some choroidal arteries supply the retrolaminar region (Hayreh, 1975; Anderson and Braverman, 1976); the central retinal artery gives off a small number of branches in the retrolaminar 2 mm of the nerve which are short, narrow rapidly, and run anteriorly or posteriorly to anastomose with the septal system — their contribution is small relative to the pial supply, and in many instances there may be no branches to the region immediately behind the lamina cribrosa (Hayreh, 1974) (p. 529). Laminar region: the anastomotic 'circles' of Zinn (1755) and Haller (1754) are formed by the paraoptic branches of the short posterior ciliary arteries; the circle may be anteriorly placed, lying closer to the choroid within the sclera, or more posteriorly, when the superior and inferior parts are partially or completely extrascleral; incomplete, upper or lower arcuate anastomoses are also seen, or sometimes overlapping non-anastomosing upper and lower segments; the branches of the anastomosis are: (1) recurrent pial branches — four to seven of these arise from each segment, or they may arise from two or three larger trunks, small branches being given off to the retrolaminar nerve; (2) recurrent choroidal branches supplying the immediate peripapillary choroid and extending towards the equator as straight vessels superiorly and inferiorly, small centripetal branches of these arteries and others from the choroid itself supplying the laminar and retrolaminar regions of the nerve head; (3) direct branches to the retrolaminar and laminar parts of the nerve head, relatively infrequent; (4) arteriole-arteriolar anastomoses between the circle and pial and recurrent choroidal arterioles at the optic nerve head; some centripetal vessels interfacial precapillaries turn abruptly in a circumferential direction at the level of the glial cuff in continuity with the border tissue of Jacoby anteriorly and glial mantle of the optic nerve posteriorly, run a short distance within the glial border tissue and then turn abruptly inwards again to enter the septal system of anastomoses — an arrangement more developed in the monkey eye (Ruskell, 1984). The transverse system of anastomoses established within the septa of the connective tissue plates of the lamina cribrosa dominates the vascular architecture; those of the posterior lamina tend to be larger (arterial and arteriolar) than the anterior (arteriole to capillary), and the transverse capillary beds anastomose with longitudinal precapillary and capillary beds along paths which are tortuous rather than geometrically axial (p. 531).",
+    "venous_drainage": "The venous drainage of the optic nerve is chiefly by the central retinal vein and to a lesser extent via the pial venous system; both systems drain into the ophthalmic venous system in the orbit and less commonly directly into the cavernous sinus: (1) pial veins — in the orbit and optic canal drain into the ophthalmic system, the intracranial pial veins draining into the adjacent venous sinuses; (2) central retinal vein(s) — formed on the optic nerve head by the union of the retinal venous tributaries, the vein runs on the lateral side of the central artery in the axial part of the nerve, in a fibrous envelope in common with the artery or separated from it by axon bundles; at times two veins enter the nerve head and unite within the substance of the nerve, reflecting the embryonic origin of the vein as two venous channels at the third month of intrauterine life lying on either side of the hyaloid artery, which fuse prenatally — failure to do so results in a doubled vein, and sometimes two separate channels persist. The site of exit of the vein from the optic nerve varies: the vein exits from the same aspect of the nerve as the point of entry of the central retinal artery in 42% of nerves, in which case the vein is anterior to the artery in 81% of cases (Fry, 1930); sometimes the vein exits laterally and curves inferiorly to leave the dura with the artery; the intravaginal course (3.8-8 mm) is longer than that of the artery and a greater fraction resides in the dura. The vein receives tributaries from the retina, the optic nerve head at all levels (including choroidal tributaries and those from the peripapillary sclera), the pia and the posterior central vein, and joins the orbital plexus of veins to drain into the superior and/or inferior ophthalmic vein, and/or cavernous sinus directly; (3) posterior central vein — Hayreh (1963) describes a vein draining the proximal part of the intraorbital optic nerve, posterior to the exit of the central retinal vein and running forward to empty into the latter at its bend; the same name was also given by Cone and MacMillan (1932) to a vein described by Kuhnt which exits from the nerve inferiorly where the ophthalmic artery lies in its dural sheath and runs backward on the lateral side of the nerve to the cavernous sinus (Greeff, 1932) (p. 527). Because of these multiple connections, blockage of the blood flow in the cavernous sinus will not block blood flow in the central retinal veins, though it may impede it (p. 528). The structure of the central retinal vein is simpler than that of the central retinal artery: the continuous endothelium lies on a basement membrane; outside this is a cell which may be smooth muscle or pericyte, and the media is represented by a separation of occasional smooth muscle cells from basement membrane; a connective tissue adventitia is present (p. 528).",
+    "innervation": "The nerve fibres within the adventitia of the central retinal artery include sympathetic and parasympathetic fibres and exhibit terminals along the artery up to the level of the lamina cribrosa, where they are rare; unmyelinated nerve bundles, with or without a perineurium, are most frequent immediately outside the media, and occasional neurons accompany the proximal 2 mm of the retinal arteries. Adrenergic sympathetic nerve fibres, with cell bodies located mainly in the superior cervical ganglion with some additional in ectopic ganglia en route to the artery, have been demonstrated in the central artery of the retina as far forward as the optic disc in a variety of animals (Ruskell, 1972). Ruskell (1972) has also demonstrated in monkeys and humans a parasympathetic innervation of orbital vessels, including lacrimal, ciliary and choroidal arteries, the central artery of the retina being no exception — cell bodies are located in the pterygopalatine ganglion and distributed to the orbital plexus of autonomic nerves via the rami orbitales of that ganglion; the orbital plexus receives its sympathetic fibres from the internal carotid nerve. Tiedeman (1824) traced a fine nerve branch from the ciliary ganglion which entered the optic nerve with the central artery of the retina in humans; in contrast, Ruskell (1970) found a fine nerve of similar distribution arising from the retro-orbital plexus in the monkey (p. 527).",
+    "histology_summary": "Intraseptal microvasculature: the intraseptal vessels of the retrolaminar region are primarily large precapillaries and capillaries confined to the connective tissue septae and arranged as both transverse and longitudinal polygonal units surrounding axon bundles; there is extensive anastomosis and no uniformity of size of these intraseptal vessels; their numbers increase near the posterior bowing of the lamina; anteriorly the system anastomoses with vessels of the lamina itself and posteriorly with the septal system of the intraorbital nerve (Fig. 15.52) (p. 529). Zonal supply of the nerve head: the reader is referred to the classic accounts of Singh and Dass (1960), Hayreh (1963, 1974), Beauvieux and Ristich (1924), Steele and Blunt (1956), Anderson (1969), Francois and Neetens (1954), Levitzky and Henkind (1969), Henkind and Levitzky (1969) and Lieberman, Maumenee and Green (1976) (p. 528). Prelaminar region: supplied mainly from the scleral short posterior ciliary system and the recurrent choroidal arteries, but there is no full agreement as to their relative contribution — Lieberman, Maumenee and Green (1976) emphasize the role of branches of the scleral short posterior ciliary arteries, which course through the sclera and the border tissue of Elschnig to reach the prelaminar space without traversing the choroid, supplying transverse precapillaries and capillaries in this region, while Hayreh (1974) gives such vessels a negligible role; Hayreh (1974) attributes the major supply to the centripetal branches of the peripapillary choroid, a view supported by Levitzky and Henkind (1969), Anderson (1969) and Theodosiadis (1971), whereas Lieberman, Maumenee and Green (1976), in their careful study, found that only 10% of vessels entering the prelaminar region originate from choroidal arteries although about 30% of the prelaminar depth is in contact with peripapillary choroid; although the capillary networks of the choroid (choriocapillaris) and disc are quite distinct and separate (Hayreh, 1975; Anderson and Braverman, 1976), a microvascular cuff is present between disc and choroid immediately external to the peripapillary bundle of optic nerve axons — this may be regarded as the anterior extension of the pial vascular bed, and exhibits in addition to its capillary-sized circumferential vessels some longitudinally disposed arteries of choroidal origin, passing posteriorly to supply the retrolaminar pia mater; cilioretinal arteries passing from sclera or choroid are infrequent sources of prelaminar precapillaries (p. 534). Laminar vessels: there is a longitudinal continuity of precapillaries and capillaries between the laminar, prelaminar and superficial nerve layer systems which anastomose with the transverse networks supplied by the scleral short posterior ciliary arteries; the temporal part of the region is much more vascular than the remainder (p. 534). Superficial nerve fibre layer: this layer is supplied by (1) peripapillary arterioles of central retinal artery origin; (2) epipapillary arterioles of central retinal artery origin; (3) rich anastomoses with the prelaminar region; (4) occasional anastomoses with the choriocapillaris; (5) precapillary branches from cilioretinal arteries when present. The central retinal artery is the major supply to the superficial nerve fibre layer, the peripapillary arterioles arising around the disc being more important than the epipapillary arterioles arising on the disc (Anderson and Hoyt, 1969; Hayreh, 1974); there are rich anastomoses between the prelaminar and nerve fibre layer vessels and between the latter and the radial peripapillary network described by Michaelson and Campbell (1940), Toussaint, Kuwabara and Cogan (1961) and Henkind (1967); these vessels of central retinal artery origin are generally arteriolar or precapillary while those of the prelaminar region are of precapillary and capillary size (p. 534). Venous drainage of the nerve head is much simpler than its arterial supply: in each zone venules drain into the central retinal vein, or when present into a duplicated vein (probably an embryological persistence of hyaloid veins — Hayreh, 1963); occasional septal veins in the retrolaminar region drain into pial veins; some small venules from the prelaminar region or from the nerve fibre layer (opticociliary veins) drain into the choroid (Lieberman, Maumenee and Green, 1976) (p. 534).",
+    "clinical_importance": "The special arrangement of the nerve-head vasculature at a watershed between two pressure systems, and the importance of the diseases affecting the nerve head, has directed considerable research attention to this zone (Singh and Dass, 1960; Hayreh, 1963, 1974; Beauvieux and Ristich, 1924; Steele and Blunt, 1956; Anderson, 1969; Francois and Neetens, 1954; Levitzky and Henkind, 1969; Henkind and Levitzky, 1969; Lieberman, Maumenee and Green, 1976) (p. 528). The intracanalicular supply, in which the arteries reach the pia along connective tissue bands binding the nerve to the dural sheath, is vulnerable to shearing injury in skull fracture (p. 524). Ruskell (1984) suggests that the thin-walled interfacial precapillaries would be vulnerable to closure with raised intraocular pressure and could be related to the disc haemorrhages which occur in chronic glaucoma (p. 531). Opticociliary veins may enlarge in association with optic nerve sheath meningiomas (p. 534). Blood-brain barrier: the capillaries of the optic nerve head, as in the remainder of the optic nerve (Anderson, 1969; Anderson and Hoyt, 1969), the retina (Ishikawa, 1963; Cunha-Vaz, Shakib and Ashton, 1966) and the central nervous system generally (Reese and Karnovsky, 1967), have non-fenestrated endothelial linings with tight junctions between adjacent endothelial cells; these junctions are responsible for the blood-tissue barrier to the diffusion of small molecules (such as proteins and tracer materials) across these capillaries; however, the blood-brain barrier at the optic nerve head is incomplete as a result of the continuity between the extracellular spaces of the choroid and the optic nerve head at the level of the choroid (in the prelaminar region, or the pars choroidalis) (p. 534)."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "optic_nerve",
+      "target_name": "Optic Nerve"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "optic_disc",
+      "target_name": "Optic Disc (nerve head is the watershed zone)"
+    },
+    {
+      "relation_type": "interface_with",
+      "target_id": "optic_nerve_septa",
+      "target_name": "Septa of the Optic Nerve (vessels enter and run within the septa)"
+    },
+    {
+      "relation_type": "supplied_by",
+      "target_id": "optic_nerve_blood_supply",
+      "target_name": "Ophthalmic and internal carotid arterial system"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "optic nerve blood supply",
+      "التروية الدموية للعصب البصري",
+      "pial plexus",
+      "pial network",
+      "ophthalmic artery",
+      "perichiasmal artery",
+      "superior hypophyseal artery",
+      "circle of Zinn and Haller",
+      "short posterior ciliary arteries",
+      "recurrent choroidal arteries",
+      "central retinal vein",
+      "posterior central vein",
+      "opticociliary veins",
+      "blood-brain barrier",
+      "watershed zone"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-10-24",
+    "version": "1.0.0",
+    "priority": 2
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            521
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            521
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            522,
+            524,
+            527,
+            528
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            521,
+            524,
+            529,
+            531,
+            534
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            527,
+            528
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            527
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            528,
+            529,
+            534
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            510,
+            524,
+            528,
+            531,
+            534
+          ]
+        }
+      ]
+    }
+  ]
+}

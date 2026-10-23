@@ -1,0 +1,190 @@
+{
+  "entity_id": "optic_nerve_sheath",
+  "component_ids": [
+    "comp_optic_nerve"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Optic Nerve Sheaths",
+    "ar": "أغماد العصب البصري",
+    "aliases": [
+      "Vaginal sheaths of the optic nerve",
+      "Meningeal coverings of the optic nerve",
+      "Dural sheath of the optic nerve",
+      "غمد العصب البصري",
+      "الأغماد السحائية للعصب البصري",
+      "الغمد الجافي للعصب البصري"
+    ]
+  },
+  "content": {
+    "definition": "In the cranial cavity the optic nerve is surrounded only by pia, but in the optic canal arachnoid and dura are present; at the optic foramen the cranial dura splits into periosteum (periorbita) and the dural covering of the optic nerve, so that in the canal and in the orbit the nerve is surrounded by sheaths of all three meninges. Between the dura and arachnoid is the so-called subdural space and between arachnoid and pia the subarachnoid space, both of which communicate with the corresponding intracranial spaces; fluid injected into the cranial subarachnoid space spreads into its perioptic prolongation. The subdural space, though often seen in microscopic preparations, is an artefact: it is only potential and appears chiefly in pathological states (p. 510). Meningothelial cells are shown to be the main component of the arachnoid mater and form linings for dura mater, arachnoid trabeculae and pia mater (Fig. 15.32, Anderson, 1969b).",
+    "location": "The sheaths invest the nerve from the optic canal — where the dura, lining the canal as periosteum, splits at its orbital end into periorbita and dural sheath, and is firmly attached to bone — forwards to the globe, where the dura blends imperceptibly with the sclera. The subarachnoid space ends in a scleral cul-de-sac reaching the back of the lamina cribrosa; it is widest anteriorly, where the optic nerve is thinnest, and in a temporally directed scleral canal is wider on the nasal side (p. 515). A short sleeve of arachnoid penetrates the cranial end of the optic canal for 1-2 mm but is absent beyond this (Hovelacque, 1927), and with slight variations the intracranial subarachnoid space is continuous with that around the nerve (pp. 508, 510).",
+    "layers": [
+      "Dura mater: tough compacted collagen tissue whose fibres are larger than those of sclera, among them numerous elastic fibres; the dura is 0.35-0.5 mm thick and is thickest where it becomes continuous with the sclera. Its internal fibres are mostly circular, the peripheral (nearest the supravaginal space) longitudinal and oblique; most are collagenous, but elastic fibres are interspersed in small numbers; the collagen fibres have a diameter given in the text as 600-700 um, but finer ones occur. The longitudinal outer layer often divides into two to five lamellae, between which are fusiform nuclei, more numerous in childhood, that gradually lessen with age (p. 510). The dura blends imperceptibly with the sclera, its outer fibres turning into the intermuscular septa and the orbital septum, and other fibres entering the suprachoroidal space and becoming continuous with the choroid (p. 511). The dura is largely connected through arachnoid to the pia by trabeculae which mostly tear easily, so that the dura can slide backwards and forwards on the pia; near the globe the linkage is stronger, and the dura is firmly attached to bone in the optic canal (p. 515).",
+      "Arachnoid mater: a very thin layer some 10 um thick, consisting basically of an interrupted core of collagenous tissue covered by several layers of flattened mesothelial (or meningothelial) cells held together by desmosomes and (rarely) tight junctions, forming a multilaminar membrane in contact with cerebrospinal fluid; nowhere is the collagen in direct contact with the subarachnoid space. A faint, discontinuous basal lamina may be present at the external surface of some collagen bundles where they abut the layered mesothelial cells; the external cells tend to proliferate, even forming mesothelial pearls (corpora amylacea). Numerous trabeculae pass to the pia, forming a network in the subarachnoid space; each trabecula consists of collagenous tissue surrounded by mesothelial cells which are in continuity with those of the arachnoid and pia, the mesothelial layer being one or two cells thick but several layers over the larger trabeculae such as those which contain blood vessels; elastin and reticulin fibres also occur. This continuity has led to the concept of a compound pia-arachnoid meninx containing the cerebrospinal fluid; the arachnoid ends at the lamina cribrosa by becoming continuous with the sclera (p. 512).",
+      "Subarachnoid space: ends in a scleral cul-de-sac reaching the back of the lamina cribrosa; widest anteriorly where the optic nerve is thinnest, and wider on the nasal side in a temporally directed canal (p. 515).",
+      "Pia mater: composed of loose connective tissue of fibroblasts, collagen, elastin, and reticulin fibres; its surface presents mesothelial cells like those of the arachnoid, and its deeper layers, next to the optic nerve, may be of neuroectodermal origin and unite with glial elements, leading to the term 'pia-glia', an astrocytic condensation or glial mantle (Fuchs, 1885; Greeff, 1899). Numerous pial septa enter the optic nerve, dividing fibres into fascicles, and the nerve is hence separated from the pia with difficulty; numerous vessels in the pia lie mostly between its longitudinal and circular fibres (p. 513). The pia is continuous with the septa which tether it to the nerve; lining the pia is the 'glial mantle' of Fuchs, a layer of glial tissue prolonged into the nerve to line the septa and penetrate the bundles, usually thin but much thicker in the floor of the third ventricle and just behind the optic canal, in the superolateral quadrant of the nerve. The pia, turning outwards, becomes continuous with the dura adjacent to the choroid and some border tissue of Elschnig (pp. 514, 518)."
+    ],
+    "blood_supply": "There is a striking contrast between the great vascularity of the pia mater and the relatively few vessels in the dura mater; the pial network acts as a distributing centre providing for a regular supply of blood to the nerve (p. 521).",
+    "venous_drainage": "The pial veins in the orbit and optic canal drain into the ophthalmic system; the intracranial pial veins drain into the adjacent venous sinuses (p. 527).",
+    "innervation": null,
+    "histology_summary": "Relationships of the three sheaths along the nerve: in the cranial cavity only pia covers the nerve; in the optic canal arachnoid and dura are added, the cranial dura splitting at the optic foramen into periosteum (periorbita) and dural sheath (p. 510). Where the central vessels enter, the nerve is oval or crescentic in section (p. 508). The dura is 0.35-0.5 mm thick, of compacted collagen with larger fibres than sclera, internal circular fibres and peripheral longitudinal and oblique fibres, its outer longitudinal layer dividing into two to five lamellae with fusiform nuclei between them that are more numerous in childhood (pp. 510-511). The arachnoid is about 10 um thick with a multilaminar mesothelial (meningothelial) covering joined by desmosomes; its trabeculae to the pia carry a collagenous core covered by mesothelial cells in continuity with arachnoid and pia; mesothelial pearls (corpora amylacea) may form (p. 512; Figs 15.34-15.36). The pia presents a mesothelial surface and deeper layers that may be neuroectodermal, uniting with glial elements as the pia-glia or glial mantle of Fuchs (Fuchs, 1885; Greeff, 1899) (p. 513).",
+    "clinical_importance": "Accidental injection into the subarachnoid space of the orbital optic nerve may occur during retrobulbar injection of local anaesthetic and give rise to central nervous system complications; fluid injected into the cranial subarachnoid space spreads freely into the perioptic prolongation (p. 510). The dura is firmly attached to bone in the optic canal, so the sheaths transmit shearing forces to the nerve in skull fracture (p. 515). The subdural space is only potential and appears chiefly in pathological states (p. 510)."
+  },
+  "relationships": [
+    {
+      "relation_type": "bounds",
+      "target_id": "optic_nerve",
+      "target_name": "Optic Nerve"
+    },
+    {
+      "relation_type": "continuous_with",
+      "target_id": "sclera",
+      "target_name": "Sclera (dura blends with sclera; arachnoid ends at lamina cribrosa)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "lamina_cribrosa",
+      "target_name": "Lamina Cribrosa (subarachnoid cul-de-sac reaches its back)"
+    },
+    {
+      "relation_type": "continuous_with",
+      "target_id": "optic_nerve_septa",
+      "target_name": "Septa of the Optic Nerve (pia continuous with septa)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "optic nerve sheaths",
+      "أغماد العصب البصري",
+      "dural sheath",
+      "الغمد الجافي",
+      "arachnoid mater",
+      "pia mater",
+      "pia-glia",
+      "glial mantle of Fuchs",
+      "subarachnoid space",
+      "subdural space",
+      "corpora amylacea",
+      "meningothelial cells",
+      "periorbita"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-10-24",
+    "version": "1.0.0",
+    "priority": 2
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            510
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            508,
+            510,
+            515
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            510,
+            511,
+            512,
+            513,
+            514,
+            515,
+            518
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            521
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            527
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            508,
+            510,
+            511,
+            512,
+            513
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            510,
+            515
+          ]
+        }
+      ]
+    }
+  ]
+}

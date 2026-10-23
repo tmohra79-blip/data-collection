@@ -1,0 +1,178 @@
+{
+  "entity_id": "optic_nerve_septa",
+  "component_ids": [
+    "comp_optic_nerve"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Septa of the Optic Nerve",
+    "ar": "حواجز العصب البصري",
+    "aliases": [
+      "Pial septa",
+      "Connective tissue septa of the optic nerve",
+      "Glial septum of the optic nerve",
+      "الحواجز ال pia للعصب البصري",
+      "الحواجز الضامة للعصب البصري",
+      "الحاجز الليفي العصبي"
+    ]
+  },
+  "content": {
+    "definition": "In section the pial sheath of the nerve is seen to pass in as many septa, dividing it into 800-1200 fascicles (Deyl, 1895). The septa surround the fascicles like tubes, which are fenestrated for communication between fascicles; the distribution of the septa is exactly that of the blood vessels, and the thickness of each septum is proportional to the size of the contained vessel (pp. 515, 521).",
+    "location": "The connective tissue of the nerve is more obvious in the more vascular region distal to the entrance of the central vessels and in the optic canal; near the chiasma a distinct glial septum passes obliquely down and medially to the centre of the nerve, and this and all trabeculae disappear in the chiasma and optic tracts (p. 515). In the most posterior portion of the optic nerve (where the septa gradually disappear), in the chiasma and in the optic tract even the larger vessels are surrounded by only a slight covering of connective tissue which gets less with the smaller vessels and seems to disappear entirely in the capillaries, which are, however, always separated from the nerve tissue by the perivascular glia (p. 521).",
+    "layers": [
+      "Primary septa: six to nine thick primary septa divide the nerve into sectors (p. 517).",
+      "Secondary septa: many thinner septa which, like the blood vessels, divide repeatedly and dichotomously and rejoin each other to divide the nerve into fascicles; the interseptal spaces are rounded in the human optic nerve but usually polygonal in other mammals (p. 517).",
+      "Trabeculae: each trabecula shows a central vessel which in larger septa has muscular and elastic layers; externally is a variable amount of loose connective tissue surrounded by dense connective tissue and then a layer of glial cells, most of them astrocytes, with oligodendrocytes and microglial cells in small numbers (pp. 517-518).",
+      "Glial components: within the septa, astrocyte feet (or less often cell bodies) are apposed to the connective tissue stroma, and a dense layer is formed by the insertion of cytoplasmic filaments into their processes; the glial membrane is separated from connective tissue by a basal lamina and is indented in places by invaginations 120-150 um wide both between and within simple footplates, achieving a firm attachment of the glia to the septa (Anderson and Hoyt, 1969) (pp. 518, 521)."
+    ],
+    "blood_supply": "The developing optic nerve is surrounded by glia which is carried into it by invading septal vessels at about the fourth month. In each septum a single artery enters surrounded by collagen tissue and neuroglia, runs radially, divides dichotomously and, anastomosing with others, forms a vascular plexus which reaches the centre of the nerve or the central vessels; anterior and posterior branches also extend between nerve fascicles. The anteroposterior septal branches anastomose together and with transverse branches to form a longitudinal vascular plexus around each fascicle (p. 517). When the vessels pass into the nerve they take with them a coat of pia and also a covering of glia, which constitute the septa; as the vessels pass into the nerve in the septa, they divide dichotomously and send branches anteriorly and posteriorly (p. 521).",
+    "venous_drainage": "Each trabecula shows a central vessel which in larger septa has muscular and elastic layers (p. 517); occasional septal veins in the retrolaminar region drain into pial veins (p. 534).",
+    "innervation": null,
+    "histology_summary": "Development and architecture: the developing optic nerve is surrounded by glia which is carried into it by invading septal vessels at about the fourth month; in each septum a single artery enters surrounded by collagen tissue and neuroglia, divides dichotomously and anastomoses with others to form a vascular plexus reaching the centre of the nerve or the central vessels (p. 517). In longitudinal section the longitudinal septa are not continuous — hiatuses occupied by glial cells represent the fenestrations; in transverse section gaps appear in septa, completed by glia (p. 517). The septa are attached to the pia peripherally, to the lamina anteriorly and to the connective tissue adventitia of the central retinal vessels centrally, and they carry blood vessels to the optic nerve; the axons are separated from the vessels and other connective tissue by an astroglial layer at all times (p. 499). In the chiasma, where there are no connective tissue septa, the astrocytes abut capillaries directly with only basal lamina intervening (Anderson and Hoyt, 1969) (p. 521). The pia is continuous with the septa which tether it to the nerve and allow separation with difficulty; lining the pia is the 'glial mantle' of Fuchs, prolonged into the nerve to line the septa and penetrating also into the nerve bundles, with glial cells scattered in these prolongations; the mantle is usually thin, although much thicker in the floor of the third ventricle and just behind the optic canal, in the superolateral quadrant of the nerve (p. 518). A prominent, somewhat triangular, glial septum extends downwards and posteromedially to a point anterior to the chiasma, with thin extensions radiating to trabeculae; it separates the nerve into ventromedial and dorsolateral parts, the former fibres crossing in the chiasma. This septum marks the end of septation in the nerve, which is absent from its most proximal part — according with the unhindered course of anterior decussating fibres — and the end of the septum also marks the actual beginning of decussation where crossed fibres first separate from uncrossed fibres, anterior to the macroscopic chiasma (p. 518).",
+    "clinical_importance": "In some nerves there is a deficiency of support tissue superiorly and inferiorly; the regional variation in density of support is suggested to determine the location of the early backward bowing and collapse of sheets of the lamina in chronic simple glaucoma (Quigley et al., 1981, 1983, 1986; Vrabec, 1976) (p. 499). The septa tether the pia to the nerve while keeping the axons separated from vessels and connective tissue by an astroglial layer at all times (p. 499)."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "optic_nerve",
+      "target_name": "Optic Nerve"
+    },
+    {
+      "relation_type": "continuous_with",
+      "target_id": "optic_nerve_sheath",
+      "target_name": "Optic Nerve Sheaths (septa are invaginations of the pial sheath)"
+    },
+    {
+      "relation_type": "interface_with",
+      "target_id": "lamina_cribrosa",
+      "target_name": "Lamina Cribrosa (septa attach to the lamina anteriorly)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "optic nerve septa",
+      "حواجز العصب البصري",
+      "pial septa",
+      "optic nerve fascicles",
+      "حزم العصب البصري",
+      "glial septum",
+      "glial mantle of Fuchs",
+      "trabeculae",
+      "astrocyte foot processes",
+      "septal vessels"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-10-24",
+    "version": "1.0.0",
+    "priority": 2
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            515,
+            521
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            515,
+            521
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            517,
+            518,
+            521
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            517,
+            521
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            517,
+            534
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            499,
+            517,
+            518,
+            521
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            499
+          ]
+        }
+      ]
+    }
+  ]
+}
