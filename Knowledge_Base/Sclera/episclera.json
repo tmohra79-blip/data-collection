@@ -18,7 +18,7 @@
     "definition": "The episclera is the loose connective tissue lying outside the sclera proper, which anteriorly connects the sclera and the conjunctiva. It lies beneath the avascular fascia bulbi (Tenon's capsule) and is connected to the capsule by fibrous bands; for the most part the episclera is continuous with the loose tissue of Tenon's capsule, while its deeper layers become more compact as they give way to sclera proper. It is thickest anterior to the rectus muscle insertions because it blends with Tenon's capsule and the vascular tissues around these muscles - a vascularity that distinguishes the episclera from Tenon's capsule and the sclera itself - and behind the ocular attachments of the recti the episclera is thin.",
     "location": "External to the sclera proper and immediately beneath Tenon's capsule, extending from the limbus backwards around the globe. Anteriorly it contributes, together with Tenon's capsule and the limbal conjunctival stroma and epithelium, to the superficial limbal zone. It is thickest anterior to the tendinous insertions of the rectus muscles and thins behind the ocular attachments of the recti, continuing posteriorly into the fascial system investing the globe.",
     "layers": null,
-    "blood_supply": "Behind the rectus muscle insertions the posterior ciliary arteries supply a wide-meshed plexus of vessels, with two venules to each arteriole, while a denser meshwork of vessels at the insertions is supplied by episcleral branches of the anterior ciliary arteries; a capillary plexus exists only in this anterior episclera. Dilatation of these vessels - ciliary injection - occurs in keratitis and iritis (Hogan, Alvarado and Weddell, 1971). The episcleral plexus sends fine twigs to the sclera itself, but at the equator such vessels are infrequent.",
+    "blood_supply": "Behind the rectus muscle insertions the posterior ciliary arteries supply a wide-meshed plexus of vessels, with two venules to each arteriole, while a denser meshwork of vessels at the insertions is supplied by episcleral branches of the anterior ciliary arteries; a capillary plexus exists only in this anterior episclera. Dilatation of these vessels - ciliary injection - occurs in keratitis and iritis (Hogan, Alvarado and Weddell, 1971). The episcleral plexus sends fine twigs to the sclera itself, but at the equator such vessels are infrequent. During development, the deep and intrascleral vascular plexuses, the aqueous veins and the collector channels that traverse the sclera at the limbal region are first recognizable at about 12 weeks of gestation; these vessels differentiate from primitive mesoderm, but the factors that govern their arrangement into the fully formed, intricate plexuses are not known (Ozanics and Jakobiec, 1982; Tripathi et al., 1995).",
     "venous_drainage": "The episcleral veins include the anterior ciliary veins, which are two for each anterior ciliary artery and emerge over the ciliary body, often sharing a channel with a branch of the posterior ciliary nerve. Aqueous veins from the canal of Schlemm may leave through the sclera or form deep and superficial plexuses within it just posterior to the limbus, draining into the intra- and episcleral venous systems.",
     "innervation": "Myelinated and unmyelinated nerves traverse the episclera, some ending there without specialization; other fibres pass through the episcleral plane en route between the scleral emissaria and the neighbouring limbal structures.",
     "histology_summary": "The fibres of the episcleral collagen are finer than those of the sclera proper and more widely spaced, and the bundles are less compact; the ground substance is more abundant, and elastic fibrils are also present. Its cells include typical fibroblasts, melanocytes, some macrophages and a few lymphocytes. More deeply, the bundles become progressively more compact until they merge imperceptibly with the sclera proper, and anteriorly the episclera blends with the loose tissue of Tenon's capsule and the subconjunctival connective tissue.",
@@ -66,13 +66,16 @@
       "fibroblasts",
       "melanocytes",
       "superficial limbus",
-      "strabismus surgery landmarks"
+      "strabismus surgery landmarks",
+      "episcleral vascular plexuses",
+      "limbal vessels",
+      "الأوعية اللميمانية"
     ],
     "references": [
       "wolff_anatomy"
     ],
     "last_updated": "2026-10-23",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "priority": 2
   },
   "references": [
@@ -126,6 +129,13 @@
           "pages": [
             271,
             277
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "17",
+          "pages": [
+            632
           ]
         }
       ]

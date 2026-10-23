@@ -21,7 +21,7 @@
     "blood_supply": "The bulk of the lamina cribrosa is made up of a series of fenestrae within a spongy framework of capillaries, which blend peripherally with the capillaries of the choroid; these capillaries lie in glial sheets that provide a supporting framework for the nerve fibre bundles, and the distribution of the capillaries is not uniform.",
     "venous_drainage": null,
     "innervation": null,
-    "histology_summary": "The lamina is formed by a series of superimposed, congruent openings - bands or bundles of collagen and elastin extending from the innermost third of the sclera across the foramen - and its intraocular aspect is concave (Wolff, 1957; Hayreh and Vrabec, 1966). Not all fibre bundles traverse the canal: the fibres from the outer two-thirds of the sclera turn through a right angle and run outwards to blend with the dural covering of the optic nerve. Within the net the bundles remain relatively straight, but their axes lie at a variety of angles - widened and 'warped' in some regions while others cross at a variety of angles - and the perforations within the lamina are thin, short canals through which the bundles of nerve fibres pass. At its posterior boundary the lamina is strengthened by a thick layer of elastic tissue. Developmentally, the primitive lamina cribrosa consists of a cellular plate; at 14 weeks of gestation the optic nerve fibres are already passing through it, and the primitive plate is progressively remodelled into the definitive sieve.",
+    "histology_summary": "The lamina is formed by a series of superimposed, congruent openings - bands or bundles of collagen and elastin extending from the innermost third of the sclera across the foramen - and its intraocular aspect is concave (Wolff, 1957; Hayreh and Vrabec, 1966). Not all fibre bundles traverse the canal: the fibres from the outer two-thirds of the sclera turn through a right angle and run outwards to blend with the dural covering of the optic nerve. Within the net the bundles remain relatively straight, but their axes lie at a variety of angles - widened and 'warped' in some regions while others cross at a variety of angles - and the perforations within the lamina are thin, short canals through which the bundles of nerve fibres pass. At its posterior boundary the lamina is strengthened by a thick layer of elastic tissue. Developmentally, the primitive lamina cribrosa consists of a cellular plate; at 14 weeks of gestation the optic nerve fibres are already passing through it, and the primitive plate is progressively remodelled into the definitive sieve. Development of the lamina begins at about the eleventh week of gestation, when some undifferentiated mesenchymal cells migrate between the nerve fibres in the optic nerve, become oriented transversely and, through their synthetic activity, form the beginnings of the lamina cribrosa; at 12 weeks of gestation the primitive lamina cribrosa consists of mesenchymal cells that have migrated between the nerve fibres in the optic disc and are actively secreting collagen fibrils, and by 21 weeks of gestation the lamina cribrosa is well defined and distinct from the adjacent compact sclera (Rhodes, 1978).",
     "clinical_importance": "In chronic glaucoma, in response to a sustained rise in intraocular pressure, and in ischaemic optic neuropathy, the lamina cribrosa is displaced further posteriorly, leading to enlargement of the optic cup; the lamina is therefore the mechanically critical structure on which glaucomatous cupping is inscribed, and its contours are assessed routinely at optic disc examination. Because it is the weakest point of the globe, its specialized meshwork of collagen and elastic fibres reinforces the canal while still allowing passage of the optic nerve fibres; distortion of its fenestrae is thought to impede axoplasmic flow in the affected nerve fibre bundles. Its embryology explains congenital optic disc anomalies: the primitive cellular plate present at 14 weeks of gestation must canalize and remodel for the definitive sieve to form."
   },
   "relationships": [
@@ -59,13 +59,16 @@
       "optic nerve fibres",
       "ischaemic optic neuropathy",
       "primitive lamina cribrosa",
-      "sieve"
+      "sieve",
+      "lamina cribrosa development",
+      "optic nerve head development",
+      "تطور الصفائح الغربالية"
     ],
     "references": [
       "wolff_anatomy"
     ],
     "last_updated": "2026-10-23",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "priority": 2
   },
   "references": [

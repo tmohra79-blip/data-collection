@@ -21,7 +21,7 @@
     "blood_supply": null,
     "venous_drainage": null,
     "innervation": "Individual scleral spur cells (SSC) are innervated by unmyelinated axons which derive exclusively from neurons that run forwards in the supraciliary space; these contrast with the myelinated axons which supply the mechanoreceptors of the scleral spur, whose axons run circumferentially in the scleral spur (Tamm et al., 1994).",
-    "histology_summary": "The spur contains collagen and elastic tissue arranged circularly, like the trabecular beams of the corneoscleral and cribriform meshwork with which it blends; its collagen fibrils vary in diameter from 35 to 80 nm and widen towards the sclera (Tripathi and Tripathi, 1982), while the scleral bundles that form the spur are 30-50 μm wide and up to 10 μm thick (Salzmann, 1912). Contractile, myofibroblast-like cells - the scleral spur cells (SSC) - are oriented circumferentially within the spur: they have sparse mitochondria and are rich in smooth muscle alpha-actin and myosin, possess an interrupted basal lamina, and lack the desmin and intermediate filaments characteristic of the adjacent ciliary smooth muscle cells (Tamm et al., 1991, 1992a,b). The SSC form tendon-like contacts with the elastic fibres of the scleral spur, which are continuous with those of the adjacent trabecular meshwork; some trabecular meshwork cells also stain positively for smooth muscle alpha-actinin and smooth muscle actin (de Kater et al., 1990, 1992; Flügel et al., 1992). Developmentally, the collagen fibrils and elastic tissue of the spur are oriented circularly (Tripathi et al., 1995).",
+    "histology_summary": "The spur contains collagen and elastic tissue arranged circularly, like the trabecular beams of the corneoscleral and cribriform meshwork with which it blends; its collagen fibrils vary in diameter from 35 to 80 nm and widen towards the sclera (Tripathi and Tripathi, 1982), while the scleral bundles that form the spur are 30-50 μm wide and up to 10 μm thick (Salzmann, 1912). Contractile, myofibroblast-like cells - the scleral spur cells (SSC) - are oriented circumferentially within the spur: they have sparse mitochondria and are rich in smooth muscle alpha-actin and myosin, possess an interrupted basal lamina, and lack the desmin and intermediate filaments characteristic of the adjacent ciliary smooth muscle cells (Tamm et al., 1991, 1992a,b). The SSC form tendon-like contacts with the elastic fibres of the scleral spur, which are continuous with those of the adjacent trabecular meshwork; some trabecular meshwork cells also stain positively for smooth muscle alpha-actinin and smooth muscle actin (de Kater et al., 1990, 1992; Flügel et al., 1992). Developmentally, the collagen fibrils and elastic tissue of the spur are oriented circularly (Tripathi et al., 1995). The spur first appears at approximately 4 months of gestation (embryo 70 mm), when the inner aspect of the anterior sclera at the inner limbus develops this fibrous, wedge-shaped protrusion; its appearance corresponds to the retraction of the developing ciliary muscle fibres, by the middle of the seventh month the anterior ends of the longitudinal ciliary muscle fibres have established their insertion into the spur, and its collagen fibrils and elastic tissue are oriented circularly (Tripathi et al., 1995).",
     "clinical_importance": "Contraction of the ciliary muscle pulls the spur posteriorly and opens up the trabecular spaces - the likely mode of action of miotics in reducing aqueous outflow resistance (Unger and Rohen, 1958; Rohen and Unger, 1959; Moses and Arnzen, 1980) - and changes in the tone of the scleral spur cells might modulate outflow resistance by altering trabecular architecture (Tamm et al., 1992). The spur is a key landmark of the anterior chamber angle: it forms the posterior boundary of the trabecular meshwork, the apex of the angle at birth is located at its level, and in the adult the anterior face of the meridional ciliary muscle bundle is obscured by it on gonioscopy. Its developmental timing (about 4 months' gestation) and its insertion by the longitudinal ciliary muscle by the seventh month make it a reference structure in the maturation of the drainage angle, and it is a surgically important landmark in procedures on the outflow apparatus such as cyclodialysis."
   },
   "relationships": [
@@ -60,13 +60,16 @@
       "gonioscopy",
       "drainage angle",
       "cyclodialysis",
-      "scleral sulcus"
+      "scleral sulcus",
+      "scleral spur development",
+      "ciliary muscle insertion",
+      "تطور النتوء الصلبي"
     ],
     "references": [
       "wolff_anatomy"
     ],
     "last_updated": "2026-10-23",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "priority": 3
   },
   "references": [
