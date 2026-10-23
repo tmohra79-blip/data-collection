@@ -1,11 +1,18 @@
 {
   "entity_id": "external_limiting_membrane",
-  "component_ids": ["comp_retina"],
+  "component_ids": [
+    "comp_retina"
+  ],
   "category": "anatomy",
   "nomenclature": {
     "en": "External Limiting Membrane",
     "ar": "الغشاء المحدّد الخارجي",
-    "aliases": ["ELM", "Outer Limiting Membrane", "Membrana limitans externa", "الغشاء المحدد الخارجي للشبكية"]
+    "aliases": [
+      "ELM",
+      "Outer Limiting Membrane",
+      "Membrana limitans externa",
+      "الغشاء المحدد الخارجي للشبكية"
+    ]
   },
   "content": {
     "definition": "The external limiting membrane is the structure that, under the light microscope, appears as a distinct line separating the layer of rods and cones from the overlying outer nuclear layer (Figs 14.24 and 14.27). Electron microscopy reveals that it is not a membrane in the true sense: it is composed of terminal bars — zonulae adherentes — formed between Muller cells and photoreceptors, between adjacent Muller cells and, rarely, between adjacent photoreceptor cells (Figs 14.27 and 14.28). Because small molecules pass freely through these junctional complexes, its membrane-like appearance in the light microscope does not correspond to a continuous physical wall; the name is descriptive of its histological appearance rather than of a sheet of cellular material.",
@@ -18,7 +25,7 @@
     "blood_supply": "The membrane contains no blood vessels of its own, like the photoreceptor layer it bounds. Nutrients destined for the outer retina derive from the choriocapillaris of the choroid and must pass selectively through the retinal pigment epithelium before reaching the sensory retina; one of the main functional implications of the external limiting membrane is to provide a selective barrier for nutrients that pass between the adjacent Muller cells.",
     "venous_drainage": null,
     "innervation": null,
-    "histology_summary": "In the light microscope the external limiting membrane appears as a line between the layer of rods and cones and the outer nuclear layer, and photoreceptor cell bodies are seen passing through it; the membrane is formed by dense junctional complexes (zonulae adherentes) around the circumference of the cells, and the nuclei of the cones lie close to it with extremely short — or no — intervening fibre, their long inner fibres synapsing through cone pedicles while the smaller rod synaptic bodies or spherules lie deeper (Fig 14.27). In transverse section the electron microscope shows the membrane as zonulae adherentes that attach photoreceptors to adjacent Muller cells and, in places, Muller cells to each other (Fig 14.28, x 24 900). It is not a true membrane, because small molecules pass freely through the junctional complexes. In vertical sections through the macula stained with Mallory's trichrome the membrane can be traced between the cone outer segments and the external nuclear layer (Fig 14.26c), and at the ora serrata it becomes continuous with the basal lamina between the pigmented and non-pigmented portions of the ciliary epithelium.",
+    "histology_summary": "In the light microscope the external limiting membrane appears as a line between the layer of rods and cones and the outer nuclear layer, and photoreceptor cell bodies are seen passing through it; the membrane is formed by dense junctional complexes (zonulae adherentes) around the circumference of the cells, and the nuclei of the cones lie close to it with extremely short — or no — intervening fibre, their long inner fibres synapsing through cone pedicles while the smaller rod synaptic bodies or spherules lie deeper (Fig 14.27). In transverse section the electron microscope shows the membrane as zonulae adherentes that attach photoreceptors to adjacent Muller cells and, in places, Muller cells to each other (Fig 14.28, x 24 900). It is not a true membrane, because small molecules pass freely through the junctional complexes. In vertical sections through the macula stained with Mallory's trichrome the membrane can be traced between the cone outer segments and the external nuclear layer (Fig 14.26c), and at the ora serrata it becomes continuous with the basal lamina between the pigmented and non-pigmented portions of the ciliary epithelium. Developmentally (Wolff, Ch. 17), an external limiting membrane is already recognisable in the primordial retina of the 32-33 day embryo, forming the outer border of the neuroepithelium (Fig. 17.44); at 7 weeks it is discontinuous (Fig. 17.45). Its primitive form emerges in the tenth week, when the lateral surfaces of the differentiating cones become joined by zonulae adherentes junctional complexes — the precursor of the definitive membrane (Hollenberg and Spira, 1973). Thereafter it becomes progressively better defined: by 22 weeks it is well delineated at the fovea, with photoreceptors only occasionally bulging through it, while the developing rod inner segments at this age still bulge beyond the membrane before becoming contained beneath it.",
     "clinical_importance": "Two main functional implications of the external limiting membrane are emphasized in the source text: it provides a selective barrier for nutrients that pass between the adjacent Muller cells, and it stabilizes the position of the transducing portion of the photoreceptors. The stabilizing role complements the fibre baskets of Schultze formed by the Muller-cell villi along the myoids, which maintain the precise alignment of the rods and cones on which the optical quality of the retinal image depends. Anatomically, its continuity with the basal lamina of the ciliary epithelium at the ora serrata makes the membrane a landmark of the anterior retinal boundary, and its position between the receptor inner segments and the outer nuclear layer defines the plane along which the outer fibres of the photoreceptors run. Recognition that the external limiting membrane is a row of junctional complexes rather than a true membrane explains how the structure can be freely permeable to small molecules while still participating in the selective regulation of nutrients passing between adjacent Muller cells."
   },
   "relationships": [
@@ -44,10 +51,26 @@
     }
   ],
   "metadata": {
-    "keywords": ["retina", "external limiting membrane", "ELM", "zonula adherens", "terminal bars", "Muller cells", "outer nuclear layer", "ora serrata", "الشبكية", "الغشاء المحدد الخارجي", "الخلايا المولر", "الطبقة النووية الخارجية", "الحافة المسننة"],
-    "references": ["wolff_anatomy"],
-    "last_updated": "2026-10-18",
-    "version": "1.0.0",
+    "keywords": [
+      "retina",
+      "external limiting membrane",
+      "ELM",
+      "zonula adherens",
+      "terminal bars",
+      "Muller cells",
+      "outer nuclear layer",
+      "ora serrata",
+      "الشبكية",
+      "الغشاء المحدد الخارجي",
+      "الخلايا المولر",
+      "الطبقة النووية الخارجية",
+      "الحافة المسننة"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-10-23",
+    "version": "1.1.0",
     "priority": 1
   },
   "references": [
@@ -55,28 +78,58 @@
       "content_field": "definition",
       "status": "documented",
       "sources": [
-        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [472, 473] }
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            472,
+            473
+          ]
+        }
       ]
     },
     {
       "content_field": "location",
       "status": "documented",
       "sources": [
-        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [470, 471, 472, 473] }
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            470,
+            471,
+            472,
+            473
+          ]
+        }
       ]
     },
     {
       "content_field": "layers",
       "status": "documented",
       "sources": [
-        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [472, 473] }
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            472,
+            473
+          ]
+        }
       ]
     },
     {
       "content_field": "blood_supply",
       "status": "documented",
       "sources": [
-        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [463, 473] }
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            463,
+            473
+          ]
+        }
       ]
     },
     {
@@ -93,14 +146,39 @@
       "content_field": "histology_summary",
       "status": "documented",
       "sources": [
-        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [471, 472, 473] }
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            471,
+            472,
+            473
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "17",
+          "pages": [
+            647,
+            649,
+            651
+          ]
+        }
       ]
     },
     {
       "content_field": "clinical_importance",
       "status": "documented",
       "sources": [
-        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [471, 472, 473] }
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            471,
+            472,
+            473
+          ]
+        }
       ]
     }
   ]

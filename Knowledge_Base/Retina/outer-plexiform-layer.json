@@ -1,11 +1,19 @@
 {
   "entity_id": "outer_plexiform_layer",
-  "component_ids": ["comp_retina"],
+  "component_ids": [
+    "comp_retina"
+  ],
   "category": "anatomy",
   "nomenclature": {
     "en": "Outer Plexiform Layer",
     "ar": "الطبقة الشبكية الخارجية",
-    "aliases": ["OPL", "Henle's Fibre Layer (at the macula)", "Outer Synaptic Layer", "الطبقة الشبكية الخارجية للشبكية", "طبقة ألياف هنلي"]
+    "aliases": [
+      "OPL",
+      "Henle's Fibre Layer (at the macula)",
+      "Outer Synaptic Layer",
+      "الطبقة الشبكية الخارجية للشبكية",
+      "طبقة ألياف هنلي"
+    ]
   },
   "content": {
     "definition": "The outer plexiform layer marks the junction of the first- and second-order neurons of the retina (Tripathi and Tripathi, 1984). The outer two-thirds of this layer is composed of the inner fibres of photoreceptors surrounded by processes of the Muller cells, and the remaining one-third consists of the dendrites of the bipolar and horizontal cells as well as Muller cell processes. The layer is thickest at the macula, measuring approximately 51 um, where it consists predominantly of oblique fibres that have deviated from the fovea; for this reason the macular portion of the layer is also known as Henle's fibre layer (Figs 14.4 and 14.5).",
@@ -20,7 +28,7 @@
     "blood_supply": "The layer contains no blood vessels of its own; its nutrition derives from the choriocapillaris of the choroid after selective passage through the retinal pigment epithelium. In addition, numerous junctions, some of which are of the occluding zonule type, exist between the intertwining processes of the outer plexiform layer and impede the free passage of metabolites, fluids and exudates; this arrangement probably aids in the homeostasis of this region of the retina.",
     "venous_drainage": "None of its own — the layer contains no vessels and has no venous drainage of its own; its metabolic exchange with the circulation occurs indirectly with the choriocapillaris of the choroid.",
     "innervation": null,
-    "histology_summary": "The inner fibres of the photoreceptors are the axons of the rods and cones: the diameter of a rod axon is some four times greater than that of a cone axon, but both contain similar organelles — mainly occasional mitochondria, a few free ribosomes, smooth endoplasmic reticulum, glycogen granules and uniformly packed microtubules interspersed in a fairly dense cytoplasm. The rod synaptic complex consists of a presynaptic spherule, a ribbon synapse and postsynaptic processes belonging either to a horizontal or a bipolar cell; the spherule contains numerous presynaptic vesicles filled with acetylcholine, mitochondria and neurotubules, and the density of the pre- and postsynaptic membranes increases at the synaptic cleft, which measures 15 nm. Perpendicular to the presynaptic membrane lies the ribbon synapse (Fig 14.29), consisting of three dense layers, each measuring 12 nm thick and separated by a clear zone of 40 nm, surrounded by a halo of vesicles (Sigelman and Ozanics, 1982); only one ribbon is present at each synaptic complex, and the synaptic ribbon is found exclusively in the photoreceptor cells of the visual system. The axons of horizontal cells invaginate the spherule deeply, whereas the invagination made by the bipolar cell is more shallow (Linberg and Fisher, 1988); a horizontal cell contacts each spherule only once, but each spherule may be contacted by several different horizontal cells, and one to four bipolar cells contact an individual spherule at separate points, each bipolar cell contacting up to 50 rods at the perifovea and hundreds at the periphery of the retina. The total number of synaptic complexes varies from two to seven per rod spherule, with four being most common. In the cone pedicle the synaptic indentations receive three neurons — the 'triad' (Sigelman and Ozanics, 1982): the central axon of the triad belongs to a midget bipolar cell that may contact the same cone at 10-25 different points, and the two dendrites on either side of the triad originate from different horizontal cells; although only one bipolar cell contacts one cone pedicle, contact is made by all horizontal cells in that field, usually 6-8 in number. Each pedicle also has many small superficial indentations — the so-called 'basal junctions' — which are the sites of contact with the flat, diffuse bipolar cells; this type of bipolar cell synapses with as many as six cones, and at the site of contact the membranes of the pedicle and of the bipolar cells thicken slightly, but no synaptic vesicles or ribbons are present (Linberg and Fisher, 1986), and the junctions function similarly to gap junctions. Except for their greater number in the pedicles (up to 25), the synaptic ribbon and the arciform density in the pedicles share the same ultrastructure and position as those in the spherules, and cone pedicles, like rod spherules, communicate laterally with adjacent photoreceptor cells through some 6-12 neurotubule-rich expansions of cytoplasm. Immunocytochemical studies have demonstrated a reaction product for glutamate in all photoreceptors (rods more strongly than cones) and an enrichment of immunoreactivity at the spherules and pedicles (Davanger, Ottersen and Storm-Mathisen, 1991; Crooks and Kolb, 1992). In the invagination of the rod spherule, the large crystalline structure found in one of the horizontal cell processes is the 'cylinder organelle', which is found only in horizontal cells, and the horizontal cell axon terminals also make presynaptic contact with the invaginating rod bipolar dendrites — because these axon terminals are isolated electrically from their cell body, they may provide a circuit for altering the receptive field of the rod bipolar cell (Linberg and Fisher, 1988).",
+    "histology_summary": "The inner fibres of the photoreceptors are the axons of the rods and cones: the diameter of a rod axon is some four times greater than that of a cone axon, but both contain similar organelles — mainly occasional mitochondria, a few free ribosomes, smooth endoplasmic reticulum, glycogen granules and uniformly packed microtubules interspersed in a fairly dense cytoplasm. The rod synaptic complex consists of a presynaptic spherule, a ribbon synapse and postsynaptic processes belonging either to a horizontal or a bipolar cell; the spherule contains numerous presynaptic vesicles filled with acetylcholine, mitochondria and neurotubules, and the density of the pre- and postsynaptic membranes increases at the synaptic cleft, which measures 15 nm. Perpendicular to the presynaptic membrane lies the ribbon synapse (Fig 14.29), consisting of three dense layers, each measuring 12 nm thick and separated by a clear zone of 40 nm, surrounded by a halo of vesicles (Sigelman and Ozanics, 1982); only one ribbon is present at each synaptic complex, and the synaptic ribbon is found exclusively in the photoreceptor cells of the visual system. The axons of horizontal cells invaginate the spherule deeply, whereas the invagination made by the bipolar cell is more shallow (Linberg and Fisher, 1988); a horizontal cell contacts each spherule only once, but each spherule may be contacted by several different horizontal cells, and one to four bipolar cells contact an individual spherule at separate points, each bipolar cell contacting up to 50 rods at the perifovea and hundreds at the periphery of the retina. The total number of synaptic complexes varies from two to seven per rod spherule, with four being most common. In the cone pedicle the synaptic indentations receive three neurons — the 'triad' (Sigelman and Ozanics, 1982): the central axon of the triad belongs to a midget bipolar cell that may contact the same cone at 10-25 different points, and the two dendrites on either side of the triad originate from different horizontal cells; although only one bipolar cell contacts one cone pedicle, contact is made by all horizontal cells in that field, usually 6-8 in number. Each pedicle also has many small superficial indentations — the so-called 'basal junctions' — which are the sites of contact with the flat, diffuse bipolar cells; this type of bipolar cell synapses with as many as six cones, and at the site of contact the membranes of the pedicle and of the bipolar cells thicken slightly, but no synaptic vesicles or ribbons are present (Linberg and Fisher, 1986), and the junctions function similarly to gap junctions. Except for their greater number in the pedicles (up to 25), the synaptic ribbon and the arciform density in the pedicles share the same ultrastructure and position as those in the spherules, and cone pedicles, like rod spherules, communicate laterally with adjacent photoreceptor cells through some 6-12 neurotubule-rich expansions of cytoplasm. Immunocytochemical studies have demonstrated a reaction product for glutamate in all photoreceptors (rods more strongly than cones) and an enrichment of immunoreactivity at the spherules and pedicles (Davanger, Ottersen and Storm-Mathisen, 1991; Crooks and Kolb, 1992). In the invagination of the rod spherule, the large crystalline structure found in one of the horizontal cell processes is the 'cylinder organelle', which is found only in horizontal cells, and the horizontal cell axon terminals also make presynaptic contact with the invaginating rod bipolar dendrites — because these axon terminals are isolated electrically from their cell body, they may provide a circuit for altering the receptive field of the rod bipolar cell (Linberg and Fisher, 1988). Developmentally (Wolff, Ch. 17), the outer plexiform layer emerges as the neurons of the inner and outer neuroblastic regions establish contact: in an 18-week fetus the differentiating cones already extend foot-processes into the forming outer plexiform layer (Fig. 17.50), and by 22 weeks the layer is well defined at the fovea, where fine neuronal processes make contact with the cones, which now form a single columnar row (Hendrickson and Yuodelis, 1984). The bipolar cell dendrites reach the outer plexiform layer by about week 25, and the horizontal cells probably extend their processes at about the same time (Rhodes, 1979). The fibre layer of Henle takes origin within this period: the earliest indication is the tapering of the proximal bases of the cones, which begin to turn laterally away from their nuclei, and its progressive elongation between birth and 45 months — together with continued cone migration — underlies the postnatal rise in foveal cone density (van Driel, Provis and Billson, 1990; Yuodelis and Hendrickson, 1986).",
     "clinical_importance": "The occluding zonules between the intertwining processes of the outer plexiform layer impede the free passage of metabolites, fluids and exudates and probably aid the homeostasis of this region of the retina — a property relevant to the behaviour of fluid accumulation at the outer retina. The layer is the site of the first synapse of the visual pathway: the ribbon synapses of the spherules and pedicles transmit glutamate from the photoreceptors to bipolar and horizontal cells, as shown by the glutamate immunoreactivity that is enriched at the terminals (Davanger, Ottersen and Storm-Mathisen, 1991; Crooks and Kolb, 1992), and the triad of the cone pedicle, with its central midget bipolar dendrite contacting the same cone at up to 25 points and its two lateral horizontal cell dendrites, provides the private-line wiring that subserves high acuity and colour opponency at the fovea. The basal junctions, which lack synaptic vesicles and ribbons and function similarly to gap junctions, and the lateral telodendrial connections between spherules and pedicles, which probably couple the two photoreceptor terminals chemically and electrically, integrate the responses of neighbouring receptors. The feed-forward arrangement in which horizontal cell axon terminals synapse onto rod bipolar dendrites before entering the spherule invagination expands the receptive field of the rod bipolar cells beyond their dendritic field (Linberg and Fisher, 1988). At the macula the oblique course of the fibres (Henle's fibre layer) displaces the photoreceptor somata away from the foveal centre while preserving the receptor mosaic, and the spherule-to-pedicle ratio and the 2-7 synaptic complexes of each spherule reflect the convergence of rod signals that underlies scotopic sensitivity."
   },
   "relationships": [
@@ -46,10 +54,28 @@
     }
   ],
   "metadata": {
-    "keywords": ["retina", "outer plexiform layer", "OPL", "Henle's fibre layer", "rod spherule", "cone pedicle", "ribbon synapse", "triad", "basal junction", "synaptic ribbon", "الشبكية", "الطبقة الشبكية الخارجية", "المشابك", "الكريستال", "المخروط الشوكي"],
-    "references": ["wolff_anatomy"],
-    "last_updated": "2026-10-18",
-    "version": "1.0.0",
+    "keywords": [
+      "retina",
+      "outer plexiform layer",
+      "OPL",
+      "Henle's fibre layer",
+      "rod spherule",
+      "cone pedicle",
+      "ribbon synapse",
+      "triad",
+      "basal junction",
+      "synaptic ribbon",
+      "الشبكية",
+      "الطبقة الشبكية الخارجية",
+      "المشابك",
+      "الكريستال",
+      "المخروط الشوكي"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-10-23",
+    "version": "1.1.0",
     "priority": 1
   },
   "references": [
@@ -57,35 +83,70 @@
       "content_field": "definition",
       "status": "documented",
       "sources": [
-        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [474] }
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            474
+          ]
+        }
       ]
     },
     {
       "content_field": "location",
       "status": "documented",
       "sources": [
-        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [474, 477] }
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            474,
+            477
+          ]
+        }
       ]
     },
     {
       "content_field": "layers",
       "status": "documented",
       "sources": [
-        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [474, 475, 476, 477] }
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            474,
+            475,
+            476,
+            477
+          ]
+        }
       ]
     },
     {
       "content_field": "blood_supply",
       "status": "documented",
       "sources": [
-        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [463, 477] }
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            463,
+            477
+          ]
+        }
       ]
     },
     {
       "content_field": "venous_drainage",
       "status": "documented",
       "sources": [
-        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [463] }
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            463
+          ]
+        }
       ]
     },
     {
@@ -97,14 +158,41 @@
       "content_field": "histology_summary",
       "status": "documented",
       "sources": [
-        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [474, 475, 476, 477] }
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            474,
+            475,
+            476,
+            477
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "17",
+          "pages": [
+            650,
+            651,
+            652
+          ]
+        }
       ]
     },
     {
       "content_field": "clinical_importance",
       "status": "documented",
       "sources": [
-        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [474, 475, 476, 477] }
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            474,
+            475,
+            476,
+            477
+          ]
+        }
       ]
     }
   ]

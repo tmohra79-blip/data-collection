@@ -1,11 +1,18 @@
 {
   "entity_id": "retinal_pigment_epithelium",
-  "component_ids": ["comp_retina"],
+  "component_ids": [
+    "comp_retina"
+  ],
   "category": "anatomy",
   "nomenclature": {
     "en": "Retinal Pigment Epithelium",
     "ar": "ظهارة الشبكية الصبغية",
-    "aliases": ["RPE", "Pigment Epithelium of the Retina", "الظهارة الصبغية للشبكية", "الطبقة الصباغية للشبكية"]
+    "aliases": [
+      "RPE",
+      "Pigment Epithelium of the Retina",
+      "الظهارة الصبغية للشبكية",
+      "الطبقة الصباغية للشبكية"
+    ]
   },
   "content": {
     "definition": "The retinal pigment epithelium (RPE) is the pigmented layer of the retina — the stratum derived from the outer wall of the optic vesicle — and forms a single, continuous sheet of approximately five million firmly attached pigmented cells resting on the lamina vitrea of Bruch's membrane. It is one of the two main components of the retina in the vacuomatic sense, the other being the sensory (neural) retina derived from the inner wall of the optic vesicle; the two are attached only loosely to each other across the interphotoreceptor matrix, whereas the pigment epithelium's own attachment to Bruch's membrane is firm.",
@@ -20,7 +27,7 @@
     "blood_supply": "No intrinsic vessels — the RPE is an avascular epithelial layer. Its nutrition, and that of the outer sensory retina, derives from the choriocapillaris of the choroid, which lies immediately outside Bruch's membrane: nutrients diffuse through the basal lamina and the paracellular space up to the terminal bars, where the zonulae occludentes form the external component of the blood-retinal barrier, and they must then pass selectively through the RPE cells to reach the sensory retina.",
     "venous_drainage": "None of its own — as an avascular epithelium the RPE contains no vessels and has no venous drainage within the layer; its metabolic exchange with the circulation occurs indirectly across Bruch's membrane with the choriocapillaris of the choroid.",
     "innervation": null,
-    "histology_summary": "Viewed from the surface the cells are predominantly hexagonal cobblestones with 4–8 sides; in the area centralis each cell measures 12–18 μm in width and 10–14 μm in height, while toward the ora serrata the cells become flatter and may measure up to about 60 μm in width. With increasing age the macular cells increase in height and decrease in width, the inverse occurring peripherally (Watzke, Solderville and Trune, 1993), and the pattern of pigmentation also changes: area centralis cells become less pigmented while those at the ora serrata acquire more. Individual cells display variation in pigmentation, and this unequal intracellular distribution gives the fundus its granular ophthalmoscopic appearance. By transmission electron microscopy the basal aspect shows myriad complex plasma-membrane infoldings up to 1 μm deep, populated by mitochondria and annulate lamellae; the nucleus (5–12 μm, diffuse chromatin) occupies the central portion together with spindle-shaped melanin granules 1 μm in diameter and 2–3 μm long — abundant at the cell apex, spherical in the para-apical cytoplasm and ovoid or fusiform within the villi — and with lipofuscin granules, the end-product of phagocytic digestion. Dark-staining granules have an intense concentration of melanin from the conversion of dihydroxyphenylalanine into melanin by tyrosinase, whereas light-staining granules have scant melanin or tyrosinase activity. A well-developed network of smooth endoplasmic reticulum, assuming a tubular, vesicular or lamellar appearance, runs through all three regions of the cell. The apex makes contact with the sensory retina through microvillous processes of two types (5–7 μm and 3 μm), but no specialized junctional complexes exist between these processes and the photoreceptors; the optically empty 'paracellular space' of light microscopy is a fixation artefact, adjacent cells being closely apposed and joined by terminal bars (gap junction, zonula occludens, zonula adherens — Hudspeth and Yee, 1973), and Verhoeff's membrane encompasses both the intervening extracellular matrix and the terminal bars. The 3 μm apical villi, despite lacking any adherent function, engulf 30–40 shed photoreceptor outer-segment discs, which appear as phagosomes or lamellated bodies and, after further digestion, accumulate as residual bodies toward the base of the cell.",
+    "histology_summary": "Viewed from the surface the cells are predominantly hexagonal cobblestones with 4–8 sides; in the area centralis each cell measures 12–18 μm in width and 10–14 μm in height, while toward the ora serrata the cells become flatter and may measure up to about 60 μm in width. With increasing age the macular cells increase in height and decrease in width, the inverse occurring peripherally (Watzke, Solderville and Trune, 1993), and the pattern of pigmentation also changes: area centralis cells become less pigmented while those at the ora serrata acquire more. Individual cells display variation in pigmentation, and this unequal intracellular distribution gives the fundus its granular ophthalmoscopic appearance. By transmission electron microscopy the basal aspect shows myriad complex plasma-membrane infoldings up to 1 μm deep, populated by mitochondria and annulate lamellae; the nucleus (5–12 μm, diffuse chromatin) occupies the central portion together with spindle-shaped melanin granules 1 μm in diameter and 2–3 μm long — abundant at the cell apex, spherical in the para-apical cytoplasm and ovoid or fusiform within the villi — and with lipofuscin granules, the end-product of phagocytic digestion. Dark-staining granules have an intense concentration of melanin from the conversion of dihydroxyphenylalanine into melanin by tyrosinase, whereas light-staining granules have scant melanin or tyrosinase activity. A well-developed network of smooth endoplasmic reticulum, assuming a tubular, vesicular or lamellar appearance, runs through all three regions of the cell. The apex makes contact with the sensory retina through microvillous processes of two types (5–7 μm and 3 μm), but no specialized junctional complexes exist between these processes and the photoreceptors; the optically empty 'paracellular space' of light microscopy is a fixation artefact, adjacent cells being closely apposed and joined by terminal bars (gap junction, zonula occludens, zonula adherens — Hudspeth and Yee, 1973), and Verhoeff's membrane encompasses both the intervening extracellular matrix and the terminal bars. The 3 μm apical villi, despite lacking any adherent function, engulf 30–40 shed photoreceptor outer-segment discs, which appear as phagosomes or lamellated bodies and, after further digestion, accumulate as residual bodies toward the base of the cell. Developmentally (Wolff, Ch. 17), the RPE is derived from the outer wall of the optic cup. Up to the sixth week of gestation (embryo ~20 mm) this wall is a mitotically active, pseudostratified columnar epithelium whose inner (apical) surfaces are ciliated; melanogenesis begins at this stage and the cilia disappear, while adjacent cells are already joined by zonulae occludentes and zonulae adherentes at their apical borders. By 8 weeks (27-31 mm) the layer is organised as a single sheet of hexagonal columnar cells posteriorly — remaining pseudostratified peripherally — with no evidence of mitoses, nuclei displaced toward the cell base, and premelanosomes plus mature pigment granules segregated to the inner and outer cytoplasm; the basolateral surfaces acquire the numerous interdigitating membrane infoldings of the adult. During the third and fourth months (77-83 mm) the cells become tall cuboidal with spherical nuclei, smoother endoplasmic reticulum and a well-developed Golgi apparatus, a terminal web is established at the lateral and apical borders, and apical processes appear before the photoreceptor outer segments have formed. By the middle of the fourth month only a few premelanosomes persist, the apical processes have become slender microvilli, and the RPE is believed to be fully functional (Hollenberg and Spira, 1973). The differentiation sequence is: protein synthesis first, then synthesis and melanization of premelanosomes, with lateral and basal infoldings appearing later; new cells are added by mitosis only in early embryonic life, and the postnatal increase in epithelial surface area is achieved by enlargement and expansion of individual cells.",
     "clinical_importance": "The RPE's clinical behaviour follows from the contrast between its two surfaces. Basally it is firmly fixed to Bruch's membrane, but apically it is only loosely adherent to the sensory retina: the interphotoreceptor matrix lacks specialized adhesion molecules such as laminin and fibronectin, and no junctional complexes connect the apical microvilli to the outer segments, so after death and in pathological conditions the sensory retina readily separates while the pigmented layer usually remains firmly attached to Bruch's membrane — the anatomical basis of retinal detachment. The zonulae occludentes of the terminal bars constitute the external component of the blood-retinal barrier, so nutrients from the choriocapillaris must pass selectively through the RPE cells to reach the sensory retina. The RPE is also central to photoreceptor maintenance and the visual cycle: uptake and transport of retinol (vitamin A) are mediated by receptors for serum retinol-binding protein on the basolateral surfaces and by cytosolic retinol-binding proteins that carry retinol into the interphotoreceptor matrix, where interstitial retinol-binding protein — the most abundant glycoprotein of that matrix, elaborated by the RPE (Hewitt and Adler, 1989) — delivers retinol to the photoreceptors. The matrix itself is devoid of collagen, laminin and fibronectin but rich in sialic acid (25%), hyaluronic acid (15%) and chondroitin sulphate (60%), with chondroitin-6-sulphate forming a sheath around cone photoreceptors that has been postulated to participate in retinal attachment and to facilitate phagocytosis of shed cone outer-segment discs. The daily phagocytosis of 30–40 shed outer-segment discs by the 3 μm apical villi promotes photoreceptor renewal, and melanin granules absorb scattered light, protecting the quality of the retinal image. On their basal surfaces the RPE cells produce type IV collagen, heparan sulphate and laminin, which are incorporated into the lamina vitrea of Bruch's membrane. At the optic disc the layer falls short of the choroid's basal lamina, forming the choroidal ring, and the regional pattern of pigmentation — denser macular pigment and the fine mottling of unequal intracellular distribution — determines much of the normal fundus appearance, with pigmentary redistribution occurring as part of ageing."
   },
   "relationships": [
@@ -46,10 +53,29 @@
     }
   ],
   "metadata": {
-    "keywords": ["retina", "RPE", "retinal pigment epithelium", "pigment epithelium", "Bruch's membrane", "blood-retinal barrier", "interphotoreceptor matrix", "vitamin A recycling", "retinal detachment", "الشبكية", "ظهارة الشبكية الصبغية", "الظهارة الصبغية", "غشاء بروخ", "حاجز الدم والشبكية", "انفصال الشبكية", "تدوير فيتامين أ"],
-    "references": ["wolff_anatomy"],
-    "last_updated": "2026-10-17",
-    "version": "1.0.0",
+    "keywords": [
+      "retina",
+      "RPE",
+      "retinal pigment epithelium",
+      "pigment epithelium",
+      "Bruch's membrane",
+      "blood-retinal barrier",
+      "interphotoreceptor matrix",
+      "vitamin A recycling",
+      "retinal detachment",
+      "الشبكية",
+      "ظهارة الشبكية الصبغية",
+      "الظهارة الصبغية",
+      "غشاء بروخ",
+      "حاجز الدم والشبكية",
+      "انفصال الشبكية",
+      "تدوير فيتامين أ"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-10-23",
+    "version": "1.1.0",
     "priority": 1
   },
   "references": [
@@ -57,36 +83,77 @@
       "content_field": "definition",
       "status": "documented",
       "sources": [
-        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [460, 461] },
-        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [454] }
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            460,
+            461
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            454
+          ]
+        }
       ]
     },
     {
       "content_field": "location",
       "status": "documented",
       "sources": [
-        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [460] }
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            460
+          ]
+        }
       ]
     },
     {
       "content_field": "layers",
       "status": "documented",
       "sources": [
-        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [461, 462, 463] }
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            461,
+            462,
+            463
+          ]
+        }
       ]
     },
     {
       "content_field": "blood_supply",
       "status": "documented",
       "sources": [
-        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [463, 464] }
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            463,
+            464
+          ]
+        }
       ]
     },
     {
       "content_field": "venous_drainage",
       "status": "documented",
       "sources": [
-        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [460, 464] }
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            460,
+            464
+          ]
+        }
       ]
     },
     {
@@ -98,14 +165,41 @@
       "content_field": "histology_summary",
       "status": "documented",
       "sources": [
-        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [460, 461, 462, 463, 464] }
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            460,
+            461,
+            462,
+            463,
+            464
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "17",
+          "pages": [
+            654,
+            655
+          ]
+        }
       ]
     },
     {
       "content_field": "clinical_importance",
       "status": "documented",
       "sources": [
-        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [460, 461, 463, 464] }
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            460,
+            461,
+            463,
+            464
+          ]
+        }
       ]
     }
   ]

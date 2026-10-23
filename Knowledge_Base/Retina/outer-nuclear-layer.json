@@ -1,11 +1,18 @@
 {
   "entity_id": "outer_nuclear_layer",
-  "component_ids": ["comp_retina"],
+  "component_ids": [
+    "comp_retina"
+  ],
   "category": "anatomy",
   "nomenclature": {
     "en": "Outer Nuclear Layer",
     "ar": "الطبقة النووية الخارجية",
-    "aliases": ["ONL", "Layer of Photoreceptor Nuclei", "الطبقة النووية الخارجية للشبكية", "طبقة أنوية المستقبلات الضوئية"]
+    "aliases": [
+      "ONL",
+      "Layer of Photoreceptor Nuclei",
+      "الطبقة النووية الخارجية للشبكية",
+      "طبقة أنوية المستقبلات الضوئية"
+    ]
   },
   "content": {
     "definition": "The outer nuclear layer lies internal to the external limiting membrane and contains the soma and nuclei of the photoreceptor cells (Figs 14.24 and 14.27). Its width varies topographically, primarily because of the number of rod nuclei: nasal to the optic disc the layer is 45 um thick and has 8-9 rows of nuclei; at the temporal side of the disc only four rows are present and the thickness is reduced to 22 um; in the fovea the 10 rows of cone nuclei increase the width of the layer to 50 um; and in the remainder of the retina, except at the ora serrata, the layer has a single row of cone nuclei apposed closely to the external limiting membrane and four rows of rod nuclei internal to them, with a thickness of about 27 um.",
@@ -19,7 +26,7 @@
     "blood_supply": "The layer contains no blood vessels of its own. Its nutrition derives from the choriocapillaris of the choroid: nutrients diffuse through the basal lamina and the paracellular space and must pass selectively through the retinal pigment epithelium to reach the outer layers of the sensory retina, including the photoreceptor cell bodies of the outer nuclear layer.",
     "venous_drainage": "None of its own — the layer contains no vessels and has no venous drainage of its own; its metabolic exchange with the circulation occurs indirectly across Bruch's membrane with the choriocapillaris of the choroid.",
     "innervation": null,
-    "histology_summary": "The different types of photoreceptor nuclei can be distinguished histologically: in the outer nuclear layer the nuclei of the rods stain orange and those of the cones red with Mallory's stain, and often with Heidenhain's azan. With Unna's orcein-polychrome methylene blue-tannin stain, and with Mallory's trichrome after fixation in Zenker's fluid, in the foveola all photoreceptors stain red, which indicates the absence of rods in this region (Fig 14.26). The cone nuclei are oval, 5-7 um in diameter, and lie close to the external limiting membrane, about 3-4 um internal to it, with an extremely short or no intervening outer fibre; the rod nuclei are oval, 5.5 um in width, and contain dispersed chromatin and a visible nucleolus. The cytoplasm surrounding the nuclei of both cells is scant; externally it is continuous with the photoreceptor outer fibres and internally with the inner fibres or axonal processes that pass into the outer plexiform layer. The outer fibres of cones are short because of the close proximity of their nuclei to the external limiting membrane and to their inner segments, but the outer fibres of the rods are long, thin and varicose (Fig 14.27). The outer fibres of both rods and cones contain mitochondria, smooth endoplasmic reticulum, free ribosomes and perinuclear neurotubules, and the cytoplasmic content of the inner fibres of the cones includes endoplasmic reticulum, mitochondria and abundant microtubules (Sigelman and Ozanics, 1982; Tripathi and Tripathi, 1984). In vertical sections stained with Mallory's trichrome the layer is seen between the external limiting membrane and the outer plexiform layer, as in the vertical section through the macula (Fig 14.26c).",
+    "histology_summary": "The different types of photoreceptor nuclei can be distinguished histologically: in the outer nuclear layer the nuclei of the rods stain orange and those of the cones red with Mallory's stain, and often with Heidenhain's azan. With Unna's orcein-polychrome methylene blue-tannin stain, and with Mallory's trichrome after fixation in Zenker's fluid, in the foveola all photoreceptors stain red, which indicates the absence of rods in this region (Fig 14.26). The cone nuclei are oval, 5-7 um in diameter, and lie close to the external limiting membrane, about 3-4 um internal to it, with an extremely short or no intervening outer fibre; the rod nuclei are oval, 5.5 um in width, and contain dispersed chromatin and a visible nucleolus. The cytoplasm surrounding the nuclei of both cells is scant; externally it is continuous with the photoreceptor outer fibres and internally with the inner fibres or axonal processes that pass into the outer plexiform layer. The outer fibres of cones are short because of the close proximity of their nuclei to the external limiting membrane and to their inner segments, but the outer fibres of the rods are long, thin and varicose (Fig 14.27). The outer fibres of both rods and cones contain mitochondria, smooth endoplasmic reticulum, free ribosomes and perinuclear neurotubules, and the cytoplasmic content of the inner fibres of the cones includes endoplasmic reticulum, mitochondria and abundant microtubules (Sigelman and Ozanics, 1982; Tripathi and Tripathi, 1984). In vertical sections stained with Mallory's trichrome the layer is seen between the external limiting membrane and the outer plexiform layer, as in the vertical section through the macula (Fig 14.26c). Developmentally (Wolff, Ch. 17), the cone nuclei are the first to populate the outer region: cone differentiation begins in the tenth week from the outermost cells of the outer neuroblastic layer, and at 22 weeks the foveal outer nuclear layer contains exclusively cone nuclei arranged as a single layer of columnar cells (Hendrickson and Yuodelis, 1984). Rod cell bodies — identifiable by their smaller, dark nuclei with condensed peripheral chromatin — appear scattered between the cones at about 22 weeks (~120 mm), their number increasing thereafter. Quantitatively, the maximum rod density (59,200/mm²) is reached in the region surrounding the foveal cone mosaic, while the future fovea itself reaches a cone density of approximately 38,000/mm² (Diaz-Araya and Provis, 1992). At birth the foveolar outer nuclear layer is still several cells thick and thins only progressively as cones migrate toward the foveal pit, a process that continues until about 45 months of age.",
     "clinical_importance": "The topographic composition of the outer nuclear layer underlies the regional visual functions of the retina: at the fovea the layer is widened to 50 um by 10 rows of cone nuclei and, together with the rod-free foveola, forms the anatomical substrate of highest visual acuity, while the preponderance of rod nuclei elsewhere serves scotopic vision. The selective staining of rod nuclei orange and cone nuclei red with Mallory's (and often Heidenhain's azan) stain allows the two photoreceptor populations to be distinguished histologically, and the uniformly red-stained foveola demonstrates its lack of rods (Fig 14.26). The survival of the photoreceptor perikarya depends on the retinal pigment epithelium, whose apical processes phagocytose 30-40 discarded discs per rod per day and recycle vitamin A for visual pigment regeneration; the loose adhesion across the interphotoreceptor matrix is the plane along which the sensory retina, with its outer nuclear layer, detaches from the pigment epithelium. The thin cytoplasmic bridges of the outer and inner fibres that connect the perikarya to their end organs and synapses, and the topographic variation in nuclear rows (8-9 rows nasal to the disc, four rows at the temporal disc, ten cone rows at the fovea), make the layer a sensitive indicator of the regional architecture of the retina."
   },
   "relationships": [
@@ -45,10 +52,25 @@
     }
   ],
   "metadata": {
-    "keywords": ["retina", "outer nuclear layer", "ONL", "photoreceptor nuclei", "rod nuclei", "cone nuclei", "outer fibre", "inner fibre", "الشبكية", "الطبقة النووية الخارجية", "أنوية العصيات", "أنوية المخاريط"],
-    "references": ["wolff_anatomy"],
-    "last_updated": "2026-10-18",
-    "version": "1.0.0",
+    "keywords": [
+      "retina",
+      "outer nuclear layer",
+      "ONL",
+      "photoreceptor nuclei",
+      "rod nuclei",
+      "cone nuclei",
+      "outer fibre",
+      "inner fibre",
+      "الشبكية",
+      "الطبقة النووية الخارجية",
+      "أنوية العصيات",
+      "أنوية المخاريط"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-10-23",
+    "version": "1.1.0",
     "priority": 1
   },
   "references": [
@@ -56,35 +78,69 @@
       "content_field": "definition",
       "status": "documented",
       "sources": [
-        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [473, 474] }
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            473,
+            474
+          ]
+        }
       ]
     },
     {
       "content_field": "location",
       "status": "documented",
       "sources": [
-        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [471, 473, 474] }
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            471,
+            473,
+            474
+          ]
+        }
       ]
     },
     {
       "content_field": "layers",
       "status": "documented",
       "sources": [
-        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [473, 474] }
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            473,
+            474
+          ]
+        }
       ]
     },
     {
       "content_field": "blood_supply",
       "status": "documented",
       "sources": [
-        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [463] }
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            463
+          ]
+        }
       ]
     },
     {
       "content_field": "venous_drainage",
       "status": "documented",
       "sources": [
-        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [463] }
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            463
+          ]
+        }
       ]
     },
     {
@@ -96,14 +152,41 @@
       "content_field": "histology_summary",
       "status": "documented",
       "sources": [
-        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [471, 473, 474] }
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            471,
+            473,
+            474
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "17",
+          "pages": [
+            650,
+            651,
+            652
+          ]
+        }
       ]
     },
     {
       "content_field": "clinical_importance",
       "status": "documented",
       "sources": [
-        { "reference_id": "wolff_anatomy", "chapter": "14", "pages": [463, 464, 467, 471, 473] }
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            463,
+            464,
+            467,
+            471,
+            473
+          ]
+        }
       ]
     }
   ]
