@@ -25,8 +25,8 @@
       "Subarachnoid space: ends in a scleral cul-de-sac reaching the back of the lamina cribrosa; widest anteriorly where the optic nerve is thinnest, and wider on the nasal side in a temporally directed canal (p. 515).",
       "Pia mater: composed of loose connective tissue of fibroblasts, collagen, elastin, and reticulin fibres; its surface presents mesothelial cells like those of the arachnoid, and its deeper layers, next to the optic nerve, may be of neuroectodermal origin and unite with glial elements, leading to the term 'pia-glia', an astrocytic condensation or glial mantle (Fuchs, 1885; Greeff, 1899). Numerous pial septa enter the optic nerve, dividing fibres into fascicles, and the nerve is hence separated from the pia with difficulty; numerous vessels in the pia lie mostly between its longitudinal and circular fibres (p. 513). The pia is continuous with the septa which tether it to the nerve; lining the pia is the 'glial mantle' of Fuchs, a layer of glial tissue prolonged into the nerve to line the septa and penetrate the bundles, usually thin but much thicker in the floor of the third ventricle and just behind the optic canal, in the superolateral quadrant of the nerve. The pia, turning outwards, becomes continuous with the dura adjacent to the choroid and some border tissue of Elschnig (pp. 514, 518)."
     ],
-    "blood_supply": "There is a striking contrast between the great vascularity of the pia mater and the relatively few vessels in the dura mater; the pial network acts as a distributing centre providing for a regular supply of blood to the nerve (p. 521).",
-    "venous_drainage": "The pial veins in the orbit and optic canal drain into the ophthalmic system; the intracranial pial veins drain into the adjacent venous sinuses (p. 527).",
+    "blood_supply": "There is a striking contrast between the great vascularity of the pia mater and the relatively few vessels in the dura mater; the pial network acts as a distributing centre providing for a regular supply of blood to the nerve (p. 521). The central retinal artery pierces the dura 5-15.5 mm behind the globe inferomedially, and its intravaginal course (0.9-2.5 mm) lies mainly within the subarachnoid space before it enters the nerve substance vertically, making a right-angled bend on reaching the central axis of the nerve (p. 525); intravaginal branches to the pia arise close to the entry of the artery, usually passing forwards and sometimes posteriorly in addition, and the intraorbital branches of the central retinal artery supply the pia from globe to canal in about half the nerves (p. 526).",
+    "venous_drainage": "The pial veins in the orbit and optic canal drain into the ophthalmic system; the intracranial pial veins drain into the adjacent venous sinuses (p. 527). The intravaginal course of the central retinal vein (3.8-8 mm) is longer than that of the central retinal artery, and a greater fraction of the vein resides within the dura (p. 527).",
     "innervation": null,
     "histology_summary": "Relationships of the three sheaths along the nerve: in the cranial cavity only pia covers the nerve; in the optic canal arachnoid and dura are added, the cranial dura splitting at the optic foramen into periosteum (periorbita) and dural sheath (p. 510). Where the central vessels enter, the nerve is oval or crescentic in section (p. 508). The dura is 0.35-0.5 mm thick, of compacted collagen with larger fibres than sclera, internal circular fibres and peripheral longitudinal and oblique fibres, its outer longitudinal layer dividing into two to five lamellae with fusiform nuclei between them that are more numerous in childhood (pp. 510-511). The arachnoid is about 10 um thick with a multilaminar mesothelial (meningothelial) covering joined by desmosomes; its trabeculae to the pia carry a collagenous core covered by mesothelial cells in continuity with arachnoid and pia; mesothelial pearls (corpora amylacea) may form (p. 512; Figs 15.34-15.36). The pia presents a mesothelial surface and deeper layers that may be neuroectodermal, uniting with glial elements as the pia-glia or glial mantle of Fuchs (Fuchs, 1885; Greeff, 1899) (p. 513).",
     "clinical_importance": "Accidental injection into the subarachnoid space of the orbital optic nerve may occur during retrobulbar injection of local anaesthetic and give rise to central nervous system complications; fluid injected into the cranial subarachnoid space spreads freely into the perioptic prolongation (p. 510). The dura is firmly attached to bone in the optic canal, so the sheaths transmit shearing forces to the nerve in skull fracture (p. 515). The subdural space is only potential and appears chiefly in pathological states (p. 510)."
@@ -67,13 +67,17 @@
       "subdural space",
       "corpora amylacea",
       "meningothelial cells",
-      "periorbita"
+      "periorbita",
+      "intravaginal course",
+      "dural piercing of central retinal artery",
+      "المسار داخل الغمد",
+      "اختراق الجافي بالشريان المركزي"
     ],
     "references": [
       "wolff_anatomy"
     ],
     "last_updated": "2026-10-24",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "priority": 2
   },
   "references": [
@@ -132,7 +136,9 @@
           "reference_id": "wolff_anatomy",
           "chapter": "15",
           "pages": [
-            521
+            521,
+            525,
+            526
           ]
         }
       ]

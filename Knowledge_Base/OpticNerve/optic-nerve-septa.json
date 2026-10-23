@@ -25,7 +25,7 @@
       "Trabeculae: each trabecula shows a central vessel which in larger septa has muscular and elastic layers; externally is a variable amount of loose connective tissue surrounded by dense connective tissue and then a layer of glial cells, most of them astrocytes, with oligodendrocytes and microglial cells in small numbers (pp. 517-518).",
       "Glial components: within the septa, astrocyte feet (or less often cell bodies) are apposed to the connective tissue stroma, and a dense layer is formed by the insertion of cytoplasmic filaments into their processes; the glial membrane is separated from connective tissue by a basal lamina and is indented in places by invaginations 120-150 um wide both between and within simple footplates, achieving a firm attachment of the glia to the septa (Anderson and Hoyt, 1969) (pp. 518, 521)."
     ],
-    "blood_supply": "The developing optic nerve is surrounded by glia which is carried into it by invading septal vessels at about the fourth month. In each septum a single artery enters surrounded by collagen tissue and neuroglia, runs radially, divides dichotomously and, anastomosing with others, forms a vascular plexus which reaches the centre of the nerve or the central vessels; anterior and posterior branches also extend between nerve fascicles. The anteroposterior septal branches anastomose together and with transverse branches to form a longitudinal vascular plexus around each fascicle (p. 517). When the vessels pass into the nerve they take with them a coat of pia and also a covering of glia, which constitute the septa; as the vessels pass into the nerve in the septa, they divide dichotomously and send branches anteriorly and posteriorly (p. 521).",
+    "blood_supply": "The developing optic nerve is surrounded by glia which is carried into it by invading septal vessels at about the fourth month. In each septum a single artery enters surrounded by collagen tissue and neuroglia, runs radially, divides dichotomously and, anastomosing with others, forms a vascular plexus which reaches the centre of the nerve or the central vessels; anterior and posterior branches also extend between nerve fascicles. The anteroposterior septal branches anastomose together and with transverse branches to form a longitudinal vascular plexus around each fascicle (p. 517). When the vessels pass into the nerve they take with them a coat of pia and also a covering of glia, which constitute the septa; as the vessels pass into the nerve in the septa, they divide dichotomously and send branches anteriorly and posteriorly (p. 521). Multiple branches from the pial plexus enter the nerve substance centripetally to supply its axons, each branch lying within a central core of connective tissue lined externally with a glial coat of astrocytes (p. 525); the central retinal artery gives off a small number of branches in the retrolaminar 2 mm of the nerve which run anteriorly or posteriorly to anastomose with the septal system of arterioles and capillaries within the substance of the nerve (p. 529). Intraseptal microvasculature: the intraseptal vessels of the retrolaminar region are primarily large precapillaries and capillaries confined to the connective tissue septae and arranged as both transverse and longitudinal polygonal units surrounding the axon bundles; there is extensive anastomosis and no uniformity of size of these intraseptal vessels; their numbers increase near the posterior bowing of the lamina, and anteriorly the system anastomoses with the vessels of the lamina itself while posteriorly it joins the septal system of the intraorbital nerve (Lieberman, Maumenee and Green, 1976) (p. 529).",
     "venous_drainage": "Each trabecula shows a central vessel which in larger septa has muscular and elastic layers (p. 517); occasional septal veins in the retrolaminar region drain into pial veins (p. 534).",
     "innervation": null,
     "histology_summary": "Development and architecture: the developing optic nerve is surrounded by glia which is carried into it by invading septal vessels at about the fourth month; in each septum a single artery enters surrounded by collagen tissue and neuroglia, divides dichotomously and anastomoses with others to form a vascular plexus reaching the centre of the nerve or the central vessels (p. 517). In longitudinal section the longitudinal septa are not continuous — hiatuses occupied by glial cells represent the fenestrations; in transverse section gaps appear in septa, completed by glia (p. 517). The septa are attached to the pia peripherally, to the lamina anteriorly and to the connective tissue adventitia of the central retinal vessels centrally, and they carry blood vessels to the optic nerve; the axons are separated from the vessels and other connective tissue by an astroglial layer at all times (p. 499). In the chiasma, where there are no connective tissue septa, the astrocytes abut capillaries directly with only basal lamina intervening (Anderson and Hoyt, 1969) (p. 521). The pia is continuous with the septa which tether it to the nerve and allow separation with difficulty; lining the pia is the 'glial mantle' of Fuchs, prolonged into the nerve to line the septa and penetrating also into the nerve bundles, with glial cells scattered in these prolongations; the mantle is usually thin, although much thicker in the floor of the third ventricle and just behind the optic canal, in the superolateral quadrant of the nerve (p. 518). A prominent, somewhat triangular, glial septum extends downwards and posteromedially to a point anterior to the chiasma, with thin extensions radiating to trabeculae; it separates the nerve into ventromedial and dorsolateral parts, the former fibres crossing in the chiasma. This septum marks the end of septation in the nerve, which is absent from its most proximal part — according with the unhindered course of anterior decussating fibres — and the end of the septum also marks the actual beginning of decussation where crossed fibres first separate from uncrossed fibres, anterior to the macroscopic chiasma (p. 518).",
@@ -59,13 +59,15 @@
       "glial mantle of Fuchs",
       "trabeculae",
       "astrocyte foot processes",
-      "septal vessels"
+      "septal vessels",
+      "intraseptal capillaries",
+      "شعيرات الحواجز الداخلية"
     ],
     "references": [
       "wolff_anatomy"
     ],
     "last_updated": "2026-10-24",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "priority": 2
   },
   "references": [
@@ -121,7 +123,9 @@
           "chapter": "15",
           "pages": [
             517,
-            521
+            521,
+            525,
+            529
           ]
         }
       ]
