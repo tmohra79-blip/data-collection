@@ -188,5 +188,35 @@
     "last_updated": "2026-09-08",
     "type": "website",
     "verification": "Complete article text (Continuing Education Activity, Introduction, Etiology incl. Giant Fornix Syndrome subsection, Epidemiology, Pathophysiology, History and Physical, Evaluation, Treatment/Management, Differential Diagnosis, Prognosis, Complications, Pearls, Enhancing Healthcare Team Outcomes, References) read directly on 2026-10-19 from the verbatim NCBI Bookshelf copy saved in download/sources/statpearls_conjunctivitis_overview_NBK541034.txt."
+  },
+  {
+    "reference_id": "statpearls_cn2_optic",
+    "title": "Neuroanatomy, Cranial Nerve 2 (Optic)",
+    "authors": [
+      "Austen M. Smith",
+      "Craig N. Czyz"
+    ],
+    "publisher": "StatPearls Publishing",
+    "source": "NCBI Bookshelf",
+    "bookshelf_id": "NBK507907",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK507907/",
+    "last_updated": "2022-11-07",
+    "type": "website",
+    "verification": "Full article (Introduction, Structure and Function, Pupillary Light Reflex, Accommodation Reflex, Embryology, Blood Supply and Lymphatics, Surgical Considerations, Clinical Significance) read directly on 2026-10-26 (2,597 words)."
+  },
+  {
+    "reference_id": "statpearls_optic_chiasm",
+    "title": "Neuroanatomy, Optic Chiasm",
+    "authors": [
+      "Ashley C. Ireland",
+      "Iverson B. Carter"
+    ],
+    "publisher": "StatPearls Publishing",
+    "source": "NCBI Bookshelf",
+    "bookshelf_id": "NBK542287",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK542287/",
+    "last_updated": "2023-05-01",
+    "type": "website",
+    "verification": "Full article (Introduction, Structure and Function incl. fiber orientation/size, Embryology, Blood Supply and Lymphatics, Surgical Considerations, Clinical Significance incl. chiasmal syndrome/albinism/achiasmia/NDRFFS) read directly on 2026-10-26 (5,014 words)."
   }
 ]
