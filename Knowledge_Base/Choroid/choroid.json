@@ -1,0 +1,362 @@
+{
+  "entity_id": "choroid",
+  "component_ids": [
+    "comp_sclera",
+    "comp_retina"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Choroid",
+    "ar": "المشيمية",
+    "aliases": [
+      "Choroidea",
+      "choroid coat",
+      "posterior uvea",
+      "uveal vascular layer",
+      "lamina chorioidea",
+      "chorioidea",
+      "المشيمية",
+      "الطبقة المشيمية",
+      "الوعائية المشيمية",
+      "المشيمية الخلفية"
+    ]
+  },
+  "content": {
+    "definition": "The choroid is chiefly a vascular layer nutritive to the outer retinal layers; its anterior boundary is the ora serrata and posteriorly it ends around the optic nerve head (p. 224). In gross-anatomical terms it is the homologue of the pia-arachnoid vessels of the brain — it maintains, but does not vascularize, the outer retinal layers (p. 376). In section it resembles cavernous tissue: a sponge of inter-anastomosing vascular spaces whose lumina are wide relative to their supporting stroma. The human choroid also serves the sclera: its fenestrated capillaries allow diffusion of large molecules such as albumin into the sclera, so that subtenon or subconjunctivally injected drugs can reach the internal tunics of the eye (Bill 1966a,b; 1968) (pp. 276-277). The ratio of choroidal to retinal blood flow is about 10:1 in man (p. 228) and about 20-fold in the monkey, where the choroid receives 677±67 mg/ml against 34±2 mg/ml for the retina (Alm and Bill) (p. 407). Modern review literature confirms and extends this physiological profile: choroidal blood flow is probably the highest of any tissue in the body per unit tissue weight — ten-fold higher than the brain — and beyond its vascular duties the choroid provides thermoregulation via heat dissipation, adjustment of the position of the retina by changes in choroidal thickness, and secretion of growth factors; it also contains secretory cells probably involved in modulation of vascularization and in growth of the sclera (Nickla and Wallman 2010).",
+    "location": "The choroid lies between the sclera externally and the retinal pigment epithelium internally, forming the posterior part of the uveal tract (from behind forwards: choroid, ciliary body, iris) (p. 212). It extends from the optic nerve head to the ora serrata (p. 224). It is thickest beneath the fovea (0.3 mm) and thinnest at the ora (0.1-0.15 mm) (p. 224). Because fixation shrinks it, post-mortem thickness is only about 100 µm anteriorly and about 220 µm posteriorly (greatest above the macula), whereas in-vivo ultrasound gives 500-1000 µm (Coleman and Lizzi 1979) — figures obtained by different methods must never be mixed in one claim (p. 376). Adhesion to the sclera is strong at the optic nerve margin, loose at the entrances of vessels and nerves, and strongest behind the equator; its inner surface is Bruch's membrane, shiny and transparent after stripping the retina and RPE, while the outer surface is rough because the deep suprachoroidal lamellae remain attached to it (p. 376). The posterior termination of the choroid correlates with the profile of the scleral canal (oblique, pointed or almost rectangular in section), and near the nerve its suprachoroidal lamellae become meridional and parallel with the sclera (pp. 500-502). In-vivo spectral-domain EDI-OCT (54 normal eyes, ages 19-85) quantifies the topographic gradient the fixed-tissue figures describe: mean subfoveal choroidal thickness 287±76 µm, falling rapidly nasally to 145±57 µm at 3 mm nasal to the fovea (Margolis and Spaide 2009) — the in-vivo counterpart of the 0.3 mm subfoveal fixed-tissue figure (p. 224) and of the ultrasound 500-1000 µm (Coleman and Lizzi 1979) (p. 376).",
+    "layers": [
+      "Lamina suprachoroidea (suprachoroid): 10-34 µm of criss-crossing collagen lamellae with potential spaces, melanocytes and the musculo-elastic system; traversed by the long and short ciliary arteries and nerves (pp. 376-377; see suprachoroidal_space card)",
+      "Haller's layer: the outer large-vessel stratum of arteries and veins laid down developmentally during the third and fourth months (Heimann 1972) (pp. 225, 377-378, 638-639)",
+      "Sattler's layer: medium-sized arterioles (with companion venules) interposed between Haller's layer and the choriocapillaris; develops during the fifth month, initially at the equator (Heimann 1972) (pp. 225, 377-378, 639)",
+      "Choriocapillaris: the fenestrated capillary net adjacent to Bruch's membrane, fed by a second, sparsely fenestrated capillary layer covered by pericytes on its scleral aspect (pp. 377-378; see choriocapillaris card)",
+      "Bruch's membrane: about 2 µm, five-layered basal lamina complex between choriocapillaris and RPE (pp. 225, 397-398; see choroid_layers card)"
+    ],
+    "blood_supply": "Arterial inflow comes from the short posterior ciliary arteries (the greater part of the choroid), the recurrent and perforating branches of the anterior ciliary and long posterior ciliary arteries (anterior choroid), and the circulus iridis major distally — 10-20 short posterior ciliary branches enter around the nerve (pp. 88, 371, 384-385). The short ciliary arteries advance sinuously through the pigmented suprachoroid and divide dichotomously to feed the choriocapillaris from the disc margin to the ora serrata; the lateral long posterior ciliary artery may supply as much as two-thirds of the choroid (Hayreh 1976) (pp. 384, 393). Functionally the choroidal circulation is extraordinary: it is not autoregulated (Alm and Bill 1973) — pressure changes are transmitted proportionally to flow — yet because flow far exceeds metabolic need the tissue effect is minimal (p. 408). Choroidal flow rises with inspired CO2 and is unaffected by systemic pO2 (Bill 1962) (p. 408). The vasculature is held under a constant sympathetic vasoconstrictor tone that protects against overperfusion in hypertension (Bill, Linder and Linder 1977b), and the endothelium-derived nitrergic/VIPergic system provides vasodilatation (pp. 383-384, 408).",
+    "venous_drainage": "Practically the whole uveal tract drains through the vortex veins (venae vorticosae): usually four — two superior and two inferior — piercing the sclera obliquely about 6 mm behind the equator on either side of the vertical recti, with the superior pair farther back (superolateral 8 mm) and the inferolateral more anterior (5.5 mm). Superior vortices drain to the superior ophthalmic vein (directly or via muscular/lacrimal tributaries); the inferior pair to the inferior ophthalmic vein or a positional anastomosis with it (pp. 101, 224, 405-406). The anterior ciliary veins drain part of the ciliary muscle and communicate with the vortex system, so in acute glaucoma with vortex obstruction they carry a larger share of the outflow (Fig 11.26) (p. 405). Uveal veins are valveless and do not follow the arterial pattern in number, course or branching; paradoxically the choroidal arteries are often larger than their companion veins (pp. 406-407).",
+    "innervation": "The choroid carries one of the densest autonomic plexuses of the eye: perivascular bundles of 50-100 axons, sympathetic adrenergic (vasoconstrictor) fibres from the cervical chain, and parasympathetic fibres from two routes — the oculomotor nerve via the ciliary ganglion and short ciliary nerves, and the facial nerve via the pterygopalatine ganglion and rami oculares (p. 383). In foveate animals, including man, an intrinsic ganglionated plexus of about 2000 nitrergic/VIPergic cells lies within the choroid, concentrated temporally and under the macula (Flugel 1994) (pp. 383-384). See the choroid_innervation card for the full account.",
+    "histology_summary": "Three classic layers are recognized (Haller, Sattler, choriocapillaris) beneath the suprachoroidea and Bruch's membrane (pp. 225, 377-378). The stroma contains melanocytes, fibrocytes, macrophages, mast cells and plasma cells (p. 378). Melanocytes form a semi-continuous layer in the outer choroid, are densest around the disc and outline the vessels and ampullae; their melanosomes are 0.3-0.4 µm (occasionally under 0.2 µm) — always smaller than those of the RPE (up to 1 µm by 2-3 µm) — and fill about 70% of the cytoplasm, with individually constant size that varies between races (p. 378). Fibrocytes are denser externally, more numerous in males, and their random collagen encases the vessels as adventitia; elastic strips up to 13 µm wide accompany them (p. 378). With age there is a distinct reduction in choroidal thickness with histological compression in sagittal sections (Ramrattan et al. 1994), a sheath develops around the larger vessels resembling that of iris vessels and possibly hindering vessel movement during blood-pressure variation, and in addition to sclerosis the number and calibre of vessels are reduced (Tripathi and Tripathi 1974); whether these changes have functional effects is not known (p. 410). Developmentally the uveal tract derives from vascular channels, neural crest cells and neuroectoderm: the choriocapillaris differentiates in the fourth and fifth weeks only where mesodermal cells touch the RPE, Haller's layer forms in months 3-4, Sattler's in month 5, and final arterial anastomosis waits until the eighth month (Ozanics and Jakobiec 1982; Heimann 1972; Sellheyer 1990) (pp. 637-640).",
+    "clinical_importance": "Thickness is the master clinical variable: the choroid is thinner in high myopia and in congenital and chronic glaucoma (p. 376); in donor eyes with primary open-angle or secondary glaucoma thickness is reduced, with a parallel loss of choroidal ganglion cells (Kubota 1993) (p. 410). The loose attachments explain why choroidal detachment occurs anteriorly and rarely crosses the equator, and why ultrasound can reveal posterior effusions without ballooning (p. 377). Flow exceeding need gives the choroid its two great physiological duties — thermoregulation of the outer retina and buffering of external pressure (eye rubbing) — and its tissue hyperosmolarity (extracellular albumin/IgG at 60-70% of plasma concentration, about 15 mmHg above retina) draws fluid outward and helps anchor the neuroretina against detachment (p. 408). Territorial supply underlies clinical choroidal infarction (Amalric triangles, Elschnig spots) (p. 393), and multiple rectus muscle disinsertion or encircling bands can precipitate anterior segment ischaemia by compromising the ciliary inflow (p. 376). The measurement method must always accompany a thickness figure: 0.3 mm subfoveally in fixed tissue (p. 224) versus 500-1000 µm in vivo by ultrasound (Coleman and Lizzi 1979) (p. 376). In-vivo age-related thinning is quantified at 15.6 µm per decade of life, with a significant negative correlation at every measured point (Margolis and Spaide 2009). The thickness machinery also has a developmental role: choroidal thickening is mechanistically linked to slowing of scleral extracellular-matrix synthesis, so the choroid participates in the homeostatic control of eye growth and in the etiology of myopia and hyperopia (Nickla and Wallman 2010) — an addition to the book's thermoregulation-and-anchoring account (p. 408)."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "globe",
+      "target_name": "Eyeball (posterior part of the uveal tract)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "sclera",
+      "target_name": "Sclera (external neighbour across the suprachoroidal space; nourished by choroidal diffusion)"
+    },
+    {
+      "relation_type": "nourishes",
+      "target_id": "retina",
+      "target_name": "Retina (chiefly a vascular layer nutritive to the outer retinal layers)"
+    },
+    {
+      "relation_type": "attached_to",
+      "target_id": "retinal_pigment_epithelium",
+      "target_name": "Retinal Pigment Epithelium (remains attached to the choroid via Bruch's membrane in retinal detachment)"
+    },
+    {
+      "relation_type": "supplied_by",
+      "target_id": "choroid_blood_supply",
+      "target_name": "Choroidal Blood Supply (short/long posterior ciliary and anterior ciliary arteries)"
+    },
+    {
+      "relation_type": "drained_by",
+      "target_id": "vortex_veins",
+      "target_name": "Vortex Veins (four venae vorticosae drain practically the whole uveal tract)"
+    },
+    {
+      "relation_type": "innervated_by",
+      "target_id": "choroid_innervation",
+      "target_name": "Choroidal Innervation (sympathetic vasoconstrictor + facial/pterygopalatine vasodilator + intrinsic nitrergic plexus)"
+    },
+    {
+      "relation_type": "contains",
+      "target_id": "choriocapillaris",
+      "target_name": "Choriocapillaris (innermost fenestrated capillary layer)"
+    },
+    {
+      "relation_type": "bounded_externally_by",
+      "target_id": "suprachoroidal_space",
+      "target_name": "Suprachoroidal Space (lamina suprachoroidea between choroid and sclera)"
+    },
+    {
+      "relation_type": "continuous_with",
+      "target_id": "ciliary_body",
+      "target_name": "Ciliary Body (choroid continues anteriorly into the ciliary body at the ora serrata)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "choroid",
+      "choroidea",
+      "uveal tract",
+      "vascular layer",
+      "outer retinal nutrition",
+      "pia-arachnoid homologue",
+      "cavernous tissue",
+      "subfoveal thickness",
+      "choroidal blood flow",
+      "autoregulation",
+      "thermoregulation",
+      "choroidal thickness",
+      "high myopia",
+      "glaucoma",
+      "choroidal detachment",
+      "choroidal ageing",
+      "Haller layer",
+      "Sattler layer",
+      "المشيمية",
+      "المسار الوعائي",
+      "تغذية الشبكية الخارجية",
+      "سماكة المشيمية",
+      "قصر البصر",
+      "الجلوكوما",
+      "انفصال المشيمية",
+      "تنظيم الحرارة",
+      "multifunctional choroid",
+      "emmetropization",
+      "EDI-OCT",
+      "subfoveal thickness 287 µm",
+      "choroidal growth factors",
+      "تنظيم نمو العين",
+      "التصوير الطبقي المتماسك"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "margolis_2009_edi_oct",
+      "nickla_2010_choroid"
+    ],
+    "last_updated": "2026-10-27",
+    "version": "1.1.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            224,
+            228
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            276,
+            277
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            376,
+            407
+          ]
+        },
+        {
+          "reference_id": "nickla_2010_choroid",
+          "section": "Abstract and review synthesis: functions of the choroid"
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            212,
+            224
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            376
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            500,
+            502
+          ]
+        },
+        {
+          "reference_id": "margolis_2009_edi_oct",
+          "section": "Results: EDI-OCT choroidal thickness in 54 normal eyes"
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            225,
+            376,
+            377
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "17",
+          "pages": [
+            638,
+            639
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "3",
+          "pages": [
+            88
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            371,
+            384,
+            385,
+            393,
+            408
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "3",
+          "pages": [
+            101
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            224
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            405,
+            406,
+            407
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            383,
+            384
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            225,
+            377,
+            378,
+            410
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "17",
+          "pages": [
+            637,
+            638,
+            639,
+            640
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            224
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            276,
+            277
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            376,
+            377,
+            393,
+            408,
+            410
+          ]
+        },
+        {
+          "reference_id": "margolis_2009_edi_oct",
+          "section": "Results and Conclusions: age correlation of choroidal thickness"
+        },
+        {
+          "reference_id": "nickla_2010_choroid",
+          "section": "Discussion: choroidal thickness, scleral growth and emmetropization"
+        }
+      ]
+    }
+  ]
+}

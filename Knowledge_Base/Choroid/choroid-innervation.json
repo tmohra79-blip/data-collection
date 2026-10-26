@@ -1,0 +1,260 @@
+{
+  "entity_id": "choroid_innervation",
+  "component_ids": [
+    "comp_sclera",
+    "comp_retina"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Innervation of the Choroid",
+    "ar": "تعصيب المشيمية",
+    "aliases": [
+      "choroidal nerves",
+      "ciliary nerves of the choroid",
+      "vasodilator fibres of the choroid",
+      "nitrergic choroidal plexus",
+      "VIPergic choroidal ganglion cells",
+      "rami oculares",
+      "pterygopalatine supply of the choroid",
+      "choroidal vasomotor supply",
+      "تعصيب المشيمية",
+      "أعصاب المشيمية",
+      "الألياف الموسعة للمشيمية",
+      "الضفيرة العقدية المشيمية",
+      "العقدة الوجنية الحنكية",
+      "الفرع الوجهي للمشيمية"
+    ]
+  },
+  "content": {
+    "definition": "The choroid carries one of the densest innervations of the eye: a dual autonomic supply — sympathetic adrenergic vasoconstrictor fibres and parasympathetic vasodilator fibres arriving by two routes (the oculomotor via the ciliary ganglion, and the facial via the pterygopalatine ganglion) — plus an intrinsic ganglionated plexus of about 2000 nitrergic/VIPergic neurons unique to foveate species (pp. 383-384, 619). The choroid is the exception to the anterior-segment rule: in the eye's anterior segment the parasympathetic supply travels only with nerve III, whereas the choroid also receives the facial route (p. 383).",
+    "location": "Perivascular bundles of 50-100 axons accompany the arteries and veins of Haller's and Sattler's layers and traverse the suprachoroid with the ciliary vessels and nerves; the intrinsic ganglion cells lie near the walls of the larger arteries, concentrated temporally and centrally beneath the macula, and none are found in the choriocapillaris (pp. 383-384). Rami oculares pass forwards around the ophthalmic artery between the ciliary nerves and arteries to reach the globe (p. 606).",
+    "layers": null,
+    "blood_supply": null,
+    "venous_drainage": null,
+    "innervation": "SYMPATHETIC: postganglionic adrenergic fibres from the superior cervical ganglion reach the choroid with the ciliary arteries and nerves; stimulation produces intense choroidal vasoconstriction with a fall in intraocular pressure (alpha-adrenergic; Alm and Bill 1973; Alm 1977), and the choroid is held under a constant vasoconstrictor tone protecting against overperfusion in hypertension (Bill, Linder and Linder 1977b). Terminals sit on the arterioles first, partially on veins, and none on the choriocapillaris (Ruskell 1971b) (pp. 383, 408). About 9.8% of axon terminals in ciliary artery walls are sympathetic (p. 606). PARASYMPATHETIC (facial route): fibres from the pterygopalatine ganglion form the rami orbitales, which join the internal carotid sympathetic nerve at the anterior cavernous sinus as the retro-orbital plexus, from which 4-6 rami oculares pass forward around the oculomotor nerve into the orbit; in the monkey about 27 rami supply the globe, mainly unmyelinated (average cross-section 12 × 8 µm, ~24 bundles of 56 axons each, 0.9% Schwann cells) and carrying no sympathetic fibres (Ruskell 1970b) (p. 606). The parasympathetic supply to the choroid derives from the rami orbitales of the pterygopalatine ganglion (p. 606). These nerves carry coexpressed muscarinic, VIPergic and nitrergic fibres and are vasodilator to the choroid: pterygopalatine ganglionectomy, ganglion injection or greater petrosal neurectomy all lower intraocular pressure (Sluder 1937; Golding-Wood 1963; Ruskell 1970b), while stimulation of the greater petrosal nerve raises it (Gloster 1961) (p. 607). PARASYMPATHETIC (oculomotor route): postganglionic fibres from the ciliary ganglion travel with the short ciliary nerves and remain myelinated within the choroid; cholinergic stimulation produces vasodilatation (Stjernschantz and Bill 1979) (pp. 383, 408). INTRINSIC PLEXUS: an intrinsic ganglionated plexus — first described by Müller (1859) and Iwanoff (1874), NADPH-diaphorase/NOS and VIP positive — exists only in foveate animals (present in the cynomolgus monkey, absent in the afoveate owl monkey, tree shrew, cat and pig); the ability to accommodate is irrelevant to its presence (Flugel 1994) (p. 383). In man the ~2000 ganglion cells (Table 11.1: at 48 years — temporo-central 1165, nasal 287, superior 146, inferior 986, total 2579; at 82 years total 1661) are polygonal, 10-40 µm, single or in clusters of 2-10, near the large arterial walls (Flugel 1994) (p. 383). The submacular concentration of the plexus is interpreted as additional protection against light damage where light focuses (Flugel 1994), and nitric oxide colocalized with VIP mediates vasodilatation with facial-nerve stimulation (Uddman 1980; Butler 1984) (p. 384). Modern review consolidates the dual-control model with a third input: the choroid is richly innervated by parasympathetic, sympathetic and trigeminal sensory fibres that regulate choroidal blood flow — parasympathetic activity vasodilates and increases flow, sympathetic activity vasoconstricts and decreases it, and trigeminal sensory fibres both convey pain and thermal information centrally and act locally to vasodilate and increase flow (Reiner et al. 2018). The same review explains why this innervation matters: because the choroid lies behind the retina and cannot respond readily to retinal metabolic signals, its nerves perform the flow adjustments needed for retinal activity and systemic blood-pressure fluctuations — a functional synthesis of the anatomy documented above.",
+    "histology_summary": "Nerve bundles of 50-100 axons lose their myelin within the choroid while retaining Schwann sheaths; postganglionic fibres from the ciliary ganglion remain myelinated; choroidal ganglion cells, up to 40 µm, are the largest of their class (p. 383). With age the ganglion-cell diameter increases (possibly lipofuscin related) and earlier centrally — light exposure may accelerate their ageing (p. 383). In donor eyes with primary open-angle and secondary glaucoma the choroidal ganglion-cell population is reduced in parallel with choroidal thinning, while the choriocapillaris is preserved (Kubota 1993) (p. 410). The choroidal vessels are richly innervated by sympathetic adrenergic fibres maintaining vasoconstrictor tone and equally by parasympathetic, VIP-positive and nitrergic vasodilator fibres of facial origin reaching the eye via the pterygopalatine ganglion in the rami orbitales (Stjernschantz and Bill 1980; Uddman et al. 1980; Nilsson and Bill 1984; Uusitalo et al. 1984); in foveate animals the intrinsic ganglionic plexus is nitrergic and VIPergic and vasodilator in function (p. 619).",
+    "clinical_importance": "The dual control explains choroidal haemodynamics: without autoregulation, the standing sympathetic tone prevents hypertensive overperfusion, and the nitrergic/VIPergic system can raise flow with light exposure or protect the outer retina from light and heat (pp. 384, 408). Surgery or disease of the pterygopalatine ganglion/greater petrosal nerve (Vidian neurectomy territory) lowers intraocular pressure by interrupting the choroidal vasodilator supply, whereas greater petrosal stimulation raises it (Gloster 1961) (p. 607). Loss of choroidal ganglion cells parallels choroidal thinning in glaucoma (Kubota 1993) (p. 410). Ageing of the ganglion cells is earliest centrally where light exposure is greatest — a possible cofactor in age-related macular disease research (p. 383). Species differences matter for animal models: only foveate species possess the intrinsic nitrergic plexus (p. 383). Impairments in the neural control of choroidal blood flow occur with ageing and in ocular and systemic disease — glaucoma, age-related macular degeneration, hypertension and diabetes — and may contribute to retinal pathology and dysfunction, or in AMD be a precondition (Reiner et al. 2018): an evidence-based extension of this card's glaucoma and ageing entries (p. 410)."
+  },
+  "relationships": [
+    {
+      "relation_type": "innervates",
+      "target_id": "choroid",
+      "target_name": "Choroid (dense dual autonomic + intrinsic nitrergic supply)"
+    },
+    {
+      "relation_type": "innervates",
+      "target_id": "choroid_layers",
+      "target_name": "Choroidal Layers (perivascular bundles in Haller's and Sattler's layers)"
+    },
+    {
+      "relation_type": "spares",
+      "target_id": "choriocapillaris",
+      "target_name": "Choriocapillaris (no direct innervation — Ruskell 1971b)"
+    },
+    {
+      "relation_type": "traverses",
+      "target_id": "suprachoroidal_space",
+      "target_name": "Suprachoroidal Space (ciliary nerves cross it to reach the choroid)"
+    },
+    {
+      "relation_type": "relays_in",
+      "target_id": "ciliary_ganglion",
+      "target_name": "Ciliary Ganglion (oculomotor parasympathetic route)"
+    },
+    {
+      "relation_type": "relays_in",
+      "target_id": "pterygopalatine_ganglion",
+      "target_name": "Pterygopalatine Ganglion (facial parasympathetic route via rami orbitales/oculares)"
+    },
+    {
+      "relation_type": "originates_from",
+      "target_id": "facial_nerve",
+      "target_name": "Facial Nerve (greater petrosal nerve — vasodilator fibres)"
+    },
+    {
+      "relation_type": "originates_from",
+      "target_id": "oculomotor_nerve",
+      "target_name": "Oculomotor Nerve (parasympathetic route via ciliary ganglion)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "choroidal innervation",
+      "sympathetic vasoconstrictor tone",
+      "pterygopalatine ganglion",
+      "rami oculares",
+      "greater petrosal nerve",
+      "ciliary ganglion",
+      "nitrergic",
+      "VIPergic",
+      "nitric oxide",
+      "intrinsic ganglionated plexus",
+      "ganglion cells 2000",
+      "foveate species",
+      "Flugel 1994",
+      "vasodilator",
+      "intraocular pressure",
+      "Vidian neurectomy",
+      "light protection",
+      "glaucoma ganglion cells",
+      "تعصيب المشيمية",
+      "النبرة المقبضة السمبثاوية",
+      "العقدة الوجنية الحنكية",
+      "الفروع العينية",
+      "الألياف النيترجية",
+      "خلايا عقدية مشيمية",
+      "ضغط العين",
+      "الحماية من الضوء",
+      "trigeminal sensory vasodilatation",
+      "neural control of blood flow",
+      "glaucoma AMD hypertension diabetes",
+      "التحكم العصبي بالتدفق"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "reiner_2018_neural_control"
+    ],
+    "last_updated": "2026-10-27",
+    "version": "1.1.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            383,
+            384
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "16",
+          "pages": [
+            606,
+            607,
+            619
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            383,
+            384
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "16",
+          "pages": [
+            606
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            383,
+            384,
+            408
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "16",
+          "pages": [
+            606,
+            607,
+            619
+          ]
+        },
+        {
+          "reference_id": "reiner_2018_neural_control",
+          "section": "Abstract: parasympathetic, sympathetic and sensory control of choroidal blood flow"
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            383,
+            384,
+            409,
+            410
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "16",
+          "pages": [
+            619
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            383,
+            384,
+            408,
+            410
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "16",
+          "pages": [
+            607
+          ]
+        },
+        {
+          "reference_id": "reiner_2018_neural_control",
+          "section": "Abstract: impairments in ageing and disease"
+        }
+      ]
+    }
+  ]
+}

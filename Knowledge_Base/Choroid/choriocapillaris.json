@@ -1,0 +1,278 @@
+{
+  "entity_id": "choriocapillaris",
+  "component_ids": [
+    "comp_sclera",
+    "comp_retina"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Choriocapillaris",
+    "ar": "الشبكة الشعرية المشيمية",
+    "aliases": [
+      "lamina choroidocapillaris",
+      "choroidocapillaris",
+      "choriocapillary layer",
+      "fenestrated choroidal capillaries",
+      "Ruysch's membrane (historical)",
+      "الشبكة الشعرية المشيمية",
+      "الشعيرات المشيمية",
+      "الطبقة الشعرية الداخلية للمشيمية"
+    ]
+  },
+  "content": {
+    "definition": "The choriocapillaris is the innermost capillary layer of the choroid, a dense fenestrated meshwork of the widest-bore capillaries in the body (20-50 µm lumen), lying immediately external to Bruch's membrane and responsible for the nourishment of the outer retinal layers and the RPE (pp. 225, 393-394). Its capillaries are fed by a second, sparsely fenestrated arteriolar capillary layer covered by pericytes (the arterial side of Sattler's and Haller's layers) rather than by direct arteriolar entry (pp. 377-378). It is an exceptionally leaky bed: extracellular albumin/IgG reaches 60-70% of plasma concentration (Bill 1968), producing a tissue osmotic pressure about 15 mmHg above that of the retina (p. 408).",
+    "location": "The capillary net extends from the optic disc margin to the ora serrata (p. 384). It is densest and its meshes finest at the posterior pole and especially submacularly, where it forms a mass resembling cavernous tissue; peripherally the capillaries become sparser with elongated meshes (pp. 393-394). At the foveola its rich circulation shines through the avascular, cone-only retina, giving the deeper red colour of the foveola and the cherry-red spot when the surrounding retina turns cloudy (p. 455).",
+    "layers": null,
+    "blood_supply": "Organization is lobular but its geometry was long disputed. Hayreh (1974a,d; 1975a; 1990) demonstrated segmental, arteriocentric lobules — each terminal arteriole at the centre of a capillary bed ringed by efferent venules — confirmed by microsphere studies and arterial occlusion (Hayreh and Baines 1972a); regular lobulation is found outside 3 mm from the disc and 2 mm from the macula (pp. 385-393). Fryczkowski's vascular casts (Fryczkowski, Sherman and Walker 1991) showed the posterior pole and equator are predominantly VENOCENTRIC (central vein, peripheral arteriole) — the arteriocentric pattern of fluorescein angiography being the functional rather than the anatomical unit (p. 392). Dimensions by zone: posterior pole lobules 515×450 µm with an arteriole:venule ratio of 1:2 to 1:5; equatorial 645×550 µm at ~1:2; periphery radially elongated 955×670 µm at 1:2 to 1:4; submacularly 8-16 precapillary arterioles with frequent interarteriolar anastomoses and a 1:1 ratio (Fryczkowski, Sherman and Walker 1991) (p. 385). Peripapillary and submacular regions show a rich honeycomb pattern without clear lobules (Fryczkowski 1992) (p. 385). Functional anastomoses between territories are denied by Hayreh, although post-mortem injections show them (Wybar 1954; Ring and Fujino 1967; Yoneya and Tso 1987); small choroidal infarcts recover within days, so arterioles are anatomical but not strict functional end-arterioles (pp. 384-385). Capillary meshes measure 3-18 µm posteriorly and 6-36 × 36-400 µm at the equator (Hogan 1971) (p. 393). Vascular-cast anatomy supports the lobule account from the cast side: corrosion casts of ten human orbits show predictable regional variation of the choriocapillaris angioarchitecture across posterior-pole, equatorial, peripheral, peripapillary and submacular areas (Fryczkowski, Sherman and Walker 1991) — the data tradition behind the venocentric reading the book contrasts with Hayreh's arteriocentric one (p. 392). Mathematical modelling of cast geometry shows the flow field decomposes into a tessellation of functional vascular segments whose shape is set by the distribution of arteriolar and venular openings and their relative flow rates (Zouache et al. 2016).",
+    "venous_drainage": "Postcapillary venules (10-40 µm) collect from the scleral aspect of the net into the venular component of Sattler's layer, then into the large veins of Haller's layer and the vortex veins; peripherally the venules are elongated fillets, and gaps between them permit intercapillary anastomoses (p. 393-394). The venous pattern is independent of the arterial territories (p. 406).",
+    "innervation": null,
+    "histology_summary": "Fenestrations of 60-80 nm with a thin bridging diaphragm are densely and regularly arrayed on the inner face towards Bruch's membrane (except a narrow rim around each cell), sparser laterally and externally; the surrounding basal lamina is thin and invests both endothelium and pericytes (Feeney and Hogan 1961; Matsusaka 1975) (p. 396). Endothelial junctions resemble those of hepatic sinusoids (Yee and Revel 1975) and mesentery (Simionescu 1975): freeze-fracture shows discontinuous zonulae occludentes — 'leaky junctions' (Raviola 1977; Spitznas and Reale 1975); gap junctions occur with pericytes on the scleral side (p. 396). Pericytes are incomplete and confined to the scleral aspect (ratio 1:6, versus 1:2 in retina; most numerous at the fovea); their contraction is unlikely to regulate the permanently high flow (p. 395). Intercapillary septa reinforced by Bruch's collagen fibres form a semi-rigid frame preventing collapse, supporting continuous flow (Friedman and Oak 1965) — unlike the iris, where many capillaries are unperfused at any moment (Bill; Tornqvist; Alm 1980) (p. 394). Development: differentiation begins in weeks 4-5 simultaneously with the RPE, and only mesodermal cells in contact with the RPE form the network (Ozanics and Jakobiec 1982); diaphragmed fenestrations first appear after week 7, most numerous by week 9, in parallel with luminal widening and endothelial thinning (Sellheyer and Spitznas 1988a) (pp. 637-638). Ageing shrinks the net itself: over ten decades choriocapillary density falls 45% and capillary diameter falls 34% (9.8 to 6.5 µm) (Ramrattan et al. 1994) — a quantitative base for the book's statements on reduced vascular number and calibre with age (p. 410).",
+    "clinical_importance": "Hyperpermeability is the choriocapillaris signature: protein leakage across its fenestrated capillaries exceeds kidney fivefold and muscle tenfold (Bill, Tornqvist and Alm 1980), while tight junctions of the RPE prevent entry into the retina (Cunha-Vaz 1966; Grayson and Laties 1971; Smith and Rudt 1975) (p. 408). The high interstitial albumin/IgG generates a tissue osmotic pull of ~15 mmHg over retina — a net filtration from retina towards choroid that helps hold the neuroretina against the RPE and guards against retinal detachment (Bill 1968) (p. 408). Glucose permeability exceeds heart muscle twentyfold and skeletal muscle up to eightyfold (Tornqvist and Alm 1979) (pp. 408-409). At the optic nerve head there is no barrier to diffusion across the highly fenestrated capillaries, and the extracellular spaces of the choroid are continuous with those of the prelaminar nerve — the basis of the late staining of the disc in fluorescein angiography (pp. 500, 534-535). Occlusion of feeding arterioles produces small infarcts (Elschnig spots) that recover within days (p. 393). In glaucoma the choriocapillaris remains unchanged despite loss of choroidal innervation; only in long-standing disease do capillary changes and reduction of capillary surface appear (Kubota 1993) (p. 410). Scleral diffusion from the fenestrated net allows subtenon and subconjunctival drugs to reach the internal tunics (Bill 1966a,b) (pp. 276-277). In advanced AMD the density of the net falls to 63% (basal laminar deposit), 54% (geographic atrophy) and 43% (disciform scarring) of age-matched normal, with capillary diameter down to 81%, 73% and 75% respectively (Ramrattan et al. 1994); the perfusion margin involved is extreme — choroidal blood flow is among the highest of any tissue per unit weight, ten-fold higher than the brain (Nickla and Wallman 2010) — which is why these losses bear directly on the RPE-photoreceptor complex."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "choroid",
+      "target_name": "Choroid (innermost capillary layer of the choroid proper)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "retinal_pigment_epithelium",
+      "target_name": "Retinal Pigment Epithelium (immediately external, separated by Bruch's membrane)"
+    },
+    {
+      "relation_type": "part_of",
+      "target_id": "choroid_layers",
+      "target_name": "Choroidal Layers (stratum between Sattler's layer and Bruch's membrane)"
+    },
+    {
+      "relation_type": "supplied_by",
+      "target_id": "choroid_blood_supply",
+      "target_name": "Choroidal Blood Supply (SPCA arterioles via the second capillary layer)"
+    },
+    {
+      "relation_type": "drained_by",
+      "target_id": "vortex_veins",
+      "target_name": "Vortex Veins (postcapillary venules collect to Sattler/Haller veins then vortices)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "choriocapillaris",
+      "fenestrated capillaries",
+      "lobules",
+      "arteriocentric",
+      "venocentric",
+      "Hayreh",
+      "Fryczkowski",
+      "pericytes 1:6",
+      "leaky junctions",
+      "fenestrations 60-80 nm",
+      "capillary meshes",
+      "protein leakage",
+      "osmotic suction",
+      "cherry-red spot",
+      "Elschnig spots",
+      "submacular",
+      "watershed",
+      "continuous flow",
+      "الشبكة الشعرية المشيمية",
+      "الشعيرات المثقبة",
+      "الفصيصات الوعائية",
+      "النفاذية",
+      "البقعة الحمراء",
+      "الشعرات البقاعية",
+      "الجلوكوما",
+      "vascular casts",
+      "lobular tessellation",
+      "capillary diameter 6.5 µm",
+      "AMD choriocapillaris density",
+      "قوالب وعائية",
+      "الفصيصات"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "fryczkowski_1991_lobular",
+      "nickla_2010_choroid",
+      "ramrattan_1994_aging",
+      "zouache_2016_segmented"
+    ],
+    "last_updated": "2026-10-27",
+    "version": "1.1.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            225
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            377,
+            378,
+            393,
+            394,
+            408
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            384,
+            393,
+            394
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            455
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            377,
+            378,
+            384,
+            385,
+            392,
+            393
+          ]
+        },
+        {
+          "reference_id": "fryczkowski_1991_lobular",
+          "section": "Abstract: vascular casts, regional angioarchitecture"
+        },
+        {
+          "reference_id": "zouache_2016_segmented",
+          "section": "Results: segmented blood flow tessellation"
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            393,
+            394,
+            406
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            394,
+            395,
+            396
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "17",
+          "pages": [
+            637,
+            638
+          ]
+        },
+        {
+          "reference_id": "ramrattan_1994_aging",
+          "section": "Results: capillary density and diameter with age"
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            276,
+            277
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            393,
+            408,
+            409,
+            410
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            455
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            500,
+            534,
+            535
+          ]
+        },
+        {
+          "reference_id": "ramrattan_1994_aging",
+          "section": "Results: AMD maculae versus normal ageing"
+        },
+        {
+          "reference_id": "nickla_2010_choroid",
+          "section": "Abstract: highest blood flow per unit tissue weight"
+        }
+      ]
+    }
+  ]
+}
