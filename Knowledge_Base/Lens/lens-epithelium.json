@@ -1,0 +1,230 @@
+{
+  "entity_id": "lens_epithelium",
+  "component_ids": [
+    "comp_lens"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Lens Epithelium",
+    "ar": "ظهارة العدسة",
+    "aliases": [
+      "Anterior lens epithelium",
+      "lens epithelial cells (LECs)",
+      "epithelium of the lens",
+      "ظهارة العدسة البلورية",
+      "الظهارة الأمامية للعدسة",
+      "خلايا ظهارة العدسة"
+    ]
+  },
+  "content": {
+    "definition": "The lens epithelium is a single layer of cuboidal-to-columnar cells lying immediately beneath the anterior capsule and confined to the anterior hemisphere of the lens, which it reaches as far as the equator. It contains about 500,000 cells in the adult eye and is the only tissue of the lens that retains mitotic activity after birth: its pre-equatorial germinative zone is the source of all new lens fibres formed throughout life. The epithelium secretes and maintains the capsule, to which its basal surfaces are anchored by hemidesmosomes, and it is the most metabolically active tissue of the lens, housing the sodium pump of the pump-leak system that regulates the ionic and water balance of the whole organ. Its cells contain α-crystallin but not the β- and γ-crystallins characteristic of the fibres. Posteriorly there is no epithelium, because the cells that lined the posterior wall of the lens vesicle elongated in utero to become the primary lens fibres.",
+    "location": "The epithelium covers the entire anterior hemisphere of the lens, extending beneath the capsule from the central anterior pole to the equator, and is absent from the posterior hemisphere. Regional differences are marked. Behind the pupil (the central zone) the cells are larger, flatter and irregular, with the lowest density of the monolayer. In front of the equator lies the pre-equatorial germinative zone, where the cells are smaller, more densely packed, and show the highest DNA-synthetic and mitotic activity in the lens; this zone lies behind the iris, whose pigments shield it from light and from ultraviolet radiation. The central epithelial density averages about 5,009 cells/mm2 in men and 5,781 cells/mm2 in women, and the central cell population declines with age as the remaining cells enlarge.",
+    "layers": [
+      "Central zone: large, flattened, irregularly polygonal cells behind the pupil with scattered mitoses and the lowest cell density, which declines further with age",
+      "Intermediate (germinative) zone: a pre-equatorial band of small, compact cells with the highest rates of DNA synthesis and mitosis in the whole lens — the source of all new lens fibres",
+      "Equatorial region (the bow): where the daughter cells of the germinative zone elongate, rotate through 180 degrees and differentiate into lens fibres, their nuclei forming the equatorial bow"
+    ],
+    "blood_supply": "The epithelium is avascular and is nourished by the aqueous humour that bathes the capsular surface; the glucose content of that aqueous is similar to that of plasma (about 100 mg%). It is the most metabolically active tissue of the lens and the site of the active ion transport of the pump-leak system: Na+/K+-ATPase concentrated in the epithelial membranes pumps sodium out of the lens while potassium is carried in, balancing the passive leak of ions through the fibre membranes. Glycolysis is the chief pathway of glucose utilization, but the small aerobic fraction (about 3% of glucose, via the Krebs cycle) is confined to the epithelium and the most superficial cortical fibres, yet it may supply up to 20% of the total energy needs of the lens. Any interference with epithelial transport disturbs the hydration of the whole lens and leads to opacification.",
+    "venous_drainage": null,
+    "innervation": null,
+    "histology_summary": "The epithelial cells of the central zone are about 4-6 um thick and roughly 10-15 um broad, with a large rounded or oval nucleus whose long axis is directed anteroposteriorly. Their cytoplasm is rich in organelles — mitochondria, rough endoplasmic reticulum, free ribosomes, a Golgi apparatus and glycogen — reflecting the synthetic and transport roles of these cells. Lateral cell borders are united by desmosomes and gap junctions; the basal surface is flat against the capsule and anchored to it by hemidesmosomes whose fine filaments pass into the capsular matrix; and the apical surface carries junctional complexes where it meets the apices of the most superficial lens fibres. The adult monolayer comprises about 500,000 cells, with a central density of about 5,009 cells/mm2 in men and 5,781 cells/mm2 in women that falls with age. DNA synthesis and mitotic figures are almost confined to the pre-equatorial germinative zone, whose activity shows a circadian rhythm and is enhanced by light; the cells of this zone lie behind the iris and are protected from ultraviolet radiation by its pigments. The epithelium synthesizes α-crystallin only: β- and γ-crystallins appear only when its daughter cells differentiate into fibres.",
+    "clinical_importance": "Residual lens epithelial cells are the principal enemy of the cataract surgeon: epithelial cells left behind after extracapsular extraction proliferate, migrate across the posterior capsule and undergo fibrous metaplasia, producing Elschnig's pearls, rings of Soemmering and posterior capsular opacification — the commonest late complication of modern cataract surgery, and the anatomical reason for careful capsular polishing at operation and for Nd:YAG capsulotomy later. Because the germinative zone houses the dividing cells of the lens, it is the target of cataractogenic insults: ionizing radiation and ultraviolet light produce anterior subcapsular opacities, and the sheltering of the germinative zone behind the iris explains the special vulnerability of the equatorial cells when the iris is absent, colobomatous or chronically dilated. As the seat of the sodium pump, failure of the epithelium — by toxins or severe metabolic disturbance — causes osmotic swelling of the fibres and cataract. The confinement of α-crystallin to the epithelium, appearing in the fibres only at the moment of differentiation, marks the epithelium as the metabolic and synthetic head of the lens organ. Current clinical guidance (American Academy of Ophthalmology, Basic and Clinical Science Course, Lens and Cataract) consolidates the management of this residual-cell problem: sharp-edged intraocular lens optics act as a mechanical barrier that reduces epithelial-cell migration onto the posterior capsule, a capsulorhexis that covers the optic edge lowers posterior capsule opacification rates, and Nd:YAG posterior capsulotomy remains the definitive treatment once visually significant opacification has developed."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "lens",
+      "target_name": "Lens (anterior hemisphere monolayer)"
+    },
+    {
+      "relation_type": "attached_to",
+      "target_id": "lens_capsule",
+      "target_name": "Lens Capsule (basal hemidesmosomes anchor the cells into the capsular matrix)"
+    },
+    {
+      "relation_type": "gives_rise_to",
+      "target_id": "lens_fibres",
+      "target_name": "Lens Fibres (germinative-zone daughter cells elongate and rotate into fibres)"
+    },
+    {
+      "relation_type": "posterior_to",
+      "target_id": "iris",
+      "target_name": "Iris (its pigments shield the pre-equatorial germinative zone from light and UV)"
+    },
+    {
+      "relation_type": "bathed_by",
+      "target_id": "aqueous_humour",
+      "target_name": "Aqueous Humour (nutrient supply; medium of the pump-leak ion balance)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "lens epithelium",
+      "lens epithelial cells",
+      "LEC",
+      "germinative zone",
+      "pre-equatorial zone",
+      "mitotic activity",
+      "epithelial density",
+      "alpha-crystallin",
+      "pump-leak",
+      "sodium pump",
+      "hemidesmosome",
+      "posterior capsule opacification",
+      "Elschnig pearls",
+      "Soemmering ring",
+      "anterior subcapsular cataract",
+      "ظهارة العدسة",
+      "المنطقة التوليدية",
+      "النشاط الانقسامي",
+      "كثافة الخلايا الظهارية",
+      "الألفا كريستالين",
+      "مضخة الصوديوم",
+      "تعتيم المحفظة الخلفية",
+      "لؤلؤ أيلشن",
+      "حلقة سومرنغ",
+      "المياه البيضاء تحت المحفظة الأمامية"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "aao_bcsc_lens"
+    ],
+    "last_updated": "2026-10-26",
+    "version": "1.1.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            416,
+            417,
+            418
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            433,
+            434
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            416,
+            417,
+            418
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            418,
+            419,
+            420,
+            421
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            432,
+            433,
+            434
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            416,
+            417,
+            418,
+            419,
+            420,
+            421,
+            422,
+            423
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            434
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            421,
+            422,
+            423
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            434
+          ]
+        },
+        {
+          "reference_id": "aao_bcsc_lens",
+          "section": "PCO prevention and Nd:YAG capsulotomy practice"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "entity_id": "lens_capsule",
+  "component_ids": [
+    "comp_lens"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Lens Capsule",
+    "ar": "محفظة العدسة",
+    "aliases": [
+      "Capsule of the lens",
+      "lens basement membrane",
+      "capsula lentis",
+      "كبسولة العدسة",
+      "الغلاف المحفظي للعدسة"
+    ]
+  },
+  "content": {
+    "definition": "The lens capsule is the elastic, transparent, acellular envelope that encloses the entire lens, and it is the thickest basement membrane in the body. It is a modified basement membrane consisting mainly of collagen (types IV, with lesser types I and III) embedded in a glycoprotein matrix, of which about 10% is carbohydrate. Although it contains no elastin, it is thought by many (but not all) authorities to behave as a highly elastic structure: its collagen is believed to be configured as superhelices which uncoil under tension, and the capsule is normally under tension, so that when it is cut or ruptured its edges roll out and then curl up — the property of elastic recoil. The capsule forms a barrier to particulate matter such as bacteria and inflammatory cells, while allowing the diffusion of molecules smaller than haemoglobin.",
+    "location": "The capsule invests the whole lens and is thickest at the anterior pole, where it measures about 15.5 um (Fincham), and thinnest at the posterior pole, where it is only about 2.8 um; its thickness increases anteriorly with age. Between the capsule proper and the zonular insertions lies the zonular lamella — the pericapsular membrane described by Berger — 0.6-0.9 um thick, into which the zonular fibrils fan out and are lost about 1 mm central to the zonular insertion. Posteriorly, the capsule forms the anterior wall of the capsular space of Berger and carries the ring-shaped attachment of Wieger's hyaloideocapsular ligament, 8-9 mm in diameter, at the margin of the vitreous patellar fossa. The zonule-free area of the anterior capsule measures about 8 mm at 20 years of age and shrinks with age as the zonular insertions migrate centripetally.",
+    "layers": [
+      "Zonular lamella (pericapsular membrane of Berger, 1882): the outermost capsular region into which the zonular microfibrils fan and blend with the fibrillogranular matrix; 0.6-0.9 um thick, thickening laterally to 1.0-1.7 um beside the anterior zonular insertions",
+      "Capsular lamellae: up to about 40 concentric lamellae, each approximately 40 nm thick, built of collagen fibrils about 2.5 nm across — the lamellar architecture of a true basement membrane scaled up to record thickness",
+      "Chemical composition: type IV collagen (accompanied by types I and III) in a glycoprotein matrix containing laminin, fibronectin, heparan sulphate proteoglycan and entactin; the capsule is strongly PAS-positive and about 10% of its dry content is carbohydrate"
+    ],
+    "blood_supply": "The capsule is avascular and itself forms the principal selective barrier that stands between the blood-vascular tissues and the avascular lens. Water and ions traverse it freely, and molecules smaller than haemoglobin diffuse through it (Fischer), so the aqueous humour bathing its outer surface supplies the entire lens; the glucose content of that aqueous is similar to plasma (about 100 mg%). Conversely, the capsule is a barrier to particulate matter such as bacteria and inflammatory cells, and it does not permit passage of molecules as large as haemoglobin (66.7 kDa) or albumin (70 kDa). No vessels run within the capsule itself, so it contributes neither vessels nor drainage to the lens.",
+    "venous_drainage": null,
+    "innervation": null,
+    "histology_summary": "The capsule is a thickened basement membrane: mainly collagen (Kefalides) embedded in a glycoprotein matrix (Dische), about 10% carbohydrate, PAS-positive, with up to 40 lamellae each about 40 nm thick and collagen fibrils about 2.5 nm in diameter. It contains no elastin yet is elastic in behaviour — its collagen forms superhelices that unwind under tension (Fisher and Wakely; Fisher and Hayes) — and it is normally under tension, so a cut capsule rolls and curls ('elastic recoil'). Thickness is greatest at the anterior pole (about 15.5 um) and least at the posterior pole (about 2.8 um, Fincham), increasing anteriorly with age. The zonular lamella (pericapsular membrane, Berger) spans 0.6-0.9 um on the outer surface and thickens to 1.0-1.7 um lateral to the anterior zonular insertions; at the insertion points the anterior zonule sends fibrils and smaller fibrils (0.07-0.5 um) to a depth of 0.6-1.6 um into the capsular surface, while the fibres of the zonule insert into the capsule to a depth of about 2 um. The insertion of the meridional zonular fibres (0.5-1.0 um wide) creates an anteroposterior ribbing of the capsular surface, and the hyalocapsular zonule (Wieger's ligament) attaches in a ring 8-9 mm across.",
+    "clinical_importance": "The elastic recoil of the capsule is used deliberately in surgery: during extracapsular cataract extraction the capsule is incised and its edges roll out and curl to mobilize the lens contents, and in Nd:YAG capsulotomy a gap is cut in the posterior capsular sheet in the same way. The extreme thinness of the posterior capsule (about 2.8 um at the posterior pole) is the anatomical reason the posterior capsular sheet is so delicate during cataract surgery and laser capsulotomy. The capsule's barrier function protects the lens interior from bacteria and inflammatory cells while permitting nutritional diffusion from the aqueous. The elastic behaviour of the capsule has been assigned a central role in accommodation — Fisher (1971) attributed the major part of the loss of accommodation with age to declining capsular elasticity — though this has been questioned by Weale (1982). Age also matters surgically for the zonular insertions: the zonule-free area of the capsule contracts from about 8 mm at 20 years to 6.5 mm in the eighth decade (or as low as 5.5 mm), so the region selected for capsulotomy may intrude upon the zonular insertions (Farnsworth and Shine; Stark and Streeten), and during intracapsular extraction a superficial flap or even the full thickness of the capsule may be separated by the traction of the posterior zonular and circumferential complexes. Schachar (1992) ascribed a central role to capsular mechanics in presbyopia, arguing that the capsule together with equatorial zonules stretches the lens periphery during accommodation; although this theory remains unproven, it re-energized the study of capsular and zonular biomechanics and of surgical attempts to restore accommodation. Modern clinical practice (American Academy of Ophthalmology BCSC, Lens and Cataract) continues to exploit the mechanical properties documented by Fisher (1971): capsulotomy size, shape and centration relative to the optic edge remain critical determinants of intraocular lens stability."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "lens",
+      "target_name": "Lens"
+    },
+    {
+      "relation_type": "attached_to",
+      "target_id": "lens_epithelium",
+      "target_name": "Lens Epithelium (its basal hemidesmosomes anchor the epithelial cells to the capsule)"
+    },
+    {
+      "relation_type": "insertion_site_for",
+      "target_id": "ciliary_zonule",
+      "target_name": "Ciliary Zonule (zonular fibrils fan into the zonular lamella of the capsule)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "vitreous",
+      "target_name": "Vitreous Body (Wieger's hyaloideocapsular ligament ring, 8-9 mm, at the patellar fossa margin)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "lens capsule",
+      "basement membrane",
+      "type IV collagen",
+      "zonular lamella",
+      "pericapsular membrane",
+      "elastic recoil",
+      "capsular elasticity",
+      "YAG capsulotomy",
+      "extracapsular cataract extraction",
+      "capsular permeability",
+      "Wieger ligament",
+      "capsulorhexis plane",
+      "محفظة العدسة",
+      "كبسولة العدسة",
+      "الكولاجين الرابع",
+      "الغشاء القاعدي",
+      "الصفقة الزونولارية",
+      "المرونة المحفظية",
+      "سماكة الكبسولة",
+      "القطع المحفظي بالليزر",
+      "استخراج المياه البيضاء خارج المحفظة"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "schachar_1992",
+      "aao_bcsc_lens"
+    ],
+    "last_updated": "2026-10-26",
+    "version": "1.1.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            414,
+            415,
+            416
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            432
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            414,
+            415,
+            416
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            439,
+            440,
+            441
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            414,
+            415,
+            416
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            439,
+            440
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            415,
+            416,
+            432
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            414,
+            415,
+            416
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            432
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            439,
+            440
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            411,
+            412,
+            413,
+            414
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            432
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            439,
+            440,
+            441
+          ]
+        },
+        {
+          "reference_id": "schachar_1992",
+          "section": "Capsule-mechanics role in presbyopia"
+        },
+        {
+          "reference_id": "aao_bcsc_lens",
+          "section": "Capsulotomy and IOL stability practice"
+        }
+      ]
+    }
+  ]
+}

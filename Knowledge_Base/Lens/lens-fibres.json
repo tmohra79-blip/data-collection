@@ -1,0 +1,232 @@
+{
+  "entity_id": "lens_fibres",
+  "component_ids": [
+    "comp_lens"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Lens Fibres",
+    "ar": "ألياف العدسة",
+    "aliases": [
+      "Lens fibre cells",
+      "cortical lens fibres",
+      "nuclear lens fibres",
+      "secondary lens fibres",
+      "primary lens fibres",
+      "ألياف قشرة العدسة",
+      "الألياف النووية للعدسة",
+      "الألياف الأولية والثانوية للعدسة"
+    ]
+  },
+  "content": {
+    "definition": "The lens fibres are the strap-like or spindle-shaped elongated cells which arch over the lens in concentric layers from front to back and constitute the bulk of the organ. They are hexagonal in equatorial cross-section, with an average width of 10-12 um and an average thickness of 1.5-2 um at the adult equator, and while the primary fibres of the embryonic nucleus are less than 250 um long, the adult fibres may exceed 7 mm. They are laid down throughout life in successive concentric generations by the germinative zone of the epithelium — the outermost shells forming the cortex and the innermost the core or nucleus — so that in the primate the growth in equatorial circumference is achieved chiefly by an increase in the number of rows of fibres rather than by an increase in fibre width. The fibres contain both beta and gamma crystallins in addition to the alpha crystallin inherited from the epithelium, and they hold the highest protein content of any cell in the body, about 35% of wet weight. Deeper fibres lose their nuclei and organelles, and the mature lens interior is therefore a tightly packed, organelle-poor mass of protein-rich cells whose regularity of packing is the physical basis of lens transparency.",
+    "location": "The fibres occupy the whole thickness of the lens between capsule and sutures, arranged in concentric shells: the outermost generations lie in the cortex and the innermost in the core or nucleus, the division between cortex and nucleus being arbitrary and taken for convenience at the junction of fetal and postnatal fibres — because the lens is about 6.5 mm wide at birth, this junction marks the width of the postnatal nucleus. New fibres are added at the equator: the transition from a germinative-zone epithelial cell to an elongated nucleated fibre is accompanied by a reduction of lateral interdigitations and a pronounced elongation of the basal and apical portions of the cell, the basal extension sliding backwards along the inner surface of the capsule and the apical extension forwards under the epithelium. The flattened nuclei of successive generations form an arch — the nuclear bow — traced as an S- or C-shaped curve in meridional section, and fibres about 150 um deep into the cortex lose their nuclei, so that the nucleated zone of the adult lens averages only 300-500 um in thickness at the equator (Kuwabara 1975). The fibres are thinner posteriorly, which explains the asymmetrical shape of the lens in sagittal section and the greater thickness of the anterior cortex (Kuszak et al. 1984, 1989).",
+    "layers": [
+      "Superficial cortex (outermost 8-10 layers of the anterior cortex): roughly hexagonal fibres arranged in radial rows (Rabl 1903); the short lateral sides of each hexagon undulate and interlock with adjacent fibres in a regular series of ball-and-socket joints along the length of the fibre",
+      "Mid-cortex: ball-and-socket interdigitations are most prevalent in the mid-periphery of the cortex, the appropriate position to resist zonular stresses; each layer is firmly attached within itself but only loosely connected to preceding and succeeding layers — an arrangement that permits fibre movement during accommodation",
+      "Deep cortex: miniature ball-and-socket joints spread onto the broad sides of the hexagons in a random fashion, interlocking fibres of different generations and depths",
+      "Nucleus (deepest layers): ball-and-socket systems are supplemented by a complex series of ridges and troughs — tongue-and-groove joints — and the oldest primary fibres bear polygonal domains of furrowed membrane with elongated microvilli"
+    ],
+    "blood_supply": "The fibres are avascular and have no vessels of any kind; they are nourished indirectly through the capsule from the aqueous humour, and metabolites are distributed within the lens substance through the extensive gap-junction network. Gap junctions are the second order of junctional complex of the human lens fibre (Phillipson, Hanninen and Balazs 1975) and fulfil two roles: by conjoining large areas of membrane they contribute to fibre order and therefore transparency (Kuszak, Maisel and Harding 1978), and they provide the pathways for metabolic co-operation between terminally differentiated fibres which lack the organelles for independent metabolism. These low-resistance junctions have intramembranous particles less densely packed and an intermembraneous gap of less than 2 nm, so that the interiors of all the fibres exist in a state of relatively open communication and the concentration of ions and small molecules in individual fibres rapidly equilibrates. In the human lens only 5% of the lateral fibre membrane is gap-junctional, against 15% in the frog, 30% in the rat and 60% in the chick (Kuszak et al. 1978, 1985; Lo and Harding 1986). Gap junctions are absent from the anterior and posterior tips of the fibres and therefore from the sutural zone; their density increases towards the equator, so that their position along the fibre varies with its meridional position and anteroposterior disposition relative to the equator.",
+    "venous_drainage": null,
+    "innervation": null,
+    "histology_summary": "The youngest fibres, compared with their parent epithelium, show fewer organelles and a denser, amorphous granular cytoplasm — the appearance of their high protein concentration, for they contain beta and gamma crystallins besides the alpha crystallin of the epithelium. Newly formed fibres are relatively smooth, but as they mature their surfaces develop numerous microplicae (Fig 12.32) and, deeper still, polygonal domains of furrowed membrane, 2.0-9.0 um2 in area, arranged at acute angles to the length of the cell, whose ridges bear microvilli about 0.14 um in diameter and 1.25-4.75 um long, each with a cytoskeleton; such furrowed membrane characterizes the primary fibres and the nuclear fibres of long-lived primates (Kuszak et al. 1988). The nuclei of the nuclear bow pass forwards, spread out, and fragment and disappear as the fibres recede from the surface (Fig 12.21); fibre elongation has ceased in the deeper cortex where the deeper parts of the bow lie, so a significant participation of cytoskeletal proteins is assumed in bow formation. At their ends the fibres meet other fibres to form the sutures: the tips do not taper (as in lower vertebrates) but flare in width and curve as the suture is approached, expanding, flattening and interlocking below the tenth layer of cortical cells, the overlap about 70 um wide and the flattening greater in the cortex (2 um) than in the nucleus (5 um). Fibre-cell fusions — fibres pentagonal instead of hexagonal in cross-section — are found throughout superficial and deep cortex and also in the nucleus, but rarely between elongating fibres; the fused cells are thought to carry positional information directing the formation of additional radial columns (Kuszak et al. 1989). With ageing, the fibre membranes show remarkable senescent changes (Lo and Harding 1984; Kuszak et al. 1988), most extensive in the primary embryonic fibres, whose entire surface may feature furrowed-membrane domains. Two intrinsic membrane proteins organize these specializations: MP70, located exclusively in gap junctions and predominantly in the cortex, and MP26, associated with the square-array membrane and found predominantly in the nucleus (Zampighi et al. 1989; Kistler and Bullivant 1987; Costello et al. 1984). The square arrays are thin asymmetrical junctions (11-13 nm) with the crystalline particle array on one side only, unlike the thick symmetrical pentalaminar gap junctions (16-18 nm); they are more common than gap junctions in whole-lens membranes and occur extensively in nuclear membranes, on the undulating tongue-and-groove interdigitations of inner cortex and nucleus. Modern molecular work has resolved the identities of these membrane specializations: the 26-kDa main intrinsic protein (MP26/MIP) is aquaporin-0 (AQP0), a water channel that also functions as a cell-adhesion molecule, and the fibre gap junctions are built from connexins Cx43, Cx46 (GJA3) and Cx50 (GJA8), whose disruption produces cataract in animal models (connexin/MIP cataract genetics; AQP0 adhesion function per Li 2022, lens membrane and biomechanics determinants reviewed in Cheng 2024). The abrupt anucleation is now ascribed to the lens-specific nuclease DNase II-beta (DLAD/DNASE2B): mice lacking it fail to degrade nuclear DNA in differentiating fibre cells and develop nuclear cataract (Nishimoto, Kawane, Watanabe-Fukunaga et al. 2003, Nature). The crystallins packed in the fibre cytoplasm are protected against aggregation by the chaperone activity of alpha-crystallin demonstrated by Horwitz (1992), a property that keeps the fibre mass transparent for life since its proteins are never turned over.",
+    "clinical_importance": "The optical purpose of every one of these specializations is transparency: it results from the organization and regularity of fibre packing, the homogeneous structure of the fibres within each generation, and the small size of the extracellular space (under 1% of lens volume). All the interlocking devices — ball-and-socket, tongue-and-groove and furrowed membrane — are thought to maintain fibre order, which is essential for the continuing transparency of the lens, while still allowing a limited degree of fibre sliding and a certain amount of flexing of the whole lens structure, a mechanical requirement of accommodation. The suture planes, where overlapping membranes scatter light, are sites of increased spherical aberration (Kuszak, Sivak and Weeheim 1991a), and it has been suggested that the growth shells collectively account for the zones of optical discontinuity seen at slit-lamp biomicroscopy (Kuszak, Brown and Deutsch 1993b). The gap-junction network is the metabolic lifeline of organelle-free fibres, and lens fibre gap junctions are incapable of the crystalline-to-low-resistance transformation that other tissues show in response to ionic change (Goodenough 1979) — any failure of this coupling or of the packing regularity contributes to cataract formation. Kuszak et al. (1993) postulate that the square arrays, oriented at acute angles to the fibre axis, enhance the drainage of expelled substances along the extracellular space towards the suture planes, substances being expelled by transcytosis anteriorly and diffusion posteriorly. The compaction of central fibres with time provides a clinical dating tool: a traumatic lens opacity recedes from the surface at approximately twice the speed at which the lens grows (Brown et al. 1988)."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "lens",
+      "target_name": "Lens (cortex and nucleus are successive generations of fibres)"
+    },
+    {
+      "relation_type": "arises_from",
+      "target_id": "lens_epithelium",
+      "target_name": "Lens Epithelium (germinative-zone cells elongate, rotate and differentiate into fibres)"
+    },
+    {
+      "relation_type": "adjoins",
+      "target_id": "lens_capsule",
+      "target_name": "Lens Capsule (basal extensions of elongating fibres slide along its inner surface)"
+    },
+    {
+      "relation_type": "inserts_into",
+      "target_id": "lens_sutures",
+      "target_name": "Lens Sutures (flared, curved fibre tips interlock below the tenth cortical layer)"
+    },
+    {
+      "relation_type": "nourished_via",
+      "target_id": "aqueous_humour",
+      "target_name": "Aqueous Humour (external source; internal distribution by the gap-junction network)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "lens fibres",
+      "lens fibre cells",
+      "cortical fibres",
+      "nuclear fibres",
+      "primary lens fibres",
+      "secondary lens fibres",
+      "nuclear bow",
+      "anucleation",
+      "ball-and-socket interdigitations",
+      "tongue-and-groove",
+      "furrowed membrane",
+      "microplicae",
+      "square array membrane",
+      "gap junctions",
+      "MP26",
+      "MP70",
+      "fibre cell fusion",
+      "crystallins",
+      "beta crystallin",
+      "gamma crystallin",
+      "lens transparency",
+      "ألياف العدسة",
+      "ألياف القشرة",
+      "الألياف النووية",
+      "الألياف الأولية",
+      "القوس النووية",
+      "فقدان الأنوية",
+      "التقاطعات الكروية والمقابس",
+      "وصلات اللسان والمجرى",
+      "الغشاء المضلع",
+      "الوصلات الفجوية",
+      "اندماج الألياف",
+      "الكريستالينات",
+      "شفافية العدسة"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "cheng_2024_lens_review",
+      "li_2022_aqp0_adhesion",
+      "nishimoto_2003",
+      "horwitz_1992"
+    ],
+    "last_updated": "2026-10-26",
+    "version": "1.1.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            422,
+            425,
+            426
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            422,
+            423
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            426,
+            428,
+            429
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            430
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            422,
+            423,
+            426,
+            427,
+            428,
+            429,
+            431
+          ]
+        },
+        {
+          "reference_id": "li_2022_aqp0_adhesion",
+          "section": "AQP0 (= MP26/MIP) water channel with cell-adhesion function"
+        },
+        {
+          "reference_id": "cheng_2024_lens_review",
+          "section": "Modern review of lens membrane specializations and biomechanics determinants"
+        },
+        {
+          "reference_id": "nishimoto_2003",
+          "section": "DNase II-beta (DLAD) mediates fibre denucleation; knockout = nuclear cataract"
+        },
+        {
+          "reference_id": "horwitz_1992",
+          "section": "Alpha-crystallin chaperone activity"
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            425,
+            429,
+            430,
+            431,
+            432
+          ]
+        }
+      ]
+    }
+  ]
+}

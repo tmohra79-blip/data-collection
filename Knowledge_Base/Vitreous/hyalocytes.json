@@ -1,0 +1,217 @@
+{
+  "entity_id": "hyalocytes",
+  "component_ids": [
+    "comp_vitreous"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Hyalocytes (Vitreous Cells)",
+    "ar": "الخلايا الزجاجية (الهيالوسايتس)",
+    "aliases": [
+      "hyalocyte",
+      "vitreous cells",
+      "vitreous macrophages",
+      "mononuclear phagocytes of the vitreous",
+      "cortical vitreous cells",
+      "hyalocytes of Balazs",
+      "vitreous fibrocytes",
+      "vitreous glial cells",
+      "خلية زجاجية",
+      "الخلايا الزجاجية",
+      "الهيالوسايتس",
+      "بلعميات الزجاجي",
+      "خلايا وحيدة النواة البلعمية",
+      "خلايا القشرة الزجاجية",
+      "ليفاويات الزجاجي",
+      "الخلايا الدبقية الزجاجية"
+    ]
+  },
+  "content": {
+    "definition": "Cells are present only in the cortex adjacent to the retina and ciliary body; the central vitreous and the cortex adjacent to the lens and posterior chamber are completely cell-free in normal adult eyes. Cells are most prominent at the vitreous base, over the optic nerve head or in relation to retinal vessels. The vast majority of cells are mononuclear phagocytes (macrophages) called hyalocytes. Some fibrocytes and various glial cells may also be found (Figs 13.17 and 13.18). The hyalocytes are phagocytic cells which contain many lysosomes, some phagosomes and a prominent Golgi complex.",
+    "location": "Hyalocytes are distributed in a single layer within the vitreous cortex (Fig 13.17a). They are present only in the cortex adjacent to the retina and ciliary body, with a characteristic regional emphasis: they are most prominent at the vitreous base, over the optic nerve head, and in relation to retinal vessels. The central vitreous and the cortex adjacent to the lens and posterior chamber are completely cell-free in normal adult eyes. In the normal vitreous the hyalocytes form a resting population in the cortex, usually not in contact with the basal lamina.",
+    "layers": [
+      "Hyalocytes (mononuclear phagocytes/macrophages): the vast majority of the vitreous cell population; round mononuclear cells distributed in a single layer within the vitreous cortex, with pseudopodia present in some cells (Fig 13.17)",
+      "Fibrocytes: a minority population found within the vitreous cortex alongside the hyalocytes",
+      "Various glial cells: an additional minority population of the vitreous cortex",
+      "Migratory cortical cells: cells at the surface of the posterior retina showing pseudopodia and vacuoles, consistent with active migration (Fig 13.18a)",
+      "Filament-rich round cells: round cortical cells rich in intracytoplasmic filaments at the posterior retinal surface (Fig 13.18b)"
+    ],
+    "blood_supply": null,
+    "venous_drainage": null,
+    "innervation": null,
+    "histology_summary": "The hyalocytes are phagocytic cells which contain many lysosomes, some phagosomes and a prominent Golgi complex. They have an affinity for neutral red, show an intense red autofluorescence and possess large, electron-dense inclusions. They have been demonstrated to have phagocytic properties in vivo and in vitro, and hydrolytic enzymes have been found in their lysosomes. They are capable of synthesizing hyaluronic acid. Phase-contrast microscopy of flat mount preparations of the vitreous cortex shows mononuclear cells distributed in a single layer, with a mononuclear round appearance at higher magnification and pseudopodia present in some cells (Fig 13.17) (Sebag, The Vitreous: Structure, Function and Biology, 1989). Electron microscopy of cells in the cortical vitreous at the surface of the posterior retina shows a migratory cell with pseudopodia and vacuoles, and a round cell rich in intracytoplasmic filaments (Fig 13.18). In the normal vitreous the hyalocytes form a resting population in the cortex, usually not in contact with the basal lamina. Modern immunology has consolidated this classification: hyalocytes are firmly established as the resident tissue macrophages of the vitreous body, deriving from myeloid precursors (Wieghofer et al. 2022), and transcriptional profiling shows human hyalocytes to be a distinct macrophage population with a homeostatic, immunoregulatory signature (Boneva et al. 2020, Frontiers in Immunology).",
+    "clinical_importance": "With inflammation of the vitreous, the numbers of hyalocytes increase and they may be found in the central vitreous and also penetrating the basal lamina in their passage to and from the retina or ciliary body. In such situations the macrophage population is expanded by other cells of monocytic origin or, after retinal damage, by retinal pigment epithelial cells (Hogan, Alvarado and Weddell 1971; Balazs 1973). The capacity of hyalocytes to synthesize hyaluronic acid (Balazs 1973) links them to maintenance of the gel structure and optical transparency of the vitreous, while their documented phagocytic properties in vivo and in vitro assign them a scavenging role within the normally cell-free vitreous cavity. Their resting single-layer distribution in the cortex, away from the basal lamina, contrasts with their mobilization through the basal lamina during inflammation, which is the cellular basis of the cellular infiltration seen in vitritis. Current work assigns hyalocytes a central role in the immune privilege of the vitreous cavity and in vitreoretinal interface disease, where their activation contributes to epiretinal membrane formation and fibrosis (Wieghofer et al. 2022; Boneva et al. 2020)."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "vitreous",
+      "target_name": "Vitreous Body (the vitreous cells are one of the three components of the vitreous, with the cortex and central vitreous)"
+    },
+    {
+      "relation_type": "embedded_in",
+      "target_id": "vitreous_cortex",
+      "target_name": "Vitreous Cortex (hyalocytes are distributed in a single layer within the vitreous cortex)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "retina",
+      "target_name": "Retina (cortical cells are prominent over the optic nerve head and in relation to retinal vessels; during inflammation they pass to and from the retina through the basal lamina)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "ciliary_body",
+      "target_name": "Ciliary Body (vitreous cells are present only in the cortex adjacent to the retina and ciliary body)"
+    },
+    {
+      "relation_type": "synthesizes",
+      "target_id": "hyaluronic_acid",
+      "target_name": "Hyaluronic Acid (hyalocytes are capable of synthesizing hyaluronic acid, the high-molecular-weight glycosaminoglycan of the vitreous gel)"
+    },
+    {
+      "relation_type": "mobilized_by",
+      "target_id": "vitreous_inflammation",
+      "target_name": "Vitreous Inflammation (with vitritis hyalocyte numbers increase, they enter the central vitreous and penetrate the basal lamina; the macrophage population is expanded by monocytic cells and, after retinal damage, by RPE cells)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "hyalocytes",
+      "hyalocyte",
+      "vitreous cells",
+      "vitreous macrophages",
+      "mononuclear phagocytes",
+      "vitreous cortex cells",
+      "phagocytosis vitreous",
+      "lysosomes",
+      "hyaluronic acid synthesis",
+      "vitritis",
+      "vitreous inflammation",
+      "resting population",
+      "basal lamina penetration",
+      "autofluorescence",
+      "neutral red",
+      "Golgi complex",
+      "الهيالوسايتس",
+      "الخلايا الزجاجية",
+      "خلية زجاجية",
+      "بلعميات الزجاجي",
+      "الخلايا البلعمية وحيدة النواة",
+      "خلايا القشرة الزجاجية",
+      "البلعمة في الزجاجي",
+      "الليزوسومات",
+      "تصنيع حمض الهيالورونيك",
+      "التهاب الزجاجي",
+      "الطاقم الخلوي الراكد",
+      "خلايا ليفية زجاجية",
+      "خلايا دبقية زجاجية"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "wieghofer_2022_hyalocytes",
+      "boneva_2020_hyalocytes"
+    ],
+    "last_updated": "2026-10-26",
+    "version": "1.1.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            451
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            451
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            451
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            451
+          ]
+        },
+        {
+          "reference_id": "wieghofer_2022_hyalocytes",
+          "section": "Hyalocytes = resident myeloid-derived macrophages"
+        },
+        {
+          "reference_id": "boneva_2020_hyalocytes",
+          "section": "Human hyalocyte transcriptional identity"
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            451,
+            452
+          ]
+        },
+        {
+          "reference_id": "wieghofer_2022_hyalocytes",
+          "section": "Role in vitreous immune privilege and interface disease"
+        },
+        {
+          "reference_id": "boneva_2020_hyalocytes",
+          "section": "Immunoregulatory phenotype"
+        }
+      ]
+    }
+  ]
+}

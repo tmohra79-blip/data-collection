@@ -1,0 +1,225 @@
+{
+  "entity_id": "vitreous_tracts",
+  "component_ids": [
+    "comp_vitreous"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Vitreous Tracts",
+    "ar": "المسارات الزجاجية",
+    "aliases": [
+      "Tractus retrolentalis",
+      "tractus coronarius",
+      "tractus medianus",
+      "tractus preretinalis",
+      "membrana plicata of Vogt",
+      "coronary ligament",
+      "median ligament",
+      "retrolental ligament",
+      "lomentum coronarium",
+      "lomentum medianum",
+      "onion-skin arrangement of the vitreous",
+      "transvitreal channels",
+      "hyaloid tract",
+      "المسارات الزجاجية",
+      "المسار خلف العدسي",
+      "المسار التاجي",
+      "المسار المتوسط",
+      "المسار أمام الشبكية",
+      "الغشاء المثني لفوغت",
+      "الرباط التاجي",
+      "الرباط المتوسط",
+      "ترتيب قشرة البصل",
+      "القنوات الزجاجية الداخلية"
+    ]
+  },
+  "content": {
+    "definition": "The vitreous tracts are fine, sheet-like condensations of vitreous structure which radiate backwards into the vitreous space from defined points on the circumference of the ciliary body and anterior retina (Figs 13.6-13.9). It is these tracts which give rise to the concentric 'onion skin' arrangement of the adult vitreous. Their formation constitutes the second post-natal development of the vitreous, also beginning anteriorly, and from adolescence onwards a process of liquefaction and fibrillar degeneration progressively breaks up their basic pattern.",
+    "location": "Each tract radiates backwards from a defined circular insertion ring on the circumference of the anterior segment to the central vitreous (Fig 13.9): TR = tractus retrolentalis ('hyaloideus'), inserting at the retrolental ligament (LR); TC = tractus coronarius, inserting at the lomentum coronarium (LC); TM = tractus medianus, inserting at the lomentum medianum (LM); TP = tractus preretinalis, inserting at the ora serrata (OS). In younger eyes the tracts show a gentle curvature, which gradually becomes more sinuous and extensive with ageing, the precise configuration depending on the effects of gravity (Nordmann and Roth 1967; Eisner 1971). In the adult the tracts nearly reach the posterior pole, following a typical S-shaped course descending first behind the lens, ascending in the centre of the cavity, and descending finally towards the disc (Fig 13.7).",
+    "layers": [
+      "Retrolental tract (tractus retrolentalis): inserted into a circular zone on the lens capsule, near to the hyaloideocapsular ligament, and extends posteriorly into the central vitreous; it is conspicuous as a highly reflecting membrane, the membrana plicata of Vogt (Vogt 1941)",
+      "Coronary tract (tractus coronarius): passes backwards into the central vitreous from a circular zone overlying the posterior third of the ciliary processes (the coronary ligament); it is of variable density and fairly indistinct optically",
+      "Median tract (tractus medianus): inserted into a circular zone at the anterior margin of the vitreous base, about the middle of the pars plana, which is termed the median ligament; it extends backwards as a faint veil into the central vitreous",
+      "Preretinal tract (tractus preretinalis): inserted at the ora serrata and is more strongly reflecting than the preceding two; it is the least affected of all the tracts by age-related change (Fig 13.7)"
+    ],
+    "blood_supply": null,
+    "venous_drainage": null,
+    "innervation": null,
+    "histology_summary": "The tracts emerge from a precisely ordered developmental sequence. At birth the vitreous structure is homogeneous, showing a finely striated pattern without cortical or central distinction, and narrow transvitreal 'channels' of lower density traverse its substance from the periphery; these channels overlie the optic disc, fovea and retinal vessels and presumably reflect variations in vitreous synthesis during growth of the eye, their shape being altered at different vitreous depths; they are also found in relation to congenital or experimentally induced retinal anomalies (Eisner 1973a,b, 1975, 1978; Eisner and van den Zypen 1981). From infancy into adult life the homogeneous structure changes, with a decrease in density of the central vitreous while the cortex retains its relatively higher density (Eisner 1971, 1973a,b; Eisner and Bachmann 1974a-d); formation of the cortical vitreous starts anteriorly and proceeds posteriorly, and the posterior vitreous is the last to lose its infantile striations. There is a marked interspecies variation in vitreous density: in cats the central vitreous has the highest density, in cattle and sheep the vitreous is homogeneous, while in the horse the entire vitreous is of low density (Eisner and Bachmann 1974a-c). Eisner's staged series (Fig 13.6) records: (a) late fetal life — the hyaloid artery extends from disc to lens, surrounded by transparent material within a channel which delineates it from the definitive vitreous by a membrane-like condensation (the intravitreal limiting membrane of Dejeane); (b) infancy — the hyaloid artery and intravitreal limiting membrane have disappeared and the definitive vitreous shows a regular finely striated pattern (infantile striation radiation); (c) adolescence — vitreous tracts begin to develop in the anterior vitreous while the posterior vitreous still shows the infantile striation; (d) adult — vitreous tracts extend into the posterior vitreous; (e) senile — destruction of the framework with development of liquid cavities interspersed with irregular strands; (f) senile posterior vitreous detachment — the destroyed vitreous empties through a gap into the retrovitreal space and collapses (Eisner, in Duane and Jaeger 1987). Optical dissections confirm the timetable: in the premature infant (32nd week) the hyaloid artery and its retrolental ramifications remain, with remnants of Bergmeister's papilla; in the 7-month child only tiny remnants persist and a prepapillary channel of even width traverses the vitreous, with no tracts visible; at 14 years the anterior cortex is delineated and the anterior tracts appear while the posterior vitreous is still radially striated; at 70 years the tracts nearly reach the posterior pole with their S-shaped course; early adult destruction may begin from 31 years, with cavities developing in the anterior and posterior vitreous; at about 75 years the posterior vitreous has collapsed in detachment, with strands passing from the intravitreal into the retrovitreal space. Optical coherence tomography now supplies the in-vivo counterpart of this biomicroscopic framework: the perifoveal stages of posterior vitreous detachment imaged in healthy older eyes (Uchino, Uemura and Ohba 2001), and their evolution and early complications as reviewed by Johnson (2010), correspond to the age changes that Eisner documented by optical dissection - from the first perifoveal separations to full retrovitreal collapse of the tract architecture.",
+    "clinical_importance": "The concentric onion-skin pattern of the tracts is the normal biomicroscopic architecture of the adult vitreous, and its progressive breakdown — liquefaction and fibrillar degeneration from adolescence, senile cavities and eventual collapse — is the anatomical substrate of the senile posterior vitreous detachment sequence (Fig 13.6e,f). The preretinal tract is least affected by these changes, consistent with the enduring strength of the vitreous base. Developmental remnants recorded along the tract pathways — the hyaloid artery remnant, Bergmeister's papilla and the prepapillary channel — are recognizable biomicroscopically and must be distinguished from pathology. The tract system also provides the framework within which the fluid central vitreous moves in detachment states: in posterior vitreous detachment the fluid central vitreous passes posteriorly through a break while the posterior hyaloid moves forwards (Eisner 1982; Sebag and Balazs 1984), and the retrolental tract develops anteriorly during the first four years of life as the replacement of the prenatal hyaloid canal (Eisner), explaining the biomicroscopic continuity between the membrana plicata and the posterior lens capsule region."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "vitreous",
+      "target_name": "Vitreous Body (tracts radiate through the vitreous space, giving the adult vitreous its onion-skin arrangement)"
+    },
+    {
+      "relation_type": "inserts_into",
+      "target_id": "lens_capsule",
+      "target_name": "Lens Capsule (retrolental tract inserts near the hyaloideocapsular ligament as the membrana plicata of Vogt)"
+    },
+    {
+      "relation_type": "arises_from",
+      "target_id": "ciliary_body",
+      "target_name": "Ciliary Body (coronary tract from the posterior third of the ciliary processes; median tract at the mid-pars plana margin of the vitreous base)"
+    },
+    {
+      "relation_type": "inserts_into",
+      "target_id": "retina",
+      "target_name": "Retina (preretinal tract inserts at the ora serrata)"
+    },
+    {
+      "relation_type": "succeeds",
+      "target_id": "hyaloid_artery",
+      "target_name": "Fetal Hyaloid Artery (tract development follows dissolution of the hyaloid system; the retrolental tract replaces the prenatal canal - Eisner)"
+    },
+    {
+      "relation_type": "disrupted_by",
+      "target_id": "vitreous_liquefaction",
+      "target_name": "Vitreous Liquefaction (from adolescence progressively breaks up the basic tract pattern)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "vitreous tracts",
+      "tractus retrolentalis",
+      "tractus coronarius",
+      "tractus medianus",
+      "tractus preretinalis",
+      "membrana plicata",
+      "Vogt membrana plicata",
+      "coronary ligament",
+      "median ligament",
+      "retrolental ligament",
+      "lomentum coronarium",
+      "lomentum medianum",
+      "onion-skin vitreous",
+      "transvitreal channels",
+      "intravitreal limiting membrane of Dejeane",
+      "Bergmeister papilla",
+      "infantile striation",
+      "vitreal S-shaped course",
+      "المسارات الزجاجية",
+      "المسار خلف العدسي",
+      "المسار التاجي",
+      "المسار المتوسط",
+      "المسار أمام الشبكية",
+      "الغشاء المثني لفوغت",
+      "الرباط التاجي",
+      "الرباط المتوسط",
+      "ترتيب قشرة البصل",
+      "القنوات الزجاجية الداخلية",
+      "غشاء ديجين",
+      "حليمات بيرجميستر"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "uchino_2001_pvd",
+      "johnson_2010_pvd"
+    ],
+    "last_updated": "2026-10-26",
+    "version": "1.1.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            445,
+            446
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            445,
+            446,
+            447
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            445,
+            447
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            444,
+            445,
+            446,
+            447
+          ]
+        },
+        {
+          "reference_id": "uchino_2001_pvd",
+          "section": "OCT stages of perifoveal PVD"
+        },
+        {
+          "reference_id": "johnson_2010_pvd",
+          "section": "Evolution and complications of early PVD"
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            444,
+            446,
+            447,
+            453
+          ]
+        }
+      ]
+    }
+  ]
+}

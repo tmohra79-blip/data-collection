@@ -412,6 +412,17 @@
       "has_3d_model": "Yes",
       "parent": "—",
       "reference_category": "anatomy"
+    },
+    {
+      "source_row": 37,
+      "component_id": "comp_vitreous",
+      "category": "Vitreous",
+      "medical_name_en": "Vitreous Body",
+      "medical_name_ar": "الجسم الزجاجي",
+      "unity_name": "vitreous_body",
+      "has_3d_model": "No",
+      "parent": "—",
+      "reference_category": "anatomy"
     }
   ]
 }

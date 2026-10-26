@@ -1,0 +1,248 @@
+{
+  "entity_id": "ciliary_zonule",
+  "component_ids": [
+    "comp_lens"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Ciliary Zonule",
+    "ar": "الزونول الهدبي",
+    "aliases": [
+      "Zonule of Zinn",
+      "suspensory ligament of the lens",
+      "zonular apparatus",
+      "hyaloid zonule",
+      "Wieger ligament (hyalocapsular zonule)",
+      "زر الزين (الرباط المعلق للعدسة)",
+      "الرباط المعلق للعدسة",
+      "الجهاز الزونولاري",
+      "الزونول الزجاجي",
+      "رباط فيجر"
+    ]
+  },
+  "content": {
+    "definition": "The ciliary zonule (zonule of Zinn, suspensory ligament of the lens) consists essentially of a series of fibres passing from the ciliary body to the lens. It holds the lens in position and enables the ciliary muscle to act on it during accommodation, and together with the lens it forms a diaphragm which divides the eye into a smaller anterior portion and a larger posterior portion. The zonule forms a ring which is roughly triangular in meridional section: the base of the triangle is concave and faces the equatorial edge of the lens, while the apex is elongated and curved, following the valleys of the ciliary processes to be prolonged over the pars plana ciliaris to the ora serrata. The fibrils are composed of a non-collagenous glycoprotein containing O- and N-linked oligosaccharides, which explains their positive histochemical reaction for PAS, and the zonular fibril is now known to be the cysteine-rich microfibrillar component of the elastic system, fibrillin (FBN1, chromosome 15 q21.1) — the fibre that in other tissues provides the template for elastin deposition, but which, like oxytalan, never becomes elasticized.",
+    "location": "The zonule spans the circumlental space between the ciliary body and the lens equatorial region. The vast majority of the zonules arise from the posterior end of the pars plana up to 1.5 mm from the ora serrata, where they either run into its inner limiting membrane without entering the cytoplasm of the underlying cells (Rohen 1979) or become continuous with fibres of the anterior vitreous (Nishida 1982); they pass forward over the pars plana as a feltwork, segment into zonular plexuses at the posterior margin of the pars plicata, run through the valleys between the ciliary processes closely attached to their lateral walls, and divide at the zonular fork into the anterior, equatorial and posterior limbs that insert on the lens capsule. The zonules attach up to 1 mm from the equator posteriorly and up to 1.5 mm from the equator anteriorly, and at the equatorial border the attaching zonules give a crenated appearance to the lens. Four main topographic zones are usefully distinguished: the pars orbicularis lying on the pars plana, the zonular plexus between the ciliary processes, the zonular fork at the point of angulation in the mid-zone of the ciliary valleys, and the anterior, equatorial and posterior limbs of the zonule. The flimsier hyaloid zonule is plastered as a thin layer deep to the main suspending apparatus, running from the pars plana to the lens at the edge of the patellar fossa; the space between the anterior and posterior zonules is the canal of Hannover (subdivided into larger and smaller spaces by the equatorial fibres), and the space between the hyaloid zonule and the posterior zonule is the canal of Petit.",
+    "layers": [
+      "Pars orbicularis: the zonular feltwork lying on and arising from the pars plana, from up to 1.5 mm behind the ora serrata; most fibres arise as bundles of 2-5 fibrils blending with the basement membrane of the non-pigmented epithelium of the pars plana",
+      "Zonular plexus: broad, flattened, regular strands crossing and joining each other in a regular pattern through the ciliary valleys, firmly attached to the bases of the valleys by fine and coarse tension fibres that run anteriorly at an acute angle and anchor to the valley basement membrane",
+      "Zonular fork: the angulation of the zonule at the anterior margin of the pars plicata, where each plexus divides into three fibre groups running to the anterior, equatorial and posterior lens capsule; the entire apparatus is always bent at the fork, showing the strength of its secondary anchorage to the ciliary processes",
+      "Anterior, equatorial and posterior limbs: the pre-equatorial insertions form a dense irregular double row of bundles 5-10 um wide about 1.5 mm from the equator; the sparse equatorial fibres fan out brush-like, almost perpendicular to the capsule; the posterior fibres insert in two or three layers over a zone 0.4-0.5 mm wide, extending about 1.25 mm behind the equator",
+      "Hyaloid zonule: a single layer connecting the anterior hyaloid at the border of the patellar fossa with the pars plana and pars plicata, closely apposed to the posterior zonule in the untouched eye (Eisner 1973); the hyalocapsular zonule corresponds to the ligament of Wieger, its mainly radial fibres extending forwards on the lens capsule"
+    ],
+    "blood_supply": "The zonule is avascular, acellular and without nerves; it is bathed anteriorly by aqueous of the posterior chamber and posteriorly relates to the anterior vitreous across the canals of Hannover and Petit. Streeten (1992) has speculated that the mucoid character of the zonular fibres might offer a diffusion barrier between the posterior chamber and the vitreous. Its metabolism is negligible; the fibres are extracellular in nature throughout, being bundles of extracellular microfibrils rather than living tissue, which is why they can be selectively dissolved by enzymes while the lens remains viable.",
+    "venous_drainage": null,
+    "innervation": null,
+    "histology_summary": "Each zonular fibre is composed of fibrils averaging 10 nm in cross-section (8-12 nm) and tubular in profile, showing a microperiodicity of 12-14 nm, or occasionally 40-55 nm when the fibrils are densely aggregated. Granular and finely fibrillar material can be demonstrated in and between the fibrils with cationic dyes staining for polysaccharides (Raviola 1971; Streeten 1992). Rotary shadowing shows that individual fibres consist of beads 29 nm wide held together by about four filaments 3-6 nm in diameter, the beads having a periodicity of 30-57 nm from fibril to fibril — possibly an expression of the elastic properties of the fibrils (Wallace et al. 1991). The fibrils resemble elastin in size, tubular ultrastructure (Raviola 1971; Fischer and Hayes 1969), cross-reactivity (Streeten et al. 1981) and amino acid and peptide profiles (Ross and Bornstein 1969; Streeten et al. 1983; Streeten and Gibson 1988), as do their resistance to collagenase and susceptibility to digestion by trypsin; they are strongly immunoreactive for fibrillin (Sakai, Keene and Engvall 1986, 1991; Streeten 1992). Fibrils have been reported between the pigmented ciliary epithelium and Bruch's membrane (McCulloch 1954; Roll et al. 1975), though Streeten (1992) regards these as a mixture of ageing basement-membrane fibrils and microfibrils of ciliary stromal elastic tissue. At the capsule the insertions flatten in the plane of the capsule and split into ever smaller finger-like processes that join a surface of loosely arranged microfibrils blending into the fibrillogranular matrix of the zonular lamella; the anterior zonule sends fibres and smaller fibrils (0.07-0.5 um) to a depth of 0.6-1.6 um into the capsular surface, and the meridional fibres, 0.5-1.0 um wide, create an anteroposterior ribbing. A few flimsy circumferential zonular girdles are described: an anterior ciliary girdle over the ciliary crests, binding the anterior hyaloid to the processes against the pull of the coronary vitreous tract (Eisner 1975), and a posterior girdle of circularly disposed fibres over the ciliary processes, pars plana and posterior zonular insertion, demonstrated in vitro by many authors; the posterior zonular bundle lies 1-2 mm anterior to the ora serrata where the median vitreous tract inserts, and is more aggregated in older eyes. Aberrant zonular fibres, separate from the main streams, are commonly found near the ora serrata in relation to zonular traction tufts, meridional folds, enclosed ciliary bays and peripheral rosettes (Foos 1969). After the second decade occasional fibril bundles appear in the equatorial capsule, but no connection with the zonules has been demonstrated (Dark et al. 1969; Seland 1974); some of this material shows 45-55 nm banding like ageing basement membranes, and the superficial fibrillogranular material without zonular connection may represent a secretory product of the lens epithelium.",
+    "clinical_importance": "Accommodation is best understood through the zonular attachments: in the accommodating eye the contracted ciliary muscle forms an edge, the tension-fibre system stretched at the zonular fork takes up the traction from the posterior zonular fibres and choroid, the anterior zonular fibres relax and the lens becomes more spherical; in the non-accommodating state the relaxed muscle leaves the anterior zonules stretched by traction from the posterior (pars plana) fibres and the lens flattened (Rohen 1979). The strong fork anchorage to the ciliary processes explains how an equatorial force reaches the lens from fibres partly of pars-plana origin, without invoking the older unacceptable theory of traction from the hyaloid face. The susceptibility of the fibrils to chymotrypsin but resistance of the collagenous capsule was exploited in intracapsular extraction, in which alpha-chymotrypsin dissolves the zonule (Ley, Holmberg and Yamashita 1960); during such extraction most of the zonular complex is torn from the capsule, and a superficial flap or even the full capsule thickness may be separated by the posterior zonular and circumferential complexes. During extracapsular surgery about 5% of zonular dehiscences are detected at the time of surgery (Guzek et al. 1987), and more at postmortem (Wilson et al. 1987). The zonule is weak in pseudoexfoliation of the lens capsule and is four times more likely to rupture during cataract surgery than normally (Skuta 1987) — a cornerstone of modern capsule-support planning. Mutations in the fibrillin gene cause Marfan syndrome with its lens dislocation, cardiovascular and joint disease, and some Marfan phenotypes link to fibrillin genes on other chromosomes. Each zonular bundle associated with a major ciliary process forms a unit emerging as a flat ribbon of bundles 30-60 um wide, 6-10 per ciliary unit, and it has been suggested that rubbing of the posterior iris across the zonule is responsible for the iris pigment loss of pigmentary glaucoma (Campbell 1979). With age the fibres become finer, more sparse and rupture more readily (Buschmann et al. 1978; Weale 1982); the zonular attachments broaden and move centrally, the zonule-free area of the capsule shrinking from 8 mm at 20 years to 6.5 mm in the eighth decade (or 5.5 mm), so that insertions may intrude upon the capsulotomy region (Farnsworth and Shine 1979; Stark and Streeten 1984), while the insertion-equatorial distance increases, the insertion-ciliary-body distance stays constant and the circumlental space decreases (Fig 12.47). Post-Wolff genetics has expanded the ectopia lentis spectrum well beyond fibrillin-1: mutations in ADAMTS10 and ADAMTS17, ADAMTSL4 (recessive ectopia lentis) and LTBP2 (ectopia lentis with early glaucoma) are now catalogued alongside FBN1 (GeneReviews: Ectopia Lentis), and the revised Ghent nosology of 2010 re-weighted the systemic Marfan score, reducing the diagnostic exclusivity of lens dislocation (Loeys et al. 2010). Modern microfibril biology has clarified zonule assembly and maintenance, including why fibrillin-deficient fibres fail under tension (reviewed in Bassnett 2020, Zinn's Zonule). Surgically, zonular weakness is now managed with capsular tension rings and related devices that stabilize the capsular bag during and after phacoemulsification (American Academy of Ophthalmology BCSC, Lens and Cataract)."
+  },
+  "relationships": [
+    {
+      "relation_type": "suspends",
+      "target_id": "lens",
+      "target_name": "Lens (held in position; diaphragm with the zonule divides the eye into anterior and posterior portions)"
+    },
+    {
+      "relation_type": "arises_from",
+      "target_id": "ciliary_body",
+      "target_name": "Ciliary Body (pars plana up to 1.5 mm from ora serrata; plexuses through the ciliary valleys; zonular fork at pars plicata)"
+    },
+    {
+      "relation_type": "inserts_into",
+      "target_id": "lens_capsule",
+      "target_name": "Lens Capsule (anterior, equatorial and posterior limbs; fibrils fan into the zonular lamella)"
+    },
+    {
+      "relation_type": "acted_upon_by",
+      "target_id": "ciliary_muscle",
+      "target_name": "Ciliary Muscle (contraction relaxes anterior zonules and steepens the lens during accommodation)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "vitreous",
+      "target_name": "Vitreous Body (hyaloid zonule, hyalocapsular ligament of Wieger, canals of Hannover and Petit)"
+    },
+    {
+      "relation_type": "abuts",
+      "target_id": "iris",
+      "target_name": "Iris (posterior iris rubs across the zonule — proposed mechanism of pigmentary glaucoma, Campbell 1979)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "ciliary zonule",
+      "zonule of Zinn",
+      "suspensory ligament of the lens",
+      "zonular fibres",
+      "fibrillin",
+      "FBN1",
+      "Marfan syndrome",
+      "zonular plexus",
+      "zonular fork",
+      "pars orbicularis",
+      "tension fibres",
+      "hyaloid zonule",
+      "ligament of Wieger",
+      "canal of Hannover",
+      "canal of Petit",
+      "zonular lamella",
+      "pseudoexfoliation",
+      "zonular dehiscence",
+      "alpha-chymotrypsin",
+      "accommodation mechanism",
+      "circumferential zonular girdles",
+      "pigmentary glaucoma",
+      "الزونول الهدبي",
+      "زر الزين",
+      "الرباط المعلق للعدسة",
+      "الألياف الزونولارية",
+      "الفايبريلين",
+      "متلازمة مارفان",
+      "ضفيرة الزونول",
+      "شوكة الزونول",
+      "الزونول الزجاجي",
+      "رباط فيجر",
+      "قناة هانوفر",
+      "قناة بتي",
+      "الصفقة الزونولارية",
+      "الانفصال الكاذب",
+      "الكي موتربسين",
+      "آلية التكيف البصري",
+      "الجلوكوما الصبغية"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "genereviews_ectopia_lentis",
+      "loeys_2010_ghent",
+      "bassnett_2020_zonule",
+      "aao_bcsc_lens"
+    ],
+    "last_updated": "2026-10-26",
+    "version": "1.1.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            435,
+            436
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            436,
+            437,
+            438,
+            440
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            436,
+            437,
+            438,
+            440,
+            441
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            440
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            435,
+            436,
+            437,
+            439,
+            440,
+            441
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            435,
+            436,
+            439,
+            440,
+            441,
+            442
+          ]
+        },
+        {
+          "reference_id": "genereviews_ectopia_lentis",
+          "section": "ADAMTS10/17, ADAMTSL4, LTBP2, FBN1 ectopia genes"
+        },
+        {
+          "reference_id": "loeys_2010_ghent",
+          "section": "Revised Ghent nosology 2010"
+        },
+        {
+          "reference_id": "bassnett_2020_zonule",
+          "section": "Modern zonule microfibril assembly review"
+        },
+        {
+          "reference_id": "aao_bcsc_lens",
+          "section": "Capsular tension rings in zonular compromise"
+        }
+      ]
+    }
+  ]
+}

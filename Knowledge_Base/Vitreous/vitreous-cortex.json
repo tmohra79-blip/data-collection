@@ -1,0 +1,249 @@
+{
+  "entity_id": "vitreous_cortex",
+  "component_ids": [
+    "comp_vitreous"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Vitreous Cortex",
+    "ar": "قشرة الجسم الزجاجي",
+    "aliases": [
+      "cortical vitreous",
+      "vitreous cortex",
+      "posterior cortex (Eisner)",
+      "anterior cortex (Eisner)",
+      "anterior hyaloid",
+      "anterior hyaloid membrane",
+      "posterior hyaloid",
+      "posterior hyaloid membrane",
+      "hyaloid envelope",
+      "zonular cleft of Salzmann",
+      "anterior limiting layer of Salzmann",
+      "posterior limiting layer of Salzmann",
+      "peripapillary cortex",
+      "perimacular cortex",
+      "vitreous base",
+      "hyalociliary zonule",
+      "retrolental ligament",
+      "coronary ligament",
+      "median ligament",
+      "قشرة الزجاجي",
+      "الزجاج القشري",
+      "القشرة الخلفية",
+      "القشرة الأمامية",
+      "الغشاء الزجاجي الأمامي",
+      "الغشاء الزجاجي الخلفي",
+      "الغلاف الزجاجي",
+      "الشق الوزاري لسالزمان",
+      "قشرة حول الحليمة",
+      "قشرة حول البقعة",
+      "قاعدة الزجاجي",
+      "المنطقة الوزارية الزجاجية"
+    ]
+  },
+  "content": {
+    "definition": "Clinically, the term cortex is applied to the dense broad zone, up to 0.2 or 0.3 mm in width, adjoining the retina (Fig 13.12). Microscopically, the cortex is regarded as the outer 100-200 um of the vitreous, formed by a condensation of its constituent fibrils, cells and glycosaminoglycan (Balazs 1961). The condensation at the vitreous surface does not constitute a distinct hyaloid membrane, but it does constitute a fragile envelope which is present everywhere except just anterior to the vitreous base (the zonular cleft of Salzmann) and at the area of Martegiani. Salzmann recognized anterior and posterior limiting layers, which are now termed the anterior and posterior hyaloid; they extend to the margins of the anatomical vitreous base. The vitreous as a whole comprises three components: the cortex (which itself includes the anterior hyaloid, the vitreous base, the posterior hyaloid, and the peripapillary and perimacular attachments), the central vitreous, and the vitreous cells.",
+    "location": "The cortex is the outermost zone of the vitreous, adjoining the retina behind, the ciliary body and zonule anterolaterally, and the lens-related structures anteriorly (Fig 13.12). Eisner has used the term posterior cortex for the zone adjoining the retina, while adopting the term anterior cortex for the very thin zone corresponding to the anterior hyaloid of the clinician and lying external to the preretinal tract; Eisner (1982) regards the central vitreous as lying internal to this tract and further subdivides it into intermediate vitreous (between the preretinal and retrolenticular tracts) and retrolenticular vitreous (lying internal to the retrolenticular tract). Many authors, however, use the term cortex for the outer vitreous zone at any site. The anterior hyaloid stretches forwards typically from the anterior margin of the vitreous base at the ora serrata: its epiciliary portion passes anteriorly to reach the ligamentum hyaloideocapsulare, and central to this its retrolental portion is thinned and less distinct. The posterior hyaloid spans the fundus from the vitreous base backwards, and the peripapillary and perimacular cortex covers the optic disc margin and the macular region respectively.",
+    "layers": [
+      "Anterior hyaloid: the portion of the vitreous surface stretching forwards from the anterior margin of the vitreous base at the ora serrata; the epiciliary portion reaches the ligamentum hyaloideocapsulare, and the retrolentral portion central to it is thinned and less distinct; clinically the epiciliary portion may be seen with the slit-lamp to float freely to a variable extent in some adult eyes (Eisner 1973a,b) - it may run from the edge of the hyalocapsular ligament to the coronary ligament, to the mid pars plana region, or to the ora serrata or some intermediate point; alternatively it may be in contact with and adherent to the most posterior zonular fibres; after extracapsular lens extraction the retrolental portion is seen more clearly as the posterior capsule flattens and loses its posterior curvature",
+      "Vitreous base: a broad band of vitreous condensation and attachment running circumferentially from a point 2.0 mm anterior to the ora serrata to a point 2-4 mm behind it; collagen fibrils are most densely packed here and in the adult insert throughout its width (Sebag, Balazs and Flood 1984); the most established portion is a narrow band overlying the ora serrata",
+      "Posterior hyaloid: just posterior to the vitreous base the fibrils of the vitreous cortex curve backwards along the inner retina as thin layers which pass towards the central vitreous; posterior to the equator the fibrils blend with the internal limiting membrane of the retina; the fibrils are more readily identified in fetal eyes",
+      "Peripapillary cortex: firmly united to a narrow zone of marginal retina 10 um wide at the edge of the disc, where the Muller's fibres and the associated inner limiting membrane end",
+      "Perimacular cortex: a similar but less dense attachment to the perimacular retina; both peripapillary and perimacular attachments are more developed in young eyes (Fig 13.15), which also show premacular and prepapillary 'holes' in the posterior vitreous cortex"
+    ],
+    "blood_supply": "The cortex shares the avascularity of the whole vitreous: the adult vitreous is avascular and nourished by diffusion (Davson 1980; see card vitreous). At the vitreoretinal interface the basal lamina on which the posterior cortex rests has barrier properties relevant to solute exchange: its thickness varies between 20 and 100 nm, and it is thicker over the posterior part of the retina, except at the fovea and optic nerve head; this thickness increases with age and may reach 3 um (Foos 1972). The basal lamina serves partially as a barrier to large molecules, and may in part prevent macromolecules of 7 nm or over from entering the vitreous across the retina. Its continuity is interrupted at the pars plana and at the ciliary processes: at these points vitreous fibrils are in direct contact with the cell membranes of the epithelial cells.",
+    "venous_drainage": null,
+    "innervation": null,
+    "histology_summary": "The cortical fibrils are in the region of 12 nm wide and insert into the internal limiting membrane of the retina posteriorly, blending with the basal lamina of the Muller's cells, or with the basal lamina of the ciliary body epithelium anteriorly. In places - such as the vitreous base and the margin of the disc and macula, and overlying the retinal vessels - a firm bond is achieved which is strong in youth and weakens with age; elsewhere the attachment is loose (Fig 13.12). In healthy young eyes the attachments between Muller's cell membranes, basal lamina and cortical collagen fibrils are so strong that if the vitreous is pulled away from the retina the cell membrane of the Muller's cell breaks, while the basement membrane remains attached to the vitreous fibrils and the cell membrane (Sebag 1989). The inner limiting lamina progressively increases in thickness from the periphery towards the posterior pole, with extreme thinning at the centre of the fovea and overlying the vessels; it is separated from the cell membrane of Muller's cells by an electronlucent sublaminar space crossed by fibrils that increase in number at the site of densifications in the surface cytoplasm of Muller's cells ('attachment plaques') (Fig 13.13). Breaks in the basal lamina increase with age, and basal lamina fragments may be found in the cortical vitreous of adult eyes (Rentsch and van der Zypen 1971). The collagen fibrils of the anterior cortex are arranged in compacted lamellae, parallel with the plane of the pars plana ciliaris and woven into a mesh-like structure (Fine and Tousimis 1961; Faulborn and Bowald 1982). At the vitreous base the fibrils are organized over the retinal surface as groups of tapering bundles which pass out into the vitreous substance approximately at right-angles to the retinal surface; more anteriorly the fibrils are finer and fan out towards the lens, and collagen fibrils at the base are wider than elsewhere in the cortex, in the region of 45 nm. Fibres running from the anterior hyaloid to the valleys between the ciliary processes form the hyalociliary zonule (Fig 13.14), and three circular sets of zonules are attached to or traverse the anterior hyaloid (Graf Spee 1902): the retrolental ligament, corresponding to the ligamentum hyaloideocapsulare; the coronary ligament, whose fibres run circumferentially across the inner face of the posterior third of the ciliary processes; and the median ligament, whose fibres are also circumferential, at the level of the mid zone of the pars plana. The fibres of these so-called 'ligaments' are interwoven into the anterior vitreous cortex and give off radial fibres to the ciliary body or lens (Daicker 1972).",
+    "clinical_importance": "The strength distribution of the cortex governs vitreoretinal traction: firm attachments at the vitreous base, disc margin, macula and over retinal vessels, with loose attachment elsewhere, mean that traction is transmitted preferentially at those firm sites. Traction on the vitreous base may create a retinal tear, the forerunner of a retinal detachment (Chaine, Jebay and Coscas 1983). With age the vitreous base broadens anteriorly and posteriorly (Hogan 1963; Daicker 1972): it lies just posterior to the ora serrata in infancy, has a relatively straight course temporally where the oral bays are flattened and a more wandering course nasally where the bays are most marked, and shows racial differences, lying more posteriorly in the African and Chinese. At the aging vitreous base small crypts may be found between the Muller's cell foot plates at the level of the internal limiting membrane, where vitreal fibres may perforate the inner limiting membrane and in many cases fill the crypt (see p. 458 and Fig 14.7). By middle age, dark-field slit microscopy (Sebag and Balazs) shows macroscopic 'fibres' traversing the vitreous in an anteroposterior direction and inserting into the vitreous base both anterior and posterior to the ora serrata (Sebag, Balazs and Flood 1984), while at the posterior pole the fibres appear oriented towards the macula (Sebag and Balazs 1984); the premacular and prepapillary 'holes' of the posterior cortex are likewise demonstrable in vivo. The weakening of cortical attachments with age underlies posterior vitreous detachment, and the site-specific strength of the peripapillary and perimacular cortex (more developed in young eyes) determines where the posterior hyaloid separates or tears. Clinically, after intracapsular cataract extraction the ciliocapsular and hyalocapsular zonular fibres are disrupted and the hyalociliary zonular leaf becomes visible at the anterior hyaloid membrane (Eisner 1987). Two modern additions sharpen this clinical map. First, OCT shows that the earliest posterior separation is perifoveal, progressing through defined stages in healthy older eyes (Uchino, Uemura and Ohba 2001; Johnson 2010). Second, in anomalous posterior vitreous detachment the cortical gel may split within itself - vitreoschisis - leaving an outer cortical layer still attached to the macula while the posterior hyaloid peels away (Sebag 2004); recognizing this split cortical plane is critical in macular hole and epiretinal membrane surgery, where the surgeon must decide which layer to remove."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "vitreous",
+      "target_name": "Vitreous Body (the cortex is the outer 100-200 um condensation of the vitreous and one of its three components with the central vitreous and vitreous cells)"
+    },
+    {
+      "relation_type": "adjoins",
+      "target_id": "retina",
+      "target_name": "Retina (the dense broad zone of cortex, up to 0.2-0.3 mm, adjoins the retina; fibrils insert into the internal limiting membrane)"
+    },
+    {
+      "relation_type": "attached_to",
+      "target_id": "retina",
+      "target_name": "Retina (firm bond at vitreous base, margin of disc and macula and over retinal vessels - strong in youth, weakening with age; loose elsewhere)"
+    },
+    {
+      "relation_type": "continuous_with",
+      "target_id": "ciliary_body",
+      "target_name": "Ciliary Body (anterior cortical fibrils blend with the basal lamina of the ciliary body epithelium; anterior cortex woven in lamellae parallel with the pars plana ciliaris)"
+    },
+    {
+      "relation_type": "acted_upon_by",
+      "target_id": "ciliary_zonule",
+      "target_name": "Ciliary Zonule (retrolental, coronary and median ligaments plus the hyalociliary zonule are interwoven into the anterior vitreous cortex)"
+    },
+    {
+      "relation_type": "embedded_in",
+      "target_id": "globe",
+      "target_name": "Eyeball (the cortical envelope lines the inner surface of the globe from the vitreous base around the fundus)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "vitreous cortex",
+      "cortical vitreous",
+      "anterior hyaloid",
+      "posterior hyaloid",
+      "hyaloid membrane",
+      "vitreous base",
+      "peripapillary cortex",
+      "perimacular cortex",
+      "vitreoretinal interface",
+      "internal limiting membrane insertion",
+      "basal lamina barrier",
+      "attachment plaques",
+      "hyalociliary zonule",
+      "retrolental ligament",
+      "coronary ligament",
+      "median ligament",
+      "zonular cleft of Salzmann",
+      "vitreoretinal traction",
+      "retinal tear",
+      "vitreous fibres",
+      "قشرة الزجاجي",
+      "الزجاج القشري",
+      "الغشاء الزجاجي الأمامي",
+      "الغشاء الزجاجي الخلفي",
+      "قاعدة الزجاجي",
+      "قشرة حول الحليمة",
+      "قشرة حول البقعة",
+      "السطح البيني الزجاجي الشبكي",
+      "قوة الالتصاق الزجاجي الشبكي",
+      "شدّ الزجاجي",
+      "تمزق الشبكية",
+      "خيوط الزجاجي",
+      "المنطقة الوزارية الزجاجية"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "uchino_2001_pvd",
+      "johnson_2010_pvd",
+      "sebag_2004_anomalous_pvd"
+    ],
+    "last_updated": "2026-10-26",
+    "version": "1.1.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            447,
+            448,
+            449
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            447,
+            449
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            447,
+            449,
+            450
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            448,
+            452
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            448,
+            449,
+            450
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            448,
+            450
+          ]
+        },
+        {
+          "reference_id": "uchino_2001_pvd",
+          "section": "Perifoveal onset of PVD by OCT"
+        },
+        {
+          "reference_id": "johnson_2010_pvd",
+          "section": "Early PVD evolution and complications"
+        },
+        {
+          "reference_id": "sebag_2004_anomalous_pvd",
+          "section": "Vitreoschisis: split of the cortical gel"
+        }
+      ]
+    }
+  ]
+}

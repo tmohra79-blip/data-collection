@@ -1,0 +1,225 @@
+{
+  "entity_id": "vitreous_detachment",
+  "component_ids": [
+    "comp_vitreous"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Vitreous Ageing and Detachment",
+    "ar": "تشيخ الزجاجي وانفصاله",
+    "aliases": [
+      "vitreous syneresis",
+      "vitreous collapse",
+      "posterior vitreous detachment",
+      "PVD",
+      "vitreous detachment",
+      "veil-like scattering",
+      "optically empty spaces",
+      "vitreous breakdown",
+      "myopic vitreous degeneration",
+      "hole in posterior vitreous face",
+      "retinal tear",
+      "retinal hole",
+      "detachment of vitreous",
+      "تشيخ الزجاجي",
+      "انفصال الزجاجي الخلفي",
+      "الانفصال الزجاجي",
+      "التحلل الجيلي (سينيريزس)",
+      "انهيار الزجاجي",
+      "الفراغات البصرية الفاضية",
+      "تشوش الستارة المتحركة",
+      "تمزق الشبكية",
+      "ثقب الشبكية",
+      "انهيار الزجاجي في قصر النظر"
+    ]
+  },
+  "content": {
+    "definition": "In the young eye the vitreous appears to be relatively empty optically on slit-lamp biomicroscopy. With increasing age a veil-like scattering of light may be seen which undulates with movements of the eye; this is presumably due to an alteration of the gel structure, but the fibrillar appearance is not caused by a visibility of collagen fibrils, which are of molecular dimensions. In old age, or in the younger myopic eye, a breakdown in structure occurs as indicated by increased scattering properties and the appearance of optically empty spaces (syneresis) (Figs 13.19 and 13.20); the altered gel may collapse, so that its outer surface pulls away from the internal coats of the eye - vitreous detachment. This detachment is facilitated by the weakening of the adhesion between vitreous and structures external to it, which occurs with age.",
+    "location": "The detachment affects the outer surface of the gel against the internal coats of the eye. Precipitation is usually by the formation of a hole in the posterior vitreous face, which may come about when the vitreous separates from its normally strong attachment around the macula or optic disc. In this situation the fluid central vitreous can pass posteriorly through such a hole, while the posterior hyaloid itself moves forwards (Eisner 1982; Sebag and Balazs 1984).",
+    "layers": [
+      "Splitting of the internal limiting membrane: the detachment may merely split the internal limiting membrane of the retina at the points of attachment of the vitreous",
+      "Separation at the interface: the detachment may separate the vitreous from the internal limiting membrane",
+      "Splitting of the cortical vitreous: the plane of separation may run within the cortex itself",
+      "Retinal tear: the detachment may at times tear the retina itself, leading to a retinal hole; this event may be a precursor of a retinal detachment (Balazs 1973; Foos 1975; Daicker, Guggenheim and Guyat 1977)"
+    ],
+    "blood_supply": null,
+    "venous_drainage": null,
+    "innervation": null,
+    "histology_summary": "The optical changes of ageing are documented by dark-field examination of dissected and optically sectioned vitreous. In the preparation of the human vitreous from a 79-year-old subject (Fig 13.19), the sclera, choroid and retina have been dissected from the mid zone of the globe but remain attached posteriorly, a fringe of retina overlies the vitreous base, the ora serrata is seen, and the fibrillar structure of the vitreous is well seen by dark-field illumination. In the 88-year-old vitreous (Fig 13.20) the overall structure is collapsed (syneresis): the fibres are tortuous, aggregated and thickened, and large lacunae of liquid vitreous are seen peripherally. The veil-like light scattering of the living eye undulates with eye movement and presumably reflects alteration of the gel structure, while the fibrillar appearance is not due to visibility of collagen fibrils, which are of molecular dimensions; with breakdown, increased scattering and optically empty spaces (syneresis) appear (Sebag material, Figs 13.19 and 13.20).",
+    "clinical_importance": "Vitreous detachment may be regarded as a normal consequence of ageing, and is frequently found in otherwise normal eyes in old age (Jokl 1927). It is usually precipitated by the formation of a hole in the posterior vitreous face, which may come about when the vitreous separates from its normally strong attachment around the macula or optic disc; the fluid central vitreous can then pass posteriorly through such a hole, while the posterior hyaloid itself moves forwards (Eisner 1982; Sebag and Balazs 1984). The spectrum of separation - merely splitting the internal limiting membrane, separating vitreous from the internal limiting membrane, splitting the cortical vitreous, or at times tearing the retina itself leading to a retinal hole - explains why detachment may be a precursor of a retinal detachment (Balazs 1973; Foos 1975; Daicker, Guggenheim and Guyat 1977). The earlier structural breakdown in the younger myopic eye marks myopia as the clinical setting in which these events occur sooner, and the age-weakened adhesions between vitreous and its surroundings determine both the timing and the plane of the separation. Optical coherence tomography has quantified this natural history: detachment in healthy older eyes begins as a perifoveal separation and progresses through defined stages (Uchino, Uemura and Ohba 2001), with the evolution and early complications reviewed by Johnson (2010). In the fellow eye, detachment develops frequently within 6 months to 2 years after development in the first eye - about two-thirds of fellow eyes within two years (Hikichi and Yoshida 2004) - a fact of direct relevance to follow-up. Incomplete separation produces the anomalous detachment spectrum of Sebag (2004) - vitreomacular traction, macular hole, epiretinal membrane and vitreoschisis - and pharmacologic vitreolysis with intravitreal ocriplasmin resolved vitreomacular traction and closed macular holes significantly more often than placebo in randomized trials (Stalmans et al. 2012, New England Journal of Medicine)."
+  },
+  "relationships": [
+    {
+      "relation_type": "occurs_in",
+      "target_id": "vitreous",
+      "target_name": "Vitreous Body (ageing breakdown and detachment are consequences of the gel structure of the vitreous; syneresis and collapse with advancing age)"
+    },
+    {
+      "relation_type": "disrupts",
+      "target_id": "vitreous_cortex",
+      "target_name": "Vitreous Cortex (the plane of detachment may split the cortical vitreous itself, and begins as a hole in the posterior vitreous face)"
+    },
+    {
+      "relation_type": "separates_from",
+      "target_id": "retina",
+      "target_name": "Retina (detachment may split the internal limiting membrane at attachment points, separate vitreous from the ILM, or at times tear the retina leading to a retinal hole)"
+    },
+    {
+      "relation_type": "precursor_of",
+      "target_id": "retinal_detachment",
+      "target_name": "Retinal Detachment (a retinal tear/hole produced by vitreous detachment may be a precursor of retinal detachment - Balazs 1973; Foos 1975; Daicker, Guggenheim and Guyat 1977)"
+    },
+    {
+      "relation_type": "associated_with",
+      "target_id": "myopia",
+      "target_name": "Myopia (a breakdown in structure occurs in old age or in the younger myopic eye - increased scattering and syneresis appear sooner in myopes)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "vitreous detachment",
+      "posterior vitreous detachment",
+      "PVD",
+      "vitreous syneresis",
+      "vitreous collapse",
+      "vitreous ageing",
+      "veil-like scattering",
+      "optically empty spaces",
+      "vitreous breakdown",
+      "posterior vitreous face",
+      "hole in vitreous face",
+      "retinal tear",
+      "retinal hole",
+      "retinal detachment precursor",
+      "myopic vitreous degeneration",
+      "dark-field vitreous",
+      "vitreous lacunae",
+      "انفصال الزجاجي الخلفي",
+      "تشيخ الزجاجي",
+      "التحلل الجيلي",
+      "انهيار الزجاجي",
+      "الفراغات البصرية الفاضية",
+      "ثقب الوجه الخلفي للزجاجي",
+      "تمزق الشبكية",
+      "ثقب الشبكية",
+      "انفصال الشبكية",
+      "تخرب الزجاجي القصير",
+      "فراغات سائلة في الزجاجي"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "uchino_2001_pvd",
+      "johnson_2010_pvd",
+      "hikichi_2004_fellow_eye",
+      "sebag_2004_anomalous_pvd",
+      "stalmans_2012_ocriplasmin"
+    ],
+    "last_updated": "2026-10-26",
+    "version": "1.1.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            452
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            452,
+            453
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            452
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            452
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            452,
+            453
+          ]
+        },
+        {
+          "reference_id": "uchino_2001_pvd",
+          "section": "OCT stages of initial PVD"
+        },
+        {
+          "reference_id": "johnson_2010_pvd",
+          "section": "PVD evolution and complications"
+        },
+        {
+          "reference_id": "hikichi_2004_fellow_eye",
+          "section": "Fellow-eye PVD within 6 months-2 years (~65% by 2 years)"
+        },
+        {
+          "reference_id": "sebag_2004_anomalous_pvd",
+          "section": "Anomalous PVD spectrum"
+        },
+        {
+          "reference_id": "stalmans_2012_ocriplasmin",
+          "section": "Pharmacologic vitreolysis (MIVI-TRUST)"
+        }
+      ]
+    }
+  ]
+}

@@ -12,7 +12,9 @@
     "publisher": "Chapman & Hall Medical",
     "isbn": "0-412-41010-9",
     "type": "book",
-    "verification": "Authors, edition, publisher and ISBN verified against the title and copyright pages of the actual copy on 2026-10-16."
+    "verification": "Authors, edition, publisher and ISBN verified against the title and copyright pages of the actual copy on 2026-10-16.",
+    "access": "print_book",
+    "access_note": "Print book (ISBN 0-412-41010-9); medical/university libraries; no official online copy."
   },
   {
     "reference_id": "statpearls",
@@ -28,7 +30,8 @@
     "url": "https://www.ncbi.nlm.nih.gov/books/NBK470340/",
     "last_updated": "2023-08-07",
     "type": "website",
-    "verification": "Sections 'Structure and Function', 'Nerves' and 'Clinical Significance' read directly on 2026-10-17."
+    "verification": "Sections 'Structure and Function', 'Nerves' and 'Clinical Significance' read directly on 2026-10-17.",
+    "access": "free_full_text"
   },
   {
     "reference_id": "statpearls_corneal_abrasion",
@@ -45,7 +48,8 @@
     "url": "https://www.ncbi.nlm.nih.gov/books/NBK532960/",
     "last_updated": "2024",
     "type": "website",
-    "verification": "Sections 'Introduction', 'Etiology', 'Pathophysiology', 'Prognosis' and 'Treatment/Management' read directly on 2026-10-17."
+    "verification": "Sections 'Introduction', 'Etiology', 'Pathophysiology', 'Prognosis' and 'Treatment/Management' read directly on 2026-10-17.",
+    "access": "free_full_text"
   },
   {
     "reference_id": "statpearls_let",
@@ -60,7 +64,8 @@
     "url": "https://www.ncbi.nlm.nih.gov/books/NBK560557/",
     "last_updated": "2023",
     "type": "website",
-    "verification": "Sections 'Introduction', 'Anatomy and Physiology', 'Indications' and 'Clinical Significance' read directly on 2026-10-17."
+    "verification": "Sections 'Introduction', 'Anatomy and Physiology', 'Indications' and 'Clinical Significance' read directly on 2026-10-17.",
+    "access": "free_full_text"
   },
   {
     "reference_id": "statpearls_corneal_trauma",
@@ -76,7 +81,8 @@
     "url": "https://www.ncbi.nlm.nih.gov/sites/books/n/statpearls/article-19989/",
     "last_updated": "2026-07-05",
     "type": "website",
-    "verification": "Section 'Pathophysiology' (Corneal Healing) read directly on 2026-10-17."
+    "verification": "Section 'Pathophysiology' (Corneal Healing) read directly on 2026-10-17.",
+    "access": "free_full_text"
   },
   {
     "reference_id": "statpearls_conjunctiva",
@@ -92,7 +98,8 @@
     "url": "https://www.ncbi.nlm.nih.gov/books/NBK519502/",
     "last_updated": "2023-08-28",
     "type": "website",
-    "verification": "Full article (Introduction, Structure and Function, Embryology, Blood Supply and Lymphatics, Nerves, Muscles, Physiologic Variants, Surgical Considerations, Clinical Significance) read directly on 2026-10-17."
+    "verification": "Full article (Introduction, Structure and Function, Embryology, Blood Supply and Lymphatics, Nerves, Muscles, Physiologic Variants, Surgical Considerations, Clinical Significance) read directly on 2026-10-17.",
+    "access": "free_full_text"
   },
   {
     "reference_id": "statpearls_pterygium",
@@ -107,7 +114,8 @@
     "url": "https://www.ncbi.nlm.nih.gov/books/NBK558907/",
     "last_updated": "2026-09-14",
     "type": "website",
-    "verification": "Complete article text (19 sections incl. Introduction, Etiology, Epidemiology, Pathophysiology, Histopathology, Treatment/Management) read directly on 2026-10-18 from the project owner's pasted full-text copy."
+    "verification": "Complete article text (19 sections incl. Introduction, Etiology, Epidemiology, Pathophysiology, Histopathology, Treatment/Management) read directly on 2026-10-18 from the project owner's pasted full-text copy.",
+    "access": "free_full_text"
   },
   {
     "reference_id": "statpearls_pinguecula",
@@ -122,7 +130,8 @@
     "url": "https://www.ncbi.nlm.nih.gov/books/NBK558965/",
     "last_updated": "2023-08-25",
     "type": "website",
-    "verification": "Complete article text (all sections incl. Etiology, Histopathology, History and Physical, Differential Diagnosis, References) read directly on 2026-10-18 from the full-text copy pasted by the project owner."
+    "verification": "Complete article text (all sections incl. Etiology, Histopathology, History and Physical, Differential Diagnosis, References) read directly on 2026-10-18 from the full-text copy pasted by the project owner.",
+    "access": "free_full_text"
   },
   {
     "reference_id": "statpearls_sch",
@@ -137,7 +146,8 @@
     "url": "https://www.ncbi.nlm.nih.gov/books/NBK551666/",
     "last_updated": "2025-09-15",
     "type": "website",
-    "verification": "Complete article text (16 sections incl. Introduction, Etiology, Pathophysiology, Histopathology, History and Physical, Staging, Prognosis) read directly on 2026-10-18 from the project owner's pasted full-text copy."
+    "verification": "Complete article text (16 sections incl. Introduction, Etiology, Pathophysiology, Histopathology, History and Physical, Staging, Prognosis) read directly on 2026-10-18 from the project owner's pasted full-text copy.",
+    "access": "free_full_text"
   },
   {
     "reference_id": "statpearls_muller_muscle",
@@ -154,7 +164,8 @@
     "url": "https://www.ncbi.nlm.nih.gov/books/NBK540964/",
     "last_updated": "2024-10-05",
     "type": "website",
-    "verification": "Complete article text (Introduction, Structure and Function, Embryology, Blood Supply and Lymphatics, Nerves, Muscles, Physiologic Variants, Surgical Considerations, Clinical Significance, References) read directly on 2026-10-19 from the verbatim NCBI Bookshelf copy saved in download/sources/statpearls_superior_tarsal_muscle_NBK540964.txt."
+    "verification": "Complete article text (Introduction, Structure and Function, Embryology, Blood Supply and Lymphatics, Nerves, Muscles, Physiologic Variants, Surgical Considerations, Clinical Significance, References) read directly on 2026-10-19 from the verbatim NCBI Bookshelf copy saved in download/sources/statpearls_superior_tarsal_muscle_NBK540964.txt.",
+    "access": "free_full_text"
   },
   {
     "reference_id": "statpearls_gfs",
@@ -171,7 +182,8 @@
     "url": "https://www.ncbi.nlm.nih.gov/books/NBK582141/",
     "last_updated": "2023-07-18",
     "type": "website",
-    "verification": "Complete article text (Continuing Education Activity, Introduction, Etiology, Epidemiology, Pathophysiology, Histopathology, History and Physical, Evaluation, Treatment/Management, Differential Diagnosis, Prognosis, Complications, Enhancing Healthcare Team Outcomes, References) read directly on 2026-10-19 from the verbatim NCBI Bookshelf copy saved in download/sources/statpearls_giant_fornix_syndrome_NBK582141.txt."
+    "verification": "Complete article text (Continuing Education Activity, Introduction, Etiology, Epidemiology, Pathophysiology, Histopathology, History and Physical, Evaluation, Treatment/Management, Differential Diagnosis, Prognosis, Complications, Enhancing Healthcare Team Outcomes, References) read directly on 2026-10-19 from the verbatim NCBI Bookshelf copy saved in download/sources/statpearls_giant_fornix_syndrome_NBK582141.txt.",
+    "access": "free_full_text"
   },
   {
     "reference_id": "statpearls_conjunctivitis",
@@ -187,7 +199,365 @@
     "url": "https://www.ncbi.nlm.nih.gov/books/NBK541034/",
     "last_updated": "2026-09-08",
     "type": "website",
-    "verification": "Complete article text (Continuing Education Activity, Introduction, Etiology incl. Giant Fornix Syndrome subsection, Epidemiology, Pathophysiology, History and Physical, Evaluation, Treatment/Management, Differential Diagnosis, Prognosis, Complications, Pearls, Enhancing Healthcare Team Outcomes, References) read directly on 2026-10-19 from the verbatim NCBI Bookshelf copy saved in download/sources/statpearls_conjunctivitis_overview_NBK541034.txt."
+    "verification": "Complete article text (Continuing Education Activity, Introduction, Etiology incl. Giant Fornix Syndrome subsection, Epidemiology, Pathophysiology, History and Physical, Evaluation, Treatment/Management, Differential Diagnosis, Prognosis, Complications, Pearls, Enhancing Healthcare Team Outcomes, References) read directly on 2026-10-19 from the verbatim NCBI Bookshelf copy saved in download/sources/statpearls_conjunctivitis_overview_NBK541034.txt.",
+    "access": "free_full_text"
+  },
+  {
+    "reference_id": "schachar_1992",
+    "title": "Cause and treatment of presbyopia with a method for increasing the amplitude of accommodation",
+    "authors": [
+      "Ronald A. Schachar"
+    ],
+    "publisher": "Annals of Ophthalmology",
+    "year": 1992,
+    "volume": "24",
+    "type": "journal_article",
+    "verification": "PMID 1485739 confirmed via Europe PMC web search 2026-10-26 (cited by 373); pages 24:445-452 confirmed from multiple citing sources (Glasser 2008 PMC2908998; Kaufman 2001 Ophthalmology).",
+    "pmid": "1485739",
+    "pages": "24:445-452",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/1485739/",
+    "access": "abstract_free",
+    "access_note": "Free abstract on PubMed; full text only in print archives of Annals of Ophthalmology (1992)."
+  },
+  {
+    "reference_id": "strenk_1999",
+    "title": "Age-related changes in human ciliary muscle and lens: a magnetic resonance imaging study",
+    "authors": [
+      "Sandra A. Strenk",
+      "Lawrence M. Strenk",
+      "Jerome F. Koretz"
+    ],
+    "publisher": "Investigative Ophthalmology & Visual Science",
+    "year": 1999,
+    "volume": "40(6):1162-1169",
+    "type": "journal_article",
+    "verification": "PubMed PMID 10235549 confirmed via web search 2026-10-26.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/10235549/",
+    "access": "abstract_free"
+  },
+  {
+    "reference_id": "jones_2005_grin",
+    "title": "Refractive index distribution and optical properties of the isolated human lens measured using Magnetic Resonance Imaging (MRI)",
+    "authors": [
+      "Christine E. Jones",
+      "David A. Atchison",
+      "James M. Pope"
+    ],
+    "publisher": "Vision Research",
+    "year": 2005,
+    "volume": "45(18):2352-2366",
+    "doi": "10.1016/j.visres.2005.04.022",
+    "type": "journal_article",
+    "verification": "ScienceDirect S0042698905001690 and PubMed 15979462 confirmed via web search 2026-10-26.",
+    "url": "https://doi.org/10.1016/j.visres.2005.04.022",
+    "access": "abstract_free"
+  },
+  {
+    "reference_id": "horwitz_1992",
+    "title": "Alpha-crystallin can function as a molecular chaperone",
+    "authors": [
+      "Joseph Horwitz"
+    ],
+    "publisher": "Proceedings of the National Academy of Sciences USA",
+    "year": 1992,
+    "volume": "89(21):10449-10453",
+    "doi": "10.1073/pnas.89.21.10449",
+    "type": "journal_article",
+    "verification": "PNAS page and PMC50356 confirmed via web search 2026-10-26.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC50356/",
+    "pmcid": "PMC50356",
+    "access": "free_full_text"
+  },
+  {
+    "reference_id": "heys_2004",
+    "title": "Massive increase in the stiffness of the human lens nucleus with age: the basis for presbyopia?",
+    "authors": [
+      "Karl R. Heys",
+      "Stuart L. Cram",
+      "Roger J. W. Truscott"
+    ],
+    "publisher": "Molecular Vision",
+    "year": 2004,
+    "volume": "10:956-963",
+    "type": "journal_article",
+    "verification": "Title/journal confirmed via web search 2026-10-26 (Molecular Vision open access).",
+    "pmid": "15616482",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15616482/",
+    "access": "free_full_text",
+    "access_note": "Molecular Vision is open access; full text at molvis.org (linked from PubMed)."
+  },
+  {
+    "reference_id": "augusteyn_2010",
+    "title": "On the growth and internal structure of the human lens",
+    "authors": [
+      "Robert C. Augusteyn"
+    ],
+    "publisher": "Experimental Eye Research",
+    "year": 2010,
+    "volume": "90(6):643-654",
+    "doi": "10.1016/j.exer.2010.01.013",
+    "type": "journal_article",
+    "verification": "PubMed 20171212 / PMC2871961 confirmed via web search 2026-10-26; abstract read directly.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2871961/",
+    "pmcid": "PMC2871961",
+    "access": "free_full_text"
+  },
+  {
+    "reference_id": "nishimoto_2003",
+    "title": "Nuclear cataract caused by a lack of DNA degradation in the mouse lens",
+    "authors": [
+      "Sogo Nishimoto",
+      "Kohki Kawane",
+      "Ryoko Watanabe-Fukunaga",
+      "Hitoshi Fukuyama",
+      "Katsuyoshi Ohkura",
+      "Yoh-ichi Mizuta",
+      "Takeshi Nakagawa",
+      "Shigekazu Nagata"
+    ],
+    "publisher": "Nature",
+    "year": 2003,
+    "volume": "424(6952):1071-1074",
+    "doi": "10.1038/nature01895",
+    "type": "journal_article",
+    "verification": "PubMed 12944971 and Nature doi confirmed via web search 2026-10-26; DLAD (=DNase IIbeta) finding read from abstract.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12944971/",
+    "access": "abstract_free"
+  },
+  {
+    "reference_id": "cheng_2024_lens_review",
+    "title": "Tissue, cellular, and molecular level determinants for eye lens stiffness and elasticity",
+    "authors": [
+      "Catherine Cheng"
+    ],
+    "publisher": "Frontiers in Ophthalmology",
+    "year": 2024,
+    "volume": "4:1456474",
+    "doi": "10.3389/fopht.2024.1456474",
+    "pmid": "39176256",
+    "pmcid": "PMC11339033",
+    "type": "journal_article",
+    "verification": "Full title, PMID 39176256 and PMCID PMC11339033 confirmed via PMC on 2026-10-26. Scope is lens biomechanics (stiffness/elasticity determinants at tissue/cellular/molecular levels). Previously recorded title was truncated/garbled; corrected during the 2026-10-26 verification pass. AQP0/connexin identity anchor moved to li_2022_aqp0_adhesion.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11339033/",
+    "access": "free_full_text"
+  },
+  {
+    "reference_id": "li_2022_aqp0_adhesion",
+    "title": "Beyond the Channels: Adhesion Functions of Aquaporin 0",
+    "authors": [
+      "Z. Li",
+      "et al."
+    ],
+    "publisher": "Frontiers in Cell and Developmental Biology",
+    "year": 2022,
+    "volume": "10:866980",
+    "doi": "10.3389/fcell.2022.866980",
+    "type": "journal_article",
+    "verification": "Frontiers article 10.3389/fcell.2022.866980 confirmed via web search 2026-10-26 (cited by 20): AQP0 has adhesion functions beyond its water-channel role. Added during the 2026-10-26 verification pass as the precise anchor for the AQP0 adhesion claim in lens-fibres.",
+    "url": "https://doi.org/10.3389/fcell.2022.866980",
+    "access": "free_full_text"
+  },
+  {
+    "reference_id": "genereviews_ectopia_lentis",
+    "title": "Ectopia Lentis (GeneReviews)",
+    "authors": [
+      "GeneReviews editors"
+    ],
+    "publisher": "University of Washington, Seattle",
+    "source": "NCBI Bookshelf",
+    "bookshelf_id": "NBK2594",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK2594/",
+    "type": "website",
+    "verification": "GeneReviews bookshelf entry; catalogues ADAMTS10, ADAMTS17, ADAMTSL4, LTBP2 and FBN1 ectopia lentis genes. Checked 2026-10-26.",
+    "access": "free_full_text"
+  },
+  {
+    "reference_id": "loeys_2010_ghent",
+    "title": "The revised Ghent nosology for the Marfan syndrome",
+    "authors": [
+      "Bart L. Loeys",
+      "Harry C. Dietz",
+      "Alan C. Braverman",
+      "et al."
+    ],
+    "publisher": "Journal of Medical Genetics",
+    "year": 2010,
+    "volume": "47(7):476-485",
+    "type": "journal_article",
+    "verification": "PMID 20591885 and DOI 10.1136/jmg.2009.072785 confirmed via PubMed web search 2026-10-26 (cited by 2926).",
+    "pmid": "20591885",
+    "doi": "10.1136/jmg.2009.072785",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20591885/",
+    "access": "abstract_free"
+  },
+  {
+    "reference_id": "bassnett_2020_zonule",
+    "title": "Zinn's Zonule (review)",
+    "authors": [
+      "Steven Bassnett"
+    ],
+    "publisher": "PubMed Central / NIH",
+    "year": 2020,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8139560/",
+    "type": "journal_article",
+    "verification": "PMC8139560 confirmed via web search 2026-10-26 (S Bassnett, 2020, cited by 88); used as modern zonule microfibril-assembly anchor.",
+    "access": "free_full_text"
+  },
+  {
+    "reference_id": "aao_bcsc_lens",
+    "title": "Basic and Clinical Science Course, Section 11: Lens and Cataract",
+    "authors": [
+      "American Academy of Ophthalmology"
+    ],
+    "publisher": "American Academy of Ophthalmology",
+    "type": "textbook",
+    "verification": "AAO BCSC Section 11 (PCO management, IOL optics, CTR/IFIS clinical practice); standard clinical reference, checked 2026-10-26.",
+    "access": "print_book",
+    "access_note": "AAO BCSC Section 11 is a purchased course (print/online for AAO members); no open online version."
+  },
+  {
+    "reference_id": "wieghofer_2022_hyalocytes",
+    "title": "Hyalocyte origin, structure, and imaging",
+    "authors": [
+      "Philipp Wieghofer",
+      "et al."
+    ],
+    "publisher": "Expert Review of Ophthalmology",
+    "year": 2022,
+    "doi": "10.1080/17469899.2022.2100762",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9831111/",
+    "type": "journal_article",
+    "verification": "Journal (Expert Review of Ophthalmology) and DOI 10.1080/17469899.2022.2100762 plus PMC9831111 confirmed via Europe PMC web search 2026-10-26: hyalocytes are resident macrophages of the vitreous deriving from myeloid precursors.",
+    "access": "free_full_text"
+  },
+  {
+    "reference_id": "boneva_2020_hyalocytes",
+    "title": "Transcriptional Profiling Uncovers Human Hyalocytes as a Distinct Population of Macrophages of the Eye",
+    "authors": [
+      "Sofia K. Boneva",
+      "et al."
+    ],
+    "publisher": "Frontiers in Immunology",
+    "year": 2020,
+    "volume": "11:567274",
+    "doi": "10.3389/fimmu.2020.567274",
+    "type": "journal_article",
+    "verification": "Frontiers article 10.3389/fimmu.2020.567274 confirmed via web search 2026-10-26.",
+    "url": "https://doi.org/10.3389/fimmu.2020.567274",
+    "access": "free_full_text"
+  },
+  {
+    "reference_id": "sebag_2004_anomalous_pvd",
+    "title": "Anomalous posterior vitreous detachment: a unifying concept in vitreo-retinal disease",
+    "authors": [
+      "J. Sebag"
+    ],
+    "publisher": "Graefe's Archive for Clinical and Experimental Ophthalmology",
+    "year": 2004,
+    "volume": "242(8):690-698",
+    "type": "journal_article",
+    "verification": "PMID 15309558 confirmed via PubMed web search 2026-10-26 (cited by 694); title typo (in vitro-retinal) corrected to in vitreo-retinal.",
+    "pmid": "15309558",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15309558/",
+    "access": "abstract_free"
+  },
+  {
+    "reference_id": "uchino_2001_pvd",
+    "title": "Initial stages of posterior vitreous detachment in healthy eyes of older persons evaluated by optical coherence tomography",
+    "authors": [
+      "Eiji Uchino",
+      "Akitoshi Uemura",
+      "Naoichi Ohba"
+    ],
+    "publisher": "Archives of Ophthalmology",
+    "year": 2001,
+    "volume": "119(10):1475-1479",
+    "type": "journal_article",
+    "verification": "PMID 11594947 confirmed via PubMed web search 2026-10-26 (cited by 448).",
+    "pmid": "11594947",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11594947/",
+    "access": "abstract_free"
+  },
+  {
+    "reference_id": "johnson_2010_pvd",
+    "title": "Posterior vitreous detachment: evolution and complications of its early stages",
+    "authors": [
+      "Mark W. Johnson"
+    ],
+    "publisher": "American Journal of Ophthalmology",
+    "year": 2010,
+    "volume": "149(3):371-382.e1",
+    "type": "journal_article",
+    "verification": "PMID 20172065 and DOI 10.1016/j.ajo.2009.11.022 confirmed via PubMed 2026-10-26 (cited by 601). CORRECTION: previously recorded volume 150(6) was wrong; correct citation is Am J Ophthalmol 2010 Mar;149(3):371-382.e1.",
+    "pmid": "20172065",
+    "doi": "10.1016/j.ajo.2009.11.022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20172065/",
+    "access": "abstract_free"
+  },
+  {
+    "reference_id": "hikichi_2004_fellow_eye",
+    "title": "Time course of development of posterior vitreous detachment in the fellow eye after development in the first eye",
+    "authors": [
+      "Tetsuro Hikichi",
+      "Akira Yoshida"
+    ],
+    "publisher": "Ophthalmology",
+    "year": 2004,
+    "volume": "111(9):1705-1709",
+    "type": "journal_article",
+    "verification": "PubMed 15350326 confirmed via web search 2026-10-26; 65% of fellow eyes developed PVD within 2 years.",
+    "pmid": "15350326",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15350326/",
+    "access": "abstract_free"
+  },
+  {
+    "reference_id": "stalmans_2012_ocriplasmin",
+    "title": "Enzymatic vitreolysis with ocriplasmin for vitreomacular traction and macular holes",
+    "authors": [
+      "Peter Stalmans",
+      "et al. (MIVI-TRUST study group)"
+    ],
+    "publisher": "New England Journal of Medicine",
+    "year": 2012,
+    "volume": "367(7):606-615",
+    "doi": "10.1056/NEJMoa1110823",
+    "type": "journal_article",
+    "verification": "NEJM doi confirmed via web search 2026-10-26.",
+    "url": "https://doi.org/10.1056/NEJMoa1110823",
+    "access": "abstract_free"
+  },
+  {
+    "reference_id": "bishop_2004_collagen",
+    "title": "Age-related changes on the surface of vitreous collagen fibrils",
+    "authors": [
+      "Paul N. Bishop",
+      "et al."
+    ],
+    "publisher": "Investigative Ophthalmology & Visual Science",
+    "year": 2004,
+    "volume": "45(4)",
+    "pmid": "15037566",
+    "type": "journal_article",
+    "verification": "PMID 15037566 confirmed via PubMed web search 2026-10-26 (cited by 244). Abstract confirms: ageing causes exponential loss of type IX collagen from fibril surfaces; heterotypic fibril composition (types II + V/XI + IX) per Bishop's fibril studies.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15037566/",
+    "access": "abstract_free"
+  },
+  {
+    "reference_id": "legoff_2008_vitreous",
+    "title": "Adult vitreous structure and postnatal changes",
+    "authors": [
+      "Muriel M. Le Goff",
+      "Paul N. Bishop"
+    ],
+    "publisher": "Eye",
+    "year": 2008,
+    "volume": "22(10):1214-1222",
+    "type": "journal_article",
+    "verification": "PMID 18309340 and DOI 10.1038/eye.2008.21 confirmed via PubMed/Nature web search 2026-10-26.",
+    "pmid": "18309340",
+    "doi": "10.1038/eye.2008.21",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18309340/",
+    "access": "abstract_free"
   },
   {
     "reference_id": "statpearls_cn2_optic",
@@ -199,24 +569,28 @@
     "publisher": "StatPearls Publishing",
     "source": "NCBI Bookshelf",
     "bookshelf_id": "NBK507907",
+    "pmid": "29939684",
     "url": "https://www.ncbi.nlm.nih.gov/books/NBK507907/",
     "last_updated": "2022-11-07",
     "type": "website",
-    "verification": "Full article (Introduction, Structure and Function, Pupillary Light Reflex, Accommodation Reflex, Embryology, Blood Supply and Lymphatics, Surgical Considerations, Clinical Significance) read directly on 2026-10-26 (2,597 words)."
+    "verification": "Title, full author names, affiliations and 'Last Update: November 7, 2022' read directly from the NCBI Bookshelf page on 2026-10-26; PMID and record date cross-checked via NCBI E-utilities (esummary) on 2026-10-26.",
+    "access": "free_full_text"
   },
   {
     "reference_id": "statpearls_optic_chiasm",
     "title": "Neuroanatomy, Optic Chiasm",
     "authors": [
-      "Ashley C. Ireland",
-      "Iverson B. Carter"
+      "Ireland AC",
+      "Carter IB"
     ],
     "publisher": "StatPearls Publishing",
     "source": "NCBI Bookshelf",
     "bookshelf_id": "NBK542287",
+    "pmid": "31194427",
     "url": "https://www.ncbi.nlm.nih.gov/books/NBK542287/",
-    "last_updated": "2023-05-01",
+    "last_updated": "2023-01",
     "type": "website",
-    "verification": "Full article (Introduction, Structure and Function incl. fiber orientation/size, Embryology, Blood Supply and Lymphatics, Surgical Considerations, Clinical Significance incl. chiasmal syndrome/albinism/achiasmia/NDRFFS) read directly on 2026-10-26 (5,014 words)."
+    "verification": "Title and authors (Ireland AC, Carter IB) retrieved via NCBI E-utilities (esummary, pubdate '2023 Jan') on 2026-10-26; Bookshelf ID NBK542287 confirmed via NCBI search on 2026-10-26. Author initials as listed by PubMed; full first names not independently confirmed.",
+    "access": "free_full_text"
   }
 ]

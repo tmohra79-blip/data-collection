@@ -1,0 +1,262 @@
+{
+  "entity_id": "lens",
+  "component_ids": [
+    "comp_lens"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Crystalline Lens",
+    "ar": "العدسة البلورية",
+    "aliases": [
+      "Lens",
+      "Lens of the eye",
+      "lens crystallina",
+      "العدسة",
+      "العدسة البلورية للعين"
+    ]
+  },
+  "content": {
+    "definition": "The lens is the transparent, biconvex, avascular and non-innervated body suspended behind the iris and pupil by the ciliary zonule, and it is the second major refracting component of the eye. Its high refractive index (1.39, against about 1.33 for the surrounding aqueous) and its curved surfaces give it about 15 dioptres of the eye's total refractive power of about 40 dioptres in the non-accommodating state. The lens and the zonule together form a diaphragm which divides the eye into a smaller anterior portion and a larger posterior portion, and the zonule enables the ciliary muscle to act on the lens during accommodation. Structurally the lens consists of an outer elastic capsule, a monolayer of epithelial cells confined to the anterior hemisphere, and a mass of elongated lens fibres arranged in concentric layers, so that the organ continues to grow throughout life by the addition of new fibres beneath the capsule.",
+    "location": "The lens lies behind the iris and pupil, in front of the vitreous body, whose anterior face is moulded into a cup-shaped depression — the patellar fossa — which accommodates the lens and is separated from it by the capsular (retrolenticular) space of Berger. At the margin of the patellar fossa the vitreous is adherent to the lens capsule over a ring-shaped zone, the ligamentum hyaloideocapsulare of Wieger, about 8-9 mm in diameter. The equator of the adult lens lies within the front of the ciliary processes, about 0.5 mm from them, and the entire anterior surface of the lens is bathed by aqueous humour which is replenished by bulk flow. The lens is therefore in contact with aqueous anteriorly and laterally and relates to the vitreous posteriorly through the hyaloid zonule and Wieger's ligament.",
+    "layers": [
+      "Lens capsule: the outermost acellular, elastic, transparent sheath enclosing the whole lens — the thickest basement membrane in the body — into whose outer zonular lamella the ciliary zonular fibres insert (see lens_capsule)",
+      "Lens epithelium: a single layer of cuboidal-to-columnar cells covering only the anterior hemisphere, roughly 500,000 cells in the adult, extending as far as the equator where its pre-equatorial germinative zone provides the cells that become new lens fibres (see lens_epithelium)",
+      "Lens fibres — cortex: the concentric shells of long, strap-like, hexagonal cells (about 10-12 um wide and 1.5-2 um thick at the adult equator) arching over the lens from anterior to posterior sutures; the outermost generations form the cortex",
+      "Lens nucleus: the central compacted mass formed by the fibres laid down in utero and early postnatal life — embryonic, fetal and adult nuclei are demarcated by their successive suture patterns, the fetal Y-sutures giving way to the stellate 9-point star of the mature cortex"
+    ],
+    "blood_supply": "The lens is avascular and contains no blood vessels at any stage of adult life. Its surfaces are bathed by aqueous humour which is replenished by bulk flow anteriorly, while posterior movement of aqueous is restricted by the zonular apparatus. The glucose content of the aqueous is similar to that of plasma (about 100 mg%) and slightly lower in the vitreous (90 mg%), and the oxygen tension of aqueous is about 60 mmHg. The metabolism of the lens is chiefly anaerobic through the glycolytic pathway; only 3% of glucose utilization is aerobic via the Krebs cycle, and this is confined to the epithelium and the most superficial cortical fibres, yet it may supply up to 20% of the energy requirements of the lens.",
+    "venous_drainage": null,
+    "innervation": null,
+    "histology_summary": "The adult lens has an equatorial diameter of 9-10 mm (6.5 mm at birth) and an axial width that increases from about 3.5-4.0 mm at birth to 4.75-5.0 mm in extreme age; the central anterior radius of curvature is about 10 mm (range 8-14 mm) and the posterior radius about 6 mm (range 4.5-7.5 mm). The lens grows continuously throughout life, adding about 29 um per year to its sagittal thickness; in the first two decades after birth sagittal expansion largely ceases while growth continues in the equatorial plane, and this period is dominated by compaction of the central (nuclear) fibres, so that the total sagittal width is relatively stationary while nuclear width decreases (Figs 12.36 and 12.37). Fibres are laid down in concentric layers — the outermost in the cortex, the innermost in the nucleus — and because the lens is about 6.5 mm wide at birth, the junction between fetal and postnatal fibres marks the width of the postnatal nucleus. The nucleated zone of the adult lens averages 300-500 um in thickness, and deeper fibres lose their nuclei and organelles, so that the mature lens interior consists of tightly packed, organelle-poor cells containing the highest protein content of any cell in the body — about 35% of wet weight. Graded changes of refractive index pass inwards from cortex to nucleus, correlating with the protein content and conferring relative freedom from chromatic aberration. On biomicroscopy the growth shells are seen as zones of optical discontinuity, and with age the lens yellows through chromophores absorbing ultraviolet light in the range 315-400 nm.",
+    "clinical_importance": "The accommodation amplitude of the lens declines from 15-16 dioptres at birth to half that by the age of 25 years and to 2 dioptres or less at 50 years — the anatomical basis of presbyopia, which develops as sagittal growth stops, nuclear compaction proceeds and the lens stiffens. Opacity of the lens (cataract) arises from zones of increased scattering caused by breakdown of fibre regularity, membrane degradation products, and macromolecular aggregates of crystallins; in the ageing nucleus proteins do not turn over significantly, so they are extremely long-lived and vulnerable to oxidative damage, with cross-linked insoluble aggregates producing the brunescent yellow-brown colour of senile nuclear cataract. The yellowing pigments may serve to screen the retina from damaging short-wave blue light. A traumatic lens opacity is clinically valuable as a natural marker: as the central fibres compact, the opacity recedes from the lens surface at approximately twice the speed at which the lens grows, which allows contusion opacities to be dated. Because the lens contributes about 15 of the eye's 40 dioptres, its surgical removal leaves the eye aphakic and optically under-powered unless corrected. The growth-shell zones of optical discontinuity are used in slit-lamp biomicroscopy to age the lens and to localize opacities to embryonic, fetal, infantile or adult tissue. Modern imaging has refined this account: high-resolution magnetic resonance imaging of emmetropes (Strenk, Strenk and Koretz 1999) directly demonstrated the age-related decline of the circumlental space that underlies the halving of accommodation amplitude by the mid-twenties, and MRI measurement of the lens gradient refractive index (Jones, Atchison and Pope 2005) showed that the internal refractive-index distribution, not merely lens shape, determines power and its age change. The classical Helmholtz mechanism has also been challenged by Schachar (1992), who proposed that equatorial zonular tension rises during accommodative effort and stretches the peripheral lens; this alternative theory remains controversial, but it re-directed quantitative research onto capsule and zonule biomechanics."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "globe",
+      "target_name": "Eyeball (Globe) — the lens and zonule form a diaphragm dividing it into anterior and posterior portions"
+    },
+    {
+      "relation_type": "suspended_by",
+      "target_id": "ciliary_zonule",
+      "target_name": "Ciliary Zonule (Zonule of Zinn / Suspensory Ligament of the Lens)"
+    },
+    {
+      "relation_type": "posterior_to",
+      "target_id": "iris",
+      "target_name": "Iris and Pupil (aqueous bathes the anterior lens surface)"
+    },
+    {
+      "relation_type": "anterior_to",
+      "target_id": "vitreous",
+      "target_name": "Vitreous Body (lies in the patellar fossa; attached by Wieger's ligament over 8-9 mm)"
+    },
+    {
+      "relation_type": "acted_upon_by",
+      "target_id": "ciliary_muscle",
+      "target_name": "Ciliary Muscle (changes zonular tension during accommodation)"
+    },
+    {
+      "relation_type": "has_part",
+      "target_id": "lens_capsule",
+      "target_name": "Lens Capsule"
+    },
+    {
+      "relation_type": "has_part",
+      "target_id": "lens_epithelium",
+      "target_name": "Lens Epithelium (anterior hemisphere)"
+    },
+    {
+      "relation_type": "has_part",
+      "target_id": "lens_fibres",
+      "target_name": "Lens Fibres (cortex and nucleus)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "lens",
+      "crystalline lens",
+      "lens anatomy",
+      "refractive power",
+      "accommodation",
+      "presbyopia",
+      "cataract",
+      "lens growth",
+      "nuclear compaction",
+      "zones of optical discontinuity",
+      "wieger ligament",
+      "patellar fossa",
+      "berger space",
+      "العدسة",
+      "العدسة البلورية",
+      "قوة الانكسار",
+      "التكيف البصري",
+      "طول النظر الشيخي",
+      "المياه البيضاء",
+      "المياه الزرقاء",
+      "التركيب النووي",
+      "نفق وايجر",
+      "الفضاء البرجر"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "strenk_1999",
+      "jones_2005_grin",
+      "schachar_1992"
+    ],
+    "last_updated": "2026-10-26",
+    "version": "1.1.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            411,
+            412,
+            413,
+            435
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            411,
+            412,
+            413,
+            414
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            443
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            414,
+            415,
+            416
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            421,
+            422,
+            423
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            432,
+            433,
+            434
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            411,
+            412,
+            413,
+            414
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            421,
+            422
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            432,
+            433,
+            434
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "12",
+          "pages": [
+            411,
+            412,
+            413,
+            434
+          ]
+        },
+        {
+          "reference_id": "strenk_1999",
+          "section": "Age-related changes in human ciliary muscle and lens (MRI)"
+        },
+        {
+          "reference_id": "jones_2005_grin",
+          "section": "GRIN distribution by MRI"
+        },
+        {
+          "reference_id": "schachar_1992",
+          "section": "Alternative (equatorial tension) theory of accommodation"
+        }
+      ]
+    }
+  ]
+}

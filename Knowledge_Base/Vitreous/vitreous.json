@@ -1,0 +1,234 @@
+{
+  "entity_id": "vitreous",
+  "component_ids": [
+    "comp_vitreous"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Vitreous Body",
+    "ar": "جسم الزجاجي",
+    "aliases": [
+      "Vitreous humour",
+      "corpus vitreum",
+      "vitreous gel",
+      "patellar fossa",
+      "fossa patellaris",
+      "ciliary space of Berger",
+      "hyaloid canal",
+      "canal of Cloquet",
+      "area of Martegiani",
+      "primary vitreous",
+      "secondary vitreous",
+      "ligamentum hyaloideocapsulare of Wieger",
+      "الجسم الزجاجي",
+      "الزجاجي",
+      "الرطوبة الزجاجية",
+      "الفجوة الرضفية",
+      "فضاء بيرجر",
+      "قناة كلوكيه",
+      "قناة الزرارة",
+      "منطقة مارتجياني",
+      "الزجاج الأولي",
+      "الزجاج الثانوي",
+      "رباط فيجر"
+    ]
+  },
+  "content": {
+    "definition": "The vitreous humour is a transparent colourless gel of a consistency somewhat firmer than egg white (Fig 13.1). It fills the posterior four-fifths of the globe and is in contact with the retina behind and the ciliary body, zonule and lens in front (Fig 6.7). The vitreous body is roughly spherical but is flattened anteriorly, where it exhibits a cup-shaped anterior depression, the patellar fossa, which accommodates the lens and is separated from it by the ciliary space of Berger (Figs 13.2 and 13.3). At the margin of the patellar fossa the vitreous is adherent to the lens capsule over a ring-shaped zone, the ligamentum hyaloideocapsulare of Wieger, 8-9 mm in diameter. Although anatomic fusion of these tissues has not been demonstrated, the union is strong in youth; by the sixth decade, however, it becomes sufficiently weak to permit intracapsular extraction of the lens without pulling on the anterior face of the vitreous.",
+    "location": "The vitreous fills the posterior four-fifths of the globe. Anteriorly (Fig 13.3) the ora serrata (1) is the termination of the retina; the vitreous base (2) extends forwards for about 2 mm over the ciliary body and posteriorly about 4 mm over the peripheral retina, where its collagen is oriented at right angles to the surface of the retina and ciliary body, while anteriorly over the pars plana it has a more parallel orientation to the inner surface of the ciliary body. The posterior hyaloid (4) is continuous with the retina and the anterior hyaloid (3) with the zonules and lens; the ligamentum hyaloideocapsulare lies at (5) and the space of Berger at (6). Outside the ring of attachment at the lens the vitreous is intimately apposed to the ciliary processes, which indent its anterior face, or to the fibres of the ciliary zonule. The hyaloid canal (of Cloquet) runs a sinuous course from the post-lenticular space of Berger, from a point slightly nasal to the posterior lens pole, to the funnel-shaped space (the area of Martegiani) in front of the optic disc; the canal is 1-2 mm wide and represents the site of the primary vitreous and the fetal hyaloid artery.",
+    "layers": [
+      "Preretinal zone (1): bounded on the outer side by the retina; delineated from the retrolental zone by the preretinal (hyaloid) tract (Fig 13.8)",
+      "Intermediate zone (2): bounded anteriorly by the epiciliary portion of the anterior hyaloid membrane and by the ciliary epithelium of the posterior pars plana — the vitreous base",
+      "Retrolental zone (3): bounded anteriorly by the patellar fossa of the lens; separated from the intermediate zone by the preretinal tract",
+      "Intraocular spaces in relation to the vitreous (Fig 13.2, after Cibis 1965): the posterior, middle and anterior portions of Cloquet's canal with the space of Martegiani at its funnel-shaped posterior end; the space of Berger between lens and patellar fossa; the canal of Petit; the hyaloideo-orbicular space; the canal of Hannover; the indo-zonular and indocapsular spaces; and the anterior chamber anterior to the lens"
+    ],
+    "blood_supply": "The adult vitreous is avascular and is nourished by diffusion: its composition is similar to that of aqueous apart from quantitative and regional differences, and there is free diffusion of water between the vitreous and aqueous compartments (Davson 1980). The gel structure restricts the movement of large solute molecules across the vitreous, which may influence the diffusion and removal of drugs and other materials into and from the vitreous body. Developmentally the hyaloid canal of Cloquet marks the site of the primary vitreous occupied by the fetal hyaloid artery: its walls are formed by condensation of vitreous (Mann 1927; Goldmann 1954; Busacca, Goldmann and Schiff-Wertheimer 1957), and multilayered fenestrated structures found in Cloquet's canal in adult human and primate eyes have been thought to represent the sheaths of the media of the embryonic hyaloid artery and its branches. Occasional cells are found within the canal and a network of fine collagen outside it (Balazs 1973); Eisner believes the prenatal hyaloid canal disappears completely after birth and is replaced by a retrolental tract that develops anteriorly in the first four years of life and extends posteriorly in adolescence.",
+    "venous_drainage": null,
+    "innervation": null,
+    "histology_summary": "Histological studies of vitreous structure in the eighteenth and nineteenth centuries provided four different hypotheses: the alveolar theory (Demours, 1741), the lamellar theory (Zinn, 1780), the radial sector theory (Hannover, 1845) and the fibrillar theory (Szent-Gyorgi, 1917). In 1849 Bowman claimed that these descriptions were incorrect, due to fixative artefacts. Although introduction of the slit-lamp biomicroscope enabled in situ observation of the vitreous, an equal variety of descriptions followed: Gulstrand (1912) described membranes, Koeppe (1917) saw fibres and Friedenwald and Stiehler (1935) observed concentric sheets. Eisner, using slit-lamp microscopy in both living and dead eyes with special conditions of illumination, proposed the definitive account (Eisner, 1971, 1973a,b, 1975, 1982). At birth the vitreous structure is homogeneous, showing a finely striated pattern (Figs 13.4 and 13.5); at this stage a denser outer cortex and an inner central vitreous are not established, and narrow transvitreal 'channels' of lower density traverse its substance from the periphery. In the dissected eye of a 9-month-old infant the extent of the vitreous base is seen as a grey band at the ora serrata (Fig 13.1). The secondary vitreous forms the bulk of the adult gel, while the primary vitreous survives only as the hyaloid canal within it.",
+    "clinical_importance": "The strength of the hyaloideocapsular union governs lens surgery: it is strong in youth but by the sixth decade becomes sufficiently weak to permit intracapsular extraction of the lens without pulling on the anterior face of the vitreous, and the Wieger ring is also the site that receives the insertion of the hyaloid portion of the zonule. The multilayered structure of the walls of Cloquet's canal may contribute to its visibility during slit-lamp examination, and its funnel-shaped posterior end (area of Martegiani) in front of the optic disc is a standard biomicroscopic landmark. The patellar fossa, the space of Berger and the canal of Petit define the relations of the lens and zonule to the vitreous face during extracapsular and intracapsular surgery and during posterior segment instrumentation, and the topographic zones (preretinal, intermediate and retrolental) provide the reference framework for describing vitreous structure and its detachments. Knowledge of the vitreous base extending 2 mm anteriorly over the ciliary body and 4 mm posteriorly over the peripheral retina underlies all discussion of peripheral vitreoretinal traction. Optical coherence tomography has made these events visible in vivo: in healthy older persons posterior vitreous detachment begins as a perifoveal separation that progresses through defined OCT stages (Uchino, Uemura and Ohba 2001), and the concept of anomalous posterior vitreous detachment (Sebag 2004) unifies vitreomacular traction, macular hole and epiretinal membrane as failures of complete separation. Pharmacologic vitreolysis has also entered practice: intravitreal ocriplasmin, a truncated protease that cleaves fibronectin and laminin at the vitreoretinal interface, resolved vitreomacular traction and closed macular holes significantly more often than placebo in the randomized MIVI-TRUST trials (Stalmans et al. 2012, New England Journal of Medicine)."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "globe",
+      "target_name": "Eyeball (the vitreous fills the posterior four-fifths of the globe)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "retina",
+      "target_name": "Retina (in contact with the retina behind; posterior hyaloid continuous with it, vitreous base 4 mm over peripheral retina)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "lens",
+      "target_name": "Lens (patellar fossa accommodates the lens, separated by the ciliary space of Berger)"
+    },
+    {
+      "relation_type": "attached_to",
+      "target_id": "lens_capsule",
+      "target_name": "Lens Capsule (ring-shaped ligamentum hyaloideocapsulare of Wieger, 8-9 mm diameter)"
+    },
+    {
+      "relation_type": "contains_remnant_of",
+      "target_id": "cloquets_canal",
+      "target_name": "Canal of Cloquet (hyaloid canal from lens to disc; site of primary vitreous and fetal hyaloid artery)"
+    },
+    {
+      "relation_type": "acted_upon_by",
+      "target_id": "ciliary_zonule",
+      "target_name": "Ciliary Zonule (hyaloid portion of the zonule inserts at the Wieger ring; anterior face apposed to zonular fibres)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "vitreous body",
+      "vitreous humour",
+      "corpus vitreum",
+      "patellar fossa",
+      "space of Berger",
+      "canal of Cloquet",
+      "hyaloid canal",
+      "area of Martegiani",
+      "primary vitreous",
+      "secondary vitreous",
+      "Wieger ligament",
+      "hyaloideocapsular ligament",
+      "vitreous base",
+      "topographic zones",
+      "preretinal zone",
+      "intermediate zone",
+      "retrolental zone",
+      "intracapsular extraction",
+      "transvitreal channels",
+      "جسم الزجاجي",
+      "الزجاجي",
+      "الفجوة الرضفية",
+      "فضاء بيرجر",
+      "قناة كلوكيه",
+      "منطقة مارتجياني",
+      "الزجاج الأولي",
+      "الزجاج الثانوي",
+      "رباط فيجر",
+      "قاعدة الزجاجي",
+      "المناطق التشريحية للزجاجي"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "uchino_2001_pvd",
+      "sebag_2004_anomalous_pvd",
+      "stalmans_2012_ocriplasmin"
+    ],
+    "last_updated": "2026-10-26",
+    "version": "1.1.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            443
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            443,
+            444
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            443,
+            446
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            443,
+            444,
+            452
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            443,
+            444
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            443,
+            444
+          ]
+        },
+        {
+          "reference_id": "uchino_2001_pvd",
+          "section": "OCT stages of initial PVD in healthy older eyes"
+        },
+        {
+          "reference_id": "sebag_2004_anomalous_pvd",
+          "section": "Anomalous PVD unifying concept"
+        },
+        {
+          "reference_id": "stalmans_2012_ocriplasmin",
+          "section": "Ocriplasmin vitreolysis (MIVI-TRUST)"
+        }
+      ]
+    }
+  ]
+}

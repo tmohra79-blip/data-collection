@@ -1,0 +1,218 @@
+{
+  "entity_id": "vitreous_composition",
+  "component_ids": [
+    "comp_vitreous"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Vitreous Composition",
+    "ar": "تركيب الجسم الزجاجي",
+    "aliases": [
+      "vitreous biochemistry",
+      "vitreous gel composition",
+      "hyaluronic acid of vitreous",
+      "vitreous hyaluronate",
+      "type II collagen of vitreous",
+      "vitreous collagen types IX and XI",
+      "vitreous viscosity",
+      "vitreous volume",
+      "vitreous water content",
+      "glycosaminoglycan coating of fibrils",
+      "ruthenium red staining",
+      "phosphotungstic acid periodicity",
+      "تركيب الزجاجي",
+      "الكيمياء الحيوية للزجاجي",
+      "حمض الهيالورونيك في الزجاجي",
+      "كولاجين النوع الثاني",
+      "كولاجين النوع التاسع والحادي عشر",
+      "لزوجة الزجاجي",
+      "حجم الزجاجي",
+      "الماء في الزجاجي",
+      "الطبقة السكرية للخيوط",
+      "صبغة الروثينيوم الأحمر"
+    ]
+  },
+  "content": {
+    "definition": "The vitreous is 99% water and its volume is about 4.0 ml. The liquid phase of the vitreous gel contains hyaluronic acid, and it is this high molecular weight proteoglycan (33-61 kDa) which is responsible for its characteristic high viscosity. The concentration in human vitreous is 0.03-0.1% (Balazs 1973), and the molecular diameter of the hyaluronic acid is in the region of 0.1-0.5 um. The vitreous also contains a fine fibrillar collagen which is different from that found in the ocular coats or lens capsule, together with a solute content that is in other respects similar to that of aqueous, apart from quantitative and regional differences.",
+    "location": "The constituents are distributed through the gel that fills the posterior four-fifths of the globe (see card vitreous). Composition shows quantitative and regional differences from aqueous humour, with which there is free diffusion of water between the vitreous and aqueous compartments (Davson 1980). The movement of large solute molecules across the vitreous is restricted by its gel-like structure, which may influence the distribution, delivery and removal of drugs and other materials into and from the vitreous body.",
+    "layers": [
+      "Water: 99% of the vitreous; total volume of the gel about 4.0 ml",
+      "Hyaluronic acid: a high molecular weight proteoglycan (33-61 kDa) in the liquid phase of the gel, responsible for the characteristic high viscosity; concentration in human vitreous 0.03-0.1% (Balazs 1973); molecular diameter in the region of 0.1-0.5 um",
+      "Fine fibrillar collagen (type II): relatively resistant to trypsin and alpha-chymotrypsin but digested by pepsin and collagenase; biochemically type II collagen with a moderate sugar content, though lower than that of the basement membrane collagens; types IX and XI collagen are also present",
+      "Aqueous-like solutes: the composition of vitreous is in other respects similar to that of aqueous, apart from quantitative and regional differences, with free diffusion of water between the two compartments (Davson 1980)"
+    ],
+    "blood_supply": "The vitreous is avascular; its nourishment is by diffusion, and its composition being similar to that of aqueous apart from quantitative and regional differences underlies the free diffusion of water between the vitreous and aqueous compartments (Davson 1980). The gel-like structure restricts the movement of large solute molecules across the vitreous, which may influence the distribution, delivery and removal of drugs and other materials into and from the vitreous body.",
+    "venous_drainage": null,
+    "innervation": null,
+    "histology_summary": "The fine fibrillar collagen of the vitreous is relatively resistant to trypsin and alpha-chymotrypsin, but digested by pepsin and collagenase - a different behaviour from the collagen of the ocular coats or lens capsule. Biochemically it is type II collagen with a moderate sugar content, lower than that of the basement membrane collagens; types IX and XI are also present. Fibrillar diameter is in the region of 6-16 nm with a microperiodicity of 22 nm; a 64 nm periodicity can be shown using phosphotungstic acid staining and shadow casting (Schwarz 1956; Balazs 1961; Fine and Tousimis 1961; Hogan 1963; Swan 1980). The collagen fibrils are coated with glycosaminoglycan, stainable with ruthenium red and removable with hyaluronidase (Brini, Porte and Stoeckel 1968). The structural partnership of the two main constituents is summarized in Balazs' schematic representation of collagen fibrils and sodium hyaluronate molecules in gel vitreous (Fig 13.16): a collagen filament about 10 nm wide with hyaluronic acid coils of about 150 nm, the elements repeated over a span of about 1200 nm, with liquid vitreous between the collagen fibres - Balazs proposed that the large molecules of hyaluronic acid maintain a physical separation of collagen filaments and hence maintain a high degree of optical transparency (see card vitreous_cortex, central vitreous). Modern quantitative work refines two of these figures. The fibrillar scaffold is now understood as heterotypic: each fibril is a composite of collagen type II with the hybrid type V/XI and surface-anchored type IX, and ageing changes occur on the fibril surface, altering its interaction with the surrounding macromolecules (Bishop 2004, Investigative Ophthalmology and Visual Science; Le Goff and Bishop 2008). The hyaluronic acid quoted by Wolff as a proteoglycan of 33-61 kDa corresponds, in modern measurements, to polydisperse hyaluronan chains of megadalton scale (commonly about 2-4 MDa), far larger than the 33-61 kDa figure - whatever the basis of that earlier preparation, the functional principle stated by Balazs, that very large hyaluronan molecules physically separate the collagen fibrils and thereby maintain transparency, stands confirmed (Le Goff and Bishop 2008).",
+    "clinical_importance": "The gel-like structure of the vitreous restricts the movement of large solute molecules across it, which may influence the distribution, delivery and removal of drugs and other materials into and from the vitreous body - the biochemical basis of intravitreal pharmacotherapy behaviour (Davson 1980). The distinctive enzymatic behaviour of vitreous type II collagen (resistant to trypsin and alpha-chymotrypsin but digestible by pepsin and collagenase) distinguishes it from the collagen of the ocular coats and lens capsule. Hyaluronic acid (0.03-0.1%, 33-61 kDa, Balazs 1973) provides the characteristic high viscosity on which the gel mechanics of the vitreous depend, and its physical separation of collagen filaments maintains optical transparency. The free diffusion of water between vitreous and aqueous compartments (Davson 1980) links the composition of the two humours despite the gel barrier to larger solutes."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "vitreous",
+      "target_name": "Vitreous Body (composition describes the biochemical make-up of the gel filling the posterior four-fifths of the globe)"
+    },
+    {
+      "relation_type": "composed_of",
+      "target_id": "hyaluronic_acid",
+      "target_name": "Hyaluronic Acid (high molecular weight proteoglycan 33-61 kDa, 0.03-0.1%, diameter 0.1-0.5 um; responsible for high viscosity; Balazs 1973)"
+    },
+    {
+      "relation_type": "composed_of",
+      "target_id": "collagen_type_ii",
+      "target_name": "Type II Collagen (fine fibrils 6-16 nm, microperiodicity 22 nm, 64 nm PTA periodicity; types IX and XI also present; coated with glycosaminoglycan - Brini, Porte and Stoeckel 1968)"
+    },
+    {
+      "relation_type": "exchanges_water_with",
+      "target_id": "aqueous_humour",
+      "target_name": "Aqueous Humour (composition otherwise similar to aqueous apart from quantitative and regional differences; free diffusion of water between the compartments - Davson 1980)"
+    },
+    {
+      "relation_type": "restricts_passage_of",
+      "target_id": "large_solute_molecules",
+      "target_name": "Large Solute Molecules (gel-like structure restricts their movement across the vitreous, influencing distribution, delivery and removal of drugs - Davson 1980)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "vitreous composition",
+      "vitreous biochemistry",
+      "hyaluronic acid",
+      "hyaluronate",
+      "type II collagen",
+      "collagen type IX",
+      "collagen type XI",
+      "vitreous viscosity",
+      "vitreous volume",
+      "vitreous water content",
+      "glycosaminoglycan",
+      "ruthenium red",
+      "hyaluronidase",
+      "phosphotungstic acid",
+      "vitreous transparency",
+      "drug delivery vitreous",
+      "trypsin resistance",
+      "pepsin collagenase",
+      "تركيب الزجاجي",
+      "الكيمياء الحيوية للزجاجي",
+      "حمض الهيالورونيك",
+      "كولاجين النوع الثاني",
+      "كولاجين النوع التاسع",
+      "كولاجين النوع الحادي عشر",
+      "لزوجة الزجاجي",
+      "حجم الجسم الزجاجي",
+      "محتوى الماء",
+      "الشفافية البصرية",
+      "حقن الزجاجي",
+      "الجليكوزامينوجليكان"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "bishop_2004_collagen",
+      "legoff_2008_vitreous"
+    ],
+    "last_updated": "2026-10-26",
+    "version": "1.1.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            452
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            452
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            452
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            452
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            450,
+            452
+          ]
+        },
+        {
+          "reference_id": "bishop_2004_collagen",
+          "section": "Heterotypic fibrils: types II + V/XI + IX; surface ageing"
+        },
+        {
+          "reference_id": "legoff_2008_vitreous",
+          "section": "Modern HA scale (megadalton) and fibril-hyaluronan partnership"
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "13",
+          "pages": [
+            452
+          ]
+        }
+      ]
+    }
+  ]
+}
