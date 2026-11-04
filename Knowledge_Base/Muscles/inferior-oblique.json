@@ -1,0 +1,239 @@
+{
+  "entity_id": "inferior_oblique",
+  "component_ids": [
+    "comp_muscle_inferior_oblique"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Inferior Oblique Muscle",
+    "ar": "العضلة المائلة السفلية",
+    "aliases": [
+      "Inferior oblique",
+      "IO",
+      "obliquus inferior",
+      "obliquus oculi inferior",
+      "arcuate expansion",
+      "المائلة السفلية",
+      "العضلة المائلة السفلية"
+    ]
+  },
+  "content": {
+    "definition": "The inferior oblique is the only extraocular muscle attached near the front of the orbit, and it also has the shortest tendon of insertion — inevitable if it is to match the belly of the superior oblique. Its rounded tendon arises from a small depression on the orbital plate of the maxilla a little behind the orbital margin, and the muscle runs posterolaterally at about 45° between the inferior rectus and the orbital floor to a very short tendinous attachment in the inferior posterolateral quadrant of the globe. Its primary action is elevation, greatest in adduction, and it is supplied by the inferior division of the oculomotor nerve.",
+    "location": "The rounded tendon of origin is attached to a small depression on the orbital plate of the maxilla a little behind the orbital margin and just lateral to the orifice of the nasolacrimal duct; some of its fibres may, in fact, arise from the fascia covering the lacrimal sac (Figs 4.33, 5.20 and 5.22). The muscle is inclined posterolaterally at an angle of about 45° with the anteroposterior plane, almost parallel with the tendon of the superior oblique, passing between the inferior rectus and the orbital floor. Near the lateral rectus it is attached by a very short tendon to the inferior posterolateral quadrant of the globe, largely below the horizontal meridian (Fig 11.2): the line of attachment is oblique, 9.4 mm long and convex upwards, and its posterior or nasal end is about 5 mm from the optic nerve, thus lying practically over the macula (only 2.2 mm from it) (Poirier 1911; Fig 4.31). The anterior temporal end lies in about the same meridian as the lower end of the insertion of the lateral rectus.",
+    "layers": [
+      "Origin — a rounded tendon attached to a small depression on the orbital plate of the maxilla a little behind the orbital margin and just lateral to the orifice of the nasolacrimal duct; some fibres may arise from the fascia covering the lacrimal sac; the only extraocular muscle attached near the front of the orbit.",
+      "Course — inclined posterolaterally at about 45° with the anteroposterior plane, almost parallel with the tendon of the superior oblique, passing between the inferior rectus and the orbital floor.",
+      "Insertion — attached near the lateral rectus by a very short tendon (the shortest tendon of insertion of the extraocular muscles; some of its muscle fibres are attached directly to sclera) to the inferior posterolateral quadrant of the globe, largely below the horizontal meridian; the line of attachment is oblique, 9.4 mm long and convex upwards; the attachment is higher in its quadrant than would be expected if it were a perfect reciprocal to the superior oblique; the posterior or nasal end is about 5 mm from the optic nerve and thus practically over the macula (only 2.2 mm from it) (Poirier 1911); the anterior temporal end lies in about the same meridian as the lower end of the lateral rectus insertion.",
+      "Plane of action — the average angle of the plane of action of the superior and inferior oblique muscles with the vertical anteroposterior plane is 45°, but the variations in the planes of muscle action are enormous; narrowing this angle reduces the torsional action of the muscle and increases its vertical action, while widening the angle achieves the reverse; extremes of these variations result in anomalous 'A' and 'V' patterns of movement in vertical gaze (Fells 1975).",
+      "Relations — the inferior surface is in contact with the periosteum of the orbital floor, to which it is sometimes described as sending a fibrous extension (the arcuate expansion) (Fig 4.47), but laterally it is separated from it by fat; as the muscle twists slightly to its global attachment, its inferior surface becomes lateral and is covered by the lateral rectus and the fascia bulbi; above, it is in contact with fat and the inferior rectus, finally spreading out as it reaches the globe.",
+      "Nerve entry — the inferior division of the oculomotor nerve crosses near the midpoint of the muscle's posterior border to enter the muscle on its superior surface."
+    ],
+    "blood_supply": "The inferior oblique is served by the infraorbital artery and by the medial muscular branch of the ophthalmic artery.",
+    "venous_drainage": null,
+    "innervation": "The inferior division of the oculomotor (third cranial) nerve, which crosses near the midpoint of the muscle's posterior border to enter the muscle on its superior surface.",
+    "histology_summary": "Extraocular muscle fine structure (Wolff 4.7-4.8, printed 119-132): six Spencer and Porter (1981) fibre types in two zones — orbital zone: type 1 singly innervated fast twitch (80% of the orbital layer, capillary-ringed, fatigue resistant) and type 2 multiply innervated tonic (20%, 'amphibian tonic', acid-stable ATPase only in the proximal and distal thirds); global zone: type 3 red singly innervated (30%), type 4 intermediate singly innervated (25%), type 5 pale singly innervated (30%, resembles skeletal IIB, lowest fatigue resistance) and type 6 multiply innervated tonic (10%, felderstruktur, en grappe endings). Ocular fibres carry up to ten heavy myosin isoforms including an extraocular-specific fast myosin — no cross-reaction with skeletal muscle — explaining the fastest contraction of any muscle and a very low specific tension output (rat inferior rectus about one-third to one-half of rat limb muscle). Motor end plates (en plaque) occupy a 1-2 mm band in the middle third of the belly; about 85% of human extraocular muscle is en plaque innervated (the levator entirely so); en grappe endings concentrate in the distal third. Ageing brings a differential loss of type II fibres from orbital then global layers (Lyness 1986). Per-muscle data: the most poorly endowed with spindles — 4.3 +/- 1.8 (Lukas et al. 1995); Table 4.11 — Voss 1957: 0; Inoue 1958: 26 (p.132). The cat inferior oblique is the textbook example that tonic (multiply innervated) fibres have plentiful mitochondria in orbital fibres but sparse ones in global fibres (Alvarado and Van Horn 1975) (p.126).",
+    "clinical_importance": "The inferior oblique elevates the visual axis because it depresses the posterior aspect of the globe; like the superior oblique it attaches below the anteroposterior axis and thus extorts the eye. The primary action is elevation, which increases as the eye is adducted and is nil in abduction — the inferior oblique is the only elevator in adduction. The subsidiary actions, abduction and extorsion, increase with abduction and decrease with adduction. Variations in the oblique planes of action produce the anomalous 'A' and 'V' patterns of vertical gaze (Fells 1975). The position of its posterior (nasal) end — about 5 mm from the optic nerve and practically over the macula, only 2.2 mm from it (Poirier 1911) — and its very short tendon, with some muscle fibres attaching directly to sclera, are the key facts for any surgery in the inferotemporal quadrant. Its inferior surface is connected to the orbital floor periosteum, sometimes by the fibrous arcuate expansion."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "extraocular_muscles",
+      "target_name": "Extraocular Muscles (the only one attached near the front of the orbit)"
+    },
+    {
+      "relation_type": "arises_from",
+      "target_id": "maxilla",
+      "target_name": "Maxilla, orbital plate (rounded tendon to a small depression just behind the orbital margin, lateral to the nasolacrimal duct orifice; some fibres from the fascia of the lacrimal sac)"
+    },
+    {
+      "relation_type": "inserts_into",
+      "target_id": "sclera",
+      "target_name": "Sclera (very short tendon to the inferior posterolateral quadrant, largely below the horizontal meridian; line of attachment oblique, 9.4 mm, convex upwards; posterior end about 5 mm from the optic nerve, 2.2 mm from the macula)"
+    },
+    {
+      "relation_type": "innervated_by",
+      "target_id": "oculomotor_nerve",
+      "target_name": "Oculomotor (III) nerve, inferior division (crosses near the midpoint of the posterior border and enters on the superior surface)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "inferior_rectus",
+      "target_name": "Inferior Rectus Muscle (the inferior oblique passes between the inferior rectus and the orbital floor, and crosses below it near the lateral rectus)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "macula",
+      "target_name": "Macula (the posterior or nasal end of the insertion lies practically over the macula, only 2.2 mm from it — Poirier 1911)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "orbital_floor",
+      "target_name": "Orbital floor periosteum (inferior surface in contact; sometimes sending the fibrous arcuate expansion — Fig 4.47)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "inferior oblique",
+      "only extraocular muscle attached near the front of the orbit",
+      "shortest tendon of insertion",
+      "orbital plate of maxilla",
+      "nasolacrimal duct orifice",
+      "fascia of lacrimal sac",
+      "45 degrees inclination",
+      "inferior posterolateral quadrant",
+      "line of attachment 9.4 mm",
+      "posterior end 5 mm from optic nerve",
+      "macula 2.2 mm",
+      "Poirier 1911",
+      "arcuate expansion",
+      "orbital floor periosteum",
+      "primary action elevation",
+      "only elevator in adduction",
+      "extorsion",
+      "abduction",
+      "A and V patterns",
+      "Fells 1975",
+      "inferior division of oculomotor",
+      "infraorbital artery",
+      "العضلة المائلة السفلية",
+      "المائلة السفلية",
+      "الرفع",
+      "الدوران الخارجي",
+      "الصفيحة الحجاجية للفك العلوي",
+      "البقعة",
+      "نمط A و V",
+      "امتداد قوسي",
+      "fibre types",
+      "twitch fibres",
+      "tonic fibres",
+      "orbital layer",
+      "global layer",
+      "Spencer and Porter",
+      "muscle spindles",
+      "extraocular myosin",
+      "أنواع الألياف",
+      "المغازل العضلية",
+      "الطبقة الحجاجية",
+      "الطبقة الكروية"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-11-04",
+    "version": "1.1.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            143
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            143
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            143
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            143
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            143
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            119,
+            132
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            126
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            132
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            143
+          ]
+        }
+      ]
+    }
+  ]
+}

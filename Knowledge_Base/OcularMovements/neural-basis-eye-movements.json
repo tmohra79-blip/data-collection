@@ -1,0 +1,226 @@
+{
+  "entity_id": "neural_basis_eye_movements",
+  "component_ids": [
+    "comp_muscle_medial_rectus",
+    "comp_muscle_lateral_rectus",
+    "comp_muscle_superior_rectus",
+    "comp_muscle_inferior_rectus",
+    "comp_muscle_superior_oblique",
+    "comp_muscle_inferior_oblique"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Neural Basis for Eye Movements (cortex, cerebellum, vestibular apparatus, superior colliculus)",
+    "ar": "الأساس العصبي لحركات العين (القشرة والمخيخ والجهاز الدهليزي والتبدل العلوي)",
+    "aliases": [
+      "frontal eye fields",
+      "area 8",
+      "striate cortex",
+      "parietal area 7",
+      "angular gyrus",
+      "cerebellar control of gaze",
+      "flocculonodular lobe",
+      "vestibulocerebellum",
+      "vestibular nuclei",
+      "semicircular canals",
+      "cupula",
+      "otoconia",
+      "Flourens law",
+      "superior colliculus",
+      "stratum opticum",
+      "perihypoglossal nuclei",
+      "nucleus prepositus hypoglossi",
+      "medial longitudinal fasciculus",
+      "MLF",
+      "القشرة الجبهية العينية",
+      "المخيخ وحركات العين",
+      "النوى الدهليزية",
+      "القنوات نصف الدائرية",
+      "التبدل العلوي",
+      "الحزمة الطولية الإنسية",
+      "النوى المحيطة بسرير اللسان"
+    ]
+  },
+  "content": {
+    "definition": "The neural substrate for ocular movements: several widely separated cortical regions (striate cortex, frontal eye fields, parietal cortex), the basal ganglia and thalamus, the cerebellum, the vestibular apparatus and its four nuclei, the superior colliculus and the perihypoglossal nuclei, linked to the ocular motor nuclei chiefly through the medial longitudinal fasciculus (4.26, pp.157-170).",
+    "location": "Cortical: occipital area 17, frontal eye fields (Brodmann 8 with parts of 6 and 9, posterior middle frontal gyrus), parietal area 7 and the angular gyrus (areas 38 and 39). Subcortical: substantia nigra, pulvinar and thalamus. Cerebellum: flocculonodular lobe, dorsal vermis (lobules V, VI, VII) with the fastigial nuclei, and the hemispheres (dentate nuclei). Brain stem: vestibular nuclei (superior, medial, lateral, inferior) under the fourth ventricle floor; superior colliculus of the dorsal midbrain; perihypoglossal nuclei (nucleus prepositus hypoglossi, nucleus intercalatus, sublingual nucleus of Roller); the MLF from rostral midbrain to spinal cord (pp.157-169).",
+    "layers": [
+      "Striate cortex (area 17): the primary cortical reception area for visual information with important connections to visuomotor areas. Afferents include a few connections from the pontine reticular formation and reciprocal connections with the inferior and lateral pulvinar (Ogren and Henderson 1976); efferents comprise pretectal, superior collicular and posterior thalamic projections. The occipital centre may be concerned with the fixation reflex — bringing onto the fovea the image of an object that has gained interest at the retinal periphery. Stimulation of areas 17 and 18 causes conjugate deviation in various directions, especially contralateral (area 19 also responds); accommodation can be elicited from area 18. A pathway from a parieto-occipital oculomotor 'centre' to the tectum runs in the internal sagittal stratum parallel to the optic radiation (Daroff, Troost and Leigh 1978) — questioned by Sharpe and Deck (1978); parieto-occipital lesions do affect ipsilateral smooth pursuit (p.157).",
+      "Frontal eye fields — anatomy and connections: Brodmann area 8 with parts of 6 and 9, occupying the posterior part of the middle frontal gyrus (prearcuate gyrus). In monkeys stimulation of area 8 results in contralateral conjugate deviation with head movements (Ferrier 1874) and pupillary dilatation; both voluntary and reflex ocular movements may be mediated here. Afferents: thalamus and several cortical regions including superior temporal, peristriate and parietal (area 7). Efferents project to basal ganglia, thalamus, pretectal region (including the nucleus of the optic tract), superior colliculus and portions of midbrain and pontine reticular formations; each FEF projects to the contralateral FEF and to ipsilateral cortical areas for visual perception. Descending projections traverse the anterior limb of the internal capsule and divide into: (1) the dorsal transthalamic tract — through and partially synapsing in dorsomedial and intralaminar thalamic nuclei and medial pulvinar, then to pretectal nuclei and deep superior colliculus; (2) the ventral pedunculotegmental tract — descending in the most ventral zone of the cerebral peduncle, supplying some fibres to the subthalamic nucleus and deeper colliculus but ending chiefly in the PPRF (Kunzle and Akert 1977 found no PPRF projections in radioautographic studies); (3) a third prefrontal bundle arising at the diencephalic-mesencephalic junction, projecting unilaterally to the RiMLF and INC and bilaterally to the nucleus of Darkschewitsch and the rostral oculomotor nucleus (functions not established) (Leichnetz 1981; Leigh and Zee 1983) (pp.157-159).",
+      "Frontal eye fields — physiology: FEF neural activity is encoded topographically as in the superior colliculus; neurons discharge before and specifically in relation to saccades elicited by a visual target in their receptive fields (Goldberg and Bushnell 1981). Stimulation shows a latency of 30-40 ms before a saccade, slightly exceeding collicular latency. Purely vertical saccades are elicited by simultaneous stimulation of corresponding sites in the two eye fields (horizontal saccades cancel out). The FEF may be concerned with maintaining visual attention. Human frontal lobe lesions cause a transient loss of contralateral saccades (Daroff and Hoyt 1971) (pp.158-160).",
+      "Parietal cortex (area 7): related to attention to visual targets (Mountcastle et al. 1975; Bushnell, Goldberg and Robinson 1981). Afferents from cingulate gyrus, basal forebrain, and an indirect representation of the visual world from pretectum and superior colliculus via thalamic nuclei (Jones and Powell 1970), plus FEF and prestriate inputs. Efferents to pretectum, superior colliculus, circumaqueductal grey matter and ipsi- and contralateral parietal lobes (Petras 1971). Neurons in the inferior parietal lobe are active before and during certain eye movements: fixation neurons fire during fixation or smooth pursuit, tracking neurons during pursuit only, and saccadic neurons before and during visually evoked (not spontaneous) saccades; activity relates to volition and shifting attention rather than amplitude or direction (Lynch et al. 1977). Area 7 cells are not 'saccade-specific'. Conjugate deviation has been produced experimentally by stimulating the angular gyrus (parts of areas 38 and 39); operative removal has not produced oculomotor defect. Biparietal lesions may produce ocular motor apraxia (Cogan 1965) (p.160).",
+      "Sub-cortical regions: connections exist between FEF and basal ganglia (Kunzle and Akert 1977) and between substantia nigra and superior colliculus (Jayaraman, Batton and Carpenter 1977); pars reticulata discharge is modulated in relation to saccades to actual and remembered targets and probably inhibits deeper collicular neurons; extrapyramidal disease frequently shows saccadic abnormalities. The pulvinar receives afferents from visual cortex and superior colliculus. Thalamic stimulation in primates induces saccades; lesions may disturb visual discriminatory tasks, impair saccadic accuracy and the ability to match ocular to target position (Carpenter 1977; Ungerleider and Christensen 1979; Optican 1982) (p.160).",
+      "Cerebellum — general: a major coordinator of striated muscle movements including eye movements, requiring afferents from visual and vestibular apparatus, neck and other proprioceptors, with projections to supranuclear zones for smooth pursuit and saccades. Subdivisions: archaeocerebellum (flocculonodular node), palaeocerebellum (anterior lobe excluding lingula, plus pyramid and uvula), neocerebellum (middle lobe excluding pyramid and uvula but including vermis). Mossy fibres carry the main afferent input from the olive, spinocerebellar, pontocerebellar and vestibulocerebellar sources; climbing fibres have a remarkable one-to-one relationship with Purkinje fibres (pp.160-162, Figs 4.52-4.54).",
+      "Flocculonodular lobe (vestibulocerebellum: flocculi, nodulus, ventral uvula, paraflocculi) — direct projections from vestibular nuclei. Afferents: inferior olivary nuclei (climbing fibres), reticular formation (mossy fibres), vestibular and perihypoglossal nuclei; visual information reaches each flocculus via retina, contralateral pretectum and inferior olivary nucleus (Scalia 1972); a visual cortical projection to pontine nuclei relays to each paraflocculus (Burne, Mihailoff and Woodward 1978). The nucleus of the optic tract and some floccular neurons encode direction and velocity of visual targets (Simpson and Alley 1974; Collewijn 1977). The vestibulocerebellum modulates smooth pursuit and the vestibulo-ocular reflex (Lisberger and Fuchs 1978a,b) and is concerned with 'gain control' matching head and eye movements to target movements (Gonshor and Melvill Jones 1976). Dorsal lesions of the human vestibulocerebellum lead to loss of coordination of eye movements with overshoot of saccades (pp.160-161).",
+      "Dorsal cerebellar vermis (especially lobules V, VI and VII) and subjacent fastigial nuclei are concerned in saccadic control. Afferents: vestibular and basal pontine nuclei (the latter receiving visual afferents from superior colliculus (Hoddevik 1977), lateral geniculate body and striate cortex) plus cervical and ocular proprioceptive afferents. Efferents project indirectly to oculomotor nuclei via vestibular or fastigial-vestibular connections (Walberg 1961). Vermis Purkinje cells discharge 25 ms before a saccade (Llinas and Wolfe 1977) or at the time of a saccade (Kase, Miller and Noda 1980; Hepp, Henn and Jaeger 1982; Keller 1982). Stimulation induces conjugate saccades with an ipsilateral horizontal component (Ron and Robinson 1973): lobule V, up-gaze to horizontal positions; VI and VII, horizontal to down-gaze positions. Saccadic direction is encoded topographically as in FEF and superior colliculi, but amplitude depends on stimulus intensity — a given stimulus always takes the eye to the same orbital location, the saccade being 'goal directed' (Leigh and Zee 1983) (pp.161-162).",
+      "Cerebellar hemispheres: projections leave the dentate nuclei via each brachium conjunctivum to reach the ocular motor nuclei either directly (Carpenter and Strominger 1964; Ron and Robinson 1973) or via a relay in the nucleus reticularis tegmenti pontis — just ventral to the PPRF with reciprocal connections to ocular motor neurons (Maciewicz and Spencer 1977). Stimulation of the hemispheres may produce saccades or smooth pursuit (p.163).",
+      "Vestibular apparatus: the organs of balance provide information about movement and position of the head used in the synthesis of any eye movement; vestibulo-ocular reflexes prevent image slip. The membranous labyrinth contains the cristae of the semicircular canals (responding to head rotation) and the maculae of the utricle and saccule (sensing head position, gravity). Hair cells bear many stereocilia and a single kinocilium; deflection of stereocilia towards the kinocilium stimulates the cell, deflection away inhibits it. The stereocilia of the cristae are embedded in a gelatinous cupula, one per ampulla; endolymph flow bends the cupula and alters the signal: in horizontal canals flow towards the ampulla or utricle is excitatory; in vertical (anterior and posterior) canals flow away from the ampulla is excitatory (pp.163-164).",
+      "Canal pairing and Flourens' law: the canals are paired in a similar plane bilaterally (right and left horizontal; each anterior with the contralateral posterior), so a head movement producing excitatory flow in one canal coincides with inhibitory flow in its contralateral partner — an excitatory stimulus is reinforced by contralateral inhibition. Each canal induces ocular movements approximately in its own plane (Flourens' law; printed 'Floren's Law') and influences the yoke pair of extraocular muscles which are prime movers in that plane regardless of the initial orbital position of the eyes (Table 4.11; Fig. 4.58) (pp.163-165).",
+      "Utricle and saccule: their maculae respond to linear acceleration, particularly gravity, and are mainly concerned with static tilted positions of the head; they lie in planes approximately at right angles. Hair cell processes are embedded in a gelatinous matrix containing calcium carbonate crystals (otoconia); the macular arrangement allows detection of any linear motion permitted in three-dimensional space (p.164).",
+      "Vestibular nerve and nuclei: fibres from cristae and maculae traverse perforations of each lamina cribrosa to reach the vestibular ganglion at the lateral end of the internal auditory meatus; the vestibular nerve then passes medially across the cerebellopontine angle inferior to the facial and posterior to the cochlear nerves to enter the brain stem between the inferior cerebellar peduncle and the trigeminal spinal tract. Primary vestibular axons project mainly to the vestibular nuclei and flocculonodular lobe. The four nuclei (superior, medial, lateral, inferior) are clustered under the floor of the fourth ventricle (pp.164-165, Figs 4.59, 4.60).",
+      "Vestibular efferents: (1) substantial projections enter the medial longitudinal fasciculus for distribution to the oculomotor and other brain stem nuclei; (2) vestibulocerebellar efferents from inferior and medial vestibular nuclei to vestibulocerebellum and vermis; (3) vestibulospinal efferents descend from the lateral vestibular nucleus. Mossy fibres of the vestibular nerve project directly to the vestibulocerebellum; floccular Purkinje cells project back to ipsilateral vestibular, perihypoglossal and deep cerebellar nuclei, possibly bilaterally via the fastigial nucleus; there are also vestibulothalamic and parietal connections. Vestibulocerebellar lesions have little effect on the VOR and maintenance of eye position; flocculectomy impairs adaptation of the VOR to altered sensory circumstances such as altered refraction (Optican et al. 1980) and causes 'post-saccadic' drift (Zee et al. 1981), whereas ablation of vermis and subjacent fastigial nuclei causes saccadic 'overshoot' (Optican and Robinson 1980) (pp.160, 165-166).",
+      "Superior colliculus — structure and connections: two rounded elevations on the dorsal midbrain, laminated as (1) stratum zonale, (2) stratum cinereum (outer grey layer), (3) stratum opticum (superficial white layer), (4) stratum lemnisci (middle and deep grey and white layers). Afferents: ipsilateral striate cortex projects to layer 3 of the rostral third via optic radiation, lateral geniculate body and brachium of the superior colliculus (contralateral hemifield including the macula represented topographically); retinal ganglion cell axons project to layer 3 of the caudal two-thirds and terminate in superficial and middle grey layers (contralateral hemifield excluding the macula; inferior quadrant lateral, superior medial; the central 30 degrees of the field occupy the rostral three-quarters of the reception area, the peripheral 60 degrees the caudal quarter — Brouwer and Zeeman 1926a,b). Corticotectal tracts come from frontal eye field, parietal and temporal cortex (frontotectal pathway transtegmental — Kuypers and Lawrence 1967); spinotectal tracts; afferents from the inferior colliculus. Efferents: tectoreticular fibres project profusely and bilaterally to the supraoptic nuclei of the midbrain reticular formation (interstitial nucleus of Cajal and the posterior commissural nucleus of Darkschewitsch); there are NO direct projections to the oculomotor nuclei (Szentagothai 1950; Altman and Carpenter 1961). Tectopontine fibres pass deep to the inferior colliculus to dorsolateral pontine nuclei. Deep grey projections reach the contralateral colliculus; via the dorsal supraoptic decussation (Fountain decussation of Meynert) tectospinal and tectobulbar fibres enter the MLF in the medulla, mainly to cervical spinal neurons. Tectothalamic projections end in pulvinar, dorsal and ventral lateral geniculate nuclei and possibly pretectum, connecting with the extrageniculate visual pathway; there are no cortical projections (pp.166-168).",
+      "Superior colliculus — function: each colliculus receives an orderly topographic retinal projection in register with a motor map; point stimulation causes a saccade to the corresponding visual field location. The dorsal colliculus is primarily sensory, projecting to lateral geniculate body and pulvinar; the ventral portion appears motor. Superficial layers may be concerned with visual processing, deep layers with orientation movements of head and eyes to novel stimuli (Harting 1973). Mohler and Wurtz (1976) identified 'visually triggered movement cells' at the superficial/deep junction, enhanced before visually evoked but not spontaneous saccades. Stimulation in an alert monkey elicits saccades whose amplitude and direction depend on stimulus location — smallest saccades anterolaterally, largest posteriorly; purely vertical saccades with bilateral stimulation of corresponding points (Robinson 1972; Schiller and Stryker 1972). Deep cells usually discharge before saccades to a specific field area; some combine eye position information with a retinal error signal to compute target position in relation to the head (Mays and Sparks 1980a,b). Superficial and deep strata may function independently (Wurtz and Albano 1980) (p.168).",
+      "Perihypoglossal nuclei: medial to the vestibular nucleus — nucleus prepositus hypoglossi (from the rostral pole of the hypoglossal nucleus almost to the abducent nucleus, continuing caudally into the nucleus intercalatus between hypoglossal and dorsal vagal nuclei) and the sublingual nucleus of Roller. Thought to be involved in neural integration of vertical and horizontal eye movements (Baker et al. 1978). Afferents: RiMLF and INC (visual input), PPRF, flocculus, vermis via the fastigial nucleus, and all the ocular motor nuclei. Intracellular recordings resemble vestibular nuclei (ipsilateral inhibition, contralateral excitation of ocular motor neurons — Baker and Berthoz 1975). Studies in primates demonstrate numerous perihypoglossal neurons which encode eye position (Miles 1974; Keller and Daniels 1975; Lopez-Barneo et al. 1982); the system may represent an additional vestibulocerebello-ocular pathway for modulation of vertical and horizontal eye movements (pp.168-169).",
+      "Medial longitudinal fasciculus: composed of myelinated fibres from nuclei at various levels, extending from rostral midbrain to spinal cord, close to the midline and ventral to the aqueduct, fourth ventricle and central canal; below the abducent level most fibres are descending, above it ascending fibres predominate (Carpenter 1976). It connects the oculomotor, trochlear and abducent nuclei and mediates correlation between these nuclei and all four vestibular nuclei (McMasters, Weiss and Carpenter 1966) — an 'intersegmental' integration of movements associated with vision and hearing, constant in vertebrate brain stems; at least eight cranial nerves (optic, oculomotor, trochlear, trigeminal, abducent, facial, vestibulocochlear and accessory) plus many spinal nerves, especially cervical, are involved in these activities. Descending fibres originate mainly in the medial vestibular nucleus (crossed and uncrossed), providing monosynaptic inhibition to upper cervical motor neurons in labyrinthine regulation of head position (Wilson and Yoshida 1969). Ascending fibres from the vestibular nuclei have differential, overlapping projections: fibres of the superior vestibular nucleus rostral to the abducent nuclei ascend in the ipsilateral fasciculus to the trochlear and dorsal oculomotor nucleus (inferior rectus motor neurons); ventral parts of the lateral vestibular nucleus project to the contralateral abducent and trochlear nuclei and parts of the oculomotor complex; inferior nucleus projections in the fasciculus are sparse and none is known to reach neurons innervating levator palpebrae (pp.169-170).",
+      "Internuclear connections: reciprocal fascicular connections involve the axons of internuclear neurons of the oculomotor and abducent nuclei; the rostral projection is contralateral, crossing at the abducent level, with a bilateral projection from oculomotor to abducent nucleus (Graybiel 1977). Approximately half the cells of the abducent nucleus and about 3% of the oculomotor nucleus are internuclear neurons (Steiger and Buttner-Ennever 1978) — a predominance of ascending projections. Abducent internuclear neurons project mainly to contralateral oculomotor neurons for medial rectus and inferior rectus (Baker and Highstein 1975; Buttner-Ennever 1977); the medial rectus projection is excitatory, probably conducting signals for all saccades (Delgado-Garcia, Baker and Highstein 1977) and possibly also pursuit and fixational movements (King, Lisberger and Fuchs 1976). Medial rectus motor neurons receive no vestibular or reticular projections (pp.170)."
+    ],
+    "blood_supply": null,
+    "venous_drainage": null,
+    "innervation": "Output converges on the ocular motor nuclei (III, IV, VI): FEF projections reach pretectum, superior colliculus and the midbrain/pontine reticular formations (dorsal transthalamic and ventral pedunculotegmental tracts); the SC has no direct projections to the oculomotor nuclei; vestibular nuclei reach III, IV and VI through the MLF (superior vestibular nucleus to ipsilateral trochlear and dorsal oculomotor neurons; lateral nucleus ventral parts to contralateral abducent/trochlear); abducent internuclear neurons excite contralateral medial rectus and inferior rectus motor neurons; medial rectus motor neurons receive no vestibular or reticular projections (pp.158-170).",
+    "histology_summary": null,
+    "clinical_importance": "Lesion localisation documented in this section: human frontal lobe lesions cause transient loss of contralateral saccades (Daroff and Hoyt 1971); parieto-occipital lesions affect ipsilateral smooth pursuit; biparietal lesions may produce ocular motor apraxia (Cogan 1965); extrapyramidal disease frequently shows saccadic abnormalities; thalamic lesions may disturb visual discrimination, saccadic accuracy and ocular-target matching; dorsal vestibulocerebellar lesions cause incoordination with overshoot of saccades; flocculectomy impairs VOR adaptation and causes post-saccadic drift while vermis/fastigial ablation causes saccadic overshoot (pp.157-168)."
+  },
+  "relationships": [
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "ocular_movements",
+      "target_name": "Ocular Movements (the executed movements whose neural substrate this card describes, Wolff 4.25-4.26)"
+    },
+    {
+      "relation_type": "innervated_by",
+      "target_id": "oculomotor_nerve",
+      "target_name": "Oculomotor (III) nucleus complex (final recipient of supranuclear commands via MLF and pretectal/reticular routes)"
+    },
+    {
+      "relation_type": "innervated_by",
+      "target_id": "vestibular_nerve",
+      "target_name": "Vestibular (VIII) nerve and its four nuclei (major afferent input to all eye position/movement synthesis)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "frontal eye fields",
+      "area 8",
+      "area 17",
+      "area 7",
+      "angular gyrus",
+      "fixation reflex",
+      "saccade generation",
+      "superior colliculus",
+      "stratum opticum",
+      "retinotopy",
+      "vestibular nuclei",
+      "semicircular canals",
+      "cupula",
+      "otoconia",
+      "Flourens law",
+      "vestibulocerebellum",
+      "flocculus",
+      "vermis",
+      "fastigial nucleus",
+      "dentate nucleus",
+      "nucleus reticularis tegmenti pontis",
+      "perihypoglossal nuclei",
+      "prepositus hypoglossi",
+      "medial longitudinal fasciculus",
+      "internuclear neurons",
+      "gain control",
+      "القشرة الجبهية العينية",
+      "قشرة الإبصار",
+      "التبدل العلوي",
+      "النوى الدهليزية",
+      "القنوات نصف الدائرية",
+      "الكأسية",
+      "السمعيات",
+      "المخيخ",
+      "الفصيلة الدهليزية",
+      "الحزمة الطولية الإنسية",
+      "الخلايا بين النووية",
+      "قانون فلورانس"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-11-04",
+    "version": "1.0.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            157,
+            157
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            157,
+            169
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            157,
+            170
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            158,
+            170
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            157,
+            168
+          ]
+        }
+      ]
+    }
+  ]
+}

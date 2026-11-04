@@ -1,0 +1,208 @@
+{
+  "entity_id": "eom_sensory_apparatus",
+  "component_ids": [
+    "comp_muscle_medial_rectus",
+    "comp_muscle_lateral_rectus",
+    "comp_muscle_superior_rectus",
+    "comp_muscle_inferior_rectus",
+    "comp_muscle_superior_oblique",
+    "comp_muscle_inferior_oblique"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Sensory Apparatus of the Extraocular Muscles",
+    "ar": "الجهاز الحسي للعضلات خارج المقلة",
+    "aliases": [
+      "EOM proprioceptors",
+      "muscle spindles",
+      "intrafusal fibres",
+      "nuclear bag",
+      "nuclear chain",
+      "Golgi tendon organs",
+      "palisade endings",
+      "spiral endings",
+      "annulospiral endings",
+      "flower spray endings",
+      "proprioception of eye muscles",
+      "المغازل العضلية",
+      "الألياف داخل الكبسولة",
+      "أعضاء وتر غولجي",
+      "النهايات المحززة",
+      "النهايات الحلزونية",
+      "الإحساس العميق لعضلات العين"
+    ]
+  },
+  "content": {
+    "definition": "The sensory (proprioceptive) apparatus of the extraocular muscles: afferent fibres run chiefly with the ophthalmic division of the trigeminal nerve rather than the motor nerves, and innervate four classes of receptors — muscle spindles, Golgi tendon organs, palisade endings and spiral nerve endings (Fig. 4.23, p.130; Table 4.10, p.131). Classical muscle spindles occur in human extraocular muscles with as many as 22-71 per muscle (Locket 1968) (p.132).",
+    "location": "Muscle spindles are concentrated away from the middle third of the muscle belly that contains the motor end-plate zone: they are found proximally (inferior rectus; Cooper and Daniel 1949), distally (superior rectus and the obliques; Merrillees, Sunderland and Hayhow 1950) or in both zones of the belly, and occur only among the narrower fibres characteristic of the periphery of these muscles (Locket 1968) (p.132, Table 4.9b). By Table 4.10: classical spindles lie principally in the anterior and posterior thirds of the muscle; palisade endings sit at the myotendinous junction of global multiply innervated fibres; Golgi tendon organs are located entirely on tendon; spiral endings lie on extrafusal fibres anterior to the motor innervation zone (pp.129, 131).",
+    "layers": [
+      "Sensory pathway — early studies suggested afferents pass in the third, fourth and sixth cranial nerves with cell bodies in the mesencephalic nucleus of the trigeminal nerve (Tozer and Sherrington 1910; Tarkhan 1934); Cooper, Daniel and Whitteridge (1951, 1955) recorded sensory impulses from extraocular muscles. More recent studies find only small numbers of afferent fibres in the oculomotor nerves (Porter and Spencer 1982; Porter, Guthrie and Sparks 1983) (p.130).",
+      "Quantification: section of the ophthalmic nerve in the monkey leads to degeneration of 0.9-2.7% of axons in the nerve to the inferior oblique, most of them 1-3 um in diameter (Ruskell 1983) (p.130).",
+      "Trigeminal proprioceptive pathway: responses to stretch were recorded in sheep and pigs from a neuronal pool in the medial dorsolateral part of the trigeminal ganglion, with a somatotopic organisation reflecting the spatial relations in the orbit (Manni, Bortolami and Desole 1966 and subsequent series), confirmed in cats and monkeys (Porter and Spencer 1982; Porter et al. 1983). First-order neurons end in the trigeminal main sensory and spinal nuclei; in the monkey, terminations are in the pars interpolaris of the spinal trigeminal nucleus and in the cuneate nucleus of the caudal medulla, overlapping the afferent termination from the dorsal neck muscles (Edney and Porter 1983; Porter 1986). Second-order neurons pass to tectum and tegmentum and project to the ventral basal nucleus of the thalamus (p.130).",
+      "The four receptor classes innervated by these fibres (Fig. 4.23): muscle spindles; Golgi tendon organs; palisade endings; spiral nerve endings. Table 4.10 contains a more extensive listing of sensory endings (pp.130-131).",
+      "Muscle spindle — general structure and function: a thin torpedo-shaped connective tissue capsule enclosing small intrafusal fibres arranged in parallel with the extrafusal mass; intrafusal nuclei grouped centrally (nuclear bag) or linearly (nuclear chain). Primary endings (group Ia, annulospiral) innervate both bag and chain fibres; secondary endings (group II, flower spray) innervate nuclear chain fibres almost exclusively. Group II afferents signal mainly length; group Ia, mainly from nuclear bag fibres, signal both length and rate of change in length. Gamma-efferent fibres control the sensitivity of length detection (Carew and Ghez 1985). Contraction of extrafusal fibres shortens the spindle and reduces the signal (p.130).",
+      "History of EOM spindles: described in human extraocular muscles by Siemmerling (1888) and Buzzard (1908) and detected in cows, goats, boars and stags by Cilimbaris (1910); the observations went uncorroborated for many years until Daniel (1946), Cooper and Daniel (1949, 1951) described them in human muscles using silver methods, confirmed by Merrillees, Sunderland and Hayhow (1950) (pp.130, 132; Figs 4.24, 4.25).",
+      "Spindle numbers — 22-71 per muscle (Locket 1968). Lukas et al. (1995) found spindles in all rectus and oblique muscles studied: medial rectus 18.8 +/- 3.0; lateral rectus 19.3 +/- 1.9; inferior rectus 34.0 +/- 4.4; superior oblique 27.3 +/- 8.2; inferior oblique 4.3 +/- 1.8 — numbers as frequent as in some skeletal muscles (p.132).",
+      "Table 4.11 (Number of muscle spindles in human extraocular muscles, from Eggers 1982): Cooper and Daniel 1949 — inferior rectus 41 proximal / 6 distal; Merrillees, Sunderland and Hayhow 1950 — medial rectus 37 proximal third / 34 distal third, superior rectus 18 / 33; Voss 1957 — medial rectus 11, inferior rectus 31, lateral rectus 3, superior rectus 0, inferior oblique 0, superior oblique 35; Inoue 1958 — medial rectus 47, inferior rectus 48, lateral rectus 31, superior rectus 67, inferior oblique 26, superior oblique 41 (p.132).",
+      "Species distribution: EOM spindles have been found in humans, chimpanzees, macaques, mice, pigs, sheep, goats, cattle, deer, giraffes and gnus, but not in baboons, cats, dogs, rabbits, rats, foxes or birds; their haphazard appearance in different species is not explained (p.132).",
+      "Spindle morphology in EOM: each spindle has 1-15 intrafusal fibres in its capsule (p.132); Buzzard's 1908 illustration shows equality in size between the intra- and extrafusal muscle fibres and a thick sheath with spindle-shaped nuclei (Fig. 4.24); a transverse section of a human medial rectus spindle shows a well-defined capsule with a nerve trunk incorporated in its wall and three intrafusal fibres (Fig. 4.25) (p.132).",
+      "Receptor classes B-G (Table 4.10): atypical spindles — capsulated nerve endings (two nerve fibres encapsulated on an extrafusal fibre anterior to the motor zone) and muscle capsulated nerve endings (one nerve, three fusiform enlargements; Sas and Appeltauer 1963; Spiro and Balm 1969); Golgi tendon organs, similar to skeletal tendon organs and located entirely on tendon (Ciaccio 1891); palisade endings — encapsulated nerve endings at the myotendinous junction of global, multiply innervated fibres (Ruskell 1978; Richmond et al. 1984); spiral endings — single (Daniel 1946; Gruner 1961), double and multiple (Sas and Appeltauer 1963; Spiro and Balm 1969), non-encapsulated, medullated, all on extrafusal fibres — now regarded as motor in function; miscellaneous receptors and other receptors (flower-bud-like end plates, arboreal sensory terminations, brush-like end structures, sensory spools, sensory end bulbs) (pp.129, 131).",
+      "Palisade ending function: the global, multiply innervated muscle fibres associated with palisade endings at the myotendinous junction may contribute a significant part of the holding tension in the primary position, and may smooth and dampen the action of antagonistic muscles during fixation (Browne 1976) (p.129).",
+      "Caution for histology: at both en plaque and en grappe endings an epithelial extension of the perineural sheath forms a fine cellular cuff around the terminal and its related muscle fibre; these sheaths resemble a muscle spindle but differ in that the space within the enveloping sheath is open at each end, whereas the capsular space of the muscle spindle is closed; some such sheaths envelop a muscle fibre and related nerve axons in the absence of a terminal (Ruskell 1984a) (p.129).",
+      "Mukuno (1968) described six types of neuromuscular junction in human extraocular muscles based on electron microscopy (Fig. 4.22) but was not able to specify the muscle type supplied (p.129)."
+    ],
+    "blood_supply": null,
+    "venous_drainage": null,
+    "innervation": "Afferent supply runs chiefly with the ophthalmic division of the trigeminal nerve: only small numbers of afferents travel in the oculomotor nerves (Porter and Spencer 1982); 0.9-2.7% of axons of the nerve to the inferior oblique degenerate after ophthalmic nerve section in the monkey, most 1-3 um wide (Ruskell 1983). Cell stations: trigeminal ganglion (medial dorsolateral pool, somatotopic) to the main sensory and spinal trigeminal nuclei (monkey: pars interpolaris and the cuneate nucleus), then second-order neurons to tectum and tegmentum with projection to the ventral basal nucleus of the thalamus (p.130). The receptors innervated are the muscle spindles, Golgi tendon organs, palisade endings and spiral nerve endings (p.130).",
+    "histology_summary": "Receptor morphology (Table 4.10): the classical spindle is encapsulated with 1-15 intrafusal fibres, nuclear bag and chain fibres, annulospiral (primary) and flower-spray (secondary) endings; atypical spindles are capsulated nerve endings on extrafusal fibres; Golgi tendon organs lie entirely on tendon; palisade endings are encapsulated endings at the myotendinous junction of global multiply innervated fibres; spiral endings (single, double, multiple) are non-encapsulated, medullated and now regarded as motor; other described receptors include flower-bud-like end plates, arboreal terminations, brush-like structures, sensory spools and sensory end bulbs (pp.129, 131-132).",
+    "clinical_importance": "Documented clinical relevance: (1) extraocular proprioception reaches the thalamus via a defined trigeminal pathway (p.130), so it is the ophthalmic division, not the motor nerves, that carries the afferent traffic — 0.9-2.7% of inferior oblique nerve axons in the monkey (Ruskell 1983); (2) the reclassification of spiral endings as motor (Table 4.10 note) alters the interpretation of human receptor counts; (3) palisade-ending fibres contribute holding tension in the primary position and dampen antagonists during fixation (Browne 1976, p.129); (4) perineural sheath cuffs around motor endings mimic spindles but have an open capsular space (Ruskell 1984a, p.129) — a pitfall when identifying receptors in biopsies; (5) spindle numbers vary by muscle and by study (Table 4.11), with the modern Lukas et al. (1995) counts showing the inferior oblique comparatively poorly endowed (4.3 +/- 1.8) and the inferior rectus most richly (34.0 +/- 4.4) (p.132)."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "extraocular_muscles",
+      "target_name": "Extraocular Muscles (the shared proprioceptive apparatus of all six muscles, Wolff 4.9)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "eom_fibre_classification",
+      "target_name": "Extraocular Muscle Fibre Fine Structure and Classification (palisade endings lie on global multiply innervated fibres; spindles among the narrower peripheral fibres)"
+    },
+    {
+      "relation_type": "innervated_by",
+      "target_id": "trigeminal_nerve",
+      "target_name": "Trigeminal (V) nerve, ophthalmic division (chief afferent route; 0.9-2.7% of inferior oblique nerve axons degenerate after ophthalmic nerve section — Ruskell 1983)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "muscle spindles",
+      "intrafusal fibres",
+      "nuclear bag",
+      "nuclear chain",
+      "annulospiral endings",
+      "flower spray endings",
+      "Golgi tendon organs",
+      "palisade endings",
+      "spiral endings",
+      "proprioception",
+      "trigeminal pathway",
+      "Ruskell",
+      "Cooper and Daniel",
+      "Lukas spindle counts",
+      "Table 4.10",
+      "Table 4.11",
+      "المغازل العضلية",
+      "الألياف داخل الكبسولة",
+      "الكيسة النووية",
+      "السلسلة النووية",
+      "أعضاء وتر غولجي",
+      "النهايات المحززة",
+      "النهايات الحلزونية",
+      "الإحساس العميق",
+      "مسار العصب الخامسي"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-11-04",
+    "version": "1.0.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            130,
+            132
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            129,
+            132
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            129,
+            132
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            130,
+            130
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            129,
+            132
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            129,
+            132
+          ]
+        }
+      ]
+    }
+  ]
+}

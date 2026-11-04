@@ -1,0 +1,234 @@
+{
+  "entity_id": "medial_rectus",
+  "component_ids": [
+    "comp_muscle_medial_rectus"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Medial Rectus Muscle",
+    "ar": "العضلة المستقيمة الإنسية",
+    "aliases": [
+      "Medial rectus",
+      "MR",
+      "rectus medialis",
+      "rectus internus",
+      "internal rectus",
+      "musculus rectus medialis",
+      "المستقيمة الإنسية",
+      "العضلة المستقيمة الداخلية",
+      "المستقيمة الداخلية",
+      "العضلة المستقيمة الأنسية"
+    ]
+  },
+  "content": {
+    "definition": "The medial rectus is the largest of the ocular muscles and is stronger than the lateral rectus. It is 40 mm long and thicker than the other extraocular muscles, although similar to them in width and length. It is one of the four rectus muscles arising from the common tendinous ring (annulus tendineus communis), and it runs forward along the medial wall of the orbit to insert into the sclera 5.5 mm from the cornea — the nearest insertion to the cornea of any rectus. The medial rectus adducts the eye, turning the visual axis towards the midline, and is regarded as a pure adductor in the primary position.",
+    "location": "The medial rectus is widely attached medial and inferior to the optic foramen by both parts of the common tendon and by the sheath of the optic nerve. It passes forward along the medial wall of the orbit and inserts into the sclera 5.5 mm from the cornea by a tendon 3.7 mm in length (Table 4.13); its line of insertion is 10.3 mm long, straight, and lies symmetrically across the horizontal meridian (Fig 4.31). Its visibility through the conjunctiva allows swelling of the muscle to be detected clinically in endocrine exophthalmos.",
+    "layers": [
+      "Origin — the medial rectus is widely attached medial and inferior to the optic foramen by both parts of the common tendinous ring (annulus tendineus communis) and by the sheath of the optic nerve.",
+      "Course — the muscle passes forward along the medial wall of the orbit as a thick strap 40 mm long; it is thicker than any of the other extraocular muscles and stronger than the lateral rectus.",
+      "Insertion — a tendon 3.7 mm long enters the sclera 5.5 mm from the cornea (Table 4.13); the line of insertion is 10.3 mm long, straight, and placed symmetrically across the horizontal meridian.",
+      "Relations — superiorly lies the superior oblique, and between the two muscles run the ophthalmic artery and the ethmoidal and infratrochlear nerves (Figs 5.21 and 5.24); inferiorly is the floor of the orbit; medially are peripheral fat, the orbital plate of the ethmoid and the ethmoidal sinuses; laterally are the central orbital fat and the optic nerve.",
+      "Nerve entry — a branch from the inferior division of the oculomotor nerve enters the lateral surface about 15 mm from the orbital attachment."
+    ],
+    "blood_supply": "The medial muscular branch of the ophthalmic artery. (The generous overall blood supply of the rectus muscles and its aerobic basis are covered in the overview card extraocular_muscles.)",
+    "venous_drainage": null,
+    "innervation": "A branch from the inferior division of the oculomotor (third cranial) nerve enters the lateral surface of the muscle about 15 mm from its orbital attachment.",
+    "histology_summary": "Extraocular muscle fine structure (Wolff 4.7-4.8, printed 119-132): six Spencer and Porter (1981) fibre types in two zones — orbital zone: type 1 singly innervated fast twitch (80% of the orbital layer, capillary-ringed, fatigue resistant) and type 2 multiply innervated tonic (20%, 'amphibian tonic', acid-stable ATPase only in the proximal and distal thirds); global zone: type 3 red singly innervated (30%), type 4 intermediate singly innervated (25%), type 5 pale singly innervated (30%, resembles skeletal IIB, lowest fatigue resistance) and type 6 multiply innervated tonic (10%, felderstruktur, en grappe endings). Ocular fibres carry up to ten heavy myosin isoforms including an extraocular-specific fast myosin — no cross-reaction with skeletal muscle — explaining the fastest contraction of any muscle and a very low specific tension output (rat inferior rectus about one-third to one-half of rat limb muscle). Motor end plates (en plaque) occupy a 1-2 mm band in the middle third of the belly; about 85% of human extraocular muscle is en plaque innervated (the levator entirely so); en grappe endings concentrate in the distal third. Ageing brings a differential loss of type II fibres from orbital then global layers (Lyness 1986). Per-muscle data: medial rectus has the fastest documented twitch contraction of any muscle — 7.5-10 ms versus 40 ms for gastrocnemius — with a fusion frequency of 350-450 Hz (Lennerstrand 1986) (p.126). Spindle endowment: 18.8 +/- 3.0 (Lukas et al. 1995); Table 4.11 — Merrillees 1950: 37 proximal / 34 distal thirds; Voss 1957: 11; Inoue 1958: 47 (p.132).",
+    "clinical_importance": "The medial rectus is regarded as a pure adductor; however, this is true only in the primary position, i.e. with one geometric anteroposterior axis directed straight forward. If this axis is elevated or depressed by other muscles, the medial and lateral recti no longer exert a turning force purely around the vertical axis but then also exert slight elevator or depressor movements; such movements may be small and their influence is uncertain, but use is made of this fact when displacing the insertions of the horizontal recti in vertically incomitant squint. The insertion distance of 5.5 mm from the cornea (Table 4.13) is a standard surgical landmark. The muscle's visibility through the conjunctiva allows swelling to be detected in endocrine exophthalmos. Together with the superior rectus, its attachment to the dural sheath of the optic nerve is responsible for the characteristic pain which accompanies extreme movements of the globe in retrobulbar neuritis."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "extraocular_muscles",
+      "target_name": "Extraocular Muscles (one of the four rectus muscles of the muscle cone)"
+    },
+    {
+      "relation_type": "arises_from",
+      "target_id": "annulus_tendineus_communis",
+      "target_name": "Common tendinous ring (attached widely medial and inferior to the optic foramen by both parts of the common tendon and by the sheath of the optic nerve)"
+    },
+    {
+      "relation_type": "inserts_into",
+      "target_id": "sclera",
+      "target_name": "Sclera (tendon 3.7 mm long inserted 5.5 mm from the cornea; line of insertion 10.3 mm, straight, symmetrical across the horizontal meridian — Table 4.13)"
+    },
+    {
+      "relation_type": "innervated_by",
+      "target_id": "oculomotor_nerve",
+      "target_name": "Oculomotor (III) nerve, inferior division (branch enters the lateral surface about 15 mm from the orbital attachment)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "optic_nerve",
+      "target_name": "Optic Nerve (lateral relation: central orbital fat and optic nerve; origin from the dural sheath of the nerve underlies retrobulbar neuritis pain)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "superior_oblique",
+      "target_name": "Superior Oblique Muscle (superior relation; between the two muscles run the ophthalmic artery and the ethmoidal and infratrochlear nerves)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "medial rectus",
+      "largest ocular muscle",
+      "pure adductor",
+      "rectus medialis",
+      "common tendinous ring",
+      "annulus tendineus communis",
+      "optic nerve sheath",
+      "insertion 5.5 mm from cornea",
+      "tendon 3.7 mm",
+      "line of insertion 10.3 mm",
+      "inferior division of oculomotor",
+      "nerve entry 15 mm",
+      "endocrine exophthalmos",
+      "retrobulbar neuritis pain",
+      "vertically incomitant squint",
+      "medial orbital wall",
+      "العضلة المستقيمة الإنسية",
+      "المستقيمة الداخلية",
+      "التقريب",
+      "الوظيفة الأساسية",
+      "الحلقة الوترية المشتركة",
+      "غمد العصب البصري",
+      "الجحوظ الداخلي المنشأ",
+      "التهاب العصب خلف المقلة",
+      "حول عدم ترافق رأسي",
+      "الجدار الأنفي للحجاج",
+      "fibre types",
+      "twitch fibres",
+      "tonic fibres",
+      "orbital layer",
+      "global layer",
+      "Spencer and Porter",
+      "muscle spindles",
+      "extraocular myosin",
+      "أنواع الألياف",
+      "المغازل العضلية",
+      "الطبقة الحجاجية",
+      "الطبقة الكروية"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-11-04",
+    "version": "1.1.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            139
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            139
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            138,
+            139
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            139
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            139
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            119,
+            132
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            126
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            132
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            138,
+            139
+          ]
+        }
+      ]
+    }
+  ]
+}

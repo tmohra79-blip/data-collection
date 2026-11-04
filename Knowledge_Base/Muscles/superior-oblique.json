@@ -1,0 +1,249 @@
+{
+  "entity_id": "superior_oblique",
+  "component_ids": [
+    "comp_muscle_superior_oblique"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Superior Oblique Muscle",
+    "ar": "العضلة المائلة العلوية",
+    "aliases": [
+      "Superior oblique",
+      "SO",
+      "obliquus superior",
+      "obliquus oculi superior",
+      "trochlea",
+      "trochlear pulley",
+      "pulley of the superior oblique",
+      "spina trochlearis",
+      "fovea trochlearis",
+      "trochlear fossa",
+      "المائلة العلوية",
+      "العضلة المائلة العلوية",
+      "البكرة",
+      "بكرة العضلة المائلة العلوية",
+      "النتوء البكري",
+      "الحفرة البكرية"
+    ]
+  },
+  "content": {
+    "definition": "The superior oblique is the longest and thinnest extraocular muscle. It is attached superomedially to the optic foramen by a narrow tendon which partially overlaps the levator; its length is due partly to that of its deflected tendon. Its fusiform belly, more rounded than that of the other muscles, passes forwards between the roof and medial wall of the orbit to its trochlea or pulley, through which the tendon turns back posterolaterally at an angle of about 55° (the trochlear angle) to a fan-shaped insertion in the posterosuperior quadrant of the globe. Its primary action is depression, greatest in adduction, and it is supplied by the trochlear (fourth cranial) nerve.",
+    "location": "The superior oblique is attached superomedially to the optic foramen by a narrow tendon which partially overlaps the levator. The fusiform belly passes forwards between the roof and the medial wall of the orbit; the muscle becomes a rounded tendon about 1 cm posterior to the trochlea, beyond which it turns posterolaterally at about 55° (the trochlear angle), pierces Tenon's capsule, descends slightly inferior to the superior rectus, and spreads out in a fan-shaped attachment in the posterosuperior quadrant along a line of insertion about 10.7 mm long and convex posterolaterally (Figs 4.28 and 4.34). Its anterior end lies on about the same meridian as the temporal end of the superior rectus insertion, and it makes an angle of about 45° with the anteroposterior plane.",
+    "layers": [
+      "Origin — attached superomedially to the optic foramen by a narrow tendon which partially overlaps the levator palpebrae superioris; the muscle's great length is due partly to this deflected tendon.",
+      "Course (belly) — a fusiform belly, more rounded than that of the other muscles, passes forwards between the roof and medial wall of the orbit to the trochlea (Figs 5.18 and 5.22); it becomes a rounded tendon about 1 cm posterior to the trochlea.",
+      "Course and insertion (reflected tendon) — beyond the trochlea the tendon turns posterolaterally at about 55° (the trochlear angle), pierces Tenon's capsule, descends slightly inferior to the superior rectus, and spreads out in a fan-shaped attachment in the posterosuperior quadrant along a line of insertion about 10.7 mm long, convex posterolaterally; its anterior end lies on about the same meridian as the temporal end of the superior rectus insertion, and it makes an angle of about 45° with the anteroposterior plane.",
+      "Trochlea — a loop of fibrocartilage closed above by fibrous tissue, attached to the fovea or spina trochlearis on the inferior surface of the frontal bone a few millimetres behind the orbital margin; a grooved cartilaginous saddle whose concave medial surface is directed towards the floor of the trochlear fossa, its long axis anteroposterior; the trochlea is 5.5 mm long, 4 mm wide and 4 mm deep, with its groove facing the ethmoidal wall; the intratrochlear part of the tendon is 1.5 mm wide and is received into the concavity; the tendon within is usually described as enclosed in a synovial sheath, with a strong fibrous sheath accompanying it to the eyeball (Helveston et al 1982; Fig 4.33).",
+      "Trochlear tendon and surroundings — the trochlear tendon is composed of 275 loosely interconnected fascicles/bundles and is 1.5 mm wide; a loose fibrovascular sheath invests the tendon and is separated from the saddle by a bursa-like space lined on each side by flattened non-endothelial cells and connective tissue; this highly vascular tissue is thought to permit repair of the working elements — the superior oblique is the only extraocular muscle with such a rich vascular tunic; the whole trochlea is surrounded by a thick fibrous sheath, 1 mm thick, which attaches the trochlea to the trochlear fossa medially and secures the saddle and its contents to the bony medial orbital wall.",
+      "Tendon mechanics (Helveston et al 1982) — in adduction, the full excursion of the tendon insertion between maximum elevation (40°) and depression (40°) is 16 mm, the insertion moving 8 mm posteriorly and 8 mm anteriorly; the movement is achieved by a sliding of concentric tendinous bundles over one another in a telescopic fashion, not by the tendon sliding as a whole through the pulley: in elevation the V-shaped insertion of the muscle into tendon has a forward-directed apex, while in depression (contraction) the apex is directed backwards, and only the central tendinous bundles complete the full excursion; during relaxation the muscle is thought to insert into the tendinous cup, the situation being reversed during contraction (Fig 4.33).",
+      "Nerve entry — the trochlear nerve, after dividing into three or four branches, enters the muscle superiorly and near its lateral border in the posterior half of its belly (Fig 5.18)."
+    ],
+    "blood_supply": "The superior oblique is served by the superior muscular branch of the ophthalmic artery.",
+    "venous_drainage": null,
+    "innervation": "The trochlear (fourth cranial) nerve enters the orbital surface of the muscle; after dividing into three or four branches it enters superiorly and near the lateral border, in the posterior half of the belly (Fig 5.18).",
+    "histology_summary": "Extraocular muscle fine structure (Wolff 4.7-4.8, printed 119-132): six Spencer and Porter (1981) fibre types in two zones — orbital zone: type 1 singly innervated fast twitch (80% of the orbital layer, capillary-ringed, fatigue resistant) and type 2 multiply innervated tonic (20%, 'amphibian tonic', acid-stable ATPase only in the proximal and distal thirds); global zone: type 3 red singly innervated (30%), type 4 intermediate singly innervated (25%), type 5 pale singly innervated (30%, resembles skeletal IIB, lowest fatigue resistance) and type 6 multiply innervated tonic (10%, felderstruktur, en grappe endings). Ocular fibres carry up to ten heavy myosin isoforms including an extraocular-specific fast myosin — no cross-reaction with skeletal muscle — explaining the fastest contraction of any muscle and a very low specific tension output (rat inferior rectus about one-third to one-half of rat limb muscle). Motor end plates (en plaque) occupy a 1-2 mm band in the middle third of the belly; about 85% of human extraocular muscle is en plaque innervated (the levator entirely so); en grappe endings concentrate in the distal third. Ageing brings a differential loss of type II fibres from orbital then global layers (Lyness 1986). Per-muscle data: spindles are concentrated distally in the obliques (Merrillees, Sunderland and Hayhow 1950); modern count 27.3 +/- 8.2 (Lukas et al. 1995); Table 4.11 — Voss 1957: 35; Inoue 1958: 41 (p.132). Its fibre population follows the shared six-type scheme; the trochlear aspect is covered in the muscle-specific card.",
+    "clinical_importance": "The superior oblique elevates the back (and hence depresses the front) of the eyeball; it would also abduct and intort the eyeball if acting in isolation. The primary action is depression, which increases with adduction and becomes less in progressive abduction — it is the only depressor in adduction. The subsidiary actions are abduction and intorsion, increasing with abduction. The superior oblique and inferior rectus combine as depressors, and the abductor action of the obliques is due to their line of pull being posterior to the vertical axis (Figs 4.33 and 4.34). Helveston et al (1982) suggest that the trochlear anatomy may explain the mechanism of Brown's syndrome, in which failure of the tendon to run through the pulley restricts upgaze in adduction on the affected side. The intratrochlear arrangement — 275 loosely interconnected fascicles telescoping over one another within a fibrocartilaginous saddle only 5.5 mm long — and the uniquely rich vascular tunic around the trochlea make it the most mechanically specialized insertion of any extraocular muscle."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "extraocular_muscles",
+      "target_name": "Extraocular Muscles (the longest and thinnest of the six)"
+    },
+    {
+      "relation_type": "arises_from",
+      "target_id": "optic_foramen",
+      "target_name": "Optic foramen, superomedial aspect (by a narrow tendon partially overlapping the levator palpebrae superioris)"
+    },
+    {
+      "relation_type": "passes_through",
+      "target_id": "trochlea",
+      "target_name": "Trochlea (fibrocartilaginous pulley attached to the frontal bone at the fovea or spina trochlearis; a grooved saddle 5.5 mm long, 4 mm wide, 4 mm deep; tendon of 275 fascicles telescopes through it — Helveston et al 1982)"
+    },
+    {
+      "relation_type": "inserts_into",
+      "target_id": "sclera",
+      "target_name": "Sclera (fan-shaped insertion in the posterosuperior quadrant; line of insertion about 10.7 mm long, convex posterolaterally; ~55° trochlear angle; ~45° with the anteroposterior plane)"
+    },
+    {
+      "relation_type": "innervated_by",
+      "target_id": "trochlear_nerve",
+      "target_name": "Trochlear (IV) nerve (divides into 3-4 branches; enters superiorly near the lateral border in the posterior half of the belly)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "superior_rectus",
+      "target_name": "Superior Rectus Muscle (the reflected tendon descends slightly inferior to the superior rectus to reach its insertion)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "frontal_bone",
+      "target_name": "Frontal bone (trochlea attached to the fovea or spina trochlearis on the inferior surface, a few mm behind the orbital margin)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "superior oblique",
+      "longest and thinnest extraocular muscle",
+      "trochlea",
+      "trochlear angle 55 degrees",
+      "fan-shaped insertion",
+      "posterosuperior quadrant",
+      "line of insertion 10.7 mm",
+      "insertion 45 degrees",
+      "fibrocartilaginous saddle",
+      "trochlear fossa",
+      "spina trochlearis",
+      "275 tendinous fascicles",
+      "bursa-like space",
+      "rich vascular tunic",
+      "Helveston 1982",
+      "telescoping tendon",
+      "concentric tendinous bundles",
+      "full excursion 16 mm",
+      "Brown's syndrome",
+      "primary action depression",
+      "only depressor in adduction",
+      "intorsion",
+      "trochlear nerve",
+      "3-4 branches",
+      "العضلة المائلة العلوية",
+      "البكرة",
+      "الخفض",
+      "الدوران الداخلي",
+      "زاوية البكرة",
+      "متلازمة براون",
+      "العصب البكري",
+      "السرج الغضروفي",
+      "التقابل المنظار",
+      "fibre types",
+      "twitch fibres",
+      "tonic fibres",
+      "orbital layer",
+      "global layer",
+      "Spencer and Porter",
+      "muscle spindles",
+      "extraocular myosin",
+      "أنواع الألياف",
+      "المغازل العضلية",
+      "الطبقة الحجاجية",
+      "الطبقة الكروية"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-11-04",
+    "version": "1.1.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            140
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            140
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            140,
+            141,
+            142
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            142
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            142
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            119,
+            132
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            132
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            140,
+            141,
+            142
+          ]
+        }
+      ]
+    }
+  ]
+}

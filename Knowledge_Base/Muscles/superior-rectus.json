@@ -1,0 +1,230 @@
+{
+  "entity_id": "superior_rectus",
+  "component_ids": [
+    "comp_muscle_superior_rectus"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Superior Rectus Muscle",
+    "ar": "العضلة المستقيمة العلوية",
+    "aliases": [
+      "Superior rectus",
+      "SR",
+      "rectus superior",
+      "musculus rectus superior",
+      "المستقيمة العلوية",
+      "العضلة المستقيمة العلوية"
+    ]
+  },
+  "content": {
+    "definition": "The superior rectus arises from the upper part of the annular tendon superolateral to the optic foramen and from the sheath of the optic nerve. Passing anterolaterally beneath the levator palpebrae superioris at an angle of 23-25° with the globe's anteroposterior axis, it is attached to the sclera 7.7 mm from the cornea. It is about 42 mm in length and 9 mm in width — the longest of the recti (the average length of the recti is 40 mm, the superior being the longest, followed by the medial, lateral and inferior). Its primary action is elevation of the eye.",
+    "location": "The superior rectus arises from the upper part of the annular tendon superolateral to the optic foramen and from the sheath of the optic nerve, in the angle where the dura splits to become orbital periosteum and dural optic sheath. Below the attachment of the levator, its origin is continuous with the attachments of the medial and lateral recti. It passes anterolaterally beneath the levator, pierces Tenon's capsule, and is attached to the sclera 7.7 mm from the cornea by a tendon 5.8 mm long along an oblique line 10.8 mm long and slightly convex forwards (Fig 4.31). The muscle is about 42 mm in length and 9 mm in width.",
+    "layers": [
+      "Origin — the upper part of the annular tendon superolateral to the optic foramen and the sheath of the optic nerve, in the angle where the dura splits into orbital periosteum and dural optic sheath; below the attachment of the levator it is continuous with the attachments of the medial and lateral recti.",
+      "Course — passes anterolaterally beneath the levator palpebrae superioris at an angle of 23-25° with the globe's anteroposterior axis, and pierces Tenon's capsule; about 42 mm long and 9 mm wide — the longest of the recti (average recti length 40 mm; order: superior, medial, lateral, inferior).",
+      "Insertion — a tendon 5.8 mm long attached to the sclera 7.7 mm from the cornea (Table 4.13), along an oblique line 10.8 mm long and slightly convex forwards.",
+      "Relations — superiorly lie the levator and the frontal nerve, which separate the superior rectus from the roof of the orbit (Figs 1.15, 5.17 and 5.18); inferiorly, separated by orbital fat, are the ophthalmic artery and the nasociliary artery and nerves, while the reflected tendon of the superior oblique passes between the superior rectus and the globe (Fig 7.2); laterally, between the superior and lateral recti, are the lacrimal artery and nerve; medially, between the superior rectus and the medial rectus and oblique below, are the ophthalmic artery and the nasociliary nerve (Figs 5.18 and 5.21).",
+      "Nerve entry — the superior division of the oculomotor nerve enters the ocular surface at the junction of its middle and posterior thirds (Fig 5.24)."
+    ],
+    "blood_supply": "The lateral muscular branch of the ophthalmic artery.",
+    "venous_drainage": null,
+    "innervation": "The superior division of the oculomotor (third cranial) nerve, entering the ocular surface at the junction of the middle and posterior thirds of the muscle (Fig 5.24); the same division also supplies the levator palpebrae superioris.",
+    "histology_summary": "Extraocular muscle fine structure (Wolff 4.7-4.8, printed 119-132): six Spencer and Porter (1981) fibre types in two zones — orbital zone: type 1 singly innervated fast twitch (80% of the orbital layer, capillary-ringed, fatigue resistant) and type 2 multiply innervated tonic (20%, 'amphibian tonic', acid-stable ATPase only in the proximal and distal thirds); global zone: type 3 red singly innervated (30%), type 4 intermediate singly innervated (25%), type 5 pale singly innervated (30%, resembles skeletal IIB, lowest fatigue resistance) and type 6 multiply innervated tonic (10%, felderstruktur, en grappe endings). Ocular fibres carry up to ten heavy myosin isoforms including an extraocular-specific fast myosin — no cross-reaction with skeletal muscle — explaining the fastest contraction of any muscle and a very low specific tension output (rat inferior rectus about one-third to one-half of rat limb muscle). Motor end plates (en plaque) occupy a 1-2 mm band in the middle third of the belly; about 85% of human extraocular muscle is en plaque innervated (the levator entirely so); en grappe endings concentrate in the distal third. Ageing brings a differential loss of type II fibres from orbital then global layers (Lyness 1986). Per-muscle data: spindles are concentrated distally in the superior rectus (Merrillees, Sunderland and Hayhow 1950: 18 proximal / 33 distal thirds); Table 4.11 — Voss 1957: 0; Inoue 1958: 67 (p.132). Its fibre population follows the shared six-type scheme with no muscle-specific deviation recorded in 4.7-4.8.",
+    "clinical_importance": "Acting alone, the superior rectus would rotate the eye from the primary position of forward gaze so as to elevate, adduct and intort along the visual axis. What it accomplishes in reality depends upon the position of the eyeball and the activity of other extraocular muscles: the primary action is elevation, which increases with abduction and becomes nil in full adduction. The superior rectus is the only elevator in full abduction, because the inferior oblique is ineffective in abduction — hence, when the superior rectus is paralysed, the abducted eye cannot be elevated. The subsidiary actions are adduction and intorsion. The insertion distance of 7.7 mm from the cornea (Table 4.13) is a standard surgical landmark. Together with the medial rectus, its attachment to the nerve sheath is responsible for the characteristic pain which accompanies extreme movements of the globe in retrobulbar neuritis."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "extraocular_muscles",
+      "target_name": "Extraocular Muscles (one of the four rectus muscles of the muscle cone)"
+    },
+    {
+      "relation_type": "arises_from",
+      "target_id": "annulus_tendineus_communis",
+      "target_name": "Common tendinous ring (upper part, superolateral to the optic foramen, together with the dural sheath of the optic nerve)"
+    },
+    {
+      "relation_type": "inserts_into",
+      "target_id": "sclera",
+      "target_name": "Sclera (tendon 5.8 mm long inserted 7.7 mm from the cornea along an oblique line 10.8 mm long, slightly convex forwards — Table 4.13)"
+    },
+    {
+      "relation_type": "innervated_by",
+      "target_id": "oculomotor_nerve",
+      "target_name": "Oculomotor (III) nerve, superior division (enters the ocular surface at the junction of middle and posterior thirds; same division supplies the levator)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "levator_palpebrae_superioris",
+      "target_name": "Levator palpebrae superioris (lies above; the superior rectus passes beneath it at 23-25° and the frontal nerve runs between them and the orbit roof)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "optic_nerve",
+      "target_name": "Optic Nerve (origin partly from the dural sheath of the nerve; with the medial rectus this attachment underlies the pain of retrobulbar neuritis)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "superior_oblique",
+      "target_name": "Superior Oblique Muscle (its reflected tendon passes between the superior rectus and the globe)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "superior rectus",
+      "rectus superior",
+      "primary elevator",
+      "elevation",
+      "annular tendon",
+      "annulus tendineus communis",
+      "optic nerve sheath",
+      "dural optic sheath",
+      "orbital periosteum",
+      "levator palpebrae superioris",
+      "23-25 degrees",
+      "insertion 7.7 mm from cornea",
+      "tendon 5.8 mm",
+      "oblique line 10.8 mm",
+      "longest rectus",
+      "superior division of oculomotor",
+      "intorsion",
+      "adduction",
+      "Tenon's capsule",
+      "retrobulbar neuritis",
+      "العضلة المستقيمة العلوية",
+      "المستقيمة العلوية",
+      "الرفع",
+      "الدوران الداخلي",
+      "الحلقة الوترية المشتركة",
+      "غمد العصب البصري",
+      "الرافعة العلوية للجفن",
+      "التهاب العصب خلف المقلة",
+      "العصب المحرك للعين",
+      "fibre types",
+      "twitch fibres",
+      "tonic fibres",
+      "orbital layer",
+      "global layer",
+      "Spencer and Porter",
+      "muscle spindles",
+      "extraocular myosin",
+      "أنواع الألياف",
+      "المغازل العضلية",
+      "الطبقة الحجاجية",
+      "الطبقة الكروية"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-11-04",
+    "version": "1.1.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            138
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            138
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            138
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            138
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            110,
+            138
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            119,
+            132
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            132
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            138
+          ]
+        }
+      ]
+    }
+  ]
+}

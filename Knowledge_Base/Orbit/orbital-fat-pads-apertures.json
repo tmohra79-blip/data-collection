@@ -1,0 +1,219 @@
+{
+  "entity_id": "orbital_fat_pads_apertures",
+  "component_ids": [
+    "comp_muscle_superior_oblique",
+    "comp_muscle_inferior_oblique"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Orbital Fat Pads and the Apertures Adjoining the Orbital Opening (preaponeurotic pads; five hernial orifices)",
+    "ar": "الوسائد الشحمية المدارية والفتحات المجاورة لفتحة الحجاج (الوسائد ما قبل الرباط الصفاقي والفتحات الخمس)",
+    "aliases": [
+      "preaponeurotic fat pads",
+      "orbital fat",
+      "hernial orifices of the orbit",
+      "superior aperture",
+      "superomedial aperture",
+      "inferomedial aperture",
+      "inferior aperture",
+      "inferolateral aperture",
+      "retroseptal mass",
+      "arcuate expansion",
+      "medial check ligament",
+      "lateral check ligament",
+      "الوسائد الشحمية",
+      "الشحم المداري",
+      "الفتحات الخمس",
+      "الفتحة العلوية",
+      "الفتحة الأنسية العلوية",
+      "الفتحة الأنسية السفلية",
+      "الفتحة السفلية",
+      "الفتحة الوحشية السفلية",
+      "التوسع القوسي",
+      "الربط الشابر"
+    ]
+  },
+  "content": {
+    "definition": "The orbital adipose tissue is compartmented into preaponeurotic fat pads — in the upper lid a small medial and a large central compartment with the lacrimal gland laterally, and in the lower lid a small lateral and a large central pad — lying behind the orbital septum and in front of the lid retractors. Collectively the fascia and adipose tissue provide a flexible and incompressible suspension for the orbital structures, in particular the eyeball, preserving its accurate relationship to the fellow eye for binocular vision (Koornneef 1977). Five orifices bound by the fibroelastic expansions and the oblique muscles lie between the orbital margin and the globe, through which fat may herniate towards the orbital septum (4.24, pp.154-155).",
+    "location": "Preaponeurotic pads: immediately behind the orbital septum on the levator aponeurosis (upper lid) and in front of the lower lid retractors (Figs 4.38, 4.43, 4.46). The five apertures lie at the 'base' of the orbit: when the septum orbitale is removed the orbital aperture is seen partially closed by the globe, its muscles and the fibroelastic expansions to the walls close to the orbital margin (Fig. 4.47) (p.154).",
+    "layers": [
+      "Upper lid preaponeurotic fat: lies immediately behind the orbital septum on the levator aponeurosis; small medial and large central compartments, with the lacrimal gland lying laterally — an important relationship to recall when excising fat from the upper lid for blepharoplasty (Collin 1983) (p.154, Fig. 4.46).",
+      "Lower lid fat pads: also lie in front of the lid retractors and behind the septum; small lateral and large central pad. The fat pads provide a useful landmark for the levator aponeurosis and the lower lid retractor (p.154).",
+      "Surgical danger: traction on the fat pads during blepharoplasty may cause deep orbital haemorrhage and blindness (Collin 1983) (p.154).",
+      "Suspension function: collectively these tissues provide a flexible and incompressible suspension for the orbital structures, in particular the eyeball — preserving an accurate relationship to the fellow eye so that binocular vision is maintained (Koornneef 1977) (p.154).",
+      "The five apertures (4.24): these expansions and the oblique muscles bound five orifices between the orbital margin and globe through which fat may herniate towards the orbital septum (p.154).",
+      "Superior aperture: shaped like a comma, between the orbital roof and the upper surface of the levator; its 'head' is medial and near the trochlea of the superior oblique, its tail reaches the lacrimal gland. Through this aperture herniation from the superomedial lobe may form a retroseptal mass (p.154).",
+      "Superomedial aperture: a vertical oval between the tendon of the superior oblique and the medial check ligament; it may transmit a process of the superomedial lobe, forming a common prominence in the elderly; the infratrochlear nerve, dorsal nasal artery and angular vein also pass through it (p.154).",
+      "Inferomedial aperture: also oval, lying between the medial check ligament, the inferior oblique and the lacrimal sac (p.154).",
+      "Inferior aperture: triangular, between the inferior oblique, its arcuate expansion (Fig. 4.47) and the orbital floor (p.154).",
+      "Inferolateral aperture: small, lying between the arcuate expansion and the lateral check ligament (p.154).",
+      "General significance: in general these apertures form communications between the orbital cavity and the deep strata of the eyelids; through them blood and pus may also pass out from the space between the periorbita and the peripheral fat to the septum orbitale (p.155)."
+    ],
+    "blood_supply": "The dorsal nasal artery passes through the superomedial aperture (p.154); the intrinsic blood supply of the fat pads is not detailed in this section.",
+    "venous_drainage": "The angular vein passes through the superomedial aperture (p.154); the intrinsic venous drainage of the fat pads is not detailed in this section.",
+    "innervation": "The infratrochlear nerve passes through the superomedial aperture (p.154); no intrinsic innervation of the fat is described in this section.",
+    "histology_summary": null,
+    "clinical_importance": "Documented clinical points: the preaponeurotic pads are surgical landmarks for the levator aponeurosis and lower lid retractors (p.154); traction on them during blepharoplasty may cause deep orbital haemorrhage and blindness (Collin 1983) (p.154); the lacrimal gland sits lateral to the upper lid central pad and must not be confused with fat (p.154); herniation through the superior aperture may form a retroseptal mass, and through the superomedial aperture a process of the superomedial lobe forms a common prominence in the elderly (p.154); the apertures transmit blood and pus from the deep orbit to the eyelid strata (p.155)."
+  },
+  "relationships": [
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "superior_oblique",
+      "target_name": "Superior Oblique Muscle (its tendon bounds the superomedial aperture; trochlea marks the head of the superior aperture)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "inferior_oblique",
+      "target_name": "Inferior Oblique Muscle (bounds the inferomedial and inferior apertures; its arcuate expansion bounds the inferior and inferolateral apertures)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "lacrimal_gland",
+      "target_name": "Lacrimal Gland (lies lateral to the upper lid preaponeurotic fat; tail of the superior aperture reaches it)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "preaponeurotic fat",
+      "orbital fat pads",
+      "blepharoplasty",
+      "orbital septum",
+      "levator aponeurosis",
+      "lower lid retractors",
+      "hernial orifices",
+      "superior aperture",
+      "superomedial aperture",
+      "inferomedial aperture",
+      "inferior aperture",
+      "inferolateral aperture",
+      "retroseptal mass",
+      "arcuate expansion",
+      "medial check ligament",
+      "lateral check ligament",
+      "infratrochlear nerve",
+      "dorsal nasal artery",
+      "angular vein",
+      "Koornneef suspension",
+      "الوسائد الشحمية",
+      "الشحم المداري",
+      "الفتحات الخمس",
+      "الحجاب الحاجز المداري",
+      "الوسائد ما قبل الصفاقي",
+      "التوسع القوسي",
+      "الفتحة الأنسية العلوية",
+      "بروز منسّي",
+      "تعليق مقلة العين"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-11-04",
+    "version": "1.0.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            154,
+            155
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            154,
+            154
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            154,
+            155
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            154,
+            154
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            154,
+            154
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            154,
+            154
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            154,
+            155
+          ]
+        }
+      ]
+    }
+  ]
+}

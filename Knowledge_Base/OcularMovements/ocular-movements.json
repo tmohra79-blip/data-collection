@@ -1,0 +1,204 @@
+{
+  "entity_id": "ocular_movements",
+  "component_ids": [
+    "comp_muscle_medial_rectus",
+    "comp_muscle_lateral_rectus",
+    "comp_muscle_superior_rectus",
+    "comp_muscle_inferior_rectus",
+    "comp_muscle_superior_oblique",
+    "comp_muscle_inferior_oblique"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Ocular Movements (framework, agonists-antagonists, yoke muscles, versions and vergence)",
+    "ar": "حركات العين (الإطار العام: المحاور والمضادات والعضلات المتزامنة وحركات التطابق)",
+    "aliases": [
+      "ocular movements",
+      "eye movements",
+      "versions",
+      "vergence",
+      "conjugate gaze",
+      "yoke muscles",
+      "agonist",
+      "antagonist",
+      "reciprocal innervation",
+      "dextroelevation",
+      "laevoelevation",
+      "dextrodepression",
+      "laevodepression",
+      "حركات العين",
+      "حركة التطابق",
+      "العضلات المتزامنة",
+      "العضلة المباعدة والمقربة",
+      "التثبيط المتبادل",
+      "الرأي المزدوج"
+    ]
+  },
+  "content": {
+    "definition": "For practical purposes the movements of each eyeball can be regarded as rotations about three primary axes — vertical, horizontal and anteroposterior (p.154). No extraocular muscle normally acts alone: the six muscles of one globe form three antagonistic pairs acting reciprocally (agonist contraction with graded antagonist relaxation), while pairs moving the two eyes in the same direction in conjugate gaze behave as synergists — the 'yoke' muscles (p.154).",
+    "location": "The movements are executed by the six extraocular muscles of each globe. The globe is prevented from visually significant displacement during contraction by the resistance of the incompressible soft tissues which surround it and by stability in the orbit brought about by supportive connective tissue sheaths, bands, septa and capsules (p.154).",
+    "layers": [
+      "Mechanics of rotation: any rotation must alter the distance between the orbital and ocular attachments of all six muscles — some shorten and some lengthen, and there is abundant evidence that such adjustments occur in all six muscles (Sherrington 1905; Szentagothai 1943) (p.154).",
+      "Antagonistic pairs: the medial and lateral rectus, the superior and inferior rectus, and the two obliques of each eye are antagonistic pairs; excitation of one member is associated with reciprocal inhibition of the other. Yoke (synergist) pairs move the two eyes in the same direction — e.g. the left lateral rectus is the contralateral synergist of the right medial rectus; ipsilateral and contralateral antagonists are likewise designated by context (p.154).",
+      "Groups by horizontal action: both oblique muscles can act as abductors and the superior and inferior recti as adductors; if both muscles of a pair contract equally their tendencies to elevate/depress and intort/extort cancel out. The medial, superior and inferior recti act as an adductor group; their abductor opponents are the lateral rectus and both oblique muscles (p.155).",
+      "Two binocular categories: versions, in which the visual axes move in parallel (conjugate gaze), and vergence movements, in which the eyes converge or diverge. Contributions of synergistic muscles are continuously re-adjusted — e.g. transferring gaze from distant objects to objects held in the hands inclines each visual axis downwards and medially; convergence towards a near point to one side integrates one medial rectus with the opposite lateral rectus as precisely as mid-field convergence by both medial recti; by such integration between the 12 extraocular muscles binocular vision is maintained without diplopia over almost a hemisphere of the visual environment (p.155).",
+      "Testing in paralytic squint: the palsied muscle is identified by testing eye movements in the horizontal and oblique meridia, assessing the yoke muscles in tandem and detecting underaction of the paralysed muscle or overaction of its yoke. Yoke pairs: medial rectus with contralateral lateral rectus (horizontal versions); superior rectus with contralateral inferior oblique (dextro- or laevoelevation); inferior rectus with contralateral superior oblique (dextro- or laevodepression) (pp.155-156).",
+      "Types of eye movement: rapid movements — voluntary and spontaneous saccades, the fast phases of vestibular and optokinetic nystagmus, and the rapid eye movements (REM) of sleep; slow movements — voluntary pursuit and vergence movements, as well as reflex optokinetic and vestibularly induced slow phases (p.156).",
+      "Premotor command centres: the premotor 'command' for horizontal movements arises in the paramedian pontine reticular formation (PPRF); for vertical movement in the rostral mesencephalic reticular formation including the rostral interstitial nucleus of the medial longitudinal fasciculus (riMLF) and perhaps the interstitial nucleus of Cajal (INC). Activity in these regions is coordinated by interconnections with projections to the nuclear subgroups concerned with eye movements; the riMLF and INC receive afferents from the vestibular system and cerebellum, the superior colliculi, the accessory optic system and cortex (Fig. 4.48) (p.156).",
+      "Mechanical environment: all eye movements occur against the viscous drag of orbital tissues, including the muscles; any eye position must be maintained against the elastic restoring forces of orbital structures (p.156).",
+      "Muscle functional properties (studied by imaging, length-tension measurements and single motor unit recording): the extraocular muscles are among the fastest and most fatigue resistant of mammalian muscles, with an isometric contraction rate about twice as fast as limb muscle and a blood flow — hence potential oxidative capacity — higher than in any skeletal muscle; twitch contraction rates are characterised by a low tension output, related perhaps to their unique myosin content and relevant to their low load-bearing function (Porter et al. 1995) (p.156).",
+      "Motor unit recruitment: the concept that small tonic fibres serve fixation and slow movements while the twitch system supplies rapid movements is no longer tenable — the different motor unit types are a final common pathway for all forms of eye movement, and intraoperative multi-unit EMG shows the sustained discharge for a given eye position is independent of the movement used to reach it, with all fibre types participating in every movement, conjugate or dysjunctive. In saccades all motor units are conceived to be recruited synchronously; at the end of a discharge or for slow movements recruitment is position-dependent: the orbital singly innervated and global red singly innervated fibres are recruited first (well in the off-direction), then the multiply innervated units (probably near the primary position), then the very fast but fatigable fibres (well into the on-direction). Motor neurone size may determine the sequence — the orbital layer of monkey medial rectus is innervated by a distinct population of small motor neurones which might be recruited early (p.156).",
+      "Sustained activity and length-tension: extraocular muscles show significant activity even well into the off-direction; Collins (1975) argues this sustained activity eliminates slack and lets the system operate in the linear region of the length-tension curve. The resting tension of innervated extraocular muscles always exceeds 10 g — a tension at or above which the length-tension curves become straight lines (p.156)."
+    ],
+    "blood_supply": "The extraocular muscles have a blood flow, and hence potential oxidative capacity, higher than in any skeletal muscle (p.156).",
+    "venous_drainage": null,
+    "innervation": "Supranuclear control converges on the ocular motor nuclei (III, IV, VI): the PPRF commands horizontal movements and the riMLF (with the INC) vertical movements; these premotor regions receive afferents from the vestibular system, cerebellum, superior colliculi, accessory optic system and cortex. Within each eye the antagonist of an excited muscle is reciprocally inhibited, and across the eyes yoke muscles are co-activated for conjugate gaze (pp.154-156).",
+    "histology_summary": null,
+    "clinical_importance": "In paralytic squint the palsied muscle is identified by testing the horizontal and oblique meridia so that yoke pairs are assessed in tandem (pp.155-156). Lesions in the PPRF or the rostral mesencephalic reticular formation lead to loss of horizontal or vertical conjugate movements; lesions in certain afferent pathways impair the generation of nystagmus; mesencephalic lesions impair vergence; lesions of coordinating structures such as the cerebellum impair the velocity and precision of eye movements (p.156). The resting tension always exceeds 10 g and the length-tension relation is linear above this level (Collins 1975) (p.156)."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "extraocular_muscles",
+      "target_name": "Extraocular Muscles (the six muscles of each globe executing the movements; Wolff 4.25)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "neural_basis_eye_movements",
+      "target_name": "Neural Basis for Eye Movements (cortical, cerebellar, vestibular and collicular control, Wolff 4.26)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "ocular movements",
+      "eye movements",
+      "versions",
+      "vergence",
+      "conjugate gaze",
+      "yoke muscles",
+      "agonist",
+      "antagonist",
+      "reciprocal innervation",
+      "PPRF",
+      "riMLF",
+      "interstitial nucleus of Cajal",
+      "saccades",
+      "nystagmus",
+      "REM sleep",
+      "pursuit",
+      "motor unit recruitment",
+      "length-tension",
+      "Collins tension",
+      "حركات العين",
+      "التقريب والتبعيد",
+      "العضلات المتزامنة",
+      "التثبيط المتبادل",
+      "مراكز الحركة",
+      "النظرة المقترنة",
+      "الرأي المزدوج",
+      "شد الراحة"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-11-04",
+    "version": "1.0.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            154,
+            154
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            154,
+            154
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            154,
+            156
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            156,
+            156
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            154,
+            156
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            155,
+            156
+          ]
+        }
+      ]
+    }
+  ]
+}

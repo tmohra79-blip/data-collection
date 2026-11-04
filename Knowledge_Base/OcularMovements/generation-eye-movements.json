@@ -1,0 +1,214 @@
+{
+  "entity_id": "generation_eye_movements",
+  "component_ids": [
+    "comp_muscle_medial_rectus",
+    "comp_muscle_lateral_rectus",
+    "comp_muscle_superior_rectus",
+    "comp_muscle_inferior_rectus",
+    "comp_muscle_superior_oblique",
+    "comp_muscle_inferior_oblique"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Generation of Eye Movements: Vestibulo-ocular and Optokinetic Reflexes (+ blood supply of midbrain centres)",
+    "ar": "توليد حركات العين: منعكسات الدهليز والمنعكس البصري الحركي (+ تروية مراكز الدماغ المتوسط)",
+    "aliases": [
+      "vestibulo-ocular reflex",
+      "VOR",
+      "optokinetic reflex",
+      "OKN",
+      "optokinetic nystagmus",
+      "velocity storage",
+      "optokinetic after-nystagmus",
+      "accessory optic system",
+      "nucleus of the optic tract",
+      "terminal nuclei",
+      "retinal slip",
+      "counter-rolling",
+      "blood supply of midbrain",
+      "منعكس الدهليز والعين",
+      "الرأرأة البصرية الحركية",
+      "مخزن السرعة",
+      "الجهاز البصري الملحق",
+      "تروية مراكز الدماغ المتوسط"
+    ]
+  },
+  "content": {
+    "definition": "Vestibular and optokinetic systems combine to maintain visual direction despite head movement: the angular acceleration of even brief head movements stimulates the semicircular canals, while the visual system responds to movement in the visual world (p.170). The vestibulo-ocular reflex generates a slow following response opposite to the head movement followed by a rapid phase in the same direction; the optokinetic response consists of a movement following the moving scene succeeded by a rapid saccade in the opposite direction (pp.170-171).",
+    "location": "The VOR is mediated by a three-neuron arc (vestibular nerve, vestibular and oculomotor nuclei) and a parallel polysynaptic accessory optic route (reticular formation, perihypoglossal nuclei, interstitial nucleus) (Precht 1978; 1979). Optokinetic visual afferents reach the vestibular nuclei via pretectal nuclei such as the nucleus of the optic tract (NOT), the reticular nucleus of the pontine tegmentum and the medial pontine nuclei, with the perihypoglossal nuclei and the vestibular commissure also involved (p.171). The accessory optic system nuclei lie in the rostral midbrain (dorsal, lateral and medial terminal nuclei plus the interstitial nucleus of the superior fasciculus posterior fibres, inSFp) (p.171-172, Fig. 4.67).",
+    "layers": [
+      "VOR circuitry: connections between vestibular and oculomotor neurons receive an indirect excitatory vestibular projection via the medial longitudinal fasciculus (and, to a lesser extent in primates, the lateral vestibular tract of Deiter). Vestibular neurons project to the contralateral abducent nucleus — to abducent motor neurons and to internuclear neurons, the latter carrying the signal via the MLF to the ipsilateral medial rectus motor neurons, which receive no direct inhibitory projection (Leigh and Zee 1983). For vertical eye movements, vestibular neurons project via the MLF (and possibly the brachium conjunctivum) to the oculomotor and trochlear nuclei (p.170).",
+      "Vestibular neuron types reinforcing the VOR: type I vestibular neurons are excited by ipsilateral horizontal rotations and inhibited by contralateral; type II neurons show the reverse. An intervestibular commissure allows type I neurons to activate contralateral type II neurons receiving input from the ipsilateral horizontal canal; a similar reciprocal innervation exists for vertical rotations (Precht 1979; Wilson and Melvill Jones 1979) (p.170).",
+      "Otolith contribution: the otoliths in the labyrinth generate ocular counter-rolling in response to head tilt (p.170).",
+      "Reflex timing: transient head rotation stimulates both reflexes — the vestibulo-ocular reflex with a latency of only 10 ms occurs first (Optican and Robinson 1980) and is reinforced by the optokinetic reflex with a latency of at least 70 ms (representing the retinobulbar response time) (p.171).",
+      "Velocity storage: during sustained rotation with eyes open the vestibular drive decreases as endolymph movement ceases, but the optokinetic system maintains a steady discharge from the vestibular nuclei to sustain the compensatory optokinetic nystagmus. The response is sustained by stored neural activity within the vestibular nuclei — this velocity storage mechanism is responsible for an optokinetic after-nystagmus evident in darkness (Waespe and Henn 1977a). During combined vestibular and optokinetic stimulation (e.g. self rotation), as the vestibular drive declines the optokinetic input persists, maintaining steady vestibular discharge and continuing to generate compensatory eye movements (Leigh and Zee 1991) (p.171).",
+      "Accessory optic pathway (rabbit model): retinofugal projections reach the nucleus of the optic tract and the accessory optic system, relayed to the medial vestibular nucleus via the nucleus prepositus hypoglossi and the medullary reticular formation (Collewijn 1981) (p.171).",
+      "Accessory optic system — structure and function: two sets of retinofugal fibres (inferior and superior fasciculi) and three midbrain target nuclei (dorsal, lateral and medial terminal nuclei), plus a nucleus intercalated between the posterior fibres of the superior fasciculus (inSFp) (Fredericks et al. 1988). In the primate these nuclei are much reduced in size (Mai 1978; Simpson 1984), reflecting the increased role of transcortical projections in the optokinetic response, the telencephalisation of vision with foveal development, and the change in optic flow during locomotion with frontal vision. The main function is suggested to be correcting the 'retinal slip' of images during self movement; the outflow to the vestibular system assists in stabilising eyes, neck, trunk and limbs during rotation (Fredericks et al. 1988). Human anatomy confirmed by postmortem anterograde/retrograde tracer studies (Cooper 1986; Cooper and Magnin 1987; Fredericks et al. 1988). The pathway may project to pontine nuclei and the vestibular system, and relays via the inferior olive to the vestibulocerebellum (Hoffman et al. 1988) (pp.171-172).",
+      "Cortical contribution to OKN: monkey neurons in the middle temporal (MT), medial superior temporal (MST) and posterior parietal (PP) visual areas respond to large moving visual stimuli with short latency; MST projects to the accessory optic system and to dorsolateral pontine nuclei thought to lie in the smooth pursuit pathway (Tusa 1988). Neurons of the NOT and dorsal terminal nucleus encode the speed of retinal image movement during OKN; experimental lesions of these regions in the monkey abolish the velocity storage component (and the optokinetic after-discharge) but leave smooth pursuit intact (Hoffman et al. 1988; Hoffmann and Distler 1989); the lateral terminal nucleus responds to upward-moving stimuli (p.172).",
+      "Development and lesions of OKN: newborn human OKN is mediated entirely by brain stem accessory optic pathways and resembles the rabbit response with nasotemporal asymmetry; this immature response is retained in amblyopes (Westall and Schorr 1985); in the normal infant a symmetrical response is achieved by the age of 2 months with maturation of the transcortical pathway. Bilateral occipital lobectomy in monkeys causes loss of the smooth pursuit component of OKN and induces nasotemporal asymmetry; unilateral lobectomy does not. Lesions at the temporo-occipito-parietal junction (area MT) impair saccades to targets in the contralateral hemifield and smooth pursuit; lesions of MST (equivalent to Brodmann areas 19 and 39) impair smooth pursuit towards the side of the lesion (Thurston et al. 1988; Leigh 1989; Dursteler and Wurtz 1988). In humans, unilateral parietal lesions (especially inferior parietal lobule and underlying white matter) cause asymmetry of smooth pursuit and impairment of optokinetic nystagmus with stimuli moving towards the side of the lesion; bilateral occipital lobe lesions usually abolish the optokinetic nucleus response (pp.172-173).",
+      "Blood supply of the midbrain centres (4.29): the tectum of the mid brain is supplied by a pial plexus arising from the posterior cerebral and superior cerebellar arteries, the former providing the main supply to the superior colliculi. The oculomotor and trochlear nuclei are supplied by specific end arteries from the posterior cerebral artery which enter the midbrain through the posterior perforated substance (Alexais and D'Astros 1982), although Stopford stated the supply is from the basilar artery. The abducent nuclei are supplied by a specific end artery from the basilar artery (Stopford 1916, 1917). Duvernoy's (1978) monograph is the most extensive study: he confirms the end-arterial nature of the penetrating vessels and describes in detail arteries such as the collicular (quadrigeminal) artery of Khan 1969 (p.177)."
+    ],
+    "blood_supply": "Tectum: pial plexus from the posterior cerebral and superior cerebellar arteries, the posterior cerebral providing the main supply to the superior colliculi. Oculomotor and trochlear nuclei: specific end arteries from the posterior cerebral artery entering through the posterior perforated substance (Alexais and D'Astros 1982; Stopford attributed the supply to the basilar). Abducent nuclei: a specific end artery from the basilar artery (Stopford 1916, 1917). Penetrating vessels are end arteries (Duvernoy 1978), including the collicular (quadrigeminal) artery of Khan 1969 (p.177).",
+    "venous_drainage": "Venous return of the midbrain centres is partly by the cortical veins and partly by the basal vein, which runs close to the posterior cerebral artery (Duvernoy 1978) (p.177).",
+    "innervation": "Reflex output to the ocular motor nuclei: vestibular neurons project to the contralateral abducent nucleus (motor neurons and internuclear neurons, the latter exciting ipsilateral medial rectus motor neurons via the MLF); vertical VOR pathways run in the MLF (possibly with the brachium conjunctivum) to the oculomotor and trochlear nuclei; the optokinetic response shares the vestibular nuclear final common pathway (pp.170-171).",
+    "histology_summary": null,
+    "clinical_importance": "Documented clinical facts: the 10 ms VOR latency versus at least 70 ms for the optokinetic reflex explains the sequence of nystagmus responses to transient head rotation (p.171); velocity storage accounts for optokinetic after-nystagmus visible in darkness (p.171); OKN asymmetry is normal in the newborn and persists in amblyopia, becoming symmetrical by about 2 months (p.172); parietal and occipital lesions produce predictable pursuit and OKN deficits, and bilateral occipital lesions usually abolish the optokinetic response (p.172); all midbrain penetrating vessels are end arteries (Duvernoy 1978), with specific end arteries to the oculomotor, trochlear (posterior cerebral) and abducent (basilar) nuclei — the documented vascular anatomy of the gaze centres (p.177)."
+  },
+  "relationships": [
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "neural_basis_eye_movements",
+      "target_name": "Neural Basis for Eye Movements (vestibular apparatus and nuclei whose reflex output this card traces, Wolff 4.26-4.27)"
+    },
+    {
+      "relation_type": "innervated_by",
+      "target_id": "vestibular_nerve",
+      "target_name": "Vestibular (VIII) nerve — afferent limb of the vestibulo-ocular reflex"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "vestibulo-ocular reflex",
+      "VOR",
+      "optokinetic nystagmus",
+      "OKN",
+      "velocity storage",
+      "optokinetic after-nystagmus",
+      "accessory optic system",
+      "nucleus of the optic tract",
+      "dorsal terminal nucleus",
+      "lateral terminal nucleus",
+      "medial terminal nucleus",
+      "inSFp",
+      "retinal slip",
+      "counter-rolling",
+      "three-neuron arc",
+      "type I neurons",
+      "type II neurons",
+      "intervestibular commissure",
+      "MT area",
+      "MST area",
+      "nasotemporal asymmetry",
+      "Duvernoy",
+      "blood supply midbrain",
+      "basal vein",
+      "منعكس الدهليز والعين",
+      "الرأرأة البصرية الحركية",
+      "مخزن السرعة",
+      "الجهاز البصري الملحق",
+      "التواء العين التعويضي",
+      "تروية مراكز الدماغ المتوسط"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-11-04",
+    "version": "1.0.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            170,
+            171
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            170,
+            172
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            170,
+            177
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            177,
+            177
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            177,
+            177
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            170,
+            171
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            171,
+            177
+          ]
+        }
+      ]
+    }
+  ]
+}

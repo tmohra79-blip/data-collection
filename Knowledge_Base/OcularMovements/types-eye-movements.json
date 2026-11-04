@@ -1,0 +1,213 @@
+{
+  "entity_id": "types_eye_movements",
+  "component_ids": [
+    "comp_muscle_medial_rectus",
+    "comp_muscle_lateral_rectus",
+    "comp_muscle_superior_rectus",
+    "comp_muscle_inferior_rectus",
+    "comp_muscle_superior_oblique",
+    "comp_muscle_inferior_oblique"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Types of Eye Movement: Saccades, Smooth Pursuit and Vergence",
+    "ar": "أنواع حركات العين: الرعشة المصرعية والتتبع الناعم والتقريب",
+    "aliases": [
+      "saccades",
+      "burst neurons",
+      "pause cells",
+      "pulse and step",
+      "neural integrator",
+      "smooth pursuit",
+      "retinal slip velocity",
+      "gaze velocity Purkinje cells",
+      "vergence",
+      "fusional vergence",
+      "accommodative vergence",
+      "AC/A ratio",
+      "Panum's area",
+      "stereopsis",
+      "group C neurons",
+      "double decussation",
+      "الرعشة المصرعية",
+      "خلايا الانفجار",
+      "خلايا الوقف",
+      "التتبع الناعم",
+      "التقريب الانصهاري",
+      "التقريب التكيفي",
+      "نسبة AC/A",
+      "مساحة بانوم"
+    ]
+  },
+  "content": {
+    "definition": "A saccade is a rapid eye movement changing fixation to a new object of interest (it also occurs in the fast phase of nystagmus and in REM sleep) (p.172). Smooth pursuit maintains a target image on the fovea throughout a tracking movement (p.175). Vergence movements — slow, disconjugate — ensure that both foveas are trained on the same visual target; fusional vergence is stimulated by retinal image disparity and is linked synkinetically to accommodation and miosis (p.176).",
+    "location": "Saccadic premotor machinery: the neural substrate for horizontal saccades lies in the caudal pons and for vertical saccades in the rostral midbrain (p.173); burst neurons of the PPRF project to the ipsilateral abducent nucleus; inhibitory burst neurons lie just caudal to the abducent nucleus in the rostral medulla; the vertical pulse is mediated by the riMLF at the ventral midbrain-thalamus junction; pause cells sit near the abducent nucleus in the middle raphe. Pursuit signals are recorded from the accessory optic system, brain stem reticular formation, cerebellar flocculi and occipitoparietal cortex. Vergence-related units: midbrain lateral to the oculomotor nucleus, pontine regions between the MLF, cerebellum and cortex (areas 19 and 22; parietal area 7) (pp.173-177).",
+    "layers": [
+      "Saccade kinematics: a typical saccade accelerates to peak velocity about half-way through the movement, gently decelerates and stops abruptly at a new eye position; a fixed relation exists between peak velocity (maximum 700 degrees/s) and amplitude (Dell'Osso and Daroff 1990). Saccadic reaction time (target appearance to movement onset) is about 200 ms. A saccade is 'programmed' on the basis of 'retinal error' (distance between retinal target image and fovea); within the ~70 ms taken for the visual signal to traverse retinal and central pathways to the brain stem ocular motor mechanisms, the response can be modified by visual information (Becker and Jurgens 1979), beyond this point it is relatively immutable. Retinal blurring is not appreciated during saccades owing to elevation of the visual threshold by approximately 0.5 log units (Chase and Kalill 1972) (p.173).",
+      "Pulse-step organisation: two components — the rapid phase brought about by a pulse of neural impulses which overcome orbital viscous drag, and the new position maintained against orbital elastic restoring forces by a tonic step of impulses characteristic for that eye position; pulse and step combine to produce a smooth movement (p.173).",
+      "Pulse generation — burst neurons: the premotor command for a horizontal saccade arises in PPRF neurons projecting to the ipsilateral abducent nucleus; they discharge shortly before and during the saccadic motor neuron pulse ('medium lead' burst neurons) with firing rate correlated with eye velocity; they also project to internuclear neurons of the abducent nucleus whose axons pass to contralateral medial rectus motor neurons. Inhibitory burst neurons lie just caudal to the abducent nucleus in the rostral medulla, providing reciprocal innervation by inhibiting the contralateral abducent nucleus (Hikosaka, Igusa and Imai 1978; Hepp and Henn 1979; Grantyn 1980; Igusa 1980). The vertical pulse is mediated in the riMLF at the ventral midbrain-thalamus junction, projecting to the ocular motor nuclei for vertical movement and to the interstitial nucleus (Buttner-Ennever and Buttner 1978) (pp.173-174).",
+      "Long-lead neurons and vertical saccade lesions: neurons in the more rostral PPRF fire several hundred milliseconds before horizontal and vertical saccades ('long lead' burst neurons) and may encode saccadic direction; they receive projections from the superior colliculus, frontal eye fields and the nucleus cuneiformis (Cohen et al. 1981; Waitzman and Cohen 1981). Lesions in the prerubral fields cause vertical saccadic palsies in primates (Buttner-Ennever et al. 1982), while lesions of the interstitial nucleus of Cajal disturb visually guided but not vestibularly induced contralateral saccades (p.174).",
+      "Pause cells and the step: cells near the abducent nucleus in the middle raphe complex tonically inhibit burst cells between saccades — their activity pauses just before and for the duration of a saccade, permitting the burst; if such 'pause' cells are stimulated during a saccade the movement is aborted (Keller 1977). The new position at the end of a saccade is maintained by a train of impulses from tonic neurons of the PPRF which may be part of a neural integrator; every position is specified by a unique pattern of ocular motor neuron activity (Robinson 1975). Saccadic size is encoded in the premotor centres by the duration of firing — spatial information from topographic maps of striate cortex, FEF and superior colliculus must be converted into a temporal series of impulses; the CNS converts a retinal target-position signal into target location in space using eye, head and body position signals (Leigh and Zee 1983) (pp.173-175).",
+      "Smooth pursuit — physiology: latency for the response is 130 ms (Robinson 1965). The stimulus is movement of an image in the region of the fovea; the system is primarily sensitive to retinal slip velocity and adjusts eye velocity to match that of the target by negative feedback control; retinal image position may also be a factor (Pola and Wyatt 1980). The neural mechanism is considered separately from optokinetic slow phases (p.175).",
+      "Pursuit substrate — signals recorded from: (1) the accessory optic system — pretectal nuclei projecting to the nucleus of the transpeduncular tract (ventromedial to the red nucleus, medial to the substantia nigra; increased activity during tracking — Giolli 1963), plus medial pontine and vestibular nuclei and the reticular nucleus of the pontine tegmentum, possibly relaying to the vestibular nuclei as a final common pathway for the optokinetic response; (2) the brain stem reticular formation — neurons encoding eye position, some modulating during ipsilateral pursuit or vestibular slow phases; units below the abducens nucleus may generate the premotor command, discharging at rates related to pursuit velocity and not modulated by vestibular signals (Keller 1974); (3) the cerebellar flocculi — 'gaze velocity' Purkinje cells discharge in relation to eye velocity during tracking and are thought to sum vestibular and eye velocity signals to generate a pursuit gaze velocity in space; they may project to the perihypoglossal nuclei or PPRF (Miles and Fuller 1975; Lisberger and Fuchs 1978a,b; Miles, Braitman and Dow 1980); (4) the occipitoparietal region and other cortical areas (p.175).",
+      "Vertical pursuit and VOR cancellation: the dentate nucleus and the nearby Y-group of vestibular nuclei (probably receiving a floccular projection) have been implicated in the control of vertical smooth pursuit and in cancellation of the VOR during combined head and eye tracing; in primates the pursuit signal and VOR cancellation appear to be subserved by different mechanisms (Robinson 1982) (p.175).",
+      "Higher pursuit control: a role has been suggested for a parieto-occipital region in voluntary pursuit; the parietotemporal cortex projects to ipsilateral pontine nuclei and thereby gains indirect access to the cerebellum; parietal activity during pursuit is generally thought to relate to attention rather than motor coding. Projections from the frontal eye fields and superior colliculi may carry pursuit drives; Daroff and Hoyt (1971) postulated a double decussation of a pursuit pathway — at the midbrain decussation of Meynert and at the midbrain-pontine junction. A striate-to-ipsilateral-superior-colliculus role has been suggested, but lesions do not impair pursuit; where polysynaptic pathways synthesise eye movements, isolated lesions to single pathways often have only minor or transient effects (pp.175-176).",
+      "Vergence — sensory basis: perception of 'single vision' requires images on corresponding retinal points (e.g. the foveae) for fusion; images on non-corresponding points are perceived in separate visual directions (diplopia). Retinal disparity stimulates fusional vergence movements achieving precise correspondence; a certain degree of horizontal disparity is tolerated with single vision still achieved (Panum's area), and the slight dissimilarities of the two retinal images from the different viewpoint of each eye are responsible for stereoscopic vision (p.176).",
+      "Vergence-accommodation synkinesis: fusional vergence movements are linked synkinetically to accommodation and miosis; accommodation (stimulated by retinal blur) itself stimulates a convergent movement. The amount of convergence induced by an accommodative effort is a relatively fixed ratio in an individual — the accommodative convergence/accommodation (AC/A) ratio — and deficiency of accommodative convergence to a near target is taken up by fusional vergence to align the visual axes (Leigh and Zee 1983; 1991) (p.176).",
+      "Vergence dynamics: vergence movements are slow, resulting from a sudden step change in tonic innervation of the horizontal eye muscles acting against the viscous drag of the orbital contents; they may take up to a second to complete. The reaction time for fusional vergence is under 20 ms and for accommodative vergence about 200 ms. During convergence the medial rectus receives a step increase and the lateral rectus a step decrease in innervation (pp.176-177).",
+      "Vergence circuitry: the neural substrate is not fully known; the premotor command passes directly to the medial rectus portion of the oculomotor nucleus. Midbrain units lateral to the oculomotor nucleus discharge in relation to the convergence angle and are not activated by conjugate movement; stimulation of other units within the oculomotor nucleus may induce vergence. Pontine stimulation between the medial longitudinal fasciculi produces vergence movements, but the vergence system does not use the MLF. In monkeys cerebellar ablation transiently impairs vergence. Cortical involvement: vergence occurs in relation to stimulation of areas 19 and 22 of the occipital cortex; visual cortex cells responding to 'retinal disparity' could provide sensory input for fusional vergence; area 7 parietal neurons may be activated during sagittal tracking. Reciprocal modulation of abducens motor neuron activity occurs during vergence — the pathway may include oculomotor internuclear neurons dorsal to the caudal oculomotor complex projecting to ipsi- and contralateral abducens nuclei (pp.176-177).",
+      "Orbital layer and vergence: it has been suggested that the outer orbital muscle fibre layer of the medial rectus may be concerned with vergence movements — they are supplied by the dorsomedial group of small motor neurons (group C) (p.177)."
+    ],
+    "blood_supply": null,
+    "venous_drainage": null,
+    "innervation": "Final motor paths: the saccadic pulse runs from PPRF/riMLF burst neurons to the abducent (VI) and vertical ocular motor nuclei, with pause-cell gating; the vergence premotor command passes directly to the medial rectus portion of the oculomotor nucleus (not via the MLF); during convergence the medial rectus receives a step increase and the lateral rectus a step decrease in innervation; the outer orbital layer of medial rectus (group C small motor neurons, dorsomedial group) may subserve vergence (pp.173-177).",
+    "histology_summary": null,
+    "clinical_importance": "Documented values used in clinical assessment: saccadic reaction time about 200 ms with peak velocity up to 700 degrees/s and a fixed velocity-amplitude relation (p.173); saccadic programming window ~70 ms and threshold elevation ~0.5 log units (saccadic suppression) (p.173); pursuit latency 130 ms (p.175); fusional vergence reaction time under 20 ms versus about 200 ms for accommodative vergence (p.176); the AC/A ratio is relatively fixed in an individual, with fusional vergence taking up any deficiency of accommodative convergence (p.176). Lesion facts: prerubral lesions cause vertical saccadic palsies and INC lesions disturb visually guided (not vestibularly induced) contralateral saccades (p.174); stimulation of pause cells aborts a saccade (Keller 1977) (p.174)."
+  },
+  "relationships": [
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "ocular_movements",
+      "target_name": "Ocular Movements (the framework within which saccades, pursuit and vergence are generated, Wolff 4.25)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "generation_eye_movements",
+      "target_name": "Generation of Eye Movements (reflex generation VOR/OKN complementing the voluntary movement types, Wolff 4.27)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "saccades",
+      "saccadic velocity",
+      "burst neurons",
+      "medium lead",
+      "long lead",
+      "inhibitory burst neurons",
+      "pause cells",
+      "pulse",
+      "step",
+      "neural integrator",
+      "smooth pursuit",
+      "retinal slip velocity",
+      "gaze velocity Purkinje cells",
+      "Y-group",
+      "double decussation",
+      "Meynert",
+      "vergence",
+      "fusional vergence",
+      "accommodative vergence",
+      "AC/A ratio",
+      "Panum's area",
+      "stereopsis",
+      "miosis",
+      "group C neurons",
+      "dorsomedial group",
+      "saccadic suppression",
+      "الرعشة المصرعية",
+      "خلايا الانفجار",
+      "خلايا الوقف",
+      "النبضة والخطوة",
+      "المتكام العصبي",
+      "التتبع الناعم",
+      "التقريب الانصهاري",
+      "التقريب التكيفي",
+      "نسبة AC/A",
+      "مساحة بانوم",
+      "الإدراك المجسم"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-11-04",
+    "version": "1.0.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            172,
+            176
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            173,
+            177
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            172,
+            177
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            173,
+            177
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            173,
+            176
+          ]
+        }
+      ]
+    }
+  ]
+}

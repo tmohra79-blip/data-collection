@@ -1,0 +1,241 @@
+{
+  "entity_id": "lateral_rectus",
+  "component_ids": [
+    "comp_muscle_lateral_rectus"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Lateral Rectus Muscle",
+    "ar": "العضلة المستقيمة الوحشية",
+    "aliases": [
+      "Lateral rectus",
+      "LR",
+      "rectus lateralis",
+      "rectus externus",
+      "external rectus",
+      "musculus rectus lateralis",
+      "المستقيمة الوحشية",
+      "العضلة المستقيمة الخارجية",
+      "المستقيمة الخارجية"
+    ]
+  },
+  "content": {
+    "definition": "The lateral rectus is attached to both parts of the annular tendon where they cross the superior orbital fissure. It is about 48 mm in length, which is longer than the medial rectus, but only two-thirds of its cross-sectional area. Its U-shaped origin is convex towards the optic foramen, the limbs of the U forming the upper and lower heads of the muscle. The lateral rectus abducts the eye, and it is supplied by the abducent (sixth cranial) nerve. It is often visible through the conjunctiva and Tenon's capsule.",
+    "location": "The lateral rectus arises from both parts of the annular tendon where they cross the superior orbital fissure; this attachment is continuous and includes the spine rectus lateralis on the greater wing of the sphenoid. At first the muscle adjoins the lateral orbital wall, separated by a small amount of fat; more anteriorly it passes medially, pierces Tenon's capsule and reaches the sclera 6.9 mm from the cornea by a tendon 8.8 mm long, at a line of attachment 9.2 mm long, vertical or slightly convex forwards and usually symmetrical (Fig 4.31).",
+    "layers": [
+      "Origin — both parts of the annular tendon where they cross the superior orbital fissure; the continuous attachment includes the spine rectus lateralis on the greater wing of the sphenoid; the U-shaped origin is convex towards the optic foramen and its limbs form the upper and lower heads of the muscle (Figs 4.28 and 5.6).",
+      "Course — the muscle at first adjoins the lateral orbital wall separated by a small amount of fat; more anteriorly it passes medially, pierces Tenon's capsule and reaches the globe; about 48 mm long (longer than the medial rectus) but with only two-thirds of its cross-sectional area.",
+      "Insertion — a tendon 8.8 mm long enters the sclera 6.9 mm from the cornea (Table 4.13); the line of attachment is 9.2 mm long, vertical or slightly convex forwards, and usually symmetrical.",
+      "Relations at the apex of the orbit — the two 'heads' of the lateral rectus and the rest of the annular tendon enclose part of the superior orbital fissure, often called the oculomotor foramen (Fig 4.28); structures passing through this opening, separated by a thin bar of bone from the optic foramen and nerve, are from above downwards: the superior oculomotor division, the nasociliary nerve, a branch from the internal carotid sympathetic plexus, the inferior oculomotor division, the ophthalmic veins, and the abducent nerve, which passes from below the inferior oculomotor division to become lateral to both divisions (Fig 5.6); above the upper head of the muscle (and hence above the annulus) are the trochlear, frontal and lacrimal nerves, the recurrent lacrimal artery and the superior ophthalmic vein — as Hovelacque (1927) stated, these structures do not traverse the narrow superolateral part of the fissure, which is closed by dense fibrous tissue, but pass just above the annulus; below the annulus is the inferior ophthalmic vein only.",
+      "Relations in the orbit — superiorly are the lacrimal artery and nerve (the lacrimal nerve adjoins the whole of its upper border, the artery only the anterior two-thirds) and the lacrimal gland lies anterior (Fig 5.18); inferiorly is the floor of the orbit, and anteriorly the tendon of the inferior oblique passing inferior and then medial to the lateral rectus to its attachment (Fig 4.28); medially, near the apex between the lateral rectus and the optic nerve, are the abducent nerve, the ciliary ganglion and the ophthalmic artery, and between the lateral and inferior recti is the nerve to the inferior oblique (Figs 5.24 and 5.26); laterally the periorbita lies posterior (Figs 1.15 and 1.16), perimuscular fat anterior, and most anteriorly the lacrimal gland between the muscle and bone.",
+      "Nerve entry — the abducent nerve enters the lateral rectus on its ocular aspect, just posterior to its midpoint."
+    ],
+    "blood_supply": "The lateral rectus is supplied by the lacrimal artery and by the lateral muscular branch of the ophthalmic artery.",
+    "venous_drainage": null,
+    "innervation": "The abducent (sixth cranial) nerve enters the lateral rectus on its ocular aspect, just posterior to its midpoint.",
+    "histology_summary": "Extraocular muscle fine structure (Wolff 4.7-4.8, printed 119-132): six Spencer and Porter (1981) fibre types in two zones — orbital zone: type 1 singly innervated fast twitch (80% of the orbital layer, capillary-ringed, fatigue resistant) and type 2 multiply innervated tonic (20%, 'amphibian tonic', acid-stable ATPase only in the proximal and distal thirds); global zone: type 3 red singly innervated (30%), type 4 intermediate singly innervated (25%), type 5 pale singly innervated (30%, resembles skeletal IIB, lowest fatigue resistance) and type 6 multiply innervated tonic (10%, felderstruktur, en grappe endings). Ocular fibres carry up to ten heavy myosin isoforms including an extraocular-specific fast myosin — no cross-reaction with skeletal muscle — explaining the fastest contraction of any muscle and a very low specific tension output (rat inferior rectus about one-third to one-half of rat limb muscle). Motor end plates (en plaque) occupy a 1-2 mm band in the middle third of the belly; about 85% of human extraocular muscle is en plaque innervated (the levator entirely so); en grappe endings concentrate in the distal third. Ageing brings a differential loss of type II fibres from orbital then global layers (Lyness 1986). Per-muscle data: the rhesus lateral rectus studied by Cheng and Breinin (1966) showed two large twitch fibre types 25-50 um wide with fibrillenstruktur — a 'red' fibre rich in mitochondria with no M-line and a 'white' fibre with a distinct M-line — plus a small 8-15 um multiply innervated slow (tonic) fibre lacking an M-line (p.123). Spindle endowment: 19.3 +/- 1.9 (Lukas et al. 1995); Table 4.11 — Voss 1957: 3; Inoue 1958: 31 (p.132).",
+    "clinical_importance": "The lateral rectus abducts the visual axis in the horizontal plane. As with the medial rectus, this turning action is pure only in the primary position: if the geometric anteroposterior axis of the globe is elevated or depressed, the horizontal recti also exert slight vertical actions — a fact used when displacing the insertions of the horizontal recti in vertically incomitant squint. The insertion distance of 6.9 mm from the cornea (Table 4.13) is a standard surgical landmark. The muscle is often visible through the conjunctiva and Tenon's capsule. Its relations at the apex are surgically important: the two heads and the annular tendon enclose the oculomotor foramen, through which the abducent nerve passes (crossing from below the inferior oculomotor division to lie lateral to both divisions), while the trochlear, frontal and lacrimal nerves pass above the annulus rather than through the narrow superolateral part of the fissure (Hovelacque 1927). Medially at the apex, between the lateral rectus and the optic nerve, lie the abducent nerve, the ciliary ganglion and the ophthalmic artery."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "extraocular_muscles",
+      "target_name": "Extraocular Muscles (one of the four rectus muscles of the muscle cone)"
+    },
+    {
+      "relation_type": "arises_from",
+      "target_id": "annulus_tendineus_communis",
+      "target_name": "Common tendinous ring (both parts crossing the superior orbital fissure, including the spine rectus lateralis; U-shaped origin forming upper and lower heads)"
+    },
+    {
+      "relation_type": "inserts_into",
+      "target_id": "sclera",
+      "target_name": "Sclera (tendon 8.8 mm long inserted 6.9 mm from the cornea; line of attachment 9.2 mm, vertical or slightly convex forwards — Table 4.13)"
+    },
+    {
+      "relation_type": "innervated_by",
+      "target_id": "abducens_nerve",
+      "target_name": "Abducent (VI) nerve (enters the ocular aspect just posterior to the midpoint of the muscle)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "superior_orbital_fissure",
+      "target_name": "Superior orbital fissure / oculomotor foramen (the two heads with the annular tendon enclose part of the fissure; III divisions, VI, nasociliary, sympathetic branch and ophthalmic veins pass through; trochlear, frontal, lacrimal nerves and superior ophthalmic vein pass above the annulus)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "optic_nerve",
+      "target_name": "Optic Nerve (at the apex the abducent nerve, ciliary ganglion and ophthalmic artery lie between the lateral rectus and the optic nerve)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "lacrimal_gland",
+      "target_name": "Lacrimal gland (most anterior lateral relation, between the muscle and bone; the lacrimal nerve adjoins the whole upper border, the artery the anterior two-thirds)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "lateral rectus",
+      "rectus lateralis",
+      "abduction",
+      "abductor of the eye",
+      "annular tendon",
+      "superior orbital fissure",
+      "oculomotor foramen",
+      "spine rectus lateralis",
+      "greater wing of sphenoid",
+      "upper and lower heads",
+      "insertion 6.9 mm from cornea",
+      "tendon 8.8 mm",
+      "line of attachment 9.2 mm",
+      "abducent nerve",
+      "ciliary ganglion",
+      "lacrimal artery and nerve",
+      "lacrimal gland",
+      "Hovelacque 1927",
+      "Tenon's capsule",
+      "العضلة المستقيمة الوحشية",
+      "المستقيمة الخارجية",
+      "التبعيد",
+      "الثقبة المحركة للعين",
+      "الثقبة الحجاجية العلوية",
+      "العصب المباعد",
+      "العقدة الهدبية",
+      "الغدة الدمعية",
+      "fibre types",
+      "twitch fibres",
+      "tonic fibres",
+      "orbital layer",
+      "global layer",
+      "Spencer and Porter",
+      "muscle spindles",
+      "extraocular myosin",
+      "أنواع الألياف",
+      "المغازل العضلية",
+      "الطبقة الحجاجية",
+      "الطبقة الكروية"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-11-04",
+    "version": "1.1.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            139
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            139,
+            140
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            139,
+            140
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            140
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            140
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            119,
+            132
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            123
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            132
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            139,
+            140
+          ]
+        }
+      ]
+    }
+  ]
+}

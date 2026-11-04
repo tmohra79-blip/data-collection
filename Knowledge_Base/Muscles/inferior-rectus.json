@@ -1,0 +1,241 @@
+{
+  "entity_id": "inferior_rectus",
+  "component_ids": [
+    "comp_muscle_inferior_rectus"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Inferior Rectus Muscle",
+    "ar": "العضلة المستقيمة السفلية",
+    "aliases": [
+      "Inferior rectus",
+      "IR",
+      "rectus inferior",
+      "musculus rectus inferior",
+      "المستقيمة السفلية",
+      "العضلة المستقيمة السفلية"
+    ]
+  },
+  "content": {
+    "definition": "The inferior rectus is the shortest of the recti. It is attached below the optic foramen by the middle part of the lower common tendon and passes anterolaterally along the floor of the orbit at an angle of 23-25°, to be attached to the sclera 6.5 mm from the cornea by a tendon 6.5 mm long. The muscle is about 40 mm long and 9 mm wide. Its primary action is depression of the eye, and it is also connected to the lower eyelid by its fascial sheath, by which it depresses the lower lid.",
+    "location": "The inferior rectus is attached below the optic foramen by the middle part of the lower common tendon. Passing anterolaterally along the floor of the orbit at an angle of 23-25°, it is attached to the sclera 6.5 mm from the cornea by a tendon 6.5 mm long (Table 4.13). The muscle is about 40 mm long and 9 mm wide; its line of attachment is 9.8 mm long, oblique and markedly convex forwards (Fig 4.31). It is also connected to the lower lid by its fascial sheath (Fig 5.23).",
+    "layers": [
+      "Origin — attached below the optic foramen by the middle part of the lower common tendon (the lower part of the annulus tendineus communis).",
+      "Course — passes anterolaterally along the floor of the orbit at an angle of 23-25° with the anteroposterior axis; the shortest of the recti, about 40 mm long and 9 mm wide.",
+      "Insertion — a tendon 6.5 mm long attached 6.5 mm from the cornea (Table 4.13); the line of attachment is 9.8 mm long, oblique and markedly convex forwards.",
+      "Relations — superiorly lie the eyeball and, separated by fat, the optic nerve and the inferior division of the oculomotor nerve (Fig 5.23); laterally the nerve to the inferior oblique runs in front of the lateral border or between it and the lateral rectus; inferiorly is the floor of the orbit, roofing the maxillary sinus — the muscle is close to the orbital palatine process but separated by fat from the orbital plate of the maxilla, and the infraorbital vessels and nerve lie in their canal below; the inferior oblique crosses below the inferior rectus, their sheaths being united here.",
+      "Nerve entry — a branch of the inferior division of the oculomotor nerve enters the ocular surface about 15 mm from its posterior end (Figs 5.23 and 5.24)."
+    ],
+    "blood_supply": "The medial muscular branch of the ophthalmic artery.",
+    "venous_drainage": null,
+    "innervation": "A branch of the inferior division of the oculomotor (third cranial) nerve enters the ocular surface about 15 mm from the posterior end of the muscle (Figs 5.23 and 5.24).",
+    "histology_summary": "Extraocular muscle fine structure (Wolff 4.7-4.8, printed 119-132): six Spencer and Porter (1981) fibre types in two zones — orbital zone: type 1 singly innervated fast twitch (80% of the orbital layer, capillary-ringed, fatigue resistant) and type 2 multiply innervated tonic (20%, 'amphibian tonic', acid-stable ATPase only in the proximal and distal thirds); global zone: type 3 red singly innervated (30%), type 4 intermediate singly innervated (25%), type 5 pale singly innervated (30%, resembles skeletal IIB, lowest fatigue resistance) and type 6 multiply innervated tonic (10%, felderstruktur, en grappe endings). Ocular fibres carry up to ten heavy myosin isoforms including an extraocular-specific fast myosin — no cross-reaction with skeletal muscle — explaining the fastest contraction of any muscle and a very low specific tension output (rat inferior rectus about one-third to one-half of rat limb muscle). Motor end plates (en plaque) occupy a 1-2 mm band in the middle third of the belly; about 85% of human extraocular muscle is en plaque innervated (the levator entirely so); en grappe endings concentrate in the distal third. Ageing brings a differential loss of type II fibres from orbital then global layers (Lyness 1986). Per-muscle data: spindles are concentrated proximally in the inferior rectus — Cooper and Daniel (1949): 41 proximal / 6 distal — the classic proximal example (p.132); modern count 34.0 +/- 4.4 (Lukas et al. 1995), the richest of the six; Table 4.11 — Voss 1957: 31; Inoue 1958: 48. The rat inferior rectus shows about one-third to one-half the specific tension of rat limb muscle (pp.121-122).",
+    "clinical_importance": "The inferior rectus, acting alone, would depress the visual axis inferomedially with a slight degree of extorsion; it also depresses the lower eyelid, to which it is connected by its fascial sheath. The primary action is depression, which increases in abduction and becomes nil in adduction; the inferior rectus is the only depressor in abduction. The subsidiary actions are adduction and extorsion, which increase with adduction. The insertion distance of 6.5 mm from the cornea (Table 4.13) is a standard surgical landmark, and the line of attachment — 9.8 mm long, oblique and markedly convex forwards — matters when the insertion is re-sited in surgery. The union of its sheath with that of the inferior oblique, which crosses below it, and its fascial connection to the lower lid tie the behaviour of globe and lid together in this quadrant."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "extraocular_muscles",
+      "target_name": "Extraocular Muscles (one of the four rectus muscles of the muscle cone)"
+    },
+    {
+      "relation_type": "arises_from",
+      "target_id": "annulus_tendineus_communis",
+      "target_name": "Common tendinous ring (attached below the optic foramen by the middle part of the lower common tendon)"
+    },
+    {
+      "relation_type": "inserts_into",
+      "target_id": "sclera",
+      "target_name": "Sclera (tendon 6.5 mm long inserted 6.5 mm from the cornea; line of attachment 9.8 mm, oblique, markedly convex forwards — Table 4.13)"
+    },
+    {
+      "relation_type": "innervated_by",
+      "target_id": "oculomotor_nerve",
+      "target_name": "Oculomotor (III) nerve, inferior division (branch enters the ocular surface about 15 mm from the posterior end)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "inferior_oblique",
+      "target_name": "Inferior Oblique Muscle (crosses below the inferior rectus, their sheaths being united at this point)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "maxillary_sinus",
+      "target_name": "Maxillary sinus (the inferior rectus runs along the orbital floor roofing the sinus; infraorbital vessels and nerve lie in their canal below)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "lower_eyelid",
+      "target_name": "Lower eyelid (connected to the lid by the muscle's fascial sheath, by which the muscle depresses the lower lid)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "inferior rectus",
+      "rectus inferior",
+      "shortest of the recti",
+      "primary depressor",
+      "depression",
+      "lower common tendon",
+      "annulus tendineus communis",
+      "23-25 degrees",
+      "insertion 6.5 mm from cornea",
+      "tendon 6.5 mm",
+      "line of attachment 9.8 mm",
+      "inferior division of oculomotor",
+      "nerve entry 15 mm",
+      "fascial sheath",
+      "lower eyelid",
+      "orbital floor",
+      "maxillary sinus",
+      "infraorbital nerve and vessels",
+      "extorsion",
+      "adduction",
+      "inferior oblique crossing",
+      "العضلة المستقيمة السفلية",
+      "المستقيمة السفلية",
+      "الخفض",
+      "الدوران الخارجي",
+      "الوتر السفلي المشترك",
+      "أرضية الحجاج",
+      "الجيب الفكي",
+      "الجفن السفلي",
+      "العصب تحت الحجاجي",
+      "fibre types",
+      "twitch fibres",
+      "tonic fibres",
+      "orbital layer",
+      "global layer",
+      "Spencer and Porter",
+      "muscle spindles",
+      "extraocular myosin",
+      "أنواع الألياف",
+      "المغازل العضلية",
+      "الطبقة الحجاجية",
+      "الطبقة الكروية"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-11-04",
+    "version": "1.1.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            138
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            138,
+            139
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            138,
+            139
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            139
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            139
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            119,
+            132
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            121,
+            122
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            132
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            138,
+            139
+          ]
+        }
+      ]
+    }
+  ]
+}
