@@ -1,0 +1,210 @@
+{
+  "entity_id": "orbital_fat_central_peripheral",
+  "component_ids": [
+    "comp_optic_nerve",
+    "comp_muscle_medial_rectus",
+    "comp_muscle_lateral_rectus",
+    "comp_muscle_superior_rectus",
+    "comp_muscle_inferior_rectus",
+    "comp_muscle_superior_oblique",
+    "comp_muscle_inferior_oblique"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "The Orbital Fat — Central and Peripheral Compartments and the Four Lobes (4.23)",
+    "ar": "الشحم المداري — القسم المركزي والمحيطي والفصوص الأربعة",
+    "aliases": [
+      "orbital fat",
+      "central orbital fat",
+      "peripheral orbital fat",
+      "intermuscular membrane",
+      "supravaginal space of Schwalbe",
+      "superolateral lobe",
+      "inferolateral lobe",
+      "inferomedial lobe",
+      "superomedial lobe",
+      "subconjunctival ecchymosis",
+      "الشحم المداري",
+      "الشحم المركزي",
+      "الشحم المحيطي",
+      "الفصوص الأربعة",
+      "الفراغ فوق الغمد",
+      "نزيف تحت الملتحمة"
+    ]
+  },
+  "content": {
+    "definition": "The orbital fat occupies the space not occupied by other structures. Formalin fixation artificially hardens it, but in life it is soft, though incompressible, and limited in displacement by the fibrous strands, bands and ligaments which permeate it. It extends from the optic nerve to the orbital walls and from the apex to the septum orbitale; it may cause the septum to bulge but never normally enters the eyelids except in old age. The fat is divided by the intermuscular membrane into a central (intraconal) part and a peripheral (extraconal) part; posteriorly, where the intermuscular membrane is weak, the two are continuous (p.152).",
+    "location": "Central fat surrounds the optic nerve; peripheral fat lies between the periorbita and the cone of muscles, limited anteriorly by the septum orbitale and enclosed by a thin membrane united to the periorbita by weak processes. Between the muscles the peripheral fat forms four lobes, the posterior parts of which become continuous with the central fat (p.153).",
+    "layers": [
+      "Central orbital fat — loose and finely lobulated with thin septa, allowing movements of the optic nerve and the ciliary vessels and nerves; its septa blend with the fascia bulbi, so there is no space between fat and fascia and in excursions of any extent the fat moves with the eye; at the surface of the optic nerve it condenses into a limiting membrane separating it from the dural sheath; the space between them (the 'supravaginal space' of Schwalbe) is crossed by fibre strands, an arrangement probably produced by, and certainly facilitating, movement of the optic nerve",
+      "Peripheral orbital fat — between the periorbita and the muscle cone; anteriorly in contact with the intermuscular membrane and fascia bulbi; posteriorly covers the recti near their attachments; superficially each lobe partially covers the muscles between which it lies",
+      "Superolateral lobe — between superior and lateral recti; overlaps superior rectus; separated from the superomedial lobe by the frontal nerve; covers the lateral rectus, but the lacrimal gland separates it from the septum",
+      "Inferolateral lobe — between lateral and inferior recti; at its lower border is the nerve to the inferior oblique; broadens anteriorly and reaches the septum around the inferior oblique; lies posterior to the lacrimal sac and the lacrimal part of the orbicularis oculi",
+      "Inferomedial lobe — between inferior and medial recti; enlarges anteriorly and sends a prolongation to the septum on either side of the inferior oblique; lies behind the expansion of medial rectus on the posterior aspect of the septum, posterior to Horner's muscle and the lacrimal sac",
+      "Superomedial lobe — between superior rectus and levator laterally and medial rectus; partly separated from the periorbita by the superior oblique; anteriorly to the septum orbitale, and also above the trochlea through the superior aperture, it forms a retroseptal mass along the anterior margin of the check ligament of the levator muscle"
+    ],
+    "blood_supply": "The interlobular septa are vascular (p.152). Blood vessels may pass between the peripheral fat and the periorbita into the eyelids, but not the conjunctiva (p.153); no intrinsic arterial pattern of the fat is detailed in this section.",
+    "venous_drainage": null,
+    "innervation": null,
+    "histology_summary": "The fat consists of yellow lobules of fat cells encapsulated in connective tissue, which demarcates the lobules. The interlobular septa are soft, vascular and easily distended by oedema fluid (p.152). Formalin fixation artificially hardens the fat; in life it is soft though incompressible, and its consistency varies with the amount of connective tissue it contains (p.152).",
+    "clinical_importance": "Rupture of the septum may cause subconjunctival ecchymosis (p.153) — blood from the peripheral fat reaches the conjunctiva only after septal rupture. The fat may bulge the septum orbitale and enters the eyelids only in old age. Oedema fluid easily distends the interlobular septa. The loose central fat permits movement of the optic nerve and ciliary vessels and nerves, and the fat moves with the eye in excursions (no fat-fascia space). Together with the fascia system (FAS-001, FAS-002) it provides an incompressible suspension keeping the globe accurately related to its fellow eye."
+  },
+  "relationships": [
+    {
+      "relation_type": "surrounds",
+      "target_id": "optic_nerve",
+      "target_name": "Optic Nerve — central fat surrounds it; limiting membrane + supravaginal space of Schwalbe at its dural sheath"
+    },
+    {
+      "relation_type": "related_to",
+      "target_id": "orbital_fat_pads_apertures",
+      "target_name": "Orbital Fat Pads and Apertures (OLF-001) — the preaponeurotic pads are the anterior continuation of this fat"
+    },
+    {
+      "relation_type": "related_to",
+      "target_id": "suspensory_ligaments_orbital_septa",
+      "target_name": "Orbital septa (FAS-002) — the intermuscular membrane divides the fat into central and peripheral parts; septa channels carry the ophthalmic veins"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "superior_oblique",
+      "target_name": "Superior Oblique — partly separates the superomedial lobe from the periorbita"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "inferior_oblique",
+      "target_name": "Inferior Oblique — the inferolateral lobe reaches the septum around it; the inferomedial lobe sends prolongations on either side of it"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "lateral_rectus",
+      "target_name": "Lateral Rectus — covered by the superolateral lobe; inferolateral lobe lies between it and inferior rectus"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "medial_rectus",
+      "target_name": "Medial Rectus — superomedial and inferomedial lobes flank it; the inferomedial lobe lies behind its septal expansion"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "orbital fat",
+      "central fat",
+      "peripheral fat",
+      "four lobes",
+      "schwalbe space",
+      "optic nerve cushioning",
+      "oedema",
+      "ecchymosis",
+      "old age",
+      "fat lobules",
+      "الشحم",
+      "الدهون المدارية",
+      "الفصوص",
+      "شوالبه",
+      "كبار السن"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-11-04",
+    "version": "1.0.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            152,
+            153
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            152,
+            153
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            152,
+            153
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            152,
+            153
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            152,
+            153
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            152,
+            153
+          ]
+        }
+      ]
+    }
+  ]
+}

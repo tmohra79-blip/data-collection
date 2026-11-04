@@ -1,0 +1,194 @@
+{
+  "entity_id": "smooth_muscle_orbit",
+  "component_ids": [
+    "comp_muscle_medial_rectus",
+    "comp_muscle_lateral_rectus",
+    "comp_muscle_inferior_rectus"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "The Smooth Muscle of the Orbit (4.21)",
+    "ar": "العضلات الملساء المدارية (عضلة هسر الكبسولية الجفنية ومولر)",
+    "aliases": [
+      "capsulopalpebral muscle",
+      "muscle of Hesser",
+      "superior palpebral muscle",
+      "Müller's muscle",
+      "inferior palpebral muscle",
+      "inferior lid retractor",
+      "musculus orbitalis of Müller",
+      "pulley smooth muscle",
+      "العضلة الكبسولية الجفنية",
+      "عضلة مولر الجفنية العلوية",
+      "عضلة الجفن السفلية",
+      "العضلة المدارية لمولر"
+    ]
+  },
+  "content": {
+    "definition": "The so-called capsulopalpebral muscle (of Hesser) is the peribulbar part of the non-striated (smooth) muscle of the orbit. It consists of superior, inferior and medial palpebral parts, being deficient laterally; only its superior palpebral part displays definable attachments (p.150).",
+    "location": "The superior palpebral muscle (Müller's) passes from the bulbar aspect of levator palpebrae just behind the fornix to the superior border of the tarsal plate, lying in fatty connective tissue between the tendon of the levator in front and the fascia bulbi and conjunctiva behind, thus helping to limit the pretarsal space (p.150). The inferior palpebral muscle (inferior lid retractor) passes from the ocular surface of inferior rectus to the lower border of the tarsal plate; anteriorly its fibres lie between the palpebral conjunctiva and the inferior part of the septum orbitale in the palpebral extension of the fascia bulbi (p.152).",
+    "layers": [
+      "Superior palpebral muscle (Müller's) — central region of the superior capsulopalpebral part; 15-20 mm wide and 10 mm in length; better defined than the other parts",
+      "Lateral slip of the superior palpebral muscle — splits to surround the palpebral lobe of the lacrimal gland",
+      "Medial slighter slip — extends from the fascia bulbi to the medial end of the superior tarsal border",
+      "Inferior palpebral muscle (inferior lid retractor) — central part of the capsulopalpebral muscle below, from the ocular surface of inferior rectus to the lower border of the tarsal plate",
+      "Medial capsulopalpebral part — represented only by scattered fibres in the fascia bulbi which do not reach the eyelid or fornix; the rest of the non-striated muscle here is poorly developed in humans",
+      "Musculus orbitalis of Müller (unstriated) — covers the inferior orbital fissure (details p.14); connected to inferior and lateral rectus by three connective tissue septa (see FAS-002)",
+      "Smooth muscle of the rectus pulleys — within the pulleys and their stabilizing septa"
+    ],
+    "blood_supply": null,
+    "venous_drainage": null,
+    "innervation": "The smooth muscle supporting the rectus pulleys has a rich sympathetic and parasympathetic innervation, the latter including both cholinergic and nitrergic neurons (Demer, 1995b,c). Sympathetic stimulation is thought to cause smooth muscle contraction and nitrergic stimulation to cause relaxation (p.152).",
+    "histology_summary": "All the capsulopalpebral parts are non-striated (smooth) muscle; the rest of the non-striated muscle in this region is poorly developed in humans (p.152). The pulley smooth muscle is richly innervated (sympathetic + cholinergic and nitrergic parasympathetic), and the greater degree of development of the smooth muscle running medially from the medial rectus pulley has suggested a role in vergence eye movements (Demer et al., 1995b).",
+    "clinical_importance": "The pulley smooth muscle may maintain tension in Tenon's fascia during ageing and fine-tune the position of the pulleys (Bergen, 1982); its asymmetric medial development suggests a role in vergence (Demer et al., 1995b) — a possible dynamic adjustment of pulley position. The superior palpebral muscle (Müller's) helps limit the pretarsal space; the inferior palpebral muscle is the inferior lid retractor (see also the inferior rectus expansion which lowers the lid 2 mm, FAS-001). Müller's orbital muscle spans the inferior orbital fissure (details p.14)."
+  },
+  "relationships": [
+    {
+      "relation_type": "connected_to",
+      "target_id": "inferior_rectus",
+      "target_name": "Inferior Rectus — the inferior palpebral muscle takes origin from its ocular surface"
+    },
+    {
+      "relation_type": "related_to",
+      "target_id": "medial_rectus",
+      "target_name": "Medial Rectus — greatest smooth-muscle development runs medially from its pulley (vergence role, Demer et al. 1995b)"
+    },
+    {
+      "relation_type": "related_to",
+      "target_id": "fascia_bulbi_rectus_pulleys",
+      "target_name": "Fascia bulbi and pulleys (FAS-001) — the smooth muscle lies within the pulleys and posterior Tenon's"
+    },
+    {
+      "relation_type": "related_to",
+      "target_id": "suspensory_ligaments_orbital_septa",
+      "target_name": "Orbital septa (FAS-002) — Müller's orbital muscle anchors to the cone septa; septa contain smooth muscle"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "smooth muscle",
+      "capsulopalpebral",
+      "hesser",
+      "muller's muscle",
+      "superior tarsal muscle",
+      "inferior palpebral muscle",
+      "lid retractors",
+      "nitrergic",
+      "bergen 1982",
+      "vergence",
+      "sympathetic contraction",
+      "العضلات الملساء",
+      "مولر",
+      "الجفن السفلي",
+      "لاودي"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-11-04",
+    "version": "1.0.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            150,
+            151,
+            152
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            150,
+            151,
+            152
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            150,
+            151,
+            152
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            150,
+            151,
+            152
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            150,
+            151,
+            152
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            150,
+            151,
+            152
+          ]
+        }
+      ]
+    }
+  ]
+}

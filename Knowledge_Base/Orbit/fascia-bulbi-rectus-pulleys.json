@@ -1,0 +1,192 @@
+{
+  "entity_id": "fascia_bulbi_rectus_pulleys",
+  "component_ids": [
+    "comp_muscle_medial_rectus",
+    "comp_muscle_lateral_rectus",
+    "comp_muscle_superior_rectus",
+    "comp_muscle_inferior_rectus"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Fascia Bulbi (Tenon's Capsule) and the Rectus Muscle Pulleys (4.19-4.20)",
+    "ar": "الفاصيا البصلية (محفظة تينون) وبكرات العضلات المستقيمة",
+    "aliases": [
+      "Tenon's capsule",
+      "fascia bulbi",
+      "rectus pulleys",
+      "connective tissue pulleys",
+      "Motais band",
+      "intermuscular membrane",
+      "posterior Tenon's fascia",
+      "الفاصيا البصلية",
+      "محفظة تينون",
+      "بكرات العضلات المستقيمة",
+      "حزام موتايه",
+      "الغشاء بين العضلات"
+    ]
+  },
+  "content": {
+    "definition": "The fascia bulbi (Tenon's capsule) is the connective tissue system investing the globe and its muscles; it is thought to be derived from perimysial connective tissue, forming an intermuscular membrane which represents an extension of the insertion of the extraocular muscles into the limbus and lids (Neiger, 1960). Recently it has been recognized that the rectus muscles pass through connective tissue sleeves or pulleys, located close to the equator of the globe, which stabilize the position of the recti relative to the orbit during eye movements (Demer et al., 1995). Their effective anteroposterior extent is 13-19 mm, and the rectus tendons slide through the pulleys inside thin collagenous sheaths.",
+    "location": "The pulleys are located close to the equator of the globe, in the posterior part of Tenon's fascia; they are stabilized by fibromuscular septa which extend from the pulleys and adjacent sleeves of Tenon's fascia to the orbital walls, to the adjacent muscles and to Tenon's capsule — attachments that are incomplete more anteriorly and posteriorly (p.148). The circularly arranged posterior Tenon's fascia supports the globe and is attached peripherally to the periorbita, especially at the orbital rim (p.148).",
+    "layers": [
+      "Fascia bulbi proper — derived from perimysial connective tissue as an intermuscular membrane extending the muscle insertions to limbus and lids (Neiger, 1960)",
+      "Rectus muscle pulleys — connective tissue sleeves near the equator, effective anteroposterior extent 13-19 mm, rich in collagen, elastic tissue and smooth muscle; most developed around the horizontal recti and particularly the medial rectus (Demer et al., 1995)",
+      "Medial rectus pulley — a complete ring of collagen encircling the muscle near the equator in the posterior part of Tenon's fascia, strengthened by collagen arranged in perpendicular bands whose layers show alternating fibre directions (Porter et al., 1995b); contains smooth muscle, although most of the smooth muscle of Tenon's capsule is anterior to the globe equator",
+      "Thin collagenous sheaths — through which the rectus tendons slide inside the pulleys",
+      "Posterior Tenon's fascia — circularly arranged; supports the globe and is attached peripherally to the periorbita, especially at the orbital rim; its periphery is a tough fibromuscular structure composed of dense collagen, elastic tissue and circumferentially arranged smooth muscle",
+      "Muscle expansions — expansion from superior rectus attached to levator palpebrae by a band in which a bursa may be found (Motais); expansion from inferior rectus passes between it and inferior oblique, deep to the inferior fornix and palpebral conjunctiva, separated by the unstriated inferior palpebral muscle, to attach between the tarsal plate and orbicularis"
+    ],
+    "blood_supply": null,
+    "venous_drainage": null,
+    "innervation": null,
+    "histology_summary": "The pulleys are rich in collagen, elastic tissue and smooth muscle (p.148). The medial rectus pulley consists of a complete ring of collagen strengthened by perpendicular bands of collagen with alternating fibre directions (Porter et al., 1995b) and contains smooth muscle; most of the smooth muscle of Tenon's capsule lies anterior to the globe equator. The periphery of the posterior fascia is dense collagen plus elastic tissue with circumferentially arranged smooth muscle. Development (Fink, 1956): the fascia bulbi develops from periscleral mesenchymal condensations at the third month of intrauterine life, exhibits distinct elastic and collagenous fibre layers at the 90-mm stage, and is complete by the 150-mm stage (p.148).",
+    "clinical_importance": "The Motais band between superior rectus and levator palpebrae (with a possible bursa) facilitates synergistic action: when the eye is elevated the upper lid is also raised. The inferior rectus expansion acts on the lower lid as the levator acts on the upper — the lid is lowered 2 mm by its action and the lashes are everted, a movement aided by contact with the globe (p.148). The check-ligament system is extensive but 'ligaments are legion, and their functional significance is uncertain' (Nutt, 1955). Pulley attachments are incomplete anteriorly and posteriorly. Note: the smooth muscle of the pulleys and its autonomic control are covered in the companion card smooth_muscle_orbit (OSM-001)."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "extraocular_muscles",
+      "target_name": "Extraocular Muscles overview (MUS-001): the fascia system invests all six muscles"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "medial_rectus",
+      "target_name": "Medial Rectus — its pulley is the most developed: a complete collagen ring with perpendicular alternating bands (Porter et al., 1995b)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "lateral_rectus",
+      "target_name": "Lateral Rectus — passes through its pulley near the equator"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "superior_rectus",
+      "target_name": "Superior Rectus — its expansion joins levator palpebrae via the Motais band (with a possible bursa)"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "inferior_rectus",
+      "target_name": "Inferior Rectus — its expansion reaches the lower lid (between tarsal plate and orbicularis) and lowers it 2 mm"
+    },
+    {
+      "relation_type": "related_to",
+      "target_id": "suspensory_ligaments_orbital_septa",
+      "target_name": "Suspensory ligaments of the fornices and orbital septa (FAS-002) — the septa anchor the pulleys and fascia to the walls"
+    },
+    {
+      "relation_type": "related_to",
+      "target_id": "smooth_muscle_orbit",
+      "target_name": "Smooth muscle of the orbit (OSM-001) — pulley smooth muscle and its autonomic control"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "fascia bulbi",
+      "tenon's capsule",
+      "rectus pulleys",
+      "demer pulleys",
+      "motais band",
+      "perimysial origin",
+      "fink development",
+      "collagen ring",
+      "fibromuscular septa",
+      "الفاصيا",
+      "البكرات",
+      "تينون",
+      "موتايه"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-11-04",
+    "version": "1.0.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            148,
+            149
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            148,
+            149
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            148,
+            149
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            148,
+            149
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            148,
+            149
+          ]
+        }
+      ]
+    }
+  ]
+}

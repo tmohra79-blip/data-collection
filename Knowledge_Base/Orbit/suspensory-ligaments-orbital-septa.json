@@ -1,0 +1,224 @@
+{
+  "entity_id": "suspensory_ligaments_orbital_septa",
+  "component_ids": [
+    "comp_muscle_medial_rectus",
+    "comp_muscle_lateral_rectus",
+    "comp_muscle_superior_rectus",
+    "comp_muscle_inferior_rectus",
+    "comp_muscle_superior_oblique",
+    "comp_muscle_inferior_oblique"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Suspensory Ligaments of the Fornices, Orbital Septa and Surgical Spaces (4.20-4.22)",
+    "ar": "الأربطة المعلقة للطيات والحواجز الضامة المدارية والفراغات الجراحية",
+    "aliases": [
+      "superior suspensory ligament of the fornix",
+      "inferior suspensory ligament of the fornix",
+      "orbital septa",
+      "intermuscular membrane",
+      "preseptal space",
+      "preaponeurotic space",
+      "intraconal space",
+      "blowout fracture",
+      "الرباط المعلق العلوي",
+      "الرباط المعلق السفلي",
+      "الحواجز المدارية",
+      "الغشاء بين العضلات",
+      "الفراغ داخل المخروط",
+      "كسر قاع الحجاج"
+    ]
+  },
+  "content": {
+    "definition": "The fibrous tissue between superior rectus and levator continues forward to the upper fornix as the superior suspensory ligament of the fornix; the inferior suspensory ligament of the fornix in the lower lid is an extension of the fibrous tissue of the lid retractors (p.150). The orbital septa are elastic and collagenous septa passing inwards from the periorbita to reach the fascia bulbi; they also pass to and between the extraocular muscles and provide specific supportive channels for the ophthalmic veins (Welt and Zacharias, 1970). The intermuscular membrane is a condensation of connective tissue between the recti blending anteriorly with the fascia bulbi (Poirier, 1911).",
+    "location": "Septal density varies in different parts of the orbit: generally better developed anteriorly and less well developed towards the apex, where adipose tissue is increased in amount (p.150). At the apex of the orbit, for about 7.1 mm forwards, there are septa from the levator and superior rectus to the periorbita of the roof (Fig. 4.45). Behind the globe the connective tissue 'sheath' between the four recti is absent, so that distinct intra- and extraconal spaces are lacking (Koornneef, 1977).",
+    "layers": [
+      "Superior suspensory ligament of the fornix — continuation of the fibrous tissue between superior rectus and levator into the upper fornix",
+      "Inferior suspensory ligament of the fornix — extension of the fibrous tissue of the lower lid retractors (Collin's lower-lid retractor sheet, Fig. 4.43e)",
+      "Muscle expansions — expansion of superior oblique ascends to the trochlea; expansion of inferior oblique reaches the lateral orbital floor (Fig. 4.42)",
+      "Orbital septa — start to develop at 3.5 months after conception, suggested to be induced by the onset of eye movements; pass from periorbita to fascia bulbi and between the extraocular muscles, providing specific supportive channels for the ophthalmic veins (Welt and Zacharias, 1970)",
+      "Intermuscular membrane — condensation between the recti blending anteriorly with fascia bulbi (Poirier, 1911); divides the orbital fat into central and peripheral regions; behind the globe it is absent, so distinct intra- and extraconal spaces are lacking (Koornneef, 1977)",
+      "Apical septa — for about 7.1 mm forwards from the apex: septa from levator and superior rectus to the periorbita of the roof; septa between the muscle cone and floor are intimately related to the orbital veins and contain smooth muscle",
+      "Müller's orbital muscle (unstriated) — covers the inferior orbital fissure and is connected to the inferior and lateral rectus by three connective tissue septa, two of which are connected to the inferior ophthalmic vein",
+      "Anterior septa — spread from levator superioris and superior rectus towards the roof and between superior and lateral rectus; more anteriorly levator superioris forms the lateral aponeurosis while the smaller medial aponeurosis tangles medially with connective tissue of the superior oblique muscle"
+    ],
+    "blood_supply": null,
+    "venous_drainage": "The septa provide specific supportive channels for the ophthalmic veins (p.150); two of the three connective tissue septa anchoring Müller's orbital muscle are connected to the inferior ophthalmic vein, and the septa between the muscle cone and the floor are intimately related to the orbital veins (p.150).",
+    "innervation": null,
+    "histology_summary": "The septa are elastic and collagenous (Welt and Zacharias, 1970). The orbital septa develop later than the extraocular muscle masses, their capillary beds even later still, and fat cells are laid down between the septa after this (p.150). The septa between the muscle cone and floor contain smooth muscle; further forwards the septa between the lateral, medial and inferior recti and the orbital floor contain less smooth muscle. Development timeline: septa start at 3.5 months after conception (p.150).",
+    "clinical_importance": "If the superior suspensory ligament of the fornix is cut during ptosis surgery the conjunctiva can prolapse (Collin, 1983); if the lower lid retractors are lax, as an involutional process, the lower fornix is shallowed (p.150). The intraconal space may occasionally accumulate pus. Surgical spaces of the orbit (4.22, pp.152-153): (1) the preseptal space — bounded by the orbital walls and anteriorly by the eye, septum orbitale, tarsal plates and palpebral ligaments; (2) the preaponeurotic space — immediately behind the orbital septum and in front of the levator aponeurosis, containing the preaponeurotic fat pads (see orbital_fat_pads_apertures, OLF-001); (3) a potential space between the periorbita and bone; (4) the intraconal space — bounded by the cone of muscles, the intermuscular membrane and the fascia bulbi; (5) a potential space between the eyeball and the fascia bulbi. In an inferior orbital blowout fracture the entire motility system is trapped near the orbital floor (Fig. 4.43g)."
+  },
+  "relationships": [
+    {
+      "relation_type": "connected_to",
+      "target_id": "superior_oblique",
+      "target_name": "Superior Oblique — its expansion ascends to the trochlea; the medial aponeurosis tangles with its connective tissue"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "inferior_oblique",
+      "target_name": "Inferior Oblique — its expansion reaches the lateral orbital floor"
+    },
+    {
+      "relation_type": "related_to",
+      "target_id": "superior_rectus",
+      "target_name": "Superior Rectus — apical septa run from it (with levator) to the roof periorbita for ~7.1 mm"
+    },
+    {
+      "relation_type": "related_to",
+      "target_id": "inferior_rectus",
+      "target_name": "Inferior Rectus — its fibrous tissue continues into the inferior suspensory ligament of the lower fornix"
+    },
+    {
+      "relation_type": "related_to",
+      "target_id": "orbital_fat_pads_apertures",
+      "target_name": "Orbital Fat Pads and Apertures (OLF-001) — the preaponeurotic space of 4.22 contains the preaponeurotic fat pads"
+    },
+    {
+      "relation_type": "related_to",
+      "target_id": "fascia_bulbi_rectus_pulleys",
+      "target_name": "Fascia bulbi and rectus pulleys (FAS-001) — the septa stabilize the pulleys and fascia"
+    },
+    {
+      "relation_type": "related_to",
+      "target_id": "orbital_fat_central_peripheral",
+      "target_name": "Orbital fat (OLF-002) — the intermuscular membrane divides it into central and peripheral parts"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "suspensory ligaments",
+      "fornix",
+      "ptosis surgery",
+      "conjunctival prolapse",
+      "collin 1983",
+      "koornneef",
+      "poirier",
+      "welt zacharias",
+      "muller orbital muscle",
+      "inferior orbital fissure",
+      "ophthalmic veins channels",
+      "intraconal pus",
+      "surgical spaces",
+      "blowout fracture",
+      "الأربطة المعلقة",
+      "الحواجز",
+      "الفراغات الجراحية",
+      "عضلة مولر المدارية"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-11-04",
+    "version": "1.0.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            150,
+            151,
+            152,
+            153
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            150,
+            151,
+            152,
+            153
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            150,
+            151,
+            152,
+            153
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            150,
+            151,
+            152,
+            153
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            150,
+            151,
+            152,
+            153
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            150,
+            151,
+            152,
+            153
+          ]
+        }
+      ]
+    }
+  ]
+}
