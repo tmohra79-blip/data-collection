@@ -1,0 +1,323 @@
+{
+  "entity_id": "choroid_blood_supply",
+  "component_ids": [
+    "comp_sclera",
+    "comp_retina"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Blood Supply of the Choroid (Ciliary Arterial System)",
+    "ar": "التروية الدموية للمشيمية (نظام الشرايين الهدبية)",
+    "aliases": [
+      "short posterior ciliary arteries",
+      "long posterior ciliary arteries",
+      "anterior ciliary arteries",
+      "circle of Zinn and Haller",
+      "circulus iridis major",
+      "paraoptic short ciliary arteries",
+      "recurrent choroidal arteries",
+      "choroidal vasculature",
+      "الشرايين الهدبية القصيرة",
+      "الشرايين الهدبية الطويلة",
+      "الشرايين الهدبية الأمامية",
+      "دائرة زين وهالر",
+      "الدائرة الشريانية الكبرى للقزحية",
+      "الشرايين المشيمية الراجعة"
+    ]
+  },
+  "content": {
+    "definition": "The choroid is supplied by the ciliary branches of the ophthalmic artery: the 10-20 short posterior ciliary arteries (the greater part of the choroid), the two long posterior ciliary arteries (anterior choroid and circulus iridis major), and the anterior ciliary arteries from the rectus muscles (recurrent branches for the anterior choroid) (pp. 88, 371, 384-385). Medial and lateral short posterior groups and the two long arteries derive embryologically from the dorsal and ventral ophthalmic arteries (Hayreh 1963) (p. 88). The same system also feeds the optic nerve head and, via recurrent branches, the retrolaminar nerve (pp. 371-372, 528-531).",
+    "location": "About 10-20 short posterior ciliary arteries approach the globe around the optic nerve and pierce the sclera through oblique canals 3-4.5 mm anterior to the disc, the largest entering eccentrically above the macula; paraoptic branches run closest to the nerve (Rutnin 1967; Olver, Spalton and McCartney 1990; Ducournau 1982) (pp. 224-225, 371, 373). The two long posterior ciliary arteries enter 3-4 mm from the nerve through very oblique 4 mm canals, curve 45° in the suprachoroid and run forward between choroid and sclera to the ciliary muscle where they join the circulus iridis major (p. 373). The anterior ciliary arteries, two per rectus tendon except one for the lateral rectus, divide ~1.5 mm from the limbus into deep and superficial episcleral branches; their recurrent twigs supply peripheral sclera, the canal of Schlemm region and limbal sclera (pp. 374-376). Within the choroid, short ciliary arteries are visible ophthalmoscopically 3-4.5 mm anterior to the disc (Rutnin 1967) (p. 225).",
+    "layers": [
+      "Primary trunks: 2-4 ciliary trunks around the optic nerve give 10-20 short posterior ciliary branches; embryonic derivation from dorsal (lateral PCA + CRA) and ventral (medial PCA) ophthalmic arteries (Hayreh 1963) (pp. 88, 371)",
+      "Paraoptic group: the largest SPCA perforates the sclera eccentrically above the macula; paraoptic branches supply the peripapillary choroid, a vertical trapezoid above and below the disc, and form the circle of Zinn (1755)/Haller (1754) — usually incomplete, present infrequently according to Hayreh 1964 but commonly according to Olver, Spalton and McCartney 1990, absent in sub-human primates (pp. 371-373)",
+      "Distal SPCAs: fan into large triangular territories with apices at the entry points; the nasal and temporal branches become the LPCAs; the temporal gives recurrent twigs to the posterior pole (p. 373)",
+      "Long posterior ciliary arteries: oblique 4 mm canals, 45° bend, horizontal blue line externally — landmark after rectus disinsertion; bifurcate in anterior choroid or ciliary muscle to feed the circulus iridis major (Leber 1903 deep intramuscular circle of ACA branches, Rohen 1970) (pp. 373-374)",
+      "Anterior ciliary arteries: deep branches form an intramuscular circle and anastomose with LPCAs in all sectors; recurrent choroidal branches (10-20) run posteriorly between parallel pars plana veins to the anterior choroid (pp. 374-376, 384)",
+      "Circle of Zinn-Haller branches (pp. 531): recurrent pial (4-7 per segment); recurrent choroidal branches supplying the peripapillary choroid and extending towards the equator; direct branches (infrequent); arteriolo-arteriolar anastomoses"
+    ],
+    "blood_supply": "Within the choroid the short ciliary arteries advance sinuously through the pigmented suprachoroid, pierce it, and divide dichotomously to feed the choriocapillaris from disc margin to ora (p. 384). Territories are segmental: the temporal LPCA supplies a wedge from its entry point behind the equator (Hayreh 1974b; Weiter and Ernest 1974), the anterior choroid depends on recurrent ciliary arteries (pp. 384-385). The lateral posterior ciliary artery may supply up to two-thirds of the choroid; medial and lateral systems divide the choroid into nasal and temporal hemispheres with a vertical watershed through the disc, sometimes oblique (Hayreh 1976) (p. 393). Macular supply is denser, resembling cavernous tissue, with a proposed horizontal venous watershed (p. 393). All perforating branches supplying the optic radiation are end arteries — the same segmental logic extends centrally (Francois, Neetens and Collette 1959) (p. 570). The labelled-microsphere study the book cites for the absent autoregulation (Alm and Bill 1973) (p. 408) remains the standard anchor: ocular and optic nerve blood flow measured with radioactively labelled microspheres in Macaca irus at normal and increased intraocular pressures (Alm and Bill 1973). A modern review frames the same physiology: the choroid lies behind the retina and cannot respond readily to retinal metabolic signals, so adjustments for ocular perfusion pressure are dominated by neural control with only local myogenic contributions (Reiner et al. 2018). Per unit tissue weight the perfusion is probably the highest of any tissue in the body, ten-fold higher than the brain (Nickla and Wallman 2010).",
+    "venous_drainage": "Choroidal veins do not follow the arteries in number, course or branching, and the arteries are often larger than companion veins — the reverse of the usual pattern (pp. 406-407). Venous territory follows the four vortex systems with the watershed between them crossing the submacular choroid (Fig 11.28) (p. 407). See the vortex_veins card.",
+    "innervation": "The ciliary arteries carry sympathetic vasoconstrictor fibres (~9.8% of axon terminals in ciliary artery walls) and parasympathetic vasodilator fibres of facial origin distributed with the rami oculares; the vessels are therefore under mixed autonomic control matching the choroid itself (pp. 606-607, 619).",
+    "histology_summary": "Choroidal arteries have a muscular media and a collagenous adventitia rich in elastin; Wolfrum (1908) described muscular fibrils surrounding the vessels like octopus feelers; veins carry a perivascular sheath (pp. 394-395). Post-mortem injection studies show anastomoses between short ciliary arteries (Wybar 1954; Ring and Fujino 1967; Yoneya and Tso 1987), but Hayreh denies functional anastomoses between short arteries or between anterior and posterior supplies; choroidal infarcts recover within days, so arterioles are anatomical but not absolute functional end-arterioles (pp. 384-385). Developmentally: arteriolar channels (future SPCAs) are distinguishable at the end of month 2; the long ciliary arteries form the major arterial circle in month 4; recurrent branches enter the ciliary body by the end of month 5; final anastomosis with the choroidal arterial circulation is not established until month 8 (Heimann 1972) (pp. 638-639).",
+    "clinical_importance": "Anterior segment ischaemia follows disinsertion of multiple rectus muscles or a tight encircling band that crosses the long ciliary artery's path, compounded by vortex vein compression (Wilson and Irvine 1955; Hayreh and Baines 1973 and others) (p. 376). Occlusion of posterior ciliary arteries gives triangular or vertically oriented infarcts above/below the disc (Amalric 1963, 1973); arteriolar occlusion yields Elschnig spots; recovery relies on the limited anastomoses, best developed submacularly (Fryczkowski 1992) (p. 393). The disc and retrolaminar nerve are fed mainly, if not entirely, by the short posterior ciliary system; only ~10% of vessels entering the prelaminar region arise from choroidal arteries although ~30% of its depth contacts the peripapillary choroid (Lieberman, Maumenee and Green 1976), and the choriocapillaris and disc capillary networks are distinct (Hayreh 1975; Anderson and Braverman 1976) (pp. 528-534). Ruskell's (1984) interfacial precapillaries in the glial cuff are vulnerable to raised IOP and are linked to disc haemorrhages in chronic glaucoma (p. 531). Angiographically, choroidal filling is segmental (Dollery et al. 1968), and in-vivo watershed zones have been mapped (Hayreh 1990)."
+  },
+  "relationships": [
+    {
+      "relation_type": "supplies",
+      "target_id": "choroid",
+      "target_name": "Choroid (the ciliary arterial system is the sole arterial supply of the choroid)"
+    },
+    {
+      "relation_type": "supplies",
+      "target_id": "choriocapillaris",
+      "target_name": "Choriocapillaris (SPCA arterioles feed the fenestrated net)"
+    },
+    {
+      "relation_type": "supplies",
+      "target_id": "optic_disc",
+      "target_name": "Optic Disc (disc and retrolaminar nerve fed mainly by the short posterior ciliary system)"
+    },
+    {
+      "relation_type": "supplies",
+      "target_id": "optic_nerve",
+      "target_name": "Optic Nerve (Zinn-Haller circle and recurrent branches feed the retrolaminar nerve)"
+    },
+    {
+      "relation_type": "branch_of",
+      "target_id": "ophthalmic_artery",
+      "target_name": "Ophthalmic Artery (all ciliary arteries arise from it)"
+    },
+    {
+      "relation_type": "continuous_with",
+      "target_id": "ciliary_body",
+      "target_name": "Ciliary Body (LPCAs/ACAs reach the circulus iridis major through it)"
+    },
+    {
+      "relation_type": "drained_by",
+      "target_id": "vortex_veins",
+      "target_name": "Vortex Veins (venous counterpart, not following arterial territories)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "choroidal blood supply",
+      "short posterior ciliary artery",
+      "long posterior ciliary artery",
+      "anterior ciliary artery",
+      "circle of Zinn-Haller",
+      "circulus iridis major",
+      "paraoptic branches",
+      "recurrent choroidal arteries",
+      "segmental supply",
+      "watershed zones",
+      "end arteries",
+      "anterior segment ischaemia",
+      "Amalric",
+      "Elschnig spots",
+      "cilioretinal artery",
+      "choroidal infarction",
+      "rectus disinsertion",
+      "التروية المشيمية",
+      "الشرايين الهدبية",
+      "دائرة زين وهالر",
+      "التزويد القطعي",
+      "مناطق الحدود الوعائية",
+      "الشرايين النهائية",
+      "نقص تروية القطاع الأمامي",
+      "microspheres",
+      "no autoregulation",
+      "Macaca irus",
+      "تدفق بلا تكيّف"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "alm_bill_1973_flow",
+      "nickla_2010_choroid",
+      "reiner_2018_neural_control"
+    ],
+    "last_updated": "2026-10-27",
+    "version": "1.1.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "3",
+          "pages": [
+            88
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            371,
+            384,
+            385
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            528,
+            529,
+            531
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            224,
+            225
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            371,
+            373,
+            374,
+            376
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "3",
+          "pages": [
+            88
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            371,
+            372,
+            373,
+            374,
+            376,
+            384
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            531
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            384,
+            385,
+            393
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            570
+          ]
+        },
+        {
+          "reference_id": "alm_bill_1973_flow",
+          "section": "Microsphere study of ocular and optic nerve blood flow"
+        },
+        {
+          "reference_id": "reiner_2018_neural_control",
+          "section": "Abstract: perfusion-pressure adjustments and neural control"
+        },
+        {
+          "reference_id": "nickla_2010_choroid",
+          "section": "Abstract: blood flow per unit tissue weight"
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            406,
+            407
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "16",
+          "pages": [
+            606,
+            607,
+            619
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            384,
+            385,
+            394,
+            395
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "17",
+          "pages": [
+            638,
+            639
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            376,
+            393
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            528,
+            529,
+            531,
+            534
+          ]
+        }
+      ]
+    }
+  ]
+}

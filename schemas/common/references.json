@@ -592,5 +592,237 @@
     "type": "website",
     "verification": "Title and authors (Ireland AC, Carter IB) retrieved via NCBI E-utilities (esummary, pubdate '2023 Jan') on 2026-10-26; Bookshelf ID NBK542287 confirmed via NCBI search on 2026-10-26. Author initials as listed by PubMed; full first names not independently confirmed.",
     "access": "free_full_text"
+  },
+  {
+    "reference_id": "nickla_2010_choroid",
+    "title": "The multifunctional choroid",
+    "authors": [
+      "Deborah L. Nickla",
+      "Josh Wallman"
+    ],
+    "publisher": "Progress in Retinal and Eye Research",
+    "year": 2010,
+    "volume": "29(2):144-168",
+    "doi": "10.1016/j.preteyeres.2009.12.002",
+    "pmid": "20044062",
+    "pmcid": "PMC2913695",
+    "type": "journal_article",
+    "verification": "Journal, volume 29(2):144-168, DOI and PMID 20044062 confirmed via web search 2026-10-27 (cited by 2,581); full text read directly on PMC (PMC2913695) and abstract-level quotes extracted verbatim: blood flow probably the highest of any tissue per unit weight, ten-fold higher than the brain; 'the choroid has at least three other functions: thermoregulation, adjustment of the position of the retina by changes in choroidal thickness, and secretion of growth factors'; secretory cells involved in modulation of vascularization and scleral growth.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2913695/",
+    "access": "free_full_text"
+  },
+  {
+    "reference_id": "margolis_2009_edi_oct",
+    "title": "A pilot study of enhanced depth imaging optical coherence tomography of the choroid in normal eyes",
+    "authors": [
+      "Richard Margolis",
+      "Richard F. Spaide"
+    ],
+    "publisher": "American Journal of Ophthalmology",
+    "year": 2009,
+    "volume": "147(5):811-815",
+    "doi": "10.1016/j.ajo.2008.12.008",
+    "pmid": "19232559",
+    "type": "journal_article",
+    "verification": "Full citation and complete abstract read directly on Europe PMC 2026-10-27 (cited by 1,766): 54 normal eyes aged 19-85; mean subfoveal choroidal thickness 287 +/- 76 um, 145 +/- 57 um at 3 mm nasal to fovea; thickness decreased 15.6 um per decade of life; significant negative age correlation at every measured point.",
+    "url": "https://europepmc.org/article/MED/19232559",
+    "access": "abstract_free"
+  },
+  {
+    "reference_id": "ramrattan_1994_aging",
+    "title": "Morphometric analysis of Bruch's membrane, the choriocapillaris, and the choroid in aging",
+    "authors": [
+      "R. S. Ramrattan",
+      "T. L. van der Schaft",
+      "C. M. Mooy",
+      "W. C. de Bruijn",
+      "P. G. H. Mulder",
+      "P. T. V. M. de Jong"
+    ],
+    "publisher": "Investigative Ophthalmology & Visual Science",
+    "year": 1994,
+    "volume": "35(6):2857-2864",
+    "pmid": "8188481",
+    "type": "journal_article",
+    "verification": "Full citation and complete abstract read directly on Europe PMC 2026-10-27 (cited by 1,094); 95 histologically normal maculae aged 6-100 + 25 AMD maculae: Bruch's membrane +135% over ten decades (2.0 to 4.7 um); choriocapillary density -45%; capillary diameter -34% (9.8 to 6.5 um); choroidal thickness -57% (193.5 to 84 um); AMD maculae (BLD/GA/disciform) choriocapillaris density 63%/54%/43% of normal.",
+    "url": "https://europepmc.org/article/MED/8188481",
+    "access": "abstract_free"
+  },
+  {
+    "reference_id": "nivison_smith_2020_aging_angio",
+    "title": "Normal aging changes in the choroidal angioarchitecture of the macula",
+    "authors": [
+      "Lisa Nivison-Smith",
+      "Neha Khandelwal",
+      "Janice Tong",
+      "et al."
+    ],
+    "publisher": "Scientific Reports",
+    "year": 2020,
+    "volume": "10:10810",
+    "doi": "10.1038/s41598-020-67829-2",
+    "type": "journal_article",
+    "verification": "Authors, volume, article number and DOI confirmed via Nature article page + citing sources 2026-10-27 (cited by 52); abstract states the macular choroidal angioarchitecture shows specific eccentricity- and age-dependent patterns of change.",
+    "url": "https://www.nature.com/articles/s41598-020-67829-2",
+    "access": "free_full_text"
+  },
+  {
+    "reference_id": "fryczkowski_1991_lobular",
+    "title": "Observations on the lobular organization of the human choriocapillaris",
+    "authors": [
+      "Andrew W. Fryczkowski",
+      "Mark D. Sherman",
+      "Jeffrey Walker"
+    ],
+    "publisher": "International Ophthalmology",
+    "year": 1991,
+    "volume": "15(2):109-120",
+    "doi": "10.1007/bf00224463",
+    "pmid": "2022438",
+    "type": "journal_article",
+    "verification": "Full citation and complete abstract read directly on Europe PMC 2026-10-27: vascular casts (Batson mixture) of ten human orbits examined by light microscopy and SEM demonstrate predictable variations of choriocapillaris angioarchitecture by region (posterior pole, equatorial, peripheral, peripapillary, submacular). Journal is International Ophthalmology 15(2):109-120 (not Graefe's Archive).",
+    "url": "https://europepmc.org/article/MED/2022438",
+    "access": "abstract_free"
+  },
+  {
+    "reference_id": "zouache_2016_segmented",
+    "title": "Form, shape and function: segmented blood flow in the choriocapillaris",
+    "authors": [
+      "Marc A. Zouache",
+      "Ian Eames",
+      "Christiane A. Klettner",
+      "Peter J. Luthert"
+    ],
+    "publisher": "Scientific Reports",
+    "year": 2016,
+    "volume": "6:35754",
+    "doi": "10.1038/srep35754",
+    "pmid": "27779198",
+    "type": "journal_article",
+    "verification": "Citation, PMID 27779198 and DOI confirmed via PubMed/Nature web search 2026-10-27 (cited by 86): as a result of the form of the choriocapillaris, blood flow is decomposed into a tessellation of functional vascular segments whose shape is set by the distribution of arteriolar and venular openings and their relative flow rates.",
+    "url": "https://www.nature.com/articles/srep35754",
+    "access": "free_full_text"
+  },
+  {
+    "reference_id": "alm_bill_1973_flow",
+    "title": "Ocular and optic nerve blood flow at normal and increased intraocular pressures in monkeys (Macaca irus): a study with radioactively labelled microspheres including flow determinations in brain and some other tissues",
+    "authors": [
+      "Albert Alm",
+      "Anders Bill"
+    ],
+    "publisher": "Experimental Eye Research",
+    "year": 1973,
+    "volume": "15(1):15-29",
+    "doi": "10.1016/0014-4835(73)90185-1",
+    "pmid": "4630581",
+    "type": "journal_article",
+    "verification": "Journal, volume 15(1):15-29, DOI and PMID 4630581 confirmed via Europe PMC + ScienceDirect + citing sources (Quigley 1985) on 2026-10-27 (cited by 806); no abstract indexed, findings as cited by Wolff pp. 407-408 (choroidal flow not autoregulated at raised IOP) and restated in Reiner et al. 2018.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/4630581/",
+    "access": "abstract_free",
+    "access_note": "No abstract in indexing databases; citation metadata only, verified via multiple independent sources."
+  },
+  {
+    "reference_id": "hayreh_baines_1973_vortex",
+    "title": "Occlusion of the vortex veins",
+    "authors": [
+      "S. S. Hayreh",
+      "J. A. Baines"
+    ],
+    "publisher": "British Journal of Ophthalmology",
+    "year": 1973,
+    "volume": "57(4):217",
+    "type": "journal_article",
+    "verification": "Title, journal, volume 57, issue 4 and start page 217 confirmed via the BJO full-text PDF (bjo.bmj.com/content/bjophthalmol/57/4/217.full.pdf) on 2026-10-27 (cited by 222); the experiment establishing sectorial uveal drainage and the Maltese-cross watershed, as cited in Wolff pp. 406-407.",
+    "url": "https://bjo.bmj.com/content/bjophthalmol/57/4/217.full.pdf",
+    "access": "free_full_text"
+  },
+  {
+    "reference_id": "rutnin_1967_choroid",
+    "title": "Fundus appearance in normal eyes. I. The choroid",
+    "authors": [
+      "Uthai Rutnin"
+    ],
+    "publisher": "American Journal of Ophthalmology",
+    "year": 1967,
+    "volume": "64(6):821-839",
+    "type": "journal_article",
+    "verification": "Exact citation (Am J Ophthalmol 1967;64:821-839, part I: The choroid) confirmed from the reference list of Funatsu et al. 2023 (Ophthalmology Science, vortex veins in pachychoroid spectrum) on 2026-10-27; source of the book's ophthalmoscopic vortex-vein statistics (pp. 224, 405-406).",
+    "access": "print_archive",
+    "access_note": "Original not open-access; citation verified through later citing papers."
+  },
+  {
+    "reference_id": "verma_2021_vortex_imaging",
+    "title": "Vortex vein imaging: what can it tell us?",
+    "authors": [
+      "Aditya Verma",
+      "Tommaso Bacci",
+      "David Sarraf",
+      "K. Bailey Freund",
+      "SriniVas R. Sadda"
+    ],
+    "publisher": "Clinical Ophthalmology",
+    "year": 2021,
+    "volume": "15:3321",
+    "doi": "10.2147/OPTH.S324245",
+    "pmid": "34408390",
+    "pmcid": "PMC8364369",
+    "type": "journal_article",
+    "verification": "Full text on PMC (PMC8364369, Clin Ophthalmol 2021 Aug 10;15:3321) read directly 2026-10-27: 4-8 vortices per eye funduscopically, most commonly 4 (35%) or 5 (30%); ultra-widefield ICGA estimates an average of 8 per eye including small ampullae missed by ophthalmoscopy; some vortex veins empty into the cavernous sinus via superior orbital veins, others into the pterygoid plexus via inferior orbital veins; vortex-vein congestion implicated in pachychoroid disease.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8364369/",
+    "access": "free_full_text"
+  },
+  {
+    "reference_id": "lim_1995_exit_sites",
+    "title": "Vortex vein exit sites. Scleral coordinates",
+    "authors": [
+      "Mina C. Lim",
+      "Joseph B. Bateman",
+      "Ben J. Glasgow"
+    ],
+    "publisher": "Ophthalmology",
+    "year": 1995,
+    "volume": "102(6):942-946",
+    "type": "journal_article",
+    "verification": "Citation (Ophthalmology 1995;102(6):942-946) confirmed from the EyeWiki 'Vortex Vein Varix' reference list on 2026-10-27; modern scleral coordinates for vortex vein exit sites.",
+    "access": "print_archive",
+    "access_note": "Citation verified through a secondary reference list; original not open-access."
+  },
+  {
+    "reference_id": "chiang_2018_scs",
+    "title": "The suprachoroidal space as a route of administration to the posterior segment of the eye",
+    "authors": [
+      "Bryce Chiang",
+      "Jae Hwan Jung",
+      "Mark R. Prausnitz"
+    ],
+    "publisher": "Advanced Drug Delivery Reviews",
+    "year": 2018,
+    "volume": "126:58-66",
+    "doi": "10.1016/j.addr.2018.03.001",
+    "pmcid": "PMC5995649",
+    "type": "journal_article",
+    "verification": "Full citation, DOI and complete abstract read via Johns Hopkins Pure record + Europe PMC (PMC5995649) on 2026-10-27 (cited by 182): 'The suprachoroidal space (SCS) is a potential space between the sclera and choroid that traverses the circumference of the posterior segment of the eye'; targets choroid/RPE/retina with high bioavailability while maintaining low levels elsewhere; phase III clinical trials investigating safety and efficacy.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5995649/",
+    "access": "free_full_text"
+  },
+  {
+    "reference_id": "reiner_2018_neural_control",
+    "title": "Neural control of choroidal blood flow",
+    "authors": [
+      "Anton Reiner",
+      "Margaret E. C. Fitzgerald",
+      "Natalia Del Mar",
+      "Chuan Li"
+    ],
+    "publisher": "Progress in Retinal and Eye Research",
+    "year": 2018,
+    "volume": "64:96-130",
+    "doi": "10.1016/j.preteyeres.2017.12.001",
+    "pmid": "29229444",
+    "pmcid": "PMC5971129",
+    "type": "journal_article",
+    "verification": "Full citation and complete abstract read directly on Europe PMC 2026-10-27 (cited by 304): the choroid is richly innervated by parasympathetic, sympathetic and trigeminal sensory fibres that regulate choroidal blood flow; parasympathetic vasodilates, sympathetic vasoconstricts, sensory fibres convey pain/thermal information and act locally to vasodilate; impairments occur with aging, glaucoma, AMD, hypertension, diabetes.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5971129/",
+    "access": "free_full_text"
   }
 ]

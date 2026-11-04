@@ -1,0 +1,303 @@
+{
+  "entity_id": "suprachoroidal_space",
+  "component_ids": [
+    "comp_sclera",
+    "comp_retina"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Suprachoroidal Space (Lamina Suprachoroidea)",
+    "ar": "الحيز فوق المشيمية (الصفائح فوق المشيمية)",
+    "aliases": [
+      "suprachoroidea",
+      "lamina fusca",
+      "supraciliary space (continuation)",
+      "choroidoscleral space",
+      "suprachoroidal lamina",
+      "Salzmann muscle spindles",
+      "perichoroidal space",
+      "الحيز فوق المشيمية",
+      "الصفائح فوق المشيمية",
+      "الصفيحة الملتونة",
+      "الحيز الصلبي المشيمي"
+    ]
+  },
+  "content": {
+    "definition": "The suprachoroidal space (lamina suprachoroidea) is the potential space and condensation of loose lamellae between the choroid externally and the sclera internally, 10-34 µm thick, continuous anteriorly with the supraciliary space (pp. 274, 302, 376-377). Its criss-crossing collagen lamellae intersect at acute angles and enclose potential spaces that open when the cleft is stretched pathologically by fluid or blood (p. 377). It is traversed by the long and short ciliary arteries and nerves on their way to the choroid (p. 377), and it receives aqueous directly in the uveoscleral (uveovortex) outflow pathway (p. 302). The drug-delivery literature defines the same space in identical terms: 'a potential space between the sclera and choroid that traverses the circumference of the posterior segment of the eye' (Chiang, Jung and Prausnitz 2018) — the potential-space anatomy documented here (p. 377) is now an established therapeutic corridor.",
+    "location": "The lamella system runs from the optic nerve to the ora serrata, becoming continuous with the supraciliary space at the anterior limit (pp. 302, 376-377). Posteriorly the lamellae are shorter and more firmly attached to the sclera — the anatomical basis for anterior choroidal detachment (p. 377). Near the optic nerve the suprachoroidal lamellae between sclera and choroid proper become meridional and parallel with the sclera, and pigmentation is denser nearer the nerve (p. 502). At the posterior termination the suprachoroid relates to the profile of the scleral canal (p. 500). The innermost sclera adjacent to it — the lamina fusca — owes its dark hue to choroidal melanocytes and macrophages crossing into the deep scleral lamellae (p. 276).",
+    "layers": [
+      "Collagen lamellae: interlacing sheets intersecting at acute angles with potential spaces between them; shorter and more sclerally adherent posteriorly (p. 377)",
+      "Melanocytes (lamina fusca region): scattered at lamellar level, more heavily pigmented than choroidal stromal melanocytes; less pigmented anteriorly; also present around the nerve (Fuchs) (pp. 276, 377, 500)",
+      "Musculo-elastic system: an elastin network surrounds every vessel (except the choriocapillaris) from Bruch's membrane through the suprachoroidal adventitia and part of the overlying sclera; it carries the posterior elastic tendon of the ciliary muscle, whose recoil stores energy for disaccommodation (Rohen 1952/1964b; Tamm 1991; Lütjen-Drecoll 1995) (p. 377)",
+      "Myofibroblast layer (muscle spindles of Salzmann): smooth-muscle cells alpha-actin positive close to the sclera, in close contact with nerve endings; reduced at the equator and increased at vortex vein exits; function unknown — possibly transmitting accommodative forces and acting as a compliant pillow protecting the retina during eye movement and rubbing (Lütjen-Drecoll 1995) (p. 377)",
+      "Suprachoroidal nerves: myelinated and non-myelinated axons (with nodes of Ranvier) traversing to the choroid (Hogan 1971) (p. 377)"
+    ],
+    "blood_supply": "The long and short ciliary arteries traverse the suprachoroid sinuously, pigmented and externally marked by a translucent blue line, before piercing the choroid (pp. 373, 377, 384). The LPCA canal presents an external horizontal blue line — a landmark after rectus muscle disinsertion (p. 373).",
+    "venous_drainage": "Aqueous reaching the suprachoroid from the ciliary body is drained by the uveoscleral route and partly towards the vortex systems (uveovortex drainage) (p. 302); the space itself is traversed by no large veins, but vortex vein exits border it and myofibroblasts concentrate around those exits (p. 377).",
+    "innervation": "The long and short ciliary nerves traverse the space to reach the choroid, running between sclera and choroid with grooving of the sclera (pp. 198, 200, 377). The nerves within the suprachoroid are both myelinated and non-myelinated with nodes of Ranvier (Hogan 1971) (p. 377); the myofibroblasts make close contact with nerve endings (Lütjen-Drecoll 1995) (p. 377).",
+    "histology_summary": "Thickness 10-34 µm (p. 377). The lamellae carry fibrocytes, melanocytes and, near the sclera, alpha-actin-positive smooth muscle cells (Salzmann spindles) whose function is unknown (p. 377). The melanocytes at lamellar level are more heavily pigmented than those of the choroidal stroma; anteriorly they may lose pigment, and around the optic nerve pigment is denser (Fuchs) (pp. 377, 502). Posterior lamellae attach firmly to the sclera while anterior ones are freer (p. 377). The suprachoroid is the direct anterior continuation of the supraciliary space and shares with it the perivascular/perineural routes of ciliary vessels and nerves (pp. 302, 376-377).",
+    "clinical_importance": "Because posterior lamellae adhere firmly to the sclera, choroidal detachments occur anteriorly and rarely cross the equator — a clinical pearl of localizing effusions; ultrasound may show posterior effusion without ballooning (p. 377). The space is the target for suprachoroidal drug delivery and the pathway of cyclodialysis, and its aqueous content participates in uveoscleral outflow relevant to glaucoma (p. 302). The deep pigmentation of the lamina fusca explains the grey-brown inner scleral surface seen in surgery (p. 276). The compliant-pillow hypothesis of the myofibroblast layer links this space to protection of the retina during movement and rubbing (Lütjen-Drecoll 1995) (p. 377). The space has become a clinical delivery route: suprachoroidal administration targets the choroid, retinal pigment epithelium and retina with high bioavailability while maintaining low levels elsewhere in the eye, and phase III clinical trials are investigating its safety and efficacy, accessed via microneedle systems (Chiang, Jung and Prausnitz 2018) — direct therapeutic exploitation of the compliant potential space this card describes."
+  },
+  "relationships": [
+    {
+      "relation_type": "bounds",
+      "target_id": "choroid",
+      "target_name": "Choroid (internal boundary of the space; lamellae attach to the choroidal surface)"
+    },
+    {
+      "relation_type": "bounds",
+      "target_id": "sclera",
+      "target_name": "Sclera (external boundary; lamina fusca pigmentation crosses from the suprachoroid)"
+    },
+    {
+      "relation_type": "continuous_with",
+      "target_id": "ciliary_body",
+      "target_name": "Ciliary Body (continues anteriorly as the supraciliary space)"
+    },
+    {
+      "relation_type": "traversed_by",
+      "target_id": "choroid_blood_supply",
+      "target_name": "Choroidal Blood Supply (ciliary arteries cross the space in pigmented sinuous courses)"
+    },
+    {
+      "relation_type": "traversed_by",
+      "target_id": "choroid_innervation",
+      "target_name": "Choroidal Innervation (long and short ciliary nerves cross the space)"
+    },
+    {
+      "relation_type": "route_of",
+      "target_id": "vortex_veins",
+      "target_name": "Vortex Veins (uveovortex aqueous outflow towards the vortex systems)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "suprachoroidal space",
+      "lamina suprachoroidea",
+      "lamina fusca",
+      "potential space",
+      "choroidal detachment",
+      "uveoscleral outflow",
+      "uveovortex drainage",
+      "musculo-elastic system",
+      "posterior elastic tendon",
+      "Salzmann spindles",
+      "myofibroblasts",
+      "compliant pillow",
+      "suprachoroidal drug delivery",
+      "cyclodialysis",
+      "melanocytes",
+      "الحيز فوق المشيمية",
+      "الانفصال المشيمي",
+      "التصريف الصلبي الوعائي",
+      "النقل الدوائي فوق المشيمي",
+      "النسيج العضلي المرن",
+      "الخلايا الصباغية",
+      "microneedle",
+      "high bioavailability",
+      "phase III trials",
+      "التوصيل الدوائي فوق المشيمي"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "chiang_2018_scs"
+    ],
+    "last_updated": "2026-10-27",
+    "version": "1.1.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            274,
+            276
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "8",
+          "pages": [
+            302
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            376,
+            377
+          ]
+        },
+        {
+          "reference_id": "chiang_2018_scs",
+          "section": "Abstract: definition of the suprachoroidal space"
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            276
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "8",
+          "pages": [
+            302
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            376,
+            377
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            500,
+            502
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            377
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            500,
+            502
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            373,
+            377,
+            384
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "8",
+          "pages": [
+            302
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            377
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            198,
+            200,
+            377
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            276
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            377,
+            502
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            276
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "8",
+          "pages": [
+            302
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            377
+          ]
+        },
+        {
+          "reference_id": "chiang_2018_scs",
+          "section": "Abstract: bioavailability, microneedle access and phase III trials"
+        }
+      ]
+    }
+  ]
+}

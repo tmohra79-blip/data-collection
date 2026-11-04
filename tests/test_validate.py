@@ -92,7 +92,7 @@ class ComponentRegistryTests(unittest.TestCase):
     def test_registry_preserves_all_rows_and_repeated_ids(self):
         registry = validate.load(REGISTRY_PATH)
         rows = registry["rows"]
-        self.assertEqual(len(rows), 36)
+        self.assertEqual(len(rows), 37)
         self.assertEqual(sum(row["component_id"] == "comp_cornea" for row in rows), 2)
         self.assertEqual(rows[0]["unity_name"], "cornea_inside")
         self.assertEqual(rows[0]["medical_name_en"], "Corneal Endothelium")
@@ -101,6 +101,7 @@ class ComponentRegistryTests(unittest.TestCase):
         self.assertEqual(rows[2]["component_id"], "—")
         self.assertEqual(rows[2]["has_3d_model"], "No (Empty Parent)")
         self.assertEqual(rows[2]["unity_name"], "eye_muscles")
+        self.assertEqual(rows[36]["component_id"], "comp_vitreous")
         self.assertIn("comp_cornea", self.component_ids)
         self.assertNotIn("—", self.component_ids)
 

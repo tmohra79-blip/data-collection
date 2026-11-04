@@ -1,0 +1,321 @@
+{
+  "entity_id": "choroid_layers",
+  "component_ids": [
+    "comp_sclera",
+    "comp_retina"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Layers of the Choroid (Haller, Sattler, Choriocapillaris, Bruch's membrane)",
+    "ar": "طبقات المشيمية (هالر، ساتلر، الشعيرات المشيمية، غشاء بروخ)",
+    "aliases": [
+      "Haller's layer",
+      "Sattler's layer",
+      "tunica vesselosa",
+      "choroidal stroma layers",
+      "lamina vasculosa",
+      "Bruch's membrane",
+      "lamina vitrea",
+      "lamina basalis",
+      "membrana vitrea",
+      "inner collagenous layer",
+      "elastic layer of Bruch",
+      "طبقات المشيمية",
+      "طبقة هالر",
+      "طبقة ساتلر",
+      "غشاء بروخ",
+      "الغشاء الزجاجي",
+      "الطبقة المرنة",
+      "طبقة الكولاجين الداخلية"
+    ]
+  },
+  "content": {
+    "definition": "The choroid proper consists of three classic layers — Haller's layer of large vessels, Sattler's layer of medium arterioles and the fenestrated choriocapillaris — completed internally by Bruch's membrane (pp. 225, 377-378). The feeding arrangement is characteristic: arterioles from the short posterior ciliary arteries do not enter the capillary net directly; they build a second, sparsely fenestrated capillary layer covered by pericytes on its scleral side, and it is this layer plus the first component of the venules that constitutes the layers of Haller and Sattler (pp. 377-378). Bruch's membrane is an acellular five-layer basal-lamina complex about 2 µm thick, formed by the basal laminae of the choriocapillaris and of the RPE with interposed collagen and elastic zones; it restricts the movement of large molecules from the choroid (pp. 225, 397-398).",
+    "location": "From outside inwards, beneath the suprachoroidea: Haller's layer occupies the outer stratum, Sattler's the intermediate, and the choriocapillaris the innermost vascular stratum, immediately external to Bruch's membrane, which is in turn immediately external to the RPE (pp. 225, 377-378, 397). Bruch's membrane runs from the optic disc margin to the ora serrata; it is thickest near the disc (2-4 µm), thinning peripherally to 1-2 µm, and about 2 µm in early adulthood, increasing with age (p. 397). At the disc, Bruch's membrane stops abruptly while the RPE falls short of it and the terminal, somewhat depigmented cells heap up to form the choroidal ring (p. 460).",
+    "layers": [
+      "Haller's layer: large arteries and veins of the outer stratum; laid down during months 3-4 of gestation (Heimann 1972); vessels encased by collagen adventitia and the musculo-elastic system (pp. 225, 378, 639)",
+      "Sattler's layer: medium arterioles and companion venules between Haller's layer and the choriocapillaris; develops in month 5, initially at the equator (Heimann 1972) (pp. 225, 378, 639)",
+      "Choriocapillaris: fenestrated capillary net, wide-bore (20-50 µm), adjacent to Bruch's membrane — detailed in the choriocapillaris card (pp. 225, 393-396)",
+      "Bruch's membrane, five layers (Feeney and Hogan 1961; Hollenberg and Burt 1969; Hogan 1971): (1) inner basal lamina of the RPE, 0.3 µm, produced by the RPE and separated from it by a 100 nm radiolucent zone; (2) inner collagenous zone, 1 µm (thicker towards the ora), its fibres crossing the elastic layer; (3) elastic zone of rod-like fibres with dense cortex and homogeneous core, irregularly cut by crossing collagen; (4) outer collagenous zone, mirroring the inner; (5) outer basal lamina of the choriocapillaris, 0.14 µm, not a continuous sheet — it invests the capillaries. At the ora the inner layer continues into the ciliary body while the outer separates with a distinct connective-tissue layer (p. 397-398)"
+    ],
+    "blood_supply": "The layering mirrors the arterial cascade: short posterior ciliary arterioles traverse the suprachoroid, then build the second capillary layer whose efferent venules collect first in Sattler's and then Haller's strata (pp. 377-378). Intercapillary septa are reinforced by fibres from Bruch's collagenous layers which mingle with the supraciliary collagen, giving a semi-rigid frame that prevents capillary collapse (Hogan 1971) (p. 394). Nutrients from the choriocapillaris diffuse through Bruch's basal lamina to the RPE and pass selectively through the RPE cells to the sensory retina; on their basal surfaces RPE cells produce type IV collagen, heparin sulphate and laminin which become incorporated in the lamina vitrea of Bruch's membrane (pp. 463-464).",
+    "venous_drainage": "Blood leaves the choriocapillaris through postcapillary venules (10-40 µm) that join the first venular component of Sattler's layer, then the large-calibre veins of Haller's layer, and finally the vortex veins; peripherally the venules become elongated fillets with gaps that permit intercapillary anastomoses (pp. 393-394). The venous arrangement does not follow the arterial territories.",
+    "innervation": "Perivascular nerve bundles (50-100 axons each) course with the vessels of Haller's and Sattler's layers and lose their myelin within the choroid while retaining Schwann cells; postganglionic fibres from the ciliary ganglion remain myelinated. No innervation reaches the choriocapillaris itself (Ruskell 1971b) (pp. 383, 408).",
+    "histology_summary": "Cell population: melanocytes, fibrocytes, macrophages, mast cells and plasma cells (p. 378). Melanocytes form a semi-continuous outer layer, densest around the disc, outlining vessels and ampullae; their nuclei lack nucleoli and their melanosomes (0.3-0.4 µm, sometimes under 0.2 µm) are always smaller than those of the RPE and fill ~70% of the cytoplasm (p. 378). Fibrocytes are more densely packed externally and more numerous in males; random collagen invests the vessels as adventitia; reticulin and elastic fibres form flat strips up to 13 µm (p. 378). A musculo-elastic system — elastin networks around every vessel except the choriocapillaris, continuous from Bruch's membrane through the suprachoroid and anchored by the posterior elastic tendon of the ciliary muscle — spans all layers (Rohen 1952/1964b; Tamm 1991; Lütjen-Drecoll 1995) (pp. 377, 394). Pericytes sit only on the scleral aspect of the capillaries and are incomplete (pericyte:endothelial ratio 1:6 in the choriocapillaris versus 1:2 in retina) (p. 395). Ageing brings decomposition of the uveal elastica with loss of resilience (Streeten 1995), sheaths around larger vessels resembling those of iris vessels (Tripathi and Tripathi 1974), and in glaucoma a parallel reduction of choroidal ganglion cells (Kubota 1993) (pp. 409-410). Drusen — debris accumulations external to the RPE — appear after the fourth decade and must not be confused with optic-disc drusen, which are congenital glial anomalies (Farkas 1971; Sarks 1976; Foos and Trese 1982; Spencer 1978) (p. 398). Development: the RPE basal lamina is complete by week 6; four of the five layers of Bruch's membrane are distinguishable by the end of week 9; the elastic layer organizes into a near-continuous sheet after mid-term; the outermost (choriocapillaris) basal lamina is the last to be organized (Sellheyer 1990) (p. 640). Quantitative ageing data support the book's account of age-related thinning (Ramrattan et al. 1994) (p. 410): in 95 normal maculae aged 6-100 years Bruch's membrane thickens 135% over ten decades (2.0 to 4.7 µm) while total choroidal thickness — the composite of the choriocapillaris, Sattler's and Haller's layers — falls 57% (193.5 to 84 µm) (Ramrattan et al. 1994). In-vivo OCT angiography adds that the macular angioarchitecture ages non-uniformly, with eccentricity- and age-dependent patterns of change across the vascular layers (Nivison-Smith et al. 2020).",
+    "clinical_importance": "Because the RPE remains firmly attached to Bruch's membrane while the sensory retina detaches from it, clinically the pigment epithelium stays with the choroid in retinal detachment — the anatomical basis of the ophthalmoscopic picture (pp. 378, 454). Bruch's membrane acts as a barrier restricting large molecules from the choroid and, with the RPE tight junctions, completes the external blood-retinal barrier (pp. 225, 463). Ageing thickens the inner basal lamina and the whole membrane, and drusen form external to the RPE after 40 years (pp. 397-398). The sheaths that develop around larger vessels with age may hinder vessel movement during blood-pressure variation (p. 410). The semi-rigid collagen frame of the septa keeps the wide capillaries open despite high flow (Hogan 1971) (p. 394). The same morphometric series quantifies the AMD side of this card: in maculae with basal laminar deposit, geographic atrophy and disciform scarring, choriocapillaris density falls to 63%, 54% and 43% of age-matched normal respectively, while choroidal and Bruch's thickness remain the same as normal ageing (Ramrattan et al. 1994) — supporting the card's drusen/Bruch account (pp. 397-398)."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "choroid",
+      "target_name": "Choroid (the three vascular strata and Bruch's membrane constitute the choroid proper)"
+    },
+    {
+      "relation_type": "external_to",
+      "target_id": "retinal_pigment_epithelium",
+      "target_name": "Retinal Pigment Epithelium (Bruch's membrane is the interface; RPE remains attached in detachment)"
+    },
+    {
+      "relation_type": "internal_to",
+      "target_id": "sclera",
+      "target_name": "Sclera (layers lie internal to the suprachoroidal space)"
+    },
+    {
+      "relation_type": "contained_in",
+      "target_id": "choriocapillaris",
+      "target_name": "Choriocapillaris (the innermost capillary stratum of the layer sequence)"
+    },
+    {
+      "relation_type": "supplied_by",
+      "target_id": "choroid_blood_supply",
+      "target_name": "Choroidal Blood Supply (arterial cascade builds the layers)"
+    },
+    {
+      "relation_type": "drained_by",
+      "target_id": "vortex_veins",
+      "target_name": "Vortex Veins (venous cascade collects through Sattler's and Haller's strata)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "Haller layer",
+      "Sattler layer",
+      "choriocapillaris",
+      "Bruch's membrane",
+      "lamina vitrea",
+      "five layers",
+      "inner collagenous zone",
+      "elastic zone",
+      "outer basal lamina",
+      "melanocytes",
+      "melanosomes",
+      "fibrocytes",
+      "musculo-elastic system",
+      "pericytes",
+      "drusen",
+      "choroidal ageing",
+      "basal lamina",
+      "RPE attachment",
+      "طبقة هالر",
+      "طبقة ساتلر",
+      "الشعيرات المشيمية",
+      "غشاء بروخ",
+      "الطبقات الخمس",
+      "الخلايا الصباغية",
+      "الميلانوسومات",
+      "الغمد العضلي المرن",
+      "الشيخوخة المشيمية",
+      "Bruch thickening 135%",
+      "choroidal thinning 57%",
+      "OCT angiography ageing",
+      "تشيخ طبقات المشيمية"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "nivison_smith_2020_aging_angio",
+      "ramrattan_1994_aging"
+    ],
+    "last_updated": "2026-10-27",
+    "version": "1.1.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            225
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            377,
+            378,
+            397,
+            398
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            225,
+            377,
+            397
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            460
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            225
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            378,
+            397,
+            398
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "17",
+          "pages": [
+            639,
+            640
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            377,
+            378,
+            394
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            463,
+            464
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            393,
+            394
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            383,
+            408
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            377,
+            378,
+            394,
+            395,
+            397,
+            398,
+            409,
+            410
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "17",
+          "pages": [
+            640
+          ]
+        },
+        {
+          "reference_id": "ramrattan_1994_aging",
+          "section": "Results: ageing changes in 95 normal maculae"
+        },
+        {
+          "reference_id": "nivison_smith_2020_aging_angio",
+          "section": "Abstract: eccentricity- and age-dependent angioarchitecture changes"
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            225
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            378,
+            394,
+            397,
+            398,
+            410
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            454,
+            463
+          ]
+        },
+        {
+          "reference_id": "ramrattan_1994_aging",
+          "section": "Results: AMD maculae versus normal ageing"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "entity_id": "vortex_veins",
+  "component_ids": [
+    "comp_sclera",
+    "comp_retina"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Vortex Veins (Venae Vorticosae)",
+    "ar": "الأوردة الدوامية",
+    "aliases": [
+      "vorticosae",
+      "venae vorticosae",
+      "vortex vein ampulla",
+      "four vortex veins",
+      "choroidal veins",
+      "uveal veins",
+      "الأوردة الدوامية",
+      "الأوردة الملتوية",
+      "أمبولات الأوردة الدوامية",
+      "أوردة المشيمية"
+    ]
+  },
+  "content": {
+    "definition": "The venae vorticosae — the vortex veins — drain practically the whole uveal tract (choroid, ciliary body and iris), leaving the globe as four (occasionally more) large valveless trunks that pierce the sclera obliquely about 6 mm behind the equator on either side of the vertical recti (p. 405). Their radial tributaries converge in a whorl — the origin of the name vorticosae — and the veins are remarkable for their ampulliform dilatation before entering the sclera (Rutnin 1967) (pp. 224, 405-406). Each vortex vein drains a sectorial territory extending longitudinally from iris through ciliary body to choroid (Hayreh and Baines 1973) (p. 406).",
+    "location": "Usually four veins — two superior, two inferior — pierce the sclera obliquely on either side of the superior and inferior recti about 6 mm behind the equator; the superior pair is farther back, the lateral pair closer to the vertical plane; the superolateral vein lies farthest posteriorly (8 mm) near the superior oblique insertion and the inferolateral most anteriorly (5.5 mm) (p. 405). No vortex veins exit where the posterior ciliary arteries enter, except rarely in myopia, where exits may also lie farther posteriorly near the nerve (p. 405). External distances from the limbus (Table 7.2): superoexternal exit 22 mm / internal opening 18 mm; superointernal 20/16; inferoexternal 19/15; inferointernal 18/14.5 (p. 274). The main channels are visible externally as dark lines, and the upper main trunks converge towards the vertical plane as if a single trunk (Leber); the intrascleral course averages 4.53 mm (1.25-8.5 mm), longest superotemporally and shortest inferonasally (Rutnin 1967) (pp. 224, 274, 405-406).",
+    "layers": null,
+    "blood_supply": "The inflow territory of each vortex is sectorial: posterior tributaries drain the posterior choroid, the optic nerve head and sometimes peripapillary retina; anterior tributaries drain iris, ciliary processes, ciliary muscle and anterior choroid, running parallel in the pars plana before turning at the ora towards the vortex (p. 406). Experimental occlusion of one vortex vein congests precisely its sector along the full iris-to-choroid extension (Hayreh and Baines 1973) (p. 406). The choroidal circulation carries far more blood than the retinal — the vortex vein calibre is enormous compared with the central retinal vein (Fig 11.28) (p. 407).",
+    "venous_drainage": "Ampulliform dilatations form just before the scleral entry (Fig 11.26; after Rutnin 1967), where radial and curved tributaries converge into the whorl visible ophthalmoscopically in blond, myopic and albinoid fundi (p. 406). The count is variable: about 8 (range 4-15) veins enter the ampullae and about 6 (5-8, mean 5.82) exit the globe, two per quadrant (Rutnin 1967); a trunk may divide within its scleral canal so that six or more vessels emerge (pp. 224, 405-406). The two superior vortices drain to the superior ophthalmic vein directly or via muscular and lacrimal tributaries; the two inferior to the inferior ophthalmic vein or a positional anastomosis with the superior ophthalmic; the superior ophthalmic vein leaves the orbit through the superior orbital fissure to the cavernous sinus (pp. 101, 224, 406). Superomedial vortices join the first part of the SOV, superolateral the third part; the inferior pair relates to the inferior venous plexus (pp. 101, 224). Small scleral branches drain the sclera only, not the choroid, and are smaller than their arterial counterparts (p. 406). Modern fundus series agree with Rutnin's counts quoted here (pp. 224, 405-406): 4-8 vortices are visible per eye, most commonly 4 (35%) or 5 (30%), while ultra-widefield ICGA raises the mean to 8 per eye by revealing small ampullae invisible to ophthalmoscopy (Verma et al. 2021). The drainage destinations match the book's account — some vortex veins empty toward the cavernous sinus through the superior orbital veins, others toward the pterygoid plexus through the inferior orbital veins (Verma et al. 2021). The scleral exit sites have additionally been charted as precise scleral coordinates (Lim, Bateman and Glasgow 1995), a refinement of Table 7.2 (p. 274).",
+    "innervation": "Part of the choroidal veins receive autonomic innervation, although the capillaries have none (Ruskell 1971b) (p. 408); otherwise the vortex veins are not a principal target of the autonomic supply.",
+    "histology_summary": "Each intrascleral canal is a tube of loose connective tissue with parallel collagen bundles (p. 274). The ampullae — dilatations 1.5-2 mm wide lying just before or within the sclera — are a constant feature (ampulliform in about 50% by Rutnin 1967) and the radial tributaries insert into them (pp. 224, 405-406). The vortex veins are valveless, and like uveal veins generally they do not match the arteries in number, course or branching (pp. 406-407). Developmentally, collecting channels that form the basis of the rudimentary vortex veins emerge by the end of the second month of gestation (Heimann 1972) (p. 638).",
+    "clinical_importance": "The four drainage sectors have watersheds between them forming a Maltese cross centred on the disc, modified by the number of veins — and the four-sector watershed crosses the submacular choroid (Hayreh and Baines 1973; Fig 11.28) (pp. 406-407). Vortex vein compression contributes to anterior segment ischaemia after strabismus surgery alongside arterial compromise (p. 376). In acute glaucoma with vortex obstruction the anterior ciliary veins carry compensatory flow (p. 405). The external dark lines and the ampullae are surgical landmarks for scleral buckling, and the constant distances from the limbus (Table 7.2) guide placement; the opticociliary veins that drain into the choroid may enlarge with optic nerve sheath meningioma (Lieberman, Maumenee and Green 1976) (pp. 274, 534). The experimental work the book relies on remains available in full: Hayreh and Baines' 'Occlusion of the vortex veins' (Br J Ophthalmol 1973;57:217) established the sectorial drainage pattern and the Maltese-cross watershed crossing the submacular choroid (pp. 406-407). Vortex-vein imaging is now central to the pachychoroid disease spectrum, in which vortex-vein congestion is implicated (Verma et al. 2021)."
+  },
+  "relationships": [
+    {
+      "relation_type": "drains",
+      "target_id": "choroid",
+      "target_name": "Choroid (the vortices drain practically the whole uveal tract including the choroid)"
+    },
+    {
+      "relation_type": "drains",
+      "target_id": "choriocapillaris",
+      "target_name": "Choriocapillaris (postcapillary venules ultimately reach the vortex systems)"
+    },
+    {
+      "relation_type": "pierces",
+      "target_id": "sclera",
+      "target_name": "Sclera (oblique intrascleral canals averaging 4.53 mm; exits ~6 mm behind the equator)"
+    },
+    {
+      "relation_type": "receives_from",
+      "target_id": "ciliary_body",
+      "target_name": "Ciliary Body (anterior tributaries from ciliary processes and muscle)"
+    },
+    {
+      "relation_type": "drains_into",
+      "target_id": "superior_ophthalmic_vein",
+      "target_name": "Superior Ophthalmic Vein (the two superior vortices, directly or via tributaries)"
+    },
+    {
+      "relation_type": "drains_into",
+      "target_id": "inferior_ophthalmic_vein",
+      "target_name": "Inferior Ophthalmic Vein (the two inferior vortices or positional anastomosis with SOV)"
+    },
+    {
+      "relation_type": "counterpart_of",
+      "target_id": "choroid_blood_supply",
+      "target_name": "Choroidal Blood Supply (venous territories do not follow the arterial pattern)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "vortex veins",
+      "venae vorticosae",
+      "ampulla",
+      "whorl",
+      "Rutnin",
+      "Maltese cross",
+      "sectorial drainage",
+      "superior ophthalmic vein",
+      "inferior ophthalmic vein",
+      "scleral canal 4.53 mm",
+      "watershed",
+      "valveless",
+      "Hayreh and Baines 1973",
+      "opticociliary veins",
+      "anterior ciliary veins",
+      "الأوردة الدوامية",
+      "الأمبولة",
+      "دوامة",
+      "التصريف القطعي",
+      "الورد المداري العلوي",
+      "الورد المداري السفلي",
+      "قناة صلبة",
+      "بلا صمامات",
+      "ultra-widefield ICGA",
+      "vortex vein ampullae",
+      "pachychoroid",
+      "scleral coordinates",
+      "تصوير الأوردة الدوامية"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "hayreh_baines_1973_vortex",
+      "lim_1995_exit_sites",
+      "verma_2021_vortex_imaging"
+    ],
+    "last_updated": "2026-10-27",
+    "version": "1.1.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            224,
+            405,
+            406
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            274
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            224,
+            405,
+            406
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            406,
+            407
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "3",
+          "pages": [
+            101
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            224
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            274
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            224,
+            405,
+            406
+          ]
+        },
+        {
+          "reference_id": "verma_2021_vortex_imaging",
+          "section": "Anatomy: number, variability and drainage of vortex veins"
+        },
+        {
+          "reference_id": "lim_1995_exit_sites",
+          "section": "Scleral coordinates of vortex vein exit sites"
+        }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            408
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            274
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            406,
+            407
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "17",
+          "pages": [
+            638
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "7",
+          "pages": [
+            274
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            376,
+            405,
+            406,
+            407
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            534
+          ]
+        },
+        {
+          "reference_id": "hayreh_baines_1973_vortex",
+          "section": "Occlusion of the vortex veins (full text)"
+        },
+        {
+          "reference_id": "verma_2021_vortex_imaging",
+          "section": "Review: vortex veins in pachychoroid disease"
+        }
+      ]
+    }
+  ]
+}
