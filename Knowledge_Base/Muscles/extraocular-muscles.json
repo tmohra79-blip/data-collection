@@ -1,0 +1,272 @@
+{
+  "entity_id": "extraocular_muscles",
+  "component_ids": [
+    "comp_muscle_medial_rectus",
+    "comp_muscle_lateral_rectus",
+    "comp_muscle_superior_rectus",
+    "comp_muscle_inferior_rectus",
+    "comp_muscle_superior_oblique",
+    "comp_muscle_inferior_oblique"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Extraocular Muscles (Overview: Gross Structure, Zones, Attachments, Supply and Actions)",
+    "ar": "العضلات خارج المقلة (نظرة عامة: البنية الكلية، النطاقات، المرتكزات، التروية والأفعال)",
+    "aliases": [
+      "Extraocular Muscles (EOM)",
+      "extrinsic muscles of the eyeball",
+      "ocular muscles",
+      "the six eye muscles",
+      "muscles of the eyeball",
+      "eye muscle overview",
+      "العضلات الستة خارج المقلة",
+      "العضلات الخارجية للعين",
+      "عضلات المقلة",
+      "نظرة عامة على العضلات خارج المقلة"
+    ]
+  },
+  "content": {
+    "definition": "The six extrinsic (extraocular) muscles of the eyeball — the superior, inferior, medial and lateral recti and the superior and inferior obliques — are striated muscles, distinguished from the intrinsic muscles (dilator and sphincter pupillae and ciliaris) which are non-striated (p.107). The fibres of the main muscle mass are termed extrafusal to distinguish them from the intrafusal fibres of the sensory muscle spindles which provide feedback to the central oculomotor regulatory centres (p.107). Like branchial muscles, they differ in several respects from somatic muscles: they are not fasciculated with dense connective tissue, their fine fibres being loosely united and easily separated, and between them are unusually numerous nerve fibres — each muscle receives a nerve which, relative to the muscle's size, is very large (Fig. 4.1); the ratio of one nerve fibre to 100 or more muscle fibres usual in skeletal muscles is about 1:5 to 1:10 in extraocular muscles (Porter et al., 1995) (p.108). Each muscle is compartmentalized into an outer orbital and an inner global zone of different fibre diameters (p.108), and the muscles are grouped as synergists for the movements of the globe, which are rotations about three primary axes — vertical, transverse and sagittal (p.134).",
+    "location": "The muscles lie within the orbit. The four recti are attached posteriorly by a short tendinous ring (annulus tendineus communis), oval on cross-section, which encloses the optic foramen and the inferomedial end of the superior orbital fissure; the annulus is thickened above and below by two strong common tendons. The lower tendon is attached to the lesser wing of the sphenoid between the optic foramen and the superior orbital fissure, sometimes marked by the infraoptic tubercle (Fig. 1.2), and serves part of the medial and lateral recti and the whole of the inferior rectus; the upper tendon arises from the body of the sphenoid and serves part of the medial and lateral recti and the whole of the superior rectus (Fig. 5.24) (pp.136-137). Because of the slope of the orbital roof the superior and medial recti are attached on a plane anterior to the others, and these muscles are also much more closely attached to the dural sheath of the optic nerve (p.137). Posteriorly the superior and lateral recti have U-shaped ends, while the inferior and medial recti have linear and dentate osseous attachments (p.107). Vessels and nerves enter each muscle belly at its hilum (p.109), and in the recti the orbital zones are deficient on their internal surfaces so that the global layer is exposed at the hilum to adjacent adipose tissue around the optic nerve (p.108). The recti are strap-like, with maximum width at their global insertion (5 mm behind it in the lateral rectus) (p.108). A geometric feature of the orbits underlies the actions of the individual muscles: the orbital axis does not coincide with the anteroposterior axis of the eyeball (about 23 degrees in Fig. 4.29), the medial orbital walls are essentially parallel and the lateral walls diverge at an angle of more than 90 degrees (Fig. 4.29) (p.135).",
+    "layers": [
+      "Orbital zone — the outer shell, facing the orbit: although at birth fibre size is generally uniform (Kato, 1938), an outer shell of smaller-diameter fibres is later distinguished from a core of larger fibres and the pattern is retained into adult life (Schiefferdecker, 1904; Wohlfart, 1935; Ringel et al., 1978b). Orbital fibre diameter ranges between 5 and 15 um; its fibres are arranged in discrete fascicles, which are less evident in the global layer (pp.108-109).",
+      "Global zone — the inner core, facing the globe and the contents of the muscle cone (Fig. 4.2): global fibres range between 10 and 40 um (p.108). The global layer of the superior oblique is totally enclosed by the orbital layer, while in the recti the global layer is exposed at the 'hilum' to adipose tissue around the optic nerve (p.108). Only the global tonic fibres appear to run the full length of the muscle belly (Mayr et al., 1975), maximizing the possible change in length of the muscle in contraction — a contrast with most skeletal muscles (p.108).",
+      "Zone comparison — although fibres are smaller in the orbital zones than in the global zones, both contain mixtures in size of fibre (p.109); the widths of orbital and global fibres are similar at each end of the muscle (Locket, 1968), and splitting and tapering of fibres is a feature of muscle in non-primate species (p.109). Within the zones, different muscle subtypes vary in structure, metabolism and contractile properties and in distribution at different ages (Lyness, 1986) (p.108).",
+      "Connective tissue framework — a perimysium of collagen, large elastic fibres, vessels and nerves surrounds the muscular fascicles and extends between individual fibres as an endomysium; the perimysium is continuous with the epimysium, which surrounds the entire muscle. Epimysial sheaths are negligible near the osseous attachments but well developed near the globe, their collagen fibres largely longitudinal on juxtaocular aspects and circular or transverse on their outer aspects (p.109).",
+      "Tendon and insertion — the scleral insertions are by tendons whose fibres are almost entirely parallel to the long axis of the muscle, consisting of collagen supported by thick elastic fibres; they resemble scleral fibres, being of the same tissue, but differ in size, and whereas tendon fibres are mostly longitudinal the scleral fibres run in many directions (Figs 7.5 and 10.10), imparting a glistening silky appearance to the tendon while the sclera is dull white. The tendon fibres enter the superficial sclera and quickly merge into it; only the cessation of the thick elastic fibres marks the junction of tendon with sclera (p.107).",
+      "Muscle architecture — fibres extend from end to end of the muscle belly, from osseous to tendinous attachment (Lockhart and Brandt, 1938; Cooper and Daniel, 1949), though the global fibres are longer than the orbital; shorter fibres are uncommon and therefore myomyous junctions (such as exist between levator oculi and superior palpebral (Muller's) muscle) are unusual (p.108)."
+    ],
+    "blood_supply": "Vessels enter each muscle belly at its hilum (p.109). The blood supply of the rectus muscles is greater than that of the myocardium, primarily due to the richness of the capillary network in the orbital layer (Wilcox et al., 1981); the capillaries are of the closed type, showing bidirectional vesicular transport (Mwasi and Raviola, 1985) (p.109). This supply is required by the larger numbers of singly innervated fast twitch muscle fibres in the orbital layer, which have a highly aerobic metabolism; the morphology of these fibres differs greatly between species, particularly in mitochondrial content, which is highest in primates. The proportion of such fibres also differs between the extraocular muscles (e.g. in the cat it is highest in medial rectus, lowest in lateral), and blood flow varies roughly in proportion: it is thought to be highest in the medial rectus, although that in superior rectus may be higher (Wooten and Reis, 1972), and is highest in those species with the greatest ocular motility (Wilcox et al., 1981) (p.109). The named muscular branches of the ophthalmic artery are documented in each individual muscle card.",
+    "venous_drainage": null,
+    "innervation": "Each rectus muscle receives its motor supply from a nerve entering its global aspect near the junction of the middle and posterior thirds. The abducens nerve enters just posterior to the middle of the lateral rectus; the trochlear nerve enters the orbital surface of the anterior half of the posterior third of the superior oblique; and the branch of the inferior division of the oculomotor nerve supplying the inferior oblique enters at the middle of its posterior border. After entering the muscle belly, each nerve divides and sends branches towards both ends of its muscle (p.110). The supply is exceptional in size: between the fibres are unusually numerous nerve fibres, each muscle receiving a nerve which, relative to the muscle's size, is very large (Fig. 4.1) — the ratio of one nerve fibre to 100 or more muscle fibres usual in skeletal muscles is about 1:5 to 1:10 in extraocular muscles (Porter et al., 1995) (p.108). The specific branch and entry point of each individual muscle are documented in that muscle's own card (e.g. medial rectus: a branch of the inferior division of the oculomotor enters its lateral surface about 15 mm from the orbital attachment).",
+    "histology_summary": "Each fibre has a diameter of 5-40 um (cf. 10-100 um in skeletal muscles) and consists of a sarcolemma surrounding a granular sarcoplasm in which many myofibrils, 1-2 um in diameter, lie in parallel; the fibres have a punctiform appearance in transverse section and a striated appearance in longitudinal section (Fig. 4.3), and each fibre is multinucleate, with nuclei internal to the sarcolemma (p.109). Fibres of larger diameter are rapid 'twitch' fibres with a 'fibrillenstruktur' (Dietert, 1965) — regular distribution of myofibrils and abundant sarcoplasm, innervated by single 'en plaque' endings (motor end plates) and in this respect resembling somatic striated fibres elsewhere (Locket, 1968); two types of striated twitch fibres are described in lower vertebrates, and representatives occur in human and other mammalian extraocular muscles. Other fibres are slow or 'tonic' in action with a 'felderstruktur' — ill-defined myofibrillar arrangements and little sarcoplasm; their respiratory metabolism is chiefly aerobic and they are innervated by diffuse ('en grappe') myoneural endings. Mitochondria are in general fewer in skeletal than in extraocular muscle fibres (Miller, 1971) (p.109). The skeletal-muscle framework on which extraocular classification builds (4.6): the fibre is elongated, polygonal in cross-section, fusiform and about 30-90 um in diameter (the range in women consistently less than in men), up to 10 cm in length, with many ovoid peripherally located nuclei (up to 11 um long) and adjacent Golgi bodies; the transverse cross-bandings are the basis of the term 'striated muscle' (Fig. 4.4). The bilamellar sarcolemma is 7.5-10 nm thick, surrounded by a basal lamina 36-50 nm wide; satellite cells at the sarcolemma-basal lamina interface may be capable of myoblastic differentiation (Dubowitz, 1985). Cylindrical myofibrils of contractile protein occupy 85-90% of the fibre's volume (hundreds or thousands per fibre); the intermyofibrillar sarcoplasm contains nuclei, the T-system, sarcoplasmic reticulum, mitochondria, Golgi apparatus, glycogen granules and lipid bodies (Fig. 4.4); myofibrils are composed of linearly arranged myofilaments which form the fibre's repeating unit, the sarcomere (Fig. 4.5) (p.110). The unusual amount of elastic tissue in extraocular muscle must have a mechanical effect, perhaps contributing to fine gradation of contraction, though the main factors are the profuse innervation, the small size of the motor unit and thus the very high 'twitch frequency' before tetanus ensues — a high frequency of neural impulses is required to achieve a smooth contractile response (p.109).",
+    "clinical_importance": "Recurrent slips may leave the main tendons near their scleral attachments to be attached farther back; they may be missed at squint surgery (p.107). The muscles possess a resident population of immunocompetent cells — numerous macrophages and a smaller number of HLA-DR positive cells and T cells, with B cells absent — assumed to be of importance in certain orbital immune disorders such as endocrine ophthalmopathy; the majority of the T cells are CD8 (suppressor/cytotoxic) positive, whereas in skeletal muscle CD4-positive (helper) cells predominate (Schmidt et al., 1993), and the medial and inferior recti contain about twice as many macrophages as the lateral rectus and superior oblique muscles (pp.109-110). The sarcolemmal-associated protein dystrophin is absent from extraocular muscle in Duchenne muscular dystrophy but, contrary to the situation in skeletal muscle, no extraocular muscle degeneration results (p.110). The actions framework (4.10) is the basis of strabismus diagnosis: movements are rotations about three primary axes — vertical (abduction/adduction), transverse (elevation/depression) and sagittal (wheel rotation, intorsion or extorsion as the 'twelve o'clock' on the cornea moves nasally or temporally) (pp.134-136); only the medial and lateral recti exert their primary actions in the primary position of the eyeball, while the primary actions of the vertical recti are elicited in abduction and of the obliques in adduction; superior muscles are intorters and inferior muscles extorters (Fig. 4.30). The effect of any muscle is analysed into primary, secondary and tertiary actions — e.g. the primary action of superior rectus (elevation) is greatest when the eye is abducted, and adduction brings in secondary adduction and intorsion components that increase as the visual axis turns medially (p.136). The visual axis is elevated by the synergic action of superior rectus and inferior oblique and depressed by inferior rectus and superior oblique, but this often-quoted pairing is over-simplified (p.136). Dimensions of the four recti (Table 4.13) are standard surgical landmarks — distance from cornea: superior rectus 7.7, lateral 6.9, inferior 6.5, medial 5.5 mm; length of tendon: 5.8, 8.8, 5.5 and 3.7 mm; width of tendon: 10.8, 9.2, 9.8 and 10.3 mm; width of muscle: 9.0 mm for all four (p.137)."
+  },
+  "relationships": [
+    {
+      "relation_type": "has_part",
+      "target_id": "medial_rectus",
+      "target_name": "Medial Rectus Muscle (MUS-002): the largest of the ocular muscles, a pure adductor in the primary position"
+    },
+    {
+      "relation_type": "has_part",
+      "target_id": "lateral_rectus",
+      "target_name": "Lateral Rectus Muscle (MUS-003): the pure abductor, strap-like with maximum width 5 mm behind its insertion"
+    },
+    {
+      "relation_type": "has_part",
+      "target_id": "superior_rectus",
+      "target_name": "Superior Rectus Muscle (MUS-004): primary elevator greatest in abduction; intorter"
+    },
+    {
+      "relation_type": "has_part",
+      "target_id": "inferior_rectus",
+      "target_name": "Inferior Rectus Muscle (MUS-005): primary depressor greatest in abduction; extorter"
+    },
+    {
+      "relation_type": "has_part",
+      "target_id": "superior_oblique",
+      "target_name": "Superior Oblique Muscle (MUS-006): the longest and thinnest of the six; primary intorter, elicited in adduction"
+    },
+    {
+      "relation_type": "has_part",
+      "target_id": "inferior_oblique",
+      "target_name": "Inferior Oblique Muscle (MUS-007): the only extraocular muscle attached near the front of the orbit; primary extorter"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "eom_fibre_classification",
+      "target_name": "Extraocular Muscle Fibre Fine Structure and Classification (MUS-008): the shared fibre biology of all six muscles (Wolff 4.7-4.8)"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "eom_sensory_apparatus",
+      "target_name": "Sensory Apparatus of Extraocular Muscle (MUS-009): the shared proprioceptive apparatus (Wolff 4.9)"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "fascia_bulbi_rectus_pulleys",
+      "target_name": "Fascia Bulbi (Tenon's Capsule) and the Rectus Muscle Pulleys (FAS-001): the fascia system invests all six muscles and stabilizes the recti through pulleys"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "ocular_movements",
+      "target_name": "Ocular Movements (OCM-001): the movements executed by these six muscles and their neural basis (Wolff 4.25)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "extraocular muscles",
+      "extrinsic ocular muscles",
+      "ocular muscles",
+      "muscles of the eyeball",
+      "muscle cone",
+      "annulus tendineus communis",
+      "common tendinous ring",
+      "orbital zone",
+      "global zone",
+      "muscle hilum",
+      "endomysium",
+      "perimysium",
+      "epimysium",
+      "recurrent slips",
+      "squint surgery",
+      "rectus blood supply",
+      "innervation ratio",
+      "en plaque",
+      "en grappe",
+      "fibrillenstruktur",
+      "felderstruktur",
+      "twitch fibres",
+      "tonic fibres",
+      "primary action",
+      "tertiary actions",
+      "intorsion",
+      "extorsion",
+      "synergists",
+      "vertical axis",
+      "transverse axis",
+      "sagittal axis",
+      "Table 4.13",
+      "Duchenne muscular dystrophy",
+      "endocrine ophthalmopathy",
+      "CD8 T cells",
+      "العضلات خارج المقلة",
+      "العضلات المحركة للعين",
+      "الحلقة الوترية المشتركة",
+      "النطاق الحجاجي",
+      "النطاق الكروي",
+      "الالتواء الداخلي",
+      "الالتواء الخارجي",
+      "العضلات المتعاطفة",
+      "جراحة الحول",
+      "اعتلال العين الداخلي المنشأ"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-11-06",
+    "version": "1.0.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            107,
+            110
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            107,
+            110
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            134,
+            137
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            107,
+            110
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            109
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            108,
+            110
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            109,
+            110
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            107,
+            110
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "4",
+          "pages": [
+            134,
+            137
+          ]
+        }
+      ]
+    }
+  ]
+}
