@@ -1,0 +1,245 @@
+{
+  "entity_id": "ciliary_body",
+  "component_ids": [
+    "comp_lens",
+    "comp_retina"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Ciliary Body",
+    "ar": "الجسم الهدبي",
+    "aliases": [
+      "pars plicata",
+      "corona ciliaris",
+      "pars plana",
+      "orbiculus ciliaris",
+      "ciliary processes",
+      "ciliary sulcus",
+      "posterior chamber compartments",
+      "canal of Hanover",
+      "canal of Petit",
+      "الجسم الهدبي",
+      "الجزء المضلع",
+      "الجزء المسطح",
+      "العمليات الهدبية",
+      "الجيب الهدبي",
+      "الغرفة الخلفية"
+    ]
+  },
+  "content": {
+    "definition": "The ciliary body is the middle portion of the uveal tract, a circular body conforming on its outer aspect to the scleral curvature and extending between the ora serrata and the scleral spur (p. 337). It presents two main zones — the smooth pars plana (orbiculus ciliaris) posteriorly and the pars plicata (corona ciliaris) anteriorly, the latter bearing the 70-80 ciliary processes whose epithelium is the secretory source of the aqueous humour (pp. 337-338). In meridional section it is triangular, with its shortest side anterior (p. 338).",
+    "location": "The ciliary body lies anterior to the ora serrata (anterior limit of retina and choroid) and posterior to the scleral spur (p. 337); its black colour easily distinguishes it from the brown choroid (p. 337). The anteroposterior width varies between 6.0 and 6.5 mm, widest inferotemporally and narrowest superonasally; the pars plicata is about 2.0 mm wide and the pars plana 4.0-4.5 mm (p. 337). Measured on the globe surface from the corneoscleral limbus, the ora serrata lies temporally 7.5-8.0 mm, nasally 6.5-7.0 mm and 7.0 mm superiorly and inferiorly (p. 337). The equator of the lens is about 0.5 mm from the ciliary processes (p. 338). The posterior chamber — the fluid-filled space posteromedial to iris and ciliary body and anterior to the anterior vitreous face — is divided by the zonular fibres into prezonular (posterior chamber proper), zonular (circumlental space of canal of Hanover) and retrozonular (space of Petit) compartments (p. 335); the groove formed by reflection of the peripheral iris epithelium onto the pars ciliaris is the ciliary sulcus, mean diameter about 11.25 mm [OCR-unverified] (Orgel et al., 1993; Smith et al., 1987) (p. 336).",
+    "layers": [
+      "Layers from without inwards: 1) supraciliary layers; 2) ciliary muscle; 3) stroma; 4) epithelial layers — (a) external limiting membrane (anterior basement membrane), (b) pigmented epithelium, (c) non-pigmented epithelium, (d) inner basement membrane (internal limiting membrane) (p. 339)",
+      "Supraciliary layer — resembles the suprachoroidea; strands of collagen derived partly from the suprachoroid and extensions of the external longitudinal ciliary muscle, mingling with the scleral collagen framework; melanocytes and fibroblasts are enmeshed; this potential space (with the suprachoroidea) forms the unconventional uveoscleral outflow route (pp. 339-341)",
+      "Pars plana — internal surface smooth to the naked eye; low magnification shows the ciliary striae (of Schultze), slight dark ridges converging anteriorly from the dentate processes to the ciliary valleys; posterior zonular fibres take origin from a band 1.5 mm wide lying 1.5 mm anterior to the ora; the vitreous base attaches over a band extending 1.5-2.0 mm forward from the ora (p. 337)",
+      "Pars plicata — 70-80 buff-coloured ciliary processes projecting inwards, with darker intervening valleys sometimes bearing smaller accessory processes; major and minor processes are distinguished; processes become longer and taller with age (Reese, 1934); the wider anterior end may fuse with neighbours (the head); average dimensions: length 2.0 mm, width 0.5 mm, height 0.8-1.0 mm (Hogan, Alvarado & Weddell, 1971); giant processes occur in the nasal horizontal meridian (Streeten, 1995) (pp. 337-338)",
+      "Ora serrata region — forward dentate processes and intervening bays, well marked nasally, less so temporally; giant dentate processes occur in 16% of cases, forming a 'meridional complex' of anomalous retinal and ciliary epithelium passing forward to a major ciliary process (Straatsma et al., 1968; Spencer, Foos & Straatsma, 1969) (p. 337)",
+      "Neuroepithelial continuity — the neuroretina and retinal pigment epithelium (two optic cup layers) become the non-pigmented and pigmented ciliary epithelia respectively; the choroidal vasculature is replaced by that of the ciliary body (p. 337)"
+    ],
+    "blood_supply": "The arteries to the ciliary body are branches of the long posterior and anterior ciliary arteries and pass through the substance of the ciliary muscle (p. 348). The circulus arteriosus iridis major lies behind the root of the iris, just in front of the circular portion of the ciliary muscle, in loose connective tissue separating it from the anterior chamber (p. 348). The inner and anterior part of the ciliary muscle is supplied by the major arterial circle, the outer and posterior part by the intramuscular circle of the ciliary body (p. 350, 403). Detailed territorial anatomy of process vasculature is documented in ciliary_body_vessels_nerves and ciliary_epithelium_aqueous.",
+    "venous_drainage": "The pars plana vascular layer resembles that of the choroid, with which it is continuous, but is narrower and lacks a choriocapillaris; its vessels are chiefly veins running backwards and parallel to each other (p. 348). Venules drain from the ciliary body and empty into the ciliary valleys or join those of the pars plana (p. 350).",
+    "innervation": "The short posterior ciliary nerves lie in the outer choroid and branch near the ora serrata to form a rich plexus of myelinated and unmyelinated fibres supplying iris and ciliary body; at each bifurcation is a triangular thickening from which innumerable fibres emerge (p. 360). Nerve fibres pass from a plexus between sclera and ciliary body stroma to form an extensive plexus within the ciliary muscle, then an additional plexus in relation to the ciliary epithelium, with terminals at the pigmented epithelium and capillaries (p. 362). Detailed autonomic composition is documented in ciliary_body_vessels_nerves and ciliary_muscle_accommodation.",
+    "histology_summary": "In meridional section the ciliary body is triangular with the base facing the posterior chamber and posterior iris; at the iris root it is separated from the anterior chamber angle only by trabecular meshwork lamellae, the ciliary muscle inserting into the uveal meshwork; the outer side (ciliary muscle) lies against the sclera with supraciliary tissue intervening; the inner aspect bears the processes (p. 338). The ciliary muscle does not extend into the processes and is equally thick in valleys as under processes (Streeten, 1995) (p. 342). The subepithelial connective tissue increases in the second decade chiefly in the pars plicata, expanding the processes into their adult form; inner-layer capillaries are fenestrated, outer stromal capillaries are not (p. 345). In the infant eye the ciliary body is shorter and the pars plana more anterior (p. 337). Processes are larger, more convoluted and 'warty' at 85 years versus the simple infantile form (Streeten, 1992, Fig. 10.4) (p. 337).",
+    "clinical_importance": "The pars plana is a relatively avascular zone, so entry at this site avoids haemorrhage and retinal damage — the basis of the pars plana approach to the vitreous space; the ora limits (7.5-8.0 mm temporal, 6.5-7.0 mm nasal) guide sclerotomy placement (p. 337); an entry too anterior risks ciliary body haemorrhage, too posterior risks retinal detachment (p. 230). The ora can be identified by transillumination via the pupil — heavy ciliary pigmentation masks light anterior to it (p. 337, 230). The ciliary sulcus may support or fix the haptic of an intraocular lens (p. 336). Ciliary body detachment reduces aqueous secretion (Bill, 1977) (p. 341). The retrozonular space of Petit extends laterally to the vitreous base at the ora and centrally to the ligament of Wieger, separating it from the retrolental space of Berger (p. 336). Mid-dilatation pupil block against the lens may precipitate angle-closure glaucoma in predisposed eyes (pp. 335, 308-309)."
+  },
+  "relationships": [
+    {
+      "relation_type": "bounds",
+      "target_id": "posterior_chamber",
+      "target_name": "Posterior chamber (base formed by ciliary processes and valleys with recesses of Kuhnt)"
+    },
+    {
+      "relation_type": "continuous_with",
+      "target_id": "choroid",
+      "target_name": "Choroid (continuity at the ora serrata; pars plana vascular layer continuous with choroid)"
+    },
+    {
+      "relation_type": "continuous_with",
+      "target_id": "iris",
+      "target_name": "Iris (anterior continuity at the iris root; uveal tract)"
+    },
+    {
+      "relation_type": "origin_of",
+      "target_id": "lens",
+      "target_name": "Lens zonule (posterior zonular fibres originate from a 1.5 mm pars plana band; equator 0.5 mm from processes)"
+    },
+    {
+      "relation_type": "inserts_into",
+      "target_id": "sclera",
+      "target_name": "Sclera (anterior muscle tendons into the scleral spur; supraciliary lamella against sclera)"
+    },
+    {
+      "relation_type": "secretes",
+      "target_id": "posterior_chamber",
+      "target_name": "Aqueous humour (ciliary process epithelium secretes into the prezonular compartment)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "ciliary body",
+      "pars plana",
+      "pars plicata",
+      "ciliary processes",
+      "corona ciliaris",
+      "orbiculus ciliaris",
+      "ciliary striae of Schultze",
+      "ciliary sulcus",
+      "canal of Hanover",
+      "canal of Petit",
+      "meridional complex",
+      "ora serrata",
+      "posterior chamber",
+      "الجسم الهدبي",
+      "العمليات الهدبية",
+      "الجزء المضلع",
+      "الجزء المسطح",
+      "الجيب الهدبي",
+      "الغرفة الخلفية",
+      "التواء السنانية"
+    ],
+    "references": [
+      "wolff_anatomy"
+    ],
+    "last_updated": "2026-11-05",
+    "version": "1.0.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            337,
+            338
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            335,
+            336,
+            337,
+            338
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            337,
+            338,
+            339,
+            341
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            348,
+            350
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            403
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            348,
+            350
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            360,
+            362
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            337,
+            338,
+            342,
+            345
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            230,
+            335,
+            336,
+            337,
+            341
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            230
+          ]
+        }
+      ]
+    }
+  ]
+}

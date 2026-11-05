@@ -1,0 +1,239 @@
+{
+  "entity_id": "ciliary_epithelium_aqueous",
+  "component_ids": [
+    "comp_lens"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Ciliary Epithelium and Aqueous Secretion",
+    "ar": "طلاء الجسم الهدبي وإفراز الجائب المائي",
+    "aliases": [
+      "pigmented ciliary epithelium",
+      "non-pigmented ciliary epithelium",
+      "external limiting membrane",
+      "membrana limitans interna ciliaris",
+      "blood-aqueous barrier",
+      "aqueous humour secretion",
+      "standing gradient osmotic flow",
+      "طلاء الجسم الهدبي المصطبغ",
+      "الطلاء غير المصطبغ",
+      "الحاجز الدموي المائي",
+      "إفراز الجائب المائي"
+    ]
+  },
+  "content": {
+    "definition": "The epithelial layers of the ciliary body — an outer pigmented and an inner non-pigmented epithelium derived from the apposed layers of the optic cup — are the source of the aqueous humour (p. 353). Their apical surfaces are contiguous while their free basal surfaces relate to basement membranes which they secrete (p. 354). Aqueous is secreted into the posterior chamber predominantly by active ion transport creating an osmotic gradient that drives water flow (p. 370).",
+    "location": "The epithelium covers the internal surface of the ciliary body, lining the ciliary processes and pars plana (p. 338). The pigmented epithelium is continuous posteriorly with the retinal pigment epithelium and anteriorly with the dilator epithelium of the iris; the non-pigmented epithelium is continuous anteriorly with the posterior epithelium of the iris at the iris root, with an abrupt transition from neuroretina at the ora serrata (pp. 354-355).",
+    "layers": [
+      "External limiting membrane (anterior basement membrane) — the product of the pigmented ciliary epithelium; continuous posteriorly with the basement membrane of the RPE (inner 'cuticular' layer of Bruch's membrane) and anteriorly with the basement membrane of the iris dilator; of uniform thickness, thin in the young but thickening with age into a multilamellar network (about 2-3 µm in a 75-year-old, Fig. 10.35) partly by accumulation of amorphous deep stromal deposit; does not follow basal in-foldings; the outer elastic and collagenous portions of Bruch's membrane continue forward separately within the ciliary stroma to the posterior border of the pars plicata (Hogan, Alvarado & Weddell, 1971) (pp. 354-355)",
+      "Pigmented epithelium — represents the outer optic cup layer; cells 8-10 µm wide, taller over pars plana (10-15 µm) than pars plicata (8-12 µm); pigment granules 3-4 times larger than those of choroid and retina; foci of nodular hyperplasia regularly affect the pars plana; rich in organelles though less than NPE; basal membranes in-folded and related to the anterior basal lamina (pp. 354-355)",
+      "Non-pigmented epithelium — homologous with the inner optic cup layer; in youth cuboidal over pars plicata (12-15 µm wide, 10-15 µm high over process crests) and columnar over pars plana (6-9 µm wide, 30 µm high), cell height greatest next to the ora, increasing with age; abundant organelles — mitochondria near the cell base increasing with age (Hara et al., 1977), stacked rough ER and well-distributed smooth ER (Holmberg, 1959; Fine & Zimmerman, 1963); basal surfaces deeply in-folded (34-62 folds per cell in pars plicata, Holmberg, 1955); surface amplification is greatest over the anterior half of the processes, supporting that region as the site of secretion; carbonic anhydrase is localized here (Muther & Friedland, 1980); Golgi-rich cells may secrete hyaluronic acid into the vitreous (Fine & Zimmerman, 1963) (pp. 355-356)",
+      "Internal limiting membrane (membrana limitans interna ciliaris) — the basal lamina of the non-pigmented epithelium on its vitreal surface; thin and uniform, continuous with the internal limiting membranes of retina and iris; gives origin to parts of the suspensory ligament of the lens; in the infant a thin basal lamina (granular layer 30 nm + lamina lucida 50 nm); from age 3 years it thickens into a multilaminar reticular layer, starting in the valleys of the posterior pars plicata and affecting most of the epithelium by age 50 (Rentsch & van der Zypen, 1971; Streeten, 1982); pigmented and non-pigmented basal laminae contain collagens I, III, IV and laminin (p. 360)"
+    ],
+    "blood_supply": "The vasculature of the ciliary processes is divided into three territories: the first lies anteriorly at the crests of the major processes — a region specialized for secretion; the second lies in the anterior part of the major processes (deep and superficial); the third supplies the minor processes and posterior thirds (p. 350-351, 403-404). Process capillaries are almost venular in width (15-30 µm), fenestrated (30-100 nm; Taniguchi, 1962) and permeable to plasma proteins and blood-borne tracers, with fenestrations on all endothelial surfaces; junctional specializations match the choriocapillaris (p. 351). Anterior arteries show focal constrictions that may regulate perfusion pressure and influence ultrafiltration; this crest region is more susceptible to blood-aqueous barrier breakdown in rabbit and monkey; ciliary blood flow is autoregulated with shunting between adjacent major processes; sympathetic stimulation or adrenaline reduces process blood flow (p. 350).",
+    "venous_drainage": "Capillaries merge into venules of endothelium and basement membrane; venous return from the ciliary processes is to the choroidal veins, and from the muscle partly via these veins and partly via the anterior ciliary veins (p. 351). Marginal venules at the inner edge of processes form the efferent venous segment; laterally directed arterioles form interprocess capillary networks and venous arcades draining directly into choroidal veins (Morrison & van Buskirk, 1984) (p. 351).",
+    "innervation": "Nerve terminals containing synaptic vesicles are found in relation to the pigmented epithelium and to capillaries within the ciliary body (p. 362). An axon swelling 15 µm wide stuffed with granular and agranular vesicles lies within ciliary folds (van der Zypen, 1971) (p. 363). Some terminals are characteristic of parasympathetic endings, some of adrenergic endings; interaxonal and occasional ganglionic synapses occur (van der Zypen, 1967) (p. 363). Parasympathetic cholinergic axons run in the stromal part of the processes but terminals have not been shown to perforate the external limiting membrane to contact the epithelium (Uusitalo & Palkama, 1971) (p. 619).",
+    "histology_summary": "Junctions within and between the epithelia are central to secretion (Cole, 1977; Raviola, 1971-1977): zonulae occludentes occlude the lateral surfaces of non-pigmented cells near their apices and are impermeable to macromolecular tracers from either side (Revel & Karnovsky, 1967); their freeze-fracture strand complexity varies regionally, explaining why the epithelium is not totally impermeable to water and small ions yet is tight enough for osmotic work — bicarbonate and ascorbate are transported to higher-than-plasma-filtrate concentration, calcium and urea lower (Cole, 1977, 1984; Davson, 1980) (p. 358). Gap junctions connect pigmented cells laterally (less frequently non-pigmented), and a continuous row of gap junctions alternating with puncta adhaerentia runs at the pigmented/non-pigmented interface; the cells are electrically coupled, acting as a functional secretory syncytium (p. 358). Tracer escaping fenestrated stromal vessels permeates intercellular spaces up to the NPE zonulae occludentes — the morphological counterpart of the blood-retina barrier (p. 353). Secretion follows the standing gradient osmotic flow system (Fig. 10.57, Davson, 1993): solute pumped into restricted intercellular channels renders them hypertonic, drawing water osmotically, with flow directed toward the posterior chamber (p. 368).",
+    "clinical_importance": "Aqueous secretion (10.6): non-pigmented cells selectively absorb sodium from the ciliary stroma into intercellular clefts open to the aqueous side; cleft hyperosmolarity drives water flow (Cole, 1977) (p. 370). ATPase is localized to NPE membranes (Shiose, 1971); cardiac glycosides (ouabain) inhibit Na/K-ATPase and reduce secretion; chloride, bicarbonate and potassium may use independent active processes (Davson, 1980) (p. 370). Inhibition of bicarbonate secretion with the carbonic anhydrase inhibitor acetazolamide is used clinically in glaucoma; beta-adrenergic and serotonergic receptors are localized to the epithelium and beta antagonists reduce secretion (Coakes & Brubaker, 1978) (p. 370). Civan & Macknight (2004) review the solute (chiefly NaCl) transfer across the ciliary epithelium with water following (civan_2004_secretion); the three-step overview — blood flow into processes, pressure-gradient filtration, and epithelial transfer — is summarized in StatPearls (sunderland_2023_ah_circulation). Ciliary body detachment reduces secretion (p. 341); junctional simplification of ciliary epithelium occurs in uveitis (Freddo, 1987) (p. 333)."
+  },
+  "relationships": [
+    {
+      "relation_type": "lines",
+      "target_id": "ciliary_body",
+      "target_name": "Ciliary body (internal epithelial lining; secretes aqueous)"
+    },
+    {
+      "relation_type": "continuous_with",
+      "target_id": "iris",
+      "target_name": "Iris epithelia (NPE continues with posterior iris epithelium; PE with dilator layer at the root)"
+    },
+    {
+      "relation_type": "continuous_with",
+      "target_id": "retina",
+      "target_name": "Retina (PE continues with RPE; NPE with neural retina across the ora serrata)"
+    },
+    {
+      "relation_type": "origin_of",
+      "target_id": "lens",
+      "target_name": "Zonular fibres (parts of the suspensory ligament arise from the internal limiting membrane)"
+    },
+    {
+      "relation_type": "secretes_into",
+      "target_id": "posterior_chamber",
+      "target_name": "Posterior chamber (prezonular compartment receives secreted aqueous)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "ciliary epithelium",
+      "non-pigmented epithelium",
+      "pigmented epithelium",
+      "aqueous secretion",
+      "blood-aqueous barrier",
+      "zonula occludens",
+      "gap junction",
+      "standing gradient",
+      "carbonic anhydrase",
+      "acetazolamide",
+      "Na/K ATPase",
+      "ciliary processes vasculature",
+      "طلاء الجسم الهدبي",
+      "الطلاء غير المصطبغ",
+      "إفراز الجائب المائي",
+      "الحاجز الدموي المائي",
+      "مثبطات الكربونيك أنهيدراز",
+      "النقل الفعال"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "civan_2004_secretion",
+      "sunderland_2023_ah_circulation"
+    ],
+    "last_updated": "2026-11-05",
+    "version": "1.0.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            353,
+            354,
+            370
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            338,
+            354,
+            355
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            354,
+            355,
+            356,
+            359,
+            360
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            350,
+            351
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            403,
+            404
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            351
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            362,
+            363
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "16",
+          "pages": [
+            619
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            353,
+            358,
+            368
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            333,
+            341,
+            370
+          ]
+        },
+        {
+          "reference_id": "civan_2004_secretion",
+          "section": "NaCl transfer across ciliary epithelium with osmotic water flow"
+        },
+        {
+          "reference_id": "sunderland_2023_ah_circulation",
+          "section": "Three-step aqueous production from ciliary body"
+        }
+      ]
+    }
+  ]
+}

@@ -824,5 +824,150 @@
     "verification": "Full citation and complete abstract read directly on Europe PMC 2026-10-27 (cited by 304): the choroid is richly innervated by parasympathetic, sympathetic and trigeminal sensory fibres that regulate choroidal blood flow; parasympathetic vasodilates, sympathetic vasoconstricts, sensory fibres convey pain/thermal information and act locally to vasodilate; impairments occur with aging, glaucoma, AMD, hypertension, diabetes.",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5971129/",
     "access": "free_full_text"
+  },
+  {
+    "reference_id": "civan_2004_secretion",
+    "title": "The ins and outs of aqueous humour secretion",
+    "authors": [
+      "Civan MM",
+      "Macknight ADC"
+    ],
+    "publisher": "Experimental Eye Research",
+    "year": 2004,
+    "volume": "78",
+    "issue": "3",
+    "pages": "78(3):625-631",
+    "doi": "10.1016/j.exer.2003.09.021",
+    "pmid": "15106942",
+    "type": "journal_article",
+    "verification": "PMID 15106942 confirmed via Europe PMC REST (EXT_ID query, resultType=core) 2026-11-05: title/journal/volume/issue/pages/DOI matched; authorString 'Civan MM, Macknight AD'.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15106942/",
+    "access": "abstract_free"
+  },
+  {
+    "reference_id": "sunderland_2023_ah_circulation",
+    "title": "Physiology, Aqueous Humor Circulation",
+    "authors": [
+      "Sunderland DK",
+      "Sapra A"
+    ],
+    "publisher": "StatPearls (Treasure Island FL: StatPearls Publishing)",
+    "year": 2023,
+    "type": "journal_article",
+    "verification": "PMID 31985990 confirmed via Europe PMC REST 2026-11-05 (StatPearls entry NBK553209; book-type record indexed by PubMed).",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK553209/",
+    "access": "full_free",
+    "pmid": "31985990"
+  },
+  {
+    "reference_id": "strenk_1999_mri",
+    "title": "Age-related changes in human ciliary muscle and lens: a magnetic resonance imaging study",
+    "authors": [
+      "Strenk SA",
+      "Semmlow JL",
+      "Strenk LM",
+      "Munoz P",
+      "Gronlund-Jacob J",
+      "DeMarco J"
+    ],
+    "publisher": "Investigative Ophthalmology & Visual Science",
+    "year": 1999,
+    "volume": "40",
+    "issue": "6",
+    "pages": "40(6):1162-1169",
+    "pmid": "10235549",
+    "type": "journal_article",
+    "verification": "PMID 10235549 confirmed via Europe PMC REST (EXT_ID query) 2026-11-05: IOVS 1999;40(6):1162-1169; full authorString retrieved (6 authors).",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/10235549/",
+    "access": "abstract_free"
+  },
+  {
+    "reference_id": "sheppard_2011_ageing",
+    "title": "The effect of ageing on in vivo human ciliary muscle morphology and contractility",
+    "authors": [
+      "Sheppard AL",
+      "Davies LN"
+    ],
+    "publisher": "Investigative Ophthalmology & Visual Science",
+    "year": 2011,
+    "volume": "52",
+    "issue": "3",
+    "pages": "52(3):1809-1816",
+    "doi": "10.1167/iovs.10-6447",
+    "pmid": "21071738",
+    "type": "journal_article",
+    "verification": "PMID 21071738 confirmed via Europe PMC REST (EXT_ID query) 2026-11-05: IOVS 2011;52(3):1809-1816, DOI 10.1167/iovs.10-6447.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21071738/",
+    "access": "abstract_free"
+  },
+  {
+    "reference_id": "tabernero_2016_accommodative",
+    "title": "The accommodative ciliary muscle function is preserved in older humans",
+    "authors": [
+      "Tabernero J",
+      "Chirre E",
+      "Hervella L",
+      "Prieto P",
+      "Artal P"
+    ],
+    "publisher": "Scientific Reports",
+    "year": 2016,
+    "volume": "6",
+    "pages": "6:25551",
+    "doi": "10.1038/srep25551",
+    "pmid": "27151778",
+    "pmcid": "PMC4858807",
+    "type": "journal_article",
+    "verification": "PMID 27151778 confirmed via Europe PMC REST 2026-11-05: Sci Rep 2016;6:25551, PMC4858807, authorString 'Tabernero J, Chirre E, Hervella L, Prieto P, Artal P' (five authors).",
+    "url": "https://www.nature.com/articles/srep25551",
+    "access": "full_free"
+  },
+  {
+    "reference_id": "song_2009_iris_vessels",
+    "title": "A study of the vascular network of the iris using flat preparation",
+    "authors": [
+      "Song Y",
+      "Song YJ",
+      "Ko MK"
+    ],
+    "publisher": "Korean Journal of Ophthalmology",
+    "year": 2009,
+    "volume": "23",
+    "issue": "4",
+    "pages": "23(4):296-300",
+    "doi": "10.3341/kjo.2009.23.4.296",
+    "pmid": "20046692",
+    "pmcid": "PMC2789956",
+    "type": "journal_article",
+    "verification": "PMID 20046692 confirmed via Europe PMC REST 2026-11-05: Korean J Ophthalmol 2009;23(4):296-300, PMC2789956, authorString 'Song Y, Song YJ, Ko MK'.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2789956/",
+    "access": "full_free"
+  },
+  {
+    "reference_id": "zuo_2024_ageing_cm",
+    "title": "The effect of aging on the ciliary muscle and its potential relationship with presbyopia: a literature review",
+    "authors": [
+      "Zuo H",
+      "Cheng H",
+      "Lin M",
+      "Gao X",
+      "Xiang Y",
+      "Zhang T",
+      "Gao N",
+      "Du M",
+      "Chen Y",
+      "Zhou W"
+    ],
+    "publisher": "PeerJ",
+    "year": 2024,
+    "volume": "12",
+    "pages": "12:e18437",
+    "doi": "10.7717/peerj.18437",
+    "pmid": "39735562",
+    "pmcid": "PMC11674140",
+    "type": "journal_article",
+    "verification": "PMID 39735562 confirmed via Europe PMC REST 2026-11-05: PeerJ 2024;12:e18437, PMC11674140; authorString retrieved from API (10 authors, truncated at 'Zhou W').",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11674140/",
+    "access": "full_free"
   }
 ]

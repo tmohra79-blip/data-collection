@@ -1,0 +1,291 @@
+{
+  "entity_id": "iris",
+  "component_ids": [
+    "comp_cornea",
+    "comp_lens"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Iris",
+    "ar": "القزحية",
+    "aliases": [
+      "iris diaphragm",
+      "uveal anterior leaflet",
+      "القزحية",
+      "الحاجز القزحي",
+      "الحوصلة القزحية",
+      "collarette",
+      "anulus iridis major/minor zones"
+    ]
+  },
+  "content": {
+    "definition": "The iris is the most anterior portion of the uveal tract. It lies in the frontal plane of the eye between the anterior and posterior chambers and is bathed on both surfaces by the aqueous (p. 308). Its diameter is approximately 12 mm and its circumference about 18 mm; it is thickest (0.6 mm) at the collarette and thinnest at the iris root (p. 308). The pupil pierces the iris diaphragm slightly below and nasal to its centre, but lies on the optical axis behind the optical zone of the cornea (p. 308).",
+    "location": "The iris is located in the plane of the limbus and separates the anterior chamber in front from the lens and its suspensory ligament behind (p. 212). It is continuous peripherally with the anterior aspect of the midpoint of the ciliary body, so that an anterior band of the ciliary body and the scleral spur into which the muscle inserts contribute to the boundaries of the anterior chamber at the drainage angle (p. 308). The pupillary margin rests lightly on the anterior lens surface, in a plane anterior to the iris root; contact between posterior iris surface and lens creates relative pupil block to aqueous flow through the pupil, most marked in mid-dilatation, encouraging forward bowing (physiological bombé) which in predisposed narrow angles may precipitate angle-closure glaucoma (pp. 308-309). In aphakia the iris is flat and often tremulous (p. 308).",
+    "layers": [
+      "Embryological composition — the iris consists of three layers: two anterior layers and a posterior layer; the anterior layers were originally termed 'mesodermal' but, given the major neural-crest contribution, are more appropriately designated 'mesenchymal' (p. 309)",
+      "Superficial mesenchymal layer — shorter than the deeper layer; extends from the ciliary border to the collarette, which forms a dentate fringe; gives the ciliary portion of the iris its colour; contains the iris crypts, bounded by collarette trabeculae — remains of obliterated vessels that passed to the pupillary membrane in embryonic life (Lauber, 1908) (pp. 309-310)",
+      "Deep mesenchymal layer — extends from the ciliary border to the pupillary edge; in lightly pigmented irides it shows a radial fibrillary, transparent appearance through which the pigmented ectodermal layer is visible; only loosely attached to the superficial layer, which glides freely over it during pupillary movement (p. 309)",
+      "Structural layers anterior to posterior: 1) anterior border layer; 2) stroma and sphincter muscle; 3) anterior epithelium and dilator muscle; 4) posterior pigmented epithelium (p. 313)",
+      "Anterior border layer — condensation of connective tissue and pigment cells derived from the anterior stroma; fibroblasts form a fairly continuous sheet of flat stellate cells with microvilli and cilia projecting into the anterior chamber; pigmented uveal melanocytes lie deep to the fibroblasts; in some eyes it extends into the drainage angle as fine iris processes inserting anterior to the scleral spur (Lichter, 1969); cells joined by gap, intermediate and discontinuous tight junctions (Freddo et al., 1980; Raviola et al., 1987); Wolfflin spots at the periphery of blue/grey irides; the layer is absent at crypts and thinned at contraction furrows, thickest in the pupillary zone; it is responsible for iris colour (pp. 314-315)",
+      "Stroma — loose collagenous network of curved clockwise and anticlockwise arcades containing the vessels and nerves plus cellular elements (fibroblasts, melanocytes, clump cells, mast cells); bundles condense around vessels and nerves with annular orientation near the pupil; no elastin; wide spaces contain a hyaluronidase-sensitive glycosaminoglycan (Zimmerman, 1957), permitting free diffusion of aqueous and large molecules into the stroma and probably facilitating pupil movement (pp. 318, 326)",
+      "Sphincter pupillae muscle — flat muscular strap 0.75 mm wide and 0.10-0.17 mm thick encircling the pupil margin; lies deep in the stroma, separated from the anterior epithelium by a thin sheet of stromal collagen and dilator fibre processes to which it is firmly bound; fusiform smooth muscle cells grouped in bundles of 5-8 with gap junctions spreading depolarizing current; because of the stromal separation, even after broad iridectomy the remaining sphincter can still constrict the remaining pupil margin (pp. 318-319)",
+      "Anterior epithelium and dilator pupillae — about 12.5 µm thick with an apical epithelial portion adjoining the posterior epithelium and a basal portion whose processes form the dilator muscle; muscular processes radially oriented, up to 60 µm long and 7 µm wide, 3-5 layers thick, filled with myofilaments; close to the pupil they fuse with the deep surface of the sphincter (Fuchs' spur at mid-zone, von Michel's spur at the peripheral border), with a further insertion at the iris root (Grunert's spur); contraction pulls the pupillary margin toward the ciliary body and dilates the pupil; poorly developed at birth, so the pupil responds poorly to mydriatics (pp. 328-329)",
+      "Posterior pigmented epithelium — layer of columnar cells 36-55 µm high and 16-25 µm wide (Salzmann, 1912) derived from the internal layer of the optic cup; pigment granules spherical or cigar-shaped, about 0.8 µm across and up to 2.5 µm long, much larger than melanocyte granules; apical microvilli interdigitate with the anterior epithelium; apicolateral junctional complex of zonula occludens, zonula adhaerens and gap junction (Freddo, 1984); basal membrane faces the posterior chamber with deep infoldings; glycogen granules increased in diabetes (pp. 329-331)",
+      "Clump cells — large round pigment-filled cells of the pupillary stroma around the sphincter; type 1 are pigment-filled macrophages (Wobman & Fine, 1972) with residual bodies of melanin; type 2 are basal-lamina-surrounded displaced neuroectoderm cells akin to the sphincter; present in all irises and increasing in number with age (pp. 326-327)"
+    ],
+    "blood_supply": "Iris vessels are radially oriented with a slightly sinuous course accommodating pupil movement (p. 320). The arteries arise mainly from the major arterial circle of the iris — an anastomosis which actually lies in the ciliary body, anterior to the ciliary muscle; some arteries arise directly from anterior ciliary arteries after piercing the sclera (Woodlief, 1980) (p. 320). Calibre diminishes rapidly on entering the stroma and vessels form vascular arcades; the incomplete minor arterial circle lies near the collarette and branches form capillary arcades toward the pupil (Fig. 9.1, pp. 308, 321). A dense capillary plexus surrounds the sphincter and a less dense plexus lies anterior to the dilator (p. 404). Detailed vascular ultrastructure, the major/minor circles and the blood-aqueous barrier role are documented in iris_vessels_innervation.",
+    "venous_drainage": "The veins of the iris run like the arteries and anastomose with each other; at the ciliary border they enter the ciliary body to join the veins of the ciliary processes and so reach the venae vorticosae (p. 406). Venous collector channels traverse the ciliary body to reach the venous system at the ciliary plexus (Saari, 1972) (p. 323). Because iridial vessels lack distinct arteriole-capillary-venule organization, iris angiograms show no distinct venous phase (pp. 322-323).",
+    "innervation": "The iris nerves are derived from the long and short ciliary nerves which accompany the corresponding arteries to the ciliary plexus; fibres form plexuses (a) in the anterior border layer (possibly sensory), (b) around the larger blood vessels and (c) anterior to the dilator pupillae, supplying all layers except the posterior pigmented epithelium (p. 325). The dilator receives sympathetic and the sphincter parasympathetic innervation, but adrenergic and cholinergic activity is demonstrable in both muscles (Lowenstein & Loewenfeld, 1969) (p. 325). Sympathetic adrenergic fibres densely innervate the iris vasculature, maintaining constant vasoconstrictor tone (Ehinger, 1966), and form a rich three-dimensional plexus in the dilator area; the sphincter is only sparsely innervated, as possibly are iridial melanocytes (Laties, 1974) (p. 618). The sphincter receives stronger cholinergic innervation than the dilator (Nishida & Sears, 1969) (p. 619). The 'sphincter centre' is formed by the accessory oculomotor nuclei of Edinger-Westphal, whose efferent pathway is 95-97% accommodative (ciliary muscle) and only 3-5% pupillomotor (Warwick, 1954) (p. 612).",
+    "histology_summary": "Electron microscopy established that no continuous endothelial sheet covers the human iris surface, in contrast to some mammals, except during the first two years of life (Tousimis & Fine, 1959; Vrablec [Vrabec], 1952) (p. 314). The anterior border layer comprises a discontinuous layer of fibroblasts, interspersed collagen and underlying melanocytes (pp. 314-317). Stromal cell population: fibroblasts (most common), branching melanocytes with granules up to 0.5 µm forming perivascular cuffs, clump cells types 1 and 2, and mast cells with 'Swiss roll' inclusions (pp. 325-327). Type VI collagen fibrils surround the sphincter and dilator fibres, and a type VI/type IV/laminin/fibronectin-positive strand connects the dilator at the iris root with the circular and reticular parts of the ciliary muscle — an anchoring function (pp. 327-328). The two epithelial layers are joined by puncta adhaerentes, desmosomes and numerous gap junctions, allowing them to function as a syncytium that coordinates reflex pupil movements (Freddo, 1984) (pp. 328-331).",
+    "clinical_importance": "Pupil diameter ranges between 1.5 and 8 mm in youth; the resting pupil is smaller in old age because of sphincter fibrotic change and dilator atrophy; dilatation beyond 9 mm with mydriatics is restricted in diabetics by dysautonomic changes (Yanoff & Fine, 1989) (p. 309). Iris colour is determined chiefly by stromal and anterior-border melanocytes: brown irides have profuse well-pigmented melanocytes; blue irides have a paucity with back-scattering of short wavelengths; the albino iris is pale buff and transilluminates; brown is dominant and blue recessive; Caucasian irides are blue at birth and adopt adult colour by 3-5 months; heterochromia and segmental variation occur (p. 310). At the thinnest root the iris is readily torn away by contusion or injury (iridodialysis) (p. 308). Primary epithelial cysts arise in the plane between the two epithelial layers and are embryologically homologous with retinal detachment; when posterior synechiae are ruptured, the epithelial fragment left on the lens capsule contains both layers (p. 331). The posterior chamber is completely secluded by the impermeable iris and ciliary epithelia (Raviola, 1977), and the iris pigment epithelium pumps anions out of the posterior chamber (Cunha-Vaz, 1979) (p. 332). Mid-dilatation pupil block can precipitate angle-closure glaucoma in predisposed narrow angles (pp. 308-309, 335)."
+  },
+  "relationships": [
+    {
+      "relation_type": "bounds",
+      "target_id": "posterior_chamber",
+      "target_name": "Posterior chamber (anterior wall is the pigment epithelium of the iris; prezonular compartment)"
+    },
+    {
+      "relation_type": "bounds",
+      "target_id": "anterior_chamber",
+      "target_name": "Anterior chamber (posterior boundary is the anterior iris surface)"
+    },
+    {
+      "relation_type": "continuous_with",
+      "target_id": "ciliary_body",
+      "target_name": "Ciliary body (iris root is continuous with the anterior aspect of the midpoint of the ciliary body)"
+    },
+    {
+      "relation_type": "posterior_to",
+      "target_id": "cornea",
+      "target_name": "Cornea (iris lies behind the cornea across the anterior chamber)"
+    },
+    {
+      "relation_type": "anterior_to",
+      "target_id": "lens",
+      "target_name": "Lens (pupillary margin rests on the anterior lens surface; pupil block)"
+    },
+    {
+      "relation_type": "aperture_of",
+      "target_id": "iris",
+      "target_name": "Pupil (the pupillary aperture regulates light entry, 1.5-8 mm)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "iris",
+      "collarette",
+      "Fuchs crypts",
+      "pupillary ruff",
+      "sphincter pupillae",
+      "dilator pupillae",
+      "anterior border layer",
+      "iris stroma",
+      "clump cells",
+      "Wolfflin spots",
+      "iris colour",
+      "heterochromia",
+      "pupil block",
+      "iridodialysis",
+      "iris crypts",
+      "mesenchymal layers",
+      "القزحية",
+      "حلقة القزحية",
+      "جيوب فوكس",
+      "العضلة العاصرة للبؤبؤ",
+      "العضلة الموسعة للبؤبؤ",
+      "لون القزحية",
+      "انسداد البؤبؤ",
+      "فصل قزحي جذري"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "song_2009_iris_vessels"
+    ],
+    "last_updated": "2026-11-05",
+    "version": "1.0.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "9",
+          "pages": [
+            308
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "2",
+          "pages": [
+            212
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "9",
+          "pages": [
+            308,
+            309
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            335
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "9",
+          "pages": [
+            309,
+            313,
+            314,
+            315,
+            318,
+            319,
+            326,
+            327,
+            328,
+            329,
+            330,
+            331
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "9",
+          "pages": [
+            320,
+            321
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            404
+          ]
+        },
+        {
+          "reference_id": "song_2009_iris_vessels",
+          "section": "Flat preparations mapping radial iris vessels, minor arterial circle and capillary arcades"
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "9",
+          "pages": [
+            322,
+            323
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            406
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "9",
+          "pages": [
+            325
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "16",
+          "pages": [
+            612,
+            618,
+            619
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "9",
+          "pages": [
+            314,
+            315,
+            316,
+            317,
+            325,
+            326,
+            327,
+            328,
+            329,
+            330,
+            331
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "9",
+          "pages": [
+            308,
+            309,
+            310,
+            331,
+            332
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            335
+          ]
+        }
+      ]
+    }
+  ]
+}

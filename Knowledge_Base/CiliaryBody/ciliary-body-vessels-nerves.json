@@ -1,0 +1,296 @@
+{
+  "entity_id": "ciliary_body_vessels_nerves",
+  "component_ids": [
+    "comp_lens",
+    "comp_retina"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Ciliary Body Vasculature and Nerves",
+    "ar": "أوعية وأعصاب الجسم الهدبي",
+    "aliases": [
+      "major arterial circle (MAC)",
+      "intramuscular circle (IMC)",
+      "circulus arteriosus iridis major",
+      "episcleral arterial circle",
+      "recurrent choroidal arteries",
+      "ciliary plexus",
+      "intrastromal nerve loop of Axenfeld",
+      "uveal vascular territories",
+      "الدائرة الشريانية الكبرى",
+      "الدائرة العضلية",
+      "الشرايين الهدبية الراجعة",
+      "الضفيرة الهدبية",
+      "عروة آكسنفيلد العصبية"
+    ]
+  },
+  "content": {
+    "definition": "The arterial system of the anterior segment: superficial and deep coronal arterial circles (the episcleral arterial circle, the major circle of the iris and the intramuscular circle of the ciliary body) supplied by sagittal arterial rings (the long posterior ciliary arteries, the muscular and anterior ciliary arteries and their perforating branches) (Meyer, 1989) (p. 349), together with the venous return to the vortex system and the ciliary nerve plexuses supplying ciliary body and iris (pp. 360-363).",
+    "location": "The circulus arteriosus iridis major lies behind the root of the iris, just in front of the circular portion of the ciliary muscle, in loose connective tissue separating it from the anterior chamber (p. 348); it is 'really located in the ciliary body' (p. 398). The intramuscular circle (IMC) forms within the middle of the ciliary muscle (Leber, 1903) (p. 374). The short posterior ciliary nerves lie in the outer choroid and branch near the ora serrata (p. 360).",
+    "layers": [
+      "Major arterial circle of the iris (MAC) — formed predominantly by the long posterior ciliary arteries (p. 398); both MAC and IMC may be incomplete in some regions (p. 374); the MAC artery is a typical small artery with two or three smooth muscle layers, loose adventitia and poorly developed internal elastic lamina (p. 350)",
+      "Intramuscular circle (IMC) — formed chiefly by penetrating branches of the anterior ciliary arteries, lying mainly in the vertical plane; perforating trunks also give 10-12 recurrent choroidal arteries to the anterior choroid; anastomoses between ACA and LPCA branches exist in all sectors (Funk & Rohen, 1990) (pp. 350, 374)",
+      "Episcleral arterial circle — gives branches to sclera, limbus, perilimbal conjunctiva and, via deep branches, to the major circle (p. 376); the anterior ciliary arteries supply ciliary muscle, iris and episclera (p. 376)",
+      "Ciliary process vascular territories — first territory anteriorly at the crests (secretory specialization with focally constricted arterioles); second territory in the anterior part of major processes (deep central and superficial); third territory in minor processes and posterior thirds of major processes (pp. 350-351, 403-404); processes are the most vascular region of the whole eye and contain no muscle (p. 351)",
+      "Venous tree — capillaries merge into venules; process venous return to choroidal veins; muscle veins partly to choroidal veins and partly to anterior ciliary veins; the anterior tributaries of the vorticose veins come from iris, ciliary processes, ciliary muscle and anterior choroid; iris veins join the ciliary process veins at the ciliary border (pp. 351, 406); Hayreh & Baines (1973): vortex veins drain a well-defined segmental territory extending the full sagittal length of the uveal tract, from iris through ciliary body to choroid (p. 406)"
+    ],
+    "blood_supply": "The arterial supply of the uveal tract divides into two parts: the anterior and long posterior ciliary arteries supply the iris and ciliary body (with recurrent, perforating and intramuscular branches to the anterior choroid), while the short posterior ciliary arteries supply most of the choroid (p. 371). The long PCAs are the chief supply of the MAC (p. 374); they pass obliquely forward for 3-5 mm in the suprachoroidal space to the ciliary body (p. 274). Ciliary body vasculature runs mainly in the inner stromal layer (p. 348). The process capillaries are 15-30 µm wide, fenestrated (30-100 nm) and permeable to plasma proteins, whereas the same MAC supplies the iris with unfenestrated endothelium — a duplication of the posterior-segment pattern (fenestrated choriocapillaris versus unfenestrated optic nerve head capillaries) (pp. 351, 405). Permeability allows plasma proteins to diffuse into the ciliary stroma and forward into iris stroma at the root, and via the angle into normal aqueous (Raviola, 1977) (pp. 351, 353).",
+    "venous_drainage": "Venules drain from the ciliary body into the ciliary valleys or join the pars plana veins (p. 350); the veins of the ciliary processes pass backwards as parallel anastomosing vessels in the pars plana, inside the ciliary muscle, to reach the choroid and join the venae vorticosae (p. 406); anterior ciliary veins (two per anterior ciliary artery) emerge over the ciliary body (p. 274).",
+    "innervation": "Parasympathetic fibres run from the Edinger-Westphal nucleus via the inferior division of the oculomotor nerve; mixed myelinated/unmyelinated fibres relay (third neuron) in the ciliary ganglion and form an extensive plexus within the ciliary muscle supplying iris sphincter and ciliary muscles; ectopic ganglion cells have been described (Bryson, Wolter & O'Keefe, 1966) but Ruskell (1982) could not demonstrate a significant contribution to iris and ciliary musculature (p. 360). Sympathetic fibres from the cervical trunk relay in the superior cervical ganglion (not the ciliary ganglion) and reach ciliary and iris muscles via the long ciliary nerve (Ruskell, 1973); in the monkey about 1-2% of ciliary muscle terminals are sympathetic; fibres accompanying the ciliary arteries distribute widely in the ciliary plexuses (p. 360). Sensory fibres run from the nasociliary branch of the ophthalmic division of the trigeminal in the long ciliary nerves, entering iris, cornea and ciliary muscle with club-shaped endings (p. 362). In 12% of human eyes an intrascleral nerve loop of Axenfeld (1-2 mm) lies in the scleral channel of an anterior ciliary artery perforator, usually pigmented, most common inferiorly (pp. 274, 362). Nerve terminals with synaptic vesicles relate to the pigmented epithelium and capillaries; interaxonal and ganglionic synapses occur (van der Zypen, 1967) (pp. 362-363).",
+    "histology_summary": "The MAC artery is a typical small artery (2-3 smooth muscle layers, loose adventitia, poor internal elastic lamina) (p. 350). The inner/anterior muscle is fed from the MAC and the outer/posterior from the IMC (p. 350). Process arterioles show focal constrictions possibly regulating perfusion pressure and ultrafiltration; ciliary blood flow is autoregulated with shunting between adjacent major processes; sympathetic stimulation or adrenaline reduces process blood flow (p. 350). Adrenaline immersion of cast eyes produces 60-100 µm constrictions in anterior process arterioles (Funk & Rohen, 1990) (p. 352). The plexus gangliosus ciliaris is nitrergic with a rich nitrergic perivascular network around the MAC (pp. 364-365).",
+    "clinical_importance": "Ciliary flush: because the anterior ciliary arteries supply ciliary muscle, iris and episclera, inflammation of iris or ciliary body dilates the episcleral vessels at the limbus — a classic sign of anterior uveitis (p. 376). Anterior segment ischaemia: multiple rectus muscle disinsertions in squint surgery deprive the ciliary muscle and iris of anterior ciliary supply (Stucci & Bianchi, 1957; von Noorden, 1976); a tight encircling band in retinal detachment surgery impairs long posterior ciliary supply to the MAC (p. 376); tenotomy reduces anterior segment flow by 70-80% with poor collateral supply from the major circle (Hayreh & Scott, 1978) (p. 321). Ciliary body detachment reduces aqueous secretion (Bill, 1977) (p. 341). Experimental iridocyclitis increases uveoscleral outflow, possibly via nitrergic/axon-reflex relaxation widening intermuscular spaces (Toris & Pederson, 1987) (p. 366). The Axenfeld nerve loop may be encountered in surgery and can be mistaken for a foreign body or tumour (12% of eyes, most common inferiorly) (p. 362)."
+  },
+  "relationships": [
+    {
+      "relation_type": "supplies",
+      "target_id": "iris",
+      "target_name": "Iris (MAC gives radial iris arteries; iris veins join process veins)"
+    },
+    {
+      "relation_type": "supplies",
+      "target_id": "ciliary_body",
+      "target_name": "Ciliary body (IMC and MAC feed muscle; three territories feed processes)"
+    },
+    {
+      "relation_type": "supplies",
+      "target_id": "choroid",
+      "target_name": "Anterior choroid (10-12 recurrent choroidal arteries from ACA perforators and MAC)"
+    },
+    {
+      "relation_type": "drains_into",
+      "target_id": "vortex_veins",
+      "target_name": "Vortex veins (anterior tributaries; segmental uveal drainage, Hayreh & Baines 1973)"
+    },
+    {
+      "relation_type": "supplied_by",
+      "target_id": "ophthalmic_artery",
+      "target_name": "Ophthalmic artery (medial and lateral posterior ciliary arteries; muscular branches to ACAs)"
+    },
+    {
+      "relation_type": "traversed_by",
+      "target_id": "trigeminal_nerve",
+      "target_name": "Nasociliary sensory fibres via long ciliary nerves (club-shaped endings)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "major arterial circle",
+      "intramuscular circle",
+      "ciliary arteries",
+      "recurrent choroidal arteries",
+      "episcleral arterial circle",
+      "vascular territories",
+      "ciliary flush",
+      "anterior segment ischaemia",
+      "Axenfeld nerve loop",
+      "ciliary plexus",
+      "vortex vein drainage",
+      "uveoscleral outflow",
+      "الدائرة الشريانية الكبرى",
+      "الدائرة العضلية",
+      "الشرايين الهدبية",
+      "احتقان الجيب الحوفي",
+      "نقص تروية القطاع الأمامي",
+      "عروة آكسنفيلد",
+      "الضفيرة الهدبية"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "song_2009_iris_vessels"
+    ],
+    "last_updated": "2026-11-05",
+    "version": "1.0.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            349
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            360
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            348
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            374,
+            398
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            350,
+            351
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            374,
+            376,
+            403,
+            404,
+            406
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            348,
+            350,
+            351,
+            353
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            371,
+            374
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "8",
+          "pages": [
+            274
+          ]
+        },
+        {
+          "reference_id": "song_2009_iris_vessels",
+          "section": "Iris vascular network from flat preparations"
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            350
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            406
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "8",
+          "pages": [
+            274
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            360,
+            362,
+            363
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            350,
+            352,
+            364,
+            365
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            321,
+            341,
+            362,
+            366
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            376
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "9",
+          "pages": [
+            321
+          ]
+        }
+      ]
+    }
+  ]
+}

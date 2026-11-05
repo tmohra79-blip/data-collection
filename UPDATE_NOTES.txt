@@ -1,0 +1,72 @@
+================================================================
+  MERGE UPDATE — 6 cards + tracker + test guard
+  (apply ON TOP of your latest GitHub state: commit 49b921d)
+  Date: 2026-10-27
+================================================================
+
+WHY THIS ZIP
+------------
+When you pushed commit 49b921d (Lens + Vitreous cards — great work!),
+my side had two unpushed rounds of modifications on the SAME repo state.
+The two lines of work were merged and validated together (39/39 cards
++ 10 tests). This zip = everything of mine that is still missing from
+GitHub, packaged on top of YOUR latest state.
+
+NOTE: the older file "optic-nerve-batch5-restore-fix.zip" is now
+OBSOLETE — everything in it is already included here. Ignore/delete it.
+
+WHAT CHANGED (8 files)
+----------------------
+1) Knowledge_Base/OpticNerve/optic-disc.json        v1.1.0 -> v1.2.0
+   Restore of lost batch-5 content (ch15 pp.494-495): astrocytic tubes
+   (Anderson 1969), border tissue of Jacoby -> intermediary tissue of
+   Kuhnt -> glial mantle, connective-tissue mantle, oligodendrocyte
+   columns in retrolaminar segment, glial-separation rule with the CRA
+   exception (Ikui 1964). Keywords +10.
+
+2) Knowledge_Base/OpticNerve/optic-nerve-septa.json v1.1.0 -> v1.2.0
+   Restore of laminar/postlaminar glia + pial septae continuity.
+   Keywords +6.
+
+3) Knowledge_Base/OpticNerve/optic-nerve-blood-supply.json v1.3.0 -> v1.4.0
+   From your Oct-26 ch3 text (pp.87-88, 94): ophthalmic artery origin
+   (medial side of the 5th bend of ICA), course & bends, edge-angle
+   percentages (120-135deg 56% / straight 40% / acute 4% - Hayreh 1972),
+   canal behaviour, 82.6% over-nerve crossing (Hayreh & Dass 1962b),
+   CRA-first rule, 14-branch order, fetal derivation (Hayreh 1963),
+   ACA contribution to intracranial ON supply. Keywords +10.
+
+4) Knowledge_Base/Sclera/sclera.json                v1.2.0 -> v1.3.0
+   From ch7 text (pp.274-275): nerve loop of Axenfeld (12%, Stevenson
+   1963) + Kokott biomechanical interpretation. Keywords +4.
+
+5) Knowledge_Base/Sclera/scleral-spur.json          v1.1.0 -> v1.2.0
+   From ch8 text (pp.279-280): formal three-zone limbus division +
+   dimensions (1.5mm, ~2mm vertical). Keywords +4.
+
+6) Knowledge_Base/Sclera/episclera.json             v1.1.0 -> v1.2.0
+   From ch8 text (pp.284-285): peptidergic/nitrergic innervation
+   (NPY/SP/CGRP/VIP/NO), pterygopalatine vs trigeminal origins,
+   outflow-facility effects (Tamm 1995b). Keywords +6.
+
+7) Anatomy_Extraction_Master_Tracker_v2.xlsx
+   = YOUR latest tracker (rows 29-40 LNS/VIT untouched) + re-applied
+   G/U note deltas for rows 20/21/23/25/27/28 (SCL-001, SCL-002,
+   SCL-004, ON-002, ON-004, ON-005). Append-only, guard-checked.
+
+8) tests/test_validate.py
+   Registry regression guard updated 36 -> 37 rows (your commit added
+   comp_vitreous as row 37 — legitimate). Also pins rows[36] =
+   comp_vitreous. Without this, pytest was failing on GitHub too.
+
+HOW TO APPLY
+------------
+1. Unzip over the repo root (replace files when asked).
+2. Commit, e.g. message: "Apply merged update: ON restore+enrichment,
+   SCL enrichment, tracker re-sync, registry test guard 37".
+3. Push.
+
+VERIFY (optional but recommended)
+---------------------------------
+   python3 validate.py schemas Knowledge_Base   ->  39 passed
+   python3 -m pytest tests/ -q                  ->  10 passed, 14 subtests
