@@ -1712,5 +1712,26 @@
     "verification": "Full citation and abstract read on Europe PMC 2026-11-08 (cited by >1000): PR-OCTA removes projection artefact and reveals 2 to 4 distinct retinal vascular plexuses depending on location relative to the optic disc and fovea, with interconnecting vascular layers consistent with histology. Added in R2 (2026-11-08) as the direct source for plexus anatomy, interconnecting vessels and segmentation variability requested in the medical review.",
     "url": "https://pubmed.ncbi.nlm.nih.gov/28186181",
     "access": "free_full_text"
+  },
+  {
+    "reference_id": "aao_dr_ppp_2024",
+    "title": "Diabetic Retinopathy Preferred Practice Pattern(R)",
+    "authors": [
+      "Stephen J. Kim",
+      "Jennifer I. Lim",
+      "Steven T. Bailey",
+      "Jaclyn L. Kovach",
+      "G. Atma Vemulakonda",
+      "Gui-shuang Ying",
+      "Christina J. Flaxel"
+    ],
+    "organization": "American Academy of Ophthalmology Preferred Practice Pattern Retina/Vitreous Committee",
+    "publisher": "American Academy of Ophthalmology, H. Dunbar Hoskins Jr., MD Center for Quality Eye Care",
+    "year": 2024,
+    "type": "clinical_practice_guideline",
+    "verification": "Full official PDF downloaded from aao.org on 2026-11-08 (Board of Trustees approval September 13, 2024; (c) 2024 AAO). All card content extracted from the PDF text: Disease Definition and Background (P85-P90), Risk Factors (P89-P90), Natural History incl. Table 1 DRSS (P91-P92), Care Process Diagnosis/Ancillary Tests (P94-P97), Management incl. Table 5 (P98-P111), Appendix 2 ICD codes (P119-P120).",
+    "url": "https://www.aao.org/education/preferred-practice-pattern/diabetic-retinopathy-ppp",
+    "access": "free_online",
+    "access_note": "Freely downloadable from aao.org without login; also published online-only in the Ophthalmology journal (aaojournal.org)."
   }
 ]

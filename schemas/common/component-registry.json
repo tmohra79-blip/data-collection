@@ -500,10 +500,54 @@
       "has_3d_model": "Unverified",
       "parent": "—",
       "reference_category": "model_only"
+    },
+    {
+      "source_row": 45,
+      "component_id": "comp_lesion_microaneurysms",
+      "category": "Pathology",
+      "medical_name_en": "Retinal Microaneurysms",
+      "medical_name_ar": "تمددات دقيقة بالشبكية",
+      "unity_name": "Microaneurysms",
+      "has_3d_model": "Yes",
+      "parent": "eye_sphere_inside",
+      "reference_category": "model_only"
+    },
+    {
+      "source_row": 46,
+      "component_id": "comp_lesion_hemorrhages",
+      "category": "Pathology",
+      "medical_name_en": "Retinal Haemorrhages",
+      "medical_name_ar": "نزوف الشبكية",
+      "unity_name": "Haemorrhages",
+      "has_3d_model": "Yes",
+      "parent": "eye_sphere_inside",
+      "reference_category": "model_only"
+    },
+    {
+      "source_row": 47,
+      "component_id": "comp_lesion_soft_exudates",
+      "category": "Pathology",
+      "medical_name_en": "Soft Exudates (Cotton Wool Spots)",
+      "medical_name_ar": "نضحات لينة (بقع القطن الصوفي)",
+      "unity_name": "Soft_Exudates",
+      "has_3d_model": "Yes",
+      "parent": "eye_sphere_inside",
+      "reference_category": "model_only"
+    },
+    {
+      "source_row": 48,
+      "component_id": "comp_lesion_hard_exudates",
+      "category": "Pathology",
+      "medical_name_en": "Hard Exudates (Lipid Deposits)",
+      "medical_name_ar": "نضحات صلبة (ترسبات دهنية)",
+      "unity_name": "Hard_Exudates",
+      "has_3d_model": "Yes",
+      "parent": "eye_sphere_inside",
+      "reference_category": "model_only"
     }
   ],
   "model_file_findings": {
-    "audit_date": "2026-11-06",
+    "audit_date": "2026-11-08",
     "source_file": "Good_Eye.blend",
     "method": "Zstandard decompression + string extraction of Blender ID names (OB*) and full-text keyword scan; object types not parsed, so new rows are marked 'Unverified' pending a Unity hierarchy check.",
     "blender_objects_found": [
@@ -538,7 +582,11 @@
       "Leader_Stroma",
       "Leader_Endothelium",
       "Camera",
-      "Light"
+      "Light",
+      "Microaneurysms",
+      "Haemorrhages",
+      "Soft_Exudates",
+      "Hard_Exudates"
     ],
     "findings": [
       {
@@ -560,6 +608,11 @@
         "id": "F4",
         "title": "7 model objects had no mapping rows; registered here as model_only",
         "detail": "eye (suspected root/controller) and 6 cornea annotation objects (3 Labels + 3 Leader lines for epithelium/stroma/endothelium) existed in the model but were absent from the mapping docx. They carry no anatomical knowledge component (component_id '—') and are registered for model inventory completeness; relevant if AR labeling features are planned."
+      },
+      {
+        "id": "F5",
+        "title": "Four DR lesion objects added to the model source (2026-11-08)",
+        "detail": "The model team reported adding Microaneurysms, Haemorrhages, Soft_Exudates and Hard_Exudates as new Blender objects representing diabetic retinopathy signs (DIS-001). Object names above are taken verbatim from the user report and appended to blender_objects_found; they have not yet been re-extracted by the string-audit method. Parent hierarchy confirmed by the model team on 2026-11-08: all four objects are parented under eye_sphere_inside (the retina mesh, comp_retina), matching the anatomical location of the lesions on the retinal surface. Registered as rows 45-48 (comp_lesion_microaneurysms, comp_lesion_hemorrhages, comp_lesion_soft_exudates, comp_lesion_hard_exudates, category=Pathology, reference_category=model_only) and linked to the diabetic_retinopathy card via component_ids and AFFECTS relationships. Terminology note: card sign 'Cotton wool spots' = soft exudates (same lesion, two names); 'Haemorrhages' covers card signs 'Intraretinal hemorrhages' and 'Vitreous or preretinal hemorrhage'."
       }
     ],
     "mapping_accuracy": "19 of 20 mapped unity_names confirmed present verbatim in the blend source; the only exception is vitreous_body (F2)."

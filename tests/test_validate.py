@@ -109,7 +109,9 @@ class ComponentRegistryTests(unittest.TestCase):
         rows = registry["rows"]
         # 37 original docx rows + 7 model-only rows appended 2026-11-06
         # (Good_Eye.blend audit: eye root + 6 cornea annotation objects)
-        self.assertEqual(len(rows), 44)
+        # + 4 DR lesion rows appended 2026-11-08 (user-reported Blender
+        # objects: Microaneurysms, Haemorrhages, Soft_Exudates, Hard_Exudates)
+        self.assertEqual(len(rows), 48)
         self.assertEqual(sum(row["component_id"] == "comp_cornea" for row in rows), 2)
         self.assertEqual(rows[0]["unity_name"], "cornea_inside")
         self.assertEqual(rows[0]["medical_name_en"], "Corneal Endothelium")
@@ -123,8 +125,17 @@ class ComponentRegistryTests(unittest.TestCase):
         self.assertEqual(rows[37]["unity_name"], "eye")
         self.assertEqual(rows[37]["reference_category"], "model_only")
         self.assertEqual(rows[43]["unity_name"], "Leader_Endothelium")
-        self.assertEqual(sum(row["reference_category"] == "model_only" for row in rows), 7)
-        self.assertEqual(registry["model_file_findings"]["audit_date"], "2026-11-06")
+        # appended DR lesion rows (2026-11-08)
+        self.assertEqual(rows[44]["component_id"], "comp_lesion_microaneurysms")
+        self.assertEqual(rows[44]["unity_name"], "Microaneurysms")
+        self.assertEqual(rows[44]["category"], "Pathology")
+        self.assertEqual(rows[45]["unity_name"], "Haemorrhages")
+        self.assertEqual(rows[46]["unity_name"], "Soft_Exudates")
+        self.assertEqual(rows[47]["unity_name"], "Hard_Exudates")
+        self.assertEqual(rows[44]["parent"], "eye_sphere_inside")
+        self.assertEqual(rows[47]["parent"], "eye_sphere_inside")
+        self.assertEqual(sum(row["reference_category"] == "model_only" for row in rows), 11)
+        self.assertEqual(registry["model_file_findings"]["audit_date"], "2026-11-08")
         self.assertIn("comp_cornea", self.component_ids)
         self.assertNotIn("—", self.component_ids)
 

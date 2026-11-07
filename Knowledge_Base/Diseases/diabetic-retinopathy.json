@@ -1,0 +1,440 @@
+{
+  "entity_id": "diabetic_retinopathy",
+  "component_ids": [
+    "comp_retina",
+    "comp_retinal_vessels",
+    "comp_optic_disc",
+    "comp_vitreous",
+    "comp_lesion_microaneurysms",
+    "comp_lesion_hemorrhages",
+    "comp_lesion_soft_exudates",
+    "comp_lesion_hard_exudates"
+  ],
+  "category": "disease",
+  "nomenclature": {
+    "en": "Diabetic Retinopathy",
+    "ar": "اعتلال الشبكية السكري",
+    "aliases": [
+      "DR",
+      "diabetic retinal disease",
+      "diabetic macular retinopathy",
+      "sugar retinopathy",
+      "اعتلال الشبكية السكري",
+      "اعتلال شبكية السكري",
+      "مرض الشبكية السكري",
+      "اعتلال الشبكية بسبب السكري"
+    ]
+  },
+  "content": {
+    "definition": "Diabetic retinopathy (DR) is a common complication of type 1 and type 2 diabetes mellitus and the ocular manifestation of end-organ damage in diabetes. Classically considered a microvascular disease of the retina, with growing evidence that retinal neurodegeneration is an early event that could contribute to microvascular abnormalities. The most common early clinically visible manifestations are microaneurysm formation (mild NPDR) and intraretinal hemorrhages (moderate NPDR); microvascular damage contributes to retinal capillary nonperfusion, cotton wool spots, retinal hemorrhages, venous abnormalities, and intraretinal microvascular abnormalities (IRMA) in severe NPDR. Increased vasopermeability during the non-proliferative stage can cause retinal thickening (edema) and/or exudates with loss of central visual acuity. The proliferative stage includes proliferation of new vessels on the disc, retina, iris, and filtration angle, which may lead to tractional retinal detachment and neovascular glaucoma.",
+    "pathophysiology": "Chronic hyperglycemia induces expression of damaging adhesion molecules (ICAM-1, VCAM-1) that promote leukostasis. Early in DR, leukocytes dominate the retinal vasculature and the blood-ocular barrier breaks down; both phenomena lead to progressive dysfunction and death of endothelial cells and pericytes, the pathophysiological hallmarks of DR. Many inflammatory cytokines (products of leukocytes) are consistently elevated in the aqueous and vitreous of patients with advanced DR and diabetic macular edema (DME). As DR progresses, gradual closure of retinal vessels results in impaired perfusion and retinal ischemia; more global retinal ischemia induces neovascularization at the inner retinal surface and into the vitreous.",
+    "causes": [
+      "Type 1 and type 2 diabetes mellitus (chronic hyperglycemia is the primary driver)",
+      "Rapid tightening of glucose control can lead to accelerated or early onset of DR, as seen with semaglutides and other newer agents",
+      "Pregnancy (DR can worsen due to physiologic changes of pregnancy or changes in overall metabolic control)",
+      "Puberty (accelerated rate of DR progression)"
+    ],
+    "risk_factors": [
+      "Duration of diabetes (major risk factor: type 1 - approximately 25% have retinopathy after 5 years, almost 60% after 10 years, and 80% after 15 years)",
+      "Severity of hyperglycemia / poor glycemic control (target HbA1c 7% or lower in most patients; 6.5% may benefit selected patients)",
+      "Hypertension / elevated systolic blood pressure (treatment of hypertension remains important; modest benefit in preventing DR up to 5 years, particularly with hypertension and type 2 diabetes)",
+      "Serum lipids (managing lipids may reduce retinopathy progression; lipid-lowering agents and fenofibrate showed a protective effect on DR progression)",
+      "Renal disease / dialysis (patients on dialysis have higher DR prevalence)",
+      "Ethnicity (Hispanic OR 2.92 and Middle Eastern OR 2.44 vs Asian individuals; Indian ethnicity among independent risk factors in the Singapore Eye Disease Study)",
+      "Insulin use in long-standing type 2 diabetes (40% taking insulin vs 24% not taking insulin have retinopathy within 5 years' duration)",
+      "Puberty (relative risk 4.8 vs prepubescent patients)",
+      "Pregnancy",
+      "Metabolic syndrome (retinopathy 37.9% vs 28.6% without)",
+      "Possible genetic/epigenetic factors (VEGF polymorphisms rs2010963/rs833061/rs699947; mitochondrial haplogroups - conflicting evidence)"
+    ],
+    "symptoms": [
+      "Often none - DR may be asymptomatic for years even at an advanced stage (patients may have good vision and no ocular symptoms yet have significant disease needing treatment)",
+      "Visual loss (current ocular symptoms of visual loss and rate of visual loss are key history elements; gradual with DME or macular ischemia, sudden with vitreous/preretinal hemorrhage)"
+    ],
+    "signs": [
+      "Microaneurysms (mild NPDR)",
+      "Intraretinal hemorrhages (moderate NPDR)",
+      "Cotton wool spots",
+      "Venous abnormalities (dilation, beading, loops)",
+      "Intraretinal microvascular abnormalities (IRMA)",
+      "Retinal thickening (edema) and hard exudates (lipid deposits)",
+      "Neovascularization of the disc (NVD) and elsewhere (NVE)",
+      "Vitreous or preretinal hemorrhage",
+      "Fibrous proliferation, epiretinal membrane formation, vitreoretinal traction, retinal tears, and tractional retinal detachments",
+      "Iris and anterior chamber angle neovascularization (neovascular glaucoma)",
+      "Concomitant retinal hypertensive findings (arterial attenuation or sclerosis, arteriovenous nicking)"
+    ],
+    "diagnosis": "Comprehensive adult medical eye evaluation with particular attention to DR elements: visual acuity, slit-lamp biomicroscopy, intraocular pressure, gonioscopy before dilation when iris or angle neovascularization is suspected (iris neovascularization is best recognized prior to dilation), pupillary assessment for optic nerve dysfunction, and thorough dilated fundoscopy including stereoscopic examination of the posterior pole (a dilated pupil is preferred because only 50% of eyes are correctly classified through undilated pupils). Posterior pole and midperiphery are evaluated with slit-lamp biomicroscopy using a 90 D or 78 D lens; peripheral retina via indirect ophthalmoscopy. Detailed examination assesses macular edema (OCT), signs of severe NPDR (hemorrhages/microaneurysms, venous beading, IRMA), NVD/NVE, vitreous or preretinal hemorrhage, and both eyes are then classified per the DR severity categories; the diagnostic category combined with the level of diabetes control determines intervention and follow-up timing. Screening gold standard is a dilated fundus examination; validated digital imaging (e.g., telemedicine) may be an effective detection method.",
+    "investigations": [
+      "Color and red-free fundus photography (reproducible detection; documents severity, NVD/NVE, treatment response; widefield imaging documents overall DR burden)",
+      "Optical coherence tomography (best way to detect and quantitate CI-DME; vitreoretinal interface; vitreomacular traction; central subfield thickness tracking)",
+      "Fluorescein angiography (guide laser treatment of CSME; unexplained visual loss; clinically obscure neovascularization; macular capillary nonperfusion)",
+      "Optical coherence tomography angiography (noninvasive depth-resolved capillary-level imaging of the three retinal plexuses; quantification of macular nonperfusion; neovascular tissue identification)",
+      "B-scan ultrasonography (retinal status in vitreous hemorrhage or media opacity; traction extent; diabetic retinal detachments)",
+      "Electroretinography (neural dysfunction even without vascular abnormalities; may predict future microaneurysm locations)",
+      "Visual field testing incl. dark-adapted chromatic perimetry (functional losses in eyes without DR and mild NPDR)"
+    ],
+    "treatment": [
+      "Intravitreal anti-VEGF agents (aflibercept, bevacizumab, ranibizumab) - more effective than focal laser monotherapy for CI-DME with vision loss (first-line); reduce DR severity and effectively treat PDR; ranibizumab noninferior to PRP at 2 years (DRCR Protocol S) for patients with reliable follow-up",
+      "Panretinal photocoagulation (scatter laser) surgery - recommended expeditiously for high-risk PDR; reduces severe vision loss risk; full PRP proven (ETDRS 1200-1600 spots), partial/limited PRP not recommended; consider before high-risk stage in type 2 diabetes (halved severe vision loss/vitrectomy risk)",
+      "Focal and/or grid laser photocoagulation - option for DME (occasionally/rarely used since anti-VEGF supplanted it as first-line for CI-DME)",
+      "Intravitreal corticosteroids - approved agents individually tailored for DR/DME management",
+      "Pars plana vitrectomy - for PDR with vitreous opacities interfering with vision or treatment, severe fibrovascular proliferation, or tractional retinal detachment threatening/involving the macula",
+      "Treatment deferral for CI-DME with good visual acuity (20/25 or better): defer until visual acuity is affected (20/30 or worse) and examine every 2-4 months (DRCR Protocol V)",
+      "Systemic optimization: glycemic (HbA1c 7% or lower), blood pressure, and serum lipid control in coordination with primary care; fenofibrate may slow DR progression in type 2 diabetes"
+    ],
+    "complications": [
+      "Diabetic macular edema (CI-DME causing central visual acuity loss; capillary nonperfusion or edema in the macula impairs vision in both NPDR and PDR)",
+      "Vitreous hemorrhage (new vessels on disc/retina prone to bleed)",
+      "Tractional retinal detachment (fibrosis and contraction of fibrovascular proliferation)",
+      "Neovascular glaucoma (new vessels on iris and anterior chamber angle structures)",
+      "Epiretinal membrane formation, vitreoretinal traction, and retinal tears",
+      "Infectious endophthalmitis - the most serious ocular complication of intravitreal injections (topical povidone iodine recommended)",
+      "Substantial visual field loss after panretinal photocoagulation (additional loss over time)",
+      "PRP may exacerbate macular edema and increase moderate visual loss; treat/concomitantly manage CI-DME when present",
+      "Systemic association: DR linked to increased risk of stroke (pooled risk ratio 2.04)"
+    ],
+    "prevention": "Optimal glycemic control delays development and progression of DR (DCCT in type 1; target HbA1c 7% or lower in most patients, 6.5% may benefit selected patients); maintain near-normal blood pressure and manage serum lipids. A healthy diet and lifestyle including exercise and weight control may decrease the risk of developing diabetes in some patients, though complications cannot be prevented in all cases. Timely screening: type 1 diabetes - annual dilated examinations beginning 5 years after onset; type 2 - comprehensive examination at diagnosis then at least yearly; pregnancy - examination prior to or early in the first trimester with follow-up every 3-12 months for no/mild-moderate NPDR and every 1-3 months for severe NPDR or worse (gestational diabetes alone requires no eye examination); pubertal patients need increased vigilance. Aspirin is neither helpful nor harmful in DR - no change to medically administered aspirin is indicated. Caution: rapid, tight glucose control can accelerate early DR onset (semaglutides and newer agents).",
+    "classification": [
+      "No apparent retinopathy - no abnormalities",
+      "Mild NPDR - microaneurysms only",
+      "Moderate NPDR - more than just microaneurysms but less than severe NPDR",
+      "Severe NPDR (U.S. 4-2-1 rule, no proliferative signs): severe intraretinal hemorrhages and microaneurysms in each of 4 quadrants, OR definite venous beading in 2 or more quadrants, OR moderate IRMA in 1 or more quadrants (international definition: >20 intraretinal hemorrhages in each of 4 quadrants, definite venous beading in 2+ quadrants, or prominent IRMA in 1+ quadrant)",
+      "Very severe NPDR - two or more of the characteristics of severe NPDR",
+      "PDR - neovascularization and/or vitreous/preretinal hemorrhage; subclassified non-high-risk vs high-risk (high-risk: NVD greater than about one-quarter to one-third disc area, or any neovascularization with vitreous/preretinal hemorrhage)",
+      "Diabetic macular edema: non-center-involved (NCI-DME) vs center-involved (CI-DME); ETDRS CSME criteria - retinal thickening or hard exudates at/within 500 um of the macular center, or zone(s) of thickening 1 disc area or larger within 1 disc diameter of the center"
+    ],
+    "differential_diagnosis": null,
+    "prognosis": "DR progresses in an orderly fashion from mild to more severe stages when there is no appropriate intervention; recognizing the stages when treatment may be most beneficial is essential, and timely treatment strategies are 90% effective in preventing severe vision loss (visual acuity <5/200). High-risk PDR carries a high risk of severe visual loss that is substantially reduced by prompt PRP. In type 2 diabetes, early PRP before high-risk PDR developed halved the risk of severe vision loss or vitrectomy (2.5% vs 5%). Anti-VEGF-treated PDR eyes lost to follow-up have inferior outcomes versus PRP, so treatment choice must weigh follow-up reliability. DR also signals systemic risk (stroke pooled risk ratio 2.04).",
+    "epidemiology": "DR is a leading cause of new cases of legal blindness among working-age Americans and a leading cause of blindness in this age group worldwide. United States: prevalence of retinopathy among adults with diabetes aged 40 and older is 28.5% (4.2 million); VTDR 4.4% (0.7 million); 2021 data showed DR prevalence 26.43% with 1.84 million people living with VTDR (5.06%). Worldwide: prevalence estimated at 34.6% (93 million) with VTDR 10.2% (28 million); a meta-analysis based on IDF Atlas 2019 found global prevalence 22.3% for DR, 6.2% VTDR, 4.1% CSME, with 103.12 million adults with DR in 2020 projected to reach 160.50 million by 2045. About 13% of newly diagnosed type 2 patients have DR (up to 30% have some manifestation at diagnosis); prevalence ranges from 10% in India to 43% in Indonesia. Regional prevalence highest in Africa (35.9%), North America/Caribbean (33.3%), and Middle East/North Africa (32.9%).",
+    "imaging_findings": [
+      "OCT: high-resolution imaging of vitreoretinal interface, neurosensory retina, and subretinal space; quantifies retinal thickness, detects/monitors DME (central subfield thickness tracking; intraretinal fluid associates with vision better than subretinal fluid), vitreomacular traction; hyper-reflective foci in the outer retina, loss of inner retinal layers at the fovea (diabetic macular ischemia), and external limiting membrane/ellipsoid zone loss associate with vision loss",
+      "Fluorescein angiography: leaking microaneurysms and capillary dropout; macular capillary nonperfusion (enlargement of the foveal avascular zone); untreated capillary nonperfusion explaining persistent retinal/disc neovascularization after scatter laser; ultra-widefield FA detects predominantly peripheral lesions associated with disease worsening",
+      "OCTA: noninvasive depth-resolved visualization of capillary-level abnormalities in the three retinal plexuses; quantitative macular nonperfusion (correlates with DR severity); retinal and optic nerve surface neovascularization; cannot visualize leakage",
+      "B-scan ultrasonography: assesses amount of vitreous hemorrhage, extent and severity of vitreoretinal traction, and diabetic retinal detachments in the setting of media opacity",
+      "Fundus photography: reproducible DR detection and severity documentation incl. NVD/NVE and treatment response (widefield helpful for overall DR burden)"
+    ],
+    "icd10": "ICD-10-CM DR series (6th character: 1 = with macular edema, 9 = without): unspecified/background DR - E10.311/E10.319 (type 1), E11.311/E11.319 (type 2), E13.311/E13.319 (other specified diabetes); mild NPDR - E10.321/E10.329, E11.321/E11.329, E13.321/E13.329; moderate NPDR - E10.331/E10.339, E11.331/E11.339, E13.331/E13.339; severe NPDR - E10.341/E10.349, E11.341/E11.349, E13.341/E13.349; proliferative DR - E10.351/E10.359, E11.351/E11.359, E13.351/E13.359; diabetic macular edema uses the DR series codes (legacy ICD-9-CM: 362.01-362.07). Laterality: bilateral codes where available, otherwise separate left/right codes; unspecified codes only when no other option exists."
+  },
+  "relationships": [
+    {
+      "relation_type": "AFFECTS",
+      "target_id": "comp_retina",
+      "target_name": "Retina"
+    },
+    {
+      "relation_type": "AFFECTS",
+      "target_id": "comp_retinal_vessels",
+      "target_name": "Retinal vessels"
+    },
+    {
+      "relation_type": "AFFECTS",
+      "target_id": "comp_optic_disc",
+      "target_name": "Optic disc"
+    },
+    {
+      "relation_type": "AFFECTS",
+      "target_id": "comp_vitreous",
+      "target_name": "Vitreous"
+    },
+    {
+      "relation_type": "AFFECTS",
+      "target_id": "comp_lesion_microaneurysms",
+      "target_name": "Microaneurysms"
+    },
+    {
+      "relation_type": "AFFECTS",
+      "target_id": "comp_lesion_hemorrhages",
+      "target_name": "Retinal haemorrhages"
+    },
+    {
+      "relation_type": "AFFECTS",
+      "target_id": "comp_lesion_soft_exudates",
+      "target_name": "Soft exudates (cotton wool spots)"
+    },
+    {
+      "relation_type": "AFFECTS",
+      "target_id": "comp_lesion_hard_exudates",
+      "target_name": "Hard exudates (lipid deposits)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "diabetic retinopathy",
+      "DR",
+      "NPDR",
+      "PDR",
+      "diabetic macular edema",
+      "DME",
+      "CI-DME",
+      "NCI-DME",
+      "CSME",
+      "DRSS",
+      "4-2-1 rule",
+      "NVD",
+      "NVE",
+      "IRMA",
+      "anti-VEGF",
+      "aflibercept",
+      "bevacizumab",
+      "ranibizumab",
+      "panretinal photocoagulation",
+      "PRP",
+      "scatter laser",
+      "pars plana vitrectomy",
+      "microaneurysms",
+      "cotton wool spots",
+      "venous beading",
+      "hard exudates",
+      "neovascular glaucoma",
+      "vitreous hemorrhage",
+      "tractional retinal detachment",
+      "HbA1c",
+      "fenofibrate",
+      "ICD-10 E10.3",
+      "اعتلال الشبكية السكري",
+      "اعتلال الشبكية التكاثري",
+      "وذمة البقية السكرية",
+      "الليزر الشبكي",
+      "مضادات VEGF",
+      "التصوير بالتألق الفلوري"
+    ],
+    "references": [
+      "aao_dr_ppp_2024"
+    ],
+    "last_updated": "2026-11-08",
+    "version": "1.0.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "Introduction - Disease Definition"
+        }
+      ]
+    },
+    {
+      "content_field": "pathophysiology",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "Introduction - Disease Definition"
+        },
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "Natural History"
+        }
+      ]
+    },
+    {
+      "content_field": "causes",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "Highlighted Findings and Recommendations for Care"
+        },
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "Examination Schedule - Diabetes Associated with Pregnancy; Diabetes in Puberty"
+        }
+      ]
+    },
+    {
+      "content_field": "risk_factors",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "Risk Factors"
+        }
+      ]
+    },
+    {
+      "content_field": "symptoms",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "Early Detection of Diabetic Retinopathy"
+        },
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "Diagnosis - History"
+        }
+      ]
+    },
+    {
+      "content_field": "signs",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "Introduction - Disease Definition"
+        },
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "Natural History (incl. Table 1 DRSS)"
+        }
+      ]
+    },
+    {
+      "content_field": "diagnosis",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "Care Process - Diagnosis (History; Examination; Examination Schedule)"
+        },
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "Highlighted Findings and Recommendations for Care"
+        }
+      ]
+    },
+    {
+      "content_field": "investigations",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "Care Process - Ancillary Tests (Tables 3-4)"
+        }
+      ]
+    },
+    {
+      "content_field": "treatment",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "Management"
+        },
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "Diabetic Macular Edema (Treatment Deferral; Anti-VEGF Therapy)"
+        },
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "Proliferative Diabetic Retinopathy (Laser Surgery; Anti-VEGF Therapy)"
+        }
+      ]
+    },
+    {
+      "content_field": "complications",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "Introduction - Disease Definition"
+        },
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "Natural History"
+        },
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "Highlighted Findings and Recommendations for Care"
+        },
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "Laser Surgery"
+        }
+      ]
+    },
+    {
+      "content_field": "prevention",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "Prevention of Diabetic Retinopathy"
+        },
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "Table 2 (Recommended Eye Examinations)"
+        },
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "Highlighted Findings and Recommendations for Care"
+        }
+      ]
+    },
+    {
+      "content_field": "classification",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "Natural History - Table 1 (DRSS)"
+        },
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "Diabetic Macular Edema"
+        },
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "High-Risk PDR"
+        }
+      ]
+    },
+    {
+      "content_field": "differential_diagnosis",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "prognosis",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "Natural History"
+        },
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "High-Risk PDR"
+        },
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "Laser Surgery"
+        }
+      ]
+    },
+    {
+      "content_field": "epidemiology",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "Background - Prevalence of Diabetic Retinopathy"
+        }
+      ]
+    },
+    {
+      "content_field": "imaging_findings",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "Care Process - Ancillary Tests (OCT; Fluorescein Angiography; OCTA; Ultrasonography; Tables 3-4)"
+        }
+      ]
+    },
+    {
+      "content_field": "icd10",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "aao_dr_ppp_2024",
+          "section": "Appendix 2 - International Statistical Classification of Diseases (ICD) Codes"
+        }
+      ]
+    }
+  ]
+}
