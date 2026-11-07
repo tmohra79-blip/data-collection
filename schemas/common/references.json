@@ -740,15 +740,18 @@
     "reference_id": "rutnin_1967_choroid",
     "title": "Fundus appearance in normal eyes. I. The choroid",
     "authors": [
-      "Uthai Rutnin"
+      "Rutnin U"
     ],
     "publisher": "American Journal of Ophthalmology",
     "year": 1967,
     "volume": "64(6):821-839",
     "type": "journal_article",
-    "verification": "Exact citation (Am J Ophthalmol 1967;64:821-839, part I: The choroid) confirmed from the reference list of Funatsu et al. 2023 (Ophthalmology Science, vortex veins in pachychoroid spectrum) on 2026-10-27; source of the book's ophthalmoscopic vortex-vein statistics (pp. 224, 405-406).",
-    "access": "print_archive",
-    "access_note": "Original not open-access; citation verified through later citing papers."
+    "verification": "PMID 6054193 confirmed via Europe PMC REST 2026-11-07: part I (The choroid) is Am J Ophthalmol 1967;64(5):821-839 — the 2026-10-27 entry had issue 6 in error (issue 6 = part III, pp.1040-1062). Rutnin's 1967 series is the source cited by Wolff ch.6 for the vortex vein statistics: pp.224/405-406 (ampullae) and p.232 (about six exits per eye, 3.36 nasal vs 2.46 temporal; arc distance from limbus 19.86 mm, range 13.75-25 mm).",
+    "access": "abstract_free",
+    "issue": "5",
+    "pages": "64(5):821-839",
+    "pmid": "6054193",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/6054193/"
   },
   {
     "reference_id": "verma_2021_vortex_imaging",

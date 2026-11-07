@@ -50,3 +50,32 @@
 
 ### لسه ناقص في جولة RV
 - **RV-001 (الأوعية الشبكية):** قسم الأوعية الشبكية في ch14 مش في 489-494 (489 = بداية ch15) — مكانه المحتمل داخل ch14 قبل المستقبلات (~470-478؟) أو في فصل الأوعية؛ **المطلوب: أي صفحات فيها retinal blood vessels / central retinal artery & vein / capillary beds.**
+
+## F. دفعة 2026-11-07 (الثالثة): مطبوع 230-236 + 466-478 + 660-662
+
+### حكم التغطية
+- **466-478 (ch14: كثافة المخاريط/العصويات، الأجزاء الداخلية/الخارجية، الصبغات، ELM، ONL، OPL، synapses، بداية INL): مغطاة بالكامل مسبقًا** — تم التحقق بـ 12 معلومة مميزة (1000-1200 قرص مخروطي، 3.5/16.5 nm، calyx 9-12 villi، Schulze baskets، 35,676,000 bipolar، 9 أنواع، 20% rod bipolar، luminosity/chromaticity، Kolmer crystalloid، ONL 45/22/50 μm، triad 10-25، 6-8 horizontal). صفر شغل.
+- **230-233 (ch6 surface anatomy): جولة إثراء** (كانت مخزّنة في القسم C.3 كمرشح) — نُفذت تحت.
+- **233-236 (ch7 opening: أبعاد القرنية + Table 7.1 + epithelium): الفجوة كانت Table 7.1 والأبعاد** (الـ epithelium مغطى) — نُفذت تحت.
+- **660-662 (ch17: تطور العدسة + 17.10 adnexae): فجوة كاملة** → كارت جديد LNS-007.
+
+### المنفذ (2026-11-07)
+| الكارت | الإصدار | الإضافة |
+|---|---|---|
+| `Choroid/vortex-veins.json` | 1.1.0 → **1.2.0** | location: أرقام Rutnin الكمية ص232 (~6 مخارج/عين: 3.36 أنفي vs 2.46 صدغي؛ أقرب للخط الرأسي صدغيًا؛ القوس من الليمبس 19.86 ملم (13.75-25)؛ inferotemporal الأقدم والأكثر تغيرًا، superotemporal الأأخر والأثبت؛ معظمها ~3 ملم خلف الاستواء) |
+| `Muscles/superior-oblique.json` | 1.1.0 → **1.2.0** | layers[insertion]: الطول 7-18 ملم، التقعر anterior، الطرف الخلفي 17-19 ملم من الليمبس والأمامي 12-14 ملم قرب الطرف الصدغي لـ SR، الحافة الخلفية حتى 14 ملم من النهاية الأنسية لـ SR (Hogan 1971) ص230-231 |
+| `Muscles/inferior-oblique.json` | 1.1.0 → **1.2.0** | layers[insertion]: الطول 5-14 ملم، التقعر inferior، الحافة الخلفية 3-6 ملم أمام حافة العصب البصري، 1 ملم تحت حدّه السفلي، **1-2 ملم من الفوفيا**، قريب من الوريد الدوام السفلي الصدغي + clinical: تحذير جراحي ص232 |
+| `Cornea/corneal-stroma.json` | 1.1.0 → **1.2.0** | histology: **Table 7.1** (ماء 78%، كولاجين 15%: I 50-55% / III ~1% / IV 8-10% / VI 25-30%؛ keratan sulphate 0.7%؛ chondroitin/dermatan 0.3%؛ lumican 3-20K + decarin 10-50K؛ تزايد السلفنة محيطيًا) + الأبعاد (11.7×10.6 ملم، خلفي دائري 11.7، أعرض 1% في الذكور، سماكة 0.52/0.67، مساحة 1.3 cm² = 1/6 الكرة، أنصاف انحناء المنطقة البصرية 7.8/6.5) + topography (apex/cap 2-4 ملم، keratometry 7.2-8.4، نصف قطر القمة الخلفي 5.8 ملم — Patel 1993) ص233-234 |
+| **`Lens/lens-development.json` (جديد)** | **1.0.0** | ch17 ص660-662: placode (يوم 27) → vesicle (يوم 29، lens pit/pore) → stalk necrosis + انفصال (يوم 33، 0.2 ملم) → primary fibres + embryonic nucleus (توقف DNA، crystallins، إغلاق التجويف يوم 45/20 ملم، fascia adherens، فقدان الظهارة الخلفية) → lens bow + secondary fibres → **درزات Y** (مرحلة 35 ملم ≈ 8.5 أسابيع، تدوم مدى الحياة) → تغيرات الشكل (كروية 18-24 ملم، مولود spheroidal، dehydration) → γ-crystallin 23% قبل الولادة (Bessems 1990) → الزلال (الأسبوع 10/45 ملم → الشهر الخامس) → التروية الحيالوية الأسبوع 7 |
+
+- references.json: **تصحيح** `rutnin_1967_choroid` (كان من 2026-10-27 بـ issue 6 غلط) → issue 5 صح، pages 64(5):821-839، **PMID 6054193** من Europe PMC. يبقى العدد ثابت **58**.
+- التراكر: CHO-005 / MUS-006 / MUS-007 / COR-003 اتحدثوا + **LNS-007** جديد (ملاحظة: LNS-006 مشغول بـ ciliary-zonule) → **72 صف**.
+- الحالة بعد الجولة: **validate 72/72 + pytest 10+14 + audit صفر مشاكل**.
+
+### مخزّن لجولات قادمة
+1. **ص662 (17.10 eyelids/adnexae)**: تطور الجفون (بروز 4-5 أسابيع، اندماج ~10 أسابيع/45 ملم)، goblet cells سيلوموسين في الفورنيكس أولًا (Sellheyer 1988; Miyashita 1992)، mesenchyme — **مرشح لكارت adnexa/conjunctiva development مستقبلًا.**
+2. **ص235-236 epithelium ultrastructure** (glycogen 20-30/10 nm، tonofibrils 8 nm، desmosomes/hemidesmosomes، anchoring filaments) — تأكيدات موجودة في corneal-epithelium.json (تم التحقق).
+3. **RV-001 لسه واقفة**: صفحات الأوعية الشبكية (الأقواس/الشبكتان الشعريتان/CRA/CRV) لسه مطلوبة.
+
+### إضافة متأخرة على نفس الدفعة (فوفيا)
+- `Knowledge_Base/Retina/macula-fovea.json` 1.0.0 → **1.1.0** — صفحات 466-478 نفسها فضلت **صفر إضافة** (histology الفوفيا مغطى)، لكن المعلم الجراحي الجديد من ص231-232 اتعبر مادة فوفياوية مستحقة للكارت: clinical_importance بقي فيه (الحافة الخلفية لمرتكز العضلة المائلة السفلية 3-6 mm أمام حافة العصب البصري، 1 mm تحت حده السفلي، **1-2 mm من الفوفيا**، قرب الوريد الدوامي الصدغي السفلي) بإحالة إلى MUS-007؛ keywords +4 (inferior oblique insertion / surgical landmark / lower temporal vortex vein / خطورة جراحية قرب الفوفيا)؛ مصدر clinical_importance ch6 pages +231,232. التحقق بعدها: **72/72 + pytest 10+14 + audit صفر**؛ التراكر صف RV-002 اتحدث (ref pages + 231-232).
