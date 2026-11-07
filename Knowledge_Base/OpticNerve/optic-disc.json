@@ -19,8 +19,8 @@
     "definition": "That part of the nerve head visible with the ophthalmoscope is termed the optic disc. Its intrapapillary parts are the optic cup and the neuroretinal rim, which are separated, by the scleral ring of Elschnig, from a zone of parapapillary atrophy variably present on the temporal side; the scleral ring represents the border tissue of the nerve. Disc, cup and rim areas or diameters and vessel width do not correlate with age after the age of 10 to 15 years, or with sex, or side, in eyes with refractive errors within the range of plus or minus 5 dioptres (p. 505). The pink colour of the disc is due to the rich capillary supply to its rim, demonstrable by fluorescein angiography and most noticeable inferotemporally where the rim is widest; the white appearance of the cup is due to scattering of light by the lamina cribrosa and the sparse vascularity of this region, the unmyellinated and relatively transparent axons themselves scattering little light (p. 505).",
     "location": "The disc corresponds in size to the internal opening of the scleral canal. The scleral canal is bounded by the border tissue which separates nerve fibres from choroid and sclera, is about 0.5 mm in length, and may be straight or directed slightly nasally, temporally or downwards; three shapes are recognizable — a cone narrowest at the basal lamina; narrowing to the inner third of the sclera and uniform beyond this; and hourglass-shaped with a waist in the intermediate third of the sclera. In the first two shapes a scleral ring is present, visible by ophthalmoscopy (p. 505). The foveola lies 0.53 (plus or minus 0.34) mm below the optic disc centre (p. 506), and the retinal vessels emerge on the medial side of the cup, slightly decentred superonasally (pp. 507-508).",
     "layers": [
-      "Surface nerve fibre layer: the unmyelinated axons converge on the disc; the layer is most visible inferotemporally, then superiorly, then supero- and inferonasally (Jonas et al., 1989d), correlating with the configuration of the neuroretinal rim (broadest inferiorly then superiorly) and the juxtapapillary calibres of the retinal vessels (widest inferotemporally, then superotemporally, then supero- and inferonasally — Jonas and Schiro, 1993); thickness and visibility decrease with age with the loss of about 4-5000 axons per year (Jonas and Naumann, 1991), and axonal loss in experimental glaucoma involves apoptosis at least in part (Quigley, 1995) (p. 508).",
-      "Prelaminar zone: the neural part of the nerve head anterior to the lamina, its axons surrounded by astrocytic glia; supplied mainly from the scleral short posterior ciliary system and recurrent choroidal arteries (see optic_nerve_blood_supply) (pp. 528, 531, 534). In the optic nerve proper this astrocytic investment is tubular: the processes of the astrocytes run perpendicular to the axis of each bundle and capillaries course within the tubes (Anderson, 1969, Fig 15.8); peripherally the cuff of astrocytes forms the border tissue of Jacoby, continuous anteriorly with the intermediary tissue of Kuhnt and posteriorly with the glial mantle deep to the pia (pp. 494-495).",
+      "Surface nerve fibre layer: the unmyelinated axons converge on the disc; the layer is most visible inferotemporally, then superiorly, then supero- and inferonasally (Jonas et al., 1989d), correlating with the configuration of the neuroretinal rim (broadest inferiorly then superiorly) and the juxtapapillary calibres of the retinal vessels (widest inferotemporally, then superotemporally, then supero- and inferonasally — Jonas and Schiro, 1993); thickness and visibility decrease with age with the loss of about 4-5000 axons per year (Jonas and Naumann, 1991), and axonal loss in experimental glaucoma involves apoptosis at least in part (Quigley, 1995) (p. 508). The surface layer is covered by the inner limiting membrane of Elschnig (1901), which is composed of astrocytes and is in continuity with the internal limiting membrane of the retina (documented in the internal_limiting_membrane card); in some specimens Elschnig's membrane is thickened in the central part of the disc to form the central meniscus of Kuhnt (Anderson and Hoyt, 1969, Fig 15.2) (p. 491).",
+      "Prelaminar zone: the neural part of the nerve head anterior to the lamina, its axons surrounded by astrocytic glia; supplied mainly from the scleral short posterior ciliary system and recurrent choroidal arteries (see optic_nerve_blood_supply) (pp. 528, 531, 534). In the optic nerve proper this astrocytic investment is tubular: the processes of the astrocytes run perpendicular to the axis of each bundle and capillaries course within the tubes (Anderson, 1969, Fig 15.8); peripherally the cuff of astrocytes forms the border tissue of Jacoby, continuous anteriorly with the intermediary tissue of Kuhnt and posteriorly with the glial mantle deep to the pia (pp. 494-495). Fig 15.2 details the border-tissue geometry at the nerve head: at the posterior termination of the choroid on the temporal side the border tissue of Elschnig lies between the astrocytes surrounding the optic nerve canal and the stroma of the choroid, whereas on the nasal side the choroidal stroma is directly adjacent to the astrocytes surrounding the nerve — this collection of canal-surrounding astrocytes being the border tissue of Jacoby (Anderson and Hoyt, 1969) (p. 491).",
       "Laminar zone (lamina cribrosa): the fenestrated connective-tissue plates through which the axon bundles pass; the area of the lamina averaged 2.88 (plus or minus 0.84) mm2 and ranged from 1.62 to 5.62 mm2 (ratio 1:3.5), independent of age over 15 years, sex and side; the pore count on the inner surface averaged 227 (plus or minus 36, range 168-292) and increases with lamina area; the mean single pore area (0.00387 plus or minus 0.00091 mm2) and total pore area are larger in the inferior and superior regions than in the temporal regions and greater in the peripheral part of the lamina (Jonas, Fernandez and Naumann, 1991) (p. 506). Within the lamina the glial layer separating the fascicles is thinner than in the prelaminar zone, and each astrocytic septum carries a mantle of connective tissue containing collagen, elastic fibres, fibroblasts and capillaries (Anderson, 1969) (pp. 494-495).",
       "Retrolaminar zone: the myelinated axons behind the lamina cribrosa, invested in dural, arachnoid and pial sheaths (p. 499). Myelination here is accompanied by columns of oligodendrocytes with only a few astrocytes; the principle that glia rather than connective tissue separates every axon bundle (Anderson, Hoyt and Hogan, 1967) holds throughout the nerve with a single exception — fibres enclosed within the adventitia of the central retinal artery in the orbital portion of the nerve (Ikui, 1964) (pp. 494-495)."
     ],
@@ -87,13 +87,17 @@
       "oligodendrocyte columns",
       "أعمدة قليلات الميالين",
       "connective tissue mantle",
-      "غلاف النسيج الضام"
+      "غلاف النسيج الضام",
+      "central meniscus of Kuhnt",
+      "border tissue of Elschnig",
+      "قوس كوهنت المركزية",
+      "النسيج الحدودي لإلشنج"
     ],
     "references": [
       "wolff_anatomy"
     ],
-    "last_updated": "2026-10-26",
-    "version": "1.2.0",
+    "last_updated": "2026-11-07",
+    "version": "1.3.0",
     "priority": 1
   },
   "references": [
@@ -134,6 +138,7 @@
           "reference_id": "wolff_anatomy",
           "chapter": "15",
           "pages": [
+            491,
             494,
             495,
             499,

@@ -1,0 +1,226 @@
+{
+ "entity_id": "macula_fovea",
+ "component_ids": [
+  "comp_retina"
+ ],
+ "category": "anatomy",
+ "nomenclature": {
+  "en": "Macula Lutea and Fovea Centralis",
+  "ar": "البقعة الصفراء والنقرة المركزية",
+  "aliases": [
+   "macula",
+   "area centralis",
+   "fovea centralis",
+   "foveola",
+   "parafovea",
+   "perifovea",
+   "clivus",
+   "fovea externa",
+   "Henle's fibre layer",
+   "rod-free zone",
+   "macular region",
+   "البقعة الصفراء",
+   "المنطقة المركزية",
+   "النقرة المركزية",
+   "حفرة القزحية المركزية",
+   "الحزام المجاور للحفرة",
+   "الحزام المحيط بالحفرة",
+   "المنطقة الخالية من العصيات",
+   "ألياف هنلي"
+  ]
+ },
+ "content": {
+  "definition": "The macula lutea (area centralis) is the specialized central region of the sensory retina for detailed daylight vision, organized in concentric belts: 'At the centre of the rod-free fovea centralis (1.85 mm wide) is the foveola (0.35 mm wide). The 0.5 mm wide band outside this defines the parafovea, and the 1.5 mm band beyond this is the perifovea. These zones together make up the macula (area centralis)' (p. 226). Table 6.1 gives the macula lutea as about 5 mm and the area centralis as 5-6 mm in the horizontal meridian, 'subtending 18°20' of the visual field', with the rod-free zone at 0.57 mm (p. 220). Ophthalmoscopically the area centralis is demarcated as a zone of 5.5-6 mm diameter, whose zones 'are in fact horizontal elliptical, rather than circular' (p. 226, Fig. 6.21).",
+  "location": "At the posterior pole of the fundus, temporal to the optic disc: 'The centre of the optic disc is about 4 mm nasal to the fovea' (p. 226). Quantitatively, the disc centre lies 3.42 (±0.34) mm medial and 0.1 mm inferior to the fovea, and the disc is 27 mm from the nasal and 31 mm from the temporal limbus (p. 228). The fovea centralis (1.85 mm) carries at its centre the foveolar pit (0.35 mm); the surrounding belts are the parafovea (0.5 mm; 0.55 mm in the Fig. 6.21 legend) and the perifovea (1.5 mm) (pp. 220, 226).",
+  "layers": [
+   "Foveola — floor of the foveal pit: photoreceptors here are exclusively cones with 'long, slender, rod-like inner and outer segments'; because of their arrangement the external limiting membrane is bowed forward and 'derives the name fovea externa' (p. 227, Fig. 6.22)",
+   "Outer nuclear layer at the fovea — 'thickened', formed by the densely packed foveal cone nuclei displaced centrally (p. 227, Fig. 6.22)",
+   "Outer plexiform layer at the fovea — the photoreceptor axons '(Henle's fibres) radiate to synapse with the dendrites of the inner nuclear layer (INL) which terminates at the edge of the foveola with the slope of the clivus (CL)' (p. 227, Fig. 6.22)",
+   "Absent inner layers — 'the extreme thinness of the retina at the foveola is due to absence of inner retinal layers (nerve fibres), ganglion cells, inner plexiform and nuclear layers' (p. 227, Fig. 6.22)",
+   "Displaced ganglion cells — 'ganglion cells are displaced away from the foveal cones, so that the retina here is half the thickness of retina elsewhere. This displacement reduces light scattering at the fovea and facilitates resolution of fine detail' (p. 228)"
+  ],
+  "blood_supply": "'The retinal arteries and veins form superior and inferior nasal and temporal arches spreading from the optic disc head. They are internal to the layer of nerve fibres. The retinal capillaries supply only the inner layers of the retina. The ratio of choroidal to retinal blood flow is about 10:1' (p. 228). Because the foveola lacks all inner retinal layers (p. 227) and 'the retinal capillaries supply only the inner layers of the retina' (p. 228), the central foveola is avascular and depends on the choroidal circulation external to the pigment epithelium.",
+  "venous_drainage": null,
+  "innervation": null,
+  "histology_summary": "Photoreceptor specialization peaks centrally: 'Density of cones is highest at the rod-free foveola (199 000/mm2) and decreases towards the periphery (5000/mm2). The fovea centralis contains approximately 100 000 cones. Rods first appear 130 μm from the foveal centre and reach maximum density (160 000/mm2) 2.5-3.0 mm from the fovea (at the edge of the area centralis)' (p. 227) [OCR-unverified: the foveola cone 'total' figure is garbled in the source scan; Table 6.1 (p. 220) lists 35 000 cones in the rod-free fovea]. The modern quantitative baseline, repeatedly cited by the text, is Curcio et al. (1990): foveal peak cone density averages 199 000 cones/mm2 (range 100 000-324 000), cone spacing increasing from 2.53 (±0.29) μm centrally to 6.16 (±1.04) μm with eccentricity, and the anatomical Nyquist limit 48-86 cycles/degree (mean 66) (p. 466, ch. 14). Foveal cones reach 80 μm in length, reducing to 40 μm at the periphery (p. 468, ch. 14); 'foveal blue cones are sparse, irregularly spaced, and absent in a zone about 100 μm (0.35°) in diameter near the site of peak cone density', the highest blue-cone density (>2000 cells/mm2) forming a ring at 0.1-0.3 mm eccentricity (p. 468, ch. 14). 'A one-to-one ratio of rods to cones is seen 0.5 mm nasal and temporal, and 0.4 mm superior and inferior, to the centre of the fovea' (p. 467, ch. 14). Retinal context: the retina proper covers 266 mm2, is thickest near the disc margins (0.56 mm) and thinnest at the ora serrata (0.1 mm) (p. 227); nerve fibres temporal to the fovea start from a horizontal raphe (p. 228).",
+  "clinical_importance": "Vitreomacular adhesion: vitreous fibrils attach to 'the retina at the discal margin, macula, vessels' (p. 225), and in young eyes 'a similar annular attachment 3-4 mm in diameter is seen in young eyes at the macular region' (p. 226, Fig. 6.20) — the anatomical basis of vitreomacular traction and of macular risk during posterior vitreous separation. Foveal maturation lags after birth: neonatal visual acuity is 'two orders of magnitude lower than that in adults' (p. 466, ch. 14); in monkeys adult foveal cone packing is attained only at 15-18 months and human cone density is estimated to rise until 5-8 years of age (p. 466, ch. 14). In ocular albinism 'the adult fovea is reported to be comparable to that of a neonate, both morphologically and psychophysically' (p. 467, ch. 14). The foveola's 0.35 mm rod-free diameter corresponds to 1.25° of the visual field (p. 467, ch. 14)."
+ },
+ "relationships": [
+  {
+   "relation_type": "part_of",
+   "target_id": "photoreceptor_layer",
+   "target_name": "Sensory retina — the macula (area centralis) is its central specialization; foveola cones are the peak of the photoreceptor mosaic"
+  },
+  {
+   "relation_type": "adjacent_to",
+   "target_id": "optic_disc",
+   "target_name": "Optic disc — its centre lies about 4 mm nasal to the fovea (3.42 ±0.34 mm medial, 0.1 mm inferior)"
+  },
+  {
+   "relation_type": "attached_to",
+   "target_id": "vitreous",
+   "target_name": "Vitreous — annular 3-4 mm vitreomacular attachment in young eyes (Fig. 6.20)"
+  },
+  {
+   "relation_type": "supplied_by",
+   "target_id": "choroid",
+   "target_name": "Choroid — choroidal:retinal flow 10:1; the avascular foveola depends on the choriocapillaris across the pigment epithelium"
+  },
+  {
+   "relation_type": "continuous_with",
+   "target_id": "nerve_fibre_layer",
+   "target_name": "Nerve fibre layer — ganglion cell axons displaced away from the fovea; horizontal raphe temporal to the fovea"
+  }
+ ],
+ "metadata": {
+  "keywords": [
+   "macula",
+   "macula lutea",
+   "area centralis",
+   "fovea centralis",
+   "foveola",
+   "parafovea",
+   "perifovea",
+   "clivus",
+   "fovea externa",
+   "Henle's fibres",
+   "rod-free zone",
+   "foveal avascular zone",
+   "foveal cone density",
+   "vitreomacular attachment",
+   "horizontal raphe",
+   "foveal development",
+   "البقعة الصفراء",
+   "المنطقة المركزية",
+   "النقرة المركزية",
+   "المنطقة الخالية من العصيات",
+   "ألياف هنلي",
+   "التعلق الزجاجي البقعي"
+  ],
+  "references": [
+   "wolff_anatomy",
+   "curcio_1990_topography"
+  ],
+  "last_updated": "2026-11-07",
+  "version": "1.0.0",
+  "priority": 1
+ },
+ "references": [
+  {
+   "content_field": "definition",
+   "status": "documented",
+   "sources": [
+    {
+     "reference_id": "wolff_anatomy",
+     "chapter": "6",
+     "pages": [
+      220,
+      226
+     ]
+    }
+   ]
+  },
+  {
+   "content_field": "location",
+   "status": "documented",
+   "sources": [
+    {
+     "reference_id": "wolff_anatomy",
+     "chapter": "6",
+     "pages": [
+      226,
+      228
+     ]
+    }
+   ]
+  },
+  {
+   "content_field": "layers",
+   "status": "documented",
+   "sources": [
+    {
+     "reference_id": "wolff_anatomy",
+     "chapter": "6",
+     "pages": [
+      227,
+      228
+     ]
+    }
+   ]
+  },
+  {
+   "content_field": "blood_supply",
+   "status": "documented",
+   "sources": [
+    {
+     "reference_id": "wolff_anatomy",
+     "chapter": "6",
+     "pages": [
+      227,
+      228
+     ]
+    }
+   ]
+  },
+  {
+   "content_field": "venous_drainage",
+   "status": "not_available",
+   "sources": []
+  },
+  {
+   "content_field": "innervation",
+   "status": "not_applicable",
+   "sources": []
+  },
+  {
+   "content_field": "histology_summary",
+   "status": "documented",
+   "sources": [
+    {
+     "reference_id": "wolff_anatomy",
+     "chapter": "6",
+     "pages": [
+      220,
+      227,
+      228
+     ]
+    },
+    {
+     "reference_id": "wolff_anatomy",
+     "chapter": "14",
+     "pages": [
+      466,
+      467,
+      468
+     ]
+    },
+    {
+     "reference_id": "curcio_1990_topography",
+     "section": "Foveal cone density, spacing and Nyquist limits as cited by Wolff ch. 6/14"
+    }
+   ]
+  },
+  {
+   "content_field": "clinical_importance",
+   "status": "documented",
+   "sources": [
+    {
+     "reference_id": "wolff_anatomy",
+     "chapter": "6",
+     "pages": [
+      225,
+      226
+     ]
+    },
+    {
+     "reference_id": "wolff_anatomy",
+     "chapter": "14",
+     "pages": [
+      466,
+      467
+     ]
+    }
+   ]
+  }
+ ]
+}

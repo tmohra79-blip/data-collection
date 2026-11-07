@@ -969,5 +969,45 @@
     "verification": "PMID 39735562 confirmed via Europe PMC REST 2026-11-05: PeerJ 2024;12:e18437, PMC11674140; authorString retrieved from API (10 authors, truncated at 'Zhou W').",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11674140/",
     "access": "full_free"
+  },
+  {
+    "reference_id": "curcio_1990_topography",
+    "title": "Human photoreceptor topography",
+    "authors": [
+      "Curcio CA",
+      "Millican CL",
+      "Allen KA",
+      "Kalina RE"
+    ],
+    "publisher": "The Journal of Comparative Neurology",
+    "year": 1990,
+    "volume": "292",
+    "issue": "4",
+    "pages": "292(4):497-523",
+    "doi": "10.1002/cne.902920402",
+    "pmid": "2324310",
+    "type": "journal_article",
+    "verification": "PMID 2324310 confirmed via Europe PMC REST (TITLE+AUTH query, resultType=core) 2026-11-07: J Comp Neurol 1990;292(4):497-523, DOI 10.1002/cne.902920402 matched; the source repeatedly cited by Wolff ch.6/ch.14 for the photoreceptor mosaic data.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/2324310/",
+    "access": "abstract_free"
+  },
+  {
+    "reference_id": "anderson_hoyt_1969",
+    "title": "Ultrastructure of intraorbital portion of human and monkey optic nerve",
+    "authors": [
+      "Anderson DR",
+      "Hoyt WF"
+    ],
+    "publisher": "Archives of Ophthalmology",
+    "year": 1969,
+    "volume": "82",
+    "issue": "4",
+    "pages": "82(4):506-530",
+    "doi": "10.1001/archopht.1969.00990020508017",
+    "pmid": "4981187",
+    "type": "journal_article",
+    "verification": "PMID 4981187 confirmed via Europe PMC REST 2026-11-07: Arch Ophthalmol 1969;82(4):506-530, DOI matched; the source of Fig 15.2 cited by Wolff ch.15 for the border tissues, ~1000 fascicles and the central supporting connective tissue strand.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/4981187/",
+    "access": "abstract_free"
   }
 ]
