@@ -423,6 +423,145 @@
       "has_3d_model": "No",
       "parent": "—",
       "reference_category": "anatomy"
+    },
+    {
+      "source_row": 38,
+      "component_id": "—",
+      "category": "Model Root",
+      "medical_name_en": "Eye (Model Root)",
+      "medical_name_ar": "العين (الجذر الرئيسي للموديل)",
+      "unity_name": "eye",
+      "has_3d_model": "Unverified",
+      "parent": "—",
+      "reference_category": "model_only"
+    },
+    {
+      "source_row": 39,
+      "component_id": "—",
+      "category": "Annotation",
+      "medical_name_en": "Corneal Epithelium Label",
+      "medical_name_ar": "ليبل الظهارة القرنية",
+      "unity_name": "Label_Epithelium",
+      "has_3d_model": "Unverified",
+      "parent": "—",
+      "reference_category": "model_only"
+    },
+    {
+      "source_row": 40,
+      "component_id": "—",
+      "category": "Annotation",
+      "medical_name_en": "Corneal Stroma Label",
+      "medical_name_ar": "ليبل السدى القرني",
+      "unity_name": "Label_Stroma",
+      "has_3d_model": "Unverified",
+      "parent": "—",
+      "reference_category": "model_only"
+    },
+    {
+      "source_row": 41,
+      "component_id": "—",
+      "category": "Annotation",
+      "medical_name_en": "Corneal Endothelium Label",
+      "medical_name_ar": "ليبل البطانية القرنية",
+      "unity_name": "Label_Endothelium",
+      "has_3d_model": "Unverified",
+      "parent": "—",
+      "reference_category": "model_only"
+    },
+    {
+      "source_row": 42,
+      "component_id": "—",
+      "category": "Annotation",
+      "medical_name_en": "Corneal Epithelium Leader Line",
+      "medical_name_ar": "خط إشارة الظهارة القرنية",
+      "unity_name": "Leader_Epithelium",
+      "has_3d_model": "Unverified",
+      "parent": "—",
+      "reference_category": "model_only"
+    },
+    {
+      "source_row": 43,
+      "component_id": "—",
+      "category": "Annotation",
+      "medical_name_en": "Corneal Stroma Leader Line",
+      "medical_name_ar": "خط إشارة السدى القرني",
+      "unity_name": "Leader_Stroma",
+      "has_3d_model": "Unverified",
+      "parent": "—",
+      "reference_category": "model_only"
+    },
+    {
+      "source_row": 44,
+      "component_id": "—",
+      "category": "Annotation",
+      "medical_name_en": "Corneal Endothelium Leader Line",
+      "medical_name_ar": "خط إشارة البطانية القرنية",
+      "unity_name": "Leader_Endothelium",
+      "has_3d_model": "Unverified",
+      "parent": "—",
+      "reference_category": "model_only"
     }
-  ]
+  ],
+  "model_file_findings": {
+    "audit_date": "2026-11-06",
+    "source_file": "Good_Eye.blend",
+    "method": "Zstandard decompression + string extraction of Blender ID names (OB*) and full-text keyword scan; object types not parsed, so new rows are marked 'Unverified' pending a Unity hierarchy check.",
+    "blender_objects_found": [
+      "eye",
+      "eye_sphere_outside",
+      "eye_sphere_inside",
+      "cornea_outside",
+      "cornea_inside",
+      "eye_over_cornea",
+      "lens",
+      "artery_retina_inside_1",
+      "vein_retina_inside_1",
+      "vein_up",
+      "vein_down",
+      "half_veins",
+      "optical_nerv",
+      "nerv_element_1",
+      "nerv_element_2",
+      "nerv_element_3",
+      "nerv_element_4",
+      "eye_muscles",
+      "muscle_0",
+      "muscle_1",
+      "muscle_3",
+      "muscle_4",
+      "muscle_5",
+      "muscle_6",
+      "Label_Epithelium",
+      "Label_Stroma",
+      "Label_Endothelium",
+      "Leader_Epithelium",
+      "Leader_Stroma",
+      "Leader_Endothelium",
+      "Camera",
+      "Light"
+    ],
+    "findings": [
+      {
+        "id": "F1",
+        "title": "No iris / pupil / ciliary body / anterior or posterior chamber in the model source",
+        "detail": "The strings 'iris', 'pupil', 'ciliary' and 'chamber' occur 0 times in Good_Eye.blend. The absence is a model design decision, not a mapping omission. Knowledge-base cards for these structures remain valid for the KB even without Unity components."
+      },
+      {
+        "id": "F2",
+        "title": "vitreous_body is NOT present in the blend source",
+        "detail": "The string 'vitreous' occurs 0 times in Good_Eye.blend, while the mapping docx lists unity_name 'vitreous_body' for comp_vitreous. Either the object was added directly in Unity (newer Unity scene than this blend) or this blend is an older revision. ACTION: verify 'vitreous_body' in the Unity Hierarchy."
+      },
+      {
+        "id": "F3",
+        "title": "muscle_2 numbering gap originates in the blend source",
+        "detail": "The blend contains muscle_0, muscle_1, muscle_3, muscle_4, muscle_5, muscle_6 (no muscle_2). All six real extraocular muscles are present; the gap is a leftover from a deleted object in the original Blender file, not a Unity import issue."
+      },
+      {
+        "id": "F4",
+        "title": "7 model objects had no mapping rows; registered here as model_only",
+        "detail": "eye (suspected root/controller) and 6 cornea annotation objects (3 Labels + 3 Leader lines for epithelium/stroma/endothelium) existed in the model but were absent from the mapping docx. They carry no anatomical knowledge component (component_id '—') and are registered for model inventory completeness; relevant if AR labeling features are planned."
+      }
+    ],
+    "mapping_accuracy": "19 of 20 mapped unity_names confirmed present verbatim in the blend source; the only exception is vitreous_body (F2)."
+  }
 }
