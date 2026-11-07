@@ -8,8 +8,8 @@ PDF_PATH = Path(
 
 OUTPUT_PATH = Path("extracted_pages.txt")
 
-PRINTED_PAGES = list(range(495, 498))
-#PRINTED_PAGES = [495, 230 ]
+#PRINTED_PAGES = list(range(465, 468))
+PRINTED_PAGES = [396, 465, 467, 663 ]
 
 # Based on the pages we checked so far.
 # Verify this mapping at printed page 525 before relying on it.

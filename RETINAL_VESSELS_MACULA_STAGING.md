@@ -79,3 +79,111 @@
 
 ### إضافة متأخرة على نفس الدفعة (فوفيا)
 - `Knowledge_Base/Retina/macula-fovea.json` 1.0.0 → **1.1.0** — صفحات 466-478 نفسها فضلت **صفر إضافة** (histology الفوفيا مغطى)، لكن المعلم الجراحي الجديد من ص231-232 اتعبر مادة فوفياوية مستحقة للكارت: clinical_importance بقي فيه (الحافة الخلفية لمرتكز العضلة المائلة السفلية 3-6 mm أمام حافة العصب البصري، 1 mm تحت حده السفلي، **1-2 mm من الفوفيا**، قرب الوريد الدوامي الصدغي السفلي) بإحالة إلى MUS-007؛ keywords +4 (inferior oblique insertion / surgical landmark / lower temporal vortex vein / خطورة جراحية قرب الفوفيا)؛ مصدر clinical_importance ch6 pages +231,232. التحقق بعدها: **72/72 + pytest 10+14 + audit صفر**؛ التراكر صف RV-002 اتحدث (ref pages + 231-232).
+
+## G. دفعة 2026-11-07 (الرابعة): مطبوع 465-467 + Macular Pigment من StatPearls
+
+### حكم التغطية
+- **465-467 (14.4-14.5: بداية الطبقة العصوية المخروطية): مغطاة بالكامل مسبقًا** في photoreceptor-layer.json (الإجماليات 77.9-107.3M/92M عصوية و4.08-5.29M/4.6M مخروطية، الأرجوان العصبي وبياض ما بعد الوفاة 5-10 دقائق، تباين الفوفيا/ora، within 8%، Nyquist 48-86/66، الرزقة 0.2-2.0°، النضوج) وmacula-fovea.json (one-to-one 0.5/0.4 ملم، albinism، النضوج حتى 5-8 سنين). الفتات الوحيد غير المغطى أُثري: superior rods +2% وrim cone threefold (Williams 1991) في photoreceptor-layer.json 1.0.0 → **1.1.0**.
+
+### الاكتشاف: نص Wolff نفسه فيه Macular Pigment (ص457)
+- الكتاب (في نص مُجمع سابقًا من دفعة ch13/14): "The yellow colouration probably derives from the presence of the carotenoid pigment, **xanthophyll**, in the ganglion and bipolar cells" + منطقة صفراء ~5 ملم + تفسير التباس مصطلحات macula/macular area/macula lutea + حفظ اللون (4°C ساعات-أيام؛ ألدهيد أسابيع-أشهر؛ الكحول يستخلصه — Tripathi & Tripathi 1984). لم يكن مغطى في أي كارت — أُضيف الآن.
+
+### الإثراء المنفذ (macula-fovea.json 1.1.0 → **1.2.0**)
+- definition: تسمية lutea (Wolff ص457) + lutein/zeaxanthin كاروتينويدات (StatPearls Retina).
+- location: المظهر ophthalmoscopic (Fig 14.3 ص456: منطقة أغمق وانعكاس مُبيض أسفل مركز العصب) + **umbo** (أدنى نقطة لأرضية الفوفولا — قائمة مناطق StatPearls: perifovea→parafovea→fovea→FAZ→foveola→umbo).
+- histology: تركيب الصبغة (lutein + zeaxanthin + **meso-zeaxanthin**، تركيز أعلى في الفوفيا) + تفاصيل الحفظ (ص457) + أرقام Fig 14.18 caption (ص466: 0.125/0.42/0.66 ملم، 4:1 على السنّة الفوفياوية).
+- clinical: anti-inflammatory + **blue-light filtering** + MPOD وHaidinger brushes (dichroism) + AMD/macular telangiectasia/Stargardt + مكملات lutein/zeaxanthin ↑ MPOD وترتبط بانخفاض خطر DR/ROP.
+- aliases/keywords: +umbo، macular pigment، lutein، zeaxanthin، meso-zeaxanthin، xanthophyll، MPOD، Haidinger brush، صبغة البقعة الصفراء.
+
+### مراجع جديدة (58 → **60**)
+- `statpearls_retina_2023` — Nguyen KH, Patel BC, Tadi P. Anatomy, Head and Neck: Retina. StatPearls; آخر تحديث 2023-08-08؛ NBK542332؛ **PMID 31194472** (Europe PMC REST).
+- `statpearls_haidinger_2023` — Manion GN, Stokkermans TJ. Haidinger Brush Phenomenon. StatPearls؛ آخر تحديث 2023-07-08؛ NBK594225؛ **PMID 37603616** (تذييل صفحة Bookshelf).
+
+### ملاحظة تشغيلية
+- Workspace rollback حدث بين الرسائل (التراكر رجع 9 صفوف والكروت الجديدة اختفت) → **استعادة كاملة من origin/main (de9a75e — رفع المستخدم 17:04) بلا أي فقدان**، ثم أُعيد بناء هذه الجولة فوقها. التحقق النهائي: **validate 72/72 + pytest 10+14 + audit**.
+- ** RV-001 لسه واقفة**: صفحات الأوعية الشبكية لسه مطلوبة. FAZ لسه كمبدأ (بدون قطر رقمي — لم يُعثر على رقم في المصادر المتاحة).
+
+## H. جولة 2026-11-08 (خامسة): كارت umbo من مصادر خارجية — بالكامل
+
+### السياق
+- المستخدمة: «Umbo مش موجودة في الكتاب عندي فا جمع عنها من مصادر تانية انت» — تحقق نصي على كل لصاقات الكتاب المتاحة: لا وجود لـ umbo (الوحيد «Palumbo 1976» اسم مؤلف في ص69) — الـumbo فعلًا غائب عن وولف. الشطب من الكارت: v1.2.0 كان فيه جملة واحدة (StatPearls zonation).
+- جولة خارجية كاملة: 7 مصادر جديدة (6 PMC open-access مقروءة نصها الكامل + Webvision) بتحقق اقتباس حرفي 16/16 قبل الكتابة.
+
+### الإثراء المنفذ (macula-fovea.json 1.2.0 → **1.3.0**)
+- location: **umbo = central plateau للفوفولا، ~0.15 ملم** (Eye 2023: fovea 1.5 / foveola 0.3 / umbo 0.15 ملم — ومطابقة Webvision)، هو مركز الفوفيا بلا RGCs (Nat Neurosci 2025)، ويطابق «مركز حفرة الفوفيا» (Front Cell Neurosci 2024)؛ **FAZ قطره ~0.2-1 ملم** (MEHDIophthal 2025) — قفل بند FAZ المعلق بدون رقم منذ v1.0.0 (و0.5 ملم عند Webvision).
+- histology: أرضية الحفرة Muller cell bodies/processes (MEHDIophthal) وMüller cell cone في الـumbo (Front Cell Neurosci)؛ **مسار الربط: مخاريط الـumbo → محاور شعاعية → bipolars مُزاحة في foveal shoulder → حلقة RGCs حول الـumbo** (Nat Neurosci 2025)؛ مركز 0.1 ملم خالٍ من S-cones (MEHDIophthal) والحفرة خالية من العصويات (Webvision).
+- clinical: الـumbo معلم تثبيت مسح OCT/OCTA (TVST 2026)؛ صغره يمنع التقاطه في بروتوكولات OCT القياسية (Sci Rep 2020)؛ **foveal crack sign** = خط شديد الانعكاس رأسي في الـumbo يمدد من ellipsoid zone حتى ILM، ظهر مع traction وعقبته ثقب ماكولا كامل السماكة بعد 9 أشهر في الحالة المصورة — نذير ثقب في العين الشقيقة (Sci Rep 2020).
+- علاقة جديدة: drives → ganglion_cell_layer. aliases/keywords: +foveal umbo، central plateau، foveal crack sign، Müller cell cone، OCT centration، أومبو.
+
+### مراجع جديدة (60 → **67**)
+`eye_2023_foveal_status` (PMID 35505112) · `natneuro_2025_fovea_synchronization` (PMID 40670685) · `scirep_2020_foveal_crack_sign` (PMID 33199791) · `frontcellneuro_2024_foveal_muller_glia` (PMID 38994326) · `tvst_2026_octa_umbo_landmark` (PMID 42878570) · `mehdiophthal_2025_macula_anatomy` (PMID 40787281) · `webvision_fovea_architecture` (Kolb et al., Webvision).
+
+### ملفات المصادر المحفوظة (download/sources/)
+pmc12330045_fulltext.xml · epmc_PMC9873750.xml · epmc_PMC12411267.xml · epmc_PMC7670431.xml · epmc_PMC11236602.xml · epmc_PMC13676230.xml · webvision_kolb_fovea_architecture.html + النصوص المستخرجة.
+
+### المتبقي
+- **RV-001 لسه واقفة**: صفحات الأوعية الشبكية (الأقواس/الشبكتان الشعريتان/CRA/CRV) لسه مطلوبة.
+
+## I. جولة 2026-11-08 (سادسة): قفل الـ FAZ — lصاقات 396/465/467/663 + 5 مقالات خارجية
+
+### السياق
+- المستخدمة بعتت 4 لصاقات («ده اللي موجود في الكتاب عن Foveal Avascular Zone») وطلبت: شوفهم، ولو ناقص هات من مقالات موثوقة وخلّص الجزء ده.
+- **تدقيق الصاقات أولًا**: ص465 (مجاميع العصويات/المخاريط + الموزاييك) متغطية كاملة من جولة 2026-11-07 — صفر إضافات. ص396 (بنية الشعيرات الدموية الجيبية + Bruch) ~90% متغطية في choriocapillaris.json — 4 تفاصيل دقيقة ناقصة. ص467 (توزيع العصويات) كلها متغطية إلا جملة واحدة. **ص663 (تطور الغدة الدمعية/ملحقات الجفن/العضلات خارج المقلة) خارج موضوع FAZ تمامًا** — اتسجلت كمصدر واقترحت لجولة تطوير ملحقات لاحقًا، مش داخلة في الكروت هنا.
+- المصادر الخارجية: 5 أوراق مخصصة للـ FAZ (أوروپا PMC، نصوص كاملة محفوظة) — تحقق اقتباس حرفي **23/23 PASS** قبل الكتابة (منهم 5 اقتباسات كتاب من اللصاقات المحفوظة في sources/book_pastes/).
+
+### الإثراء المنفذ
+- **macula-fovea.json 1.3.0 → 1.4.0 (الـ FAZ مقفول)**:
+  - location: تعريف «A region without vasculature around the fovea is called the foveal avascular zone (FAZ)» (Yoshimura TVST 2026) + norms سكانية: n=1004 من Gutenberg Health Study — متوسط **0.27 ± 0.12 mm²** ومدى الـ 5-95% **0.08-0.47 mm²** (Welzel TVST 2026)؛ 224 عين/112 متطوع — سطحية **0.27 ± 0.11** مقابل عميقة **0.35 ± 0.12 mm²** (P<0.001) (Ghassemi 2017)؛ 101 عين مسنة — **0.35 ± 0.12 mm²** (Hasegawa Sci Rep 2026)؛ **إزاحة مركز الـ FAZ عن مركز مستقبلات الفوفيا 41.6 ± 21.1 µm** (Hasegawa).
+  - blood_supply: الـ FAZ موجود عند كل ضفيرة بحجم مختلف — سطحية 0.27 مقابل عميقة 0.35 mm² وترابط بينهما r=0.82 (Ghassemi)؛ تطابق قياس الـ FAZ بين total retina والـ ICP (ICC 0.98 — Welzel)؛ **الشعيرات المحيطية تنساب شعاعيًا نحو الداخل حول الـ FAZ** — نموذج الأستروسايت-الأوعية أعاد إنتاج الأقواس والـ FAZ والتدفق الشعاعي الداخلي (Yoshimura TVST 2026).
+  - clinical: **OCTA يتفوق على الفلورسين في تمييز الـ FAZ** (تضخم/انقطاع/dropout) — Welzel؛ تغيرات FAZ في أمراض السكر والانسدادات الوريدية وكمؤشر محتمل في MS/Alzheimer/Parkinson/IBD (Welzel)؛ داخل الحدود الطبيعية لا ارتباط بالعمر/الضغط/السكر/التدخين (Gutenberg) وأكبر في الإناث والعيون الأقصر؛ **في السكري يتضخم قبل الـ DR المرئي**: control 0.278 → NDR 0.308 → NPDR 0.351 mm² وارتباط إيجابي بمدة السكري والـ BMI (Wei Clin Ophthalmol 2025).
+- **photoreceptor-layer.json 1.2.0 → 1.3.0**: جملة التعادل 1:1 — «A one-to-one ratio of rods to cones is seen 0.5 mm nasal and temporal, and 0.4 mm superior and inferior, to the centre of the fovea (Curcio et al., 1990)» (ص467).
+- **choriocapillaris.json 1.1.0 → 1.2.0**: حجاب الفتحات «thickened centrally (30 nm)» (Fig 11.19)؛ الأوجه الجانبية مائلة؛ تباين الوصلات بين الشريينات (occluding zonules نموذجية) والشعيرات/الفينولات (نوع خاص) — ص396؛ إطار داعم كولاجيني بفايبروسايتس داخل شبكات الشعيرات وفي الطبقة فوق الشعرية (Fig 11.15) — ص396.
+- keywords macula-fovea +9: FAZ area، superficial/deep/intermediate capillary plexus، OCTA، perifoveal radial capillaries، Gutenberg Health Study، FAZ centre offset، foveal avascular zone area.
+
+### مراجع جديدة (67 → **72**)
+`tvst_2026_gutenberg_faz_normative` (PMID 42929705) · `jcoophthal_2017_faz_normative` (PMID 29270477) · `tvst_2026_faz_model_astrocytes` (PMID 41769944) · `scirep_2026_faz_elderly` (PMID 41667614) · `clinophthal_2025_faz_diabetes` (PMID 41019873).
+
+### ملفات المصادر المحفوظة (download/sources/)
+epmc_PMC13722972_faz.xml · epmc_PMC5735238_faz.xml · epmc_PMC12967130_faz.xml · epmc_PMC12960704_faz.xml · epmc_PMC12474716_faz.xml (+ PMC13422916/PMC13515158 للفحص) · book_pastes/book_printed{396,465,467,663}_*.txt · epmc_faz_search.json · epmc_faz_meta.json.
+
+### المتبقي
+- **RV-001 لسه واقفة**: صفحات الأوعية الشبكية (الأقواس/الشبكتان الشعريتان/CRA/CRV — وولف ص~489-494) لسه مطلوبة.
+- **ص663**: كارت تطوير ملحقات (غدة دمعية 45 يوم/قنوات 3 شهور، Zeis الشهر 4، meibomian+Moll عند 80 mm، فتح الجفون 5-6 شهور + EGF، العضلات من preotic somites) — مقترحة كجولة مستقبلية.
+
+## J. جولة 2026-11-08 (سابعة): تغطية المصطلحات الستة + إغلاق Henle's Fiber Layer
+
+**السؤال:** المستخدمة راجعت قائمة: Macula Lutea / Fovea Centralis / Foveola / Umbo / Foveal Avascular Zone / Henle's Fiber Layer — «كدة جمعنا عن دول كلهم؟»
+
+**نتيجة التدقيق (ضد الكروت الفعلية):**
+
+| المصطلح | الحالة قبل الجولة | مكان التوثيق |
+|---|---|---|
+| Macula Lutea | مكتمل (تعريف + مناطق + صبغة صفراء xanthophyll/lutein/zeaxanthin + Haidinger/MPOD) | macula-fovea.json |
+| Fovea Centralis | مكتمل (1.85 ملم، إزاحة الطبقات، التطور، الألبينزم) | macula-fovea.json |
+| Foveola | مكتمل (0.35 ملم rod-free، 199k مخروط/مم²، fovea externa) | macula-fovea.json |
+| Umbo | مكتمل جولة 5 (v1.3.0، 7 مصادر خارجية) | macula-fovea.json |
+| Foveal Avascular Zone | مكتمل جولة 6 (v1.4.0، 5 مصادر خارجية) | macula-fovea.json |
+| **Henle's Fiber Layer** | **ناقص** — ذكر عابر فقط (الجزء البقعي من OPL من وولف ص227/474: 51 ملم ألياف مائلة) بلا إثراء خارجي | outer-plexiform-layer.json |
+
+**مصادر Henle (6 جديدة + 2 موجودة أعاد استخدامها):** نصوص كاملة محفوظة في download/sources/:
+1. Koksaldi et al., Med Hypothesis Discov Innov Ophthalmol 2025 (PMID 40787281, PMC12330045 — الموجود من جولة 5): قسم HFL كامل — التركيب (ثلثا OPL البقعية ألياف مخروطية شعاعية + عمليات Müller)، المدى الشعاعي 5500/8500 ملم، موازاة ILM عند حافة الفوفولا، طول الأكسون 558 ملم وأول مشبك 350 ملم، أعلى تركيز للصبغة البقعية في HFL، النجمة البقعية/الوذمة الكيسية/النزوف البتالويدية، hyperreflective over drusen، ASHH.
+2. Wong-Fortunato et al., IOVS 2026 (PMID 42610579, PMC13496266): AAV-EGFP في قرد الريسس يُظهر ألياف هنلي in vivo كنجمة بقعية؛ الحزم 30.0±2.2 خط قريب / 60.3±2.5 بعيد — متسقة بين الأفراد ومتقاربة نحو المركز؛ الدهن في النجمة البقعية يرسم حزم هنلي.
+3. Lujan et al., IOVS 2011 (PMID 21071737، ملخص): الانعكاسية اتجاهية تزيد مع الابتعاد في الجهة المقابلة لدخول الحزمة؛ إدراج HFL يضخم قياس ONL بنسبة 52%.
+4. Drasdo et al., Vision Res 2007 (PMID 17320143، ملخص): طول الألياف 406-675 ملم في المقاطع الشعاعية — أطول بكثير مما كان يُذكر.
+5. Ramtohul et al., Prog Retin Eye Res 2023 (PMID 36333227، ملخص): حزم أكسونات غير متميلنة + عمليات Müller خارجية؛ مراجعة pathoanatomy إشارة ASHH.
+6. Ruiz-Moreno et al., Diagnostics 2026 (PMID 42121989, PMC13163305): SNIFR = انشقاق عند HFL/OPL بنمط spoke–wheel؛ HFL نقطة ضعف بنيوية للقوى القصية.
+7. Bringmann et al., PLoS One 2022 (PMID 35417487, PMC9007365): ألياف هنلي تعوض الإزاحة بين الطبقات الداخلية والخارجية؛ مناطق hyporeflective (فراغات كيسية محاطة بحزم هنلي) في foveal hypoplasia عالية الدرجة.
+8. Kar et al., Front Cell Neurosci 2024 (PMID 38994326 — الموجود): Müller glia = 80% من حجم HFL (و95% من أرضية الفوفيا).
+
+**التطبيق (scripts/enrich_henle_v120.py):**
+- outer-plexiform-layer.json 1.1.0 → **1.2.0**: كتلة HFL مخصصة في definition/location/layers/histology_summary/clinical_importance (كل حقيقة باقتباسها) + aliases +3 + keywords +19 (EN+AR) + provenance ميداني لمصادر خارجية؛ 53 ذكرًا لـHenle (كانت 7).
+- macula-fovea.json 1.4.0 → **1.5.0**: جملة ربط الصبغة البقعية بـHFL + keyword + provenance.
+- references.json 72 → **78** (+6: lujan_2011_henle_oct، drasdo_2007_henle_length، iovs_2026_henle_bundles، preteyeres_2023_ashh، diagnostics_2026_snifr_hfl، plosone_2022_foveal_hypoplasia_hfl).
+- تحقق اقتباس حرفي **29/29 PASS** قبل الكتابة.
+- التراكر: صف 14 (RET-005) col13 ختم validate + col21 ملاحظة round 7؛ صف 72 (RV-002) col21 + جملة round 7.
+
+**QA:** validate **72/72** + pytest **10+14 subtests**؛ كل reference_ids تُحل في references.json (78)؛ لا placeholders؛ الحزم: download/KB_full_round_2026-11-08_v3.zip.
+
+**النتيجة للقائمة الستة: كلها مكتملة الآن** — خمسة في macula-fovea.json (v1.5.0) وسادسها (Henle) في outer-plexiform-layer.json (v1.2.0) مع 8 مصادر.
+
+**المتبقي:** RV-001 (صفحات الأوعية الشبكية وولف ص~489-494) + مقترح كارت تطوير الملحقات (من ص663).
