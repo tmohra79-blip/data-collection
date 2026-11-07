@@ -34,7 +34,7 @@ def entity(category, content):
 
 
 def valid_disease():
-    return entity("disease", {
+    result = entity("disease", {
         "definition": "Test disease definition",
         "pathophysiology": "Test mechanism",
         "causes": ["cause"],
@@ -43,10 +43,25 @@ def valid_disease():
         "signs": ["sign"],
         "diagnosis": "Test diagnosis",
         "investigations": ["test"],
-        "treatment": "Test treatment",
+        "treatment": ["Test treatment"],
         "complications": ["complication"],
         "prevention": "Test prevention",
+        "classification": ["Test type"],
+        "differential_diagnosis": ["Other disease"],
+        "prognosis": "Test prognosis",
+        "epidemiology": "Test epidemiology",
+        "imaging_findings": ["Test finding"],
+        "icd10": "H34.1",
     })
+    result["references"] = [
+        {
+            "content_field": field,
+            "status": "documented",
+            "sources": [{"reference_id": "wolff_anatomy", "section": "Test section"}],
+        }
+        for field in validate.DISEASE_CONTENT_FIELDS
+    ]
+    return result
 
 
 def valid_physiology():
@@ -145,6 +160,175 @@ class ComponentRegistryTests(unittest.TestCase):
                     record, ROOT / "fixture.json", self.validators, self.component_ids
                 )
                 self.assertTrue(any(missing_field in error for error in errors))
+
+    def test_disease_schema_and_validator_field_lists_agree(self):
+        schema = validate.load(SCHEMAS / "diseases.schema.json")
+        enum_fields = schema["properties"]["references"]["items"]["properties"][
+            "content_field"
+        ]["enum"]
+        required = schema["properties"]["content"]["required"]
+        self.assertEqual(sorted(enum_fields), sorted(validate.DISEASE_CONTENT_FIELDS))
+        self.assertEqual(sorted(required), sorted(validate.DISEASE_CONTENT_FIELDS))
+
+    def test_disease_treatment_must_be_array(self):
+        record = valid_disease()
+        record["content"]["treatment"] = "Old string style treatment"
+        errors = validate.validate_entity(
+            record, ROOT / "fixture.json", self.validators, self.component_ids
+        )
+        self.assertTrue(any("treatment" in error for error in errors))
+
+    def test_disease_rejects_whitespace_only_values(self):
+        record = valid_disease()
+        record["content"]["definition"] = "   "
+        errors = validate.validate_entity(
+            record, ROOT / "fixture.json", self.validators, self.component_ids
+        )
+        self.assertTrue(any("definition" in error for error in errors))
+
+        record = valid_disease()
+        record["content"]["symptoms"] = ["  "]
+        errors = validate.validate_entity(
+            record, ROOT / "fixture.json", self.validators, self.component_ids
+        )
+        self.assertTrue(any("symptoms" in error for error in errors))
+
+    def test_disease_status_value_linkage_rules(self):
+        known_refs = validate.load_reference_ids(SCHEMAS / "common" / "references.json")
+
+        # (a) null value + status documented -> rejected
+        record = valid_disease()
+        record["content"]["prevention"] = None
+        errors = validate.validate_entity(
+            record, ROOT / "fixture.json", self.validators, self.component_ids, known_refs
+        )
+        self.assertTrue(any(
+            "'prevention' is 'documented' but its value is null" in error for error in errors
+        ))
+
+        # (b) non-null value + status not_available -> rejected
+        record = valid_disease()
+        for ref in record["references"]:
+            if ref["content_field"] == "prognosis":
+                ref["status"] = "not_available"
+        errors = validate.validate_entity(
+            record, ROOT / "fixture.json", self.validators, self.component_ids, known_refs
+        )
+        self.assertTrue(any(
+            "'prognosis' is 'not_available' but its value is not null" in error
+            for error in errors
+        ))
+
+        # (c) null value + not_applicable + empty sources -> accepted
+        record = valid_disease()
+        record["content"]["icd10"] = None
+        for ref in record["references"]:
+            if ref["content_field"] == "icd10":
+                ref["status"] = "not_applicable"
+                ref["sources"] = []
+        errors = validate.validate_entity(
+            record, ROOT / "fixture.json", self.validators, self.component_ids, known_refs
+        )
+        self.assertEqual(errors, [])
+
+    def test_disease_documented_entry_requires_sources(self):
+        record = valid_disease()
+        record["references"][0]["sources"] = []
+        errors = validate.validate_entity(
+            record, ROOT / "fixture.json", self.validators, self.component_ids
+        )
+        self.assertTrue(any("sources" in error for error in errors))
+
+    def test_disease_missing_reference_entry_for_a_field_fails(self):
+        record = valid_disease()
+        record["references"] = [
+            ref for ref in record["references"] if ref["content_field"] != "signs"
+        ]
+        errors = validate.validate_entity(
+            record, ROOT / "fixture.json", self.validators, self.component_ids
+        )
+        self.assertTrue(any("'signs' has no entry in references" in error for error in errors))
+
+    def test_disease_duplicate_reference_entries_fail(self):
+        record = valid_disease()
+        record["references"].append(dict(record["references"][0]))
+        errors = validate.check_disease_rules(record)
+        self.assertTrue(any("duplicate reference entry for 'definition'" in error for error in errors))
+
+    def test_disease_unknown_reference_id_fails(self):
+        record = valid_disease()
+        record["references"][0]["sources"][0]["reference_id"] = "ghost_book"
+        errors = validate.validate_entity(
+            record, ROOT / "fixture.json", self.validators, self.component_ids,
+            validate.load_reference_ids(SCHEMAS / "common" / "references.json"),
+        )
+        self.assertTrue(any(
+            "UNKNOWN reference_id(s)" in error and "'ghost_book'" in error
+            for error in errors
+        ))
+
+    def test_disease_reference_entries_target_unknown_field_fails(self):
+        record = valid_disease()
+        record["references"].append({
+            "content_field": "ghost_field",
+            "status": "documented",
+            "sources": [{"reference_id": "wolff_anatomy", "section": "s"}],
+        })
+        errors = validate.check_disease_rules(record)
+        self.assertTrue(any(
+            "unknown content field" in error and "'ghost_field'" in error
+            for error in errors
+        ))
+
+    def test_disease_documented_without_sources_flagged_by_validator(self):
+        record = valid_disease()
+        for ref in record["references"]:
+            if ref["content_field"] == "definition":
+                ref["sources"] = []
+        errors = validate.check_disease_rules(record)
+        self.assertTrue(any(
+            "'definition' is 'documented' but has no sources" in error
+            for error in errors
+        ))
+
+    def test_disease_not_available_with_sources_flagged_by_validator(self):
+        record = valid_disease()
+        for ref in record["references"]:
+            if ref["content_field"] == "prognosis":
+                ref["status"] = "not_available"  # sources stay non-empty
+        errors = validate.check_disease_rules(record)
+        self.assertTrue(any(
+            "'prognosis' is 'not_available' but its value is not null" in error
+            for error in errors
+        ))
+        self.assertTrue(any(
+            "'prognosis' is 'not_available' but has sources" in error
+            for error in errors
+        ))
+
+    def test_disease_all_reference_ids_resolve(self):
+        record = valid_disease()
+        for ref in record["references"]:
+            if ref["content_field"] in ("definition", "pathophysiology"):
+                ref["sources"] = [
+                    {"reference_id": "wolff_anatomy", "section": "Retina"},
+                    {"reference_id": "statpearls", "section": "Introduction"},
+                ]
+        errors = validate.validate_entity(
+            record, ROOT / "fixture.json", self.validators, self.component_ids,
+            validate.load_reference_ids(SCHEMAS / "common" / "references.json"),
+        )
+        self.assertEqual(errors, [])
+
+    def test_disease_source_requires_section_or_chapter_pages(self):
+        record = valid_disease()
+        record["references"][0]["sources"] = [{"reference_id": "wolff_anatomy"}]
+        errors = validate.validate_entity(
+            record, ROOT / "fixture.json", self.validators, self.component_ids
+        )
+        self.assertTrue(any(
+            "references/0/sources" in error for error in errors
+        ))
 
     def test_unexpected_top_level_properties_fail_real_schemas(self):
         for record in (valid_disease(), valid_physiology()):

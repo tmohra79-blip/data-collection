@@ -22,6 +22,14 @@ CONTENT_FIELDS = [
     "clinical_importance",
 ]
 
+DISEASE_CONTENT_FIELDS = [
+    "definition", "pathophysiology", "causes", "risk_factors",
+    "symptoms", "signs", "diagnosis", "investigations",
+    "treatment", "complications", "prevention",
+    "classification", "differential_diagnosis", "prognosis",
+    "epidemiology", "imaging_findings", "icd10",
+]
+
 SCHEMA_FILES = {
     "anatomy": "Anatomy.schema.json",
     "disease": "diseases.schema.json",
@@ -114,24 +122,36 @@ def load_reference_ids(registry_path: Path) -> set[str]:
     return ids
 
 
-def check_anatomy_rules(entity: dict) -> list[str]:
-    """Cross-field reference rules retained from the anatomy validator."""
+def check_field_status_rules(entity: dict, fields: list[str]) -> list[str]:
+    """Shared value/status linkage rules for per-field reference entries.
+
+    Enforced here (and mirrored by the JSON Schemas):
+      1. Exactly one reference entry per content field (no duplicates, no gaps)
+         and no entries targeting unknown content fields.
+      2. Value/status linkage: 'documented' requires a non-null value and at
+         least one source; 'not_available'/'not_applicable' require a null
+         value and an empty sources list.
+    """
     errors = []
     content = entity.get("content", {})
     refs = entity.get("references", [])
     if not isinstance(content, dict) or not isinstance(refs, list):
         return errors
 
-    by_field = {}
+    known_fields = set(fields)
+    by_field: dict[str, dict] = {}
     for ref in refs:
         if not isinstance(ref, dict):
             continue
         field = ref.get("content_field")
+        if field not in known_fields:
+            errors.append(f"reference entry targets unknown content field {field!r}")
+            continue
         if field in by_field:
             errors.append(f"duplicate reference entry for '{field}'")
         by_field[field] = ref
 
-    for field in CONTENT_FIELDS:
+    for field in fields:
         if field not in content:
             continue  # The schema reports missing required fields.
         ref = by_field.get(field)
@@ -140,11 +160,29 @@ def check_anatomy_rules(entity: dict) -> list[str]:
             continue
         status = ref.get("status")
         value = content[field]
-        if status == "documented" and value is None:
-            errors.append(f"'{field}' is 'documented' but its value is null")
-        if status in ("not_available", "not_applicable") and value is not None:
-            errors.append(f"'{field}' is '{status}' but its value is not null")
+        sources = ref.get("sources", [])
+        has_sources = isinstance(sources, list) and len(sources) > 0
+        if status == "documented":
+            if value is None:
+                errors.append(f"'{field}' is 'documented' but its value is null")
+            if not has_sources:
+                errors.append(f"'{field}' is 'documented' but has no sources")
+        if status in ("not_available", "not_applicable"):
+            if value is not None:
+                errors.append(f"'{field}' is '{status}' but its value is not null")
+            if has_sources:
+                errors.append(f"'{field}' is '{status}' but has sources")
     return errors
+
+
+def check_anatomy_rules(entity: dict) -> list[str]:
+    """Cross-field reference rules retained from the anatomy validator."""
+    return check_field_status_rules(entity, CONTENT_FIELDS)
+
+
+def check_disease_rules(entity: dict) -> list[str]:
+    """Value/status linkage rules for disease cards (same model as anatomy)."""
+    return check_field_status_rules(entity, DISEASE_CONTENT_FIELDS)
 
 
 def check_reference_ids(entity: dict, known_reference_ids: set[str]) -> list[str]:
@@ -201,6 +239,8 @@ def validate_entity(
         errors.append("UNKNOWN component ID(s): " + ", ".join(unknown))
     if category == "anatomy":
         errors.extend(check_anatomy_rules(entity))
+    elif category == "disease":
+        errors.extend(check_disease_rules(entity))
     if known_reference_ids is not None:
         errors.extend(check_reference_ids(entity, known_reference_ids))
     return errors

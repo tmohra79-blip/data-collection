@@ -5,14 +5,12 @@
   "type": "object",
   "unevaluatedProperties": false,
   "allOf": [
-    {
-      "$ref": "common/base-entity.schema.json"
-    }
+    { "$ref": "common/base-entity.schema.json" }
   ],
+  "required": ["category", "content", "references"],
   "properties": {
-    "category": {
-      "const": "disease"
-    },
+    "category": { "const": "disease" },
+
     "content": {
       "type": "object",
       "additionalProperties": false,
@@ -27,76 +25,85 @@
         "investigations",
         "treatment",
         "complications",
-        "prevention"
+        "prevention",
+        "classification",
+        "differential_diagnosis",
+        "prognosis",
+        "epidemiology",
+        "imaging_findings",
+        "icd10"
       ],
       "properties": {
-        "definition": {
-          "type": "string",
-          "minLength": 1
-        },
-        "pathophysiology": {
-          "type": "string",
-          "minLength": 1
-        },
-        "causes": {
-          "type": "array",
-          "items": {
-            "type": "string"
+        "definition":        { "type": ["string", "null"], "minLength": 1, "pattern": "\\S", "description": "null = not documented / not applicable; the reason goes in the matching references entry status" },
+        "pathophysiology":   { "type": ["string", "null"], "minLength": 1, "pattern": "\\S" },
+        "causes":            { "type": ["array", "null"], "minItems": 1, "items": { "type": "string", "minLength": 1, "pattern": "\\S" } },
+        "risk_factors":      { "type": ["array", "null"], "minItems": 1, "items": { "type": "string", "minLength": 1, "pattern": "\\S" } },
+        "symptoms":          { "type": ["array", "null"], "minItems": 1, "items": { "type": "string", "minLength": 1, "pattern": "\\S" } },
+        "signs":             { "type": ["array", "null"], "minItems": 1, "items": { "type": "string", "minLength": 1, "pattern": "\\S" } },
+        "diagnosis":         { "type": ["string", "null"], "minLength": 1, "pattern": "\\S" },
+        "investigations":    { "type": ["array", "null"], "minItems": 1, "items": { "type": "string", "minLength": 1, "pattern": "\\S" } },
+        "treatment":         { "type": ["array", "null"], "minItems": 1, "items": { "type": "string", "minLength": 1, "pattern": "\\S" }, "description": "One entry per treatment modality, e.g. ['Intravitreal anti-VEGF injections', 'Laser photocoagulation', 'Pars plana vitrectomy', 'Systemic corticosteroids']" },
+        "complications":     { "type": ["array", "null"], "minItems": 1, "items": { "type": "string", "minLength": 1, "pattern": "\\S" } },
+        "prevention":        { "type": ["string", "null"], "minLength": 1, "pattern": "\\S" },
+        "classification":    { "type": ["array", "null"], "minItems": 1, "items": { "type": "string", "minLength": 1, "pattern": "\\S" }, "description": "Types/stages, e.g. CRVO: ischemic vs non-ischemic; DR: NPDR mild/moderate/severe, PDR" },
+        "differential_diagnosis": { "type": ["array", "null"], "minItems": 1, "items": { "type": "string", "minLength": 1, "pattern": "\\S" } },
+        "prognosis":         { "type": ["string", "null"], "minLength": 1, "pattern": "\\S" },
+        "epidemiology":      { "type": ["string", "null"], "minLength": 1, "pattern": "\\S" },
+        "imaging_findings":  { "type": ["array", "null"], "minItems": 1, "items": { "type": "string", "minLength": 1, "pattern": "\\S" }, "description": "Modality-specific findings, e.g. OCT, OCTA, FFA, B-scan" },
+        "icd10":             { "type": ["string", "null"], "minLength": 1, "pattern": "\\S" }
+      }
+    },
+
+    "references": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Exactly one entry per content field: status 'documented' requires >=1 source; status 'not_applicable'/'not_available' requires sources: [] and the field value must be null.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["content_field", "status", "sources"],
+        "properties": {
+          "content_field": {
+            "type": "string",
+            "enum": [
+              "definition", "pathophysiology", "causes", "risk_factors",
+              "symptoms", "signs", "diagnosis", "investigations",
+              "treatment", "complications", "prevention",
+              "classification", "differential_diagnosis", "prognosis",
+              "epidemiology", "imaging_findings", "icd10"
+            ]
           },
-          "minItems": 1
-        },
-        "risk_factors": {
-          "type": "array",
-          "items": {
-            "type": "string"
+          "status": {
+            "type": "string",
+            "enum": ["documented", "not_applicable", "not_available"]
           },
-          "minItems": 1
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["reference_id"],
+              "properties": {
+                "reference_id": { "type": "string", "minLength": 1 },
+                "chapter":      { "type": "string", "minLength": 1 },
+                "pages": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": { "type": "integer", "minimum": 1 }
+                },
+                "section":      { "type": "string", "minLength": 1 }
+              },
+              "anyOf": [
+                { "required": ["section"] },
+                { "required": ["chapter", "pages"] }
+              ]
+            }
+          }
         },
-        "symptoms": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          },
-          "minItems": 1
-        },
-        "signs": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          },
-          "minItems": 1
-        },
-        "diagnosis": {
-          "type": "string",
-          "minLength": 1
-        },
-        "investigations": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          },
-          "minItems": 1
-        },
-        "treatment": {
-          "type": "string",
-          "minLength": 1
-        },
-        "complications": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          },
-          "minItems": 1
-        },
-        "prevention": {
-          "type": "string",
-          "minLength": 1
-        }
+        "if":   { "properties": { "status": { "const": "documented" } } },
+        "then": { "properties": { "sources": { "minItems": 1 } } },
+        "else": { "properties": { "sources": { "maxItems": 0 } } }
       }
     }
-  },
-  "required": [
-    "category",
-    "content"
-  ]
+  }
 }
