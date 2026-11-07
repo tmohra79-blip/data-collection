@@ -1,0 +1,272 @@
+{
+  "entity_id": "iris_vessels_innervation",
+  "component_ids": [
+    "comp_cornea",
+    "comp_lens"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Iris Vasculature and Innervation",
+    "ar": "أوعية القزحية وتعصيبها",
+    "aliases": [
+      "circulus iridis major",
+      "circulus vasculosus iridis minor",
+      "major arterial circle of the iris",
+      "minor arterial circle",
+      "iris vascular arcades",
+      "tube-within-a-tube vessels",
+      "الدائرة الشريانية الكبرى للقزحية",
+      "الدائرة الصغرى للقزحية",
+      "تعصيب القزحية",
+      "الحاجز الدموي المائي"
+    ]
+  },
+  "content": {
+    "definition": "The vascular and neural apparatus of the iris: radially oriented, slightly sinuous vessels arising from the major arterial circle (which lies in the ciliary body, not the iris itself) and a three-plexus nerve supply derived from the long and short ciliary nerves (pp. 320, 325). Iridial vessels have a unique 'tube-within-a-tube' wall with no smooth muscle in arterioles or venules, and their non-fenestrated, tightly-junctioned endothelium makes them a component of the blood-aqueous barrier (pp. 322-323, 331-332).",
+    "location": "The arteries arise mainly from the major arterial circle of the iris, an anastomosis lying in the ciliary body anterior to the circular part of the ciliary muscle; the circulus iridis major is 'really located in the ciliary body' (pp. 320, 374, 398). Vessels enter the iris at the attachments of the ciliary processes and in intervals between the peripheral crypts (Leber) (p. 404). Nerves reach the iris via the ciliary plexus after running forward between choroid and sclera (p. 325).",
+    "layers": [
+      "Vessel wall (iridial vessels, monkey data Freddo & Raviola 1982b, matching human): 1) continuous endothelium on a basal lamina; 2) discontinuous pericytes between two thick basal laminae; 3) NO smooth muscle layer — instead an adventitia of fibroblasts, melanocytes and occasional macrophages with circularly oriented collagen; the inner zone is type VI collagen-positive (fine fibrils 30-60 nm) and the outer sheath fibronectin-positive (fibrils 30-125 nm) (pp. 322-323)",
+      "Only capillaries of 10-15 µm calibre can be correctly designated as such; arterioles, postcapillary venules and venules cannot be properly classified — the whole network is vessels of differing diameters but identical fine structure (no ACV units), explaining the lack of a clear-cut filling pattern in iris angiograms (p. 322)",
+      "The adventitia forms a distinctive tubular arrangement ('tube-within-a-tube') with a space between media-zone and adventitia continuous with the iris stroma, adapting the vessels to iris movement (pp. 322-323)",
+      "Arterial organization: major arterial circle (incomplete in some regions — Fryczkowski, 1978; Greider & Egbert, 1980) gives radial branches that form the incomplete minor arterial circle near the collarette, from which capillary arcades extend toward the pupil (pp. 308, 320-321, 374)"
+    ],
+    "blood_supply": "The arteries arise from the circulus iridis major, often together with branches to the ciliary processes; there is also a supply from perforating branches of the anterior ciliary arteries (p. 404). The major circle is formed predominantly by the long posterior ciliary arteries (p. 398) and may be discontinuous (Fryczkowski, 1978; Greider & Egbert, 1980) (p. 320). Direct iris arteries from anterior ciliary arteries also occur (Woodlief, 1980) (p. 320). A dense capillary plexus surrounds the sphincter muscle and a less dense plexus lies anterior to the dilator (p. 404). Flat-preparation study confirms the minor arterial circle forms by a branch of the iris artery travelling from the iris root to the pupil (song_2009_iris_vessels). The iris capillary endothelium has a thick (0.5 µm), often multilayered basal lamina with round/oval bodies similar to Weibel-Palade bodies (p. 405, 324).",
+    "venous_drainage": "Iris veins run like the arteries, anastomose with each other, and at the ciliary border enter the ciliary body to join the veins of the ciliary processes and so the venae vorticosae (p. 406). Venous collector channels traverse the ciliary body to reach the ciliary plexus (Saari, 1972) (p. 323). Iris veins pass posterior to the major arterial circle to enter the choroidal veins (Fig. 11.25 legend, p. 401).",
+    "innervation": "Nerves arise as numerous branches of the ciliary plexus, largely non-myelinated, forming plexuses in the anterior border layer (possibly sensory), around vessels, and anterior to the dilator pupillae; they supply all layers except the posterior pigmented epithelium (p. 325). The dilator is innervated by sympathetic fibres via the long ciliary nerves, endings lying about 20 nm from the cell membrane (p. 328). Both sphincter and dilator show adrenergic and cholinergic activity (Lowenstein & Loewenfeld, 1969) (pp. 325, 405). Sympathetic fibres densely innervate the vasculature with constant vasoconstrictor tone (Ehinger, 1966); cholinergic innervation is heavier to the sphincter (Nishida & Sears, 1969); substance P/CGRP fibres innervate especially the sphincter in some species (pp. 618-619). Oculomotor stimulation contracts the sphincter and inhibits the dilator; the sympathetic is motor to the dilator and inhibitor to the sphincter (p. 603).",
+    "histology_summary": "The vascular endothelium of the human iris is non-fenestrated (Vegge & Ringvold, 1969; Hogan et al., 1971; Ikui et al., 1960) and its cells are joined by tight junctions — the morphological basis of the iris contribution to the blood-aqueous barrier (pp. 323-324, 331). Iridial vessels have a homogeneous structure regardless of diameter (no arteriole-capillary-venule units; Freddo & Raviola, 1982b) (p. 322). Plasma protein normally cannot pass from iris vessels into stroma; intravenously injected horseradish peroxidase is prevented from reaching the posterior chamber by the zonulae occludentes of the posterior pigmented epithelium (p. 333). The anterior iris surface and stroma are freely accessible to diffusion from the aqueous, so the anterior and posterior chambers have different permeability properties (p. 332).",
+    "clinical_importance": "With inflammation (e.g. iritis) the endothelial barrier breaks down and protein passes into the aqueous, visible as aqueous flare; endotoxin-induced uveitis simplifies and disrupts endothelial tight junctions with leakage through interendothelial clefts (Freddo & Sacks-Wilner, 1989) (p. 333). Iridial vessels, unlike retinal vessels, become leaky after histamine exposure (Ashton & Cunha-Vaz, 1965; Shakib & Cunha-Vaz, 1966) (p. 334). Complete tenotomy in macaques and baboons reduces anterior segment blood flow by 70-80%, and collateral supply from the major circle is not great (Hayreh & Scott, 1978) (p. 321) — the clinical correlate of anterior segment ischaemia after multiple rectus disinsertions (p. 376). Pupil responses: light-near dissociation after aberrant reinnervation (Adie tonic pupil, ciliary ganglionitis — Loewenfeld & Thompson, 1967) (p. 616); Horner's syndrome produces miosis from dilator paresis with slowed post-flash dilatation (p. 616-617). Vasomotor fibres reach the iris sphincter and other ocular parts (p. 603)."
+  },
+  "relationships": [
+    {
+      "relation_type": "supplied_by",
+      "target_id": "ciliary_body_vessels_nerves",
+      "target_name": "Ciliary body vessels and nerves (major arterial circle and ciliary plexus lie in the ciliary body)"
+    },
+    {
+      "relation_type": "part_of",
+      "target_id": "iris",
+      "target_name": "Iris (vascular and neural apparatus of the iris stroma)"
+    },
+    {
+      "relation_type": "drains_into",
+      "target_id": "vortex_veins",
+      "target_name": "Vortex veins (iris veins join ciliary process veins, then venae vorticosae)"
+    },
+    {
+      "relation_type": "barrier_of",
+      "target_id": "anterior_chamber",
+      "target_name": "Anterior chamber (non-fenestrated iris endothelium + posterior epithelium zonulae occludentes bound the blood-aqueous barrier)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "circulus iridis major",
+      "minor arterial circle",
+      "iris angiography",
+      "tube-within-a-tube",
+      "iris capillaries",
+      "blood-aqueous barrier",
+      "aqueous flare",
+      "iritis",
+      "tenotomy ischaemia",
+      "dilator sympathetic",
+      "sphincter parasympathetic",
+      "Edinger-Westphal",
+      "الدائرة الشريانية الكبرى",
+      "الدائرة الصغرى",
+      "تصوير القزحية",
+      "الحاجز الدموي المائي",
+      "التهاب القزحية",
+      "تعصيب القزحية"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "song_2009_iris_vessels"
+    ],
+    "last_updated": "2026-11-05",
+    "version": "1.0.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "9",
+          "pages": [
+            320,
+            322,
+            325
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "9",
+          "pages": [
+            320,
+            325
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            374,
+            398,
+            404
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "9",
+          "pages": [
+            320,
+            321,
+            322,
+            323
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "9",
+          "pages": [
+            320,
+            321
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            398,
+            404,
+            405
+          ]
+        },
+        {
+          "reference_id": "song_2009_iris_vessels",
+          "section": "Minor arterial circle formation from iris artery branch (flat preparation)"
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "9",
+          "pages": [
+            323
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            401,
+            406
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "9",
+          "pages": [
+            325,
+            328
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            405
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "16",
+          "pages": [
+            603,
+            618,
+            619
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "9",
+          "pages": [
+            322,
+            323,
+            324,
+            331,
+            332,
+            333
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "9",
+          "pages": [
+            321,
+            333,
+            334
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            376
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "16",
+          "pages": [
+            616,
+            617
+          ]
+        }
+      ]
+    }
+  ]
+}

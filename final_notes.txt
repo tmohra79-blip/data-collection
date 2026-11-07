@@ -1,0 +1,35 @@
+OPTIC NERVE - FINAL DELIVERY v1.3.0 (StatPearls round complete)
+===============================================================
+Commit: 59dede8 (on top of batch-5 47c3eda / batch-4 03f6823)
+
+WHAT'S IN THIS ROUND:
+  - StatPearls NBK507907 'Neuroanatomy, Cranial Nerve 2 (Optic)' (Smith & Czyz, 2022-11-07)
+  - StatPearls NBK542287 'Neuroanatomy, Optic Chiasm' (Ireland & Carter, 2023-05-01)
+  Both fetched via /sites/books/ path, saved to download/sources/, read in FULL
+  (2,597 + 5,014 words). 25/25 literal quote checks passed BEFORE any write.
+
+CARD CHANGES (append-only, 1.2.0 -> 1.3.0):
+  optic-nerve.json: definition + synaptic targets (SCN/LGN/pretectal/colliculus)
+    + afferent limb of light/accommodation reflexes; location + chiasm ~10 mm above
+    pituitary in suprasellar cistern + 3rd ventricle relation; clinical + chiasm
+    position variants (normo-fixed 85% / pre-fixed 7.5% / post-fixed 8%), lesion
+    localisation incl. pituitary compression sequence, optic pathway glioma (3-5%
+    paediatric, 6.6-20% NF1), RAPD/Marcus Gunn + swinging flashlight test;
+    histology + unmyelinated-until-lamina rationale, optic stalk 4th week, hyaloid
+    -> CRA/CRV, gestational myelination timeline (LGN 5mo/tract 6mo/chiasm 6-7mo/
+    nerve 8mo; crossed 7-8wk, uncrossed 11wk), knees-of-Wilbrand modern-imaging caveat.
+  optic-nerve-sheath.json: clinical + ICP propagation -> papilloedema mechanism.
+  optic-nerve-blood-supply.json: blood_supply + OA = first ICA branch distal to
+    cavernous sinus, inferolateral canal course, circle of Willis perfusion.
+  schemas/common/references.json: +2 statpearls entries (12 -> 14 sources).
+  Tracker rows ON-001/ON-003/ON-005 updated (cols G/U).
+
+UNCHANGED (corroborating facts already covered by Wolff citations):
+  optic-disc.json + optic-nerve-septa.json (stay v1.2.0).
+
+QA: validate.py 27/27 OK | pytest 10 passed + 14 subtests green.
+Wolff census: 25/27 pages processed; pages 718-719/722-723 skipped by owner decision
+(bibliography/index - no facts expected).
+
+HOW TO APPLY: git fetch /path/to/optic-nerve-FINAL-v130.bundle main && git merge FETCH_HEAD
+OR unzip optic-nerve-FINAL-v130-delivery.zip over the repo root, review, commit, push.

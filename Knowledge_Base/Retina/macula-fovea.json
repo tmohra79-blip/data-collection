@@ -1,0 +1,366 @@
+{
+ "entity_id": "macula_fovea",
+ "component_ids": [
+  "comp_retina"
+ ],
+ "category": "anatomy",
+ "nomenclature": {
+  "en": "Macula Lutea and Fovea Centralis",
+  "ar": "البقعة الصفراء والنقرة المركزية",
+  "aliases": [
+   "macula",
+   "area centralis",
+   "fovea centralis",
+   "foveola",
+   "parafovea",
+   "perifovea",
+   "clivus",
+   "fovea externa",
+   "Henle's fibre layer",
+   "rod-free zone",
+   "macular region",
+   "البقعة الصفراء",
+   "المنطقة المركزية",
+   "النقرة المركزية",
+   "حفرة القزحية المركزية",
+   "الحزام المجاور للحفرة",
+   "الحزام المحيط بالحفرة",
+   "المنطقة الخالية من العصيات",
+   "ألياف هنلي",
+   "umbo",
+   "macular pigment",
+   "foveal umbo",
+   "central plateau of the foveola",
+   "أومبو"
+  ]
+ },
+ "content": {
+  "definition": "The macula lutea (area centralis) is the specialized central region of the sensory retina for detailed daylight vision, organized in concentric belts: 'At the centre of the rod-free fovea centralis (1.85 mm wide) is the foveola (0.35 mm wide). The 0.5 mm wide band outside this defines the parafovea, and the 1.5 mm band beyond this is the perifovea. These zones together make up the macula (area centralis)' (p. 226). Table 6.1 gives the macula lutea as about 5 mm and the area centralis as 5-6 mm in the horizontal meridian, 'subtending 18°20' of the visual field', with the rod-free zone at 0.57 mm (p. 220). Ophthalmoscopically the area centralis is demarcated as a zone of 5.5-6 mm diameter, whose zones 'are in fact horizontal elliptical, rather than circular' (p. 226, Fig. 6.21). The name 'macula lutea' reflects the faint yellow colour of the central retina, seen as a zone approximately 5 mm in diameter: 'The yellow colouration probably derives from the presence of the carotenoid pigment, xanthophyll, in the ganglion and bipolar cells' — a finding the text offers to explain 'the apparent confusion in the use of the terms macula, macular area, and macula lutea clinically and histologically' (p. 457). Modern sources identify the macular pigments as the dietary carotenoids lutein and zeaxanthin, which produce the yellow colouring (StatPearls, Anatomy Head and Neck: Retina, 2023).",
+  "location": "At the posterior pole of the fundus, temporal to the optic disc: 'The centre of the optic disc is about 4 mm nasal to the fovea' (p. 226). Quantitatively, the disc centre lies 3.42 (±0.34) mm medial and 0.1 mm inferior to the fovea, and the disc is 27 mm from the nasal and 31 mm from the temporal limbus (p. 228). The fovea centralis (1.85 mm) carries at its centre the foveolar pit (0.35 mm); the surrounding belts are the parafovea (0.5 mm; 0.55 mm in the Fig. 6.21 legend) and the perifovea (1.5 mm) (pp. 220, 226). Ophthalmoscopically 'the macula is seen as an area darker than the remainder of the fundus. Its centre, the fovea, is seen as a whitish reflex located below the centre of the optic disc' (p. 456, Fig. 14.3). The innermost point of the foveolar floor is termed the umbo; the StatPearls macular subdivision lists the concentric zones, from periphery to centre, as perifovea, parafovea, fovea, foveal avascular zone, foveola and umbo (StatPearls, Anatomy Head and Neck: Retina, 2023). The innermost subdivision, the umbo, is absent from Wolff's text and is documented here from the ophthalmic literature: 'The fovea, the foveola and its central plateau (called the umbo) measure approximately 1.5 mm, 0.3 mm and 0.15 mm in diameter, respectively' (Klaas et al., Eye, 2023), and Webvision likewise describes 'a foveal pit (umbo) that is a mere 0.15 mm across'. The umbo is the very centre of the fovea — 'The umbo, at the center, lacks RGCs' (Bucci et al., Nature Neuroscience, 2025) — and is identified with 'the center of the foveal depression (umbo)' (Kar et al., Frontiers in Cellular Neuroscience, 2024). The foveal avascular zone centred on the umbo measures 'approximately 0.2 to 1 mm' in diameter in humans (Koksaldi et al., Med Hypothesis Discov Innov Ophthalmol, 2025), while Webvision puts the avascular central fovea at 0.5 mm across. The foveal avascular zone — definition and normative size (external sources): 'A region without vasculature around the fovea is called the foveal avascular zone (FAZ)' (Yoshimura et al., Transl Vis Sci Technol, 2026). Population-based norms: 'We included 1004 participants (aged 59.91 ± 9.39 years; 49.3% female) of the 10-year follow-up of the Gutenberg Health Study, a population-based, prospective cohort Study in Mainz, Germany, with gradable optical coherence tomography angiography of the macula', 'The mean FAZ area was 0.27 ± 0.12 mm2' and 'The normative 5th to 95th percentile range for FAZ area was 0.08 to 0.47 mm2' (Welzel et al., Transl Vis Sci Technol, 2026). In 224 eyes of 112 volunteers (age 12-67) 'The mean ± SD value of superficial and deep FAZ area were 0.27 ± 0.11 mm2 and 0.35 ± 0.12 mm2, respectively (P < 0.001)' (Ghassemi et al., J Curr Ophthalmol, 2017), and in 101 healthy elderly eyes (mean age 64.2 ± 10.1 years) 'The mean FAZ size was 0.35 ± 0.12 mm2' (Hasegawa et al., Sci Rep, 2026). The FAZ centre is not exactly the photoreceptor centre: 'The distance between the center of the FAZ and the center of the foveal photoreceptors was 41.6 ± 21.1 µm' (Hasegawa et al., 2026).",
+  "layers": [
+   "Foveola — floor of the foveal pit: photoreceptors here are exclusively cones with 'long, slender, rod-like inner and outer segments'; because of their arrangement the external limiting membrane is bowed forward and 'derives the name fovea externa' (p. 227, Fig. 6.22)",
+   "Outer nuclear layer at the fovea — 'thickened', formed by the densely packed foveal cone nuclei displaced centrally (p. 227, Fig. 6.22)",
+   "Outer plexiform layer at the fovea — the photoreceptor axons '(Henle's fibres) radiate to synapse with the dendrites of the inner nuclear layer (INL) which terminates at the edge of the foveola with the slope of the clivus (CL)' (p. 227, Fig. 6.22)",
+   "Absent inner layers — 'the extreme thinness of the retina at the foveola is due to absence of inner retinal layers (nerve fibres), ganglion cells, inner plexiform and nuclear layers' (p. 227, Fig. 6.22)",
+   "Displaced ganglion cells — 'ganglion cells are displaced away from the foveal cones, so that the retina here is half the thickness of retina elsewhere. This displacement reduces light scattering at the fovea and facilitates resolution of fine detail' (p. 228)"
+  ],
+  "blood_supply": "'The retinal arteries and veins form superior and inferior nasal and temporal arches spreading from the optic disc head. They are internal to the layer of nerve fibres. The retinal capillaries supply only the inner layers of the retina. The ratio of choroidal to retinal blood flow is about 10:1' (p. 228). Because the foveola lacks all inner retinal layers (p. 227) and 'the retinal capillaries supply only the inner layers of the retina' (p. 228), the central foveola is avascular and depends on the choroidal circulation external to the pigment epithelium. Capillary architecture of the FAZ (external sources): OCTA resolves the retinal capillaries into superficial (SCP), intermediate (ICP) and deep (DCP) plexuses, and the avascular zone exists at each level with different sizes — 'the mean superficial FAZ area was 0.27 mm2, and deep FAZ area was 0.35 mm2 (P < 0.001), with no difference between both eyes', and 'The areas of superficial and deep FAZ were highly correlated (r = 0.82, P < 0.001)' (Ghassemi et al., 2017); FAZ areas measured in the total retina and the intermediate plexus agree closely (ICC = 0.98; Welzel et al., 2026). Around the zone the perifoveal capillaries run radially inward: an astrocyte-coupling angiogenesis model 'recapitulated various features of the human retinal vascular pattern, including a radially outward vascular pattern from the optic disc, inferior and superior temporal arcades, FAZ formation, a radially inward vascular pattern around FAZ', consistent with astrocytes supporting endothelial tip-cell migration during FAZ formation (Yoshimura et al., Transl Vis Sci Technol, 2026).",
+  "venous_drainage": null,
+  "innervation": null,
+  "histology_summary": "Photoreceptor specialization peaks centrally: 'Density of cones is highest at the rod-free foveola (199 000/mm2) and decreases towards the periphery (5000/mm2). The fovea centralis contains approximately 100 000 cones. Rods first appear 130 μm from the foveal centre and reach maximum density (160 000/mm2) 2.5-3.0 mm from the fovea (at the edge of the area centralis)' (p. 227) [OCR-unverified: the foveola cone 'total' figure is garbled in the source scan; Table 6.1 (p. 220) lists 35 000 cones in the rod-free fovea]. The modern quantitative baseline, repeatedly cited by the text, is Curcio et al. (1990): foveal peak cone density averages 199 000 cones/mm2 (range 100 000-324 000), cone spacing increasing from 2.53 (±0.29) μm centrally to 6.16 (±1.04) μm with eccentricity, and the anatomical Nyquist limit 48-86 cycles/degree (mean 66) (p. 466, ch. 14). Foveal cones reach 80 μm in length, reducing to 40 μm at the periphery (p. 468, ch. 14); 'foveal blue cones are sparse, irregularly spaced, and absent in a zone about 100 μm (0.35°) in diameter near the site of peak cone density', the highest blue-cone density (>2000 cells/mm2) forming a ring at 0.1-0.3 mm eccentricity (p. 468, ch. 14). 'A one-to-one ratio of rods to cones is seen 0.5 mm nasal and temporal, and 0.4 mm superior and inferior, to the centre of the fovea' (p. 467, ch. 14). Retinal context: the retina proper covers 266 mm2, is thickest near the disc margins (0.56 mm) and thinnest at the ora serrata (0.1 mm) (p. 227); nerve fibres temporal to the fovea start from a horizontal raphe (p. 228). Macular pigment: the yellow colour remains 'for several hours to a few days in enucleated eyes kept at 4°C and can be visualized in flat, unfixed preparations of the central retina', persists 'for several weeks or months' after aldehyde fixation, yet 'may be extracted from retinas treated with alcohol' (Tripathi and Tripathi, 1984; p. 457). Its composition is xanthophyll carotenoids — lutein, zeaxanthin and meso-zeaxanthin — with the xanthophyll pigment found in high concentration at the fovea (StatPearls, Haidinger Brush Phenomenon, 2023). Fig. 14.18 caption data (p. 466, Curcio et al. 1990): the edge of the rod-free zone lies 0.125 mm temporal to the foveal centre (arrowhead denotes a rod), the point of equal rod and cone density lies 0.42 mm nasal, and on the foveal slope 0.66 mm temporal small rods outnumber cones by approximately 4:1 and encircle them incompletely. Umbo and foveolar floor (external sources; not covered in Wolff): the innermost layer of the foveola 'is primarily composed of Muller cell bodies and their processes' (Koksaldi et al., 2025), the glial specialization known as the Müller cell cone occupying 'the central foveal pit, i.e., umbo' (Kar et al., 2024). Connectivity: 'In the umbo, the very center of the fovea, photoreceptor axons connect radially outward to displaced bipolar cells within the foveal shoulder, which, in turn, connect to RGCs arranged in a ring-like structure around the umbo' (Bucci et al., Nature Neuroscience, 2025). The central mosaic is short-wavelength-free: 'At the very center of the foveal cone mosaic lies a tiny area, approximately 0.1 millimeters wide, and lacks S-cones' (Koksaldi et al., 2025), and 'Rods are not present in the foveal pit, appearing first halfway into the foveal slope, beyond the 300 µm diameter area' (Webvision, Kolb et al.). Site of the pigment concentration (external sources): 'In the human eye, the highest concentration of macular pigment is found in the Henle fiber layer at the fovea, with a significant reduction in pigment density as distance from the foveal center increases' (Koksaldi et al., Med Hypothesis Discov Innov Ophthalmol, 2025).",
+  "clinical_importance": "Vitreomacular adhesion: vitreous fibrils attach to 'the retina at the discal margin, macula, vessels' (p. 225), and in young eyes 'a similar annular attachment 3-4 mm in diameter is seen in young eyes at the macular region' (p. 226, Fig. 6.20) — the anatomical basis of vitreomacular traction and of macular risk during posterior vitreous separation. Foveal maturation lags after birth: neonatal visual acuity is 'two orders of magnitude lower than that in adults' (p. 466, ch. 14); in monkeys adult foveal cone packing is attained only at 15-18 months and human cone density is estimated to rise until 5-8 years of age (p. 466, ch. 14). In ocular albinism 'the adult fovea is reported to be comparable to that of a neonate, both morphologically and psychophysically' (p. 467, ch. 14). The foveola's 0.35 mm rod-free diameter corresponds to 1.25° of the visual field (p. 467, ch. 14). Surgical surface-anatomy landmark (Wolff ch. 6, pp. 231-232): the posterior margin of the inferior oblique insertion lies 3-6 mm anterior to the edge of the optic nerve, 1 mm below its lower limit, and only 1-2 mm from the fovea, and is close to the lower temporal vortex vein — the key relationship when operating on the inferior oblique or in the inferotemporal quadrant near the fovea (cross-reference: Muscles/inferior-oblique.json, MUS-007). Macular pigment: the pigments 'are known to have anti-inflammatory and blue-light filtering properties' (StatPearls, Anatomy Head and Neck: Retina, 2023). The dichroism of the xanthophyll pigment underlies the entoptic Haidinger brush phenomenon, whose perception correlates with an individual's macular pigment optical density (MPOD); xanthophyll supplementation is used to raise MPOD in age-related macular degeneration, and altered brush perception can flag macular disease including AMD, macular telangiectasia and Stargardt disease (StatPearls, Haidinger Brush Phenomenon, 2023). Dietary supplementation of lutein and zeaxanthin 'has been shown to increase pigment density and is associated with reduced risk of diabetic retinopathy in adults and retinopathy of prematurity in infants born pre-term' (StatPearls, Anatomy Head and Neck: Retina, 2023). Imaging relevance of the umbo (external sources): OCT scan centration relies on it — 'scan centration was manually reviewed and re-centered using the foveal umbo as the anatomic landmark prior to image acquisition' (Song et al., Transl Vis Sci Technol, 2026). Its small size limits routine imaging: 'Because of the very small size of the umbo, it is not guaranteed to examine the umbo in standard OCT protocols' (Furashova and Matthé, Sci Rep, 2020). The foveal crack sign — 'a hyperreflective vertical line in the umbo extending from the ellipsoid zone through middle retinal layers reaching the internal limiting membrane (ILM)' — was observed 'in the umbo of the left eye with mild vitreomacular traction' with 'progression to full-thickness macular hole formation 9 months later' in the illustrated case, supporting its role as a predictive biomarker for macular hole development in fellow eyes (Furashova and Matthé, 2020). The FAZ as a clinical biomarker (external sources): 'OCTA permits superior discrimination of the foveal avascular zone (FAZ), especially in FAZ enlargement, disruption, and capillary dropout, compared with fluorescein angiography', and 'Changes in the FAZ have been described in various ophthalmologic diseases such as diabetic eye disease and retinal vascular occlusions' with FAZ variations studied as 'a potential biomarker in multiple sclerosis, Alzheimer disease, Parkinson disease, or the activity of inflammatory bowel disease' (Welzel et al., Transl Vis Sci Technol, 2026). Within normality the FAZ is age- and systemic-disease-independent — 'No association was found with age, body mass index, blood pressure, diabetes, smoking, chronic kidney disease, socioeconomic status, or best-corrected visual acuity' — while 'The FAZ area was larger in females and in participants with a shorter axial length' (Welzel et al., 2026). In diabetes the FAZ enlarges before clinically visible retinopathy: control 0.278 ± 0.01 mm2, diabetes without retinopathy 0.308 ± 0.02 mm2, NPDR 0.351 ± 0.03 mm2 (right eyes), so that 'even in diabetic patients without clinically visible DR, FAZ area is already larger than in healthy eyes', and 'FAZ area was positively correlated with the duration of diabetes and BMI' (Wei et al., Clin Ophthalmol, 2025)."
+ },
+ "relationships": [
+  {
+   "relation_type": "part_of",
+   "target_id": "photoreceptor_layer",
+   "target_name": "Sensory retina — the macula (area centralis) is its central specialization; foveola cones are the peak of the photoreceptor mosaic"
+  },
+  {
+   "relation_type": "adjacent_to",
+   "target_id": "optic_disc",
+   "target_name": "Optic disc — its centre lies about 4 mm nasal to the fovea (3.42 ±0.34 mm medial, 0.1 mm inferior)"
+  },
+  {
+   "relation_type": "attached_to",
+   "target_id": "vitreous",
+   "target_name": "Vitreous — annular 3-4 mm vitreomacular attachment in young eyes (Fig. 6.20)"
+  },
+  {
+   "relation_type": "supplied_by",
+   "target_id": "choroid",
+   "target_name": "Choroid — choroidal:retinal flow 10:1; the avascular foveola depends on the choriocapillaris across the pigment epithelium"
+  },
+  {
+   "relation_type": "continuous_with",
+   "target_id": "nerve_fibre_layer",
+   "target_name": "Nerve fibre layer — ganglion cell axons displaced away from the fovea; horizontal raphe temporal to the fovea"
+  },
+  {
+   "relation_type": "drives",
+   "target_id": "ganglion_cell_layer",
+   "target_name": "Ganglion cell layer — umbo cone axons connect radially outward to displaced bipolar cells of the foveal shoulder, which connect to RGCs arranged in a ring-like structure around the umbo; the umbo itself lacks RGCs (Bucci et al., Nature Neuroscience, 2025)"
+  }
+ ],
+ "metadata": {
+  "keywords": [
+   "macula",
+   "macula lutea",
+   "area centralis",
+   "fovea centralis",
+   "foveola",
+   "parafovea",
+   "perifovea",
+   "clivus",
+   "fovea externa",
+   "Henle's fibres",
+   "rod-free zone",
+   "foveal avascular zone",
+   "foveal cone density",
+   "vitreomacular attachment",
+   "horizontal raphe",
+   "foveal development",
+   "البقعة الصفراء",
+   "المنطقة المركزية",
+   "النقرة المركزية",
+   "المنطقة الخالية من العصيات",
+   "ألياف هنلي",
+   "التعلق الزجاجي البقعي",
+   "inferior oblique insertion",
+   "surgical landmark",
+   "lower temporal vortex vein",
+   "خطورة جراحية قرب الفوفيا",
+   "macular pigment",
+   "lutein",
+   "zeaxanthin",
+   "meso-zeaxanthin",
+   "xanthophyll",
+   "macular pigment optical density",
+   "MPOD",
+   "Haidinger brush",
+   "umbo",
+   "صبغة البقعة الصفراء",
+   "foveal umbo",
+   "umbo of the foveola",
+   "foveal crack sign",
+   "Müller cell cone",
+   "central plateau of the foveola",
+   "OCT centration",
+   "أومبو",
+   "FAZ area",
+   "foveal avascular zone area",
+   "superficial capillary plexus",
+   "deep capillary plexus",
+   "intermediate capillary plexus",
+   "OCTA",
+   "perifoveal radial capillaries",
+   "Gutenberg Health Study",
+   "FAZ centre offset",
+   "macular pigment in Henle fiber layer"
+  ],
+  "references": [
+   "wolff_anatomy",
+   "curcio_1990_topography",
+   "statpearls_retina_2023",
+   "statpearls_haidinger_2023",
+   "eye_2023_foveal_status",
+   "natneuro_2025_fovea_synchronization",
+   "scirep_2020_foveal_crack_sign",
+   "frontcellneuro_2024_foveal_muller_glia",
+   "tvst_2026_octa_umbo_landmark",
+   "mehdiophthal_2025_macula_anatomy",
+   "webvision_fovea_architecture",
+   "tvst_2026_gutenberg_faz_normative",
+   "jcoophthal_2017_faz_normative",
+   "tvst_2026_faz_model_astrocytes",
+   "scirep_2026_faz_elderly",
+   "clinophthal_2025_faz_diabetes"
+  ],
+  "last_updated": "2026-11-08",
+  "version": "1.5.0",
+  "priority": 1
+ },
+ "references": [
+  {
+   "content_field": "definition",
+   "status": "documented",
+   "sources": [
+    {
+     "reference_id": "wolff_anatomy",
+     "chapter": "6",
+     "pages": [
+      220,
+      226
+     ]
+    },
+    {
+     "reference_id": "wolff_anatomy",
+     "chapter": "14",
+     "pages": [
+      457
+     ]
+    },
+    {
+     "reference_id": "statpearls_retina_2023",
+     "section": "Macula lutea naming; macular pigments (lutein, zeaxanthin)"
+    }
+   ]
+  },
+  {
+   "content_field": "location",
+   "status": "documented",
+   "sources": [
+    {
+     "reference_id": "wolff_anatomy",
+     "chapter": "6",
+     "pages": [
+      226,
+      228
+     ]
+    },
+    {
+     "reference_id": "wolff_anatomy",
+     "chapter": "14",
+     "pages": [
+      456
+     ]
+    },
+    {
+     "reference_id": "statpearls_retina_2023",
+     "section": "Macular zonation incl. umbo and foveal avascular zone"
+    },
+    {
+     "reference_id": "eye_2023_foveal_status",
+     "section": "Foveal/foveolar/umbo diameters 1.5/0.3/0.15 mm (Introduction)"
+    },
+    {
+     "reference_id": "natneuro_2025_fovea_synchronization",
+     "section": "Umbo as the very centre of the fovea; lacks RGCs"
+    },
+    {
+     "reference_id": "frontcellneuro_2024_foveal_muller_glia",
+     "section": "Umbo = centre of the foveal depression"
+    },
+    {
+     "reference_id": "mehdiophthal_2025_macula_anatomy",
+     "section": "FAZ diameter 0.2-1 mm in humans"
+    },
+    {
+     "reference_id": "webvision_fovea_architecture",
+     "section": "Foveal pit (umbo) 0.15 mm; avascular 0.5 mm centre"
+    }
+   ]
+  },
+  {
+   "content_field": "layers",
+   "status": "documented",
+   "sources": [
+    {
+     "reference_id": "wolff_anatomy",
+     "chapter": "6",
+     "pages": [
+      227,
+      228
+     ]
+    }
+   ]
+  },
+  {
+   "content_field": "blood_supply",
+   "status": "documented",
+   "sources": [
+    {
+     "reference_id": "wolff_anatomy",
+     "chapter": "6",
+     "pages": [
+      227,
+      228
+     ]
+    }
+   ]
+  },
+  {
+   "content_field": "venous_drainage",
+   "status": "not_available",
+   "sources": []
+  },
+  {
+   "content_field": "innervation",
+   "status": "not_applicable",
+   "sources": []
+  },
+  {
+   "content_field": "histology_summary",
+   "status": "documented",
+   "sources": [
+    {
+     "reference_id": "wolff_anatomy",
+     "chapter": "6",
+     "pages": [
+      220,
+      227,
+      228
+     ]
+    },
+    {
+     "reference_id": "wolff_anatomy",
+     "chapter": "14",
+     "pages": [
+      457,
+      466,
+      467,
+      468
+     ]
+    },
+    {
+     "reference_id": "curcio_1990_topography",
+     "section": "Foveal cone density, spacing and Nyquist limits as cited by Wolff ch. 6/14"
+    },
+    {
+     "reference_id": "statpearls_haidinger_2023",
+     "section": "Xanthophyll composition (lutein, zeaxanthin, meso-zeaxanthin)"
+    },
+    {
+     "reference_id": "natneuro_2025_fovea_synchronization",
+     "section": "Umbo cone axons -> foveal-shoulder bipolars -> periumbo RGC ring"
+    },
+    {
+     "reference_id": "frontcellneuro_2024_foveal_muller_glia",
+     "section": "Muller cell cone in the central foveal pit (umbo)"
+    },
+    {
+     "reference_id": "mehdiophthal_2025_macula_anatomy",
+     "section": "Foveolar floor Muller-cell composition; 0.1 mm S-cone-free centre"
+    },
+    {
+     "reference_id": "webvision_fovea_architecture",
+     "section": "Rod-free pit; rods first beyond 300 um diameter area"
+    },
+    {
+     "reference_id": "mehdiophthal_2025_macula_anatomy",
+     "section": "Highest macular pigment concentration in the Henle fiber layer at the fovea"
+    }
+   ]
+  },
+  {
+   "content_field": "clinical_importance",
+   "status": "documented",
+   "sources": [
+    {
+     "reference_id": "wolff_anatomy",
+     "chapter": "6",
+     "pages": [
+      225,
+      226,
+      231,
+      232
+     ]
+    },
+    {
+     "reference_id": "wolff_anatomy",
+     "chapter": "14",
+     "pages": [
+      466,
+      467
+     ]
+    },
+    {
+     "reference_id": "statpearls_retina_2023",
+     "section": "Blue-light filtering, anti-inflammatory action, supplementation"
+    },
+    {
+     "reference_id": "statpearls_haidinger_2023",
+     "section": "MPOD, Haidinger brushes, AMD supplementation"
+    },
+    {
+     "reference_id": "tvst_2026_octa_umbo_landmark",
+     "section": "Foveal umbo as anatomic landmark for OCTA scan centration"
+    },
+    {
+     "reference_id": "scirep_2020_foveal_crack_sign",
+     "section": "Foveal crack sign in the umbo; umbo too small for standard OCT protocols"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,294 @@
+{
+  "entity_id": "ciliary_muscle_accommodation",
+  "component_ids": [
+    "comp_lens"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Ciliary Muscle and Accommodation",
+    "ar": "العضلة الهدبية والتطاوب",
+    "aliases": [
+      "musculus ciliaris",
+      "meridional/longitudinal fibres",
+      "radial/oblique fibres",
+      "circular fibres of Müller",
+      "ciliary tendon",
+      "epichoroidal muscle stars",
+      "plexus gangliosus ciliaris",
+      "presbyopia",
+      "Helmholtz theory",
+      "العضلة الهدبية",
+      "الألياف الطولية",
+      "الألياف الشعاعية",
+      "الألياف الدائرية",
+      "التطاوب",
+      "طول النظر الشيخي",
+      "نظرية هيلمهولتز"
+    ]
+  },
+  "content": {
+    "definition": "The ciliary muscle is the intrinsic non-striated muscle of the ciliary body; in meridional section it resembles a right-angled triangle whose right angle is internal and faces the ciliary processes, the posterior acute angle points to the choroid and the hypotenuse is parallel to the sclera (p. 341). It consists of flat bundles of non-striated fibres — most external longitudinal (meridional), intermediate radial (oblique), most internal circular or 'sphincteric' (p. 341). It is a fast, multi-unit smooth muscle (Bozler, 1948) whose contraction produces accommodation (pp. 363, 367).",
+    "location": "The muscle lies against the sclera with supraciliary tissue intervening (p. 338), between the supraciliary lamina externally and the ciliary stroma/processes internally (p. 339). Anteriorly it gains attachment by collagenous tendons into the scleral spur (and via the trabecular meshwork into the peripheral cornea); posteriorly it attaches by an elastic tendon and elastic fibres in Bruch's membrane of the pars plana (p. 341, 367-368). The outer longitudinal bundles end posteriorly in the supraciliary lamina and suprachoroidea as epichoroidal muscle stars as far back as the anterior third of the choroid (p. 341).",
+    "layers": [
+      "Longitudinal (meridional) fibres — the most external layer; Calasans (1953) envisaged the fibres arising from the scleral spur by a collagenous ciliary tendon (others regard the spur as the point of insertion — Mollier, 1938; Rohen, 1952, 1964); bundles arise as V-shaped pairs meeting at a narrow angle posteriorly; they terminate posteriorly in epichoroidal stars; histochemically their anterior tips resemble rapid twitch extraocular fibres (Asmussen et al., 1971; Flügel et al., 1990) (pp. 341, 344)",
+      "Radial (oblique) fibres — intermediate bundles arising at broader angles and running obliquely; the three layers exchange fibres (Rohen, 1952) (pp. 341, 344)",
+      "Circular fibres (of Müller) — occupy the internal part of the ciliary body, nearest the lens and parallel to the limbus, cut transversely in meridional section; better developed in hypermetropes than myopes (Iwanoff, 1874) (pp. 341, 370); even at birth only slender bundles of one or two cell layers exist, maturing for at least a year after birth (p. 644)",
+      "Tendinous attachments — anterior: collagenous tendons into the scleral spur, the main union between corneoscleral coat and uveal tract; internal to the spur, oblique and circular fibres insert into the posterior uveoscleral meshwork (never anterior to the spur), an arrangement postulated to increase trabecular pore size during accommodation and after miotics (Rohen, Lütjen & Bárány, 1967; Kaufman & Bárány, 1976) (p. 341); posterior: elastic tendons continuous with the elastic lamina of Bruch's membrane and an elastic network in the pars plana stroma surrounding efferent vessels (p. 368)",
+      "Ultrastructure — mature fibre is a multiunit (not syncytial) smooth muscle sparsely supplied with gap junctions (Bozler, 1948; Townes-Anderson & Raviola, 1978); abundant mitochondria, endoplasmic reticulum and well-developed Golgi (Streeten, 1987); muscle bundles are surrounded by a thin sheath of fibroblasts rather than collagenous tissue (van der Zypen, 1967); each cell has a basement membrane containing collagens I, III and IV but no laminin (Noske et al., 1994); Z-band-like densities and almost parallel myofibrils explain rapid contraction (pp. 343-344)",
+      "Age-related muscle degeneration — membranous whorls or 'fingerprints' within fibres, increasing lysosomes and lipofuscin, myelin figures in axons and terminals (also described in human muscle, van der Zypen, 1970); basement membranes thicken and fuse with microvillous sarcolemmal folds in older monkeys; dense connective tissue appears between longitudinal and reticular parts (pp. 344, 369-370)"
+    ],
+    "blood_supply": "The inner and anterior part of the ciliary muscle is fed by arterioles from the major arterial circle of the iris, while the outer and more superficial part is supplied by the intramuscular circle formed by the anterior ciliary arteries — a division that may reflect functional differences (pp. 350, 403). Muscle capillaries are sparse, less fenestrated, of smaller diameter and thicker endothelium than process capillaries (p. 351); unlike the fenestrated process capillaries, muscle vessel endothelial cells form a continuous lining joined by tight junctions (p. 644).",
+    "venous_drainage": "Venules drain into the ciliary valleys or directly back into the pars plana (p. 403); muscle veins mostly pass back to join the parallel veins from the ciliary processes toward the venae vorticosae, partly via the anterior ciliary veins (pp. 406, 351).",
+    "innervation": "The ciliary muscle is a fast, multi-unit smooth muscle innervated by oculomotor parasympathetic axons (Bozler, 1948); each smooth muscle cell is surrounded by about 10-15 visceroefferent endings, 0.5-1.0 µm wide, intense for synaptophysin; extrinsic fibres arise in the Edinger-Westphal nucleus and synapse in the ciliary ganglion (Warwick, 1954; Ruskell, 1979); degeneration studies indicate 97% of ciliary neurons supply the ciliary muscle and 3% the iris sphincter (p. 363). Individual cells are richly innervated — muscarinic/cholinergic ending density greater than in other tissues (Bárány et al., 1982; Erickson-Lamy et al., 1987); sympathetic innervation (about 1-2% of monkey terminals) is of minor physiological significance; varicose terminals are positive for NPY, CGRP, VIP and SP (p. 363). An intrinsic ganglionic network — the plexus gangliosus ciliaris (Müller, 1859; characterized by Tamm et al., 1995a) — sits between the bundles of the reticular and circular parts (absent from the anterior longitudinal muscle); ganglia are small (70%, 10-14 µm) or large (30%, 20-30 µm), nitrergic (NADPH-diaphorase and NOS positive); in one donor eye 923 axons were counted; nitrergic stimulation relaxes isolated bovine ciliary muscle (Wiederholt et al., 1994), and relaxation of the inner muscle would facilitate disaccommodation and contribute to accommodative microfluctuations (pp. 363-365). A rich nitrergic perivascular network accompanies the major circle (p. 365). Neuromuscular junctions are mainly indirect; direct junctions are more frequent near the scleral spur (Uga, 1968) (pp. 344, 363).",
+    "histology_summary": "Morphology and function: contraction increases the area of the circular and reticular parts and decreases the meridional part, shortening the muscle so the posterior attachment moves forward and the muscle mass moves anteriorly and inward, reducing the internal diameter (p. 367). Fetal/neonatal muscle differs from mature fibres (Lütjen-Drecoll, Tamm & Kaufman, 1988) (p. 342). The muscle is thickest approximately opposite the lens equator, so it bulges most where it has the greatest effect on zonular fibres (p. 368). Age changes in human muscle (Stieve, 1949; van der Zypen, 1970): marked increase in interstitial connective tissue with progressive replacement of muscle fibres posteriorly and anterior expansion; after 60 years the longitudinal and radial portions atrophy while the circular area increases (p. 370).",
+    "clinical_importance": "Accommodation (10.3): the act of focusing from distance to near, accompanied by pupil constriction, anterior iris movement, increased anterior and posterior lens curvatures, forward translation and increased sagittal thickness (Brown, 1973; Koretz et al., 1989); in primates it depends on the inward movement of the anterior ciliary muscle (Rohen, 1979); contraction is dose-related to muscarinic agonists (carbachol) and antagonized by atropine (p. 367). All parts of the muscle act to slacken the suspensory ligaments, decreasing capsular tension so the lens becomes more convex (Fincham, 1937); circular fibres act as a sphincter diminishing the ciliary ring circumference (p. 368). The anterior pole moves forward while the posterior pole is essentially stationary or moves back slightly — 40% less backward than forward movement (Coleman, 1973); cortical thickness is unchanged while nuclear sagittal thickness increases (p. 368). Mechanistic theories: Helmholtz (1855) — presbyopia from lens failure to change shape despite muscle power; Fincham (1937) — capsule thickness moulds lens shape; Koretz & Handelman — capsule as force distributor; Coleman (1970, 1986) — hydraulic suspension theory with vitrous pressure rise; Fisher (1977, 1982) — lens elastic anisotropy and increasing ciliary force required with age (pp. 368-369, 370). Parasympathetic mediation: atropine abolishes tone producing ~1 D hypermetropia; cocaine weakens accommodation slightly; in Horner's syndrome the near point is closer on the affected side (p. 369). Presbyopia (10.4): reduced/absent forward ciliary body movement with age (Nieder et al., 1990; Hollins, 1974; Enoch, 1976); thickening and collagenous ensheathment of posterior elastic tendons (Tamm et al., 1990) cause loss of posterior-insertion compliance, limiting the critical anterior-inward movement (Lütjen-Drecoll & Rohen); decreased pilocarpine responsiveness without muscarinic receptor changes (True-Gabelt et al., 1987) (p. 369). Accommodative amplitude is maximal in youth (10-12 D or more) and about 2 D by 50 years, much of it pinhole effect and lens depth of focus (Koretz, 1994); by 50 the ciliary muscle is ~50% more powerful yet the rate of accommodation is slower (Duane, 1912; Hamasaki et al., 1956; Allen, 1956) (pp. 369-370). MRI confirms the unaccommodated ciliary muscle ring diameter decreases with age (strenk_1999_mri); in-vivo morphology and contractility change with age (sheppard_2011_ageing); accommodative ciliary muscle function is nonetheless preserved in older humans (tabernero_2016_accommodative); current literature reviews ageing-presbyopia relationships (zuo_2024_ageing_cm). Ammetropia (10.5): circular fibres better developed in hypermetropes; the long myopic eye has a long ciliary muscle (Iwanoff, 1874) (p. 370). Miotics acting on the muscle open the meshwork spaces (Fig. 8.28) (p. 304)."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "ciliary_body",
+      "target_name": "Ciliary body (muscular layer 2 of 4; gives the body its triangular shape)"
+    },
+    {
+      "relation_type": "inserts_into",
+      "target_id": "sclera",
+      "target_name": "Scleral spur (anterior collagenous tendons; contraction pulls spur posteriorly and opens meshwork)"
+    },
+    {
+      "relation_type": "inserts_into",
+      "target_id": "choroid",
+      "target_name": "Choroid (posterior elastic tendons into Bruch's elastic lamina; epichoroidal stars to anterior third)"
+    },
+    {
+      "relation_type": "acts_on",
+      "target_id": "lens",
+      "target_name": "Lens (slackens zonular tension; lens becomes more convex — accommodation)"
+    },
+    {
+      "relation_type": "innervated_by",
+      "target_id": "oculomotor_nerve",
+      "target_name": "Oculomotor parasympathetic via ciliary ganglion (97% of ciliary neurons)"
+    },
+    {
+      "relation_type": "inserts_into",
+      "target_id": "trabecular_meshwork",
+      "target_name": "Uveoscleral meshwork (oblique/circular fibre insertion increases pore size on contraction)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "ciliary muscle",
+      "accommodation",
+      "presbyopia",
+      "ammetropia",
+      "Helmholtz",
+      "Fincham",
+      "Coleman hydraulic suspension",
+      "Fisher",
+      "epichoroidal stars",
+      "ciliary tendon",
+      "plexus gangliosus ciliaris",
+      "nitrergic ganglia",
+      "multiunit smooth muscle",
+      "muscarinic",
+      "miotics",
+      "trabecular pore size",
+      "العضلة الهدبية",
+      "التطاوب",
+      "طول النظر الشيخي",
+      "الألياف الدائرية",
+      "الألياف الطولية",
+      "الألياف الشعاعية",
+      "الضمة الهدبية",
+      "مثبطات الموسكارين"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "strenk_1999_mri",
+      "sheppard_2011_ageing",
+      "tabernero_2016_accommodative",
+      "zuo_2024_ageing_cm"
+    ],
+    "last_updated": "2026-11-05",
+    "version": "1.0.0",
+    "priority": 1
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            341,
+            343,
+            363,
+            367
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            338,
+            339,
+            341,
+            367,
+            368
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            341,
+            342,
+            343,
+            344
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "17",
+          "pages": [
+            644
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            350,
+            351
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            403
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "17",
+          "pages": [
+            644
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            351
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "11",
+          "pages": [
+            403,
+            406
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            344,
+            363,
+            364,
+            365
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            367,
+            368,
+            370
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "10",
+          "pages": [
+            304,
+            367,
+            368,
+            369,
+            370
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "8",
+          "pages": [
+            304
+          ]
+        },
+        {
+          "reference_id": "strenk_1999_mri",
+          "section": "MRI: unaccommodated ciliary muscle ring diameter decreases with age"
+        },
+        {
+          "reference_id": "sheppard_2011_ageing",
+          "section": "In-vivo ciliary muscle morphology and contractility with age"
+        },
+        {
+          "reference_id": "tabernero_2016_accommodative",
+          "section": "Accommodative ciliary muscle function preserved in older humans"
+        },
+        {
+          "reference_id": "zuo_2024_ageing_cm",
+          "section": "Literature review: ciliary muscle ageing and presbyopia"
+        }
+      ]
+    }
+  ]
+}

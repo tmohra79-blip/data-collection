@@ -132,3 +132,36 @@ Weiter & Ernest 1974 and Ring & Fujino 1967 still await the book's reference pag
 
 Package: `choroid-kb-enrichment-v110-delivery.zip` — 7 cards + references.json (49) + tracker (47 rows)
 + this note.
+
+---
+
+## Iris & Ciliary Body — 6 new cards v1.0.0 (2026-11-05)
+
+The complete primary source arrived in one batch: **Wolff printed pp. 303-370** (68 pages) covering
+the tail of ch.8 (303-307, outflow apparatus — banked for future angle cards), **ch.9 The Iris
+(308-334)** and **ch.10 The Posterior Chamber and Ciliary Body (335-370)**. Chapter numbering note:
+the iris is Chapter NINE and the ciliary body Chapter TEN (earlier plan assumed both in ch.10).
+
+| Card | Words | Article sources |
+|---|---|---|
+| Iris/iris.json (IR-001) | 1,622 | — |
+| Iris/iris-vessels-innervation.json (IR-002) | 950 | song_2009_iris_vessels |
+| CiliaryBody/ciliary-body.json (CB-001) | 1,149 | — |
+| CiliaryBody/ciliary-epithelium-aqueous.json (CB-002) | 1,191 | civan_2004_secretion, sunderland_2023_ah_circulation |
+| CiliaryBody/ciliary-muscle-accommodation.json (CB-003) | 1,436 | strenk_1999_mri, sheppard_2011_ageing, tabernero_2016_accommodative, zuo_2024_ageing_cm |
+| CiliaryBody/ciliary-body-vessels-nerves.json (CB-004) | 1,127 | song_2009_iris_vessels |
+
+**Totals: 7,475 words; references.json 49 → 56 entries (7 journal articles verified via Europe PMC
+2026-11-05, exact author strings retrieved); tracker 64 → 70 rows (IR-001, IR-002, CB-001..004);
+validate.py 69/69 passed; pytest 10 + 14 subtests green.**
+
+Cross-chapter harvest banked in `IRIS_CILIARY_STAGING_EXTRACTS.md` (sections C1-C5): uvea overview
+(pp. 212-230), angle ch.8 (274-302), uveal vessels ch.11 (371-406, sections 11.1/11.5-11.11),
+autonomic ch.16 (602-619), development ch.17 (632-646). OCR-uncertain values flagged there for
+medical review (ciliary sulcus diameter, clump-cell width, plicata/plana areas, iris-process rate).
+
+MUS-001 remains outstanding: `extraocular-muscles.json` is missing from the repo (tracker notes
+it as created 2026-10-31) — the Ch.4 owner will re-upload it.
+
+Package: `iris-ciliary-kb-delivery.zip` — 6 cards + references.json (56) + tracker (70 rows)
++ staging bank + this note.
