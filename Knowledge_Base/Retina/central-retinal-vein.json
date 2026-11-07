@@ -1,0 +1,368 @@
+{
+  "entity_id": "central_retinal_vein",
+  "component_ids": [
+    "comp_vessel_central_retinal_vein",
+    "comp_retinal_vessels"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Central Retinal Vein (Vena Centralis Retinae)",
+    "ar": "الوريد الشبكي المركزي",
+    "aliases": [
+      "Central vein of the retina",
+      "CRV",
+      "vena centralis retinae",
+      "الوريد المركزي للشبكية",
+      "الوريد الشبكي المركزي"
+    ]
+  },
+  "content": {
+    "definition": "The central retinal vein drains the inner retinal circulation and leaves the eye within the optic nerve. It 'leaves the optic sheath anterior to the central retinal artery, and joins a network of venules from the sheath, the ophthalmic artery and adipose tissue. It drains, usually, into the superior ophthalmic or posterior collateral vein, occasionally the inferior ophthalmic and rarely (Whitnall, 1932) if ever (Henry, 1959) into the cavernous sinus' (Wolff ch3 p. 101). With the artery it crosses the subarachnoid space to enter the optic nerve inferomedially about 12 mm behind the eye (p. 508); because the intracranial subarachnoid space is continuous with that around the nerve, it 'exposes the central retinal vein and artery as they cross the space around the nerve to the cerebrospinal fluid pressure', and the central vessels may be compressed if the intracranial pressure is raised (p. 509, Figs 15.25, 15.26) — the anatomical substrate of papilloedema, whose mechanism is broader than venous compression: raised intracranial pressure produces orthograde axoplasmic flow stasis at the optic nerve head with oedema of the nerve (supplementary: EyeWiki Papilledema). Venous pulsation at the disc is a normal finding in 15-90% of normal subjects in the historical series cited by the reference (Hedges et al. 1994) (p. 508). The retinal venous system is distinct from the choroidal venous system, which drains through the vortex veins, usually 4-7 in number in each eye (supplementary: EyeWiki; see vortex_veins): the vortex-vein relationship of this card denotes anatomical adjacency within the orbital venous network, NOT a drainage route of the central retinal vein. In the model (Good_Eye.blend) the venous tree of the retina is represented by vein_retina_inside_1 (Central Retinal Vein, parent optical_nerv), vein_up (Superior Retinal Vein), vein_down (Inferior Retinal Vein) and half_veins (Retinal Blood Vessels) — these Unity object names are model identifiers, NOT medical synonyms. The superior and inferior retinal veins are separate anatomical entities — tributary trunks of the central vein, not synonyms: the text does not name them individually but documents the union — 'The central retinal vein is formed on the optic nerve head by the union of the retinal venous tributaries' (p. 527) — and the two-vein configuration — 'At times two veins enter the nerve head and unite within the substance of the nerve' (p. 527); in model terms, vein_up and vein_down unite at the disc into vein_retina_inside_1.",
+    "location": "At the optic disc the central retinal vein lies with the central retinal artery (V and A of Fig 15.3, p. 491). Inside the retina the venules are the venous side of the inner capillary bed: vessel branches accompany the ganglion cell bodies (p. 484), the rich capillary bed of the nerve fibre layer (p. 485) and the capillaries of the inner nuclear layer (pp. 476, 480) all drain towards the central trunk. The upper and lower arcuate (and temporal) retinal vessels demarcate the approximately elliptical central retina around the fovea (p. 456, Fig 14.3); the juxtapapillary calibres of the retinal vessels are widest inferotemporally, then superotemporally, then supero- and inferonasally (Jonas and Schiro 1993) (p. 508), and the neuroretinal rim configuration correlates with the diameter of the retinal artery and vein, which is larger below and temporal than above and temporal (p. 506). In the orbit the vein crosses the subarachnoid space with the artery (pp. 508-509, Figs 15.25, 15.26), leaves the optic sheath anterior to the artery, and joins a network of venules from the sheath, the ophthalmic artery and the adipose tissue before draining into the superior ophthalmic system (p. 101).",
+    "layers": [
+      "Central trunk: the single central retinal vein at the optic nerve head (V of Fig 15.3, p. 491); it leaves the optic sheath ANTERIOR to the central retinal artery (p. 101).",
+      "Perioptic tributaries: a network of venules from the optic sheath, the ophthalmic artery and the adipose tissue joins the central vein as it leaves the sheath (p. 101).",
+      "Orbital drainage: usually the superior ophthalmic or posterior collateral vein; occasionally the inferior ophthalmic vein; rarely (Whitnall 1932), if ever (Henry 1959), the cavernous sinus (p. 101).",
+      "Course in the nerve: with the artery it crosses the subarachnoid space, where the central vessels are exposed to the cerebrospinal fluid pressure and may be compressed if the intracranial pressure is raised (pp. 508-509, Figs 15.25, 15.26); the entry/exit is inferomedially about 12 mm behind the eye (p. 508).",
+      "Retinal tributaries: venules of the inner capillary bed in the ganglion cell layer (p. 484), the nerve fibre layer (p. 485) and the inner nuclear layer (pp. 476, 480). The superior (model object vein_up) and inferior (model object vein_down) retinal venous trunks are separate tributary entities, NOT synonyms of the central vein: the text does not name them individually, but their union is documented verbatim — 'The central retinal vein is formed on the optic nerve head by the union of the retinal venous tributaries' (p. 527) — as is the two-vein configuration: 'At times two veins enter the nerve head and unite within the substance of the nerve' (p. 527). The half_veins object represents the wider retinal vessel network (arteries, arterioles, capillaries and venules) and is owned by retinal_blood_supply (RET-011). The vein also receives tributaries from the optic nerve head at all levels (including choroidal tributaries and those from the peripapillary sclera), the pia and the posterior central vein (p. 527)."
+    ],
+    "blood_supply": null,
+    "venous_drainage": "The retinal venous system drains into the central retinal vein and is separate from the choroidal venous system, which drains through the vortex veins, usually 4-7 in number in each eye (supplementary: EyeWiki; see vortex_veins). The central retinal vein drains usually into the superior ophthalmic vein or the posterior collateral vein, occasionally into the inferior ophthalmic vein, and rarely (Whitnall 1932), if ever (Henry 1959), into the cavernous sinus (p. 101). En route it joins a network of venules from the optic sheath, the ophthalmic artery and the adipose tissue (p. 101). Venous pulsation at the disc is observed in 15-90% of normal subjects (Hedges et al. 1994) — the figure of the historical series cited by the reference, not a fixed clinical norm — and is due to the pulsatile collapse of the veins as ocular pressure rises with arterial inflow into the uvea (p. 508).",
+    "innervation": null,
+    "histology_summary": "The venules are the venous side of the inner retinal capillary bed, which occupies the ganglion cell layer (p. 484), the nerve fibre layer (p. 485) and the inner nuclear layer (pp. 476, 480). At the nerve head the vein shares the perivascular connective tissue sleeve of the central vessels — the central supporting connective tissue strand (p. 491, Fig 15.2) — and the only connective tissue located on the disc is the sparse amount associated with the central vessels and the capillaries running between the axon bundles (p. 493). Ophthalmoscopically the light streak on the veins is broader and dimmer than the arterial, and the light reflex is lost in papilloedema as the vessels bend over the elevated disc margin (p. 508).",
+    "clinical_importance": "1) Papilloedema: the intracranial subarachnoid space is continuous with that around the optic nerve and exposes the central retinal vein to the cerebrospinal fluid pressure as it crosses the space; the central vessels may be compressed if the intracranial pressure is raised (p. 509, Fig 15.25) — but the mechanism of papilloedema is broader than venous compression: raised intracranial pressure causes orthograde axoplasmic flow stasis at the optic nerve head with oedema of the nerve (supplementary: EyeWiki Papilledema). The nasal aspect of the optic disc, with its greater collection of nerve bundles and blood vessels, is the most susceptible to papilloedematous change (p. 486), and the light reflex is lost as the vessels bend over the elevated disc margin (p. 508). 2) Venous pulsation at the disc is a normal finding in 15-90% of subjects (Hedges et al. 1994) — the figure of the historical series cited by the reference, and reported prevalence varies across studies; it is produced by the pulsatile collapse of the veins as ocular pressure rises with arterial inflow into the uvea (p. 508). 3) Drainage variability: the usual route is the superior ophthalmic or posterior collateral vein, occasionally the inferior ophthalmic vein; the cavernous route is rare, if it exists at all (Whitnall 1932; Henry 1959) (p. 101) — relevant when orbital venous outflow is assessed. 4) Two venous systems must not be conflated: the central retinal vein drains the RETINAL venous system, whereas the choroidal venous system drains through the vortex veins, usually 4-7 per eye (supplementary: EyeWiki; see vortex_veins) — the vortex-vein relationship of this card is anatomical adjacency, not a drainage route of the CRV. 5) Normal landmarks: the retinal artery and vein are larger below and temporal than above and temporal, correlating with the neuroretinal rim configuration (p. 506), and the juxtapapillary calibres are widest inferotemporally (Jonas and Schiro 1993) (p. 508)."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "retina",
+      "target_name": "Retina"
+    },
+    {
+      "relation_type": "drains",
+      "target_id": "retina",
+      "target_name": "Retina"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "central_retinal_artery",
+      "target_name": "Central Retinal Artery"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "retinal_blood_supply",
+      "target_name": "Retinal Blood Supply (Retinal Circulation)"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "optic_nerve_blood_supply",
+      "target_name": "Blood Supply of the Optic Nerve"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "optic_disc",
+      "target_name": "Optic Disc"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "ganglion_cell_layer",
+      "target_name": "Ganglion Cell Layer"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "nerve_fibre_layer",
+      "target_name": "Nerve Fibre Layer"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "inner_nuclear_layer",
+      "target_name": "Inner Nuclear Layer"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "vortex_veins",
+      "target_name": "Vortex Veins (choroidal venous drainage — separate system; not a drainage route of the CRV)"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "superior_retinal_vein",
+      "target_name": "Superior Retinal Vein (model object vein_up — separate superior tributary trunk uniting at the disc; not a synonym of the CRV)"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "inferior_retinal_vein",
+      "target_name": "Inferior Retinal Vein (model object vein_down — separate inferior tributary trunk uniting at the disc; not a synonym of the CRV)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "central retinal vein",
+      "CRV",
+      "central vein of the retina",
+      "superior retinal vein",
+      "inferior retinal vein",
+      "retinal venules",
+      "venous drainage of retina",
+      "superior ophthalmic vein",
+      "posterior collateral vein",
+      "inferior ophthalmic vein",
+      "cavernous sinus",
+      "optic sheath",
+      "subarachnoid space",
+      "cerebrospinal fluid pressure",
+      "raised intracranial pressure",
+      "papilloedema",
+      "venous pulsation",
+      "spontaneous venous pulsation",
+      "Hedges",
+      "pulsatile collapse",
+      "light reflex",
+      "light streak",
+      "vessel calibre",
+      "rim configuration",
+      "arcuate vessels",
+      "retinal arcades",
+      "vein_up",
+      "vein_down",
+      "half_veins",
+      "vein_retina_inside_1",
+      "Whitnall",
+      "Henry",
+      "inner capillary bed",
+      "nerve fibre layer capillaries",
+      "ganglion cell layer vessels",
+      "inner nuclear layer capillaries",
+      "central supporting connective tissue strand",
+      "الوريد الشبكي المركزي",
+      "الوريد المركزي للشبكية",
+      "الوريد الشبكي العلوي",
+      "الوريد الشبكي السفلي",
+      "الوُريدات الشبكية",
+      "التصريف الوريدي",
+      "الوريد العيني العلوي",
+      "الوريد العيني السفلي",
+      "الجيب الكهفي",
+      "الضغط داخل القحف",
+      "وذمة الحليمة",
+      "النبض الوريدي الشبكي",
+      "الحيز تحت العنكبوتي",
+      "الغمد البصري",
+      "سوائل النخاع الشوكي",
+      "union of retinal venous tributaries",
+      "formed on the optic nerve head",
+      "posterior central vein",
+      "axoplasmic flow stasis",
+      "orthograde axoplasmic transport",
+      "two veins enter the nerve head",
+      "retinal versus choroidal venous drainage",
+      "venous congestion",
+      "اضطراب النقل المحوري",
+      "الوريدات الدوامية نظام منفصل"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "eyewiki_papilledema",
+      "eyewiki_retinal_vascularization"
+    ],
+    "last_updated": "2026-11-07",
+    "version": "1.2.0",
+    "priority": 2
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "3",
+          "pages": [
+            101
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            456
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            491,
+            508,
+            509,
+            527
+          ]
+        },
+        {
+          "reference_id": "eyewiki_papilledema",
+          "section": "Pathophysiology: orthograde axoplasmic flow stasis at the optic nerve head"
+        },
+        {
+          "reference_id": "eyewiki_retinal_vascularization",
+          "section": "Choroidal venous drainage via vortex veins (usually 4-7)"
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "3",
+          "pages": [
+            101
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            456,
+            476,
+            480,
+            484,
+            485
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            491,
+            506,
+            508,
+            509
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "3",
+          "pages": [
+            101
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            456,
+            476,
+            480,
+            484,
+            485
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            491,
+            508,
+            509,
+            527
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "3",
+          "pages": [
+            101
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            508
+          ]
+        },
+        {
+          "reference_id": "eyewiki_retinal_vascularization",
+          "section": "Retinal drainage into the central retinal vein; choroidal drainage via vortex veins"
+        }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "not_available",
+      "sources": []
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            476,
+            480,
+            484,
+            485
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            491,
+            493,
+            508
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            486
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            506,
+            508,
+            509
+          ]
+        },
+        {
+          "reference_id": "eyewiki_papilledema",
+          "section": "Axoplasmic flow stasis mechanism"
+        },
+        {
+          "reference_id": "eyewiki_retinal_vascularization",
+          "section": "Vortex veins 4-7; separate choroidal drainage"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,477 @@
+{
+  "entity_id": "retinal_blood_supply",
+  "component_ids": [
+    "comp_retinal_vessels"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Retinal Blood Supply (Retinal Circulation)",
+    "ar": "التروية الدموية للشبكية (الدورة الدموية الشبكية)",
+    "aliases": [
+      "Retinal blood vessels",
+      "Retinal vasculature",
+      "Retinal vascular plexuses",
+      "Retinal circulation",
+      "retinal venous pulsation",
+      "retinal arterial pulsation",
+      "vessel calibre",
+      "inferotemporal arcade",
+      "perivascular connective tissue strand",
+      "Retinal arcades",
+      "Superficial vascular plexus",
+      "Intermediate capillary plexus",
+      "Deep capillary plexus",
+      "Radial peripapillary capillaries",
+      "Foveal avascular zone",
+      "FAZ",
+      "دخول الأوعية المركزية للعصب البصري",
+      "غمد الأوعية المحيطي",
+      "النبض الوريدي الشبكي",
+      "النبض الشرياني الشبكي",
+      "الأوعية الدموية الشبكية",
+      "الأوعية الشبكية",
+      "الدورة الدموية الشبكية",
+      "الأقواس الوعائية الشبكية",
+      "الشبكة الشعرية السطحية",
+      "الشبكة الشعرية الوسطى",
+      "الشبكة الشعرية العميقة",
+      "الشعيرات المحيطة بالحليمة الشعاعية",
+      "المنطقة اللاوعائية المركزية للفوفيا",
+      "التنظيم الذاتي للتدفق الدموي الشبكي"
+    ]
+  },
+  "content": {
+    "definition": "The retina possesses a dual blood supply: an inner retinal circulation arising from the central retinal artery — 'one branch transcends all others in importance' of the ophthalmic artery — and an outer choroidal circulation from the posterior ciliary arteries whose choriocapillaris circulation 'shines through' the avascular foveola. The central retinal artery is an END ARTERY: Wolff describes its loss (e.g. from embolism) as resulting in 'complete and irrevocable blindness'; clinically, central retinal artery occlusion (CRAO) causes sudden, usually profound and potentially permanent visual loss due to ischemia of the inner retina, and visual outcome varies depending on the extent of occlusion, duration of ischemia, and the presence of a patent cilioretinal artery (supplementary — see central_retinal_artery). The inner circulation is carried by three interconnected capillary plexuses (superficial, intermediate and deep) plus the radial peripapillary capillaries, distributed through the inner retinal layers, while the outer retina is avascular and depends on the choriocapillaris. Within the eye the vessel branches course through the inner retinal layers (ganglion cell layer, nerve fibre layer, inner nuclear layer) while the central retinal vein returns the blood chiefly to the superior ophthalmic vein. The arteria centralis retinae leaves the ophthalmic artery near the optic foramen and, with its vein, crosses the subarachnoid space to enter the optic nerve inferomedially about 12 mm behind the eye (Wolff ch3 pp. 86, 88, 101; ch14 pp. 455-457, 476-486; ch15 pp. 491, 508).",
+    "location": "The retinal vessels enter and leave the eye at the optic disc. Inside the eye the vasculature is confined to the inner retina — in standard descriptions the capillary network occupies roughly the inner two-thirds of the retinal thickness, through plexuses lying in the nerve fibre, ganglion cell, inner plexiform and inner nuclear layers: vessel branches are documented in the ganglion cell layer (p. 484), a rich capillary bed occupies the nerve fibre layer (p. 485), and capillaries together with a small arteriole lie within the inner nuclear layer (pp. 476, 480, Figs 14.30b, 14.34). The upper and lower arcuate (and temporal) retinal vessels demarcate the approximately elliptical central retina around the fovea (p. 456, Fig. 14.3). The retinal capillaries terminate at the junction marking the foveal clivus (p. 457, Fig. 14.4), leaving the foveola avascular (pp. 455, 457). Outside the eye the central retinal vessels run within the optic nerve sheath complex (detailed in optic_nerve_blood_supply): the arteria centralis retinae, a branch of the ophthalmic artery near the optic foramen, runs forwards within or outside the dural sheath and with its vein crosses the subarachnoid space to enter the nerve inferomedially about 12 mm behind the eye; the nerve is oval or crescentic in section where the vessels enter, and in two places if they enter separately (Kuhnt, 1890) (p. 508). Throughout their course in the nerve the central retinal vessels are surrounded by a perivascular connective tissue which blends with the cribriform plate as the central supporting connective tissue strand (p. 491, Fig. 15.2).",
+    "layers": [
+      "Nerve fibre layer: a rich capillary bed lies between the arcading axon bundles, together with the axons of the ganglion cells and the centrifugal (efferent) fibres (p. 485). This layer also carries the RADIAL PERIPAPILLARY CAPILLARIES — a two-dimensional capillary network radiating from the optic disc within the nerve fibre layer, distinguished by a radial course, sparse anastomoses (in contrast to other intraretinal capillaries) and limited extension to the posterior pole (supplementary: EyeWiki, Retinal Vascularization and OCT-Angiography Interpretation).",
+      "Ganglion cell layer: branches of the retinal vessels accompany the ganglion cell bodies (p. 484); together with the nerve fibre layer vessels this level corresponds to the SUPERFICIAL VASCULAR PLEXUS (SVP), located in the nerve fibre and ganglion cell layers at the same level as the arterioles and major venules (supplementary: EyeWiki; three distinct plexuses visualized by projection-resolved OCTA — Hwang et al. 2016).",
+      "Inner plexiform / inner nuclear junction — INTERMEDIATE CAPILLARY PLEXUS (ICP): located in a narrow slab at the inner edge of the inner nuclear layer, with some authors extending it to the outermost ganglion cell layer; most imaging devices cannot individualize it from the deep plexus (supplementary: EyeWiki). Wolff documents capillaries together with a small arteriole within the inner nuclear layer (pp. 476, 480, Figs 14.30b, 14.34).",
+      "Inner nuclear / outer plexiform junction — DEEP CAPILLARY PLEXUS (DCP): located between the inner nuclear and outer plexiform layers (supplementary: EyeWiki; Hwang et al. 2016). The three plexuses are interconnected and drain towards the central retinal vein (see venous_drainage).",
+      "Outer retina: avascular — the photoreceptor-bearing outer retina is nourished by the choriocapillaris, whose circulation shines through the avascular foveola giving it its deeper red colour (p. 455).",
+      "Foveal region: the retinal capillaries terminate at the junction marking the foveal clivus (p. 457, Fig 14.4) and are absent from the foveola (pp. 455, 457). The FOVEOLA is the central pit of the fovea, 0.35 mm in diameter (p. 455). The FOVEAL AVASCULAR ZONE (FAZ) is a related but distinct concept: the capillary-free central zone delimited by the terminating capillaries, approximately 400-500 μm in diameter in normal eyes (supplementary: EyeWiki) — the FAZ is generally wider than the foveola and the two terms are not synonymous."
+    ],
+    "blood_supply": "Arterial side: the orbital contents are supplied chiefly by the internal carotid artery via its ophthalmic branch and to a minor extent by the external carotid via the infraorbital artery (p. 86). In the usual order of branches of the ophthalmic artery the central retinal artery comes first, before the posterior ciliary, lacrimal, muscular and ethmoidal branches (p. 88). Because the central retinal artery is an end artery, the inner retina it serves has no substantial collateral arterial supply: the limited anastomosis of its terminal branches with the arterial circle of Zinn at the optic disc exists (p. 88) but does not in general provide collateral flow sufficient to rescue the inner retina in central retinal artery occlusion (supplementary: clinical literature — see central_retinal_artery). The inner retinal vascular bed spans the ganglion cell layer (vessel branches, p. 484), the nerve fibre layer (rich capillary bed, p. 485) and the inner nuclear layer (capillaries and small arteriole, pp. 476, 480); the outer retina depends on the choroidal circulation (see choroid_blood_supply and choriocapillaris). In standard descriptions the retinal capillary network occupies the inner two-thirds of the retinal thickness through three interconnected plexuses (superficial, intermediate and deep) and the radial peripapillary capillaries; the outer third is avascular (supplementary: OCTA literature — see layers). In the optic nerve head through which the central vessels pass, each lamina cribrosa trabecula carries a vessel derived from the short ciliary arteries or the arterial circle of Zinn (p. 496), and capillaries course within the astrocytic tubes of the prelaminar region (p. 493, Fig. 15.8). The visible arterial component on fundoscopy is the pink colour of the optic disc, due to the rich capillary supply to its rim demonstrable by fluorescein angiography, while the cup appears white because of the sparse vascularity of the lamina region (p. 504).",
+    "venous_drainage": "Retinal venous drainage is distinct from choroidal venous drainage: the retinal veins drain into the central retinal vein, whereas the choroidal veins drain through the vortex veins, usually 4-7 in number in each eye (supplementary: EyeWiki; see vortex_veins) — the two systems must not be conflated. The central vein of the retina leaves the optic sheath anterior to the central retinal artery and joins a network of venules from the sheath, the ophthalmic artery and the adipose tissue. It drains usually into the superior ophthalmic or posterior collateral vein, occasionally into the inferior ophthalmic vein, and rarely (Whitnall 1932) if ever (Henry 1959) into the cavernous sinus (p. 101). The central retinal vein is formed on the optic nerve head by the union of the retinal venous tributaries (p. 527): the individually named superior and inferior retinal veins are these tributary trunks — separate anatomical entities converging towards the central trunk at the disc, NOT synonyms of the central retinal vein — and the two-vein configuration is documented: 'At times two veins enter the nerve head and unite within the substance of the nerve' (p. 527); they are represented in the model by vein_up and vein_down and documented in central_retinal_vein. The vein also receives tributaries from the optic nerve head at all levels (including choroidal and peripapillary scleral ones), the pia and the posterior central vein (p. 527). With the artery, the vein crosses the subarachnoid space to enter the optic nerve inferomedially about 12 mm behind the eye (pp. 508-509). Venous pulsation at the disc is observed in 15-90% of normal subjects (Hedges et al. 1994) — the figure of the historical series cited by the reference, not a fixed clinical norm — and is due to the pulsatile collapse of the veins as ocular pressure rises with arterial inflow into the uvea (p. 508).",
+    "innervation": "Documented in the reference: centrifugal (efferent) fibres originating from the central nervous system terminate in the inner plexiform layer or the innermost part of the inner nuclear layer; they usually associate with amacrine cells or capillary walls, where they exert vasomotor effects (p. 486). This description should not be read as the general regulatory mechanism of the retinal circulation: retinal blood flow is maintained chiefly by local AUTOREGULATION — 'autoregulated by the interaction of myogenic and metabolic mechanisms', achieved by 'adaptation of the vascular tone of the resistance vessels (arterioles, capillaries) to changes in the perfusion pressure or metabolic needs of the tissue' (supplementary: Pournaras et al. 2008). The optic nerve chapter similarly records some centrifugal fibres, probably vasomotor, and finds the evidence for supposed 'trophic' and 'retinoretinal' fibres negligible (p. 527).",
+    "histology_summary": "The retinal vasculature occupies the inner retinal layers: branches of retinal vessels accompany the ganglion cell bodies (p. 484), the nerve fibre layer contains a rich capillary bed between the arcading axon bundles (p. 485), and capillaries plus a small arteriole lie within the inner nuclear layer (pp. 476, 480). The photoreceptor-bearing outer retina is avascular and is nourished by the choriocapillaris, whose circulation shines through the avascular foveola giving it its deeper red colour (p. 455). At the optic disc the nasal aspect carries the greater collection of nerve bundles and blood vessels (p. 486).",
+    "clinical_importance": "1) Central retinal artery occlusion (CRAO): the artery is an end artery — Wolff describes loss of the artery (e.g. from embolism) as causing 'complete and irrevocable blindness' (pp. 86, 88). Clinically, CRAO causes sudden, usually profound and potentially permanent visual loss due to ischemia of the inner retina; visual outcome varies depending on the extent of occlusion, duration of ischemia, and the presence of a patent cilioretinal artery, which can spare part of the macular circulation (cilioretinal-artery-sparing CRAO; supplementary: EyeWiki CRAO, Kim et al. 2020 — see central_retinal_artery). 2) Cherry-red spot: after obstruction in the central retinal vasculature the surrounding retina becomes cloudy while the foveola, lacking capillaries and backed by the choriocapillaris, appears deeper red (pp. 455-456). 3) Papilloedema: the nasal aspect of the optic disc, with its greater collection of nerve bundles and blood vessels, is the most susceptible to papilloedematous change (p. 486); the mechanism is not venous compression alone — raised intracranial pressure transmitted via the subarachnoid space around the optic nerve causes orthograde axoplasmic flow stasis at the optic nerve head with oedema of the nerve (supplementary: EyeWiki Papilledema). 4) Circle of Zinn anastomosis: the limited anastomosis of the artery's terminal branches with the arterial circle of Zinn at the disc (p. 88) does not in general provide collateral flow sufficient to protect the inner retina in CRAO (supplementary: clinical literature). 5) Visible retinal arterial pulsation is rare and usually pathological, implying for example aortic incompetence or high ocular pressure — in contrast to venous pulsation, which is a normal finding reported in 15-90% of subjects in the historical series cited by the reference (p. 508). 6) Fundoscopic correlates: the pink disc colour reflects the rich rim capillary supply (fluorescein-demonstrable), and the juxtapapillary vessel calibre hierarchy (inferotemporal widest) mirrors the broader inferior neuroretinal rim (pp. 504-505)."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "retina",
+      "target_name": "Retina"
+    },
+    {
+      "relation_type": "supplies",
+      "target_id": "retina",
+      "target_name": "Retina"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "optic_nerve_blood_supply",
+      "target_name": "Blood Supply of the Optic Nerve"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "choroid_blood_supply",
+      "target_name": "Choroidal Blood Supply"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "choriocapillaris",
+      "target_name": "Choriocapillaris"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "optic_disc",
+      "target_name": "Optic Disc"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "ganglion_cell_layer",
+      "target_name": "Ganglion Cell Layer"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "nerve_fibre_layer",
+      "target_name": "Nerve Fibre Layer"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "inner_nuclear_layer",
+      "target_name": "Inner Nuclear Layer"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "central_retinal_artery",
+      "target_name": "Central Retinal Artery"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "central_retinal_vein",
+      "target_name": "Central Retinal Vein"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "vortex_veins",
+      "target_name": "Vortex Veins (choroidal venous drainage — a separate system from the retinal venous drainage)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "retinal blood supply",
+      "retinal circulation",
+      "retinal vasculature",
+      "retinal blood vessels",
+      "central retinal artery",
+      "central retinal vein",
+      "central artery of the retina",
+      "central vein of the retina",
+      "CRA",
+      "CRV",
+      "CRAO",
+      "end artery",
+      "retinal arcades",
+      "superior retinal vein",
+      "inferior retinal vein",
+      "retinal arterioles",
+      "retinal venules",
+      "retinal capillaries",
+      "retinal capillary network",
+      "capillary bed",
+      "nerve fibre layer capillaries",
+      "inner nuclear layer capillaries",
+      "foveal avascular zone",
+      "foveola avascular",
+      "circle of Zinn",
+      "arterial circle of Zinn",
+      "ophthalmic artery",
+      "internal carotid artery",
+      "cherry-red spot",
+      "papilloedema",
+      "vasomotor fibres",
+      "dual retinal circulation",
+      "التروية الدموية للشبكية",
+      "الدورة الدموية الشبكية",
+      "الأوعية الشبكية",
+      "الشريان الشبكي المركزي",
+      "الوريد الشبكي المركزي",
+      "شريان نهائي",
+      "الأقواس الوعائية",
+      "الشعيرات الدموية الشبكية",
+      "منطقة الفوفيا اللاوعائية",
+      "دائرة زين",
+      "الشريان العيني",
+      "البقعة الحمراء",
+      "وذمة الحليمة",
+      "arteria centralis retinae",
+      "retinal venous pulsation",
+      "retinal arterial pulsation",
+      "perivascular connective tissue strand",
+      "vessel calibre",
+      "inferotemporal arcade",
+      "aortic incompetence",
+      "spontaneous venous pulsation",
+      "optic foramen",
+      "subarachnoid space",
+      "عجز الأبهر",
+      "النبض الوريدي الشبكي",
+      "النبض الشرياني الشبكي",
+      "دخول الأوعية المركزية للعصب البصري",
+      "غمد الأوعية المحيطي",
+      "الثقب البصري",
+      "الحيز تحت العنكبوتي",
+      "union of retinal venous tributaries",
+      "superficial vascular plexus",
+      "intermediate capillary plexus",
+      "deep capillary plexus",
+      "radial peripapillary capillaries",
+      "radial peripapillary capillary plexus",
+      "retinal vascular plexuses",
+      "SVP",
+      "ICP",
+      "DCP",
+      "RPC",
+      "foveola",
+      "FAZ",
+      "autoregulation",
+      "myogenic and metabolic mechanisms",
+      "vascular tone",
+      "inner two-thirds",
+      "cilioretinal artery",
+      "cilioretinal artery sparing",
+      "axoplasmic flow stasis",
+      "vortex veins",
+      "choroidal venous drainage",
+      "two veins enter the nerve head",
+      "الشبكات الشعرية الثلاث",
+      "الشعيرات الشعاعية المحيطة بالحليمة",
+      "الثلثان الداخليان",
+      "التنظيم الذاتي",
+      "الشريان الهدبي الشبكي",
+      "الوريدات الدوامية"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "hwang_2016_plexuses",
+      "eyewiki_retinal_vascularization",
+      "pournaras_2008_retinal_flow",
+      "eyewiki_crao",
+      "kim_2020_clra_sparing",
+      "eyewiki_papilledema"
+    ],
+    "last_updated": "2026-11-07",
+    "version": "1.4.0",
+    "priority": 2
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "3",
+          "pages": [
+            86,
+            88
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            455
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            491,
+            508
+          ]
+        },
+        {
+          "reference_id": "eyewiki_crao",
+          "section": "Presentation: sudden painless vision loss over seconds; visual acuity may vary"
+        },
+        {
+          "reference_id": "kim_2020_clra_sparing",
+          "section": "Cilioretinal artery sparing in 17.8% of complete CRAO; visual outcome variability"
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            455,
+            456,
+            457,
+            476,
+            480,
+            484,
+            485
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            491,
+            508
+          ]
+        },
+        {
+          "reference_id": "eyewiki_retinal_vascularization",
+          "section": "Plexus levels within the inner retina; FAZ 400-500 μm"
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            455,
+            457,
+            476,
+            480,
+            484,
+            485
+          ]
+        },
+        {
+          "reference_id": "eyewiki_retinal_vascularization",
+          "section": "SCP/ICP/DCP levels; radial peripapillary capillaries; FAZ"
+        },
+        {
+          "reference_id": "hwang_2016_plexuses",
+          "section": "Projection-resolved OCTA: superficial, intermediate and deep retinal plexuses"
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "3",
+          "pages": [
+            86,
+            88
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            476,
+            480,
+            484,
+            485
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            493,
+            496,
+            504
+          ]
+        },
+        {
+          "reference_id": "eyewiki_retinal_vascularization",
+          "section": "Inner retina capillary network; outer retina avascular"
+        },
+        {
+          "reference_id": "hwang_2016_plexuses",
+          "section": "Three retinal plexuses"
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "3",
+          "pages": [
+            101
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            508,
+            509,
+            527
+          ]
+        },
+        {
+          "reference_id": "eyewiki_retinal_vascularization",
+          "section": "Retinal veins drain into the central retinal vein; choroidal blood drains through vortex veins (usually 4-7)"
+        }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            486
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            527
+          ]
+        },
+        {
+          "reference_id": "pournaras_2008_retinal_flow",
+          "section": "Abstract: autoregulation via myogenic and metabolic mechanisms; vascular tone adaptation"
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            455,
+            476,
+            480,
+            484,
+            485,
+            486
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "3",
+          "pages": [
+            86,
+            88
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            455,
+            456,
+            486
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            504,
+            508
+          ]
+        },
+        {
+          "reference_id": "eyewiki_crao",
+          "section": "CRAO presentation; cilioretinal artery"
+        },
+        {
+          "reference_id": "kim_2020_clra_sparing",
+          "section": "Visual prognosis of cilioretinal artery sparing CRAO"
+        },
+        {
+          "reference_id": "eyewiki_papilledema",
+          "section": "Pathophysiology: orthograde axoplasmic flow stasis at the optic nerve head"
+        }
+      ]
+    }
+  ]
+}

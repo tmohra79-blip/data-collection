@@ -1,0 +1,184 @@
+{
+  "entity_id": "retinal_arterioles_venules",
+  "component_ids": ["comp_retinal_vessels"],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Retinal Arterioles and Venules",
+    "ar": "الشرينات والوُريدات الشبكية",
+    "aliases": [
+      "Retinal arteries and veins (intraretinal)",
+      "شرايين ووُريدات الشبكية"
+    ]
+  },
+  "content": {
+    "definition": "The retinal arterioles and venules are the small distributing and collecting vessels of the retinal circulation that lie between the central retinal artery and vein and the retinal capillary bed. This entity covers the intraretinal arterioles and venules as a single unit; the pre-capillary arterioles and post-capillary venules are its smallest segments (described under layers), and are vessel classes within this entity rather than separate synonyms. The retinal arterioles are the post-lamina cribrosa branches of the central retinal artery; once inside the retina they are 'actually of arteriolar size' (Wolff p.508) and lack an internal elastic lamina (in contrast to the central retinal artery, which possesses one). The retinal venules are the small postcapillary collecting vessels that drain the capillary plexuses and join to form the retinal veins, which follow the arcade course back to the optic disc. Wolff documents a 'small arteriole within the inner nuclear layer' (Fig 14.34, p.480) and 'capillaries, most of which are surrounded by' glial processes (p.485).",
+    "location": "Distributed across the inner two-thirds of the retinal thickness. Wolff documents: a capillary within the inner nuclear layer (Fig 14.30b, p.476); a small arteriole within the inner nuclear layer (Fig 14.34, p.480); vessel branches in the ganglion cell layer (p.484); and a 'rich capillary bed' in the nerve fibre layer (p.485). The retinal arterioles and venules travel in the nerve fibre layer and ganglion cell layer, with the smaller branches descending into the inner nuclear layer and the outer plexiform layer (the level of the deep capillary plexus). The retinal arterioles and venules emerge from the optic disc on the medial side of the cup, slightly decentred superonasally, with the temporal arteries taking an arcuate course and the nasal ones a more direct, though curved course (Wolff p.507-508).",
+    "layers": [
+      "Retinal arterioles (post-lamina cribrosa branches of the CRA): present in the nerve fibre layer and ganglion cell layer, with small branches descending into the inner nuclear layer (Wolff p.476, 480, 484, 485). They lack an internal elastic lamina once they enter the retina (the IEL of the CRA disappears at the lamina cribrosa, Wolff p.526), distinguishing them from the central retinal artery proper. Their walls contain smooth muscle cells; the media of the proximal retinal arteries may have 7-12 smooth muscle cell layers in the monkey (Wolff p.526).",
+      "Pre-capillary retinal arterioles (vessel class within this entity): the smallest arterioles at the level of the inner nuclear layer and inner plexiform layer, feeding the superficial, intermediate and deep capillary plexuses (Wolff Fig 14.34 p.480).",
+      "Post-capillary retinal venules (vessel class within this entity): the smallest venules draining the capillary plexuses, joining to form the small retinal veins that follow the arcade course back to the disc (Wolff p.527).",
+      "Retinal venules and small veins: larger postcapillary venules that travel with the arterioles in the nerve fibre layer, with a 'similar but not identical' course that 'avoids excessive shadowing of the rods and cones' (Wolff p.508).",
+      "Periarteriolar capillary-free zones: perivascular zones around the retinal arterioles that are devoid of capillaries, seen in SEM of the optic nerve head vessels (Wolff Fig 15.54h, p.533). These are normal anatomical features, not pathological; they are distinct from the foveal avascular zone (the central capillary-free region of the macula) and are NOT the anatomical substrate of cotton-wool spots (ischaemic nerve fibre layer lesions, see clinical_importance)."
+    ],
+    "blood_supply": "The retinal arterioles are themselves the distributing vessels of the inner retinal circulation. They are supplied by the central retinal artery, which divides on or just above the optic disc into superior and inferior branches and then into the temporal and nasal arcades (see retinal_vascular_arcades card). The CRA is 'usually the first branch of the ophthalmic artery' (Wolff p.88). Once the central retinal artery passes through the lamina cribrosa, its branches become retinal arteries that lose the internal elastic lamina (Wolff p.526).",
+    "venous_drainage": "Drainage sequence: capillary plexuses -> post-capillary venules -> small retinal veins -> superior and inferior retinal venous trunks -> central retinal vein (Wolff p.527). The union of the two venous trunks shows anatomical variation: two separate trunks may persist (failure of prenatal fusion of the embryonic paired venous channels), in which case 'two veins enter the nerve head and unite within the substance of the nerve' (Wolff p.527). The retinal venules have a simpler structure than the arterioles: 'the continuous endothelium lies on a basement membrane. Outside this is a cell which may be smooth muscle or pericyte and media is represented by a separation of occasional smooth muscle cells from basement membrane. A connective tissue adventitia is present' (Wolff p.527).",
+    "innervation": "Classical autonomic innervation: Wolff documents 'unmyelinated nerve fibres enclosed by Schwann cell cytoplasm' in the connective tissue adventitia of the central retinal artery (p.526), including 'sympathetic and parasympathetic fibres' that 'exhibit terminals along the artery up to the level of the lamina cribrosa, where they are rare. Occasional neurons accompany the proximal 2 mm of the retinal arteries, and terminals have not been identified' (p.526). Classical autonomic supply therefore fades at the lamina cribrosa and has NOT been demonstrated on the intraretinal arterioles themselves. Centrifugal (efferent) fibres — a separate, non-classical-autonomic pathway: Wolff documents 'centrifugal (efferent) fibres' that 'usually associate with amacrine cells or capillary walls, where they exert vasomotor effects' (p.486); this is a distinct reported efferent influence at the microvessel level, not a general autonomic innervation of the retinal microvasculature. Regulation in practice: retinal blood flow is governed mainly by local myogenic and metabolic mechanisms (autoregulation) (supplementary: Pournaras 2008).",
+    "histology_summary": "The retinal arterioles and venules are continuous, non-fenestrated vessels. The retinal arterioles have: an intima with a continuous endothelium on a basement membrane; a media with smooth muscle cells (the number increasing to 7-12 at the lamina and in proximal retinal arteries in the monkey); and an adventitia of dense connective tissue continuous with the optic nerve septa. The internal elastic lamina disappears at the lamina cribrosa and is absent from the retinal arteries (Wolff p.525-526); this documented histological difference from the central retinal artery proper has been invoked in the literature (Cogan, 1974, cited in Wolff p.526) with respect to giant cell arteritis, but it is a histological observation and not by itself a complete explanation of disease selectivity (see clinical_importance). The retinal venules have a simpler structure than the arterioles (Wolff p.527). Periarteriolar capillary-free zones are visible by SEM (Wolff Fig 15.54h p.533). The arterioles are 'narrower and brighter red than the veins' and the ophthalmoscope light produces a well-marked light streak along their axes; the light streak on the venules is broader and dimmer (Wolff p.508). The retinal arterial light reflex is lost in papilloedema as the vessels bend over the elevated disc margin.",
+    "clinical_importance": "The retinal arterioles and venules are clinically observed in: (1) hypertensive retinopathy (arteriolar narrowing, AV nicking where arterioles cross venules, producing the Gunn's sign and Salus's sign); (2) diabetic retinopathy — retinal microaneurysms, the earliest clinical lesion, are focal dilatations of the retinal CAPILLARIES associated with pericyte loss and endothelial dysfunction (supplementary: Cunha-Vaz 2011); pericyte loss is one of the earliest histological changes in diabetic retinopathy; venous beading may also appear; (3) retinal vein occlusion (venous dilation and tortuosity downstream of the occlusion, with retinal haemorrhages in the territory drained by the occluded vein); (4) retinal arteriolar emboli (Hollenhorst plaques, cholesterol emboli visible as bright yellow refractile lesions in the retinal arterioles); (5) giant cell arteritis: the most common mechanism of visual loss is involvement of the posterior ciliary arteries producing arteritic anterior ischaemic optic neuropathy, while central retinal artery occlusion can also occur. The documented absence of the internal elastic lamina from the retinal arteries (Wolff p.526, citing Cogan 1974) is a histological difference from the CRA, but it should not be presented as the sole or general explanation of which vessels GCA affects; (6) retinal vasculitis (sheathing around the vessel wall); (7) cotton-wool spots: focal white lesions of the retinal nerve fibre layer, classically described as nerve fibre layer microinfarcts, associated with ischaemia from obstruction of small pre-capillary arterioles and arrest of axoplasmic flow in the nerve fibre layer (supplementary: EyeWiki Cotton Wool Spots). Cotton-wool spots are nerve fibre layer ischaemic lesions — they are NOT produced by, and are anatomically distinct from, the normal perivascular capillary-free zone around the arterioles (Wolff Fig 15.54h p.533)."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "retinal_blood_supply",
+      "target_name": "Retinal Blood Supply"
+    },
+    {
+      "relation_type": "part_of",
+      "target_id": "retina",
+      "target_name": "Retina"
+    },
+    {
+      "relation_type": "supplied_by",
+      "target_id": "central_retinal_artery",
+      "target_name": "Central Retinal Artery"
+    },
+    {
+      "relation_type": "drains_into",
+      "target_id": "central_retinal_vein",
+      "target_name": "Central Retinal Vein"
+    },
+    {
+      "relation_type": "supplies",
+      "target_id": "retinal_capillaries",
+      "target_name": "Retinal Capillaries (pre-capillary arterioles feed the capillary bed; post-capillary venules drain it)"
+    },
+    {
+      "relation_type": "arranged_as",
+      "target_id": "retinal_vascular_arcades",
+      "target_name": "Retinal Vascular Arcades (the arterioles and venules follow the arcade course)"
+    },
+    {
+      "relation_type": "related_to",
+      "target_id": "blood_retinal_barrier",
+      "target_name": "Blood-Retinal Barrier (the inner BRB is formed by the tight junctions of the retinal CAPILLARY endothelium; the arterioles and venules are upstream/downstream conduits, not barrier-forming sites)"
+    },
+    {
+      "relation_type": "supplies",
+      "target_id": "nerve_fibre_layer",
+      "target_name": "Nerve Fibre Layer"
+    },
+    {
+      "relation_type": "supplies",
+      "target_id": "ganglion_cell_layer",
+      "target_name": "Ganglion Cell Layer"
+    },
+    {
+      "relation_type": "supplies",
+      "target_id": "inner_nuclear_layer",
+      "target_name": "Inner Nuclear Layer"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "retinal arterioles",
+      "retinal venules",
+      "intraretinal retinal arteries",
+      "pre-capillary retinal arterioles",
+      "post-capillary retinal venules",
+      "internal elastic lamina absence",
+      "periarteriolar capillary-free zone",
+      "retinal arterial light reflex",
+      "AV nicking",
+      "Hollenhorst plaque",
+      "microaneurysm",
+      "cotton-wool spot",
+      "axoplasmic flow",
+      "pericyte loss",
+      "diabetic retinopathy",
+      "hypertensive retinopathy",
+      "retinal vein occlusion",
+      "giant cell arteritis",
+      "arteritic anterior ischaemic optic neuropathy",
+      "autoregulation",
+      "الشرينات الشبكية",
+      "الوُريدات الشبكية",
+      "الأوعية الدقيقة الشبكية"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "pournaras_2008_retinal_flow",
+      "cunha_vaz_2011_brb",
+      "eyewiki_cotton_wool_spots"
+    ],
+    "last_updated": "2026-11-08",
+    "version": "1.1.0",
+    "priority": 3
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {"reference_id": "wolff_anatomy", "chapter": "14", "pages": [480, 485]},
+        {"reference_id": "wolff_anatomy", "chapter": "15", "pages": [508, 525, 526, 527]}
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {"reference_id": "wolff_anatomy", "chapter": "14", "pages": [476, 480, 484, 485]},
+        {"reference_id": "wolff_anatomy", "chapter": "15", "pages": [507, 508]}
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {"reference_id": "wolff_anatomy", "chapter": "14", "pages": [476, 480, 485]},
+        {"reference_id": "wolff_anatomy", "chapter": "15", "pages": [526, 527, 533]}
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {"reference_id": "wolff_anatomy", "chapter": "3", "pages": [86, 88]},
+        {"reference_id": "wolff_anatomy", "chapter": "15", "pages": [525, 526]}
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {"reference_id": "wolff_anatomy", "chapter": "15", "pages": [527]}
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {"reference_id": "wolff_anatomy", "chapter": "14", "pages": [486]},
+        {"reference_id": "wolff_anatomy", "chapter": "15", "pages": [526]},
+        {"reference_id": "pournaras_2008_retinal_flow", "section": "Autoregulation by myogenic and metabolic mechanisms"}
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {"reference_id": "wolff_anatomy", "chapter": "15", "pages": [508, 525, 526, 527, 533]}
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {"reference_id": "wolff_anatomy", "chapter": "14", "pages": [486]},
+        {"reference_id": "wolff_anatomy", "chapter": "15", "pages": [508, 526, 533]},
+        {"reference_id": "cunha_vaz_2011_brb", "section": "Pericyte loss and inner BRB alteration as the earliest changes in diabetic retinopathy"},
+        {"reference_id": "eyewiki_cotton_wool_spots", "section": "Cotton-wool spots: nerve fibre layer lesions associated with pre-capillary arteriolar occlusion and ischaemia"}
+      ]
+    }
+  ]
+}

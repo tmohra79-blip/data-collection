@@ -1,0 +1,182 @@
+{
+  "entity_id": "retinal_vascular_arcades",
+  "component_ids": ["comp_retinal_vessels"],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Retinal Vascular Arcades",
+    "ar": "الأقواس الوعائية للشبكية",
+    "aliases": [
+      "Retinal arcade",
+      "Temporal vascular arcades",
+      "Major temporal arcades",
+      "Arcuate retinal vessels",
+      "القوس الوعائي الشبكي",
+      "الأقواس الوعائية الصدغية"
+    ]
+  },
+  "content": {
+    "definition": "The retinal vascular arcades are the curved (arcuate) courses taken by the superior and inferior temporal retinal arteries and veins as they emerge from the optic disc and sweep around the macula, demarcating the approximately elliptical central retina. Wolff describes them as the 'upper and lower arcuate and temporal retinal vessels that demarcate the approximately elliptical shape of the central retina' (Fig. 14.3, p.455). The nasal vessels take a more direct, though still curved, course. Three neighbouring structures must be distinguished from the arcades: (a) the major temporal vascular arcades themselves (this entity); (b) the small peripapillary retinal vessels at the optic disc margin; and (c) the arterial circle of Zinn and Haller, an intrascleral anastomosis of short posterior ciliary arterial branches around the optic nerve head that supplies the optic nerve head — it is NOT a retinal vascular arcade (see relationships). The overlying retinal nerve fibre layer axons follow a similar arcuate arrangement, 'arranged in arcades delineated by the processes of Muller and other glial cells' (Wolff p.485).",
+    "location": "Posterior pole, temporal to the optic disc. The retinal vessels emerge on the medial side of the optic cup, slightly decentred superonasally, and the temporal arteries take an arcuate course as they leave the disc, while the nasal ones take a more direct, though curved course. The inferior temporal arcade is larger and more visible than the superior temporal arcade, correlating with the broader inferior neuroretinal rim and the location of the foveola inferior to the optic disc centre (0.53 ± 0.34 mm below). The major arcades arch around the macula and demarcate the central retina (Wolff Fig 14.3, p.455); beyond the arcades, the retinal vessels continue as progressively smaller branches towards the retinal periphery.",
+    "layers": [
+      "Superior temporal arcade: vessels leaving the disc superotemporally and curving around the fovea superiorly",
+      "Inferior temporal arcade: vessels leaving the disc inferotemporally and curving around the fovea inferiorly; larger calibre than the superior arcade",
+      "Nasal arcade: vessels emerging nasally and taking a more direct, though curved, course (less arcuate than the temporal vessels)",
+      "Peripapillary retinal vessels (distinct structure, not a synonym): small retinal vessels around the optic nerve head at the disc margin, continuous with the retinal arterioles and venules (Wolff p.507-508); they are separate from the major temporal vascular arcades and must not be merged with them"
+    ],
+    "blood_supply": "The arcades are themselves the distributing vessels of the inner retina. The arterial arcade derives from the central retinal artery, which divides on or just above the optic disc into superior and inferior branches, the temporal branches then taking the arcuate course. The central retinal artery is 'the first branch of the ophthalmic artery' (Wolff ch.3 p.88) and an end artery. The arterial side of the arcade is at the level of the nerve fibre layer and ganglion cell layer. Related peripapillary arterial structure (NOT part of the retinal arcades): the arterial circle of Zinn and Haller — an intrascleral anastomosis around the optic nerve head formed by the paraoptic branches of the short posterior ciliary arteries, frequently incomplete as 'upper or lower arcuate anastomoses' or as 'overlapping non-anastomosing upper and lower segments' (Wolff p.529-530); it contributes to optic nerve head and peripapillary choroidal perfusion, not to the retinal arcade itself.",
+    "venous_drainage": "The venous arcade mirrors the arterial arcade but the courses of veins and arteries are 'similar but not identical', a configuration that 'avoids excessive shadowing of the rods and cones' (Wolff p.508). The temporal retinal veins drain via the superior and inferior retinal venous trunks that unite on the optic nerve head to form the central retinal vein. Two separate trunks may persist (failure of prenatal fusion of the embryonic paired venous channels), in which case 'two veins enter the nerve head and unite within the substance of the nerve' (Wolff p.527).",
+    "innervation": null,
+    "histology_summary": "The retinal vessels of the arcade are of arteriolar size once they leave the disc (Wolff p.508). The arteries are 'narrower and brighter red than the veins' and the ophthalmoscope light produces a well-marked light streak along their axes; the light streak on the veins is broader and dimmer. The light reflex is lost in papilloedema as the vessels bend over the elevated disc margin, since the image of the light source is thrown beyond the pupil. The retinal arteries themselves (post-lamina cribrosa branches) lack an internal elastic lamina (Wolff p.525-526). The retinal nerve fibre layer contains a 'rich capillary bed' arranged with the axons 'in arcades delineated by the processes of Muller and other glial cells' (Wolff p.485).",
+    "clinical_importance": "Arcade integrity is central to several clinical signs. (1) Glaucoma: flame-shaped haemorrhages in glaucomatous optic nerve damage occur 'on the rim, usually at the inferior or superior temporal margin' of the optic disc (Wolff p.507); they spread within the retinal nerve fibre layer and are a sign of optic nerve head damage, not a primary lesion of the vascular arcades themselves; the neuroretinal rim is part of the optic nerve head, not of the arcades. (2) Papilloedema: the vessels bend over the elevated disc margin and the arterial light reflex is lost; the nasal aspect of the disc is most susceptible to changes of papilloedema because of its greater collection of nerve bundles and blood vessels. (3) Branch retinal artery occlusion (BRAO): emboli (e.g. cholesterol or platelet-fibrin) may lodge at retinal arterial bifurcations along the arcade course. (4) Branch retinal vein occlusion (BRVO): occurs characteristically at arteriovenous crossings, where the artery and vein share a common fibrous sheath; arteriolar wall thickening compresses the venule, disturbing flow and favouring thrombus formation (supplementary: AAO Retinal Vein Occlusions Preferred Practice Pattern, 2025). BRAO and BRVO therefore differ in mechanism and typical site and should not be generalised as 'occlusions at arcade bifurcations'. (5) Situs inversus of the disc: when the scleral canal is directed nasally, the vessel divisions sweep nasally for a considerable distance before assuming their usual arcuate course, frequently associated with a high degree of corneal astigmatism (Wolff p.508). (6) Vessel calibre asymmetry between the inferior and superior temporal parapapillary vessels is a normal finding (Jonas and Naumann, 1989) and is independent of age."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "retinal_blood_supply",
+      "target_name": "Retinal Blood Supply (Retinal Circulation)"
+    },
+    {
+      "relation_type": "part_of",
+      "target_id": "retina",
+      "target_name": "Retina"
+    },
+    {
+      "relation_type": "drains_into",
+      "target_id": "central_retinal_vein",
+      "target_name": "Central Retinal Vein"
+    },
+    {
+      "relation_type": "supplied_by",
+      "target_id": "central_retinal_artery",
+      "target_name": "Central Retinal Artery"
+    },
+    {
+      "relation_type": "follows",
+      "target_id": "nerve_fibre_layer",
+      "target_name": "Nerve Fibre Layer (axons arranged in arcades delineated by glial processes; the superior and inferior nerve fibre bundles are separated at their origin by a horizontal raphe extending from the fovea to the extreme temporal periphery, Wolff p.486 — a nerve fibre layer landmark, not part of the vascular arcades)"
+    },
+    {
+      "relation_type": "related_to",
+      "target_id": "retinal_arterioles_venules",
+      "target_name": "Retinal Arterioles and Venules"
+    },
+    {
+      "relation_type": "related_to",
+      "target_id": "retinal_capillaries",
+      "target_name": "Retinal Capillaries (capillary beds supplied via the arcades)"
+    },
+    {
+      "relation_type": "adjacent_to",
+      "target_id": "optic_disc",
+      "target_name": "Optic Disc (arcades emerge from disc, slightly decentred superonasally)"
+    },
+    {
+      "relation_type": "related_to",
+      "target_id": "optic_disc",
+      "target_name": "Circle of Zinn-Haller (arterial anastomotic circle formed by paraoptic branches of the short posterior ciliary arteries in the sclera around the optic nerve head, frequently incomplete; Wolff p.529-530. A related peripapillary structure supplying the optic nerve head — NOT a retinal vascular arcade and NOT a synonym of this entity)"
+    },
+    {
+      "relation_type": "arches_around",
+      "target_id": "macula",
+      "target_name": "Macula (the temporal arcades arch around the macula and demarcate the approximately elliptical central retina; Wolff Fig 14.3 p.455. They surround the macular region rather than demarcating the foveola itself)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "retinal vascular arcades",
+      "retinal arcade",
+      "temporal vascular arcades",
+      "superior temporal arcade",
+      "inferior temporal arcade",
+      "arcuate retinal vessels",
+      "arcuate course",
+      "peripapillary retinal vessels",
+      "retinal vessels",
+      "central retinal artery",
+      "central retinal vein",
+      "circle of Zinn and Haller",
+      "branch retinal artery occlusion",
+      "branch retinal vein occlusion",
+      "arteriovenous crossing",
+      "situs inversus",
+      "papilloedema",
+      "glaucomatous disc haemorrhage",
+      "الأقواس الوعائية للشبكية",
+      "القوس الصدغي العلوي",
+      "القوس الصدغي السفلي",
+      "دائرة زين وهالر"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "aao_rvo_ppp_2025"
+    ],
+    "last_updated": "2026-11-08",
+    "version": "1.1.0",
+    "priority": 3
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {"reference_id": "wolff_anatomy", "chapter": "14", "pages": [455]},
+        {"reference_id": "wolff_anatomy", "chapter": "14", "pages": [485]},
+        {"reference_id": "wolff_anatomy", "chapter": "15", "pages": [529, 530]}
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {"reference_id": "wolff_anatomy", "chapter": "14", "pages": [455, 457]},
+        {"reference_id": "wolff_anatomy", "chapter": "15", "pages": [507, 508]}
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {"reference_id": "wolff_anatomy", "chapter": "15", "pages": [507, 508]}
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {"reference_id": "wolff_anatomy", "chapter": "3", "pages": [86, 88]},
+        {"reference_id": "wolff_anatomy", "chapter": "14", "pages": [485]},
+        {"reference_id": "wolff_anatomy", "chapter": "15", "pages": [507, 508, 529, 530]}
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {"reference_id": "wolff_anatomy", "chapter": "15", "pages": [508, 527]},
+        {"reference_id": "wolff_anatomy", "chapter": "3", "pages": [101]}
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {"reference_id": "wolff_anatomy", "chapter": "14", "pages": [485]},
+        {"reference_id": "wolff_anatomy", "chapter": "15", "pages": [508, 525, 526]}
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {"reference_id": "wolff_anatomy", "chapter": "14", "pages": [486]},
+        {"reference_id": "wolff_anatomy", "chapter": "15", "pages": [507, 508]},
+        {"reference_id": "aao_rvo_ppp_2025", "section": "Branch retinal vein occlusion at arteriovenous crossings (common adventitial sheath); branch retinal artery occlusion and emboli at arterial bifurcations"}
+      ]
+    }
+  ]
+}

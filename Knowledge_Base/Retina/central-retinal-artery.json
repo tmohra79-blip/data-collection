@@ -1,0 +1,410 @@
+{
+  "entity_id": "central_retinal_artery",
+  "component_ids": [
+    "comp_vessel_ophthalmic_artery"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Central Retinal Artery (Arteria Centralis Retinae)",
+    "ar": "الشريان الشبكي المركزي",
+    "aliases": [
+      "Central artery of the retina",
+      "arteria centralis retinae",
+      "CRA",
+      "Usually the first branch of the ophthalmic artery",
+      "central retinal artery occlusion territory",
+      "الشريان المركزي للشبكية",
+      "الشريان الشبكي المركزي",
+      "الفرع الأول عادةً للشريان العيني"
+    ]
+  },
+  "content": {
+    "definition": "The central retinal artery (arteria centralis retinae) is the branch of the ophthalmic artery that 'transcends all others in importance': it is an END ARTERY (Wolff ch3 p. 86; p. 88 describes occlusion as causing permanent and complete blindness). Clinically, central retinal artery occlusion (CRAO) causes sudden, usually profound and potentially permanent visual loss due to ischemia of the inner retina; visual outcome varies depending on the extent of occlusion, duration of ischemia, and the presence of a patent cilioretinal artery — a branch of the short posterior ciliary arteries present in a proportion of normal eyes that can preserve part of the macular circulation (cilioretinal-artery-sparing CRAO; supplementary: EyeWiki CRAO, Kim et al. 2020). It is one of the most tortuous of the orbital arteries (Rouviere 1967; Henry 1959, p. 88), and in the usual order of branches it is the FIRST branch of the ophthalmic artery (p. 88). It leaves the ophthalmic artery near the optic foramen, runs forwards within or outside the dural sheath of the optic nerve and, with its vein, crosses the subarachnoid space to enter the nerve inferomedially about 12 mm behind the eye (p. 508). At the optic nerve head it appears as vessel A of Fig 15.3 (p. 491); inside the eye its branches are confined to the inner retina — ganglion cell layer, nerve fibre layer and inner nuclear layer (pp. 476-485) — while the outer retina is nourished by the choroidal circulation. In the model (Good_Eye.blend) the object artery_retina_inside_1 (parent optical_nerv; component_id comp_vessel_ophthalmic_artery) represents this vessel inside the eye — the Unity object name and the component_id are model identifiers, NOT medical synonyms of the artery (the component is named 'ophthalmic artery' in the model naming scheme but actually maps the central retinal artery).",
+    "location": "Outside the eye the artery occupies a short but decisive orbital course. It arises from the ophthalmic artery near the optic foramen (p. 508); when the ophthalmic artery crosses over the optic nerve the central retinal artery is its first branch, alone or with the medial posterior ciliary or some other branch, while if the ophthalmic artery passes under the nerve the lateral posterior ciliary is the first branch (p. 88). It runs forwards within or outside the dural sheath and, with its vein, crosses the subarachnoid space to enter the optic nerve inferomedially about 12 mm behind the eye; the nerve is oval or crescentic in section where the vessels enter, and in two places if they enter separately (Kuhnt 1890) (p. 508). Throughout its course in the nerve the artery is surrounded by a perivascular connective tissue which blends with the cribriform plate as the central supporting connective tissue strand (p. 491, Fig 15.2). At the nerve head it lies with the central retinal vein (A and V of Fig 15.3, p. 491); the only connective tissue located on the disc is the sparse amount associated with the central vessels and the capillaries running between the axon bundles (p. 493). Ophthalmoscopically, when the scleral canal is straight the end of the arteria centralis is seen in optical section and its branches appear to come off at a right angle; if the intraneural part of the nerve is directed anterolaterally the nasal wall of the cup may be steep or overhanging and the artery obscured so that only its first divisions are seen, directed temporally; if the canal is directed anteromedially the artery is seen for some distance and the vessels are displaced towards the temporal side; in situs inversus of the disc the canal is directed nasally and the vessel divisions sweep nasally for a considerable distance before assuming their usual course (p. 508). Inside the eye the arterial tree is confined to the inner retina: vessel branches accompany the ganglion cell bodies (p. 484), a rich capillary bed lies in the nerve fibre layer (p. 485), and capillaries together with a small arteriole lie within the inner nuclear layer (pp. 476, 480, Figs 14.30b, 14.34).",
+    "layers": [
+      "Origin and branch order: when the ophthalmic artery crosses over the optic nerve the central retinal artery is its first branch, alone or with the medial posterior ciliary or some other branch; if the ophthalmic artery passes under the nerve the lateral posterior ciliary is the first branch (p. 88). The central retinal artery is an end artery and, with the posterior ciliary arteries, among the most tortuous orbital vessels (p. 88).",
+      "Developmental origin (embryology): the initial section of the ophthalmic artery, including its first ophthalmic part and the central retinal artery, is all derived from the primitive dorsal ophthalmic artery of the 4 mm fetus (Hayreh 1963) (p. 88).",
+      "Terminal anastomosis: the terminal branches of the artery anastomose to a limited extent with the arterial circle of Zinn at the optic disc (p. 88); this limited reserve does not in general provide collateral flow sufficient to rescue the inner retina in central retinal artery occlusion (supplementary: clinical literature).",
+      "Cilioretinal artery (variant — supplementary, not documented in the text read): a branch of the short posterior ciliary arteries that enters the eye at the disc margin and supplies a sector of the macula in a proportion of normal eyes. In CRAO in an eye with a patent cilioretinal artery, visual acuity usually recovers to 20/50 or better in over 80% of eyes (EyeWiki CRAO); in one series, cilioretinal-artery-sparing cases represented 17.8% (16/90) of complete CRAOs, with a poor final outcome (BCVA < 20/200) in 81.3% of sparing eyes versus 97.3% of non-sparing eyes (Kim, Park and Woo 2020).",
+      "Intraneural course: the artery is surrounded by perivascular connective tissue that blends with the cribriform plate as the central supporting connective tissue strand (p. 491, Fig 15.2); it crosses the subarachnoid space, where the central vessels are exposed to the cerebrospinal fluid pressure and may be compressed if the intracranial pressure is raised (pp. 508-509, Figs 15.25, 15.26); exceptionally, unmyelinated nerve fibres are enclosed within the adventitia of the central retinal artery within the intraorbital portion of the optic nerve (Ikui, Tominaga and Mimura 1964) (p. 494). Fig 15.44 (Wolff's preparation) shows a large branch from the central artery passing forwards in the subarachnoid space to the pial plexus of the optic nerve, and also a post-central artery passing backwards (p. 522) — the artery's documented contribution to the pial circulation of the nerve.",
+      "At the optic disc: glial tissue surrounds the adventitia of the central vessels as the intercalary tissue of Elschnig (Elschnig 1901) (p. 493); the only connective tissue on the disc is the sparse amount associated with the central vessels and the capillaries between the axon bundles (p. 493).",
+      "Intraocular divisions (inner retina): vessel branches accompany the ganglion cell bodies (p. 484); a rich capillary bed lies in the nerve fibre layer between the arcading axon bundles (p. 485); capillaries and a small arteriole lie in the inner nuclear layer (pp. 476, 480, Figs 14.30b, 14.34); the capillaries terminate at the junction marking the foveal clivus (p. 457, Fig 14.4) and the foveola is avascular (pp. 455, 457).",
+      "Calibre: in normal eyes the diameter of the inferior temporal parapapillary vessels is larger than the superior, corresponding to the broader inferior disc and the location of the foveola inferior to the disc centre (0.53 ± 0.34 mm below); vessel diameter is independent of age (Jonas and Naumann 1989) (p. 508)."
+    ],
+    "blood_supply": "The central retinal artery is a branch of the ophthalmic artery, which arises from the internal carotid artery and supplies the orbit (p. 86; pp. 86-88). As an end artery it provides the entire arterial input of the inner retina with no substantial collateral supply: only the limited anastomosis of its terminal branches with the arterial circle of Zinn at the optic disc exists (p. 88). The inner retinal vascular bed it serves spans the ganglion cell layer (vessel branches, p. 484), the nerve fibre layer (rich capillary bed, p. 485) and the inner nuclear layer (capillaries and a small arteriole, pp. 476, 480); the outer retina is served by the choroidal circulation (see choroid_blood_supply and choriocapillaris).",
+    "venous_drainage": null,
+    "innervation": "Direct innervation of the arterial trunk is not described in the text read. Vasomotor control of the retinal circulation is documented at the microvascular level: centrifugal (efferent) fibres originating from the central nervous system terminate in the inner plexiform layer or the innermost part of the inner nuclear layer and usually associate with amacrine cells or capillary walls, where they exert vasomotor effects on the retinal circulation (p. 486). Retinal blood flow is, however, regulated chiefly by local autoregulation — 'adaptation of the vascular tone of the resistance vessels (arterioles, capillaries) to changes in the perfusion pressure or metabolic needs of the tissue', through interacting myogenic and metabolic mechanisms (supplementary: Pournaras et al. 2008) — rather than by direct autonomic control.",
+    "histology_summary": "In the optic nerve the artery runs within a perivascular connective tissue sleeve continuous with the central supporting connective tissue strand of the lamina cribrosa (p. 491, Fig 15.2); at the disc its adventitia is invested by glial tissue — the intercalary tissue of Elschnig (p. 493) — and unmyelinated nerve fibres may be enclosed within its adventitia in the intraorbital segment (p. 494). In the retina its branches accompany the ganglion cell bodies (p. 484); the nerve fibre layer carries the rich capillary bed between the arcading axon bundles (p. 485); the inner nuclear layer contains capillaries and a small arteriole (pp. 476, 480, Figs 14.30b, 14.34). Ophthalmoscopically the arteries produce a well-marked light streak along their axes (the light streak on the veins is broader and dimmer) (p. 508). The outer, photoreceptor-bearing retina is avascular and is nourished by the choriocapillaris, whose circulation shines through the avascular foveola (p. 455).",
+    "clinical_importance": "1) Central retinal artery occlusion (CRAO): because the artery is an end artery, Wolff describes its occlusion as causing complete, permanent blindness (pp. 86, 88). Clinically, CRAO causes sudden, usually profound and potentially permanent visual loss due to ischemia of the inner retina; visual outcome varies depending on the extent of occlusion, duration of ischemia, and the presence of a patent cilioretinal artery (supplementary: EyeWiki CRAO). 2) Cilioretinal-artery-sparing CRAO: a cilioretinal artery (branch of the short posterior ciliary arteries) can preserve part of the macular circulation — visual acuity usually recovers to 20/50 or better in over 80% of eyes with a patent cilioretinal artery; in one series 17.8% of complete CRAOs were cilioretinal-sparing, and even these eyes had poor final vision (BCVA < 20/200) in 81.3% of cases versus 97.3% without sparing, so the prognosis remains guarded (Kim, Park and Woo 2020). 3) Collateral reserve: the limited anastomosis of its terminal branches with the arterial circle of Zinn at the disc (p. 88) does not in general provide collateral flow sufficient to rescue the inner retina in CRAO (supplementary: clinical literature). 4) Cherry-red spot: after obstruction of the central retinal vasculature the surrounding retina becomes cloudy while the foveola — lacking capillaries and backed by the choriocapillaris — appears deeper red (pp. 455-456). 5) Visible retinal arterial pulsation is rare and usually pathological, implying, for example, aortic incompetence or high ocular pressure (p. 508). 6) Fundoscopic landmarks: the visibility of the arteria centralis end and the right-angle origin of its branches depend on the direction of the scleral canal; in situs inversus of the disc the vessel divisions sweep nasally, and the condition is frequently associated with a high degree of corneal astigmatism (p. 508). 7) Calibre baseline: the inferior temporal parapapillary vessels are normally wider than the superior; vessel diameter is independent of age (Jonas and Naumann 1989) (p. 508)."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "retina",
+      "target_name": "Retina"
+    },
+    {
+      "relation_type": "supplies",
+      "target_id": "retina",
+      "target_name": "Retina"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "central_retinal_vein",
+      "target_name": "Central Retinal Vein"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "retinal_blood_supply",
+      "target_name": "Retinal Blood Supply (Retinal Circulation)"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "optic_nerve_blood_supply",
+      "target_name": "Blood Supply of the Optic Nerve"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "optic_disc",
+      "target_name": "Optic Disc"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "ganglion_cell_layer",
+      "target_name": "Ganglion Cell Layer"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "nerve_fibre_layer",
+      "target_name": "Nerve Fibre Layer"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "inner_nuclear_layer",
+      "target_name": "Inner Nuclear Layer"
+    },
+    {
+      "relation_type": "connected_to",
+      "target_id": "cilioretinal_artery",
+      "target_name": "Cilioretinal Artery (variant branch of the short posterior ciliary arteries — supplementary entity; no dedicated card yet)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "central retinal artery",
+      "CRA",
+      "arteria centralis retinae",
+      "central artery of the retina",
+      "end artery",
+      "CRAO",
+      "central retinal artery occlusion",
+      "first branch of ophthalmic artery",
+      "branch order",
+      "ophthalmic artery",
+      "internal carotid artery",
+      "primitive dorsal ophthalmic artery",
+      "Hayreh",
+      "circle of Zinn",
+      "arterial circle of Zinn",
+      "Zinn anastomosis",
+      "anastomosis",
+      "perivascular connective tissue",
+      "central supporting connective tissue strand",
+      "intercalary tissue of Elschnig",
+      "adventitia",
+      "unmyelinated nerve fibres",
+      "optic foramen",
+      "dural sheath",
+      "subarachnoid space",
+      "12 mm",
+      "inferomedial entry",
+      "Kuhnt",
+      "situs inversus",
+      "right angle branches",
+      "light streak",
+      "arterial pulsation",
+      "aortic incompetence",
+      "high ocular pressure",
+      "inferior temporal parapapillary vessels",
+      "vessel calibre",
+      "retinal arterioles",
+      "inner retina",
+      "ganglion cell layer vessels",
+      "nerve fibre layer capillaries",
+      "inner nuclear layer arteriole",
+      "foveal avascular zone",
+      "cherry-red spot",
+      "tortuous artery",
+      "artery_retina_inside_1",
+      "الشريان الشبكي المركزي",
+      "الشريان المركزي للشبكية",
+      "شريان نهائي",
+      "انسداد الشريان الشبكي المركزي",
+      "الشريان العيني",
+      "الشريان السباتي الباطن",
+      "دائرة زين",
+      "النسيج الضام المحيط بالأوعية",
+      "الثقب البصري",
+      "الحيز تحت العنكبوتي",
+      "النبض الشرياني",
+      "قصور الأبهر",
+      "الضغط داخل العين",
+      "البقعة الحمراء",
+      "منطقة الفوفيا اللاوعائية",
+      "الشريان المتعرج",
+      "دخول الشريان للعصب البصري",
+      "post-central artery",
+      "pial plexus",
+      "pial network of the optic nerve",
+      "cilioretinal artery",
+      "cilioretinal artery sparing",
+      "cilioretinal-artery-sparing CRAO",
+      "short posterior ciliary arteries",
+      "sudden painless vision loss",
+      "visual outcome",
+      "autoregulation",
+      "model identifier not synonym",
+      "الشريان الهدبي الشبكي",
+      "الشريان الهدبي الخلفي القصير",
+      "فقدان البصر المفاجئ غير المؤلم",
+      "التنظيم الذاتي"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "eyewiki_crao",
+      "kim_2020_clra_sparing",
+      "pournaras_2008_retinal_flow"
+    ],
+    "last_updated": "2026-11-07",
+    "version": "1.2.0",
+    "priority": 2
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "3",
+          "pages": [
+            86,
+            88
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            476,
+            484,
+            485
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            491,
+            508
+          ]
+        },
+        {
+          "reference_id": "eyewiki_crao",
+          "section": "Presentation; cilioretinal artery branch of the short posterior ciliary arteries"
+        },
+        {
+          "reference_id": "kim_2020_clra_sparing",
+          "section": "Cilioretinal artery sparing CRAO 17.8% of complete CRAO"
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "3",
+          "pages": [
+            88
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            476,
+            480,
+            484,
+            485
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            491,
+            493,
+            508
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "3",
+          "pages": [
+            88
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            455,
+            457,
+            476,
+            480,
+            484,
+            485
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            491,
+            493,
+            494,
+            508,
+            509,
+            522
+          ]
+        },
+        {
+          "reference_id": "eyewiki_crao",
+          "section": "Cilioretinal artery origin; CRAO with cilioretinal artery"
+        },
+        {
+          "reference_id": "kim_2020_clra_sparing",
+          "section": "17.8% sparing; final BCVA outcomes"
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "3",
+          "pages": [
+            86,
+            88
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            476,
+            480,
+            484,
+            485
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            486
+          ]
+        },
+        {
+          "reference_id": "pournaras_2008_retinal_flow",
+          "section": "Abstract: autoregulation via myogenic and metabolic mechanisms"
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            455,
+            476,
+            480,
+            484,
+            485
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            491,
+            493,
+            494,
+            508
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "3",
+          "pages": [
+            86,
+            88
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            455,
+            456
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            508
+          ]
+        },
+        {
+          "reference_id": "eyewiki_crao",
+          "section": "CRAO with cilioretinal artery: visual acuity usually recovers to 20/50 or better in over 80% of eyes"
+        },
+        {
+          "reference_id": "kim_2020_clra_sparing",
+          "section": "Poor outcome 81.3% sparing vs 97.3% non-sparing"
+        }
+      ]
+    }
+  ]
+}

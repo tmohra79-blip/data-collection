@@ -1,0 +1,339 @@
+{
+  "entity_id": "retinal_capillaries",
+  "component_ids": [
+    "comp_retinal_vessels"
+  ],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Retinal Capillaries (Retinal Capillary Network)",
+    "ar": "الشعيرات الدموية للشبكية (الشبكة الشعرية الدموية للشبكية)",
+    "aliases": [
+      "Retinal capillary bed",
+      "Retinal capillary network",
+      "Retinal capillary plexuses",
+      "الشبكة الشعرية الدموية"
+    ]
+  },
+  "content": {
+    "definition": "The retinal capillaries are the smallest vessels of the retinal circulation, organised into distinct capillary plexuses in the posterior pole: the superficial vascular plexus (SVP), the intermediate capillary plexus (ICP), the deep capillary plexus (DCP) and the radial peripapillary capillary plexus (RPCP). The plexus names are substructure labels for the plexuses of this entity, not synonyms for it. At the histological level Wolff documents capillaries within the inner nuclear layer (Fig. 14.30b p.476), a small arteriole within the inner nuclear layer (Fig. 14.34 p.480), vessel branches in the ganglion cell layer (p.484), and a 'rich capillary bed' in the nerve fibre layer (p.485). The capillary bed of the retina terminates at the clivus, where the inner nuclear layer also terminates, marking the boundary of the avascular foveola (p.457 Fig 14.4). The capillary network is absent from the foveola (0.35 mm, Wolff p.455) and from the extreme periphery of the retina. The foveal avascular zone (FAZ) is the central capillary-free region within the macula, surrounding the foveola; it is a region devoid of capillaries (a related anatomical feature, not a capillary structure), and its dimensions vary among individuals and according to imaging device and segmentation method — approximately 400-500 micrometres diameter is a reference value in normal eyes, not a fixed diagnostic threshold (supplementary: EyeWiki Retinal Vascularization, 2026-07-21).",
+    "location": "Distributed across the inner two-thirds of the retinal thickness. Approximate position of the plexuses, listed from inner (vitreal) to outer: the radial peripapillary capillary plexus (RPCP), a radially oriented two-dimensional network in the nerve fibre layer around the optic nerve head — a peripapillary network rather than a fourth sequential layer beneath the DCP; the superficial vascular plexus (SVP), mainly within the nerve fibre layer and ganglion cell layer; the intermediate capillary plexus (ICP), around the inner plexiform layer / inner nuclear layer interface; and the deep capillary plexus (DCP), around the outer portion of the inner nuclear layer and the inner plexiform / outer plexiform layer region. This order is a simplified schematic, not an exact representation of OCTA segmentation levels: boundaries differ between devices and protocols, and some studies and devices separate a nerve fibre layer vascular plexus from the SVP, reporting 2 to 4 distinct plexuses depending on location relative to the optic disc and fovea (supplementary: Campbell 2017; Hwang 2016; EyeWiki). Wolff documents the retinal capillary termination at the junction of the clivus and foveola (p.457), where 'the termination of the inner nuclear layer (IN) and of the retinal capillaries (asterisks)' coincide. The capillaries are absent from the foveola (Wolff p.455 'the foveola usually appears deeper red than does the adjacent retina because of the rich choroidal circulation of the choriocapillaris which shines through it'; absence of capillaries from the foveola, Fig 14.5 p.457).",
+    "layers": [
+      "Superficial vascular plexus (SVP, substructure): located mainly within the ganglion cell layer and nerve fibre layer; vessels evenly distributed, resembling a spider's web (supplementary: EyeWiki). Wolff documents 'a rich capillary bed' in the nerve fibre layer (p.485) and 'vessel branches in the ganglion cell layer' (p.484).",
+      "Intermediate capillary plexus (ICP, substructure): capillary bed around the inner plexiform layer / inner nuclear layer interface (supplementary: EyeWiki, Hwang 2016). Wolff documents a capillary within the inner nuclear layer (Fig 14.30b, p.476).",
+      "Deep capillary plexus (DCP, substructure): capillary bed around the outer portion of the inner nuclear layer and the inner plexiform / outer plexiform layer region (supplementary: EyeWiki, Hwang 2016). The capillaries of the deep plexus have a regular distribution around the foveal avascular zone with small and complex interconnections, resembling a meshwork (supplementary: EyeWiki).",
+      "Radial peripapillary capillary plexus (RPCP, substructure): a radially oriented two-dimensional network in the nerve fibre layer around the optic nerve head; vessels are radially oriented, sparse, with limited anastomosis and restricted extension beyond the posterior pole (supplementary: EyeWiki, Hwang 2016). The RPCP is a peripapillary network — not a fourth sequential plexus lying beneath the DCP.",
+      "Capillary termination at the clivus: at the junction between the foveal slope (clivus) and the floor of the foveola, both the inner nuclear layer and the retinal capillaries terminate, marking the avascular boundary of the foveola (Wolff p.457 Fig 14.4).",
+      "Related anatomical feature - foveal avascular zone (FAZ): the central capillary-free region within the macula, surrounding the foveola; its dimensions vary among individuals and with imaging device and segmentation method, approximately 400-500 micrometres diameter being a reference value in normal eyes (supplementary: EyeWiki). The FAZ is a region devoid of capillaries, not itself a capillary structure; the FAZ and the foveola (0.35 mm diameter, Wolff p.455) are coincident but not synonymous, the FAZ being generally wider."
+    ],
+    "blood_supply": "The retinal capillaries are supplied by pre-capillary arterioles branching from the central retinal artery via the retinal vascular arcades. The CRA divides on or just above the optic disc into superior and inferior branches that feed the superficial vascular plexus; the SVP provides arterial inflow to the deeper capillary plexuses through vertically oriented interconnecting vessels, while the ICP and DCP have interconnected vascular pathways that ultimately drain into post-capillary venules (supplementary: Hwang 2016; Campbell 2017). Wolff describes 'a small arteriole within the inner nuclear layer' (Fig 14.34 p.480) and 'a rich capillary bed' in the nerve fibre layer (p.485). The perivascular capillary-free zone adjacent to retinal arterioles (Fig 15.54h p.533) is a normal anatomical feature of the arteriolar side of the capillary bed.",
+    "venous_drainage": "Post-capillary venules drain the capillary plexuses and converge into the retinal veins, which follow the arcade course back to the optic disc and empty into the superior and inferior retinal venous trunks that unite to form the central retinal vein (Wolff p.527). The capillary beds are the site of the inner blood-retinal barrier (see blood_retinal_barrier card).",
+    "innervation": "Wolff documents 'centrifugal fibres that originate from the central nervous system' which 'usually associate with amacrine cells or capillary walls, where they exert vasomotor effects' (p.486). These are the only efferent fibres described as terminating at the capillary wall in the retina; they are centrifugal (efferent) vasomotor fibres and not a classical autonomic innervation of the capillary bed (the retina lacks classical autonomic innervation; classical autonomic terminals on the central retinal artery fade at the lamina cribrosa, see retinal_arterioles_venules card). Supplementary: retinal blood flow is autoregulated by myogenic and metabolic mechanisms via the release of vasoactive substances by the vascular endothelium and surrounding cells (Pournaras 2008).",
+    "histology_summary": "Retinal capillaries are continuous, non-fenestrated capillaries: a single layer of endothelial cells joined by tight junctions, resting on a basement membrane, invested by pericytes, and enveloped by glial (Muller cell) end-feet (supplementary: Cunha-Vaz 2011; O'Leary and Campbell 2023). The endothelial tight junctions constitute the inner component of the blood-retinal barrier (supplementary: Cunha-Vaz 2011). Note on sourcing: Wolff documents the endothelium / basement membrane / pericyte arrangement for the larger retinal vessels (central retinal vein, p.527); the direct description of the retinal capillary wall and its tight junctions is from the supplementary literature, not from the Wolff pages read. The perivascular capillary-free zone (Wolff Fig 15.54h p.533) is a normal perivascular feature around the retinal arterioles; the foveal avascular zone is the central capillary-free region of the macula surrounding the foveola, with dimensions that vary among individuals and with imaging method (approximately 400-500 micrometres reference value, supplementary: EyeWiki); the foveola itself is avascular.",
+    "clinical_importance": "The retinal capillary plexuses are the site of disease in: (1) diabetic retinopathy — inner BRB breakdown, pericyte loss, microaneurysms and capillary dropout; microaneurysms are focal dilatations of retinal capillaries and may appear in different plexuses rather than being confined to the DCP; (2) retinal vein occlusion — engorgement of the capillary bed downstream of the occlusion; (3) macular ischaemia — capillary dropout around and enlargement of the foveal avascular zone. OCT angiography visualises the SVP, ICP, DCP and RPCP separately, improving the diagnosis of these conditions (supplementary: Hwang 2016 — projection-resolved OCTA; EyeWiki); interpretation requires care, because projection artefacts and segmentation errors can misrepresent the deeper plexuses. Three distinct entities must not be confused: the perivascular capillary-free zone around arterioles (a normal anatomical feature, Wolff Fig 15.54h p.533), the foveal avascular zone (the central avascular region of the macula), and cotton-wool spots (ischaemic lesions of the nerve fibre layer associated with pre-capillary arteriolar obstruction; see retinal_arterioles_venules card)."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "retinal_blood_supply",
+      "target_name": "Retinal Blood Supply"
+    },
+    {
+      "relation_type": "part_of",
+      "target_id": "retina",
+      "target_name": "Retina"
+    },
+    {
+      "relation_type": "supplied_by",
+      "target_id": "central_retinal_artery",
+      "target_name": "Central Retinal Artery"
+    },
+    {
+      "relation_type": "drains_into",
+      "target_id": "central_retinal_vein",
+      "target_name": "Central Retinal Vein"
+    },
+    {
+      "relation_type": "supplies",
+      "target_id": "nerve_fibre_layer",
+      "target_name": "Nerve Fibre Layer (rich capillary bed documented by Wolff p.485)"
+    },
+    {
+      "relation_type": "supplies",
+      "target_id": "ganglion_cell_layer",
+      "target_name": "Ganglion Cell Layer (vessel branches documented by Wolff p.484)"
+    },
+    {
+      "relation_type": "supplies",
+      "target_id": "inner_nuclear_layer",
+      "target_name": "Inner Nuclear Layer (capillary within INL documented by Wolff p.476)"
+    },
+    {
+      "relation_type": "forms",
+      "target_id": "blood_retinal_barrier",
+      "target_name": "Blood-Retinal Barrier (inner BRB = retinal capillary endothelial tight junctions)"
+    },
+    {
+      "relation_type": "arranged_as",
+      "target_id": "retinal_vascular_arcades",
+      "target_name": "Retinal Vascular Arcades (pre-capillary arterioles and post-capillary venules follow the arcade course)"
+    },
+    {
+      "relation_type": "composed_of",
+      "target_id": "retinal_arterioles_venules",
+      "target_name": "Retinal Arterioles and Venules (the feeding and draining vessels of the capillary bed)"
+    },
+    {
+      "relation_type": "related_to",
+      "target_id": "macula",
+      "target_name": "Macula / Foveal Avascular Zone (the FAZ is the central capillary-free region of the macula surrounding the foveola; a related anatomical feature, not part of the capillary network)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "retinal capillaries",
+      "retinal capillary network",
+      "retinal capillary bed",
+      "retinal capillary plexuses",
+      "superficial vascular plexus",
+      "SVP",
+      "intermediate capillary plexus",
+      "ICP",
+      "deep capillary plexus",
+      "DCP",
+      "radial peripapillary capillary plexus",
+      "RPCP",
+      "foveal avascular zone",
+      "FAZ",
+      "periarteriolar capillary-free zone",
+      "capillary termination at clivus",
+      "foveola avascular",
+      "continuous non-fenestrated capillary",
+      "pericyte",
+      "tight junction",
+      "microaneurysm",
+      "projection artefact",
+      "diabetic retinopathy",
+      "retinal vein occlusion",
+      "macular ischemia",
+      "OCT angiography",
+      "PR-OCTA",
+      "الشعيرات الدموية الشبكية",
+      "الشبكة الشعرية الدموية",
+      "الضفيرة السطحية",
+      "الضفيرة الوسيطة",
+      "الضفيرة العميقة",
+      "الضفيرة المحيطية الكعبرية"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "hwang_2016_plexuses",
+      "eyewiki_retinal_vascularization",
+      "pournaras_2008_retinal_flow",
+      "cunha_vaz_2011_brb",
+      "oleary_campbell_2023_brb",
+      "eyewiki_cotton_wool_spots",
+      "campbell_2017_detailed_vascular"
+    ],
+    "last_updated": "2026-11-08",
+    "version": "1.1.0",
+    "priority": 3
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            455,
+            457,
+            476,
+            480,
+            484,
+            485
+          ]
+        },
+        {
+          "reference_id": "eyewiki_retinal_vascularization",
+          "section": "Retinal Vascularization and OCT-Angiography Interpretation (FAZ dimensions and variability)"
+        }
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            455,
+            457,
+            476,
+            480,
+            484,
+            485
+          ]
+        },
+        {
+          "reference_id": "eyewiki_retinal_vascularization",
+          "section": "Retinal Vascularization and OCT-Angiography Interpretation (SVP/ICP/DCP/RPCP locations)"
+        },
+        {
+          "reference_id": "hwang_2016_plexuses",
+          "section": "PR-OCTA separates 3 retinal capillary plexuses; segmentation-dependent boundaries"
+        }
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            455,
+            457,
+            476,
+            480,
+            484,
+            485
+          ]
+        },
+        {
+          "reference_id": "eyewiki_retinal_vascularization",
+          "section": "Four vascular networks (RPCP, SVP, ICP, DCP) and FAZ dimensions"
+        },
+        {
+          "reference_id": "hwang_2016_plexuses",
+          "section": "Three distinct capillary plexuses by PR-OCTA"
+        },
+        {
+          "reference_id": "campbell_2017_detailed_vascular",
+          "section": "2 to 4 distinct retinal vascular plexuses depending on location relative to the optic disc and fovea"
+        }
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            480,
+            485
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            508,
+            533
+          ]
+        },
+        {
+          "reference_id": "hwang_2016_plexuses",
+          "section": "Interconnecting vessels between SVP and deeper plexuses"
+        },
+        {
+          "reference_id": "campbell_2017_detailed_vascular",
+          "section": "Interconnecting vascular layers between the retinal capillary plexuses"
+        }
+      ]
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            527
+          ]
+        }
+      ]
+    },
+    {
+      "content_field": "innervation",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            486
+          ]
+        },
+        {
+          "reference_id": "pournaras_2008_retinal_flow",
+          "section": "Autoregulation by myogenic and metabolic mechanisms"
+        }
+      ]
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            527,
+            533
+          ]
+        },
+        {
+          "reference_id": "cunha_vaz_2011_brb",
+          "section": "Inner BRB = tight junctions between retinal capillary endothelial cells"
+        },
+        {
+          "reference_id": "oleary_campbell_2023_brb",
+          "section": "Retinal capillary endothelium, tight junctions, basement membrane, pericytes and glial investment"
+        }
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "14",
+          "pages": [
+            455
+          ]
+        },
+        {
+          "reference_id": "wolff_anatomy",
+          "chapter": "15",
+          "pages": [
+            533
+          ]
+        },
+        {
+          "reference_id": "hwang_2016_plexuses",
+          "section": "PR-OCTA distinguishes DR from healthy eyes by capillary abnormalities in deeper layers"
+        },
+        {
+          "reference_id": "eyewiki_retinal_vascularization",
+          "section": "OCTA interpretation in diabetic retinopathy and vascular occlusions; projection artefacts"
+        },
+        {
+          "reference_id": "eyewiki_cotton_wool_spots",
+          "section": "Cotton-wool spots as nerve fibre layer ischaemic lesions (distinction from capillary-free zones)"
+        },
+        {
+          "reference_id": "campbell_2017_detailed_vascular",
+          "section": "PR-OCTA removes projection artefact, improving depth discrimination of the deeper plexuses"
+        }
+      ]
+    }
+  ]
+}

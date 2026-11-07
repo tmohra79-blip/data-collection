@@ -824,5 +824,208 @@
     "verification": "Full citation and complete abstract read directly on Europe PMC 2026-10-27 (cited by 304): the choroid is richly innervated by parasympathetic, sympathetic and trigeminal sensory fibres that regulate choroidal blood flow; parasympathetic vasodilates, sympathetic vasoconstricts, sensory fibres convey pain/thermal information and act locally to vasodilate; impairments occur with aging, glaucoma, AMD, hypertension, diabetes.",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5971129/",
     "access": "free_full_text"
+  },
+  {
+    "reference_id": "hwang_2016_plexuses",
+    "title": "Visualization of 3 distinct retinal plexuses by projection-resolved optical coherence tomography angiography",
+    "authors": [
+      "Tina S Hwang",
+      "Mengxi Zhang",
+      "Chhinder Bhavsar",
+      "et al."
+    ],
+    "publisher": "JAMA Ophthalmology",
+    "year": 2016,
+    "volume": "134(12):1410-1419",
+    "doi": "10.1001/jamaophthalmol.2016.4226",
+    "pmid": "27812696",
+    "pmcid": "PMC5805384",
+    "type": "journal_article",
+    "verification": "Full citation and abstract read on PubMed / Europe PMC 2026-11-08 (cited by 229): PR-OCTA separates 3 retinal capillary plexuses (SVP at NFL+GCL, ICP at inner INL boundary, DCP between INL and OPL); capillary abnormalities in deeper layers distinguish diabetic retinopathy from healthy eyes and severe from mild DR.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27812696",
+    "access": "free_full_text"
+  },
+  {
+    "reference_id": "eyewiki_retinal_vascularization",
+    "title": "Retinal Vascularization and OCT-Angiography Interpretation",
+    "authors": [
+      "Rita Costa Basto",
+      "Joana Roque",
+      "Leo A Kim",
+      "Koushik Tripathy"
+    ],
+    "publisher": "EyeWiki (American Academy of Ophthalmology)",
+    "year": 2026,
+    "type": "encyclopedia_article",
+    "verification": "Article page read in full on 2026-11-08; assigned editor Koushik Tripathy, last updated 2026-07-21. Verbatim: 'At the histological level, four vascular networks are present in the retina of the posterior pole: RPCP, SVP, ICP, DCP' and 'the FAZ, with a diameter of 400-500 micrometres in normal eyes'.",
+    "url": "https://eyewiki.org/Retinal_Vascularization_and_OCT-Angiography_Interpretation",
+    "access": "free_full_text"
+  },
+  {
+    "reference_id": "eyewiki_crao",
+    "title": "Retinal Artery Occlusion",
+    "authors": [
+      "Jennifer I Lim",
+      "Brad H Feldman",
+      "Vinay A Shah",
+      "Koushik Tripathy",
+      "Brian Lee",
+      "Neelakshi Bhagat",
+      "Peter A Karth"
+    ],
+    "publisher": "EyeWiki (American Academy of Ophthalmology)",
+    "year": 2026,
+    "type": "encyclopedia_article",
+    "verification": "Article page read in full on 2026-11-08; assigned editor Neelakshi Bhagat, status 'Up to Date' as of 2026-08-15. Verbatim: 'The central retinal artery, the first branch of the ophthalmic artery, is the main blood supplier of the inner layers of the retina. After entering the eye, the central retinal artery divides into superior and inferior branches. In addition, the cilioretinal artery is a branch of the short posterior ciliary arteries...This artery supplies the choroid and the outer retinal layers.' Cilioretinal artery sparing CRAO: cilioretinal artery is fed by short posterior ciliary arteries; preserves central vision in a subset of CRAO eyes.",
+    "url": "https://eyewiki.org/Retinal_Artery_Occlusion",
+    "access": "free_full_text"
+  },
+  {
+    "reference_id": "kim_2020_clra_sparing",
+    "title": "Clinical Manifestations and Visual Prognosis of Cilioretinal Artery Sparing Central Retinal Artery Occlusion",
+    "authors": [
+      "Yong Hoon Kim",
+      "Kyu Hyung Park",
+      "Se Joon Woo"
+    ],
+    "publisher": "Korean Journal of Ophthalmology",
+    "year": 2020,
+    "volume": "34(1):27",
+    "doi": "10.3341/kjo.2019.0099",
+    "pmid": "32037747",
+    "pmcid": "PMC7010472",
+    "type": "journal_article",
+    "verification": "Full article read on PMC 2026-11-08. Among 90 eyes with complete CRAO, cilioretinal-sparing CRAO was 17.8% (16/90); mean initial BCVA (2.04 +/- 0.69 vs 2.34 +/- 0.47, p=0.039) and final BCVA (1.65 +/- 0.87 vs 2.22 +/- 0.84, p=0.001) were significantly better in cilioretinal-sparing group. Poor visual outcome (final BCVA <20/200) was 81.3% in cilioretinal-sparing vs 97.3% in non-sparing group (p=0.01). Papillomacular bundle ischemia at onset was associated with poor vision (12/13 [92.3%] in poor vision group vs 1/3 [33.3%] in good vision group, p=0.016).",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7010472",
+    "access": "free_full_text"
+  },
+  {
+    "reference_id": "pournaras_2008_retinal_flow",
+    "title": "Regulation of retinal blood flow in health and disease",
+    "authors": [
+      "Constantin J Pournaras",
+      "E Rungger-Brandle",
+      "C E Riva",
+      "et al."
+    ],
+    "publisher": "Progress in Retinal and Eye Research",
+    "year": 2008,
+    "volume": "27(3):284-330",
+    "doi": "10.1016/j.preteyeres.2008.04.002",
+    "pmid": "18448320",
+    "type": "journal_article",
+    "verification": "Full abstract read on PubMed 2026-11-08 (cited by 798). 'Retinal blood flow is autoregulated by the interaction of myogenic and metabolic mechanisms through the release of vasoactive substances by the vascular endothelium and surrounding cells, and by the adaptation of the vascular tone of the resistance vessels (arterioles, capillaries)'.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18448320",
+    "access": "abstract_free"
+  },
+  {
+    "reference_id": "eyewiki_papilledema",
+    "title": "Papilledema",
+    "authors": [
+      "Edmond J FitzGibbon",
+      "Nita Bhat",
+      "Nooran Badeeb",
+      "Sailaja D Saragadam",
+      "Guy V Jirawuthiworavong",
+      "Andrew G Lee",
+      "Nagham Al-Zubidi",
+      "Saurabh Deshmukh",
+      "Shruthi Harish Bindiganavile",
+      "Danah Albreiki"
+    ],
+    "publisher": "EyeWiki (American Academy of Ophthalmology)",
+    "year": 2026,
+    "type": "encyclopedia_article",
+    "verification": "Article page read in full on 2026-11-08; assigned editor Danah Albreiki, status 'Update Pending' last review 2024-12-10. Verbatim: 'Papilledema results from orthograde axoplasmic flow stasis at the optic nerve head, leading to edema of the nerve from the increased intracranial pressure on the nerve behind the eye. Continued pressure can result in loss of axons and eventual optic atrophy secondary to intraneuronal ischemia, ultimately causing vision loss.' Increased ICP is transmitted via the subarachnoid space surrounding the optic nerve.",
+    "url": "https://eyewiki.org/Papilledema",
+    "access": "free_full_text"
+  },
+  {
+    "reference_id": "cunha_vaz_2011_brb",
+    "title": "Blood-retinal barrier",
+    "authors": [
+      "Jose Cunha-Vaz",
+      "Rui Bernardes",
+      "Carla Lobo"
+    ],
+    "publisher": "European Journal of Ophthalmology",
+    "year": 2011,
+    "volume": "21 Suppl 6:S3-9",
+    "doi": "10.5301/ejo.2010.6049",
+    "pmid": "23264323",
+    "type": "journal_article",
+    "verification": "Full abstract read on Europe PMC 2026-11-08 (cited by 775). 'The BRB consists of inner and outer components, the inner BRB being formed of tight junctions between retinal capillary endothelial cells and the outer BRB of tight junctions between retinal pigment epithelium cells.' 'Diabetic retinopathy is initiated by an alteration of the inner BRB and neovascular AMD is a result of an alteration of the outer BRB.'",
+    "url": "https://europepmc.org/article/MED/23264323",
+    "access": "abstract_free"
+  },
+  {
+    "reference_id": "oleary_campbell_2023_brb",
+    "title": "The blood-retina barrier in health and disease",
+    "authors": [
+      "Fionn O'Leary",
+      "Matthew Campbell"
+    ],
+    "publisher": "The FEBS Journal (Wiley)",
+    "year": 2023,
+    "volume": "290(3):878-891",
+    "doi": "10.1111/febs.16330",
+    "pmid": "34923749",
+    "type": "journal_article",
+    "verification": "Citation verified on PubMed / FEBS Press 2026-11-08: review of the iBRB (retinal capillary endothelial tight junctions) and oBRB (RPE tight junctions), the supporting role of pericytes, astrocytes and Mueller glia of the retinal neurovascular unit, and the two barriers maintaining the regulated retinal microenvironment. Added in R2 (2026-11-08) as the direct primary source for inner BRB structure requested in the medical review.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34923749",
+    "access": "abstract_and_publisher_site"
+  },
+  {
+    "reference_id": "eyewiki_cotton_wool_spots",
+    "title": "Cotton Wool Spots",
+    "authors": [
+      "Rana Ajlan"
+    ],
+    "publisher": "EyeWiki (American Academy of Ophthalmology)",
+    "year": 2026,
+    "type": "encyclopedia_article",
+    "verification": "Article page and citation list read 2026-11-08: cotton-wool spots are believed to occur secondary to ischaemia from retinal arteriole obstruction and are thought to represent nerve fibre layer infarct and pre-capillary arteriolar occlusion; the page cites McLeod 2005 (Br J Ophthalmol 89:229-237): CWS comprise localized accumulations of axoplasmic debris within adjacent bundles of unmyelinated ganglion cell axons. Added in R2 (2026-11-08) to correct the cotton-wool spot / capillary-free-zone conflation flagged in the medical review.",
+    "url": "https://eyewiki.org/Cotton_Wool_Spots",
+    "access": "free_full_text"
+  },
+  {
+    "reference_id": "aao_rvo_ppp_2025",
+    "title": "Retinal Vein Occlusions Preferred Practice Pattern(R)",
+    "authors": [
+      "Jaclyn L Kovach",
+      "et al. (American Academy of Ophthalmology Preferred Practice Pattern Retina Panel)"
+    ],
+    "publisher": "Ophthalmology (American Academy of Ophthalmology)",
+    "year": 2025,
+    "volume": "132(4):P303-P343",
+    "doi": "10.1016/j.ophtha.2024.12.025",
+    "pmid": "39918523",
+    "type": "clinical_practice_guideline",
+    "verification": "Citation verified on PubMed / aaojournal 2026-11-08: AAO Preferred Practice Pattern for retinal vein occlusions; branch retinal vein occlusions have a visible arteriovenous crossing where the occlusion occurs (artery and vein share a common sheath at the crossing), supporting the R2 correction that separates BRVO (AV crossings) from BRAO (emboli at arterial bifurcations).",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39918523",
+    "access": "abstract_and_publisher_site"
+  },
+  {
+    "reference_id": "campbell_2017_detailed_vascular",
+    "title": "Detailed Vascular Anatomy of the Human Retina by Projection-Resolved Optical Coherence Tomography Angiography",
+    "authors": [
+      "John P Campbell",
+      "Mengxi Zhang",
+      "Tina S Hwang",
+      "Steven T Bailey",
+      "David J Wilson",
+      "Yali Jia",
+      "David Huang"
+    ],
+    "publisher": "Scientific Reports (Nature)",
+    "year": 2017,
+    "volume": "7:42201",
+    "doi": "10.1038/srep42201",
+    "pmid": "28186181",
+    "pmcid": "PMC5301488",
+    "type": "journal_article",
+    "verification": "Full citation and abstract read on Europe PMC 2026-11-08 (cited by >1000): PR-OCTA removes projection artefact and reveals 2 to 4 distinct retinal vascular plexuses depending on location relative to the optic disc and fovea, with interconnecting vascular layers consistent with histology. Added in R2 (2026-11-08) as the direct source for plexus anatomy, interconnecting vessels and segmentation variability requested in the medical review.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28186181",
+    "access": "free_full_text"
   }
 ]

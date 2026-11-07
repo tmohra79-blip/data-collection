@@ -1,0 +1,166 @@
+{
+  "entity_id": "blood_retinal_barrier",
+  "component_ids": ["comp_retina", "comp_retinal_vessels"],
+  "category": "anatomy",
+  "nomenclature": {
+    "en": "Blood-Retinal Barrier (BRB)",
+    "ar": "الحاجز الدموي الشبكي",
+    "aliases": [
+      "BRB",
+      "Blood-retina barrier",
+      "Blood-retinal barrier system",
+      "حاجز الدم والشبكية"
+    ]
+  },
+  "content": {
+    "definition": "The blood-retinal barrier (BRB) is the physiological barrier that regulates the passage of ions, proteins, water and solutes between the retinal vasculature and the neural retina. It consists of two spatially separate components that act in concert: the OUTER BRB, formed by the tight junctions (zonulae occludentes) between retinal pigment epithelium (RPE) cells, and the INNER BRB, formed by the tight junctions between the endothelial cells of the retinal capillaries. For the outer component Wolff states verbatim that at the terminal bars of the RPE the 'zonulae occludentes form the external component of the blood-retinal barrier' (p.463). Wolff does not explicitly identify the inner barrier on the pages read; the iBRB concept — tight junctions between retinal capillary endothelial cells — is documented in the peer-reviewed literature (supplementary: Cunha-Vaz 2011; O'Leary and Campbell 2023). The retinal capillary endothelium is continuous and non-fenestrated, in contrast to the fenestrated choriocapillaris. The pericytes, astrocytes and Muller cells associated with the retinal vessels are supporting and regulatory components of the retinal neurovascular unit: they maintain and modulate barrier properties but do NOT themselves form the barrier-forming junctions.",
+    "location": "The outer BRB is located at the retinal pigment epithelium, which forms the outermost layer of the retina (Wolff ch.14, p.463). The inner BRB is located at the endothelium of the retinal capillaries distributed across the inner two-thirds of the retinal thickness (the four capillary plexuses: SVP, ICP, DCP, RPCP, see retinal_capillaries card). The two barriers are physically separated by the retinal tissue interposed between the RPE and the inner retinal vessels; together, the inner and outer BRB maintain the regulated retinal microenvironment (supplementary: O'Leary and Campbell 2023).",
+    "layers": [
+      "Barrier-forming component - OUTER BRB: located at the retinal pigment epithelium; formed by tight junctions (zonulae occludentes) between adjacent RPE cells, which close the paracellular space at the apical-lateral border of the epithelium. Wolff p.463 describes the junctional complex of the RPE as consisting of 'a gap junction (gj), zonula occludens (zo), and zonula adherens (za)', and states that the zonulae occludentes 'form the external component of the blood-retinal barrier'.",
+      "Barrier-forming component - INNER BRB: located at the endothelium of the retinal capillaries; formed by tight junctions between adjacent endothelial cells of the continuous, non-fenestrated retinal capillaries (supplementary: Cunha-Vaz 2011; O'Leary and Campbell 2023). Note on inference: Wolff documents a continuous endothelium for the central retinal artery (p.525) and central retinal vein (p.527), which is anatomical context consistent with the capillary phenotype but is not itself direct evidence for the capillary tight junctions; the direct evidence is from the supplementary literature.",
+      "Supporting cellular component - pericytes: pericytes wrap the retinal capillary endothelium outside the basement membrane and maintain inner BRB integrity by signalling that preserves the tight junction phenotype of the endothelium (supplementary: Cunha-Vaz 2011; O'Leary and Campbell 2023). They belong to the retinal neurovascular unit; they are NOT barrier-forming cells and do not constitute the tight junctions of the barrier.",
+      "Supporting cellular component - astrocytes and Muller cells: glial end-feet contact the abluminal surface of the retinal vessels; Wolff documents astrocyte footplates that 'make contact with the abluminal aspect of blood vessels through gap junctions on their pedicles or footplates' (p.487). Within the retinal neurovascular unit these glial cells contribute to the induction and maintenance of barrier properties, but they do not form the endothelial or RPE tight junctions of either barrier."
+    ],
+    "blood_supply": null,
+    "venous_drainage": null,
+    "innervation": null,
+    "histology_summary": "The morphological substrate of both barriers is the tight junction (zonula occludens). (1) Outer BRB: at the lateral apical margin of adjacent RPE cells the junctional complex consists of 'a gap junction (gj), zonula occludens (zo), and zonula adherens (za)' (Wolff p.463); nutrients from the choriocapillaris diffuse through the basal lamina up to the terminal bars, where the zonulae occludentes 'form the external component of the blood-retinal barrier' (p.463). (2) Inner BRB: the retinal capillary endothelium is continuous and non-fenestrated, lies on a basement membrane, is joined by tight junctions and is invested by pericytes and glial end-feet (supplementary: Cunha-Vaz 2011; O'Leary and Campbell 2023). (3) Verhoeff's membrane: a light-microscopic structure at the lateral apical margin of the RPE; Wolff defines it verbatim: 'Verhoeff's membrane, as seen by light microscopy, encompasses both the extracellular matrix and the terminal bars' (p.463). It is therefore NOT identical to the junctional complex alone and must not be confused with Bruch's membrane or the RPE basement membrane. (4) The choriocapillaris, by contrast, is fenestrated (60-80 nm fenestrations) and leaky; excluding this leaky choroidal blood from the subretinal space is the role of the RPE tight junctions of the outer BRB.",
+    "clinical_importance": "BRB breakdown underlies the major retinal vascular diseases. (1) Diabetic retinopathy: 'diabetic retinopathy is initiated by an alteration of the inner BRB' (supplementary: Cunha-Vaz 2011); breakdown of the retinal capillary endothelial tight junctions leads to plasma leakage (oedema), and pericyte loss is among the earliest histological changes. (2) Neovascular age-related macular degeneration: 'neovascular AMD is a result of an alteration of the outer BRB' (supplementary: Cunha-Vaz 2011); breakdown of the RPE tight junctions permits choroidal neovascularization to invade the subretinal space. (3) Cherry-red spot in central retinal artery occlusion is NOT a sign of barrier failure: it reflects ischaemic whitening (cloudiness) of the perifoveal inner retina with relative preservation of the foveolar colour, through which the choroidal circulation shines (Wolff p.455 documents the foveola appearing 'deeper red than does the adjacent retina because of the rich choroidal circulation of the choriocapillaris which shines through it'). This sign is documented in the central_retinal_artery entity and should not be attributed causally to inner BRB dysfunction. (4) Verhoeff's membrane marks the light-microscopic site of the outer BRB at the RPE terminal bars plus the intervening extracellular matrix (Wolff p.463)."
+  },
+  "relationships": [
+    {
+      "relation_type": "part_of",
+      "target_id": "retina",
+      "target_name": "Retina"
+    },
+    {
+      "relation_type": "located_at",
+      "target_id": "retinal_pigment_epithelium",
+      "target_name": "Retinal Pigment Epithelium (outer BRB at RPE tight junctions)"
+    },
+    {
+      "relation_type": "located_at",
+      "target_id": "retinal_capillaries",
+      "target_name": "Retinal Capillaries (inner BRB at the capillary endothelial tight junctions)"
+    },
+    {
+      "relation_type": "formed_by",
+      "target_id": "retinal_pigment_epithelium",
+      "target_name": "Retinal Pigment Epithelium (zonulae occludentes of the RPE form the outer BRB)"
+    },
+    {
+      "relation_type": "formed_by",
+      "target_id": "retinal_capillaries",
+      "target_name": "Retinal Capillaries (tight junctions of the retinal capillary endothelium form the inner BRB)"
+    },
+    {
+      "relation_type": "related_to",
+      "target_id": "choriocapillaris",
+      "target_name": "Choriocapillaris (fenestrated, leaky; the outer BRB excludes this leaky blood from the subretinal space)"
+    },
+    {
+      "relation_type": "related_to",
+      "target_id": "central_retinal_artery",
+      "target_name": "Central Retinal Artery (continuous non-fenestrated endothelium documented by Wolff p.525 — anatomical context only; direct evidence for the inner BRB tight junctions is from Cunha-Vaz 2011 and O'Leary and Campbell 2023)"
+    }
+  ],
+  "metadata": {
+    "keywords": [
+      "blood-retinal barrier",
+      "BRB",
+      "inner blood-retinal barrier",
+      "iBRB",
+      "outer blood-retinal barrier",
+      "oBRB",
+      "tight junction",
+      "zonula occludens",
+      "zonulae occludentes",
+      "terminal bars",
+      "Verhoeff's membrane",
+      "pericyte",
+      "neurovascular unit",
+      "continuous non-fenestrated endothelium",
+      "retinal pigment epithelium tight junctions",
+      "retinal capillary endothelium tight junctions",
+      "barrier-forming",
+      "supporting cells",
+      "diabetic retinopathy",
+      "neovascular AMD",
+      "BRB breakdown",
+      "glial-vascular unit",
+      "الحاجز الدموي الشبكي",
+      "حاجز الدم والشبكية",
+      "الوصلات المحكمة"
+    ],
+    "references": [
+      "wolff_anatomy",
+      "cunha_vaz_2011_brb",
+      "oleary_campbell_2023_brb"
+    ],
+    "last_updated": "2026-11-08",
+    "version": "1.1.0",
+    "priority": 3
+  },
+  "references": [
+    {
+      "content_field": "definition",
+      "status": "documented",
+      "sources": [
+        {"reference_id": "wolff_anatomy", "chapter": "14", "pages": [463]},
+        {"reference_id": "cunha_vaz_2011_brb", "section": "BRB = inner BRB (retinal capillary endothelium) + outer BRB (RPE)"},
+        {"reference_id": "oleary_campbell_2023_brb", "section": "Blood-retina barrier: iBRB (capillary endothelium) and oBRB (RPE); neurovascular unit support"}
+      ]
+    },
+    {
+      "content_field": "location",
+      "status": "documented",
+      "sources": [
+        {"reference_id": "wolff_anatomy", "chapter": "14", "pages": [463]},
+        {"reference_id": "wolff_anatomy", "chapter": "14", "pages": [476, 480, 484, 485]},
+        {"reference_id": "cunha_vaz_2011_brb", "section": "Two anatomical locations: RPE and retinal capillary endothelium"},
+        {"reference_id": "oleary_campbell_2023_brb", "section": "Inner and outer barriers maintain the regulated retinal microenvironment"}
+      ]
+    },
+    {
+      "content_field": "layers",
+      "status": "documented",
+      "sources": [
+        {"reference_id": "wolff_anatomy", "chapter": "14", "pages": [463, 487]},
+        {"reference_id": "cunha_vaz_2011_brb", "section": "Inner and outer BRB; pericyte and glial contributions as regulators of barrier integrity"},
+        {"reference_id": "oleary_campbell_2023_brb", "section": "Barrier-forming junctions versus supporting cells of the neurovascular unit"}
+      ]
+    },
+    {
+      "content_field": "blood_supply",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "venous_drainage",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "innervation",
+      "status": "not_applicable",
+      "sources": []
+    },
+    {
+      "content_field": "histology_summary",
+      "status": "documented",
+      "sources": [
+        {"reference_id": "wolff_anatomy", "chapter": "14", "pages": [463]},
+        {"reference_id": "cunha_vaz_2011_brb", "section": "Inner BRB formed by tight junctions between retinal capillary endothelial cells; outer BRB by tight junctions between RPE cells"},
+        {"reference_id": "oleary_campbell_2023_brb", "section": "Retinal capillary endothelial tight junctions and pericyte investment"}
+      ]
+    },
+    {
+      "content_field": "clinical_importance",
+      "status": "documented",
+      "sources": [
+        {"reference_id": "wolff_anatomy", "chapter": "14", "pages": [455, 463]},
+        {"reference_id": "cunha_vaz_2011_brb", "section": "Diabetic retinopathy = inner BRB alteration; neovascular AMD = outer BRB alteration"}
+      ]
+    }
+  ]
+}
