@@ -92,7 +92,9 @@ class ComponentRegistryTests(unittest.TestCase):
     def test_registry_preserves_all_rows_and_repeated_ids(self):
         registry = validate.load(REGISTRY_PATH)
         rows = registry["rows"]
-        self.assertEqual(len(rows), 37)
+        # 37 original docx rows + 7 model-only rows appended 2026-11-06
+        # (Good_Eye.blend audit: eye root + 6 cornea annotation objects)
+        self.assertEqual(len(rows), 44)
         self.assertEqual(sum(row["component_id"] == "comp_cornea" for row in rows), 2)
         self.assertEqual(rows[0]["unity_name"], "cornea_inside")
         self.assertEqual(rows[0]["medical_name_en"], "Corneal Endothelium")
@@ -102,6 +104,12 @@ class ComponentRegistryTests(unittest.TestCase):
         self.assertEqual(rows[2]["has_3d_model"], "No (Empty Parent)")
         self.assertEqual(rows[2]["unity_name"], "eye_muscles")
         self.assertEqual(rows[36]["component_id"], "comp_vitreous")
+        # appended model-only rows (Good_Eye.blend audit)
+        self.assertEqual(rows[37]["unity_name"], "eye")
+        self.assertEqual(rows[37]["reference_category"], "model_only")
+        self.assertEqual(rows[43]["unity_name"], "Leader_Endothelium")
+        self.assertEqual(sum(row["reference_category"] == "model_only" for row in rows), 7)
+        self.assertEqual(registry["model_file_findings"]["audit_date"], "2026-11-06")
         self.assertIn("comp_cornea", self.component_ids)
         self.assertNotIn("—", self.component_ids)
 
